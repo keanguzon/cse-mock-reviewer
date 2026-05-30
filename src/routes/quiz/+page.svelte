@@ -134,6 +134,15 @@
     border-top: 1px solid var(--cse-border);
   }
 
+  @media (max-width: 480px) {
+    .quiz-actions {
+      flex-direction: column-reverse;
+      gap: 1rem;
+      align-items: stretch;
+      text-align: center;
+    }
+  }
+
   .status-text {
     font-size: 0.95rem;
     color: var(--cse-text-muted);
