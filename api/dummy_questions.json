@@ -1,0 +1,1432 @@
+[
+    {
+        "id": "1",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word that is most nearly the same in meaning as the underlined word: The manager gave a CURSORY review of the proposal before the meeting.",
+        "choices": [
+            "Thorough",
+            "Hasty",
+            "Critical",
+            "Detailed"
+        ],
+        "correct_answer": "Hasty",
+        "explanation": "'Cursory' means done rapidly without attention to detail. 'Hasty' is the closest synonym, implying a quick and superficial action."
+    },
+    {
+        "id": "2",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to BENEVOLENT.",
+        "choices": [
+            "Generous",
+            "Malevolent",
+            "Charitable",
+            "Amiable"
+        ],
+        "correct_answer": "Malevolent",
+        "explanation": "'Benevolent' means well-meaning and kindly. 'Malevolent' means having or showing a wish to do evil to others — a direct antonym."
+    },
+    {
+        "id": "3",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word UBIQUITOUS most nearly means:",
+        "choices": [
+            "Rare",
+            "Unique",
+            "Present everywhere",
+            "Invisible"
+        ],
+        "correct_answer": "Present everywhere",
+        "explanation": "'Ubiquitous' means found everywhere or very common. It comes from the Latin 'ubique,' meaning 'everywhere.'"
+    },
+    {
+        "id": "4",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to PRAGMATIC.",
+        "choices": [
+            "Idealistic",
+            "Practical",
+            "Dogmatic",
+            "Theoretical"
+        ],
+        "correct_answer": "Practical",
+        "explanation": "'Pragmatic' means dealing with things sensibly and realistically, making 'practical' the closest synonym."
+    },
+    {
+        "id": "5",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to VERBOSE.",
+        "choices": [
+            "Wordy",
+            "Concise",
+            "Lengthy",
+            "Elaborate"
+        ],
+        "correct_answer": "Concise",
+        "explanation": "'Verbose' means using more words than needed. 'Concise' means giving a lot of information clearly in few words — the direct antonym."
+    },
+    {
+        "id": "6",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word METICULOUS most nearly means:",
+        "choices": [
+            "Careless",
+            "Showing great attention to detail",
+            "Ordinary",
+            "Spontaneous"
+        ],
+        "correct_answer": "Showing great attention to detail",
+        "explanation": "'Meticulous' describes someone who is very careful and precise, paying close attention to every detail."
+    },
+    {
+        "id": "7",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to CANDID.",
+        "choices": [
+            "Secretive",
+            "Frank",
+            "Hostile",
+            "Timid"
+        ],
+        "correct_answer": "Frank",
+        "explanation": "'Candid' means truthful and straightforward. 'Frank' carries the same meaning of open honesty in expression."
+    },
+    {
+        "id": "8",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to LETHARGIC.",
+        "choices": [
+            "Sluggish",
+            "Drowsy",
+            "Energetic",
+            "Passive"
+        ],
+        "correct_answer": "Energetic",
+        "explanation": "'Lethargic' means affected by lethargy — a lack of energy and enthusiasm. 'Energetic' is its opposite."
+    },
+    {
+        "id": "9",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word AMBIGUOUS most nearly means:",
+        "choices": [
+            "Clear",
+            "Definite",
+            "Open to more than one interpretation",
+            "Simple"
+        ],
+        "correct_answer": "Open to more than one interpretation",
+        "explanation": "'Ambiguous' means having a double meaning or being unclear, allowing for multiple interpretations."
+    },
+    {
+        "id": "10",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to DILIGENT.",
+        "choices": [
+            "Lazy",
+            "Negligent",
+            "Industrious",
+            "Indifferent"
+        ],
+        "correct_answer": "Industrious",
+        "explanation": "'Diligent' means having or showing care and effort in one's work. 'Industrious' shares this meaning of being hardworking."
+    },
+    {
+        "id": "11",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that is grammatically correct.",
+        "choices": [
+            "Each of the employees are required to submit their reports.",
+            "Each of the employees is required to submit his or her report.",
+            "Each of the employees are required to submit his or her report.",
+            "Each of the employees is required to submit their reports."
+        ],
+        "correct_answer": "Each of the employees is required to submit his or her report.",
+        "explanation": "'Each' is a singular indefinite pronoun and requires the singular verb 'is.' The pronoun reference should also be singular: 'his or her report.'"
+    },
+    {
+        "id": "12",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with the correct subject-verb agreement.",
+        "choices": [
+            "The committee have reached a unanimous decision.",
+            "The committee has reached a unanimous decision.",
+            "The committee have reached an unanimous decision.",
+            "The committee has reached an unanimous decision."
+        ],
+        "correct_answer": "The committee has reached a unanimous decision.",
+        "explanation": "'Committee' is a collective noun treated as singular when acting as a unit, requiring 'has.' Also, 'unanimous' begins with a consonant sound (/juË/), so 'a' is correct, not 'an.'"
+    },
+    {
+        "id": "13",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence correctly uses the past perfect tense?",
+        "choices": [
+            "She already finished the report when the supervisor arrived.",
+            "She had already finished the report when the supervisor arrived.",
+            "She has already finished the report when the supervisor arrived.",
+            "She already had finish the report when the supervisor arrived."
+        ],
+        "correct_answer": "She had already finished the report when the supervisor arrived.",
+        "explanation": "The past perfect ('had finished') correctly indicates an action completed before another past event ('arrived')."
+    },
+    {
+        "id": "14",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with the correct pronoun usage.",
+        "choices": [
+            "Between you and I, the project needs more funding.",
+            "Between you and me, the project needs more funding.",
+            "Between you and myself, the project needs more funding.",
+            "Between I and you, the project needs more funding."
+        ],
+        "correct_answer": "Between you and me, the project needs more funding.",
+        "explanation": "'Between' is a preposition, and prepositions take object pronouns. 'Me' is the object form of 'I.'"
+    },
+    {
+        "id": "15",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence is free of dangling modifiers?",
+        "choices": [
+            "Walking through the park, the flowers were beautiful.",
+            "Walking through the park, she noticed the beautiful flowers.",
+            "Walking through the park, the beauty of the flowers was noticed.",
+            "Walking through the park, it was noticed that the flowers were beautiful."
+        ],
+        "correct_answer": "Walking through the park, she noticed the beautiful flowers.",
+        "explanation": "The participial phrase 'Walking through the park' must logically modify the subject. Only in this sentence does a person ('she') serve as the subject."
+    },
+    {
+        "id": "16",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with the correct use of the comparative form.",
+        "choices": [
+            "This procedure is more simpler than the previous one.",
+            "This procedure is more simple than the previous one.",
+            "This procedure is simpler than the previous one.",
+            "This procedure is most simpler than the previous one."
+        ],
+        "correct_answer": "This procedure is simpler than the previous one.",
+        "explanation": "One- and two-syllable adjectives like 'simple' form the comparative with '-er,' not 'more.' 'More simpler' is a double comparative and is incorrect."
+    },
+    {
+        "id": "17",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that correctly uses parallel structure.",
+        "choices": [
+            "The training program focuses on writing, to speak effectively, and leadership.",
+            "The training program focuses on writing, speaking effectively, and leading.",
+            "The training program focuses on writing, speaking effectively, and to be a leader.",
+            "The training program focuses on to write, speaking effectively, and leadership."
+        ],
+        "correct_answer": "The training program focuses on writing, speaking effectively, and leading.",
+        "explanation": "Parallel structure requires that items in a series share the same grammatical form. All three items should be gerunds: 'writing,' 'speaking,' and 'leading.'"
+    },
+    {
+        "id": "18",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which of the following sentences uses the subjunctive mood correctly?",
+        "choices": [
+            "The director requested that the employee submits the form today.",
+            "The director requested that the employee submit the form today.",
+            "The director requested that the employee submitted the form today.",
+            "The director requested that the employee will submit the form today."
+        ],
+        "correct_answer": "The director requested that the employee submit the form today.",
+        "explanation": "After verbs of request, demand, or recommendation, the subjunctive mood uses the base form of the verb ('submit') without conjugation."
+    },
+    {
+        "id": "19",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the sentence with a misplaced modifier.",
+        "choices": [
+            "The officer carefully reviewed the documents on the desk.",
+            "The officer on the desk carefully reviewed the documents.",
+            "On the desk, the documents were carefully reviewed by the officer.",
+            "The documents on the desk were carefully reviewed by the officer."
+        ],
+        "correct_answer": "The officer on the desk carefully reviewed the documents.",
+        "explanation": "'On the desk' is misplaced because it modifies 'officer' instead of 'documents,' absurdly suggesting the officer is sitting on the desk."
+    },
+    {
+        "id": "20",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with the correct use of the semicolon.",
+        "choices": [
+            "The meeting was postponed; because the chairperson was absent.",
+            "The meeting was postponed; the chairperson was absent.",
+            "The meeting was postponed, the chairperson was absent.",
+            "The meeting; was postponed the chairperson was absent."
+        ],
+        "correct_answer": "The meeting was postponed; the chairperson was absent.",
+        "explanation": "A semicolon joins two closely related independent clauses. Adding 'because' after a semicolon is incorrect since it creates a dependent clause."
+    },
+    {
+        "id": "21",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word to complete the sentence: The new policy will ______ all departments starting next month.",
+        "choices": [
+            "affect",
+            "effect",
+            "infect",
+            "deflect"
+        ],
+        "correct_answer": "affect",
+        "explanation": "'Affect' is a verb meaning to influence or have an impact on. 'Effect' is typically a noun meaning result. Here, a verb is needed."
+    },
+    {
+        "id": "22",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: The report is ______ to the one submitted last quarter.",
+        "choices": [
+            "complimentary",
+            "complementary",
+            "supplementary",
+            "elementary"
+        ],
+        "correct_answer": "complementary",
+        "explanation": "'Complementary' means combining in such a way as to enhance or complete. 'Complimentary' means expressing praise or given free of charge."
+    },
+    {
+        "id": "23",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct sentence.",
+        "choices": [
+            "The data supports the researcher's conclusion.",
+            "The data support the researcher's conclusion.",
+            "The datas support the researcher's conclusion.",
+            "The datas supports the researcher's conclusion."
+        ],
+        "correct_answer": "The data support the researcher's conclusion.",
+        "explanation": "In formal usage, 'data' is the plural of 'datum' and takes a plural verb ('support'). 'Datas' is not a valid English word."
+    },
+    {
+        "id": "24",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: Neither the manager ______ the staff members were informed of the changes.",
+        "choices": [
+            "or",
+            "nor",
+            "and",
+            "but"
+        ],
+        "correct_answer": "nor",
+        "explanation": "'Neither' is always paired with 'nor' to form the correlative conjunction 'neither...nor.' 'Neither...or' is grammatically incorrect."
+    },
+    {
+        "id": "25",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: She is ______ of the two candidates for the promotion.",
+        "choices": [
+            "the most qualified",
+            "the more qualified",
+            "the qualifier",
+            "more qualifier"
+        ],
+        "correct_answer": "the more qualified",
+        "explanation": "When comparing two items, the comparative form ('more qualified') is used. The superlative ('most qualified') is reserved for three or more."
+    },
+    {
+        "id": "26",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": [
+            "Irregardless of the outcome, the project must continue.",
+            "Regardless of the outcome, the project must continue.",
+            "Regard of the outcome, the project must continue.",
+            "Regardlessly of the outcome, the project must continue."
+        ],
+        "correct_answer": "Regardless of the outcome, the project must continue.",
+        "explanation": "'Irregardless' is a nonstandard word. The correct form is 'regardless,' meaning 'without regard to.'"
+    },
+    {
+        "id": "27",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word to complete the sentence: The organization will ______ a new policy on workplace conduct.",
+        "choices": [
+            "adapt",
+            "adopt",
+            "adept",
+            "advent"
+        ],
+        "correct_answer": "adopt",
+        "explanation": "'Adopt' means to officially accept or put into effect. 'Adapt' means to adjust to new conditions. 'Adept' means very skilled."
+    },
+    {
+        "id": "28",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which sentence uses 'lay' and 'lie' correctly?",
+        "choices": [
+            "Please lay down on the couch and rest.",
+            "Please lie down on the couch and rest.",
+            "She lied the book on the table yesterday.",
+            "The documents have been laying on the desk all morning."
+        ],
+        "correct_answer": "Please lie down on the couch and rest.",
+        "explanation": "'Lie' means to recline (intransitive — no direct object). 'Lay' means to put something down (transitive — requires an object). One lies down but lays a book down."
+    },
+    {
+        "id": "29",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The witness gave a ______ account of the events.",
+        "choices": [
+            "credible",
+            "credulous",
+            "creditable",
+            "incredible"
+        ],
+        "correct_answer": "credible",
+        "explanation": "'Credible' means believable or trustworthy. 'Credulous' means too willing to believe things. 'Creditable' means deserving acknowledgment."
+    },
+    {
+        "id": "30",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": [
+            "The amount of applicants this year exceeded expectations.",
+            "The number of applicants this year exceeded expectations.",
+            "A amount of applicants this year exceeded expectations.",
+            "A number of applicants this year has exceeded expectations."
+        ],
+        "correct_answer": "The number of applicants this year exceeded expectations.",
+        "explanation": "'Number' is used with countable nouns (applicants). 'Amount' is used with uncountable nouns (water, money). Since applicants can be counted, 'number' is correct."
+    },
+    {
+        "id": "31",
+        "category": "Verbal Ability – Paragraph Organization",
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) In conclusion, a well-structured filing system saves time and reduces errors.\n(2) First, categorize all documents by department and date.\n(3) Maintaining an organized filing system is essential in any government office.\n(4) Then, assign a unique reference number to each folder for easy retrieval.",
+        "choices": [
+            "3-2-4-1",
+            "2-4-1-3",
+            "1-3-2-4",
+            "3-4-2-1"
+        ],
+        "correct_answer": "3-2-4-1",
+        "explanation": "Sentence 3 introduces the topic. Sentence 2 provides the first step ('First'). Sentence 4 gives the next step ('Then'). Sentence 1 concludes ('In conclusion')."
+    },
+    {
+        "id": "32",
+        "category": "Verbal Ability – Paragraph Organization",
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) However, digital records now offer faster search and retrieval capabilities.\n(2) For decades, government offices relied on paper-based records management.\n(3) As a result, many agencies are transitioning to electronic document systems.\n(4) These paper systems were often slow and prone to misplacement of files.",
+        "choices": [
+            "2-4-1-3",
+            "1-2-3-4",
+            "4-2-1-3",
+            "2-1-4-3"
+        ],
+        "correct_answer": "2-4-1-3",
+        "explanation": "Sentence 2 establishes the historical context. Sentence 4 describes the problems with that system. Sentence 1 introduces the contrast ('However'). Sentence 3 states the result ('As a result')."
+    },
+    {
+        "id": "33",
+        "category": "Verbal Ability – Paragraph Organization",
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) This training equips them with skills needed to serve the public effectively.\n(2) Upon passing, new hires undergo an orientation program.\n(3) The Civil Service Examination is the gateway to government employment.\n(4) The exam tests applicants on verbal, numerical, and analytical abilities.",
+        "choices": [
+            "3-4-2-1",
+            "2-1-3-4",
+            "4-3-1-2",
+            "1-2-3-4"
+        ],
+        "correct_answer": "3-4-2-1",
+        "explanation": "Sentence 3 introduces the topic (the CSE). Sentence 4 elaborates on what the exam tests. Sentence 2 follows chronologically ('Upon passing'). Sentence 1 concludes with the result of training."
+    },
+    {
+        "id": "34",
+        "category": "Verbal Ability – Paragraph Organization",
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Finally, proofread the entire document before submitting it.\n(2) Begin by outlining the main points you wish to address.\n(3) Writing an effective memorandum requires careful planning.\n(4) Next, draft the body using clear and concise language.",
+        "choices": [
+            "3-2-4-1",
+            "2-4-1-3",
+            "1-3-2-4",
+            "3-4-2-1"
+        ],
+        "correct_answer": "3-2-4-1",
+        "explanation": "Sentence 3 introduces the topic. Sentence 2 provides the first step ('Begin by'). Sentence 4 gives the next step ('Next'). Sentence 1 concludes with the final step ('Finally')."
+    },
+    {
+        "id": "35",
+        "category": "Verbal Ability – Paragraph Organization",
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Consequently, the government allocates significant funds for disaster preparedness each year.\n(2) Typhoons, earthquakes, and volcanic eruptions are common in the archipelago.\n(3) The Philippines is one of the most disaster-prone countries in the world.\n(4) These natural hazards cause billions of pesos in damages annually.",
+        "choices": [
+            "3-2-4-1",
+            "2-3-1-4",
+            "1-3-4-2",
+            "4-2-3-1"
+        ],
+        "correct_answer": "3-2-4-1",
+        "explanation": "Sentence 3 introduces the general claim. Sentence 2 provides specific examples. Sentence 4 states the consequence of those hazards. Sentence 1 concludes with the government's response ('Consequently')."
+    },
+    {
+        "id": "36",
+        "category": "Verbal Ability – Paragraph Organization",
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) They must declare their assets, liabilities, and net worth annually.\n(2) Transparency is a cornerstone of good governance.\n(3) This practice helps prevent corruption and promotes public trust.\n(4) Public officials in the Philippines are required to file a Statement of Assets, Liabilities, and Net Worth (SALN).",
+        "choices": [
+            "2-4-1-3",
+            "4-1-3-2",
+            "1-4-2-3",
+            "2-1-4-3"
+        ],
+        "correct_answer": "2-4-1-3",
+        "explanation": "Sentence 2 introduces the broad concept. Sentence 4 narrows to a specific mechanism (SALN). Sentence 1 elaborates on what SALN requires. Sentence 3 concludes with the purpose."
+    },
+    {
+        "id": "37",
+        "category": "Verbal Ability – Paragraph Organization",
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) It provides free legal assistance to indigent clients.\n(2) The Public Attorney's Office (PAO) is a key institution in the Philippine justice system.\n(3) Without PAO, many disadvantaged citizens would have no access to legal representation.\n(4) Its lawyers handle criminal, civil, labor, and administrative cases.",
+        "choices": [
+            "2-1-4-3",
+            "1-4-2-3",
+            "3-2-1-4",
+            "2-4-1-3"
+        ],
+        "correct_answer": "2-1-4-3",
+        "explanation": "Sentence 2 introduces the institution. Sentence 1 states its primary function. Sentence 4 adds detail about scope. Sentence 3 concludes with its broader importance."
+    },
+    {
+        "id": "38",
+        "category": "Verbal Ability – Paragraph Organization",
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Second, set realistic goals and track your progress weekly.\n(2) First, identify your weakest subject areas by taking a diagnostic test.\n(3) Preparing for the Civil Service Exam requires a structured study plan.\n(4) With consistent effort, passing the exam is an achievable goal.",
+        "choices": [
+            "3-2-1-4",
+            "2-1-3-4",
+            "1-2-4-3",
+            "3-1-2-4"
+        ],
+        "correct_answer": "3-2-1-4",
+        "explanation": "Sentence 3 introduces the topic. Sentence 2 gives the first step ('First'). Sentence 1 gives the second step ('Second'). Sentence 4 provides a motivational conclusion."
+    },
+    {
+        "id": "39",
+        "category": "Verbal Ability – Paragraph Organization",
+        "question": "Which sentence does NOT belong in the following paragraph?\n\n(1) The Commission on Audit (COA) is mandated to examine government expenditures. (2) It ensures that public funds are spent according to law. (3) The Supreme Court is the highest judicial body in the Philippines. (4) COA's work is essential for maintaining fiscal accountability in government.",
+        "choices": [
+            "Sentence 1",
+            "Sentence 2",
+            "Sentence 3",
+            "Sentence 4"
+        ],
+        "correct_answer": "Sentence 3",
+        "explanation": "The paragraph discusses COA and fiscal accountability. Sentence 3 introduces the Supreme Court, which is unrelated to the paragraph's topic."
+    },
+    {
+        "id": "40",
+        "category": "Verbal Ability – Paragraph Organization",
+        "question": "Which sentence does NOT belong in the following paragraph?\n\n(1) Regular exercise improves cardiovascular health and reduces stress. (2) Employees who exercise regularly tend to be more productive at work. (3) The annual physical fitness test for government employees was moved to March. (4) Encouraging physical activity in the workplace benefits both employers and employees.",
+        "choices": [
+            "Sentence 1",
+            "Sentence 2",
+            "Sentence 3",
+            "Sentence 4"
+        ],
+        "correct_answer": "Sentence 3",
+        "explanation": "The paragraph discusses the benefits of exercise in the workplace. Sentence 3 introduces a scheduling detail about a fitness test, which breaks the thematic focus."
+    },
+    {
+        "id": "41",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nRepublic Act No. 6713, also known as the Code of Conduct and Ethical Standards for Public Officials and Employees, was enacted to promote a high standard of ethics in public service. The law requires all government workers to act with patriotism, justice, and sincerity. It mandates the disclosure of financial interests and prohibits the solicitation or acceptance of gifts in connection with official duties. Violations can lead to administrative sanctions, including suspension or dismissal from service.\n\nWhat is the primary purpose of Republic Act No. 6713?",
+        "choices": [
+            "To increase the salaries of government employees",
+            "To promote a high standard of ethics in public service",
+            "To establish the Civil Service Commission",
+            "To create a judicial review process for public officials"
+        ],
+        "correct_answer": "To promote a high standard of ethics in public service",
+        "explanation": "The passage explicitly states that RA 6713 'was enacted to promote a high standard of ethics in public service.'"
+    },
+    {
+        "id": "42",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nRepublic Act No. 6713, also known as the Code of Conduct and Ethical Standards for Public Officials and Employees, was enacted to promote a high standard of ethics in public service. The law requires all government workers to act with patriotism, justice, and sincerity. It mandates the disclosure of financial interests and prohibits the solicitation or acceptance of gifts in connection with official duties. Violations can lead to administrative sanctions, including suspension or dismissal from service.\n\nAccording to the passage, which of the following is prohibited under RA 6713?",
+        "choices": [
+            "Participating in community service activities",
+            "Soliciting or accepting gifts connected to official duties",
+            "Filing a leave of absence",
+            "Joining a professional organization"
+        ],
+        "correct_answer": "Soliciting or accepting gifts connected to official duties",
+        "explanation": "The passage states the law 'prohibits the solicitation or acceptance of gifts in connection with official duties.'"
+    },
+    {
+        "id": "43",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nRepublic Act No. 6713, also known as the Code of Conduct and Ethical Standards for Public Officials and Employees, was enacted to promote a high standard of ethics in public service. The law requires all government workers to act with patriotism, justice, and sincerity. It mandates the disclosure of financial interests and prohibits the solicitation or acceptance of gifts in connection with official duties. Violations can lead to administrative sanctions, including suspension or dismissal from service.\n\nWhat can happen to those who violate the provisions of RA 6713?",
+        "choices": [
+            "They receive a promotion",
+            "They are given a warning letter only",
+            "They may face suspension or dismissal from service",
+            "They are transferred to a different department"
+        ],
+        "correct_answer": "They may face suspension or dismissal from service",
+        "explanation": "The passage clearly states that 'violations can lead to administrative sanctions, including suspension or dismissal from service.'"
+    },
+    {
+        "id": "44",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Freedom of Information (FOI) program in the Philippines aims to make government transactions and records accessible to the public. Under Executive Order No. 2, all government offices under the executive branch are mandated to disclose public records, contracts, and transactions. However, certain information classified as exceptions — such as those involving national security, diplomatic negotiations, or personal privacy — may be withheld. The FOI program is seen as a crucial step toward greater government transparency and citizen empowerment.\n\nWhat is the main goal of the FOI program?",
+        "choices": [
+            "To classify all government documents as confidential",
+            "To make government transactions and records accessible to the public",
+            "To limit the rights of citizens to access information",
+            "To privatize government records"
+        ],
+        "correct_answer": "To make government transactions and records accessible to the public",
+        "explanation": "The first sentence states the FOI program 'aims to make government transactions and records accessible to the public.'"
+    },
+    {
+        "id": "45",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Freedom of Information (FOI) program in the Philippines aims to make government transactions and records accessible to the public. Under Executive Order No. 2, all government offices under the executive branch are mandated to disclose public records, contracts, and transactions. However, certain information classified as exceptions — such as those involving national security, diplomatic negotiations, or personal privacy — may be withheld. The FOI program is seen as a crucial step toward greater government transparency and citizen empowerment.\n\nWhich of the following is an exception to the FOI disclosure requirement?",
+        "choices": [
+            "Public infrastructure project contracts",
+            "Employee salary grades",
+            "Information involving national security",
+            "Annual budget allocations"
+        ],
+        "correct_answer": "Information involving national security",
+        "explanation": "The passage lists national security, diplomatic negotiations, and personal privacy as exceptions to the disclosure requirement."
+    },
+    {
+        "id": "46",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Freedom of Information (FOI) program in the Philippines aims to make government transactions and records accessible to the public. Under Executive Order No. 2, all government offices under the executive branch are mandated to disclose public records, contracts, and transactions. However, certain information classified as exceptions — such as those involving national security, diplomatic negotiations, or personal privacy — may be withheld. The FOI program is seen as a crucial step toward greater government transparency and citizen empowerment.\n\nThe word 'mandated' in the passage most nearly means:",
+        "choices": [
+            "Suggested",
+            "Encouraged",
+            "Required",
+            "Permitted"
+        ],
+        "correct_answer": "Required",
+        "explanation": "'Mandated' means officially required or ordered by authority. In this context, government offices are required — not merely encouraged — to disclose information."
+    },
+    {
+        "id": "47",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Local Government Code of 1991, or Republic Act No. 7160, devolved several functions from the national government to local government units (LGUs). These include the delivery of basic services such as health, agriculture, social welfare, and public works. The law aimed to empower LGUs by giving them greater autonomy and fiscal independence. As a result, governors, mayors, and barangay captains now play a more direct role in addressing the needs of their constituents.\n\nWhat was the main purpose of RA 7160?",
+        "choices": [
+            "To centralize power in the national government",
+            "To abolish local government units",
+            "To devolve functions from the national to local governments",
+            "To reduce the budget of local government units"
+        ],
+        "correct_answer": "To devolve functions from the national to local governments",
+        "explanation": "The passage states that RA 7160 'devolved several functions from the national government to local government units.'"
+    },
+    {
+        "id": "48",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Local Government Code of 1991, or Republic Act No. 7160, devolved several functions from the national government to local government units (LGUs). These include the delivery of basic services such as health, agriculture, social welfare, and public works. The law aimed to empower LGUs by giving them greater autonomy and fiscal independence. As a result, governors, mayors, and barangay captains now play a more direct role in addressing the needs of their constituents.\n\nWhich of the following services was devolved to LGUs under the Local Government Code?",
+        "choices": [
+            "National defense",
+            "Foreign affairs",
+            "Health services",
+            "Monetary policy"
+        ],
+        "correct_answer": "Health services",
+        "explanation": "The passage specifies that devolved services include 'health, agriculture, social welfare, and public works.' National defense, foreign affairs, and monetary policy remain with the national government."
+    },
+    {
+        "id": "49",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Local Government Code of 1991, or Republic Act No. 7160, devolved several functions from the national government to local government units (LGUs). These include the delivery of basic services such as health, agriculture, social welfare, and public works. The law aimed to empower LGUs by giving them greater autonomy and fiscal independence. As a result, governors, mayors, and barangay captains now play a more direct role in addressing the needs of their constituents.\n\nThe word 'autonomy' in the passage most nearly means:",
+        "choices": [
+            "Dependency",
+            "Self-governance",
+            "Obedience",
+            "Conformity"
+        ],
+        "correct_answer": "Self-governance",
+        "explanation": "'Autonomy' means the right or condition of self-government. The passage uses it to describe LGUs having greater independence in managing their own affairs."
+    },
+    {
+        "id": "50",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nPublic servants are expected to uphold the principles of accountability, transparency, and integrity. Accountability means being answerable for one's actions and decisions. Transparency requires that government processes be open and visible to the public. Integrity involves adherence to moral and ethical principles in the performance of duty. Together, these three principles form the foundation of good governance.\n\nWhat does accountability mean according to the passage?",
+        "choices": [
+            "Making government processes visible to the public",
+            "Being answerable for one's actions and decisions",
+            "Adhering to moral and ethical principles",
+            "Following the orders of a superior"
+        ],
+        "correct_answer": "Being answerable for one's actions and decisions",
+        "explanation": "The passage directly defines accountability as 'being answerable for one's actions and decisions.'"
+    },
+    {
+        "id": "51",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to ALLEVIATE.",
+        "choices": [
+            "Aggravate",
+            "Intensify",
+            "Relieve",
+            "Complicate"
+        ],
+        "correct_answer": "Relieve",
+        "explanation": "'Alleviate' means to make suffering or a problem less severe. 'Relieve' is the closest synonym."
+    },
+    {
+        "id": "52",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to LUCID.",
+        "choices": [
+            "Clear",
+            "Transparent",
+            "Confusing",
+            "Rational"
+        ],
+        "correct_answer": "Confusing",
+        "explanation": "'Lucid' means expressed clearly or easy to understand. 'Confusing' is its antonym."
+    },
+    {
+        "id": "53",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word to complete the sentence: The employees were asked to ______ with the new safety regulations immediately.",
+        "choices": [
+            "comply",
+            "apply",
+            "imply",
+            "supply"
+        ],
+        "correct_answer": "comply",
+        "explanation": "'Comply with' means to act in accordance with a rule or regulation. 'Apply,' 'imply,' and 'supply' do not fit the context."
+    },
+    {
+        "id": "54",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": [
+            "The memorandum was addressed to whoever is concerned.",
+            "The memorandum was addressed to whomever is concerned.",
+            "The memorandum was addressed to whom is concerned.",
+            "The memorandum was addressed to who is concerned."
+        ],
+        "correct_answer": "The memorandum was addressed to whoever is concerned.",
+        "explanation": "'Whoever' is correct because it serves as the subject of the clause 'whoever is concerned.' The entire clause, not just the pronoun, is the object of the preposition 'to.'"
+    },
+    {
+        "id": "55",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that is grammatically correct.",
+        "choices": [
+            "The report, along with the attachments, were submitted on time.",
+            "The report, along with the attachments, was submitted on time.",
+            "The report, along with the attachments, have been submitted on time.",
+            "The report, along with the attachments, are submitted on time."
+        ],
+        "correct_answer": "The report, along with the attachments, was submitted on time.",
+        "explanation": "The subject is 'report' (singular). The phrase 'along with the attachments' is parenthetical and does not change the number of the subject. Therefore, the singular verb 'was' is correct."
+    },
+    {
+        "id": "56",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence correctly uses the colon?",
+        "choices": [
+            "The office needs the following supplies: folders, pens, and bond paper.",
+            "The office needs: the following supplies folders, pens, and bond paper.",
+            "The office needs the following: supplies folders pens and bond paper.",
+            "The office: needs the following supplies folders, pens, and bond paper."
+        ],
+        "correct_answer": "The office needs the following supplies: folders, pens, and bond paper.",
+        "explanation": "A colon is used after a complete introductory statement to introduce a list. 'The office needs the following supplies' is a complete clause, making the colon placement correct."
+    },
+    {
+        "id": "57",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The new evidence was ______ to the case and could not be ignored.",
+        "choices": [
+            "imminent",
+            "eminent",
+            "pertinent",
+            "permanent"
+        ],
+        "correct_answer": "pertinent",
+        "explanation": "'Pertinent' means relevant or applicable to a particular matter. 'Imminent' means about to happen. 'Eminent' means famous or distinguished."
+    },
+    {
+        "id": "58",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word TENACIOUS most nearly means:",
+        "choices": [
+            "Weak",
+            "Timid",
+            "Persistent",
+            "Flexible"
+        ],
+        "correct_answer": "Persistent",
+        "explanation": "'Tenacious' means holding firmly to something — not readily letting go. 'Persistent' captures this meaning of determined continuation."
+    },
+    {
+        "id": "59",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the correct sentence.",
+        "choices": [
+            "If I was the department head, I would approve the request.",
+            "If I were the department head, I would approve the request.",
+            "If I am the department head, I would approve the request.",
+            "If I be the department head, I would approve the request."
+        ],
+        "correct_answer": "If I were the department head, I would approve the request.",
+        "explanation": "This is a hypothetical (contrary-to-fact) conditional, which requires the subjunctive mood. In the subjunctive, 'were' is used for all persons, including 'I.'"
+    },
+    {
+        "id": "60",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Philippine Civil Service Commission (CSC) is the central human resource institution of the Philippine government. It is tasked with establishing a career service that ensures merit and fitness as the primary considerations in the recruitment, appointment, and promotion of government employees. The CSC administers the Career Service Examination, both at the professional and sub-professional levels, as the primary means of entry into the government workforce. Through its mandate, the CSC aims to build a competent, honest, and accountable bureaucracy.\n\nWhich of the following best describes the primary basis for government employment decisions according to the CSC?",
+        "choices": [
+            "Political affiliation and party loyalty",
+            "Seniority and years of service",
+            "Merit and fitness",
+            "Personal connections and recommendations"
+        ],
+        "correct_answer": "Merit and fitness",
+        "explanation": "The passage explicitly states that the CSC ensures 'merit and fitness as the primary considerations in the recruitment, appointment, and promotion of government employees.'"
+    },
+    {
+        "id": "61",
+        "category": "Analytical Reasoning",
+        "question": "Select the word that completes the analogy:\n\nLIONIZE : ADMIRE :: VILIFY : ________",
+        "choices": [
+            "Praise",
+            "Defame",
+            "Exalt",
+            "Forgive"
+        ],
+        "correct_answer": "Defame",
+        "explanation": "To lionize is to treat someone as a celebrity or admire them greatly; therefore, 'lionize' and 'admire' share a synonymous relationship. To vilify is to speak or write about someone in an abusively disparaging manner, which is synonymous with defaming them. Thus, 'defame' is the correct answer."
+    },
+    {
+        "id": "62",
+        "category": "Analytical Reasoning",
+        "question": "Select the word that completes the analogy:\n\nEPHEMERAL : PERMANENT :: NOVICE : ________",
+        "choices": [
+            "Beginner",
+            "Amateur",
+            "Veteran",
+            "Disciple"
+        ],
+        "correct_answer": "Veteran",
+        "explanation": "'Ephemeral' (short-lived or transient) is the direct antonym of 'permanent'. Following the same logic, a 'novice' (a person new and inexperienced in a job or situation) is the direct antonym of a 'veteran' (a person who has had long experience in a particular field). Therefore, 'veteran' is the correct answer."
+    },
+    {
+        "id": "63",
+        "category": "Analytical Reasoning",
+        "question": "Select the word that completes the analogy:\n\nALTRUISM : SELFLESSNESS :: EGOTISM : ________",
+        "choices": [
+            "Generosity",
+            "Self-importance",
+            "Humility",
+            "Benevolence"
+        ],
+        "correct_answer": "Self-importance",
+        "explanation": "'Altruism' is the belief in or practice of disinterested and selfless concern for the well-being of others, which is synonymous with 'selflessness'. 'Egotism' is the practice of talking and thinking about oneself excessively because of an undue sense of self-importance. Thus, the correct synonym is 'self-importance'."
+    },
+    {
+        "id": "64",
+        "category": "Analytical Reasoning",
+        "question": "Select the word that completes the analogy:\n\nEXCULPATE : BLAME :: ACQUIT : ________",
+        "choices": [
+            "Pardon",
+            "Exonerate",
+            "Convict",
+            "Sentence"
+        ],
+        "correct_answer": "Convict",
+        "explanation": "'Exculpate' means to show or declare that someone is not guilty of wrongdoing, which is the direct opposite of 'blame'. Similarly, to 'acquit' is to free someone from a criminal charge by a verdict of not guilty, which is the direct opposite of 'convict' (to declare someone guilty of a criminal offense). Therefore, 'convict' is the correct answer."
+    },
+    {
+        "id": "65",
+        "category": "Analytical Reasoning",
+        "question": "Select the word that completes the analogy:\n\nOSTRACISM : EXCLUSION :: AUDACITY : ________",
+        "choices": [
+            "Fear",
+            "Politeness",
+            "Boldness",
+            "Hesitation"
+        ],
+        "correct_answer": "Boldness",
+        "explanation": "'Ostracism' is the exclusion of someone from a society or group; thus, they share a synonymous relationship. 'Audacity' refers to a willingness to take bold risks or rude/bold behavior, which is synonymous with 'boldness'. Thus, 'boldness' is the correct answer."
+    },
+    {
+        "id": "66",
+        "category": "Analytical Reasoning",
+        "question": "Select the word that completes the analogy:\n\nSOPORIFIC : SLEEP :: ANESTHETIC : ________",
+        "choices": [
+            "Pain",
+            "Numbness",
+            "Awareness",
+            "Stimulation"
+        ],
+        "correct_answer": "Numbness",
+        "explanation": "A 'soporific' is a drug or agent that induces sleep. An 'anesthetic' is a substance that induces a temporary loss of sensation or awareness, which is synonymous with inducing 'numbness'. Therefore, 'numbness' is the correct answer."
+    },
+    {
+        "id": "67",
+        "category": "Analytical Reasoning",
+        "question": "Select the word that completes the analogy:\n\nCACOPHONY : HARMONY :: TURBULENCE : ________",
+        "choices": [
+            "Chaos",
+            "Tranquility",
+            "Commotion",
+            "Disturbance"
+        ],
+        "correct_answer": "Tranquility",
+        "explanation": "'Cacophony' (a harsh, discordant mixture of sounds) is the direct antonym of 'harmony'. In the same manner, 'turbulence' (a state of conflict, confusion, or wild commotion) is the direct antonym of 'tranquility' (the quality or state of being calm and peaceful). Therefore, 'tranquility' is the correct answer."
+    },
+    {
+        "id": "68",
+        "category": "Analytical Reasoning",
+        "question": "Select the word that completes the analogy:\n\nPLIANT : FLEXIBLE :: OBSTINATE : ________",
+        "choices": [
+            "Yielding",
+            "Stubborn",
+            "Adaptable",
+            "Submissive"
+        ],
+        "correct_answer": "Stubborn",
+        "explanation": "'Pliant' and 'flexible' are synonyms, both describing something that bends easily or is easily influenced. 'Obstinate' means stubbornly refusing to change one's opinion or chosen course of action, which is synonymous with 'stubborn'. Therefore, 'stubborn' is the correct answer."
+    },
+    {
+        "id": "69",
+        "category": "Analytical Reasoning",
+        "question": "Select the word that completes the analogy:\n\nPENURY : WEALTH :: AMITY : ________",
+        "choices": [
+            "Friendship",
+            "Harmony",
+            "Hostility",
+            "Generosity"
+        ],
+        "correct_answer": "Hostility",
+        "explanation": "'Penury' (extreme poverty) is the direct antonym of 'wealth'. Similarly, 'amity' (a state of friendship and peaceful relations) is the direct antonym of 'hostility' (unfriendly or aggressive behavior). Therefore, 'hostility' is the correct answer."
+    },
+    {
+        "id": "70",
+        "category": "Analytical Reasoning",
+        "question": "Select the word that completes the analogy:\n\nSPORADIC : FREQUENT :: TACITURN : ________",
+        "choices": [
+            "Silent",
+            "Reserved",
+            "Loquacious",
+            "Gloomy"
+        ],
+        "correct_answer": "Loquacious",
+        "explanation": "'Sporadic' (occurring at irregular intervals or only in a few places) is the direct antonym of 'frequent'. Similarly, 'taciturn' (reserved or uncommunicative in speech, saying little) is the direct antonym of 'loquacious' (extremely talkative). Therefore, 'loquacious' is the correct answer."
+    },
+    {
+        "id": "71",
+        "category": "Analytical Reasoning",
+        "question": "Select the word that completes the analogy:\n\nSCALPEL : SURGEON :: GAVEL : ________",
+        "choices": [
+            "Lawyer",
+            "Judge",
+            "Bailiff",
+            "Defendant"
+        ],
+        "correct_answer": "Judge",
+        "explanation": "A 'scalpel' is a primary specialized tool used by a 'surgeon' to execute their professional duties. Similarly, a 'gavel' is a hammer-like tool used by a 'judge' in a courtroom to maintain order and signal rulings. Therefore, 'judge' is the correct answer."
+    },
+    {
+        "id": "72",
+        "category": "Analytical Reasoning",
+        "question": "Select the word that completes the analogy:\n\nMETAPHOR : FIGURATIVE :: FACT : ________",
+        "choices": [
+            "Subjective",
+            "Literal",
+            "Ambiguous",
+            "Fictional"
+        ],
+        "correct_answer": "Literal",
+        "explanation": "A 'metaphor' is a figure of speech that is inherently 'figurative'. A 'fact' is an actual occurrence or truth that is represented in a 'literal' manner, expressing the exact meaning without embellishment. Therefore, 'literal' is the correct answer."
+    },
+    {
+        "id": "73",
+        "category": "Analytical Reasoning",
+        "question": "Select the word that completes the analogy:\n\nINDIGENT : AFFLUENT :: PARSIMONIOUS : ________",
+        "choices": [
+            "Frugal",
+            "Stingy",
+            "Generous",
+            "Greedy"
+        ],
+        "correct_answer": "Generous",
+        "explanation": "'Indigent' (extremely poor) is the direct antonym of 'affluent' (wealthy). Similarly, 'parsimonious' (extremely unwilling to spend money, stingy) is the direct antonym of 'generous' (showing a readiness to give more of something than is strictly necessary). Therefore, 'generous' is the correct answer."
+    },
+    {
+        "id": "74",
+        "category": "Analytical Reasoning",
+        "question": "Six government officers (A, B, C, D, E, and F) are seated in a row facing north during a seminar. The seating arrangement follows these conditions:\n- E is at the extreme left end of the row.\n- F is seated immediately to the right of E.\n- D is seated exactly between C and F.\n- A is seated adjacent to B but is not adjacent to C.\n\nWho is seated at the extreme right end of the row?",
+        "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "correct_answer": "A",
+        "explanation": "Let the six positions from left to right be 1, 2, 3, 4, 5, and 6.\n1. E is at the extreme left end, so E is at Position 1: [E, _, _, _, _, _].\n2. F is immediately to the right of E, so F is at Position 2: [E, F, _, _, _, _].\n3. D is seated exactly between C and F. Since F is at Position 2, D must be at Position 3, and C must be at Position 4 to keep D in the exact middle: [E, F, D, C, _, _].\n4. A is adjacent to B but cannot be adjacent to C (Position 4). If A were at Position 5, it would be next to C. Therefore, A must be at Position 6 (extreme right), and B must be at Position 5: [E, F, D, C, B, A].\n5. Thus, A is seated at the extreme right end of the row."
+    },
+    {
+        "id": "75",
+        "category": "Analytical Reasoning",
+        "question": "Five colleagues (Manny, Nilo, Oscar, Pia, and Queenie) compare their monthly savings. The following facts are established:\n- Manny saves more than Nilo but less than Pia.\n- Oscar saves more than Queenie but less than Nilo.\n\nWho among the colleagues saves the second highest amount?",
+        "choices": [
+            "Pia",
+            "Manny",
+            "Nilo",
+            "Oscar"
+        ],
+        "correct_answer": "Manny",
+        "explanation": "Let's translate the statements into mathematical inequalities:\n1. 'Manny saves more than Nilo but less than Pia' gives us: Pia > Manny > Nilo.\n2. 'Oscar saves more than Queenie but less than Nilo' gives us: Nilo > Oscar > Queenie.\n3. Combining these two inequalities, we get the complete order from highest to lowest savings: Pia > Manny > Nilo > Oscar > Queenie.\n4. Pia saves the highest amount, and Manny saves the second highest amount. Therefore, Manny is the correct answer."
+    },
+    {
+        "id": "76",
+        "category": "Analytical Reasoning",
+        "question": "A municipal department operates under the following project implementation rules:\n- If the department implements Project A, it must also implement Project B.\n- If it implements Project B, it cannot implement Project C.\n- If it does not implement Project C, it must implement Project D.\n\nIf the department has officially implemented Project A, which of the following statements must be true?",
+        "choices": [
+            "Project C is implemented.",
+            "Project B is not implemented.",
+            "Project D is implemented.",
+            "Neither Project B nor Project D is implemented."
+        ],
+        "correct_answer": "Project D is implemented.",
+        "explanation": "Let's perform a step-by-step logical deduction based on the fact that Project A is implemented:\n1. Rule 1 states: 'If Project A, then Project B.' Since A is implemented, Project B must be implemented.\n2. Rule 2 states: 'If Project B, then not Project C.' Since B is implemented, Project C cannot be implemented.\n3. Rule 3 states: 'If not Project C, then Project D.' Since Project C is not implemented, Project D must be implemented.\n4. Therefore, Project D is implemented."
+    },
+    {
+        "id": "77",
+        "category": "Analytical Reasoning",
+        "question": "Five directors (Ramon, Susan, Teresa, Victor, and Wendy) are sitting around a circular table facing the center for a board meeting. Their positions are determined by these rules:\n- Teresa is sitting immediately to the left of Ramon.\n- Wendy is sitting between Susan and Teresa.\n\nWho is sitting immediately to the right of Victor?",
+        "choices": [
+            "Ramon",
+            "Susan",
+            "Teresa",
+            "Wendy"
+        ],
+        "correct_answer": "Susan",
+        "explanation": "Let's represent the circular seats as 1 to 5 in a clockwise direction. Facing the center means that left is clockwise, and right is counter-clockwise.\n1. Let's place Ramon at seat 1.\n2. Since Teresa is immediately to the left of Ramon (clockwise), Teresa is at seat 2.\n3. Wendy is between Susan and Teresa. Since Teresa is at seat 2, Wendy must occupy seat 3, and Susan must occupy seat 4.\n4. This leaves seat 5 for the remaining director, Victor.\n5. Victor (seat 5) is situated between Susan (seat 4) and Ramon (seat 1). Looking towards the center from seat 5, the person immediately to Victor's right (counter-clockwise) is Susan. Thus, Susan is sitting immediately to the right of Victor."
+    },
+    {
+        "id": "78",
+        "category": "Analytical Reasoning",
+        "question": "Six employees (Al, Bea, Cal, Dan, Eve, and Fay) are scheduled for their annual physical exams, one each day from Monday to Saturday of a single week. The schedule is subject to these constraints:\n- Eve must be scheduled on Thursday.\n- Dan is scheduled on Monday.\n- Cal must be scheduled on the day immediately after Al's day.\n- Bea must be scheduled on the day immediately after Fay's day.\n- Fay must be scheduled on a day after Eve's day.\n\nOn which day is Al scheduled?",
+        "choices": [
+            "Tuesday",
+            "Wednesday",
+            "Friday",
+            "Monday"
+        ],
+        "correct_answer": "Tuesday",
+        "explanation": "Let's list the days of the week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday.\n1. We are given: Monday is Dan, and Thursday is Eve: [Mon: Dan, Tue: _, Wed: _, Thu: Eve, Fri: _, Sat: _].\n2. Fay must be scheduled after Eve (Thursday). This leaves Friday and Saturday for Fay. Since Bea must be scheduled immediately after Fay, Fay must be on Friday and Bea must be on Saturday: [Mon: Dan, Tue: _, Wed: _, Thu: Eve, Fri: Fay, Sat: Bea].\n3. Cal must be scheduled immediately after Al. The only vacant consecutive days remaining are Tuesday and Wednesday. Thus, Al must be scheduled on Tuesday and Cal on Wednesday.\n4. The final completed schedule is: Mon: Dan, Tue: Al, Wed: Cal, Thu: Eve, Fri: Fay, Sat: Bea. Therefore, Al is scheduled on Tuesday."
+    },
+    {
+        "id": "79",
+        "category": "Analytical Reasoning",
+        "question": "An HR manager is selecting a 3-member committee from 5 applicants: F, G, H, I, and J. The selection is governed by these rules:\n- If F is selected, G must also be selected.\n- H and I cannot both be selected.\n- If J is selected, H must also be selected.\n\nIf applicant I is selected, who else must be in the committee?",
+        "choices": [
+            "F and G",
+            "G and H",
+            "H and J",
+            "F and J"
+        ],
+        "correct_answer": "F and G",
+        "explanation": "1. The committee requires exactly 3 members, and we are given that I is selected: [I, _, _].\n2. Rule 2 states: 'H and I cannot both be selected.' Since I is selected, H cannot be selected.\n3. Rule 3 states: 'If J is selected, H must also be selected.' Since H is not selected, its contrapositive dictates that J cannot be selected.\n4. Out of the 5 candidates (F, G, H, I, J), H and J are excluded. This leaves only F and G to join I to complete the 3-member committee.\n5. Rule 1 states: 'If F is selected, G must also be selected.' This rule is satisfied because both F and G are in the committee. Thus, F and G must also be selected."
+    },
+    {
+        "id": "80",
+        "category": "Analytical Reasoning",
+        "question": "During an office evaluation, 5 employees (V, W, X, Y, and Z) were ranked 1st to 5th (with 1st being the highest rank). The evaluation results are as follows:\n- V ranked higher than W.\n- Y ranked lower than Z.\n- X ranked exactly between V and W.\n- Z did not rank in the top two.\n\nIf Y ranked 5th, what was Z's rank?",
+        "choices": [
+            "2nd",
+            "3rd",
+            "4th",
+            "1st"
+        ],
+        "correct_answer": "4th",
+        "explanation": "1. We are given that Y is 5th: [_, _, _, _, Y].\n2. 'X ranked exactly between V and W' and 'V ranked higher than W' implies the relative order is V > X > W, with X exactly in the middle. Since Y is 5th, V, X, and W must occupy either [1st, 2nd, 3rd] or [2nd, 3rd, 4th].\n3. If V, X, and W occupy [2nd, 3rd, 4th], then Z must be 1st. However, we are told 'Z did not rank in the top two.' Thus, this configuration is invalid.\n4. Therefore, V, X, and W must occupy [1st, 2nd, 3rd] respectively: [1st: V, 2nd: X, 3rd: W, 4th: _, 5th: Y].\n5. This leaves 4th place for Z: [1st: V, 2nd: X, 3rd: W, 4th: Z, 5th: Y].\n6. This fits all constraints, including 'Y (5th) ranked lower than Z (4th)' and 'Z did not rank in the top two.' Thus, Z's rank is 4th."
+    },
+    {
+        "id": "81",
+        "category": "Analytical Reasoning",
+        "question": "Six cubicles are arranged in two parallel rows facing each other. Row 1 has cubicles 1, 2, and 3 (from left to right), and Row 2 has cubicles 4, 5, and 6 (from left to right, such that 4 is opposite 1, 5 is opposite 2, and 6 is opposite 3). The assignments are as follows:\n- Officer P is in cubicle 2.\n- Officer Q is in a cubicle opposite Officer R.\n- Officer S is in a cubicle adjacent to Officer P but not opposite Officer R.\n- Officer T is in cubicle 6.\n- Officer R is located in Row 2.\n\nIf Officer U is in the remaining cubicle, which cubicle does Officer R occupy?",
+        "choices": [
+            "1",
+            "4",
+            "3",
+            "5"
+        ],
+        "correct_answer": "4",
+        "explanation": "1. The grid is:\n   Row 1: [1, 2, 3]\n   Row 2: [4, 5, 6]\n2. We are given: P is in 2, T is in 6.\n3. Q and R are opposite each other. The possible opposite pairs are (1,4), (2,5), and (3,6). Since 2 is occupied by P, and 6 is occupied by T, the only fully vacant opposite pair is (1,4). Thus, one of Q or R is in 1, and the other is in 4.\n4. S is adjacent to P (cubicle 2), so S must be in 1 or 3. Since 1 is occupied by either Q or R, S must be in cubicle 3.\n5. Officer U must occupy the remaining vacant cubicle, which is 5.\n6. We are told 'Officer R is located in Row 2'. Since Row 2 consists of cubicles 4, 5, and 6, and R must be in either 1 or 4, R must occupy cubicle 4 (leaving Q in cubicle 1).\n7. Therefore, Officer R occupies cubicle 4."
+    },
+    {
+        "id": "82",
+        "category": "Analytical Reasoning",
+        "question": "Five cars (Red, Blue, Green, Yellow, and Silver) are parked in a straight row of five spaces numbered 1 to 5 from left to right. The parking arrangement must follow these conditions:\n- The Red car is parked in Space 1.\n- The Blue car is parked in Space 5.\n- The Yellow car is parked next to the Silver car.\n- The Green car is not parked next to the Blue car.\n\nIn which space is the Green car parked?",
+        "choices": [
+            "Space 2",
+            "Space 3",
+            "Space 4",
+            "Space 5"
+        ],
+        "correct_answer": "Space 2",
+        "explanation": "1. We are given: Space 1 is Red, and Space 5 is Blue: [1: Red, 2: _, 3: _, 4: _, 5: Blue].\n2. The remaining spaces are 2, 3, and 4.\n3. The Green car cannot be parked next to the Blue car (Space 5), so Green cannot be in Space 4. Thus, Green must be in Space 2 or 3.\n4. The Yellow and Silver cars must be parked next to each other, meaning they require two adjacent spaces. The only adjacent spaces left are Spaces 3 and 4.\n5. Therefore, Yellow and Silver must occupy Spaces 3 and 4 (in some order).\n6. This leaves Space 2 for the Green car.\n7. This satisfies all conditions, including 'Green is not next to Blue'. Therefore, the Green car is parked in Space 2."
+    },
+    {
+        "id": "83",
+        "category": "Analytical Reasoning",
+        "question": "Three officers (Santos, Reyes, and Cruz) work in three different departments: Finance, HR, and IT (not necessarily in that order). They each have a different hobby: Hiking, Photography, and Reading. The following details are known:\n- The officer in the IT department likes Reading.\n- Cruz works in the Finance department.\n- Santos does not like Photography.\n- Reyes does not work in IT.\n\nWhat is Santos's hobby?",
+        "choices": [
+            "Hiking",
+            "Photography",
+            "Reading",
+            "Cannot be determined"
+        ],
+        "correct_answer": "Reading",
+        "explanation": "1. We know Cruz works in Finance.\n2. Reyes does not work in IT. Since Cruz is in Finance, Reyes must work in the only other remaining department, which is HR.\n3. This leaves Santos to work in the IT department.\n4. The first clue states: 'The officer in the IT department likes Reading.' Since Santos is the IT officer, Santos's hobby must be Reading.\n5. (By extension, since Santos's hobby is Reading, and Santos does not like Photography, Reyes must like Photography, leaving Cruz to like Hiking). Therefore, Santos's hobby is Reading."
+    },
+    {
+        "id": "84",
+        "category": "Analytical Reasoning",
+        "question": "A state regulatory framework establishes the following criteria:\n- If a citizen is registered, they are eligible to vote.\n- If a citizen is eligible to vote, they receive a voter's card.\n\nIf Juan did not receive a voter's card, which of the following statements must be true?",
+        "choices": [
+            "Juan is registered but chose not to vote.",
+            "Juan is not registered.",
+            "Juan is eligible to vote.",
+            "Juan did not register because he was busy."
+        ],
+        "correct_answer": "Juan is not registered.",
+        "explanation": "1. Let's express the conditional statements symbolically:\n   - Registered (R) -> Eligible (E)\n   - Eligible (E) -> Voter's Card (V)\n2. By linking them, we get: Registered (R) -> Voter's Card (V).\n3. The contrapositive of this linked statement is logically equivalent and states: If a citizen does not receive a voter's card (not V), then they are not registered (not R).\n4. Since Juan did not receive a voter's card, he is not registered. Therefore, 'Juan is not registered' must be true."
+    },
+    {
+        "id": "85",
+        "category": "Analytical Reasoning",
+        "question": "Four boxes (A, B, C, and D) have different weights. The following relationships are observed:\n- Box A is heavier than Box B.\n- Box C is lighter than Box D.\n- Box B is heavier than Box D.\n\nWhich of the following is the correct order of the boxes from heaviest to lightest?",
+        "choices": [
+            "A, B, C, D",
+            "A, B, D, C",
+            "B, A, D, C",
+            "D, C, B, A"
+        ],
+        "correct_answer": "A, B, D, C",
+        "explanation": "Let's write down the weight relationships as inequalities:\n1. 'Box A is heavier than Box B' means: A > B.\n2. 'Box B is heavier than Box D' means: B > D.\n3. 'Box C is lighter than Box D' means: D > C.\n4. Combining these three inequalities: A > B > D > C.\n5. Therefore, the correct order from heaviest to lightest is A, B, D, C."
+    },
+    {
+        "id": "86",
+        "category": "Analytical Reasoning",
+        "question": "In a relay race, five runners (P, Q, R, S, and T) ran in a specific order from first to fifth. The following conditions apply:\n- P ran immediately before Q.\n- S ran at some point after T.\n- R ran third.\n- T ran first.\n\nWho ran fifth?",
+        "choices": [
+            "P",
+            "Q",
+            "S",
+            "T"
+        ],
+        "correct_answer": "Q",
+        "explanation": "Let's set up the five running slots: [1st, 2nd, 3rd, 4th, 5th].\n1. We are given that T ran 1st and R ran 3rd: [T, _, R, _, _].\n2. P ran immediately before Q, which means P and Q must occupy adjacent positions (P then Q). Since the 1st and 3rd slots are occupied, the only available consecutive slots are 4th and 5th. Thus, P must run 4th and Q must run 5th: [T, _, R, P, Q].\n3. This leaves the 2nd slot for S: [T, S, R, P, Q].\n4. This satisfies the condition 'S ran at some point after T' (2nd is after 1st).\n5. Therefore, Q ran fifth."
+    },
+    {
+        "id": "87",
+        "category": "Analytical Reasoning",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All accountants are detail-oriented.\n- Some managers are accountants.\n\nConclusions:\n- I. Some managers are detail-oriented.\n- II. All detail-oriented people are accountants.",
+        "choices": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "1. 'Some managers are accountants' means that there is an overlap between the set of managers and the set of accountants.\n2. 'All accountants are detail-oriented' means the entire set of accountants is nested inside the set of detail-oriented people.\n3. Since some managers are accountants, those managers must also be detail-oriented because all accountants are. Thus, Conclusion I ('Some managers are detail-oriented') logically follows.\n4. 'All accountants are detail-oriented' does not mean that only accountants are detail-oriented. The set of detail-oriented people could be much larger than the set of accountants. Thus, Conclusion II ('All detail-oriented people are accountants') does not logically follow. Therefore, only conclusion I follows."
+    },
+    {
+        "id": "88",
+        "category": "Analytical Reasoning",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No corrupt official is trustworthy.\n- Some public servants are corrupt officials.\n\nConclusions:\n- I. Some public servants are not trustworthy.\n- II. All public servants are trustworthy.",
+        "choices": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "1. 'Some public servants are corrupt officials' means that there exists an overlap between public servants and corrupt officials.\n2. 'No corrupt official is trustworthy' means that the set of corrupt officials and the set of trustworthy people are completely separate (disjoint).\n3. Since there are some public servants who are corrupt officials, these specific public servants cannot be trustworthy. Thus, 'Some public servants are not trustworthy' (Conclusion I) logically follows.\n4. Because some public servants are not trustworthy, 'All public servants are trustworthy' (Conclusion II) is false. Thus, only conclusion I follows."
+    },
+    {
+        "id": "89",
+        "category": "Analytical Reasoning",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All lawyers are eloquent.\n- No eloquent person is easily intimidated.\n\nConclusions:\n- I. No lawyer is easily intimidated.\n- II. Some easily intimidated people are lawyers.",
+        "choices": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "1. 'All lawyers are eloquent' means the set of lawyers is entirely contained within the set of eloquent people.\n2. 'No eloquent person is easily intimidated' means the set of eloquent people and the set of easily intimidated people do not intersect at all.\n3. Since the set of lawyers is a subset of eloquent people, it is also completely separate from easily intimidated people. Hence, 'No lawyer is easily intimidated' (Conclusion I) logically follows.\n4. Since there is zero overlap between lawyers and easily intimidated people, 'Some easily intimidated people are lawyers' (Conclusion II) cannot be true. Thus, only conclusion I follows."
+    },
+    {
+        "id": "90",
+        "category": "Analytical Reasoning",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some government employees are researchers.\n- All researchers have college degrees.\n\nConclusions:\n- I. Some government employees have college degrees.\n- II. Some people with college degrees are not government employees.",
+        "choices": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "1. 'Some government employees are researchers' means there is an overlap between government employees and researchers.\n2. 'All researchers have college degrees' means the set of researchers is entirely contained within the set of college degree holders.\n3. The government employees who are researchers must have college degrees. Hence, 'Some government employees have college degrees' (Conclusion I) logically follows.\n4. Although 'Some people with college degrees are not government employees' (Conclusion II) is highly likely in reality, it does not *necessarily* follow from the premises. It is theoretically possible for all college degree holders to be government employees. Thus, Conclusion II does not logically follow. Only conclusion I follows."
+    },
+    {
+        "id": "91",
+        "category": "Analytical Reasoning",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All valid laws are constitutional.\n- Republic Act 101 is constitutional.\n\nConclusions:\n- I. Republic Act 101 is a valid law.\n- II. Some constitutional measures are not valid laws.",
+        "choices": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Neither conclusion I nor II follows",
+        "explanation": "1. 'All valid laws are constitutional' indicates that valid laws are a subset of constitutional things.\n2. 'Republic Act 101 is constitutional' tells us that Republic Act 101 belongs to the set of constitutional things. However, this does not guarantee it belongs to the subset of 'valid laws' (it could be constitutional but not a valid law). Concluding that it is a valid law is the logical fallacy of affirming the consequent; thus, Conclusion I does not follow.\n3. 'Some constitutional measures are not valid laws' (Conclusion II) does not necessarily follow because it is theoretically possible for the set of valid laws to be identical to the set of constitutional measures. Therefore, neither conclusion follows."
+    },
+    {
+        "id": "92",
+        "category": "Analytical Reasoning",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No pet is wild.\n- All lions are wild.\n\nConclusions:\n- I. No lion is a pet.\n- II. Some pets are not lions.",
+        "choices": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Both conclusions I and II follow",
+        "explanation": "1. 'No pet is wild' means the set of pets and the set of wild animals are mutually exclusive (no overlap).\n2. 'All lions are wild' means the set of lions is a subset of wild animals.\n3. Since all lions are wild, and wild things cannot be pets, no lion can be a pet. Thus, Conclusion I ('No lion is a pet') logically follows.\n4. Since no pet is wild, and all lions are wild, it is impossible for a pet to be a lion (no pet is a lion). Since 'No pet is a lion' is true, it is logically guaranteed that 'Some pets are not lions' is also true. Thus, both conclusions follow."
+    },
+    {
+        "id": "93",
+        "category": "Analytical Reasoning",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some documents are classified.\n- Some classified items are confidential.\n\nConclusions:\n- I. Some documents are confidential.\n- II. No document is confidential.",
+        "choices": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Either conclusion I or II follows",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Neither conclusion I nor II follows",
+        "explanation": "1. 'Some documents are classified' means there is an overlap between documents and classified items.\n2. 'Some classified items are confidential' means there is an overlap between classified items and confidential items.\n3. However, there is no direct link established between 'documents' and 'confidential'. The subset of classified items that are documents might not overlap at all with the subset of classified items that are confidential.\n4. Because an overlap is possible but not guaranteed, we cannot logically assert that 'Some documents are confidential' (Conclusion I) is definitely true, nor can we assert that 'No document is confidential' (Conclusion II) is definitely true. Neither conclusion logically follows."
+    },
+    {
+        "id": "94",
+        "category": "Analytical Reasoning",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All professional civil servants are eligibility passers.\n- All eligibility passers are government assets.\n\nConclusions:\n- I. All professional civil servants are government assets.\n- II. Some government assets are professional civil servants.",
+        "choices": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Both conclusions I and II follow",
+        "explanation": "1. 'All professional civil servants are eligibility passers' (A is a subset of B).\n2. 'All eligibility passers are government assets' (B is a subset of C).\n3. By the transitive property of categorical logic, A must be a subset of C: 'All professional civil servants are government assets.' Thus, Conclusion I logically follows.\n4. Since the set of professional civil servants exists and is entirely contained within the set of government assets, there must be some members of the government asset set that are professional civil servants. Thus, Conclusion II ('Some government assets are professional civil servants') also logically follows. Both conclusions follow."
+    },
+    {
+        "id": "95",
+        "category": "Analytical Reasoning",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some policies are popular.\n- All popular things are beneficial.\n\nConclusions:\n- I. Some policies are beneficial.\n- II. Some beneficial things are policies.",
+        "choices": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Both conclusions I and II follow",
+        "explanation": "1. 'Some policies are popular' establishes that there is a non-empty intersection between policies and popular things.\n2. 'All popular things are beneficial' means the entire class of popular things resides within the class of beneficial things.\n3. Therefore, those policies that are popular must also be beneficial, guaranteeing that 'Some policies are beneficial' (Conclusion I) logically follows.\n4. Since there is a group that is both a policy and beneficial, it is symmetric that 'Some beneficial things are policies' (Conclusion II) also logically follows. Thus, both conclusions follow."
+    },
+    {
+        "id": "96",
+        "category": "Analytical Reasoning",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No insect has warm blood.\n- All mosquitoes are insects.\n\nConclusions:\n- I. No mosquito has warm blood.\n- II. Some warm-blooded creatures are not mosquitoes.",
+        "choices": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Both conclusions I and II follow",
+        "explanation": "1. 'No insect has warm blood' means that the set of insects and the set of warm-blooded creatures are completely disjoint.\n2. 'All mosquitoes are insects' means the set of mosquitoes is a subset of insects.\n3. Since mosquitoes are insects, and no insect has warm blood, it follows that no mosquito has warm blood. Conclusion I is valid.\n4. Because mosquitoes and warm-blooded creatures are disjoint sets, any warm-blooded creature is guaranteed not to be a mosquito. Therefore, 'Some warm-blooded creatures are not mosquitoes' is also a valid logical statement (since *all* of them are not). Thus, both conclusions follow."
+    },
+    {
+        "id": "97",
+        "category": "Analytical Reasoning",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All citizens are tax payers.\n- Some tax payers are philanthropists.\n\nConclusions:\n- I. Some citizens are philanthropists.\n- II. No citizen is a philanthropist.",
+        "choices": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Either conclusion I or II follows",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Neither conclusion I nor II follows",
+        "explanation": "1. 'All citizens are tax payers' means the set of citizens is entirely inside the set of tax payers.\n2. 'Some tax payers are philanthropists' means the set of philanthropists overlaps with the set of tax payers.\n3. However, we do not know where this overlap lies. The philanthropists who are tax payers could be entirely outside the subset of citizens, or they could overlap with citizens.\n4. Because a relationship is possible but not guaranteed, we cannot conclude that 'Some citizens are philanthropists' (Conclusion I) is definitely true, nor can we conclude that 'No citizen is a philanthropist' (Conclusion II) is definitely true. Neither conclusion follows."
+    },
+    {
+        "id": "98",
+        "category": "Analytical Reasoning",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All leaders are visionary.\n- No visionary person is pessimistic.\n\nConclusions:\n- I. No leader is pessimistic.\n- II. No pessimistic person is a leader.",
+        "choices": [
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Both conclusions I and II follow",
+        "explanation": "1. 'All leaders are visionary' means the set of leaders is a subset of visionary people.\n2. 'No visionary person is pessimistic' means the set of visionary people and the set of pessimistic people are disjoint.\n3. Since leaders are visionary, they cannot be pessimistic. Thus, 'No leader is pessimistic' (Conclusion I) logically follows.\n4. Mutual exclusivity is symmetric. If no leader is pessimistic, it is also true that no pessimistic person can be a leader. Thus, Conclusion II ('No pessimistic person is a leader') also logically follows. Both conclusions follow."
+    },
+    {
+        "id": "99",
+        "category": "Analytical Reasoning",
+        "question": "What is the age of Maria?\n\nStatements:\n(1) Maria is twice as old as her brother Juan.\n(2) Juan is 15 years younger than Maria.",
+        "choices": [
+            "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+            "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+            "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+            "Statements (1) and (2) TOGETHER are NOT sufficient."
+        ],
+        "correct_answer": "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+        "explanation": "Let Maria's age be M and Juan's age be J.\n1. Statement (1) gives the equation: M = 2J. Since there are two variables and only one equation, we cannot determine Maria's age. Statement (1) alone is not sufficient.\n2. Statement (2) gives the equation: J = M - 15. This also has two variables and one equation, so it is not sufficient alone.\n3. Combining both statements: We substitute J = M - 15 into M = 2J, which gives M = 2(M - 15) -> M = 2M - 30 -> M = 30 years old. Both statements together are sufficient to find a unique value. Therefore, both statements together are sufficient."
+    },
+    {
+        "id": "100",
+        "category": "Analytical Reasoning",
+        "question": "A rectangular garden has a perimeter of 60 meters. What is the area of the garden?\n\nStatements:\n(1) The length of the garden is twice its width.\n(2) The garden is planted with tomatoes.",
+        "choices": [
+            "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+            "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+            "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+            "Statements (1) and (2) TOGETHER are NOT sufficient."
+        ],
+        "correct_answer": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+        "explanation": "Let the length of the garden be L and the width be W. We are given the perimeter: 2(L + W) = 60 -> L + W = 30. We want to find the area A = L * W.\n1. Statement (1) states: L = 2W. Substituting this into L + W = 30 gives 2W + W = 30 -> 3W = 30 -> W = 10 meters. Thus, L = 20 meters, and the area is 10 * 20 = 200 square meters. Statement (1) alone is sufficient.\n2. Statement (2) states: 'The garden is planted with tomatoes.' This is qualitative information with no mathematical bearing on the dimensions or area of the garden. Statement (2) alone is not sufficient.\n3. Therefore, statement (1) alone is sufficient."
+    },
+    {
+        "id": "101",
+        "category": "Analytical Reasoning",
+        "question": "What is the value of x + y?\n\nStatements:\n(1) x - y = 10\n(2) 3x + 3y = 45",
+        "choices": [
+            "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+            "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+            "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+            "Statements (1) and (2) TOGETHER are NOT sufficient."
+        ],
+        "correct_answer": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+        "explanation": "We want to find the exact value of the expression x + y.\n1. Statement (1) states: x - y = 10. Knowing the difference between x and y does not help us determine their sum x + y (e.g., if x = 10 and y = 0, x+y = 10; if x = 12 and y = 2, x+y = 14). Statement (1) alone is not sufficient.\n2. Statement (2) states: 3x + 3y = 45. We can factor out 3 from the left side: 3(x + y) = 45. Dividing both sides by 3 gives: x + y = 15. This directly provides the exact value of x + y without needing the individual values of x and y. Statement (2) alone is sufficient."
+    },
+    {
+        "id": "102",
+        "category": "Analytical Reasoning",
+        "question": "Are the two lines, Line L1 and Line L2, parallel to each other?\n\nStatements:\n(1) The equation of Line L1 is 2y - 4x = 8.\n(2) The equation of Line L2 is y - 2x = 10.",
+        "choices": [
+            "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+            "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+            "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+            "Statements (1) and (2) TOGETHER are NOT sufficient."
+        ],
+        "correct_answer": "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+        "explanation": "Two lines are parallel if and only if they have the same slope and different y-intercepts.\n1. Statement (1) gives the equation 2y - 4x = 8. Converting this to slope-intercept form (y = mx + b): 2y = 4x + 8 -> y = 2x + 4. The slope of L1 is 2. However, we have no information about Line L2. Statement (1) alone is not sufficient.\n2. Statement (2) gives the equation y - 2x = 10. Converting this to slope-intercept form: y = 2x + 10. The slope of L2 is 2. However, we have no information about Line L1. Statement (2) alone is not sufficient.\n3. Combining both statements: Both lines have a slope of 2, and their y-intercepts are different (4 and 10). Because their slopes are equal and they are distinct lines, L1 and L2 are parallel. Thus, both statements together are sufficient."
+    },
+    {
+        "id": "103",
+        "category": "Analytical Reasoning",
+        "question": "How many employees work at Agency X?\n\nStatements:\n(1) The ratio of male to female employees at Agency X is 3:4.\n(2) If 10 more female employees are hired, the total number of female employees will be 50.",
+        "choices": [
+            "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+            "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+            "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+            "Statements (1) and (2) TOGETHER are NOT sufficient."
+        ],
+        "correct_answer": "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+        "explanation": "Let M be the number of male employees and F be the number of female employees. We want to find the total employees T = M + F.\n1. Statement (1) states: M:F = 3:4, or M/F = 3/4. Since this is only a ratio and does not provide actual counts, we cannot find the total. Statement (1) alone is not sufficient.\n2. Statement (2) states: F + 10 = 50 -> F = 40. This tells us there are 40 female employees, but gives no information about male employees. Statement (2) alone is not sufficient.\n3. Combining both statements: We know F = 40. From M/F = 3/4, we substitute F = 40: M/40 = 3/4 -> M = 30. The total number of employees is T = 30 + 40 = 70. Both statements together are sufficient."
+    },
+    {
+        "id": "104",
+        "category": "Analytical Reasoning",
+        "question": "What is the average speed of a train during a certain trip?\n\nStatements:\n(1) The train travels a total distance of 300 kilometers during the trip.\n(2) The train takes exactly 4 hours of travel time to complete the trip.",
+        "choices": [
+            "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+            "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+            "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+            "Statements (1) and (2) TOGETHER are NOT sufficient."
+        ],
+        "correct_answer": "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+        "explanation": "The formula for average speed is Speed = Distance / Time.\n1. Statement (1) gives the total distance, D = 300 km, but does not provide the time. Statement (1) alone is not sufficient.\n2. Statement (2) gives the total travel time, t = 4 hours, but does not provide the distance. Statement (2) alone is not sufficient.\n3. Combining both statements: We have D = 300 km and t = 4 hours. Substituting these into the formula gives Speed = 300 / 4 = 75 km/h. Both statements together are sufficient."
+    },
+    {
+        "id": "105",
+        "category": "Analytical Reasoning",
+        "question": "Is the integer n an odd number?\n\nStatements:\n(1) n + 3 is an even integer.\n(2) 2n is an even integer.",
+        "choices": [
+            "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+            "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+            "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+            "Statements (1) and (2) TOGETHER are NOT sufficient."
+        ],
+        "correct_answer": "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+        "explanation": "We need to determine whether the integer n is odd.\n1. Statement (1) states: n + 3 is even. An odd number added to an odd number yields an even number (Odd + Odd = Even). Since 3 is an odd number, n must be an odd number for their sum to be even. (If n were even, Even + Odd = Odd). Therefore, n is definitely odd, and Statement (1) alone is sufficient.\n2. Statement (2) states: 2n is even. Any integer multiplied by 2 will always result in an even number, regardless of whether n is odd (e.g., 2 * 3 = 6) or even (e.g., 2 * 4 = 8). Thus, we cannot determine if n is odd or even. Statement (2) alone is not sufficient."
+    },
+    {
+        "id": "106",
+        "category": "Analytical Reasoning",
+        "question": "What is the total price of 3 office tables and 2 office chairs?\n\nStatements:\n(1) The price of 1 office table is 1,500 pesos.\n(2) The price of 6 office tables and 4 office chairs is 13,000 pesos.",
+        "choices": [
+            "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+            "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+            "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+            "Statements (1) and (2) TOGETHER are NOT sufficient."
+        ],
+        "correct_answer": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+        "explanation": "Let T be the price of one table and C be the price of one chair. We want to find the value of the expression 3T + 2C.\n1. Statement (1) states: T = 1,500 pesos. This gives the price of a table but no information about the price of a chair. Statement (1) alone is not sufficient.\n2. Statement (2) states: 6T + 4C = 13,000 pesos. Notice that we can divide the entire equation by 2: (6T + 4C) / 2 = 13,000 / 2 -> 3T + 2C = 6,500. This directly gives us the value of 3T + 2C, which is 6,500 pesos, without needing to solve for T or C individually. Statement (2) alone is sufficient."
+    },
+    {
+        "id": "107",
+        "category": "Analytical Reasoning",
+        "question": "Did Candidate A receive more than 50% of the total votes in a local two-candidate election?\n\nStatements:\n(1) Candidate A received 12,000 votes.\n(2) Candidate B, the only other candidate, received 11,500 votes.",
+        "choices": [
+            "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+            "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+            "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+            "Statements (1) and (2) TOGETHER are NOT sufficient."
+        ],
+        "correct_answer": "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+        "explanation": "We want to know if Candidate A's votes are greater than 50% of the total votes.\n1. Statement (1) tells us Candidate A received 12,000 votes, but we don't know how many votes other candidates received, so we cannot calculate the percentage. Statement (1) alone is not sufficient.\n2. Statement (2) tells us Candidate B received 11,500 votes. Since we do not know Candidate A's votes, we cannot calculate the percentage. Statement (2) alone is not sufficient.\n3. Combining both statements: Since A and B are the only candidates, the total votes cast are 12,000 + 11,500 = 23,500. Candidate A's vote percentage is (12,000 / 23,500) * 100 â‰ˆ 51.06%, which is greater than 50%. Thus, we can answer the question with a definitive 'Yes'. Both statements together are sufficient."
+    },
+    {
+        "id": "108",
+        "category": "Analytical Reasoning",
+        "question": "What is the value of the two-digit integer x?\n\nStatements:\n(1) The sum of the digits of x is 9.\n(2) The tens digit of x is 3.",
+        "choices": [
+            "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+            "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+            "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+            "Statements (1) and (2) TOGETHER are NOT sufficient."
+        ],
+        "correct_answer": "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+        "explanation": "Let the two-digit number x be represented as 10a + b, where 'a' is the tens digit and 'b' is the units digit.\n1. Statement (1) states: a + b = 9. This has multiple solutions for a two-digit integer (e.g., 18, 27, 36, 45, 54, 63, 72, 81, 90). Statement (1) alone is not sufficient.\n2. Statement (2) states: a = 3. This also has multiple solutions (e.g., 30, 31, 32, ..., 39). Statement (2) alone is not sufficient.\n3. Combining both statements: We have a = 3 and a + b = 9. Substituting a = 3 gives 3 + b = 9 -> b = 6. Thus, the unique two-digit number x is 36. Both statements together are sufficient."
+    },
+    {
+        "id": "109",
+        "category": "Analytical Reasoning",
+        "question": "What is the monthly salary of Officer Santos?\n\nStatements:\n(1) Officer Santos earns 5,000 pesos more than Officer Reyes.\n(2) Officer Reyes earns 10,000 pesos less than Officer Cruz.",
+        "choices": [
+            "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+            "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+            "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+            "Statements (1) and (2) TOGETHER are NOT sufficient."
+        ],
+        "correct_answer": "Statements (1) and (2) TOGETHER are NOT sufficient.",
+        "explanation": "Let the salaries of Officers Santos, Reyes, and Cruz be S, R, and C, respectively. We want to find the value of S.\n1. Statement (1) gives: S = R + 5,000. Without R, we cannot determine S. Statement (1) alone is not sufficient.\n2. Statement (2) gives: R = C - 10,000. Without C, we cannot determine R. Statement (2) alone is not sufficient.\n3. Combining both statements: We have S = R + 5,000 and R = C - 10,000, which gives S = C - 5,000. We still have relative relationships but no absolute values for any of the salaries. Therefore, we cannot determine the exact monthly salary of Officer Santos. Both statements together are not sufficient."
+    },
+    {
+        "id": "110",
+        "category": "Analytical Reasoning",
+        "question": "Is x a positive number?\n\nStatements:\n(1) x^2 > 9\n(2) x^3 < 0",
+        "choices": [
+            "Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient.",
+            "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+            "BOTH statements (1) and (2) TOGETHER are sufficient, but NEITHER statement ALONE is sufficient.",
+            "Statements (1) and (2) TOGETHER are NOT sufficient."
+        ],
+        "correct_answer": "Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient.",
+        "explanation": "We need to determine if x is positive (x > 0).\n1. Statement (1) states: x^2 > 9. This inequality simplifies to x > 3 or x < -3. If x = 4, then x is positive. If x = -4, then x is negative. Thus, we cannot definitively answer the question. Statement (1) alone is not sufficient.\n2. Statement (2) states: x^3 < 0. For the cube of a number to be negative, the number itself must be negative (x < 0). Since x is negative, we can answer the question 'Is x a positive number?' with a definitive and consistent 'No'. In data sufficiency, a definitive negative answer is sufficient. Thus, Statement (2) alone is sufficient."
+    }
+]
