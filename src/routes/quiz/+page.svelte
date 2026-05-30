@@ -18,22 +18,29 @@
   let currentIndex = $state(0);
   let score = $state(0);
   let userAnswers = $state<Record<number, string>>({});
+  let pendingAnswer = $state<string | null>(null);
   
   let currentQuestion = $derived(questions[currentIndex]);
   let hasAnswered = $derived(userAnswers[currentIndex] !== undefined);
-  let selectedAnswer = $derived(userAnswers[currentIndex] || null);
+  let selectedAnswer = $derived(hasAnswered ? userAnswers[currentIndex] : pendingAnswer);
   let isFinished = $derived(currentIndex >= questions.length && questions.length > 0);
 
   function handleSelect(choice: string) {
     if (hasAnswered) return;
+    pendingAnswer = choice;
+  }
+
+  function handleConfirm() {
+    if (!pendingAnswer || hasAnswered) return;
     
-    userAnswers[currentIndex] = choice;
-    if (choice === currentQuestion.correct_answer) {
+    userAnswers[currentIndex] = pendingAnswer;
+    if (pendingAnswer === currentQuestion.correct_answer) {
       score += 1;
     }
   }
 
   function handleNext() {
+    pendingAnswer = null;
     currentIndex += 1;
   }
 
@@ -43,15 +50,17 @@
 </script>
 
 {#if questions.length === 0}
-  <div class="glass-panel text-center fade-in">
-    <h2>No Questions Found</h2>
-    <p>We couldn't find any questions for the selected category.</p>
-    <button onclick={handleExit} class="primary-btn mt-4">Go Back</button>
+  <div class="glass-card text-center fade-in" style="max-width: 600px; margin: 4rem auto;">
+    <h2 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: 1rem;">No Questions Found</h2>
+    <p style="color: var(--cse-text-muted); margin-bottom: 2rem;">We couldn't find any questions for the selected category.</p>
+    <button onclick={handleExit} class="btn-primary">Go Back</button>
   </div>
 {:else if isFinished}
   <ResultScreen 
     {score} 
     total={questions.length} 
+    category={data.category || 'All Categories'}
+    mode={data.mode}
     onExit={handleExit} 
   />
 {:else}
@@ -90,11 +99,15 @@
 
       <div class="action-buttons">
         {#if hasAnswered}
-          <button class="primary-btn pulse-anim" onclick={handleNext}>
+          <button class="btn-primary pulse-anim" onclick={handleNext}>
             {currentIndex + 1 >= questions.length ? 'View Results' : 'Next Question'}
           </button>
+        {:else if pendingAnswer}
+          <button class="btn-primary" onclick={handleConfirm}>
+            Confirm Answer
+          </button>
         {:else}
-          <button class="text-btn" onclick={handleExit}>Exit Session</button>
+          <button class="btn-ghost" onclick={handleExit}>Exit Session</button>
         {/if}
       </div>
     </footer>
@@ -104,71 +117,27 @@
 <style>
   .quiz-container {
     max-width: 800px;
-    margin: 0 auto var(--size-8);
+    margin: 0 auto 4rem;
+    padding: 0 1rem;
   }
 
   .text-center { text-align: center; }
-  .mt-4 { margin-top: var(--size-4); }
-  .text-emerald { color: var(--green-6); font-weight: bold; }
-  .text-red { color: var(--red-6); font-weight: bold; }
+  .text-emerald { color: var(--cse-green); font-weight: bold; }
+  .text-red { color: var(--cse-red); font-weight: bold; }
 
   .quiz-actions {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: var(--size-6);
-    padding-top: var(--size-4);
-    border-top: 1px solid var(--gray-3);
-  }
-
-  :global([data-theme="dark"]) .quiz-actions {
-    border-top-color: var(--gray-8);
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--cse-border);
   }
 
   .status-text {
-    font-size: var(--font-size-2);
-    color: var(--gray-6);
+    font-size: 0.95rem;
+    color: var(--cse-text-muted);
     font-weight: 600;
-  }
-
-  .primary-btn {
-    background: var(--primary);
-    color: white;
-    border: none;
-    padding: var(--size-3) var(--size-5);
-    font-size: var(--font-size-2);
-    font-weight: 700;
-    border-radius: var(--radius-2);
-    cursor: pointer;
-    transition: var(--transition);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-
-  .primary-btn:hover {
-    background: var(--primary-hover);
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-3);
-  }
-
-  .text-btn {
-    background: transparent;
-    border: none;
-    color: var(--gray-5);
-    font-size: var(--font-size-1);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    cursor: pointer;
-    transition: var(--transition);
-  }
-
-  .text-btn:hover {
-    color: var(--gray-9);
-  }
-
-  :global([data-theme="dark"]) .text-btn:hover {
-    color: var(--gray-1);
   }
 
   .pulse-anim {
@@ -176,8 +145,8 @@
   }
 
   @keyframes pulse-border {
-    0% { box-shadow: 0 0 0 0 rgba(var(--indigo-6-hsl), 0.4); }
-    70% { box-shadow: 0 0 0 10px rgba(var(--indigo-6-hsl), 0); }
-    100% { box-shadow: 0 0 0 0 rgba(var(--indigo-6-hsl), 0); }
+    0% { box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.4); }
+    70% { box-shadow: 0 0 0 10px rgba(124, 58, 237, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(124, 58, 237, 0); }
   }
 </style>

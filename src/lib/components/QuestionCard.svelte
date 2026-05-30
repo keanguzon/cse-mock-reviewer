@@ -23,9 +23,12 @@
   }>();
 
   const getChoiceClass = (choice: string) => {
-    if (!hasAnswered) return 'choice-btn';
-    
     const isSelected = selectedAnswer === choice;
+
+    if (!hasAnswered) {
+      return isSelected ? 'choice-btn pending' : 'choice-btn';
+    }
+    
     const isCorrect = choice === question.correct_answer;
     
     if (isPractice) {
@@ -39,7 +42,7 @@
   };
 </script>
 
-<article class="glass-panel slide-up">
+<article class="glass-card slide-up">
   <header class="q-header">
     <span class="category-badge">{question.category}</span>
   </header>
@@ -78,37 +81,36 @@
 
 <style>
   .q-header {
-    margin-bottom: var(--size-4);
-    border-bottom: 1px solid var(--gray-3);
-    padding-bottom: var(--size-2);
-  }
-
-  :global([data-theme="dark"]) .q-header {
-    border-bottom-color: var(--gray-8);
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--cse-border);
+    padding-bottom: 1rem;
   }
 
   .category-badge {
-    background: var(--primary);
-    color: white;
-    padding: var(--size-1) var(--size-2);
-    border-radius: var(--radius-2);
-    font-size: var(--font-size-0);
-    font-weight: 600;
+    background: rgba(124, 58, 237, 0.15);
+    color: var(--cse-primary-light);
+    padding: 0.35rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
+    border: 1px solid rgba(124, 58, 237, 0.3);
   }
 
   .q-text {
-    font-size: var(--font-size-4);
-    font-weight: 800;
-    line-height: 1.3;
-    margin-bottom: var(--size-6);
+    font-family: var(--font-body);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    color: white;
   }
 
   .choices-grid {
     display: flex;
     flex-direction: column;
-    gap: var(--size-3);
+    gap: 0.75rem;
   }
 
   .choice-btn {
@@ -117,114 +119,115 @@
     text-align: left;
     width: 100%;
     padding: 0;
-    border: 2px solid var(--gray-3);
-    background: var(--gray-0);
-    border-radius: var(--radius-2);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
     overflow: hidden;
-    transition: var(--transition);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
-    color: var(--gray-9);
-  }
-
-  :global([data-theme="dark"]) .choice-btn {
-    border-color: var(--gray-7);
-    background: var(--gray-9);
-    color: var(--gray-1);
+    color: var(--cse-text);
   }
 
   .choice-btn:not(:disabled):hover {
-    border-color: var(--primary);
+    border-color: rgba(139, 92, 246, 0.5);
+    background: rgba(139, 92, 246, 0.08);
     transform: translateY(-2px);
-    box-shadow: var(--shadow-2);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.15);
   }
 
   .choice-letter {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 3rem;
+    width: 3.5rem;
     align-self: stretch;
-    background: var(--gray-2);
-    font-weight: bold;
-    font-size: var(--font-size-3);
-    border-right: 2px solid var(--gray-3);
-    transition: var(--transition);
-  }
-
-  :global([data-theme="dark"]) .choice-letter {
-    background: var(--gray-8);
-    border-color: var(--gray-7);
+    background: rgba(255, 255, 255, 0.05);
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    transition: all 0.2s ease;
   }
 
   .choice-btn:not(:disabled):hover .choice-letter {
-    background: var(--primary);
+    background: var(--cse-primary);
     color: white;
-    border-color: var(--primary);
+    border-color: var(--cse-primary);
   }
 
   .choice-text {
-    padding: var(--size-3);
+    padding: 1rem;
     flex-grow: 1;
     font-weight: 500;
+    font-size: 0.95rem;
   }
 
   /* States */
+  .choice-btn.pending {
+    border-color: rgba(124, 58, 237, 0.6);
+    background: rgba(124, 58, 237, 0.12);
+  }
+  .choice-btn.pending .choice-letter {
+    background: rgba(124, 58, 237, 0.25);
+    color: white;
+    border-color: rgba(124, 58, 237, 0.6);
+  }
+
   .choice-btn.correct {
-    border-color: var(--green-6);
-    background: var(--green-0);
-    color: var(--green-9);
+    border-color: var(--cse-green);
+    background: rgba(52, 211, 153, 0.12);
+    color: var(--cse-green);
   }
   .choice-btn.correct .choice-letter {
-    background: var(--green-6);
-    color: white;
-    border-color: var(--green-6);
+    background: var(--cse-green);
+    color: #022c22;
+    border-color: var(--cse-green);
   }
 
   .choice-btn.wrong {
-    border-color: var(--red-6);
-    background: var(--red-0);
-    color: var(--red-9);
+    border-color: var(--cse-red);
+    background: rgba(248, 113, 113, 0.12);
+    color: var(--cse-red);
   }
   .choice-btn.wrong .choice-letter {
-    background: var(--red-6);
-    color: white;
-    border-color: var(--red-6);
+    background: var(--cse-red);
+    color: #450a0a;
+    border-color: var(--cse-red);
   }
 
   .choice-btn.selected {
-    border-color: var(--primary);
-    background: var(--indigo-0);
+    border-color: var(--cse-primary);
+    background: rgba(124, 58, 237, 0.15);
+    box-shadow: 0 0 0 1px var(--cse-primary);
   }
   .choice-btn.selected .choice-letter {
-    background: var(--primary);
+    background: var(--cse-primary);
     color: white;
-    border-color: var(--primary);
+    border-color: var(--cse-primary);
   }
 
   .choice-btn.disabled {
-    opacity: 0.6;
+    opacity: 0.65;
     cursor: not-allowed;
   }
 
   .status-icon {
-    padding-right: var(--size-4);
-    font-weight: bold;
-    font-size: var(--font-size-1);
+    padding-right: 1rem;
+    font-weight: 700;
+    font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
-  .correct-icon { color: var(--green-6); }
-  .wrong-icon { color: var(--red-6); }
+  .correct-icon { color: var(--cse-green); }
+  .wrong-icon { color: var(--cse-red); }
 
   .explanation {
-    margin-top: var(--size-5);
-    padding: var(--size-4);
-    background: var(--gray-1);
-    border-left: 4px solid var(--primary);
-    border-radius: 0 var(--radius-2) var(--radius-2) 0;
-  }
-
-  :global([data-theme="dark"]) .explanation {
-    background: var(--gray-9);
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-left: 4px solid var(--cse-primary);
+    border-radius: 0 12px 12px 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--cse-text);
   }
 </style>
