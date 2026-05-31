@@ -22,14 +22,55 @@
   let isPractice = $derived(currentMode === 'practice');
   
   let currentIndex = $state(0);
-  let score = $state(0);
   let userAnswers = $state<Record<number, string>>({});
   let pendingAnswer = $state<string | null>(null);
+  let showOverview = $state(false);
+  
+  // Custom dialog/confirmation modal state
+  let showConfirmModal = $state(false);
+  let confirmTitle = $state('');
+  let confirmMessage = $state('');
+  let confirmActionText = $state('');
+  let onConfirmCallback = $state<(() => void) | null>(null);
+  let isDangerAction = $state(false);
+  let isAlertModal = $state(false);
+
+  function triggerConfirm({
+    title,
+    message,
+    actionText,
+    isDanger = false,
+    isAlert = false,
+    callback
+  }: {
+    title: string;
+    message: string;
+    actionText: string;
+    isDanger?: boolean;
+    isAlert?: boolean;
+    callback: () => void;
+  }) {
+    confirmTitle = title;
+    confirmMessage = message;
+    confirmActionText = actionText;
+    isDangerAction = isDanger;
+    isAlertModal = isAlert;
+    onConfirmCallback = () => {
+      callback();
+      showConfirmModal = false;
+    };
+    showConfirmModal = true;
+  }
   
   let currentQuestion = $derived(questions && questions.length > 0 && currentIndex < questions.length ? questions[currentIndex] : null);
   let hasAnswered = $derived(userAnswers[currentIndex] !== undefined);
   let selectedAnswer = $derived(hasAnswered ? userAnswers[currentIndex] : pendingAnswer);
   let isFinished = $derived(questions && questions.length > 0 && currentIndex >= questions.length);
+  let unansweredCount = $derived(questions ? questions.length - Object.keys(userAnswers).length : 0);
+  
+  let score = $derived(questions.reduce((total, q, idx) => {
+    return total + (userAnswers[idx] === q.correct_answer ? 1 : 0);
+  }, 0));
 
   onMount(() => {
     const urlParams = new URLSearchParams(window.location.search);
@@ -42,7 +83,6 @@
             questions = saved.questions;
             currentIndex = saved.currentIndex;
             userAnswers = saved.userAnswers || {};
-            score = saved.score || 0;
             currentMode = saved.mode;
             currentCategory = saved.category || '';
             currentLevel = saved.level || 'professional';
@@ -59,22 +99,30 @@
   });
 
   function handleSelect(choice: string) {
-    if (hasAnswered) return;
+    if (isPractice && hasAnswered) return;
     pendingAnswer = choice;
-  }
-
-  function handleConfirm() {
-    if (!pendingAnswer || hasAnswered) return;
-    
-    userAnswers[currentIndex] = pendingAnswer;
-    if (pendingAnswer === currentQuestion.correct_answer) {
-      score += 1;
+    if (!isPractice) {
+      userAnswers[currentIndex] = choice;
     }
   }
 
+  function handleConfirm() {
+    if (!pendingAnswer || (isPractice && hasAnswered)) return;
+    userAnswers[currentIndex] = pendingAnswer;
+  }
+
   function handleNext() {
-    pendingAnswer = null;
-    currentIndex += 1;
+    if (currentIndex < questions.length - 1) {
+      currentIndex += 1;
+      pendingAnswer = userAnswers[currentIndex] || null;
+    }
+  }
+
+  function handlePrevious() {
+    if (currentIndex > 0) {
+      currentIndex -= 1;
+      pendingAnswer = userAnswers[currentIndex] || null;
+    }
   }
 
   function handleExit() {
@@ -86,7 +134,6 @@
       questions,
       currentIndex,
       userAnswers,
-      score,
       mode: currentMode,
       category: currentCategory,
       level: currentLevel,
@@ -97,23 +144,52 @@
   }
 
   function handleTerminateSession() {
-    if (window.confirm("Are you sure you want to terminate your exam session? Your current progress will be lost permanently.")) {
-      localStorage.removeItem('cse_active_session');
-      goto('/');
-    }
+    triggerConfirm({
+      title: "Terminate Session",
+      message: "Are you sure you want to terminate your exam session? Your current progress will be lost permanently.",
+      actionText: "YES, TERMINATE",
+      isDanger: true,
+      callback: () => {
+        localStorage.removeItem('cse_active_session');
+        goto('/');
+      }
+    });
+  }
+
+  function toggleOverview() {
+    showOverview = !showOverview;
+  }
+
+  function jumpToQuestion(index: number) {
+    currentIndex = index;
+    pendingAnswer = userAnswers[currentIndex] || null;
+    showOverview = false;
   }
 
   function handleSubmitExam() {
-    // Automatically record selected answer for the last question if mock mode and not confirmed
-    if (!isPractice && !hasAnswered && pendingAnswer) {
-      userAnswers[currentIndex] = pendingAnswer;
-      if (pendingAnswer === currentQuestion.correct_answer) {
-        score += 1;
-      }
+    if (unansweredCount > 0) {
+      triggerConfirm({
+        title: "Unfinished Questions",
+        message: `You have ${unansweredCount} unanswered questions. Please complete them before submitting.`,
+        actionText: "REVIEW QUESTIONS",
+        isDanger: false,
+        isAlert: true,
+        callback: () => {
+          showOverview = true;
+        }
+      });
+      return;
     }
-    
-    localStorage.removeItem('cse_active_session');
-    currentIndex = questions.length;
+    triggerConfirm({
+      title: "Submit Exam",
+      message: "Are you sure you want to submit your exam now? You will not be able to change your answers.",
+      actionText: "SUBMIT NOW",
+      isDanger: false,
+      callback: () => {
+        localStorage.removeItem('cse_active_session');
+        currentIndex = questions.length;
+      }
+    });
   }
 </script>
 
@@ -134,7 +210,7 @@
 {:else}
   <div class="quiz-container fade-in">
     <ProgressBar 
-      current={currentIndex} 
+      answeredCount={questions.length - unansweredCount} 
       total={questions.length} 
       {score} 
       {isPractice} 
@@ -145,6 +221,8 @@
       {hasAnswered}
       {selectedAnswer}
       {isPractice}
+      {currentIndex}
+      total={questions.length}
       onSelect={handleSelect}
     />
 
@@ -154,7 +232,7 @@
           <button class="btn-dark" onclick={handleSaveAndClose}>
             Save and Close
           </button>
-          <button class="btn-terminate" onclick={handleTerminateSession}>
+          <button class="btn-terminate hidden-mobile" onclick={handleTerminateSession}>
             Terminate Session
           </button>
         {:else}
@@ -173,7 +251,7 @@
               <span class="text-red">✗ Review the explanation above.</span>
             {/if}
           {:else}
-            <span>Answer locked.</span>
+            <span>Answered.</span>
           {/if}
         {:else}
           <span>Select an answer above.</span>
@@ -181,43 +259,104 @@
       </div>
 
       <div class="action-buttons">
-        {#if currentIndex < questions.length - 1}
-          {#if hasAnswered}
-            <button class="btn-primary pulse-anim" onclick={handleNext}>
-              Next Question
-            </button>
-          {:else}
-            <button class="btn-primary" onclick={handleConfirm} disabled={!pendingAnswer}>
-              Confirm Answer
-            </button>
-          {/if}
-        {:else}
-          {#if isPractice}
-            {#if hasAnswered}
-              <button class="btn-primary btn-submit pulse-anim" onclick={handleSubmitExam}>
-                Submit
-              </button>
-            {:else}
-              <button class="btn-primary" onclick={handleConfirm} disabled={!pendingAnswer}>
-                Confirm Answer
-              </button>
-            {/if}
-          {:else}
-            <button class="btn-primary btn-submit pulse-anim" onclick={handleSubmitExam} disabled={!pendingAnswer && !hasAnswered}>
-              Submit
-            </button>
-          {/if}
+        <button class="btn-icon" onclick={toggleOverview} title="Question Overview" aria-label="Question Overview">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+        </button>
+
+        {#if currentIndex > 0}
+          <button class="btn-icon" onclick={handlePrevious} title="Previous Question" aria-label="Previous">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          </button>
+        {/if}
+
+        {#if isPractice && !hasAnswered && pendingAnswer}
+          <button class="btn-primary uppercase" onclick={handleConfirm}>
+            CONFIRM ANSWER
+          </button>
+        {:else if currentIndex < questions.length - 1}
+          <button class="btn-icon" onclick={handleNext} title="Next Question" aria-label="Next">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+        {/if}
+
+        {#if unansweredCount === 0}
+          <button class="btn-primary btn-submit uppercase" onclick={handleSubmitExam}>
+            SUBMIT
+          </button>
         {/if}
       </div>
     </footer>
   </div>
 {/if}
 
+{#if showOverview}
+  <div class="overview-overlay fade-in" onclick={toggleOverview} onkeydown={(e) => e.key === 'Escape' && toggleOverview()} tabindex="0" role="button">
+    <div class="overview-modal slide-up" onclick={(e) => e.stopPropagation()} role="dialog">
+      <div class="overview-header">
+        <h3>Question Overview</h3>
+        <button class="close-btn" onclick={toggleOverview} aria-label="Close">✕</button>
+      </div>
+      <div class="overview-grid">
+        {#each questions as _, i}
+          <button 
+            class="grid-item {userAnswers[i] ? 'answered' : 'unanswered'} {currentIndex === i ? 'current' : ''}"
+            onclick={() => jumpToQuestion(i)}
+          >
+            {i + 1}
+          </button>
+        {/each}
+      </div>
+      <div class="overview-footer">
+        {#if unansweredCount > 0}
+          <p class="unanswered-warning">You have <strong>{unansweredCount}</strong> unanswered questions.</p>
+        {:else}
+          <p class="all-answered-text text-emerald">All questions answered! Ready to submit.</p>
+        {/if}
+        <button class="btn-terminate btn-full" onclick={handleTerminateSession}>
+          Terminate Session
+        </button>
+      </div>
+    </div>
+  </div>
+{/if}
+
+{#if showConfirmModal}
+  <div class="modal-overlay fade-in" onclick={() => { if (!isAlertModal) showConfirmModal = false; }} onkeydown={(e) => e.key === 'Escape' && !isAlertModal && (showConfirmModal = false)} tabindex="0" role="button">
+    <div class="confirm-modal slide-up" onclick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" aria-labelledby="confirm-title">
+      <div class="confirm-header">
+        {#if isDangerAction}
+          <div class="confirm-icon danger-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+          </div>
+        {:else}
+          <div class="confirm-icon info-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          </div>
+        {/if}
+        <h3 id="confirm-title">{confirmTitle}</h3>
+      </div>
+      <div class="confirm-body">
+        <p>{confirmMessage}</p>
+      </div>
+      <div class="confirm-footer">
+        {#if !isAlertModal}
+          <button class="btn-ghost" onclick={() => showConfirmModal = false}>
+            CANCEL
+          </button>
+        {/if}
+        <button class={isDangerAction ? 'btn-danger-confirm' : 'btn-primary'} onclick={() => onConfirmCallback?.()}>
+          {confirmActionText}
+        </button>
+      </div>
+    </div>
+  </div>
+{/if}
+
 <style>
   .quiz-container {
     max-width: 800px;
-    margin: 0 auto 4rem;
-    padding: 0 1rem;
+    margin: 0 auto;
+    padding: 0 1rem 4rem;
   }
 
   .text-center { text-align: center; }
@@ -286,6 +425,36 @@
     background: linear-gradient(135deg, #8b5cf6, #6d28d9);
   }
 
+  .uppercase {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: var(--cse-text);
+    border-radius: 10px;
+    padding: 0.65rem;
+    cursor: pointer;
+    transition: var(--cse-transition);
+  }
+
+  .btn-icon:hover {
+    background: rgba(139, 92, 246, 0.15);
+    border-color: rgba(139, 92, 246, 0.4);
+    color: var(--cse-primary-light);
+  }
+
+  .action-buttons {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
   @media (max-width: 768px) {
     .hidden-mobile {
       display: none !important;
@@ -307,8 +476,15 @@
       padding: 0.75rem 0.5rem;
       font-size: 0.8rem;
     }
-    .action-buttons button {
+    .action-buttons {
+      justify-content: space-between;
       width: 100%;
+    }
+    .action-buttons > button {
+      flex: 1;
+    }
+    .action-buttons > .btn-icon {
+      flex: 0 0 auto;
     }
   }
 
@@ -318,13 +494,221 @@
     font-weight: 600;
   }
 
-  .pulse-anim {
-    animation: pulse-border 2s infinite;
+  /* Modal Styles */
+  .overview-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 1rem;
   }
 
-  @keyframes pulse-border {
-    0% { box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.4); }
-    70% { box-shadow: 0 0 0 10px rgba(124, 58, 237, 0); }
-    100% { box-shadow: 0 0 0 0 rgba(124, 58, 237, 0); }
+  .overview-modal {
+    background: #171923;
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+  }
+
+  .overview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+  }
+
+  .overview-header h3 {
+    margin: 0;
+    font-family: var(--font-display);
+    color: var(--cse-primary-light);
+  }
+
+  .close-btn {
+    background: none; border: none;
+    color: var(--cse-text-muted);
+    font-size: 1.25rem; cursor: pointer;
+  }
+
+  .overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
+    gap: 0.75rem;
+    padding: 1.5rem;
+  }
+
+  .grid-item {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.2s;
+  }
+
+  .grid-item.answered {
+    background: rgba(139, 92, 246, 0.2);
+    border-color: rgba(139, 92, 246, 0.5);
+    color: white;
+  }
+
+  .grid-item.unanswered {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--cse-text-muted);
+  }
+
+  .grid-item:hover {
+    transform: scale(1.05);
+    background: rgba(139, 92, 246, 0.4);
+    border-color: var(--cse-primary-light);
+    color: white;
+  }
+
+  .grid-item.current {
+    box-shadow: 0 0 0 2px var(--cse-primary-light);
+  }
+
+  .overview-footer {
+    padding: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    text-align: center;
+  }
+
+  .unanswered-warning {
+    color: var(--cse-red);
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .all-answered-text {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .btn-full {
+    width: 100%;
+  }
+
+  /* Custom Confirm Dialog Styles */
+  .modal-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    backdrop-filter: blur(8px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1100;
+    padding: 1.5rem;
+  }
+
+  .confirm-modal {
+    background: #171923;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 440px;
+    box-shadow: 
+      0 25px 60px rgba(0, 0, 0, 0.65),
+      0 0 40px rgba(124, 58, 237, 0.06);
+    overflow: hidden;
+    padding: 2rem;
+  }
+
+  .confirm-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .confirm-header h3 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: white;
+    letter-spacing: -0.3px;
+  }
+
+  .confirm-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+
+  .danger-icon {
+    background: rgba(248, 113, 113, 0.12);
+    color: var(--cse-red);
+    border: 2px solid rgba(248, 113, 113, 0.25);
+  }
+
+  .info-icon {
+    background: rgba(124, 58, 237, 0.15);
+    color: var(--cse-primary-light);
+    border: 2px solid rgba(124, 58, 237, 0.3);
+  }
+
+  .confirm-body {
+    text-align: center;
+    margin-bottom: 1.75rem;
+  }
+
+  .confirm-body p {
+    color: var(--cse-text-muted);
+    font-size: 0.95rem;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .confirm-footer {
+    display: flex;
+    gap: 0.75rem;
+  }
+
+  .confirm-footer button {
+    flex: 1;
+    padding: 0.85rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+
+  .btn-danger-confirm {
+    background: linear-gradient(135deg, #ef4444, #b91c1c);
+    color: white !important;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: var(--cse-transition);
+    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+  }
+
+  .btn-danger-confirm:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(239, 68, 68, 0.45);
+    background: linear-gradient(135deg, #f87171, #ef4444);
+  }
+
+  .btn-danger-confirm:active {
+    transform: translateY(0);
   }
 </style>

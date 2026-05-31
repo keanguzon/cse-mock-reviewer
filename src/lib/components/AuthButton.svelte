@@ -29,7 +29,9 @@
       alt="avatar"
       class="avatar"
     />
-    <span class="user-name">{user.user_metadata.full_name || user.user_metadata.name || user.email}</span>
+    <span class="user-name" class:hidden={isQuizPage}>
+      {user.user_metadata.full_name || user.user_metadata.name || user.email}
+    </span>
     {#if !isQuizPage}
       <button class="btn-sign-out" onclick={signOut}>Sign Out</button>
     {/if}
@@ -63,6 +65,16 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+  }
+
+  .user-name.hidden {
+    display: none;
+  }
+
+  @media (max-width: 600px) {
+    .user-name {
+      display: none;
+    }
   }
 
   .btn-sign-out {

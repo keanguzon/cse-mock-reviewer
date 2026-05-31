@@ -92,8 +92,8 @@
         "category": "Verbal Ability – Paragraph Organization",
         "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) As a result, the agency has seen a significant decrease in processing time.\n(2) The agency implemented an online application system last year.\n(3) Citizens can now submit requirements from home without visiting the office.\n(4) Prior to this, all transactions required in-person visits.",
         "choices": ["4-2-3-1", "2-4-3-1", "2-3-4-1", "4-3-2-1"],
-        "correct_answer": "4-2-3-1",
-        "explanation": "Sentence 4 provides the historical context. Sentence 2 introduces the change. Sentence 3 explains the benefit. Sentence 1 concludes with the result ('As a result')."
+        "correct_answer": "2-4-3-1",
+        "explanation": "Sentence 2 introduces the new online system. Sentence 4 contrasts this with the past ('Prior to this' refers to the new system). Sentence 3 describes the present capability. Sentence 1 concludes with the result ('As a result')."
     },
     {
         "id": "73",
@@ -116,8 +116,8 @@
         "category": "Verbal Ability – Paragraph Organization",
         "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Unfortunately, many communities still lack access to clean drinking water.\n(2) Clean water is essential for maintaining public health.\n(3) The government has launched several programs to address this issue.\n(4) Contaminated water sources lead to the spread of waterborne diseases.",
         "choices": ["2-4-1-3", "1-2-3-4", "4-2-1-3", "2-1-4-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces the importance of clean water. Sentence 4 explains the danger of contamination. Sentence 1 states the problem ('Unfortunately'). Sentence 3 concludes with the solution."
+        "correct_answer": "2-1-4-3",
+        "explanation": "Sentence 2 establishes the importance of clean water. Sentence 1 introduces the problem ('Unfortunately, many lack access'). Sentence 4 elaborates on the consequence of this lack of access. Sentence 3 concludes with the government's solution to 'this issue'."
     },
     {
         "id": "76",

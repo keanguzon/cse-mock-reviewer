@@ -12,32 +12,33 @@
     question, 
     hasAnswered, 
     selectedAnswer, 
-    isPractice, 
+    isPractice,
+    currentIndex,
+    total,
     onSelect 
   } = $props<{
     question: Question;
     hasAnswered: boolean;
     selectedAnswer: string | null;
     isPractice: boolean;
+    currentIndex: number;
+    total: number;
     onSelect: (choice: string) => void;
   }>();
 
   const getChoiceClass = (choice: string) => {
     const isSelected = selectedAnswer === choice;
 
-    if (!hasAnswered) {
-      return isSelected ? 'choice-btn pending' : 'choice-btn';
-    }
-    
     const isCorrect = choice === question.correct_answer;
     
     if (isPractice) {
+      if (!hasAnswered) return isSelected ? 'choice-btn pending' : 'choice-btn';
       if (isCorrect) return 'choice-btn correct';
       if (isSelected && !isCorrect) return 'choice-btn wrong';
       return 'choice-btn disabled';
     } else {
       if (isSelected) return 'choice-btn selected';
-      return 'choice-btn disabled';
+      return 'choice-btn';
     }
   };
 </script>
@@ -45,16 +46,17 @@
 <article class="glass-card slide-up">
   <header class="q-header">
     <span class="category-badge">{question.category}</span>
+    <span class="page-number">Question {currentIndex + 1} of {total}</span>
   </header>
   
-  <h2 class="q-text">{question.question}</h2>
+  <h2 class="q-text">{@html question.question.replace(/_+/g, '<span class="blank-line"></span>')}</h2>
   
   <div class="choices-grid">
     {#each question.choices as choice, i}
       <button 
         class={getChoiceClass(choice)}
-        onclick={() => !hasAnswered && onSelect(choice)}
-        disabled={hasAnswered}
+        onclick={() => { if (!isPractice || !hasAnswered) onSelect(choice); }}
+        disabled={isPractice && hasAnswered}
         aria-pressed={selectedAnswer === choice}
       >
         <span class="choice-letter">{String.fromCharCode(65 + i)}</span>
@@ -81,12 +83,24 @@
 
 <style>
   .q-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 1.5rem;
     border-bottom: 1px solid var(--cse-border);
     padding-bottom: 1rem;
   }
 
+  .page-number {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--cse-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
   .category-badge {
+    display: inline-block;
     background: rgba(124, 58, 237, 0.15);
     color: var(--cse-primary-light);
     padding: 0.35rem 0.8rem;
@@ -105,6 +119,14 @@
     line-height: 1.5;
     margin-bottom: 2rem;
     color: white;
+  }
+
+  :global(.blank-line) {
+    display: inline-block;
+    width: 60px;
+    border-bottom: 2px solid white;
+    margin: 0 4px;
+    vertical-align: middle;
   }
 
   .choices-grid {

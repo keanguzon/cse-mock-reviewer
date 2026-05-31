@@ -44,6 +44,6 @@
 
 <style>
   :global(body) {
-    background: #0f1117;
+    background: #0a0512;
   }
 </style>

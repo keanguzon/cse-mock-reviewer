@@ -1,17 +1,17 @@
 <script lang="ts">
-  let { current, total, score, isPractice } = $props<{
-    current: number;
+  let { answeredCount, total, score, isPractice } = $props<{
+    answeredCount: number;
     total: number;
     score: number;
     isPractice: boolean;
   }>();
 
-  let percentage = $derived(total > 0 ? (current / total) * 100 : 0);
+  let percentage = $derived(total > 0 ? (answeredCount / total) * 100 : 0);
 </script>
 
 <div class="progress-wrapper fade-in">
   <div class="meta">
-    <span class="count">{current} / {total} completed</span>
+    <span class="count">{answeredCount} / {total} completed</span>
     {#if isPractice}
       <span class="score">Score: {score}</span>
     {:else}
