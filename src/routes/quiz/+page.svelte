@@ -68,7 +68,7 @@
   let isFinished = $derived(questions && questions.length > 0 && currentIndex >= questions.length);
   let unansweredCount = $derived(questions ? questions.length - Object.keys(userAnswers).length : 0);
   
-  let score = $derived(questions.reduce((total, q, idx) => {
+  let score = $derived(questions.reduce((total: number, q: any, idx: number) => {
     return total + (userAnswers[idx] === q.correct_answer ? 1 : 0);
   }, 0));
 
@@ -205,6 +205,9 @@
     total={questions.length} 
     category={currentCategory || 'All Categories'}
     mode={currentMode}
+    level={currentLevel}
+    {questions}
+    {userAnswers}
     onExit={handleExit} 
   />
 {:else}

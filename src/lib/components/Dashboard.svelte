@@ -2,8 +2,18 @@
     import { supabase } from '$lib/supabaseClient';
     import { onMount } from 'svelte';
     import type { User } from '@supabase/supabase-js';
+    import { goto } from '$app/navigation';
 
     let { user }: { user: User } = $props();
+
+    type Question = {
+        id: string;
+        question: string;
+        choices: string[];
+        correct_answer: string;
+        explanation?: string;
+        category: string;
+    };
 
     interface Attempt {
         id: string;
@@ -11,24 +21,27 @@
         total: number;
         category: string;
         mode: string;
+        level?: string;
         completed_at: string;
+        questions?: Question[];
+        user_answers?: Record<number, string>;
     }
 
     let attempts: Attempt[] = $state([]);
     let loading = $state(true);
     let error = $state<string | null>(null);
+    let showAll = $state(false);
 
     onMount(async () => {
         if (!user) return;
-        
         try {
             const { data, error: dbError } = await supabase
                 .from('exam_attempts')
-                .select('*')
+                .select('id, score, total, category, mode, level, completed_at')
                 .eq('user_id', user.id)
                 .order('completed_at', { ascending: false })
                 .limit(10);
-                
+
             if (dbError) throw dbError;
             attempts = data || [];
         } catch (err: any) {
@@ -40,8 +53,8 @@
     });
 
     let highScore = $derived(
-        attempts.length > 0 
-            ? Math.max(...attempts.map(a => Math.round((a.score / a.total) * 100))) 
+        attempts.length > 0
+            ? Math.max(...attempts.map(a => Math.round((a.score / a.total) * 100)))
             : 0
     );
 
@@ -50,11 +63,32 @@
             ? Math.round(attempts.reduce((acc, a) => acc + (a.score / a.total) * 100, 0) / attempts.length)
             : 0
     );
+
+    function getLevelLabel(attempt: Attempt): { label: string; cls: string } {
+        const lvl = (attempt.level || '').toLowerCase();
+        if (lvl === 'subprofessional') return { label: 'Sub-Professional', cls: 'badge-sub' };
+        if (lvl === 'professional') return { label: 'Professional', cls: 'badge-pro' };
+        const lower = (attempt.category || '').toLowerCase();
+        if (lower.includes('clerical')) return { label: 'Sub-Professional', cls: 'badge-sub' };
+        return { label: 'Professional', cls: 'badge-pro' };
+    }
+
+    function formatDate(dateStr: string) {
+        return new Date(dateStr).toLocaleDateString('en-PH', {
+            month: 'short', day: 'numeric', year: 'numeric'
+        });
+    }
+
+    function formatMode(mode: string) {
+        return mode === 'mock' ? '⏱️ Mock Exam' : '📚 Practice';
+    }
+
+    let displayedAttempts = $derived(showAll ? attempts : attempts.slice(0, 2));
 </script>
 
 <div class="dashboard glass-card slide-up">
     <h2 class="dashboard-title">Welcome back, {user.user_metadata.full_name?.split(' ')[0] || 'Reviewer'}! 👋</h2>
-    
+
     {#if loading}
         <div style="text-align: center; padding: 1.5rem;">
             <progress class="progress" max="100" style="max-width: 200px; margin: 0 auto;"></progress>
@@ -84,38 +118,49 @@
             </div>
             <div class="stat-card">
                 <h3>Quizzes Taken</h3>
-                <div class="stat-value">
-                    {attempts.length}
-                </div>
+                <div class="stat-value">{attempts.length}</div>
             </div>
         </div>
 
         <div class="recent-activity">
             <h3>Recent Activity</h3>
             <div class="activity-list">
-                {#each attempts as attempt}
+                {#each displayedAttempts as attempt}
+                    {@const pct = Math.round((attempt.score / attempt.total) * 100)}
+                    {@const level = getLevelLabel(attempt)}
                     <div class="activity-item">
                         <div class="activity-info">
-                            <strong>{attempt.category === 'all' ? 'Mixed Categories' : attempt.category}</strong>
-                            <small>{new Date(attempt.completed_at).toLocaleDateString()}</small>
+                            <strong>{attempt.category === 'all' || attempt.category === '' ? 'Mixed Categories' : attempt.category}</strong>
+                            <div class="activity-meta-row">
+                                <span class="level-badge {level.cls}">{level.label}</span>
+                                <small>{formatDate(attempt.completed_at)}</small>
+                            </div>
+                            <small class="mode-label">{formatMode(attempt.mode)}</small>
                         </div>
-                        <div class="activity-score">
-                            <span class="score-badge" class:good={attempt.score/attempt.total >= 0.75} class:needs-work={attempt.score/attempt.total < 0.75}>
-                                {attempt.score} / {attempt.total}
+                        <div class="activity-right">
+                            <span class="score-badge" class:good={pct >= 75} class:needs-work={pct < 75}>
+                                {attempt.score}/{attempt.total}
                             </span>
+                            <button class="btn-view-submission" onclick={() => goto('/submission/' + attempt.id)}>
+                                View Submission
+                            </button>
                         </div>
                     </div>
                 {/each}
             </div>
+
+            {#if attempts.length > 2}
+                <button class="btn-see-all" onclick={() => showAll = !showAll}>
+                    {showAll ? '↑ Show Less' : `See All Exams (${attempts.length}) →`}
+                </button>
+            {/if}
         </div>
     {/if}
 </div>
 
 <style>
-    .dashboard {
-        margin-bottom: 2rem;
-    }
-    
+    .dashboard { margin-bottom: 2rem; }
+
     .dashboard-title {
         margin-top: 0;
         margin-bottom: 1.5rem;
@@ -127,16 +172,9 @@
         background-clip: text;
     }
 
-    .error-text {
-        color: var(--cse-red);
-        text-align: center;
-    }
+    .error-text { color: var(--cse-red); text-align: center; }
 
-    .empty-state {
-        text-align: center;
-        padding: 1.5rem;
-        color: #94a3b8;
-    }
+    .empty-state { text-align: center; padding: 1.5rem; color: #94a3b8; }
 
     .stats-grid {
         display: grid;
@@ -146,7 +184,7 @@
     }
 
     .stat-card {
-        background: rgba(255, 255, 255, 0.04);
+        background: rgba(255,255,255,0.04);
         padding: 1.25rem;
         border-radius: var(--cse-radius-sm);
         border: 1px solid var(--cse-border);
@@ -179,53 +217,155 @@
         font-weight: 700;
     }
 
-    .activity-list {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-    }
+    .activity-list { display: flex; flex-direction: column; gap: 0.5rem; }
 
     .activity-item {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0.75rem 1rem;
-        background: rgba(255, 255, 255, 0.03);
+        padding: 0.85rem 1rem;
+        background: rgba(255,255,255,0.03);
         border-radius: var(--cse-radius-sm);
         border: 1px solid var(--cse-border);
+        gap: 0.75rem;
+        transition: border-color 0.2s ease, background 0.2s ease;
     }
 
-    .activity-info {
-        display: flex;
-        flex-direction: column;
+    .activity-item:hover {
+        border-color: rgba(139,92,246,0.3);
+        background: rgba(139,92,246,0.03);
     }
+
+    .activity-info { display: flex; flex-direction: column; gap: 0.25rem; flex: 1; min-width: 0; }
 
     .activity-info strong {
         font-size: 0.85rem;
         color: var(--cse-text);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
-    .activity-info small {
-        color: #7c6d8e;
-        font-size: 0.75rem;
+    .activity-meta-row { display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+
+    .activity-info small { color: #7c6d8e; font-size: 0.75rem; }
+    .mode-label { color: #7c6d8e; font-size: 0.72rem; }
+
+    .level-badge {
+        display: inline-block;
+        padding: 0.15rem 0.5rem;
+        border-radius: 999px;
+        font-size: 0.65rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        white-space: nowrap;
     }
+
+    .badge-pro {
+        background: rgba(99,102,241,0.15);
+        color: #a5b4fc;
+        border: 1px solid rgba(99,102,241,0.3);
+    }
+
+    .badge-sub {
+        background: rgba(251,191,36,0.12);
+        color: var(--cse-orange);
+        border: 1px solid rgba(251,191,36,0.25);
+    }
+
+    .activity-right { display: flex; flex-direction: column; align-items: flex-end; gap: 0.4rem; flex-shrink: 0; }
 
     .score-badge {
         padding: 0.25rem 0.75rem;
         border-radius: 999px;
         font-weight: 700;
         font-size: 0.78rem;
+        white-space: nowrap;
     }
 
     .score-badge.good {
-        background: rgba(52, 211, 153, 0.12);
+        background: rgba(52,211,153,0.12);
         color: var(--cse-green);
-        border: 1px solid rgba(52, 211, 153, 0.25);
+        border: 1px solid rgba(52,211,153,0.25);
     }
 
     .score-badge.needs-work {
-        background: rgba(251, 191, 36, 0.12);
+        background: rgba(251,191,36,0.12);
         color: var(--cse-orange);
-        border: 1px solid rgba(251, 191, 36, 0.25);
+        border: 1px solid rgba(251,191,36,0.25);
+    }
+
+    .btn-view-submission {
+        background: rgba(139,92,246,0.1);
+        border: 1px solid rgba(139,92,246,0.25);
+        color: var(--cse-primary-light, #a78bfa);
+        border-radius: 6px;
+        font-size: 0.7rem;
+        font-weight: 700;
+        padding: 0.25rem 0.6rem;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        white-space: nowrap;
+        font-family: var(--font-body);
+    }
+
+    .btn-view-submission:hover {
+        background: rgba(139,92,246,0.22);
+        border-color: rgba(139,92,246,0.5);
+        transform: translateY(-1px);
+    }
+
+    .btn-see-all {
+        display: block;
+        width: 100%;
+        margin-top: 0.75rem;
+        padding: 0.65rem 1rem;
+        background: rgba(255,255,255,0.03);
+        border: 1px dashed rgba(255,255,255,0.1);
+        border-radius: var(--cse-radius-sm);
+        color: #7c6d8e;
+        font-size: 0.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        font-family: var(--font-body);
+        text-align: center;
+    }
+
+    .btn-see-all:hover {
+        background: rgba(139,92,246,0.07);
+        border-color: rgba(139,92,246,0.3);
+        color: var(--cse-primary-light, #a78bfa);
+    }
+
+    :global(.blank-line) {
+        display: inline-block;
+        width: 80px;
+        border-bottom: 2px solid rgba(255,255,255,0.4);
+        margin: 0 2px;
+        vertical-align: bottom;
+    }
+
+    @media (max-width: 600px) {
+        .dashboard-title { font-size: 1.2rem; }
+        .activity-item {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+        }
+        .activity-right {
+            width: 100%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .stats-grid {
+            grid-template-columns: 1fr;
+        }
     }
 </style>
