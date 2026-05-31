@@ -1,0 +1,162 @@
+[
+    {
+        "id": "1",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word that is most nearly the same in meaning as the underlined word: The manager gave a CURSORY review of the proposal before the meeting.",
+        "choices": ["Thorough", "Hasty", "Critical", "Detailed"],
+        "correct_answer": "Hasty",
+        "explanation": "'Cursory' means done rapidly without attention to detail. 'Hasty' is the closest synonym, implying a quick and superficial action."
+    },
+    {
+        "id": "2",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to BENEVOLENT.",
+        "choices": ["Generous", "Malevolent", "Charitable", "Amiable"],
+        "correct_answer": "Malevolent",
+        "explanation": "'Benevolent' means well-meaning and kindly. 'Malevolent' means having or showing a wish to do evil to others — a direct antonym."
+    },
+    {
+        "id": "3",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word UBIQUITOUS most nearly means:",
+        "choices": ["Rare", "Unique", "Present everywhere", "Invisible"],
+        "correct_answer": "Present everywhere",
+        "explanation": "'Ubiquitous' means found everywhere or very common. It comes from the Latin 'ubique,' meaning 'everywhere.'"
+    },
+    {
+        "id": "4",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to PRAGMATIC.",
+        "choices": ["Idealistic", "Practical", "Dogmatic", "Theoretical"],
+        "correct_answer": "Practical",
+        "explanation": "'Pragmatic' means dealing with things sensibly and realistically, making 'practical' the closest synonym."
+    },
+    {
+        "id": "5",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to VERBOSE.",
+        "choices": ["Wordy", "Concise", "Lengthy", "Elaborate"],
+        "correct_answer": "Concise",
+        "explanation": "'Verbose' means using more words than needed. 'Concise' means giving a lot of information clearly in few words — the direct antonym."
+    },
+    {
+        "id": "6",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word METICULOUS most nearly means:",
+        "choices": ["Careless", "Showing great attention to detail", "Ordinary", "Spontaneous"],
+        "correct_answer": "Showing great attention to detail",
+        "explanation": "'Meticulous' describes someone who is very careful and precise, paying close attention to every detail."
+    },
+    {
+        "id": "7",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to CANDID.",
+        "choices": ["Secretive", "Frank", "Hostile", "Timid"],
+        "correct_answer": "Frank",
+        "explanation": "'Candid' means truthful and straightforward. 'Frank' carries the same meaning of open honesty in expression."
+    },
+    {
+        "id": "8",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to LETHARGIC.",
+        "choices": ["Sluggish", "Drowsy", "Energetic", "Passive"],
+        "correct_answer": "Energetic",
+        "explanation": "'Lethargic' means affected by lethargy — a lack of energy and enthusiasm. 'Energetic' is its opposite."
+    },
+    {
+        "id": "9",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word AMBIGUOUS most nearly means:",
+        "choices": ["Clear", "Definite", "Open to more than one interpretation", "Simple"],
+        "correct_answer": "Open to more than one interpretation",
+        "explanation": "'Ambiguous' means having a double meaning or being unclear, allowing for multiple interpretations."
+    },
+    {
+        "id": "10",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to DILIGENT.",
+        "choices": ["Lazy", "Negligent", "Industrious", "Indifferent"],
+        "correct_answer": "Industrious",
+        "explanation": "'Diligent' means having or showing care and effort in one's work. 'Industrious' shares this meaning of being hardworking."
+    },
+    {
+        "id": "11",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to ALLEVIATE.",
+        "choices": ["Aggravate", "Intensify", "Relieve", "Complicate"],
+        "correct_answer": "Relieve",
+        "explanation": "'Alleviate' means to make suffering or a problem less severe. 'Relieve' is the closest synonym."
+    },
+    {
+        "id": "12",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to LUCID.",
+        "choices": ["Clear", "Transparent", "Confusing", "Rational"],
+        "correct_answer": "Confusing",
+        "explanation": "'Lucid' means expressed clearly or easy to understand. 'Confusing' is its antonym."
+    },
+    {
+        "id": "13",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word TENACIOUS most nearly means:",
+        "choices": ["Weak", "Timid", "Persistent", "Flexible"],
+        "correct_answer": "Persistent",
+        "explanation": "'Tenacious' means holding firmly to something — not readily letting go. 'Persistent' captures this meaning of determined continuation."
+    },
+    {
+        "id": "14",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to PRUDENT.",
+        "choices": ["Reckless", "Cautious", "Impulsive", "Negligent"],
+        "correct_answer": "Cautious",
+        "explanation": "'Prudent' means acting with or showing care and thought for the future. 'Cautious' is the closest synonym."
+    },
+    {
+        "id": "15",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to ABUNDANT.",
+        "choices": ["Plentiful", "Scarce", "Ample", "Excessive"],
+        "correct_answer": "Scarce",
+        "explanation": "'Abundant' means existing or available in large quantities. 'Scarce' means insufficient for the demand — its direct antonym."
+    },
+    {
+        "id": "16",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word CLANDESTINE most nearly means:",
+        "choices": ["Open", "Secret", "Obvious", "Transparent"],
+        "correct_answer": "Secret",
+        "explanation": "'Clandestine' means kept secret or done secretively, especially because illicit. 'Secret' is the closest synonym."
+    },
+    {
+        "id": "17",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to RESILIENT.",
+        "choices": ["Fragile", "Tough", "Delicate", "Brittle"],
+        "correct_answer": "Tough",
+        "explanation": "'Resilient' means able to withstand or recover quickly from difficult conditions. 'Tough' captures this quality of durability."
+    },
+    {
+        "id": "18",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to FRIVOLOUS.",
+        "choices": ["Trivial", "Serious", "Silly", "Playful"],
+        "correct_answer": "Serious",
+        "explanation": "'Frivolous' means not having any serious purpose or value. 'Serious' is its direct antonym."
+    },
+    {
+        "id": "19",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word INCESSANT most nearly means:",
+        "choices": ["Occasional", "Continuous", "Brief", "Intermittent"],
+        "correct_answer": "Continuous",
+        "explanation": "'Incessant' means continuing without pause or interruption. 'Continuous' is the closest synonym."
+    },
+    {
+        "id": "20",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to ASTUTE.",
+        "choices": ["Naive", "Shrewd", "Foolish", "Gullible"],
+        "correct_answer": "Shrewd",
+        "explanation": "'Astute' means having an ability to accurately assess situations or people and turn this to one's advantage. 'Shrewd' shares this meaning of keen intelligence."
+    }
+]

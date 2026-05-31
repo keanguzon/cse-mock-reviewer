@@ -1,0 +1,162 @@
+[
+    {
+        "id": "81",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nRepublic Act No. 6713, also known as the Code of Conduct and Ethical Standards for Public Officials and Employees, was enacted to promote a high standard of ethics in public service. The law requires all government workers to act with patriotism, justice, and sincerity. It mandates the disclosure of financial interests and prohibits the solicitation or acceptance of gifts in connection with official duties. Violations can lead to administrative sanctions, including suspension or dismissal from service.\n\nWhat is the primary purpose of Republic Act No. 6713?",
+        "choices": ["To increase the salaries of government employees", "To promote a high standard of ethics in public service", "To establish the Civil Service Commission", "To create a judicial review process for public officials"],
+        "correct_answer": "To promote a high standard of ethics in public service",
+        "explanation": "The passage explicitly states that RA 6713 'was enacted to promote a high standard of ethics in public service.'"
+    },
+    {
+        "id": "82",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nRepublic Act No. 6713, also known as the Code of Conduct and Ethical Standards for Public Officials and Employees, was enacted to promote a high standard of ethics in public service. The law requires all government workers to act with patriotism, justice, and sincerity. It mandates the disclosure of financial interests and prohibits the solicitation or acceptance of gifts in connection with official duties. Violations can lead to administrative sanctions, including suspension or dismissal from service.\n\nAccording to the passage, which of the following is prohibited under RA 6713?",
+        "choices": ["Participating in community service activities", "Soliciting or accepting gifts connected to official duties", "Filing a leave of absence", "Joining a professional organization"],
+        "correct_answer": "Soliciting or accepting gifts connected to official duties",
+        "explanation": "The passage states the law 'prohibits the solicitation or acceptance of gifts in connection with official duties.'"
+    },
+    {
+        "id": "83",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nRepublic Act No. 6713, also known as the Code of Conduct and Ethical Standards for Public Officials and Employees, was enacted to promote a high standard of ethics in public service. The law requires all government workers to act with patriotism, justice, and sincerity. It mandates the disclosure of financial interests and prohibits the solicitation or acceptance of gifts in connection with official duties. Violations can lead to administrative sanctions, including suspension or dismissal from service.\n\nWhat can happen to those who violate the provisions of RA 6713?",
+        "choices": ["They receive a promotion", "They are given a warning letter only", "They may face suspension or dismissal from service", "They are transferred to a different department"],
+        "correct_answer": "They may face suspension or dismissal from service",
+        "explanation": "The passage clearly states that 'violations can lead to administrative sanctions, including suspension or dismissal from service.'"
+    },
+    {
+        "id": "84",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Freedom of Information (FOI) program in the Philippines aims to make government transactions and records accessible to the public. Under Executive Order No. 2, all government offices under the executive branch are mandated to disclose public records, contracts, and transactions. However, certain information classified as exceptions — such as those involving national security, diplomatic negotiations, or personal privacy — may be withheld. The FOI program is seen as a crucial step toward greater government transparency and citizen empowerment.\n\nWhat is the main goal of the FOI program?",
+        "choices": ["To classify all government documents as confidential", "To make government transactions and records accessible to the public", "To limit the rights of citizens to access information", "To privatize government records"],
+        "correct_answer": "To make government transactions and records accessible to the public",
+        "explanation": "The first sentence states the FOI program 'aims to make government transactions and records accessible to the public.'"
+    },
+    {
+        "id": "85",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Freedom of Information (FOI) program in the Philippines aims to make government transactions and records accessible to the public. Under Executive Order No. 2, all government offices under the executive branch are mandated to disclose public records, contracts, and transactions. However, certain information classified as exceptions — such as those involving national security, diplomatic negotiations, or personal privacy — may be withheld. The FOI program is seen as a crucial step toward greater government transparency and citizen empowerment.\n\nWhich of the following is an exception to the FOI disclosure requirement?",
+        "choices": ["Public infrastructure project contracts", "Employee salary grades", "Information involving national security", "Annual budget allocations"],
+        "correct_answer": "Information involving national security",
+        "explanation": "The passage lists national security, diplomatic negotiations, and personal privacy as exceptions to the disclosure requirement."
+    },
+    {
+        "id": "86",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Freedom of Information (FOI) program in the Philippines aims to make government transactions and records accessible to the public. Under Executive Order No. 2, all government offices under the executive branch are mandated to disclose public records, contracts, and transactions. However, certain information classified as exceptions — such as those involving national security, diplomatic negotiations, or personal privacy — may be withheld. The FOI program is seen as a crucial step toward greater government transparency and citizen empowerment.\n\nThe word 'mandated' in the passage most nearly means:",
+        "choices": ["Suggested", "Encouraged", "Required", "Permitted"],
+        "correct_answer": "Required",
+        "explanation": "'Mandated' means officially required or ordered by authority."
+    },
+    {
+        "id": "87",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Local Government Code of 1991, or Republic Act No. 7160, devolved several functions from the national government to local government units (LGUs). These include the delivery of basic services such as health, agriculture, social welfare, and public works. The law aimed to empower LGUs by giving them greater autonomy and fiscal independence. As a result, governors, mayors, and barangay captains now play a more direct role in addressing the needs of their constituents.\n\nWhat was the main purpose of RA 7160?",
+        "choices": ["To centralize power in the national government", "To abolish local government units", "To devolve functions from the national to local governments", "To reduce the budget of local government units"],
+        "correct_answer": "To devolve functions from the national to local governments",
+        "explanation": "The passage states that RA 7160 'devolved several functions from the national government to local government units.'"
+    },
+    {
+        "id": "88",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Local Government Code of 1991, or Republic Act No. 7160, devolved several functions from the national government to local government units (LGUs). These include the delivery of basic services such as health, agriculture, social welfare, and public works. The law aimed to empower LGUs by giving them greater autonomy and fiscal independence. As a result, governors, mayors, and barangay captains now play a more direct role in addressing the needs of their constituents.\n\nWhich of the following services was devolved to LGUs under the Local Government Code?",
+        "choices": ["National defense", "Foreign affairs", "Health services", "Monetary policy"],
+        "correct_answer": "Health services",
+        "explanation": "The passage specifies that devolved services include 'health, agriculture, social welfare, and public works.'"
+    },
+    {
+        "id": "89",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Local Government Code of 1991, or Republic Act No. 7160, devolved several functions from the national government to local government units (LGUs). These include the delivery of basic services such as health, agriculture, social welfare, and public works. The law aimed to empower LGUs by giving them greater autonomy and fiscal independence. As a result, governors, mayors, and barangay captains now play a more direct role in addressing the needs of their constituents.\n\nThe word 'autonomy' in the passage most nearly means:",
+        "choices": ["Dependency", "Self-governance", "Obedience", "Conformity"],
+        "correct_answer": "Self-governance",
+        "explanation": "'Autonomy' means the right or condition of self-government."
+    },
+    {
+        "id": "90",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nPublic servants are expected to uphold the principles of accountability, transparency, and integrity. Accountability means being answerable for one's actions and decisions. Transparency requires that government processes be open and visible to the public. Integrity involves adherence to moral and ethical principles in the performance of duty. Together, these three principles form the foundation of good governance.\n\nWhat does accountability mean according to the passage?",
+        "choices": ["Making government processes visible to the public", "Being answerable for one's actions and decisions", "Adhering to moral and ethical principles", "Following the orders of a superior"],
+        "correct_answer": "Being answerable for one's actions and decisions",
+        "explanation": "The passage directly defines accountability as 'being answerable for one's actions and decisions.'"
+    },
+    {
+        "id": "91",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Philippine Civil Service Commission (CSC) is the central human resource institution of the Philippine government. It is tasked with establishing a career service that ensures merit and fitness as the primary considerations in the recruitment, appointment, and promotion of government employees. The CSC administers the Career Service Examination, both at the professional and sub-professional levels, as the primary means of entry into the government workforce. Through its mandate, the CSC aims to build a competent, honest, and accountable bureaucracy.\n\nWhich of the following best describes the primary basis for government employment decisions according to the CSC?",
+        "choices": ["Political affiliation and party loyalty", "Seniority and years of service", "Merit and fitness", "Personal connections and recommendations"],
+        "correct_answer": "Merit and fitness",
+        "explanation": "The passage explicitly states that the CSC ensures 'merit and fitness as the primary considerations.'"
+    },
+    {
+        "id": "92",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Anti-Red Tape Act of 2007 (Republic Act No. 9485) was enacted to improve efficiency in government service delivery. The law requires all government agencies to establish and comply with service standards, including the maximum time allowed to process requests and the number of signatures required. Failure to comply with these standards may result in administrative liability for the responsible officials. The law was later amended by RA 11032, the Ease of Doing Business Act.\n\nWhat is the main objective of the Anti-Red Tape Act?",
+        "choices": ["To increase government employment", "To improve efficiency in government service delivery", "To abolish unnecessary government agencies", "To reduce government employee benefits"],
+        "correct_answer": "To improve efficiency in government service delivery",
+        "explanation": "The passage states the Act 'was enacted to improve efficiency in government service delivery.'"
+    },
+    {
+        "id": "93",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Anti-Red Tape Act of 2007 (Republic Act No. 9485) was enacted to improve efficiency in government service delivery. The law requires all government agencies to establish and comply with service standards, including the maximum time allowed to process requests and the number of signatures required. Failure to comply with these standards may result in administrative liability for the responsible officials. The law was later amended by RA 11032, the Ease of Doing Business Act.\n\nWhat happens when government officials fail to meet the service standards set by the Anti-Red Tape Act?",
+        "choices": ["They receive additional training only", "They may face administrative liability", "They are automatically dismissed", "They are given a financial penalty"],
+        "correct_answer": "They may face administrative liability",
+        "explanation": "The passage states that 'failure to comply with these standards may result in administrative liability for the responsible officials.'"
+    },
+    {
+        "id": "94",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nEnvironmental conservation is a shared responsibility of government and citizens. The Philippine Clean Air Act (RA 8749) aims to achieve and maintain clean air that meets the National Air Quality guidelines. The law prohibits the use of incinerators and requires industries to install pollution control devices. It also establishes an air quality management fund for research and monitoring activities.\n\nWhat does the Philippine Clean Air Act prohibit?",
+        "choices": ["Use of renewable energy", "Use of incinerators", "Construction of factories", "Use of public transportation"],
+        "correct_answer": "Use of incinerators",
+        "explanation": "The passage states that 'The law prohibits the use of incinerators.'"
+    },
+    {
+        "id": "95",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nEnvironmental conservation is a shared responsibility of government and citizens. The Philippine Clean Air Act (RA 8749) aims to achieve and maintain clean air that meets the National Air Quality guidelines. The law prohibits the use of incinerators and requires industries to install pollution control devices. It also establishes an air quality management fund for research and monitoring activities.\n\nWhat is the purpose of the air quality management fund mentioned in the passage?",
+        "choices": ["To subsidize industrial operations", "To fund research and monitoring activities", "To compensate pollution victims", "To build new government offices"],
+        "correct_answer": "To fund research and monitoring activities",
+        "explanation": "The passage states that the fund is established 'for research and monitoring activities.'"
+    },
+    {
+        "id": "96",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Pantawid Pamilyang Pilipino Program (4Ps) is a conditional cash transfer program of the Philippine government. It provides cash grants to the poorest Filipino families, provided they comply with certain conditions such as keeping their children in school and attending regular health check-ups. The program aims to break the intergenerational cycle of poverty by investing in the health, nutrition, and education of poor households. As of 2024, the program has benefited millions of Filipino families.\n\nWhat type of program is the 4Ps?",
+        "choices": ["An unconditional cash transfer program", "A conditional cash transfer program", "A microfinance lending program", "A livelihood training program"],
+        "correct_answer": "A conditional cash transfer program",
+        "explanation": "The passage directly identifies 4Ps as 'a conditional cash transfer program.'"
+    },
+    {
+        "id": "97",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Pantawid Pamilyang Pilipino Program (4Ps) is a conditional cash transfer program of the Philippine government. It provides cash grants to the poorest Filipino families, provided they comply with certain conditions such as keeping their children in school and attending regular health check-ups. The program aims to break the intergenerational cycle of poverty by investing in the health, nutrition, and education of poor households.\n\nWhat is one of the conditions that 4Ps beneficiaries must comply with?",
+        "choices": ["Finding employment within six months", "Keeping their children in school", "Attending government-sponsored seminars on entrepreneurship", "Volunteering for community service projects"],
+        "correct_answer": "Keeping their children in school",
+        "explanation": "The passage mentions 'keeping their children in school' as one of the conditions for receiving cash grants."
+    },
+    {
+        "id": "98",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Philippines adopted a presidential form of government under the 1987 Constitution. The government is divided into three co-equal branches: the Executive, headed by the President; the Legislative, composed of the Senate and the House of Representatives; and the Judiciary, headed by the Supreme Court. This separation of powers ensures a system of checks and balances, preventing any single branch from exercising absolute authority.\n\nWhat form of government does the Philippines have?",
+        "choices": ["Parliamentary", "Federal", "Presidential", "Monarchy"],
+        "correct_answer": "Presidential",
+        "explanation": "The passage states 'The Philippines adopted a presidential form of government under the 1987 Constitution.'"
+    },
+    {
+        "id": "99",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Philippines adopted a presidential form of government under the 1987 Constitution. The government is divided into three co-equal branches: the Executive, headed by the President; the Legislative, composed of the Senate and the House of Representatives; and the Judiciary, headed by the Supreme Court. This separation of powers ensures a system of checks and balances, preventing any single branch from exercising absolute authority.\n\nWhat is the purpose of the separation of powers according to the passage?",
+        "choices": ["To give more power to the President", "To allow citizens to vote directly on laws", "To ensure a system of checks and balances", "To create more government agencies"],
+        "correct_answer": "To ensure a system of checks and balances",
+        "explanation": "The passage states that the separation of powers 'ensures a system of checks and balances, preventing any single branch from exercising absolute authority.'"
+    },
+    {
+        "id": "100",
+        "category": "Verbal Ability – Reading Comprehension",
+        "question": "Read the passage and answer the question.\n\nThe Philippines adopted a presidential form of government under the 1987 Constitution. The government is divided into three co-equal branches: the Executive, headed by the President; the Legislative, composed of the Senate and the House of Representatives; and the Judiciary, headed by the Supreme Court. This separation of powers ensures a system of checks and balances, preventing any single branch from exercising absolute authority.\n\nWhich branch of government is headed by the Supreme Court?",
+        "choices": ["The Executive", "The Legislative", "The Judiciary", "The Administrative"],
+        "correct_answer": "The Judiciary",
+        "explanation": "The passage states that the Judiciary is 'headed by the Supreme Court.'"
+    }
+]

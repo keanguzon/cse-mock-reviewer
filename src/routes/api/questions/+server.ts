@@ -1,11 +1,12 @@
 import { json } from '@sveltejs/kit';
 import { supabase } from '$lib/supabaseClient';
 import { env } from '$env/dynamic/public';
-import dummyQuestionsData from '$lib/dummy_questions.json';
+import { allQuestions, getQuestionsByLevel, type ExamLevel } from '$lib/questions';
 
 export async function GET({ url }) {
     const category = url.searchParams.get('category');
     const limitParam = url.searchParams.get('limit');
+    const level = (url.searchParams.get('level') || 'professional') as ExamLevel;
     const limit = limitParam ? parseInt(limitParam) : 20;
 
     const isSupabaseConfigured = env.PUBLIC_SUPABASE_URL && 
@@ -15,7 +16,6 @@ export async function GET({ url }) {
 
     if (isSupabaseConfigured) {
         try {
-            // 1. Try to use the database RPC function for efficient random fetching
             const { data: rpcData, error: rpcError } = await supabase.rpc('get_random_questions', { 
                 p_limit: limit, 
                 p_category: category 
@@ -25,8 +25,6 @@ export async function GET({ url }) {
                 return json(rpcData);
             }
 
-            // 2. Fallback to basic fetch if the RPC isn't deployed yet
-            // We use a safe limit (e.g., limit * 5) to prevent fetching 100,000s of rows into memory
             let query = supabase.from('questions').select('*');
             if (category) {
                 query = query.eq('category', category);
@@ -35,7 +33,6 @@ export async function GET({ url }) {
             
             const { data, error } = await query;
             if (!error && data && data.length > 0) {
-                // Shuffle questions locally
                 let questions = [...data];
                 for (let i = questions.length - 1; i > 0; i--) {
                     const j = Math.floor(Math.random() * (i + 1));
@@ -50,25 +47,25 @@ export async function GET({ url }) {
         }
     }
 
-    // Graceful fallback to local JSON file
+    // Graceful fallback to local JSON files
     try {
-        let questions = [...dummyQuestionsData];
+        let questions = getQuestionsByLevel(level);
 
         // Optional filtering by category
         if (category) {
-            questions = questions.filter((q: any) => q.category === category);
+            questions = questions.filter(q => q.category === category);
         }
 
         // Shuffle questions (Fisher-Yates)
-        for (let i = questions.length - 1; i > 0; i--) {
+        let shuffled = [...questions];
+        for (let i = shuffled.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
-            [questions[i], questions[j]] = [questions[j], questions[i]];
+            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
 
-        return json(questions.slice(0, limit));
+        return json(shuffled.slice(0, limit));
     } catch (e) {
-        console.error("Error with dummy questions JSON:", e);
+        console.error("Error with questions:", e);
         return json({ error: "Failed to load questions" }, { status: 500 });
     }
 }
-

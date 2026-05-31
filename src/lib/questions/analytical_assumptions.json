@@ -1,0 +1,162 @@
+[
+    {
+        "id": "141",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Six government officers (A, B, C, D, E, and F) are seated in a row facing north during a seminar. The seating arrangement follows these conditions:\n- E is at the extreme left end of the row.\n- F is seated immediately to the right of E.\n- D is seated exactly between C and F.\n- A is seated adjacent to B but is not adjacent to C.\n\nWho is seated at the extreme right end of the row?",
+        "choices": ["A", "B", "C", "D"],
+        "correct_answer": "A",
+        "explanation": "E is at Position 1, F at Position 2. D is between C and F, so D is at Position 3 and C at Position 4. A is adjacent to B but not C, so A is at Position 6 and B at Position 5: [E, F, D, C, B, A]."
+    },
+    {
+        "id": "142",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Five colleagues (Manny, Nilo, Oscar, Pia, and Queenie) compare their monthly savings. The following facts are established:\n- Manny saves more than Nilo but less than Pia.\n- Oscar saves more than Queenie but less than Nilo.\n\nWho among the colleagues saves the second highest amount?",
+        "choices": ["Pia", "Manny", "Nilo", "Oscar"],
+        "correct_answer": "Manny",
+        "explanation": "Combining the inequalities: Pia > Manny > Nilo > Oscar > Queenie. Manny saves the second highest."
+    },
+    {
+        "id": "143",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "A municipal department operates under the following project implementation rules:\n- If the department implements Project A, it must also implement Project B.\n- If it implements Project B, it cannot implement Project C.\n- If it does not implement Project C, it must implement Project D.\n\nIf the department has officially implemented Project A, which of the following statements must be true?",
+        "choices": ["Project C is implemented.", "Project B is not implemented.", "Project D is implemented.", "Neither Project B nor Project D is implemented."],
+        "correct_answer": "Project D is implemented.",
+        "explanation": "A → B → not C → D. Since A is implemented, B must be implemented, which means C cannot be, which means D must be."
+    },
+    {
+        "id": "144",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Five directors (Ramon, Susan, Teresa, Victor, and Wendy) are sitting around a circular table facing the center for a board meeting. Their positions are determined by these rules:\n- Teresa is sitting immediately to the left of Ramon.\n- Wendy is sitting between Susan and Teresa.\n\nWho is sitting immediately to the right of Victor?",
+        "choices": ["Ramon", "Susan", "Teresa", "Wendy"],
+        "correct_answer": "Susan",
+        "explanation": "Placing Ramon at seat 1, Teresa at seat 2 (left of Ramon), Wendy at seat 3 (between Teresa and Susan), Susan at seat 4, and Victor at seat 5. To Victor's right is Susan."
+    },
+    {
+        "id": "145",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Six employees (Al, Bea, Cal, Dan, Eve, and Fay) are scheduled for their annual physical exams, one each day from Monday to Saturday. The constraints are:\n- Eve must be scheduled on Thursday.\n- Dan is scheduled on Monday.\n- Cal must be scheduled on the day immediately after Al's day.\n- Bea must be scheduled on the day immediately after Fay's day.\n- Fay must be scheduled on a day after Eve's day.\n\nOn which day is Al scheduled?",
+        "choices": ["Tuesday", "Wednesday", "Friday", "Monday"],
+        "correct_answer": "Tuesday",
+        "explanation": "Monday: Dan, Thursday: Eve. Fay must be after Eve, so Friday. Bea follows Fay, so Saturday. Al and Cal occupy the remaining consecutive days: Tuesday and Wednesday."
+    },
+    {
+        "id": "146",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "An HR manager is selecting a 3-member committee from 5 applicants: F, G, H, I, and J. The selection is governed by these rules:\n- If F is selected, G must also be selected.\n- H and I cannot both be selected.\n- If J is selected, H must also be selected.\n\nIf applicant I is selected, who else must be in the committee?",
+        "choices": ["F and G", "G and H", "H and J", "F and J"],
+        "correct_answer": "F and G",
+        "explanation": "I is selected → H cannot be selected → J cannot be selected (contrapositive of Rule 3). Only F and G remain to fill the 3 seats, and Rule 1 is satisfied."
+    },
+    {
+        "id": "147",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "During an office evaluation, 5 employees (V, W, X, Y, and Z) were ranked 1st to 5th. The evaluation results are as follows:\n- V ranked higher than W.\n- Y ranked lower than Z.\n- X ranked exactly between V and W.\n- Z did not rank in the top two.\n\nIf Y ranked 5th, what was Z's rank?",
+        "choices": ["2nd", "3rd", "4th", "1st"],
+        "correct_answer": "4th",
+        "explanation": "V > X > W must occupy consecutive ranks. If they take ranks 2-3-4, Z would be 1st (violating 'not top two'). So V=1st, X=2nd, W=3rd, Z=4th, Y=5th."
+    },
+    {
+        "id": "148",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Five cars (Red, Blue, Green, Yellow, and Silver) are parked in a straight row of five spaces numbered 1 to 5. The conditions are:\n- The Red car is in Space 1.\n- The Blue car is in Space 5.\n- The Yellow car is next to the Silver car.\n- The Green car is not next to the Blue car.\n\nIn which space is the Green car parked?",
+        "choices": ["Space 2", "Space 3", "Space 4", "Space 5"],
+        "correct_answer": "Space 2",
+        "explanation": "Red=1, Blue=5. Green cannot be next to Blue, so Green ≠ 4. Yellow and Silver need adjacent spots: they must be in 3-4. Green goes to Space 2."
+    },
+    {
+        "id": "149",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Three officers (Santos, Reyes, and Cruz) work in three different departments: Finance, HR, and IT. They each have a different hobby: Hiking, Photography, and Reading. The following is known:\n- The officer in IT likes Reading.\n- Cruz works in Finance.\n- Santos does not like Photography.\n- Reyes does not work in IT.\n\nWhat is Santos's hobby?",
+        "choices": ["Hiking", "Photography", "Reading", "Cannot be determined"],
+        "correct_answer": "Reading",
+        "explanation": "Cruz is in Finance, Reyes is not in IT, so Reyes is in HR and Santos is in IT. The IT officer likes Reading, so Santos's hobby is Reading."
+    },
+    {
+        "id": "150",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "A state regulatory framework establishes the following criteria:\n- If a citizen is registered, they are eligible to vote.\n- If a citizen is eligible to vote, they receive a voter's card.\n\nIf Juan did not receive a voter's card, which of the following statements must be true?",
+        "choices": ["Juan is registered but chose not to vote.", "Juan is not registered.", "Juan is eligible to vote.", "Juan did not register because he was busy."],
+        "correct_answer": "Juan is not registered.",
+        "explanation": "By contrapositive: Registered → Eligible → Voter's Card. No card → Not eligible → Not registered."
+    },
+    {
+        "id": "151",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Four boxes (A, B, C, and D) have different weights:\n- Box A is heavier than Box B.\n- Box C is lighter than Box D.\n- Box B is heavier than Box D.\n\nWhich is the correct order from heaviest to lightest?",
+        "choices": ["A, B, C, D", "A, B, D, C", "B, A, D, C", "D, C, B, A"],
+        "correct_answer": "A, B, D, C",
+        "explanation": "A > B, B > D, D > C. Combined: A > B > D > C."
+    },
+    {
+        "id": "152",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "In a relay race, five runners (P, Q, R, S, and T) ran in a specific order from first to fifth:\n- P ran immediately before Q.\n- S ran at some point after T.\n- R ran third.\n- T ran first.\n\nWho ran fifth?",
+        "choices": ["P", "Q", "S", "T"],
+        "correct_answer": "Q",
+        "explanation": "T=1st, R=3rd. P must be immediately before Q. Available consecutive slots: 4th-5th. So P=4th, Q=5th, S=2nd."
+    },
+    {
+        "id": "153",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Six cubicles are arranged in two rows facing each other. Row 1: cubicles 1, 2, 3. Row 2: cubicles 4, 5, 6 (4 opposite 1, 5 opposite 2, 6 opposite 3). The assignments are:\n- Officer P is in cubicle 2.\n- Officer Q is in a cubicle opposite Officer R.\n- Officer S is adjacent to P but not opposite R.\n- Officer T is in cubicle 6.\n- Officer R is in Row 2.\n\nWhich cubicle does Officer R occupy?",
+        "choices": ["1", "4", "3", "5"],
+        "correct_answer": "4",
+        "explanation": "P=2, T=6. Q and R are opposite each other. Available opposite pairs: (1,4). R is in Row 2, so R=4 and Q=1. S is adjacent to P(2) but not opposite R(4), so S=3. U=5."
+    },
+    {
+        "id": "154",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "What is the age of Maria?\n\nStatements:\n(1) Maria is twice as old as her brother Juan.\n(2) Juan is 15 years younger than Maria.",
+        "choices": ["Statement (1) ALONE is sufficient.", "Statement (2) ALONE is sufficient.", "BOTH statements TOGETHER are sufficient, but NEITHER ALONE.", "Statements (1) and (2) TOGETHER are NOT sufficient."],
+        "correct_answer": "BOTH statements TOGETHER are sufficient, but NEITHER ALONE.",
+        "explanation": "Statement 1: M = 2J (two unknowns, one equation — not sufficient). Statement 2: J = M - 15 (not sufficient alone). Together: M = 2(M - 15) → M = 30."
+    },
+    {
+        "id": "155",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "A rectangular garden has a perimeter of 60 meters. What is the area of the garden?\n\nStatements:\n(1) The length of the garden is twice its width.\n(2) The garden is planted with tomatoes.",
+        "choices": ["Statement (1) ALONE is sufficient.", "Statement (2) ALONE is sufficient.", "BOTH statements TOGETHER are sufficient, but NEITHER ALONE.", "Statements (1) and (2) TOGETHER are NOT sufficient."],
+        "correct_answer": "Statement (1) ALONE is sufficient.",
+        "explanation": "Perimeter: L + W = 30. Statement 1: L = 2W → 3W = 30 → W = 10, L = 20, Area = 200 sq m. Statement 2 is irrelevant."
+    },
+    {
+        "id": "156",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "If all managers attend the seminar, and the seminar is cancelled, what can we conclude?",
+        "choices": ["All managers attended the seminar.", "No manager attended the seminar.", "Some managers may have attended a different seminar.", "We cannot determine if managers attended."],
+        "correct_answer": "No manager attended the seminar.",
+        "explanation": "If the seminar was cancelled, it did not take place. Therefore, no one could have attended it, including managers."
+    },
+    {
+        "id": "157",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "In a department of 5 employees, each one speaks a different language: English, Filipino, Japanese, Korean, and Mandarin.\n- Ana does not speak Korean or Japanese.\n- Ben speaks Filipino.\n- Cara speaks Mandarin.\n- Dan does not speak English.\n\nWhat language does Ana speak?",
+        "choices": ["English", "Filipino", "Japanese", "Korean"],
+        "correct_answer": "English",
+        "explanation": "Ben=Filipino, Cara=Mandarin. Ana doesn't speak Korean or Japanese. The remaining options for Ana are English. Dan doesn't speak English, so Dan gets the remaining (Korean or Japanese)."
+    },
+    {
+        "id": "158",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "A university requires students to take exactly 3 courses from the following: Art, Biology, Chemistry, Drama, and Economics. The rules are:\n- If Art is chosen, Drama must also be chosen.\n- Biology and Chemistry cannot both be chosen.\n\nIf a student chooses Economics and Biology, which other course must be chosen?",
+        "choices": ["Art", "Chemistry", "Drama", "Either Art or Drama"],
+        "correct_answer": "Drama",
+        "explanation": "Economics and Biology are chosen. Chemistry can't be chosen (Biology already chosen). If Art is chosen, Drama must be chosen too — but that's 4 courses. So Art is out, and Drama must fill the third slot."
+    },
+    {
+        "id": "159",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Seven friends (A, B, C, D, E, F, G) are ranked by height from tallest to shortest:\n- B is taller than D but shorter than A.\n- E is shorter than C but taller than F.\n- G is the shortest.\n- C is shorter than D.\n\nWho is the tallest?",
+        "choices": ["A", "B", "C", "E"],
+        "correct_answer": "A",
+        "explanation": "A > B > D and C > E > F > G, with D > C. Combined: A > B > D > C > E > F > G. A is tallest."
+    },
+    {
+        "id": "160",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "A company policy states:\n- All senior employees receive health insurance.\n- All employees with health insurance receive dental coverage.\n- Pedro is a senior employee.\n\nWhich of the following must be true?",
+        "choices": ["Pedro does not receive dental coverage.", "Pedro receives health insurance but not dental coverage.", "Pedro receives both health insurance and dental coverage.", "Pedro receives dental coverage but not health insurance."],
+        "correct_answer": "Pedro receives both health insurance and dental coverage.",
+        "explanation": "Senior → Health Insurance → Dental Coverage. Pedro is senior, so he gets health insurance, and therefore also dental coverage."
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "id": "21",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that is grammatically correct.",
+        "choices": ["Each of the employees are required to submit their reports.", "Each of the employees is required to submit his or her report.", "Each of the employees are required to submit his or her report.", "Each of the employees is required to submit their reports."],
+        "correct_answer": "Each of the employees is required to submit his or her report.",
+        "explanation": "'Each' is a singular indefinite pronoun and requires the singular verb 'is.' The pronoun reference should also be singular: 'his or her report.'"
+    },
+    {
+        "id": "22",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with the correct subject-verb agreement.",
+        "choices": ["The committee have reached a unanimous decision.", "The committee has reached a unanimous decision.", "The committee have reached an unanimous decision.", "The committee has reached an unanimous decision."],
+        "correct_answer": "The committee has reached a unanimous decision.",
+        "explanation": "'Committee' is a collective noun treated as singular when acting as a unit, requiring 'has.' Also, 'unanimous' begins with a consonant sound, so 'a' is correct, not 'an.'"
+    },
+    {
+        "id": "23",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence correctly uses the past perfect tense?",
+        "choices": ["She already finished the report when the supervisor arrived.", "She had already finished the report when the supervisor arrived.", "She has already finished the report when the supervisor arrived.", "She already had finish the report when the supervisor arrived."],
+        "correct_answer": "She had already finished the report when the supervisor arrived.",
+        "explanation": "The past perfect ('had finished') correctly indicates an action completed before another past event ('arrived')."
+    },
+    {
+        "id": "24",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with the correct pronoun usage.",
+        "choices": ["Between you and I, the project needs more funding.", "Between you and me, the project needs more funding.", "Between you and myself, the project needs more funding.", "Between I and you, the project needs more funding."],
+        "correct_answer": "Between you and me, the project needs more funding.",
+        "explanation": "'Between' is a preposition, and prepositions take object pronouns. 'Me' is the object form of 'I.'"
+    },
+    {
+        "id": "25",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence is free of dangling modifiers?",
+        "choices": ["Walking through the park, the flowers were beautiful.", "Walking through the park, she noticed the beautiful flowers.", "Walking through the park, the beauty of the flowers was noticed.", "Walking through the park, it was noticed that the flowers were beautiful."],
+        "correct_answer": "Walking through the park, she noticed the beautiful flowers.",
+        "explanation": "The participial phrase 'Walking through the park' must logically modify the subject. Only in this sentence does a person ('she') serve as the subject."
+    },
+    {
+        "id": "26",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with the correct use of the comparative form.",
+        "choices": ["This procedure is more simpler than the previous one.", "This procedure is more simple than the previous one.", "This procedure is simpler than the previous one.", "This procedure is most simpler than the previous one."],
+        "correct_answer": "This procedure is simpler than the previous one.",
+        "explanation": "One- and two-syllable adjectives like 'simple' form the comparative with '-er,' not 'more.' 'More simpler' is a double comparative and is incorrect."
+    },
+    {
+        "id": "27",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that correctly uses parallel structure.",
+        "choices": ["The training program focuses on writing, to speak effectively, and leadership.", "The training program focuses on writing, speaking effectively, and leading.", "The training program focuses on writing, speaking effectively, and to be a leader.", "The training program focuses on to write, speaking effectively, and leadership."],
+        "correct_answer": "The training program focuses on writing, speaking effectively, and leading.",
+        "explanation": "Parallel structure requires that items in a series share the same grammatical form. All three items should be gerunds: 'writing,' 'speaking,' and 'leading.'"
+    },
+    {
+        "id": "28",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which of the following sentences uses the subjunctive mood correctly?",
+        "choices": ["The director requested that the employee submits the form today.", "The director requested that the employee submit the form today.", "The director requested that the employee submitted the form today.", "The director requested that the employee will submit the form today."],
+        "correct_answer": "The director requested that the employee submit the form today.",
+        "explanation": "After verbs of request, demand, or recommendation, the subjunctive mood uses the base form of the verb ('submit') without conjugation."
+    },
+    {
+        "id": "29",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the sentence with a misplaced modifier.",
+        "choices": ["The officer carefully reviewed the documents on the desk.", "The officer on the desk carefully reviewed the documents.", "On the desk, the documents were carefully reviewed by the officer.", "The documents on the desk were carefully reviewed by the officer."],
+        "correct_answer": "The officer on the desk carefully reviewed the documents.",
+        "explanation": "'On the desk' is misplaced because it modifies 'officer' instead of 'documents,' absurdly suggesting the officer is sitting on the desk."
+    },
+    {
+        "id": "30",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with the correct use of the semicolon.",
+        "choices": ["The meeting was postponed; because the chairperson was absent.", "The meeting was postponed; the chairperson was absent.", "The meeting was postponed, the chairperson was absent.", "The meeting; was postponed the chairperson was absent."],
+        "correct_answer": "The meeting was postponed; the chairperson was absent.",
+        "explanation": "A semicolon joins two closely related independent clauses. Adding 'because' after a semicolon is incorrect since it creates a dependent clause."
+    },
+    {
+        "id": "31",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that is grammatically correct.",
+        "choices": ["The report, along with the attachments, were submitted on time.", "The report, along with the attachments, was submitted on time.", "The report, along with the attachments, have been submitted on time.", "The report, along with the attachments, are submitted on time."],
+        "correct_answer": "The report, along with the attachments, was submitted on time.",
+        "explanation": "The subject is 'report' (singular). The phrase 'along with the attachments' is parenthetical and does not change the number of the subject. Therefore, the singular verb 'was' is correct."
+    },
+    {
+        "id": "32",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence correctly uses the colon?",
+        "choices": ["The office needs the following supplies: folders, pens, and bond paper.", "The office needs: the following supplies folders, pens, and bond paper.", "The office needs the following: supplies folders pens and bond paper.", "The office: needs the following supplies folders, pens, and bond paper."],
+        "correct_answer": "The office needs the following supplies: folders, pens, and bond paper.",
+        "explanation": "A colon is used after a complete introductory statement to introduce a list. 'The office needs the following supplies' is a complete clause, making the colon placement correct."
+    },
+    {
+        "id": "33",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the correct sentence.",
+        "choices": ["If I was the department head, I would approve the request.", "If I were the department head, I would approve the request.", "If I am the department head, I would approve the request.", "If I be the department head, I would approve the request."],
+        "correct_answer": "If I were the department head, I would approve the request.",
+        "explanation": "This is a hypothetical (contrary-to-fact) conditional, which requires the subjunctive mood. In the subjunctive, 'were' is used for all persons, including 'I.'"
+    },
+    {
+        "id": "34",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with the correct use of the apostrophe.",
+        "choices": ["The employees' lounge is on the second floor.", "The employee's lounge is on the second floor.", "The employees lounge is on the second floor.", "The employees's lounge is on the second floor."],
+        "correct_answer": "The employees' lounge is on the second floor.",
+        "explanation": "When a plural noun already ends in 's,' the possessive is formed by adding only an apostrophe after the 's.' Since 'employees' is plural, 'employees'' is correct."
+    },
+    {
+        "id": "35",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence uses the correct verb tense?",
+        "choices": ["By the time the auditor arrives, we will finish all the reports.", "By the time the auditor arrives, we will have finished all the reports.", "By the time the auditor arrives, we finished all the reports.", "By the time the auditor arrives, we are finishing all the reports."],
+        "correct_answer": "By the time the auditor arrives, we will have finished all the reports.",
+        "explanation": "The future perfect tense ('will have finished') correctly describes an action that will be completed before another future event."
+    },
+    {
+        "id": "36",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with correct subject-verb agreement.",
+        "choices": ["Neither the supervisor nor the employees was informed.", "Neither the supervisor nor the employees were informed.", "Neither the supervisor nor the employees has been informed.", "Neither the supervisor nor the employees is informed."],
+        "correct_answer": "Neither the supervisor nor the employees were informed.",
+        "explanation": "With 'neither...nor,' the verb agrees with the subject closest to it. 'Employees' is plural, so the verb should be 'were.'"
+    },
+    {
+        "id": "37",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that avoids redundancy.",
+        "choices": ["The reason is because the budget was insufficient.", "The reason is that the budget was insufficient.", "The reason why is because the budget was insufficient.", "The reason is due to the fact that the budget was insufficient."],
+        "correct_answer": "The reason is that the budget was insufficient.",
+        "explanation": "'The reason is because' is redundant since 'reason' already implies 'because.' The correct construction is 'The reason is that...'"
+    },
+    {
+        "id": "38",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the grammatically correct sentence.",
+        "choices": ["The number of applicants have increased this year.", "The number of applicants has increased this year.", "A number of applicants has increased this year.", "The numbers of applicants have increased this year."],
+        "correct_answer": "The number of applicants has increased this year.",
+        "explanation": "'The number of' is treated as a singular expression and takes a singular verb ('has'). In contrast, 'a number of' is treated as plural."
+    },
+    {
+        "id": "39",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence correctly uses 'who' and 'whom'?",
+        "choices": ["The employee whom was promoted deserved the recognition.", "The employee who was promoted deserved the recognition.", "The employee whom deserved the recognition was promoted.", "The employee who the manager promoted deserved the recognition."],
+        "correct_answer": "The employee who was promoted deserved the recognition.",
+        "explanation": "'Who' is used as the subject of a clause. In this sentence, 'who' is the subject of 'was promoted,' making it the correct choice."
+    },
+    {
+        "id": "40",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with the correct use of articles.",
+        "choices": ["She is a honest public servant.", "She is an honest public servant.", "She is the honest public servant.", "She is honest a public servant."],
+        "correct_answer": "She is an honest public servant.",
+        "explanation": "'Honest' begins with a silent 'h,' so the vowel sound that follows requires the article 'an' instead of 'a.'"
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "id": "101",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nLIONIZE : ADMIRE :: VILIFY : ________",
+        "choices": ["Praise", "Defame", "Exalt", "Forgive"],
+        "correct_answer": "Defame",
+        "explanation": "To lionize is to treat someone as a celebrity or admire them greatly. To vilify is to speak about someone in an abusively disparaging manner, synonymous with defaming."
+    },
+    {
+        "id": "102",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nEPHEMERAL : PERMANENT :: NOVICE : ________",
+        "choices": ["Beginner", "Amateur", "Veteran", "Disciple"],
+        "correct_answer": "Veteran",
+        "explanation": "'Ephemeral' is the antonym of 'permanent'. Similarly, a 'novice' (beginner) is the antonym of a 'veteran' (experienced person)."
+    },
+    {
+        "id": "103",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nALTRUISM : SELFLESSNESS :: EGOTISM : ________",
+        "choices": ["Generosity", "Self-importance", "Humility", "Benevolence"],
+        "correct_answer": "Self-importance",
+        "explanation": "'Altruism' is synonymous with 'selflessness'. 'Egotism' is synonymous with 'self-importance'."
+    },
+    {
+        "id": "104",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nEXCULPATE : BLAME :: ACQUIT : ________",
+        "choices": ["Pardon", "Exonerate", "Convict", "Sentence"],
+        "correct_answer": "Convict",
+        "explanation": "'Exculpate' (to clear from blame) is opposite of 'blame'. 'Acquit' (to declare not guilty) is opposite of 'convict'."
+    },
+    {
+        "id": "105",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nOSTRACISM : EXCLUSION :: AUDACITY : ________",
+        "choices": ["Fear", "Politeness", "Boldness", "Hesitation"],
+        "correct_answer": "Boldness",
+        "explanation": "'Ostracism' is synonymous with 'exclusion'. 'Audacity' is synonymous with 'boldness'."
+    },
+    {
+        "id": "106",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nSOPORIFIC : SLEEP :: ANESTHETIC : ________",
+        "choices": ["Pain", "Numbness", "Awareness", "Stimulation"],
+        "correct_answer": "Numbness",
+        "explanation": "A 'soporific' induces sleep. An 'anesthetic' induces numbness or loss of sensation."
+    },
+    {
+        "id": "107",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nCACOPHONY : HARMONY :: TURBULENCE : ________",
+        "choices": ["Chaos", "Tranquility", "Commotion", "Disturbance"],
+        "correct_answer": "Tranquility",
+        "explanation": "'Cacophony' is the antonym of 'harmony'. 'Turbulence' is the antonym of 'tranquility'."
+    },
+    {
+        "id": "108",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nPLIANT : FLEXIBLE :: OBSTINATE : ________",
+        "choices": ["Yielding", "Stubborn", "Adaptable", "Submissive"],
+        "correct_answer": "Stubborn",
+        "explanation": "'Pliant' is synonymous with 'flexible'. 'Obstinate' is synonymous with 'stubborn'."
+    },
+    {
+        "id": "109",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nPENURY : WEALTH :: AMITY : ________",
+        "choices": ["Friendship", "Harmony", "Hostility", "Generosity"],
+        "correct_answer": "Hostility",
+        "explanation": "'Penury' (extreme poverty) is the antonym of 'wealth'. 'Amity' (friendship) is the antonym of 'hostility'."
+    },
+    {
+        "id": "110",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nSPORADIC : FREQUENT :: TACITURN : ________",
+        "choices": ["Silent", "Reserved", "Loquacious", "Gloomy"],
+        "correct_answer": "Loquacious",
+        "explanation": "'Sporadic' is the antonym of 'frequent'. 'Taciturn' (reserved in speech) is the antonym of 'loquacious' (extremely talkative)."
+    },
+    {
+        "id": "111",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nSCALPEL : SURGEON :: GAVEL : ________",
+        "choices": ["Lawyer", "Judge", "Bailiff", "Defendant"],
+        "correct_answer": "Judge",
+        "explanation": "A 'scalpel' is the primary tool of a 'surgeon'. A 'gavel' is the primary tool of a 'judge'."
+    },
+    {
+        "id": "112",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nMETAPHOR : FIGURATIVE :: FACT : ________",
+        "choices": ["Subjective", "Literal", "Ambiguous", "Fictional"],
+        "correct_answer": "Literal",
+        "explanation": "A 'metaphor' is inherently 'figurative'. A 'fact' is inherently 'literal'."
+    },
+    {
+        "id": "113",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nINDIGENT : AFFLUENT :: PARSIMONIOUS : ________",
+        "choices": ["Frugal", "Stingy", "Generous", "Greedy"],
+        "correct_answer": "Generous",
+        "explanation": "'Indigent' (poor) is the antonym of 'affluent' (wealthy). 'Parsimonious' (stingy) is the antonym of 'generous'."
+    },
+    {
+        "id": "114",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nARCHITECT : BLUEPRINT :: COMPOSER : ________",
+        "choices": ["Melody", "Score", "Instrument", "Concert"],
+        "correct_answer": "Score",
+        "explanation": "An architect creates a blueprint as a plan. A composer creates a score as a plan for music."
+    },
+    {
+        "id": "115",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nPROLIFIC : UNPRODUCTIVE :: ELOQUENT : ________",
+        "choices": ["Articulate", "Inarticulate", "Fluent", "Verbose"],
+        "correct_answer": "Inarticulate",
+        "explanation": "'Prolific' (productive) is the antonym of 'unproductive'. 'Eloquent' (articulate) is the antonym of 'inarticulate'."
+    },
+    {
+        "id": "116",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nPAGE : BOOK :: BRICK : ________",
+        "choices": ["House", "Wall", "Cement", "Foundation"],
+        "correct_answer": "Wall",
+        "explanation": "A page is a component part of a book. A brick is a component part of a wall."
+    },
+    {
+        "id": "117",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nDOCTOR : HOSPITAL :: TEACHER : ________",
+        "choices": ["Library", "School", "Office", "Laboratory"],
+        "correct_answer": "School",
+        "explanation": "A doctor works in a hospital. A teacher works in a school. The relationship is worker to workplace."
+    },
+    {
+        "id": "118",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nFAMINE : HUNGER :: DROUGHT : ________",
+        "choices": ["Rain", "Flood", "Thirst", "Heat"],
+        "correct_answer": "Thirst",
+        "explanation": "Famine leads to widespread hunger. Drought leads to widespread thirst. Both are cause-and-effect relationships."
+    },
+    {
+        "id": "119",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nCONSPICUOUS : HIDDEN :: TRANSPARENT : ________",
+        "choices": ["Clear", "Obvious", "Opaque", "Visible"],
+        "correct_answer": "Opaque",
+        "explanation": "'Conspicuous' (easily seen) is the antonym of 'hidden'. 'Transparent' (see-through) is the antonym of 'opaque' (not see-through)."
+    },
+    {
+        "id": "120",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nTHERMOMETER : TEMPERATURE :: BAROMETER : ________",
+        "choices": ["Wind speed", "Atmospheric pressure", "Humidity", "Rainfall"],
+        "correct_answer": "Atmospheric pressure",
+        "explanation": "A thermometer measures temperature. A barometer measures atmospheric pressure. Both are instrument-to-measurement relationships."
+    }
+]

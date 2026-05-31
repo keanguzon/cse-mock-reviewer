@@ -1,0 +1,162 @@
+[
+    {
+        "id": "41",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word to complete the sentence: The new policy will ______ all departments starting next month.",
+        "choices": ["affect", "effect", "infect", "deflect"],
+        "correct_answer": "affect",
+        "explanation": "'Affect' is a verb meaning to influence or have an impact on. 'Effect' is typically a noun meaning result. Here, a verb is needed."
+    },
+    {
+        "id": "42",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: The report is ______ to the one submitted last quarter.",
+        "choices": ["complimentary", "complementary", "supplementary", "elementary"],
+        "correct_answer": "complementary",
+        "explanation": "'Complementary' means combining in such a way as to enhance or complete. 'Complimentary' means expressing praise or given free of charge."
+    },
+    {
+        "id": "43",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct sentence.",
+        "choices": ["The data supports the researcher's conclusion.", "The data support the researcher's conclusion.", "The datas support the researcher's conclusion.", "The datas supports the researcher's conclusion."],
+        "correct_answer": "The data support the researcher's conclusion.",
+        "explanation": "In formal usage, 'data' is the plural of 'datum' and takes a plural verb ('support'). 'Datas' is not a valid English word."
+    },
+    {
+        "id": "44",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: Neither the manager ______ the staff members were informed of the changes.",
+        "choices": ["or", "nor", "and", "but"],
+        "correct_answer": "nor",
+        "explanation": "'Neither' is always paired with 'nor' to form the correlative conjunction 'neither...nor.' 'Neither...or' is grammatically incorrect."
+    },
+    {
+        "id": "45",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: She is ______ of the two candidates for the promotion.",
+        "choices": ["the most qualified", "the more qualified", "the qualifier", "more qualifier"],
+        "correct_answer": "the more qualified",
+        "explanation": "When comparing two items, the comparative form ('more qualified') is used. The superlative ('most qualified') is reserved for three or more."
+    },
+    {
+        "id": "46",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": ["Irregardless of the outcome, the project must continue.", "Regardless of the outcome, the project must continue.", "Regard of the outcome, the project must continue.", "Regardlessly of the outcome, the project must continue."],
+        "correct_answer": "Regardless of the outcome, the project must continue.",
+        "explanation": "'Irregardless' is a nonstandard word. The correct form is 'regardless,' meaning 'without regard to.'"
+    },
+    {
+        "id": "47",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word to complete the sentence: The organization will ______ a new policy on workplace conduct.",
+        "choices": ["adapt", "adopt", "adept", "advent"],
+        "correct_answer": "adopt",
+        "explanation": "'Adopt' means to officially accept or put into effect. 'Adapt' means to adjust to new conditions. 'Adept' means very skilled."
+    },
+    {
+        "id": "48",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which sentence uses 'lay' and 'lie' correctly?",
+        "choices": ["Please lay down on the couch and rest.", "Please lie down on the couch and rest.", "She lied the book on the table yesterday.", "The documents have been laying on the desk all morning."],
+        "correct_answer": "Please lie down on the couch and rest.",
+        "explanation": "'Lie' means to recline (intransitive — no direct object). 'Lay' means to put something down (transitive — requires an object)."
+    },
+    {
+        "id": "49",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The witness gave a ______ account of the events.",
+        "choices": ["credible", "credulous", "creditable", "incredible"],
+        "correct_answer": "credible",
+        "explanation": "'Credible' means believable or trustworthy. 'Credulous' means too willing to believe things. 'Creditable' means deserving acknowledgment."
+    },
+    {
+        "id": "50",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": ["The amount of applicants this year exceeded expectations.", "The number of applicants this year exceeded expectations.", "A amount of applicants this year exceeded expectations.", "A number of applicants this year has exceeded expectations."],
+        "correct_answer": "The number of applicants this year exceeded expectations.",
+        "explanation": "'Number' is used with countable nouns (applicants). 'Amount' is used with uncountable nouns (water, money)."
+    },
+    {
+        "id": "51",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word to complete the sentence: The employees were asked to ______ with the new safety regulations immediately.",
+        "choices": ["comply", "apply", "imply", "supply"],
+        "correct_answer": "comply",
+        "explanation": "'Comply with' means to act in accordance with a rule or regulation."
+    },
+    {
+        "id": "52",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": ["The memorandum was addressed to whoever is concerned.", "The memorandum was addressed to whomever is concerned.", "The memorandum was addressed to whom is concerned.", "The memorandum was addressed to who is concerned."],
+        "correct_answer": "The memorandum was addressed to whoever is concerned.",
+        "explanation": "'Whoever' is correct because it serves as the subject of the clause 'whoever is concerned.'"
+    },
+    {
+        "id": "53",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The new evidence was ______ to the case and could not be ignored.",
+        "choices": ["imminent", "eminent", "pertinent", "permanent"],
+        "correct_answer": "pertinent",
+        "explanation": "'Pertinent' means relevant or applicable to a particular matter. 'Imminent' means about to happen. 'Eminent' means famous or distinguished."
+    },
+    {
+        "id": "54",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The government aims to ______ corruption in all levels of public service.",
+        "choices": ["eradicate", "extricate", "exaggerate", "elaborate"],
+        "correct_answer": "eradicate",
+        "explanation": "'Eradicate' means to completely destroy or remove. 'Extricate' means to free from a constraint. Context requires elimination of corruption."
+    },
+    {
+        "id": "55",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The ______ between the two departments was resolved through mediation.",
+        "choices": ["conflict", "confliction", "conflicting", "conflictual"],
+        "correct_answer": "conflict",
+        "explanation": "'Conflict' is the correct noun form. 'Confliction' is not a standard English word. 'Conflicting' is an adjective."
+    },
+    {
+        "id": "56",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: The supervisor ______ the employees for their outstanding performance.",
+        "choices": ["commended", "commanded", "commenced", "commented"],
+        "correct_answer": "commended",
+        "explanation": "'Commended' means to praise formally or officially. 'Commanded' means to give orders. 'Commenced' means to begin."
+    },
+    {
+        "id": "57",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: He was ______ to the position of regional director last month.",
+        "choices": ["appointed", "disappointed", "anointed", "appointed to"],
+        "correct_answer": "appointed",
+        "explanation": "'Appointed' means to assign a job or role to someone officially. The correct usage is 'appointed to the position.'"
+    },
+    {
+        "id": "58",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The ______ of the new building was delayed due to permit issues.",
+        "choices": ["construction", "destruction", "instruction", "obstruction"],
+        "correct_answer": "construction",
+        "explanation": "'Construction' means the building of something. The context describes a building project being delayed."
+    },
+    {
+        "id": "59",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The agency will ______ a thorough investigation of the incident.",
+        "choices": ["conduct", "conduction", "conductor", "conducive"],
+        "correct_answer": "conduct",
+        "explanation": "'Conduct' is the verb meaning to carry out or organize. 'Conduction' refers to the transfer of heat or electricity."
+    },
+    {
+        "id": "60",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": ["The principle of the school addressed the students.", "The principal of the school addressed the students.", "The princible of the school addressed the students.", "The prinsiple of the school addressed the students."],
+        "correct_answer": "The principal of the school addressed the students.",
+        "explanation": "'Principal' refers to the head of a school. 'Principle' refers to a fundamental truth or rule. Context requires the person, not the concept."
+    }
+]
