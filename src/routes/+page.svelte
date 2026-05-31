@@ -15,6 +15,11 @@
     goto(url);
   }
 
+  function handleSubmit(e: Event) {
+    e.preventDefault();
+    startQuiz();
+  }
+
   async function signInWithGoogle() {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
@@ -53,7 +58,7 @@
         Configure Your Session
       </h2>
 
-      <form onsubmit={(e) => { e.preventDefault(); startQuiz(); }}>
+      <form onsubmit={handleSubmit}>
         <!-- Mode Selection -->
         <div class="field" style="margin-bottom: 1.5rem;">
           <label class="label">Exam Mode</label>

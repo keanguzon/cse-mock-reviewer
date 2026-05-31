@@ -12,18 +12,18 @@
     }
   }>();
 
-  let questions = $state(data.questions);
-  let isPractice = $state(data.mode === 'practice');
+  let questions = $state(data?.questions || []);
+  let isPractice = $state(data?.mode === 'practice');
   
   let currentIndex = $state(0);
   let score = $state(0);
   let userAnswers = $state<Record<number, string>>({});
   let pendingAnswer = $state<string | null>(null);
   
-  let currentQuestion = $derived(questions[currentIndex]);
+  let currentQuestion = $derived(questions && questions.length > 0 && currentIndex < questions.length ? questions[currentIndex] : null);
   let hasAnswered = $derived(userAnswers[currentIndex] !== undefined);
   let selectedAnswer = $derived(hasAnswered ? userAnswers[currentIndex] : pendingAnswer);
-  let isFinished = $derived(currentIndex >= questions.length && questions.length > 0);
+  let isFinished = $derived(questions && questions.length > 0 && currentIndex >= questions.length);
 
   function handleSelect(choice: string) {
     if (hasAnswered) return;
