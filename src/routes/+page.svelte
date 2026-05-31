@@ -8,10 +8,12 @@
 
   let selectedMode = $state('practice');
   let selectedCategory = $state('');
+  let selectedLimit = $state('20');
 
   function startQuiz() {
     let url = `/quiz?mode=${selectedMode}`;
     if (selectedCategory) url += `&category=${encodeURIComponent(selectedCategory)}`;
+    url += `&limit=${selectedLimit}`;
     goto(url);
   }
 
@@ -80,7 +82,7 @@
         </div>
 
         <!-- Category -->
-        <div class="field" style="margin-bottom: 2rem;">
+        <div class="field" style="margin-bottom: 1.5rem;">
           <label class="label" for="category-select">Category</label>
           <div class="select is-fullwidth">
             <select id="category-select" bind:value={selectedCategory}>
@@ -90,6 +92,19 @@
               <option value="Verbal Ability – Correct Usage">Verbal Ability – Correct Usage</option>
               <option value="Verbal Ability – Paragraph Organization">Verbal Ability – Paragraph Organization</option>
               <option value="Verbal Ability – Reading Comprehension">Verbal Ability – Reading Comprehension</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Number of Questions -->
+        <div class="field" style="margin-bottom: 2rem;">
+          <label class="label" for="limit-select">Number of Questions</label>
+          <div class="select is-fullwidth">
+            <select id="limit-select" bind:value={selectedLimit}>
+              <option value="10">10 Questions (Quick Review)</option>
+              <option value="20">20 Questions (Standard)</option>
+              <option value="50">50 Questions (Deep Dive)</option>
+              <option value="110">All 110 Questions (Full Marathon)</option>
             </select>
           </div>
         </div>
