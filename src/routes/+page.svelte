@@ -6,9 +6,27 @@
   import ColorBendsBackground from '$lib/components/ColorBendsBackground.svelte';
   import BlurText from '$lib/components/BlurText.svelte';
 
+  const categoryCounts: Record<string, number> = {
+    "": 110,
+    "Verbal Ability – Vocabulary": 13,
+    "Verbal Ability – Grammar": 13,
+    "Verbal Ability – Correct Usage": 13,
+    "Verbal Ability – Paragraph Organization": 10,
+    "Verbal Ability – Reading Comprehension": 11,
+    "Analytical Reasoning": 50
+  };
+
   let selectedMode = $state('practice');
   let selectedCategory = $state('');
   let selectedLimit = $state('20');
+  
+  let maxQuestions = $derived(categoryCounts[selectedCategory] || 110);
+
+  $effect(() => {
+    if (parseInt(selectedLimit) > maxQuestions) {
+      selectedLimit = maxQuestions.toString();
+    }
+  });
 
   function startQuiz() {
     let url = `/quiz?mode=${selectedMode}`;
@@ -92,6 +110,7 @@
               <option value="Verbal Ability – Correct Usage">Verbal Ability – Correct Usage</option>
               <option value="Verbal Ability – Paragraph Organization">Verbal Ability – Paragraph Organization</option>
               <option value="Verbal Ability – Reading Comprehension">Verbal Ability – Reading Comprehension</option>
+              <option value="Analytical Reasoning">Analytical Reasoning</option>
             </select>
           </div>
         </div>
@@ -101,10 +120,18 @@
           <label class="label" for="limit-select">Number of Questions</label>
           <div class="select is-fullwidth">
             <select id="limit-select" bind:value={selectedLimit}>
-              <option value="10">10 Questions (Quick Review)</option>
-              <option value="20">20 Questions (Standard)</option>
-              <option value="50">50 Questions (Deep Dive)</option>
-              <option value="110">All 110 Questions (Full Marathon)</option>
+              {#if maxQuestions >= 10}
+                <option value="10">10 Questions (Quick Review)</option>
+              {/if}
+              {#if maxQuestions >= 20}
+                <option value="20">20 Questions (Standard)</option>
+              {/if}
+              {#if maxQuestions >= 50}
+                <option value="50">50 Questions (Deep Dive)</option>
+              {/if}
+              {#if ![10, 20, 50].includes(maxQuestions)}
+                <option value={maxQuestions.toString()}>All {maxQuestions} Questions (Full)</option>
+              {/if}
             </select>
           </div>
         </div>
