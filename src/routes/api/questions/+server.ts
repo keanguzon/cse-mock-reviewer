@@ -1,8 +1,7 @@
 import { json } from '@sveltejs/kit';
 import { supabase } from '$lib/supabaseClient';
 import { env } from '$env/dynamic/public';
-import fs from 'fs';
-import path from 'path';
+import dummyQuestionsData from '$lib/dummy_questions.json';
 
 export async function GET({ url }) {
     const category = url.searchParams.get('category');
@@ -53,9 +52,7 @@ export async function GET({ url }) {
 
     // Graceful fallback to local JSON file
     try {
-        const filePath = path.resolve('api/dummy_questions.json');
-        const data = fs.readFileSync(filePath, 'utf-8');
-        let questions = JSON.parse(data);
+        let questions = [...dummyQuestionsData];
 
         // Optional filtering by category
         if (category) {
@@ -70,7 +67,7 @@ export async function GET({ url }) {
 
         return json(questions.slice(0, limit));
     } catch (e) {
-        console.error("Error reading dummy questions JSON:", e);
+        console.error("Error with dummy questions JSON:", e);
         return json({ error: "Failed to load questions" }, { status: 500 });
     }
 }
