@@ -22,6 +22,7 @@
 	},
 	"dependencies": {
 		"@supabase/supabase-js": "^2.106.2",
-		"bulma": "^1.0.4"
+		"bulma": "^1.0.4",
+		"lucide-svelte": "^1.0.1"
 	}
 }

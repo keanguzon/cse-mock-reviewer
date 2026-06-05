@@ -3,6 +3,7 @@
     import { onMount } from 'svelte';
     import type { User } from '@supabase/supabase-js';
     import { goto } from '$app/navigation';
+    import { Trophy, TrendingUp, ClipboardCheck, BookOpen, Calendar, GraduationCap, Award, Clock, FileText, ArrowRight } from 'lucide-svelte';
 
     let { user }: { user: User } = $props();
 
@@ -97,26 +98,35 @@
     {:else if error}
         <p class="error-text">{error}</p>
     {:else if attempts.length === 0}
-        <div class="empty-state">
-            <div style="font-size: 2rem; margin-bottom: 0.5rem;">📝</div>
+        <div class="empty-state" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem;">
+            <ClipboardCheck size={40} style="color: #7c6d8e; margin-bottom: 0.75rem;" />
             <p>You haven't completed any mock exams yet.</p>
             <p style="color: #7c6d8e;">Start practicing to track your progress here!</p>
         </div>
     {:else}
         <div class="stats-grid">
-            <div class="stat-card">
+            <div class="stat-card" style="position: relative; overflow: hidden;">
+                <div style="position: absolute; top: 0.5rem; right: 0.5rem; opacity: 0.08; color: var(--cse-orange);">
+                    <Trophy size={48} />
+                </div>
                 <h3>High Score</h3>
                 <div class="stat-value" class:success={highScore >= 75} class:warning={highScore < 75}>
                     {highScore}%
                 </div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" style="position: relative; overflow: hidden;">
+                <div style="position: absolute; top: 0.5rem; right: 0.5rem; opacity: 0.08; color: var(--cse-primary-light);">
+                    <TrendingUp size={48} />
+                </div>
                 <h3>Average</h3>
                 <div class="stat-value" class:success={averageScore >= 75} class:warning={averageScore < 75}>
                     {averageScore}%
                 </div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" style="position: relative; overflow: hidden;">
+                <div style="position: absolute; top: 0.5rem; right: 0.5rem; opacity: 0.08; color: var(--cse-green);">
+                    <ClipboardCheck size={48} />
+                </div>
                 <h3>Quizzes Taken</h3>
                 <div class="stat-value">{attempts.length}</div>
             </div>
@@ -131,11 +141,26 @@
                     <div class="activity-item">
                         <div class="activity-info">
                             <strong>{attempt.category === 'all' || attempt.category === '' ? 'Mixed Categories' : attempt.category}</strong>
-                            <div class="activity-meta-row">
-                                <span class="level-badge {level.cls}">{level.label}</span>
-                                <small>{formatDate(attempt.completed_at)}</small>
+                            <div class="activity-meta-row" style="display: flex; align-items: center; gap: 0.5rem;">
+                                <span class="level-badge {level.cls}" style="display: inline-flex; align-items: center; gap: 0.25rem;">
+                                    {#if level.label.includes('Professional')}
+                                        <GraduationCap size={11} />
+                                    {:else}
+                                        <Award size={11} />
+                                    {/if}
+                                    {level.label}
+                                </span>
+                                <small style="display: inline-flex; align-items: center; gap: 0.25rem; color: #7c6d8e;">
+                                    <Calendar size={11} /> {formatDate(attempt.completed_at)}
+                                </small>
                             </div>
-                            <small class="mode-label">{formatMode(attempt.mode)}</small>
+                            <small class="mode-label" style="display: inline-flex; align-items: center; gap: 0.25rem; margin-top: 0.25rem;">
+                                {#if attempt.mode === 'mock'}
+                                    <Clock size={11} /> Mock Exam
+                                {:else}
+                                    <FileText size={11} /> Practice Mode
+                                {/if}
+                            </small>
                         </div>
                         <div class="activity-right">
                             <span class="score-badge" class:good={pct >= 75} class:needs-work={pct < 75}>
@@ -150,8 +175,12 @@
             </div>
 
             {#if attempts.length > 2}
-                <button class="btn-see-all" onclick={() => showAll = !showAll}>
-                    {showAll ? '↑ Show Less' : `See All Exams (${attempts.length}) →`}
+                <button class="btn-see-all" onclick={() => showAll = !showAll} style="display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem;">
+                    {#if showAll}
+                        ↑ Show Less
+                    {:else}
+                        See All Exams ({attempts.length}) <ArrowRight size={13} />
+                    {/if}
                 </button>
             {/if}
         </div>

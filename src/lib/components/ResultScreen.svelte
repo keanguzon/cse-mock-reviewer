@@ -2,6 +2,7 @@
   import { onMount } from 'svelte';
   import { supabase } from '$lib/supabaseClient';
   import { userSession } from '$lib/userSession.svelte';
+  import { ArrowLeft, Trophy, Sparkles, CheckCircle2, AlertTriangle, Lightbulb } from 'lucide-svelte';
 
   type Question = {
     id: string;
@@ -68,6 +69,15 @@
 <div class="result-container fade-in">
   {#if !isReviewMode}
     <div class="glass-card text-center">
+      <div class="result-header-decor" style="display: flex; justify-content: center; margin-bottom: 0.5rem; gap: 0.5rem; color: #a78bfa;">
+        {#if percentage >= 80}
+          <Sparkles size={32} class="text-emerald" style="filter: drop-shadow(0 0 8px rgba(52,211,153,0.3));" />
+          <Trophy size={32} class="text-emerald" style="filter: drop-shadow(0 0 8px rgba(52,211,153,0.3));" />
+          <Sparkles size={32} class="text-emerald" style="filter: drop-shadow(0 0 8px rgba(52,211,153,0.3));" />
+        {:else}
+          <Trophy size={32} style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));" />
+        {/if}
+      </div>
       <span class="eyebrow">Exam Complete</span>
       
       <div class="score-display">
@@ -89,18 +99,18 @@
       </div>
 
       {#if userSession.user}
-        <div class="save-indicator slide-up {saveStatus}">
+        <div class="save-indicator slide-up {saveStatus}" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;">
           {#if saveStatus === 'saving'}
             <span class="spinner" aria-busy="true"></span> Saving review progress...
           {:else if saveStatus === 'saved'}
-            <span class="icon">📈</span> Progress saved to your account!
+            <CheckCircle2 size={16} class="text-emerald" /> Progress saved to your account!
           {:else if saveStatus === 'error'}
-            <span class="icon">⚠️</span> Couldn't save this attempt.
+            <AlertTriangle size={16} class="text-red" /> Couldn't save this attempt.
           {/if}
         </div>
       {:else}
-        <div class="save-indicator slide-up promo">
-          <span class="icon">💡</span> Sign in to persistently save progress and track analytics!
+        <div class="save-indicator slide-up promo" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;">
+          <Lightbulb size={16} style="color: #a78bfa;" /> Sign in to persistently save progress and track analytics!
         </div>
       {/if}
 
@@ -118,8 +128,8 @@
     <!-- Review Mode UI -->
     <div class="review-card slide-up">
       <header class="review-header">
-        <button class="btn-back" onclick={() => isReviewMode = false}>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        <button class="btn-back" onclick={() => isReviewMode = false} style="display: inline-flex; align-items: center; gap: 0.5rem;">
+          <ArrowLeft size={18} />
           Back to Score
         </button>
         <div class="review-meta">

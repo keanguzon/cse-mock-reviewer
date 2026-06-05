@@ -3,6 +3,7 @@
   import { onMount } from 'svelte';
   import { initAuthListener, userSession } from '$lib/userSession.svelte';
   import AuthButton from '$lib/components/AuthButton.svelte';
+  import { BookOpen } from 'lucide-svelte';
 
   const { children } = $props();
 
@@ -23,10 +24,7 @@
   <div class="container">
     <div class="navbar-brand">
       <a href="/" class="navbar-item" style="display: flex; align-items: center;">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#9b36f4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 0.6rem; filter: drop-shadow(0 0 5px rgba(155,54,244,0.4));">
-          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
-        </svg>
+        <BookOpen size={22} color="#9b36f4" strokeWidth={3} style="margin-right: 0.6rem; filter: drop-shadow(0 0 5px rgba(155,54,244,0.4));" />
         <span class="gradient-text navbar-brand-text">CSE Reviewer</span>
       </a>
     </div>

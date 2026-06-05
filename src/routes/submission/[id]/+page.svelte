@@ -3,6 +3,7 @@
   import { supabase } from '$lib/supabaseClient';
   import { userSession } from '$lib/userSession.svelte';
   import { goto } from '$app/navigation';
+  import { ArrowLeft, Calendar, Award, GraduationCap, Clock, FileText } from 'lucide-svelte';
 
   type Question = {
     id: string;
@@ -127,8 +128,8 @@
 
       <div class="review-card slide-up">
         <header class="review-header">
-          <button class="btn-back" onclick={() => goto('/')}>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+          <button class="btn-back" onclick={() => goto('/')} style="display: inline-flex; align-items: center; gap: 0.5rem;">
+            <ArrowLeft size={18} />
             Back to Dashboard
           </button>
           
@@ -136,9 +137,24 @@
             <div class="review-meta">
               <h2 class="submission-title">{attempt.category === 'all' || attempt.category === '' ? 'Mixed Categories' : attempt.category}</h2>
               <div class="attempt-badges">
-                <span class="level-badge {level.cls}">{level.label}</span>
-                <span class="mode-badge">{formatMode(attempt.mode)}</span>
-                <span class="date-badge">📅 {formatDate(attempt.completed_at)}</span>
+                <span class="level-badge {level.cls}" style="display: inline-flex; align-items: center; gap: 0.3rem;">
+                  {#if level.label.includes('Professional')}
+                    <GraduationCap size={13} />
+                  {:else}
+                    <Award size={13} />
+                  {/if}
+                  {level.label}
+                </span>
+                <span class="mode-badge" style="display: inline-flex; align-items: center; gap: 0.3rem;">
+                  {#if attempt.mode === 'mock'}
+                    <Clock size={13} /> Mock Exam
+                  {:else}
+                    <FileText size={13} /> Practice
+                  {/if}
+                </span>
+                <span class="date-badge" style="display: inline-flex; align-items: center; gap: 0.3rem;">
+                  <Calendar size={13} /> {formatDate(attempt.completed_at)}
+                </span>
               </div>
             </div>
             
