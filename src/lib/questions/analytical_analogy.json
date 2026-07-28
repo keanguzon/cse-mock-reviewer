@@ -158,5 +158,245 @@
         "choices": ["Wind speed", "Atmospheric pressure", "Humidity", "Rainfall"],
         "correct_answer": "Atmospheric pressure",
         "explanation": "A thermometer measures temperature. A barometer measures atmospheric pressure. Both are instrument-to-measurement relationships."
+    },
+    {
+        "id": "121",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nARCHITECT : BLUEPRINT",
+        "choices": ["Author : Chapter", "Composer : Score", "Sculptor : Clay", "Painter : Canvas"],
+        "correct_answer": "Composer : Score",
+        "explanation": "An architect creates a blueprint as a guide for building. A composer creates a musical score as a guide for performance."
+    },
+    {
+        "id": "122",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nIMMUTABLE : CHANGE :: INEPT : ________",
+        "choices": ["Skill", "Error", "Clumsiness", "Failure"],
+        "correct_answer": "Skill",
+        "explanation": "'Immutable' means incapable of change. 'Inept' means lacking skill. Both express an absence of a quality."
+    },
+    {
+        "id": "123",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nPALPABLE : TOUCH :: AUDIBLE : ________",
+        "choices": ["Sight", "Taste", "Hearing", "Smell"],
+        "correct_answer": "Hearing",
+        "explanation": "Something palpable can be felt through touch. Something audible can be perceived through hearing."
+    },
+    {
+        "id": "124",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nSCALPEL : SURGEON",
+        "choices": ["Chisel : Sculptor", "Hammer : Carpenter", "Pen : Author", "Needle : Tailor"],
+        "correct_answer": "Chisel : Sculptor",
+        "explanation": "A scalpel is the specialized cutting tool of a surgeon. A chisel is the specialized carving tool of a sculptor."
+    },
+    {
+        "id": "125",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nERUDITE : KNOWLEDGE :: CHARITABLE : ________",
+        "choices": ["Wealth", "Generosity", "Power", "Fame"],
+        "correct_answer": "Generosity",
+        "explanation": "An erudite person possesses great knowledge. A charitable person possesses great generosity."
+    },
+    {
+        "id": "126",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nSOLILOQUY : ACTOR :: SERMON : ________",
+        "choices": ["Congregation", "Preacher", "Audience", "Church"],
+        "correct_answer": "Preacher",
+        "explanation": "A soliloquy is a speech delivered by an actor. A sermon is a speech delivered by a preacher."
+    },
+    {
+        "id": "127",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nTACITURN : TALKATIVE :: TIMID : ________",
+        "choices": ["Shy", "Quiet", "Bold", "Fearful"],
+        "correct_answer": "Bold",
+        "explanation": "'Taciturn' (reserved) is the antonym of 'talkative'. 'Timid' (fearful) is the antonym of 'bold'."
+    },
+    {
+        "id": "128",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nTELESCOPE : ASTRONOMER :: MICROSCOPE : ________",
+        "choices": ["Biologist", "Chemist", "Geologist", "Physicist"],
+        "correct_answer": "Biologist",
+        "explanation": "A telescope is the primary observational tool of an astronomer. A microscope is the primary tool of a biologist."
+    },
+    {
+        "id": "129",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nEPILOGUE : PLAY",
+        "choices": ["Preamble : Speech", "Coda : Symphony", "Title : Book", "Summary : Essay"],
+        "correct_answer": "Coda : Symphony",
+        "explanation": "An epilogue is a concluding section added to a play. A coda is a concluding musical section added to a symphony."
+    },
+    {
+        "id": "130",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nDIPLOMAT : TACT :: JUDGE : ________",
+        "choices": ["Law", "Court", "Impartiality", "Verdict"],
+        "correct_answer": "Impartiality",
+        "explanation": "A diplomat must embody tact. A judge must embody impartiality in decision-making."
+    },
+    {
+        "id": "131",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nODOMETER : DISTANCE :: SPEEDOMETER : ________",
+        "choices": ["Acceleration", "Speed", "Time", "Fuel"],
+        "correct_answer": "Speed",
+        "explanation": "An odometer measures distance traveled. A speedometer measures speed."
+    },
+    {
+        "id": "132",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nRETICENT : SPEAK :: HESITANT : ________",
+        "choices": ["Act", "Think", "Plan", "Wait"],
+        "correct_answer": "Act",
+        "explanation": "A reticent person is inclined to avoid speaking. A hesitant person is inclined to delay acting."
+    },
+    {
+        "id": "133",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nCOMPENDIUM : KNOWLEDGE",
+        "choices": ["Anthology : Literature", "Dictionary : Words", "Atlas : Maps", "Encyclopedia : Facts"],
+        "correct_answer": "Anthology : Literature",
+        "explanation": "A compendium is a concise collection of knowledge. An anthology is a published collection of literary works."
+    },
+    {
+        "id": "134",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nADMONISH : SCOLD :: PRAISE : ________",
+        "choices": ["Criticize", "Extol", "Ignore", "Blame"],
+        "correct_answer": "Extol",
+        "explanation": "'Admonish' and 'scold' are near-synonyms. 'Praise' and 'extol' are near-synonyms."
+    },
+    {
+        "id": "135",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nANCHOR : SHIP :: BRAKE : ________",
+        "choices": ["Wheel", "Engine", "Vehicle", "Road"],
+        "correct_answer": "Vehicle",
+        "explanation": "An anchor stops or holds a ship. A brake stops or holds a land vehicle."
+    },
+    {
+        "id": "136",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nMETAPHOR : FIGURATIVE",
+        "choices": ["Fact : Literal", "Fable : Historical", "Simile : Complex", "Irony : Direct"],
+        "correct_answer": "Fact : Literal",
+        "explanation": "A metaphor is figurative language. A fact is literal statement."
+    },
+    {
+        "id": "137",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nBENEVOLENT : MALEVOLENT :: ALTRUISTIC : ________",
+        "choices": ["Generous", "Kind", "Selfish", "Sympathetic"],
+        "correct_answer": "Selfish",
+        "explanation": "'Benevolent' (well-meaning) is the antonym of 'malevolent'. 'Altruistic' (unselfish) is the antonym of 'selfish'."
+    },
+    {
+        "id": "138",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nPROLOGUE : NOVEL",
+        "choices": ["Preamble : Constitution", "Epilogue : Story", "Index : Book", "Cover : Magazine"],
+        "correct_answer": "Preamble : Constitution",
+        "explanation": "A prologue introduces a novel. A preamble introduces a constitution."
+    },
+    {
+        "id": "139",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nPENURY : POVERTY :: AFFLUENCE : ________",
+        "choices": ["Misery", "Wealth", "Debt", "Scarcity"],
+        "correct_answer": "Wealth",
+        "explanation": "'Penury' is a synonym for extreme poverty. 'Affluence' is a synonym for wealth."
+    },
+    {
+        "id": "140",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nHANGAR : AIRCRAFT :: GARAGE : ________",
+        "choices": ["Ship", "Automobile", "Train", "Bicycle"],
+        "correct_answer": "Automobile",
+        "explanation": "A hangar stores an aircraft. A garage stores an automobile."
+    },
+    {
+        "id": "141",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nNAIVE : SOPHISTICATED :: GULLIBLE : ________",
+        "choices": ["Trusting", "Innocent", "Critical", "Ignorant"],
+        "correct_answer": "Critical",
+        "explanation": "'Naive' (unsophisticated) is the opposite of 'sophisticated'. 'Gullible' (easily tricked) is the opposite of 'critical' (discerning)."
+    },
+    {
+        "id": "142",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nCHRONOMETER : TIME :: PROTRACTOR : ________",
+        "choices": ["Length", "Angle", "Weight", "Area"],
+        "correct_answer": "Angle",
+        "explanation": "A chronometer measures time precisely. A protractor measures geometric angles."
+    },
+    {
+        "id": "143",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nCANVAS : PAINTER",
+        "choices": ["Marble : Sculptor", "Paper : Writer", "Fabric : Tailor", "Stage : Actor"],
+        "correct_answer": "Marble : Sculptor",
+        "explanation": "Canvas is the medium worked on by a painter. Marble is the medium worked on by a sculptor."
+    },
+    {
+        "id": "144",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nVERIFY : TRUTH :: CONFIRM : ________",
+        "choices": ["Fact", "Lie", "Doubt", "Rumor"],
+        "correct_answer": "Fact",
+        "explanation": "To verify is to establish truth. To confirm is to establish a fact."
+    },
+    {
+        "id": "145",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nSQUALID : CLEAN :: CHAOTIC : ________",
+        "choices": ["Messy", "Orderly", "Noisy", "Wild"],
+        "correct_answer": "Orderly",
+        "explanation": "'Squalid' (filthy) is the antonym of 'clean'. 'Chaotic' (disordered) is the antonym of 'orderly'."
+    },
+    {
+        "id": "146",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nHYPOTHESIS : EXPERIMENT",
+        "choices": ["Theory : Law", "Premise : Conclusion", "Idea : Execution", "Diagnosis : Treatment"],
+        "correct_answer": "Diagnosis : Treatment",
+        "explanation": "A hypothesis leads to testing by experiment. A diagnosis leads to action by treatment."
+    },
+    {
+        "id": "147",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nLACONIC : WORDS :: FRUGAL : ________",
+        "choices": ["Money", "Time", "Food", "Speech"],
+        "correct_answer": "Money",
+        "explanation": "A laconic person uses few words. A frugal person uses little money."
+    },
+    {
+        "id": "148",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nEXPEDITIOUS : SLOW :: METICULOUS : ________",
+        "choices": ["Careful", "Thorough", "Careless", "Precise"],
+        "correct_answer": "Careless",
+        "explanation": "'Expeditious' (speedy) is opposite to 'slow'. 'Meticulous' (attentive to detail) is opposite to 'careless'."
+    },
+    {
+        "id": "149",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nQUARANTINE : ISOLATION :: SANCTUARY : ________",
+        "choices": ["Protection", "Danger", "Exposure", "Punishment"],
+        "correct_answer": "Protection",
+        "explanation": "A quarantine provides isolation. A sanctuary provides protection/refuge."
+    },
+    {
+        "id": "150",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nCOMPASS : DIRECTION",
+        "choices": ["Clock : Time", "Ruler : Length", "Thermometer : Heat", "Scale : Weight"],
+        "correct_answer": "Clock : Time",
+        "explanation": "A compass indicates direction. A clock indicates time."
     }
 ]

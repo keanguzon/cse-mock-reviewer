@@ -158,5 +158,245 @@
         "choices": ["The principle of the school addressed the students.", "The principal of the school addressed the students.", "The princible of the school addressed the students.", "The prinsiple of the school addressed the students."],
         "correct_answer": "The principal of the school addressed the students.",
         "explanation": "'Principal' refers to the head of a school. 'Principle' refers to a fundamental truth or rule. Context requires the person, not the concept."
+    },
+    {
+        "id": "61",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The government office ordered new personalized ______ for official letters.",
+        "choices": ["stationary", "stationery", "stationarity", "stationer"],
+        "correct_answer": "stationery",
+        "explanation": "'Stationery' (with an 'e') refers to writing materials like envelopes and paper. 'Stationary' (with an 'a') means standing still."
+    },
+    {
+        "id": "62",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The legal ______ advised the board on compliance matters.",
+        "choices": ["council", "counsel", "consul", "console"],
+        "correct_answer": "counsel",
+        "explanation": "'Counsel' means advice or a lawyer/legal advisor. 'Council' refers to an administrative or advisory body."
+    },
+    {
+        "id": "63",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: The officer tried to ______ information from the reluctant witness.",
+        "choices": ["illicit", "elicit", "elude", "allude"],
+        "correct_answer": "elicit",
+        "explanation": "'Elicit' is a verb meaning to evoke or draw out information. 'Illicit' is an adjective meaning illegal."
+    },
+    {
+        "id": "64",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: We must ______ measures to guarantee public safety.",
+        "choices": ["ensure", "insure", "assure", "reassure"],
+        "correct_answer": "ensure",
+        "explanation": "'Ensure' means to make certain that something will happen. 'Insure' relates to financial insurance policies."
+    },
+    {
+        "id": "65",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The speaker's remarks ______ that changes would be made soon.",
+        "choices": ["inferred", "implied", "concluded", "deduced"],
+        "correct_answer": "implied",
+        "explanation": "A speaker or writer 'implies' (suggests) something; a listener or reader 'infers' (deduces) meaning from it."
+    },
+    {
+        "id": "66",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: Please ______ the document flat on the table before scanning.",
+        "choices": ["lay", "lie", "laid", "lain"],
+        "correct_answer": "lay",
+        "explanation": "'Lay' is a transitive verb requiring a direct object ('document'). 'Lie' is intransitive (to recline)."
+    },
+    {
+        "id": "67",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The committee will ______ the neighborhood for feedback on the proposal.",
+        "choices": ["canvas", "canvass", "canvaser", "canvassed"],
+        "correct_answer": "canvass",
+        "explanation": "'Canvass' (with double 's') means to solicit opinions, votes, or feedback. 'Canvas' (single 's') is heavy cloth."
+    },
+    {
+        "id": "68",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: Manila is the political and economic ______ of the Philippines.",
+        "choices": ["capitol", "capital", "capitolium", "capitation"],
+        "correct_answer": "capital",
+        "explanation": "'Capital' refers to a seat of government or wealth. 'Capitol' refers specifically to the building where a legislature meets."
+    },
+    {
+        "id": "69",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The auditor ______ several non-compliance issues in the report.",
+        "choices": ["cited", "sited", "sighted", "recited"],
+        "correct_answer": "cited",
+        "explanation": "'Cited' means quoted or referred to as an authority or proof. 'Sited' relates to location; 'sighted' relates to vision."
+    },
+    {
+        "id": "70",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": ["An eminent scientist gave the keynote address.", "An imminent scientist gave the keynote address.", "An immanent scientist gave the keynote address.", "An eminent scientist gave the keynote address."],
+        "correct_answer": "An eminent scientist gave the keynote address.",
+        "explanation": "'Eminent' means famous or distinguished. 'Imminent' means about to happen. Context requires distinguished."
+    },
+    {
+        "id": "71",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The two issues should be treated as ______ matters.",
+        "choices": ["discreet", "discrete", "discretion", "discreteness"],
+        "correct_answer": "discrete",
+        "explanation": "'Discrete' means individually separate and distinct. 'Discreet' means careful, prudent, or secretive."
+    },
+    {
+        "id": "72",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: We need to investigate ______ before taking action.",
+        "choices": ["farther", "further", "farthest", "furthest"],
+        "correct_answer": "further",
+        "explanation": "'Further' refers to figurative distance or additional degree/extent. 'Farther' refers strictly to physical distance."
+    },
+    {
+        "id": "73",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: Employee ______ remained high despite the reorganization.",
+        "choices": ["moral", "morale", "morality", "moralist"],
+        "correct_answer": "morale",
+        "explanation": "'Morale' refers to confidence, enthusiasm, and discipline of a group. 'Moral' relates to principles of right and wrong."
+    },
+    {
+        "id": "74",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The doctor ______ a strict diet and exercise routine.",
+        "choices": ["proscribed", "prescribed", "transcribed", "described"],
+        "correct_answer": "prescribed",
+        "explanation": "'Prescribe' means to recommend or authorize a treatment. 'Proscribe' means to forbid or prohibit."
+    },
+    {
+        "id": "75",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The government plans to ______ taxes to fund infrastructure.",
+        "choices": ["raise", "rise", "razed", "arise"],
+        "correct_answer": "raise",
+        "explanation": "'Raise' is transitive (requires an object like 'taxes'). 'Rise' is intransitive (to move upward)."
+    },
+    {
+        "id": "76",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: A judge must remain a ______ party during courtroom trials.",
+        "choices": ["uninterested", "disinterested", "interesting", "disinterest"],
+        "correct_answer": "disinterested",
+        "explanation": "'Disinterested' means impartial and unbiased. 'Uninterested' means bored or lacking interest."
+    },
+    {
+        "id": "77",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The instructions provided ______ details regarding the application process.",
+        "choices": ["implicit", "explicit", "complicit", "duplicitous"],
+        "correct_answer": "explicit",
+        "explanation": "'Explicit' means stated clearly and in detail, leaving no room for confusion. 'Implicit' means implied."
+    },
+    {
+        "id": "78",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": ["The signing of the treaty was a historical event.", "The signing of the treaty was a historic event.", "The signing of the treaty was a historian event.", "The signing of the treaty was an historical event."],
+        "correct_answer": "The signing of the treaty was a historic event.",
+        "explanation": "'Historic' refers to something famous or important in history. 'Historical' relates to anything in the past generally."
+    },
+    {
+        "id": "79",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The new intern managed to ______ to the fast-paced environment quickly.",
+        "choices": ["adopt", "adapt", "adept", "addict"],
+        "correct_answer": "adapt",
+        "explanation": "'Adapt' means to adjust to new conditions. 'Adopt' means to take up or choose. 'Adept' means skilled."
+    },
+    {
+        "id": "80",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The decision set a new ______ for future administrative cases.",
+        "choices": ["president", "precedent", "precedence", "presidency"],
+        "correct_answer": "precedent",
+        "explanation": "A 'precedent' is an earlier event or action regarded as an example or rule to be followed."
+    },
+    {
+        "id": "81",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The manager gave valuable ______ on career advancement.",
+        "choices": ["advise", "advice", "adviser", "advising"],
+        "correct_answer": "advice",
+        "explanation": "'Advice' is the noun form meaning guidance. 'Advise' is the verb meaning to offer guidance."
+    },
+    {
+        "id": "82",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: Make sure you do not ______ your entry permit before traveling.",
+        "choices": ["loose", "lose", "loss", "loosen"],
+        "correct_answer": "lose",
+        "explanation": "'Lose' (single 'o') is a verb meaning to misplace or be deprived of. 'Loose' (double 'o') means not tight."
+    },
+    {
+        "id": "83",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The court ordered the immediate ______ of the illegal structure.",
+        "choices": ["demolition", "demonstration", "demarcation", "demotion"],
+        "correct_answer": "demolition",
+        "explanation": "'Demolition' means tearing down or destroying a building or structure."
+    },
+    {
+        "id": "84",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The applicant demonstrated that he was highly ______ at computer programming.",
+        "choices": ["adopt", "adapt", "adept", "adaptable"],
+        "correct_answer": "adept",
+        "explanation": "'Adept' is an adjective meaning very skilled or proficient at something."
+    },
+    {
+        "id": "85",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The road followed a ______ path through the mountain pass.",
+        "choices": ["torturous", "tortuous", "torture", "tortured"],
+        "correct_answer": "tortuous",
+        "explanation": "'Tortuous' means full of twists and turns. 'Torturous' means involving or causing painful torture."
+    },
+    {
+        "id": "86",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: The agency strives to provide ______ quality service to the public.",
+        "choices": ["continual", "continuous", "continuance", "continuation"],
+        "correct_answer": "continuous",
+        "explanation": "'Continuous' means uninterrupted in time or sequence. 'Continual' means occurring frequently at intervals."
+    },
+    {
+        "id": "87",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The new policy will ______ immediately upon publication.",
+        "choices": ["take effect", "take affect", "have affect", "bring affect"],
+        "correct_answer": "take effect",
+        "explanation": "The correct idiom is 'take effect' (meaning to become operational or binding)."
+    },
+    {
+        "id": "88",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The project team worked in close ______ with local government officials.",
+        "choices": ["cooperation", "corporation", "co-optation", "compilation"],
+        "correct_answer": "cooperation",
+        "explanation": "'Cooperation' means working together toward a common goal. 'Corporation' is a business organization."
+    },
+    {
+        "id": "89",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: She showed great ______ in handling the angry client.",
+        "choices": ["tact", "tack", "tactics", "tactile"],
+        "correct_answer": "tact",
+        "explanation": "'Tact' means skill and sensitivity in dealing with others or difficult issues."
+    },
+    {
+        "id": "90",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The law ______ discrimination in hiring based on age or gender.",
+        "choices": ["prescribes", "proscribes", "subscribes", "ascribes"],
+        "correct_answer": "proscribes",
+        "explanation": "'Proscribe' means to forbid, denounce, or condemn. 'Prescribe' means to direct or mandate."
     }
 ]

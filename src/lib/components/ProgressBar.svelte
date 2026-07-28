@@ -1,12 +1,22 @@
 <script lang="ts">
-  let { answeredCount, total, score, isPractice } = $props<{
+  let { answeredCount, total, score, isPractice, remainingSeconds = 0, isMock = false } = $props<{
     answeredCount: number;
     total: number;
     score: number;
     isPractice: boolean;
+    remainingSeconds?: number;
+    isMock?: boolean;
   }>();
 
   let percentage = $derived(total > 0 ? (answeredCount / total) * 100 : 0);
+
+  let formattedTime = $derived.by(() => {
+    const mins = Math.floor(remainingSeconds / 60);
+    const secs = remainingSeconds % 60;
+    return `${mins}:${secs.toString().padStart(2, '0')}`;
+  });
+
+  let isLowTime = $derived(remainingSeconds > 0 && remainingSeconds < 300);
 </script>
 
 <div class="progress-wrapper fade-in">
@@ -15,9 +25,13 @@
     {#if isPractice}
       <span class="score">Score: {score}</span>
     {:else}
-      <span class="mode-badge">
-        <span class="pulse"></span>
-        Exam Mode Active
+      <span class="mode-badge" class:low-time={isLowTime}>
+        <span class="pulse" class:pulse-urgent={isLowTime}></span>
+        {#if remainingSeconds > 0}
+          <span class="timer-display">⏱️ {formattedTime}</span>
+        {:else}
+          Exam Mode Active
+        {/if}
       </span>
     {/if}
   </div>
@@ -69,12 +83,33 @@
     gap: 0.5rem;
   }
 
+  .timer-display {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    color: white;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .mode-badge.low-time {
+    color: var(--cse-red);
+  }
+
+  .mode-badge.low-time .timer-display {
+    color: var(--cse-red);
+  }
+
   .pulse {
     width: 8px;
     height: 8px;
     background: var(--cse-orange);
     border-radius: 50%;
     animation: pulse-anim 1.5s infinite;
+  }
+
+  .pulse-urgent {
+    background: var(--cse-red) !important;
   }
 
   @keyframes pulse-anim {

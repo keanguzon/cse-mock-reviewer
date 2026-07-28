@@ -79,25 +79,36 @@
 
     let animId: number;
     let startTime = Date.now();
+    let lastRenderTime = 0;
+    const targetFps = 35;
+    const frameInterval = 1000 / targetFps;
 
     function resize() {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+      // Downsample WebGL render buffer scale for 4x GPU performance boost
+      // Ambient fluid shaders look even smoother when sampled at half-res
+      const scale = 0.5;
+      canvas.width = Math.max(320, Math.floor(window.innerWidth * scale));
+      canvas.height = Math.max(240, Math.floor(window.innerHeight * scale));
       gl.viewport(0, 0, canvas.width, canvas.height);
     }
 
-    function render() {
+    function render(now: number) {
+      animId = requestAnimationFrame(render);
+
+      const delta = now - lastRenderTime;
+      if (delta < frameInterval) return;
+      lastRenderTime = now - (delta % frameInterval);
+
       const t = (Date.now() - startTime) / 1000;
       gl.clearColor(0, 0, 0, 0);
       gl.clear(gl.COLOR_BUFFER_BIT);
       gl.uniform1f(uTime, t);
       gl.uniform2f(uRes, canvas.width, canvas.height);
       gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
-      animId = requestAnimationFrame(render);
     }
 
     resize();
-    render();
+    render(performance.now());
     window.addEventListener('resize', resize);
 
     return () => {

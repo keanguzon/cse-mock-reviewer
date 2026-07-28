@@ -17,6 +17,8 @@
 
   let questions = $state(data?.questions || []);
   let currentMode = $state(data?.mode || 'practice');
+  import { onDestroy } from 'svelte';
+
   let currentCategory = $state(data?.category || '');
   let currentLevel = $state(data?.level || 'professional');
   
@@ -26,6 +28,25 @@
   let userAnswers = $state<Record<number, string>>({});
   let pendingAnswer = $state<string | null>(null);
   let showOverview = $state(false);
+
+  let startTime = $state(Date.now());
+  let elapsedSeconds = $state(0);
+  let timerInterval = $state<ReturnType<typeof setInterval> | null>(null);
+  let timeLimit = $derived(
+    currentMode === 'mock' ? Math.ceil((questions?.length || 20) * 1.12) * 60 : 0
+  );
+  let remainingSeconds = $derived(
+    timeLimit > 0 ? Math.max(0, timeLimit - elapsedSeconds) : 0
+  );
+  let isTimeUp = $derived(timeLimit > 0 && elapsedSeconds >= timeLimit);
+
+  $effect(() => {
+    if (isTimeUp && !isFinished) {
+      if (timerInterval) clearInterval(timerInterval);
+      localStorage.removeItem('cse_active_session');
+      currentIndex = questions.length;
+    }
+  });
   
   // Custom dialog/confirmation modal state
   let showConfirmModal = $state(false);
@@ -88,15 +109,22 @@
             currentCategory = saved.category || '';
             currentLevel = saved.level || 'professional';
             pendingAnswer = saved.pendingAnswer || null;
-            return;
+            if (saved.elapsedSeconds) elapsedSeconds = saved.elapsedSeconds;
           }
         } catch (e) {
           console.error("Error loading session:", e);
         }
       }
-      // Fallback if no valid session data
-      goto('/');
     }
+
+    startTime = Date.now() - (elapsedSeconds * 1000);
+    timerInterval = setInterval(() => {
+      elapsedSeconds = Math.floor((Date.now() - startTime) / 1000);
+    }, 1000);
+  });
+
+  onDestroy(() => {
+    if (timerInterval) clearInterval(timerInterval);
   });
 
   function handleSelect(choice: string) {
@@ -138,7 +166,8 @@
       mode: currentMode,
       category: currentCategory,
       level: currentLevel,
-      pendingAnswer
+      pendingAnswer,
+      elapsedSeconds
     };
     localStorage.setItem('cse_active_session', JSON.stringify(sessionData));
     goto('/');
@@ -209,6 +238,7 @@
     level={currentLevel}
     {questions}
     {userAnswers}
+    elapsedTime={elapsedSeconds}
     onExit={handleExit} 
   />
 {:else}
@@ -218,6 +248,8 @@
       total={questions.length} 
       {score} 
       {isPractice} 
+      {remainingSeconds}
+      isMock={currentMode === 'mock'}
     />
 
     <QuestionCard 
@@ -276,6 +308,10 @@
         {#if isPractice && !hasAnswered && pendingAnswer}
           <button class="btn-primary uppercase" onclick={handleConfirm}>
             CONFIRM ANSWER
+          </button>
+        {:else if isPractice && hasAnswered && currentIndex < questions.length - 1}
+          <button class="btn-primary btn-next uppercase" onclick={handleNext}>
+            NEXT QUESTION →
           </button>
         {:else if currentIndex < questions.length - 1}
           <button class="btn-icon" onclick={handleNext} title="Next Question" aria-label="Next">
@@ -427,6 +463,16 @@
 
   .btn-submit {
     background: linear-gradient(135deg, #8b5cf6, #6d28d9);
+  }
+
+  .btn-next {
+    background: linear-gradient(135deg, var(--cse-green), #059669);
+    box-shadow: 0 4px 15px rgba(52, 211, 153, 0.3);
+    min-width: 170px;
+  }
+  .btn-next:hover {
+    box-shadow: 0 8px 25px rgba(52, 211, 153, 0.45);
+    background: linear-gradient(135deg, #6ee7b7, var(--cse-green));
   }
 
   .uppercase {

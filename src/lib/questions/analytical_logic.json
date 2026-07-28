@@ -158,5 +158,245 @@
         "choices": ["Only conclusion I follows", "Only conclusion II follows", "Either conclusion I or II follows", "Neither conclusion I nor II follows"],
         "correct_answer": "Neither conclusion I nor II follows",
         "explanation": "The employee-engineers and the manager-engineers may or may not overlap. Without a direct link, neither conclusion can be definitively drawn from the premises."
+    },
+    {
+        "id": "141",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All government auditors are certified accountants.\n- All certified accountants understand tax laws.\n\nConclusions:\n- I. All government auditors understand tax laws.\n- II. All people who understand tax laws are government auditors.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "By hypothetical syllogism (All A are B, All B are C -> All A are C), Conclusion I follows. Conclusion II commits the converse fallacy."
+    },
+    {
+        "id": "142",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No unexcused absence is permitted.\n- Maria has an unexcused absence.\n\nConclusions:\n- I. Maria's absence is not permitted.\n- II. Maria will be terminated from service.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Since no unexcused absence is permitted and Maria's absence is unexcused, her absence is not permitted (I). Termination (II) goes beyond the given statements."
+    },
+    {
+        "id": "143",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- If an applicant passes the civil service exam, they become eligible for permanent appointment.\n- Juan became eligible for permanent appointment.\n\nConclusions:\n- I. Juan passed the civil service exam.\n- II. Juan did not pass the civil service exam.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Neither conclusion I nor II follows",
+        "explanation": "Afirming the consequent fallacy: eligibility could be acquired through other laws (e.g., Honor Graduate Eligibility RA 1080). We cannot definitively infer I."
+    },
+    {
+        "id": "144",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- If a typhoon alert is raised to Signal 3, government offices are closed.\n- Government offices are not closed today.\n\nConclusions:\n- I. Typhoon alert Signal 3 was not raised today.\n- II. Typhoon alert Signal 1 was raised today.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Modus Tollens (If P then Q; Not Q; Therefore Not P). Since offices are not closed, Signal 3 was not raised. Signal 1 (II) is unmentioned."
+    },
+    {
+        "id": "145",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All public officers must file their SALN annually.\n- Elena is a public officer.\n\nConclusions:\n- I. Elena must file her SALN annually.\n- II. Elena has already filed her SALN this year.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Universal instantiation directly applies the rule to Elena (I). Whether she has already filed (II) is not stated."
+    },
+    {
+        "id": "146",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Either the project will be approved by the board or it will be deferred.\n- The project was not approved by the board.\n\nConclusions:\n- I. The project was deferred.\n- II. The project was permanently cancelled.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Disjunctive syllogism (P or Q; Not P; Therefore Q). Since it was not approved, it must be deferred (I). Permanent cancellation (II) is not stated."
+    },
+    {
+        "id": "147",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some department heads are lawyers.\n- All lawyers understand legal procedures.\n\nConclusions:\n- I. Some department heads understand legal procedures.\n- II. All department heads understand legal procedures.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Department heads who are lawyers must understand legal procedures, so 'some' do (I). We cannot generalize to 'all' department heads (II)."
+    },
+    {
+        "id": "148",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No temporary employee is eligible for a pension.\n- Some division chiefs are temporary employees.\n\nConclusions:\n- I. Some division chiefs are not eligible for a pension.\n- II. All division chiefs are eligible for a pension.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Division chiefs who are temporary employees cannot be eligible for a pension, so 'some division chiefs are not eligible' (I) follows. II contradicts this."
+    },
+    {
+        "id": "149",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All items listed in Schedule A are tax-exempt.\n- Item X is listed in Schedule A.\n\nConclusions:\n- I. Item X is tax-exempt.\n- II. Item X is a luxury good.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Direct deductive application: Item X is in Schedule A, and all Schedule A items are tax-exempt (I)."
+    },
+    {
+        "id": "150",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All municipal mayors are elected officials.\n- All elected officials are public servants.\n\nConclusions:\n- I. All municipal mayors are public servants.\n- II. All public servants are municipal mayors.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Chain syllogism (All A are B, All B are C -> All A are C). Conclusion II is the converse fallacy."
+    },
+    {
+        "id": "151",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No counterfeit bills are valid currency.\n- Some notes in the register are counterfeit bills.\n\nConclusions:\n- I. Some notes in the register are not valid currency.\n- II. All notes in the register are valid currency.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Counterfeit notes in the register are not valid currency, so 'some notes in the register are not valid currency' (I)."
+    },
+    {
+        "id": "152",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- If an employee completes 10 years of service, they receive a loyalty award.\n- Pedro received a loyalty award.\n\nConclusions:\n- I. Pedro completed 10 years of service.\n- II. Pedro has worked for less than 10 years.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Neither conclusion I nor II follows",
+        "explanation": "Affirming the consequent fallacy: receiving an award could happen through other special recognitions. Neither I nor II is logically guaranteed."
+    },
+    {
+        "id": "153",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All formal complaints must be submitted in writing.\n- Complaint Y was submitted verbally.\n\nConclusions:\n- I. Complaint Y is not a formal complaint.\n- II. Complaint Y will be dismissed immediately.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Since all formal complaints are written and Y is verbal, Y is not a formal complaint (Modus Tollens, I). Immediate dismissal (II) is an extra assumption."
+    },
+    {
+        "id": "154",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some government contracts are multi-year agreements.\n- All multi-year agreements require legislative oversight.\n\nConclusions:\n- I. Some government contracts require legislative oversight.\n- II. All government contracts require legislative oversight.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Government contracts that are multi-year require legislative oversight, so 'some' do (I). We cannot claim 'all' government contracts do."
+    },
+    {
+        "id": "155",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No unauthorized personnel are allowed in the archives.\n- Agent Santos is allowed in the archives.\n\nConclusions:\n- I. Agent Santos is an authorized personnel.\n- II. Agent Santos is the head archivist.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Since no unauthorized person is allowed and Santos is allowed, Santos cannot be unauthorized; Santos must be authorized (I)."
+    },
+    {
+        "id": "156",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All regional offices submitted their annual reports.\n- Region 4-A is a regional office.\n\nConclusions:\n- I. Region 4-A submitted its annual report.\n- II. Region 4-A's report was approved without revisions.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Universal instantiation: Region 4-A is a regional office, so it submitted its report (I). Revisions/approval status (II) is unmentioned."
+    },
+    {
+        "id": "157",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some procurement officers are lawyers.\n- Some procurement officers are accountants.\n\nConclusions:\n- I. Some lawyers are accountants.\n- II. No lawyer is an accountant.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Either conclusion I or II follows", "Neither conclusion I nor II follows"],
+        "correct_answer": "Neither conclusion I nor II follows",
+        "explanation": "Two 'some' premises sharing a middle term ('procurement officers') cannot yield a necessary logical conclusion about the relation between lawyers and accountants."
+    },
+    {
+        "id": "158",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All career service officers undergo performance reviews.\n- Mark does not undergo performance reviews.\n\nConclusions:\n- I. Mark is not a career service officer.\n- II. Mark is a contractual employee.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Modus Tollens: If Mark were a career service officer, he would undergo reviews. Since he does not, he is not one (I). Specific status (II) is unstated."
+    },
+    {
+        "id": "159",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No confidential file may be emailed.\n- File Z was emailed.\n\nConclusions:\n- I. File Z is not a confidential file.\n- II. File Z contains public information.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Since no confidential file may be emailed and File Z was emailed, File Z cannot be a confidential file (I)."
+    },
+    {
+        "id": "160",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All permanent employees receive hazard pay if working in high-risk areas.\n- Clara works in a high-risk area and is a permanent employee.\n\nConclusions:\n- I. Clara receives hazard pay.\n- II. Clara receives double hazard pay.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Clara meets both conditions (permanent employee + high-risk area), so she receives hazard pay (I). 'Double' hazard pay (II) is unwarranted."
+    },
+    {
+        "id": "161",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All constitutional commissions are independent bodies.\n- The Civil Service Commission is a constitutional commission.\n\nConclusions:\n- I. The Civil Service Commission is an independent body.\n- II. All independent bodies are constitutional commissions.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Conclusion I follows by categorical deduction. Conclusion II is the converse fallacy."
+    },
+    {
+        "id": "162",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some public utilities are state-owned.\n- All state-owned entities are subject to COA audit.\n\nConclusions:\n- I. Some public utilities are subject to COA audit.\n- II. All public utilities are subject to COA audit.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Public utilities that are state-owned are subject to COA audit, so 'some public utilities are subject to COA audit' (I). 'All' goes beyond the premise."
+    },
+    {
+        "id": "163",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No ordinance may violate a national law.\n- Ordinance 45 violates a national law.\n\nConclusions:\n- I. Ordinance 45 is invalid.\n- II. Ordinance 45 was passed by the city council.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "An ordinance violating a national law is invalid under the hierarchy of laws (I). Who passed it (II) is unstated."
+    },
+    {
+        "id": "164",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- If an applicant scores 80% or higher, they pass the CSE.\n- Ben scored 85% on the CSE.\n\nConclusions:\n- I. Ben passed the CSE.\n- II. Ben achieved the highest score in his region.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Modus Ponens: 85% is >= 80%, so Ben passed (I). Regional ranking (II) is not provided."
+    },
+    {
+        "id": "165",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All presidential appointees require confirmation by the Commission on Appointments unless exempted by the Constitution.\n- Cabinet secretaries are presidential appointees not exempted by the Constitution.\n\nConclusions:\n- I. Cabinet secretaries require confirmation by the Commission on Appointments.\n- II. All presidential appointees are Cabinet secretaries.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Cabinet secretaries fall under the general rule, requiring confirmation (I). II is a converse generalization."
+    },
+    {
+        "id": "166",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some department circulars are legally binding.\n- All legally binding documents must be published in the Official Gazette.\n\nConclusions:\n- I. Some department circulars must be published in the Official Gazette.\n- II. No department circular must be published in the Official Gazette.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Department circulars that are legally binding must be published, so 'some' must be (I)."
+    },
+    {
+        "id": "167",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No elected official may hold more than one public office unless allowed by law.\n- Senator Cruz holds two public offices without legal authorization.\n\nConclusions:\n- I. Senator Cruz is violating the prohibition on dual office-holding.\n- II. Senator Cruz will be removed from office.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Holding two offices without authorization directly violates the prohibition (I). Specific penalty execution (II) is outside the premises."
+    },
+    {
+        "id": "168",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All accredited NGOs are eligible for government grants.\n- Foundation K is an accredited NGO.\n\nConclusions:\n- I. Foundation K is eligible for government grants.\n- II. Foundation K has already received a government grant.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Foundation K meets the condition for eligibility (I). Actual receipt of funds (II) is not stated."
+    },
+    {
+        "id": "169",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- If an LGU implements a comprehensive waste plan, it receives a green banner award.\n- LGU Metroville received a green banner award.\n\nConclusions:\n- I. LGU Metroville implemented a comprehensive waste plan.\n- II. LGU Metroville failed to manage its waste properly.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Neither conclusion I nor II follows",
+        "explanation": "Affirming the consequent fallacy: receiving the award might have occurred through other environmental metrics."
+    },
+    {
+        "id": "170",
+        "category": "Analytical Ability – Logic / Syllogisms",
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All regular employees receive a 13th-month pay.\n- Employees on probation do not receive regular employee benefits.\n\nConclusions:\n- I. Regular employees receive a 13th-month pay.\n- II. Contractual workers never receive bonuses.",
+        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "correct_answer": "Only conclusion I follows",
+        "explanation": "Conclusion I directly restates the first premise. Conclusion II makes an unstated generalization about contractual workers."
     }
 ]

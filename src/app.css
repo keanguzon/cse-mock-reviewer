@@ -53,9 +53,7 @@ body::before {
 
 /* ---- Glassmorphism Card ---- */
 .glass-card {
-  background: var(--cse-surface);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  background: rgba(18, 12, 30, 0.95);
   border: 1px solid var(--cse-border);
   border-radius: var(--cse-radius);
   box-shadow:
@@ -74,13 +72,15 @@ body::before {
 
 /* ---- Navbar override ---- */
 .cse-navbar {
-  background: transparent !important;
-  border-bottom: none;
-  position: sticky;
+  background: rgba(10, 5, 18, 0.95) !important;
+  border-bottom: 1px solid var(--cse-border);
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
-  z-index: 100;
-  padding: 1rem 1.5rem;
+  z-index: 1000;
+  padding: 0.8rem 1.5rem;
 }
 
 .cse-navbar .navbar-brand .navbar-item {

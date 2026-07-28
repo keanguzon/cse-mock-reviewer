@@ -158,5 +158,245 @@
         "choices": ["Naive", "Shrewd", "Foolish", "Gullible"],
         "correct_answer": "Shrewd",
         "explanation": "'Astute' means having an ability to accurately assess situations or people and turn this to one's advantage. 'Shrewd' shares this meaning of keen intelligence."
+    },
+    {
+        "id": "21",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to AMELIORATE.",
+        "choices": ["Deteriorate", "Improve", "Ignore", "Worsen"],
+        "correct_answer": "Improve",
+        "explanation": "'Ameliorate' means to make something bad or unsatisfactory better. 'Improve' is its direct synonym."
+    },
+    {
+        "id": "22",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to MITIGATE.",
+        "choices": ["Aggravate", "Lessen", "Alleviate", "Ease"],
+        "correct_answer": "Aggravate",
+        "explanation": "'Mitigate' means to make less severe, serious, or painful. 'Aggravate' means to make a problem or injury worse, making it the direct antonym."
+    },
+    {
+        "id": "23",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to EXACERBATE.",
+        "choices": ["Soothe", "Worsen", "Heal", "Pacific"],
+        "correct_answer": "Worsen",
+        "explanation": "'Exacerbate' means to make a problem, bad situation, or negative feeling worse."
+    },
+    {
+        "id": "24",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word JUXTAPOSE most nearly means:",
+        "choices": ["To separate widely", "To place side by side", "To conceal thoroughly", "To destroy completely"],
+        "correct_answer": "To place side by side",
+        "explanation": "'Juxtapose' means to place two or more things close together or side-by-side for comparison or contrast."
+    },
+    {
+        "id": "25",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to OBFUSCATE.",
+        "choices": ["Confuse", "Complicate", "Clarify", "Conceal"],
+        "correct_answer": "Clarify",
+        "explanation": "'Obfuscate' means to render obscure, unclear, or unintelligible. 'Clarify' is its direct antonym."
+    },
+    {
+        "id": "26",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to PARADIGM.",
+        "choices": ["Anomaly", "Pattern", "Paradox", "Exception"],
+        "correct_answer": "Pattern",
+        "explanation": "A 'paradigm' is a typical example or pattern of something; a archetype or model."
+    },
+    {
+        "id": "27",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word QUINTESSENTIAL most nearly means:",
+        "choices": ["Atypical", "Ideal example", "Fifth in line", "Unimportant"],
+        "correct_answer": "Ideal example",
+        "explanation": "'Quintessential' representing the most perfect or typical example of a quality or class."
+    },
+    {
+        "id": "28",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to RELINQUISH.",
+        "choices": ["Retain", "Surrender", "Acquire", "Claim"],
+        "correct_answer": "Surrender",
+        "explanation": "'Relinquish' means to voluntarily cease to keep or claim; to give up or surrender."
+    },
+    {
+        "id": "29",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to ADVERSITY.",
+        "choices": ["Hardship", "Misfortune", "Prosperity", "Trouble"],
+        "correct_answer": "Prosperity",
+        "explanation": "'Adversity' refers to difficult situations or misfortunes. 'Prosperity' (success and good fortune) is its antonym."
+    },
+    {
+        "id": "30",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to BENIGN.",
+        "choices": ["Gentle", "Harmless", "Malignant", "Kind"],
+        "correct_answer": "Malignant",
+        "explanation": "'Benign' means gentle and kindly, or not harmful in effect. 'Malignant' means harmful or malevolent."
+    },
+    {
+        "id": "31",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word COMPLACENT most nearly means:",
+        "choices": ["Eager", "Self-satisfied", "Anxious", "Critical"],
+        "correct_answer": "Self-satisfied",
+        "explanation": "'Complacent' means showing smug or uncritical satisfaction with oneself or one's achievements."
+    },
+    {
+        "id": "32",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to DISPARATE.",
+        "choices": ["Distinct", "Different", "Similar", "Diverse"],
+        "correct_answer": "Similar",
+        "explanation": "'Disparate' means essentially different in kind; not allowing comparison. 'Similar' is its opposite."
+    },
+    {
+        "id": "33",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to EQUANIMITY.",
+        "choices": ["Agitation", "Composure", "Equality", "Fairness"],
+        "correct_answer": "Composure",
+        "explanation": "'Equanimity' means mental calmness, composure, and evenness of temper, especially in a difficult situation."
+    },
+    {
+        "id": "34",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to FASTIDIOUS.",
+        "choices": ["Careless", "Meticulous", "Quick", "Messy"],
+        "correct_answer": "Meticulous",
+        "explanation": "'Fastidious' means very attentive to and concerned about accuracy and detail."
+    },
+    {
+        "id": "35",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to GREGARIOUS.",
+        "choices": ["Sociable", "Outgoing", "Reclusive", "Friendly"],
+        "correct_answer": "Reclusive",
+        "explanation": "'Gregarious' describes a person fond of company or sociable. 'Reclusive' (avoiding the company of other people) is its antonym."
+    },
+    {
+        "id": "36",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to IMPETUOUS.",
+        "choices": ["Cautious", "Impulsive", "Deliberate", "Calculated"],
+        "correct_answer": "Impulsive",
+        "explanation": "'Impetuous' means acting or done quickly and without thought or care."
+    },
+    {
+        "id": "37",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word LUCRATIVE most nearly means:",
+        "choices": ["Unprofitable", "Profitable", "Loss-making", "Expensive"],
+        "correct_answer": "Profitable",
+        "explanation": "'Lucrative' means producing a great deal of profit."
+    },
+    {
+        "id": "38",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to MUNIFICENT.",
+        "choices": ["Stingy", "Generous", "Greedy", "Mean"],
+        "correct_answer": "Generous",
+        "explanation": "'Munificent' means larger or more generous than is usual or necessary."
+    },
+    {
+        "id": "39",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to NEFARIOUS.",
+        "choices": ["Wicked", "Villainous", "Honorable", "Evil"],
+        "correct_answer": "Honorable",
+        "explanation": "'Nefarious' means wicked or criminal. 'Honorable' is its direct antonym."
+    },
+    {
+        "id": "40",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to OPULENT.",
+        "choices": ["Poor", "Wealthy", "Modest", "Simple"],
+        "correct_answer": "Wealthy",
+        "explanation": "'Opulent' means ostentatiously rich and luxurious or lavish."
+    },
+    {
+        "id": "41",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to PRAGMATISM.",
+        "choices": ["Realism", "Practicality", "Idealism", "Common sense"],
+        "correct_answer": "Idealism",
+        "explanation": "'Pragmatism' focuses on practical considerations. 'Idealism' focuses on pursuit of ideals, making it the opposite."
+    },
+    {
+        "id": "42",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word RECLUSE most nearly means:",
+        "choices": ["Socialite", "Hermit", "Extrovert", "Leader"],
+        "correct_answer": "Hermit",
+        "explanation": "A 'recluse' is a person who lives a solitary life and tends to avoid other people; a hermit."
+    },
+    {
+        "id": "43",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to SURREPTITIOUS.",
+        "choices": ["Open", "Secretive", "Blatant", "Public"],
+        "correct_answer": "Secretive",
+        "explanation": "'Surreptitious' means kept secret, especially because it would not be approved of."
+    },
+    {
+        "id": "44",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to TRANSIENT.",
+        "choices": ["Fleeting", "Temporary", "Permanent", "Brief"],
+        "correct_answer": "Permanent",
+        "explanation": "'Transient' means lasting only for a short time. 'Permanent' is its direct antonym."
+    },
+    {
+        "id": "45",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word UNANIMOUS most nearly means:",
+        "choices": ["Divided", "Conflicted", "In complete agreement", "Uncertain"],
+        "correct_answer": "In complete agreement",
+        "explanation": "'Unanimous' means held or carried by the agreement of all people involved."
+    },
+    {
+        "id": "46",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to VOCIFEROUS.",
+        "choices": ["Quiet", "Outspoken", "Subdued", "Silent"],
+        "correct_answer": "Outspoken",
+        "explanation": "'Vociferous' means expressing opinions or feelings in a loud and forceful manner."
+    },
+    {
+        "id": "47",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Choose the word most similar in meaning to ZEALOUS.",
+        "choices": ["Apathetic", "Enthusiastic", "Indifferent", "Lethargic"],
+        "correct_answer": "Enthusiastic",
+        "explanation": "'Zealous' means having or showing zeal; passionate and fervent in supporting a cause."
+    },
+    {
+        "id": "48",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to AFFLUENT.",
+        "choices": ["Wealthy", "Prosperous", "Impoverished", "Rich"],
+        "correct_answer": "Impoverished",
+        "explanation": "'Affluent' means having a great deal of money; wealthy. 'Impoverished' means poor."
+    },
+    {
+        "id": "49",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "The word COGNIZANT most nearly means:",
+        "choices": ["Ignorant", "Unaware", "Aware", "Forgetful"],
+        "correct_answer": "Aware",
+        "explanation": "'Cognizant' means having knowledge or being aware of something."
+    },
+    {
+        "id": "50",
+        "category": "Verbal Ability – Vocabulary",
+        "question": "Select the word most opposite in meaning to DILIGENT.",
+        "choices": ["Industrious", "Hardworking", "Slothful", "Assiduous"],
+        "correct_answer": "Slothful",
+        "explanation": "'Diligent' means showing care and effort in work. 'Slothful' (lazy) is its antonym."
     }
 ]

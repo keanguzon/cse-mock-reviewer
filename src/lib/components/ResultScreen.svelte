@@ -13,7 +13,7 @@
     category: string;
   };
 
-  let { score, total, category, mode, level = 'professional', questions = [], userAnswers = {}, onExit } = $props<{
+  let { score, total, category, mode, level = 'professional', questions = [], userAnswers = {}, elapsedTime = 0, onExit } = $props<{
     score: number;
     total: number;
     category: string;
@@ -21,10 +21,23 @@
     level?: string;
     questions?: Question[];
     userAnswers?: Record<number, string>;
+    elapsedTime?: number;
     onExit: () => void;
   }>();
 
   let percentage = $derived(total > 0 ? Math.round((score / total) * 100) : 0);
+  
+  let formattedElapsed = $derived.by(() => {
+    if (!elapsedTime) return '';
+    const mins = Math.floor(elapsedTime / 60);
+    const secs = elapsedTime % 60;
+    if (mins >= 60) {
+      const hrs = Math.floor(mins / 60);
+      const remainMins = mins % 60;
+      return `${hrs}h ${remainMins}m ${secs}s`;
+    }
+    return `${mins}m ${secs}s`;
+  });
   
   let gradeClass = $derived.by(() => {
     if (percentage >= 80) return 'text-emerald';
@@ -35,28 +48,76 @@
   let saveStatus = $state<'idle' | 'saving' | 'saved' | 'error'>('idle');
   let isReviewMode = $state(false);
 
-  async function saveAttempt() {
-    if (!userSession.user) return;
-    try {
-      saveStatus = 'saving';
-      const { error } = await supabase
-        .from('exam_attempts')
-        .insert({
-          user_id: userSession.user.id,
-          score,
-          total,
-          category,
-          mode,
-          level,
-          questions: questions,
-          user_answers: userAnswers
-        });
+  type CategoryResult = {
+    category: string;
+    correct: number;
+    total: number;
+    percentage: number;
+    status: 'strong' | 'passing' | 'weak';
+  };
 
-      if (error) throw error;
+  let categoryBreakdown = $derived.by(() => {
+    if (!questions || questions.length === 0) return [];
+    const map = new Map<string, { correct: number; total: number }>();
+    questions.forEach((q: Question, idx: number) => {
+      const cat = q.category || 'General';
+      if (!map.has(cat)) map.set(cat, { correct: 0, total: 0 });
+      const entry = map.get(cat)!;
+      entry.total++;
+      if (userAnswers[idx] === q.correct_answer) entry.correct++;
+    });
+    const results: CategoryResult[] = [];
+    map.forEach((val, cat) => {
+      const pct = Math.round((val.correct / val.total) * 100);
+      results.push({
+        category: cat,
+        correct: val.correct,
+        total: val.total,
+        percentage: pct,
+        status: pct >= 90 ? 'strong' : pct >= 80 ? 'passing' : 'weak',
+      });
+    });
+    results.sort((a, b) => b.percentage - a.percentage);
+    return results;
+  });
+
+  let strongAreas = $derived(categoryBreakdown.filter(c => c.status === 'strong'));
+  let weakAreas = $derived(categoryBreakdown.filter(c => c.status === 'weak'));
+
+  import { guestStore } from '$lib/guestStore.svelte';
+
+  async function saveAttempt() {
+    if (userSession.user) {
+      try {
+        saveStatus = 'saving';
+        const { error } = await supabase
+          .from('exam_attempts')
+          .insert({
+            user_id: userSession.user.id,
+            score,
+            total,
+            category,
+            mode,
+            level,
+            questions: questions,
+            user_answers: userAnswers
+          });
+
+        if (error) throw error;
+        saveStatus = 'saved';
+      } catch (err: any) {
+        console.error('Error saving score attempt:', err.message);
+        saveStatus = 'error';
+      }
+    } else {
+      guestStore.save({
+        score,
+        total,
+        category,
+        mode,
+        level
+      });
       saveStatus = 'saved';
-    } catch (err: any) {
-      console.error('Error saving score attempt:', err.message);
-      saveStatus = 'error';
     }
   }
 
@@ -86,7 +147,16 @@
       
       <p class="summary-text">
         You answered <strong>{score}</strong> out of <strong>{total}</strong> questions correctly.
+        {#if formattedElapsed}
+          <br><span style="font-size: 0.85rem; color: #7c6d8e; margin-top: 0.25rem; display: inline-block;">Time Taken: <strong style="color: white;">{formattedElapsed}</strong></span>
+        {/if}
       </p>
+
+      <div class="benchmark-indicator">
+        <span class="benchmark-text {percentage >= 80 ? 'above' : 'below'}">
+          {percentage >= 80 ? '✓ Above' : '✗ Below'} CSE Passing Benchmark (80%)
+        </span>
+      </div>
 
       <div class="stats-bar">
         <div class="stats-labels">
@@ -98,8 +168,46 @@
         </div>
       </div>
 
-      {#if userSession.user}
-        <div class="save-indicator slide-up {saveStatus}" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;">
+      {#if categoryBreakdown.length > 1}
+        <div class="category-breakdown slide-up">
+          <h3 class="breakdown-title">Performance by Category</h3>
+
+          <div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 0.75rem; flex-wrap: wrap;">
+            {#if strongAreas.length > 0}
+              <div class="area-label area-strong">
+                <span class="area-dot strong-dot"></span>
+                Strong Areas ({strongAreas.length})
+              </div>
+            {/if}
+            {#if weakAreas.length > 0}
+              <div class="area-label area-weak">
+                <span class="area-dot weak-dot"></span>
+                Needs Practice ({weakAreas.length})
+              </div>
+            {/if}
+          </div>
+
+          <div class="breakdown-list">
+            {#each categoryBreakdown as cat}
+              <div class="breakdown-item">
+                <div class="breakdown-info">
+                  <span class="breakdown-cat">{cat.category}</span>
+                  <span class="breakdown-score {cat.status}">{cat.correct}/{cat.total} ({cat.percentage}%)</span>
+                </div>
+                <div class="breakdown-bar-bg">
+                  <div
+                    class="breakdown-bar-fill {cat.status}"
+                    style="width: {cat.percentage}%"
+                  ></div>
+                </div>
+              </div>
+            {/each}
+          </div>
+        </div>
+      {/if}
+
+      <div class="save-indicator slide-up {saveStatus}" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;">
+        {#if userSession.user}
           {#if saveStatus === 'saving'}
             <span class="spinner" aria-busy="true"></span> Saving review progress...
           {:else if saveStatus === 'saved'}
@@ -107,12 +215,10 @@
           {:else if saveStatus === 'error'}
             <AlertTriangle size={16} class="text-red" /> Couldn't save this attempt.
           {/if}
-        </div>
-      {:else}
-        <div class="save-indicator slide-up promo" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;">
-          <Lightbulb size={16} style="color: #a78bfa;" /> Sign in to persistently save progress and track analytics!
-        </div>
-      {/if}
+        {:else}
+          <CheckCircle2 size={16} class="text-emerald" /> Results cached in browser! Sign in to sync across devices.
+        {/if}
+      </div>
 
       {#if questions && questions.length > 0}
         <button class="btn-primary" onclick={() => isReviewMode = true} style="width: 100%; max-width: 400px; padding: 1rem; font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem;">
@@ -558,5 +664,133 @@
     .q-text { font-size: 1rem; margin-bottom: 1.2rem; }
     .choice-text { padding: 0.6rem 0.8rem; font-size: 0.85rem; }
     .review-item-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+  }
+
+  /* Benchmark & Breakdown Styling */
+  .benchmark-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .benchmark-text {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 0.3rem 0.8rem;
+    border-radius: 999px;
+  }
+  .benchmark-text.above {
+    color: var(--cse-green);
+    background: rgba(52, 211, 153, 0.12);
+    border: 1px solid rgba(52, 211, 153, 0.25);
+  }
+  .benchmark-text.below {
+    color: var(--cse-orange);
+    background: rgba(251, 191, 36, 0.12);
+    border: 1px solid rgba(251, 191, 36, 0.25);
+  }
+
+  .category-breakdown {
+    max-width: 440px;
+    margin: 0 auto 2rem;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 1.25rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .breakdown-title {
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--cse-text-muted);
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+
+  .area-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+  .area-strong { color: var(--cse-green); }
+  .area-weak { color: var(--cse-orange); }
+
+  .area-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+  .strong-dot { background: var(--cse-green); box-shadow: 0 0 6px var(--cse-green); }
+  .weak-dot { background: var(--cse-orange); box-shadow: 0 0 6px var(--cse-orange); }
+
+  .breakdown-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .breakdown-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .breakdown-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .breakdown-cat {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--cse-text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70%;
+  }
+
+  .breakdown-score {
+    font-size: 0.72rem;
+    font-weight: 800;
+    font-family: var(--font-display);
+  }
+  .breakdown-score.strong { color: var(--cse-green); }
+  .breakdown-score.passing { color: #a5b4fc; }
+  .breakdown-score.weak { color: var(--cse-orange); }
+
+  .breakdown-bar-bg {
+    width: 100%;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+
+  .breakdown-bar-fill {
+    height: 100%;
+    border-radius: 999px;
+    transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .breakdown-bar-fill.strong {
+    background: linear-gradient(90deg, var(--cse-green), #6ee7b7);
+  }
+  .breakdown-bar-fill.passing {
+    background: linear-gradient(90deg, var(--cse-primary), var(--cse-primary-light));
+  }
+  .breakdown-bar-fill.weak {
+    background: linear-gradient(90deg, var(--cse-orange), #fde68a);
   }
 </style>

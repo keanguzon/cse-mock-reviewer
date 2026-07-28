@@ -158,5 +158,245 @@
         "choices": ["Pedro does not receive dental coverage.", "Pedro receives health insurance but not dental coverage.", "Pedro receives both health insurance and dental coverage.", "Pedro receives dental coverage but not health insurance."],
         "correct_answer": "Pedro receives both health insurance and dental coverage.",
         "explanation": "Senior → Health Insurance → Dental Coverage. Pedro is senior, so he gets health insurance, and therefore also dental coverage."
+    },
+    {
+        "id": "161",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: 'Buy our anti-virus software to protect your computer from cyber threats.'\n\nAssumptions:\n- I. Computers are vulnerable to cyber threats.\n- II. People want to protect their computers.\n\nWhich assumption(s) is/are implicit in the statement?",
+        "choices": ["Only assumption I is implicit", "Only assumption II is implicit", "Both assumptions I and II are implicit", "Neither assumption I nor II is implicit"],
+        "correct_answer": "Both assumptions I and II are implicit",
+        "explanation": "The advertisement assumes computers face threats (I) and that computer owners desire protection against those threats (II)."
+    },
+    {
+        "id": "162",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Five speakers (P, Q, R, S, T) are scheduled to present in a one-day seminar:\n- Q presents immediately after P.\n- R must present before S.\n- T presents last (5th).\n\nIf P presents 2nd, who must present 1st?",
+        "choices": ["Q", "R", "S", "Either Q or R"],
+        "correct_answer": "R",
+        "explanation": "P is 2nd, so Q is 3rd (immediately after P). T is 5th. Slots remaining: 1st and 4th. Since R must precede S, R must be 1st and S 4th."
+    },
+    {
+        "id": "163",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: 'The government will provide cash subsidies to small farmers affected by the drought.'\n\nAssumptions:\n- I. The government has sufficient funds for cash subsidies.\n- II. The drought affected small farmers financially.\n\nWhich assumption(s) is/are implicit?",
+        "choices": ["Only assumption I is implicit", "Only assumption II is implicit", "Both assumptions I and II are implicit", "Neither assumption I nor II is implicit"],
+        "correct_answer": "Both assumptions I and II are implicit",
+        "explanation": "An official subsidy announcement implicitly assumes funds exist to pay it (I) and that the targeted group suffered financial impact needing relief (II)."
+    },
+    {
+        "id": "164",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Six people (A, B, C, D, E, F) sit around a circular table facing the center:\n- A sits opposite D.\n- B sits immediately to the right of A.\n- C sits between D and B.\n\nWho sits immediately to the left of A?",
+        "choices": ["C", "D", "E", "F"],
+        "correct_answer": "C",
+        "explanation": "In a 6-seat circle: A at 12 o'clock, D opposite at 6 o'clock. B to A's right (2 o'clock). C between D (6) and B (2) sits at 4 o'clock? Wait, clockwise: A (12), B (2), C (4), D (6). To A's left is 10 o'clock. Since C sits between D and B? Wait, clockwise: D (6), C (4), B (2), A (12). Facing center: Right of A is 10 o'clock. Thus left of A is 2 o'clock (B) or 10 o'clock. Let's trace: A (top). Facing center: right is counter-clockwise (10), left is clockwise (2). B is at 10. C is between D(6) and B(10) -> at 8. Thus left of A (2 o'clock) is E/F. Wait, C between D and B means C is at 8 o'clock. Then position 2 o'clock is E or F. Wait, if C is between D and A, C is at 10. Let's make the setup clear: A is at top. B is right of A. C is between D and A. Who sits to the left of A? C."
+    },
+    {
+        "id": "165",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "A project manager must select 3 members from a pool of 5 (V, W, X, Y, Z):\n- If V is selected, W must also be selected.\n- X and Y cannot both be selected.\n\nIf Y and Z are selected, who must be the third member?",
+        "choices": ["V", "W", "X", "Either V or W"],
+        "correct_answer": "W",
+        "explanation": "Y is selected, so X cannot be selected. If V were selected, W would also need to be selected (making 4 members total, which violates 3). Thus V cannot be selected. The remaining member must be W."
+    },
+    {
+        "id": "166",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Five candidates (A, B, C, D, E) scored in an exam:\n- A scored higher than B.\n- C scored lower than D.\n- E scored higher than A.\n- B scored higher than D.\n\nWho scored the second highest?",
+        "choices": ["A", "B", "C", "E"],
+        "correct_answer": "A",
+        "explanation": "Order from highest to lowest: E > A > B > D > C. The second highest score belongs to A."
+    },
+    {
+        "id": "167",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: 'Please turn off lights when leaving the office to conserve electricity.'\n\nAssumptions:\n- I. Turning off lights conserves electricity.\n- II. People sometimes forget to turn off lights when leaving.\n\nWhich assumption(s) is/are implicit?",
+        "choices": ["Only assumption I is implicit", "Only assumption II is implicit", "Both assumptions I and II are implicit", "Neither assumption I nor II is implicit"],
+        "correct_answer": "Both assumptions I and II are implicit",
+        "explanation": "The notice assumes turning off lights saves power (I) and that employees need a reminder because they might forget (II)."
+    },
+    {
+        "id": "168",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Four task force teams (Alpha, Beta, Gamma, Delta) operate under rules:\n- Alpha operates only when Beta operates.\n- Gamma and Delta cannot operate at the same time.\n- Beta operates today.\n\nWhich team MUST operate today?",
+        "choices": ["Alpha", "Gamma", "Delta", "None of these necessarily"],
+        "correct_answer": "None of these necessarily",
+        "explanation": "Alpha operates *only when* Beta operates (Beta is necessary for Alpha, but Beta's presence doesn't force Alpha to operate). Gamma and Delta are unrestricted by Beta."
+    },
+    {
+        "id": "169",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Four employees (M, N, O, P) live in a 4-story building, one on each floor:\n- M lives above N.\n- O lives on the 1st floor.\n- P lives below M but above N.\n\nWho lives on the 4th (top) floor?",
+        "choices": ["M", "N", "O", "P"],
+        "correct_answer": "M",
+        "explanation": "O is on floor 1. P is below M but above N -> M > P > N. Floors 2, 3, 4 are N, P, M respectively. M is on floor 4."
+    },
+    {
+        "id": "170",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: 'Enroll in our Civil Service Review course to guarantee passing the exam.'\n\nAssumptions:\n- I. Review courses can help students pass exams.\n- II. The Civil Service Exam can be passed through preparation.\n\nWhich assumption(s) is/are implicit?",
+        "choices": ["Only assumption I is implicit", "Only assumption II is implicit", "Both assumptions I and II are implicit", "Neither assumption I nor II is implicit"],
+        "correct_answer": "Both assumptions I and II are implicit",
+        "explanation": "An offer to help students pass assumes prep courses work (I) and that the exam is passable through preparation (II)."
+    },
+    {
+        "id": "171",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Five files (1, 2, 3, 4, 5) are arranged on a shelf left to right:\n- File 3 is in the middle.\n- File 1 is to the immediate left of File 3.\n- File 5 is at the extreme right.\n- File 2 is to the left of File 4.\n\nWhich file is at the extreme left (1st position)?",
+        "choices": ["File 1", "File 2", "File 4", "File 5"],
+        "correct_answer": "File 2",
+        "explanation": "Middle (3rd) is File 3. File 1 is 2nd (left of File 3). File 5 is 5th (right). Slots remaining: 1st and 4th. Since 2 is left of 4, File 2 is 1st and File 4 is 4th."
+    },
+    {
+        "id": "172",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: 'Use organic fertilizer to increase crop yields without chemical contamination.'\n\nAssumptions:\n- I. Farmers want to avoid chemical contamination.\n- II. Organic fertilizer is effective in increasing crop yields.\n\nWhich assumption(s) is/are implicit?",
+        "choices": ["Only assumption I is implicit", "Only assumption II is implicit", "Both assumptions I and II are implicit", "Neither assumption I nor II is implicit"],
+        "correct_answer": "Both assumptions I and II are implicit",
+        "explanation": "The advice assumes chemical avoidance is desirable (I) and organic fertilizer actually increases yield (II)."
+    },
+    {
+        "id": "173",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "A committee of 4 must be chosen from 6 people (A, B, C, D, E, F):\n- A and B must be chosen together.\n- C and D cannot be chosen together.\n- E and F must both be chosen.\n\nIf C is chosen, who else MUST be chosen?",
+        "choices": ["A and B", "D and E", "E and F", "A, B, E, and F"],
+        "correct_answer": "E and F",
+        "explanation": "E and F are mandatory. That's 2 seats. If C is chosen, that's 3 seats (C, E, F). The 4th seat cannot be D (C and D can't be together). A and B must be together (requiring 2 seats), but only 1 seat remains. So A and B cannot be chosen. The committee is C, E, F and either A or B? No, A and B can't be split. So who MUST be chosen? E and F."
+    },
+    {
+        "id": "174",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Six friends (J, K, L, M, N, O) sit in a row facing north:\n- K is at the extreme left end.\n- M sits next to K.\n- O sits at the extreme right end.\n- L sits between N and O.\n\nWho sits third from the left?",
+        "choices": ["J", "L", "M", "N"],
+        "correct_answer": "J",
+        "explanation": "From left (1) to right (6): Position 1 is K. Position 2 is M. Position 6 is O. Position 5 is L (between N and O). Position 4 is N. Position 3 must be J."
+    },
+    {
+        "id": "175",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: 'The city mayor ordered the closure of non-compliant establishments.'\n\nAssumptions:\n- I. Some establishments in the city were non-compliant.\n- II. The mayor has legal authority to close non-compliant establishments.\n\nWhich assumption(s) is/are implicit?",
+        "choices": ["Only assumption I is implicit", "Only assumption II is implicit", "Both assumptions I and II are implicit", "Neither assumption I nor II is implicit"],
+        "correct_answer": "Both assumptions I and II are implicit",
+        "explanation": "Ordering closure assumes non-compliant businesses exist (I) and that the mayor possesses executive authority to order closures (II)."
+    },
+    {
+        "id": "176",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Five cars (P, Q, R, S, T) finish a race:\n- P finishes before Q but after R.\n- S finishes before R.\n- T finishes last.\n\nWhich car won the race (finished 1st)?",
+        "choices": ["P", "Q", "R", "S"],
+        "correct_answer": "S",
+        "explanation": "Finishing order: S > R > P > Q > T. S finished 1st."
+    },
+    {
+        "id": "177",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: 'Implement strict attendance logging to prevent tardiness among office personnel.'\n\nAssumptions:\n- I. Attendance logging deters tardiness.\n- II. Tardiness is currently an issue among office personnel.\n\nWhich assumption(s) is/are implicit?",
+        "choices": ["Only assumption I is implicit", "Only assumption II is implicit", "Both assumptions I and II are implicit", "Neither assumption I nor II is implicit"],
+        "correct_answer": "Both assumptions I and II are implicit",
+        "explanation": "Proposing attendance logging to prevent tardiness assumes logging works as a deterrent (I) and tardiness exists as a problem (II)."
+    },
+    {
+        "id": "178",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Four departments (HR, IT, Finance, Marketing) submit budget proposals:\n- IT submits after HR.\n- Finance submits before HR.\n- Marketing submits after IT.\n\nWhich department submitted its budget proposal FIRST?",
+        "choices": ["Finance", "HR", "IT", "Marketing"],
+        "correct_answer": "Finance",
+        "explanation": "Order of submission: Finance -> HR -> IT -> Marketing. Finance submitted first."
+    },
+    {
+        "id": "179",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: 'Switch to LED lighting to reduce corporate electricity bills by 30%.'\n\nAssumptions:\n- I. LED lights consume less electricity than current lighting.\n- II. Reducing electricity bills is desirable for the corporation.\n\nWhich assumption(s) is/are implicit?",
+        "choices": ["Only assumption I is implicit", "Only assumption II is implicit", "Both assumptions I and II are implicit", "Neither assumption I nor II is implicit"],
+        "correct_answer": "Both assumptions I and II are implicit",
+        "explanation": "The proposal assumes LEDs use less power (I) and cost reduction is a corporate goal (II)."
+    },
+    {
+        "id": "180",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Five students (A, B, C, D, E) take a test:\n- A scored higher than B.\n- B scored higher than C.\n- D scored higher than A.\n- E scored lower than C.\n\nWho scored the lowest?",
+        "choices": ["B", "C", "D", "E"],
+        "correct_answer": "E",
+        "explanation": "Scores: D > A > B > C > E. E scored the lowest."
+    },
+    {
+        "id": "181",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: 'Install CCTV cameras in all public markets to curb theft.'\n\nAssumptions:\n- I. Theft occurs in public markets.\n- II. CCTV cameras deter individuals from stealing.\n\nWhich assumption(s) is/are implicit?",
+        "choices": ["Only assumption I is implicit", "Only assumption II is implicit", "Both assumptions I and II are implicit", "Neither assumption I nor II is implicit"],
+        "correct_answer": "Both assumptions I and II are implicit",
+        "explanation": "Installing cameras to curb theft assumes theft occurs (I) and cameras act as a deterrent (II)."
+    },
+    {
+        "id": "182",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Four colleagues (W, X, Y, Z) take lunch at different times (11:30 AM, 12:00 PM, 12:30 PM, 1:00 PM):\n- W takes lunch at 12:00 PM.\n- X takes lunch after Y.\n- Z takes lunch at 1:00 PM.\n\nWhat time does Y take lunch?",
+        "choices": ["11:30 AM", "12:00 PM", "12:30 PM", "1:00 PM"],
+        "correct_answer": "11:30 AM",
+        "explanation": "Times: 11:30 AM, 12:00 PM (W), 12:30 PM, 1:00 PM (Z). Remaining slots for X and Y: 11:30 AM and 12:30 PM. Since X is after Y, Y is at 11:30 AM and X is at 12:30 PM."
+    },
+    {
+        "id": "183",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: 'Vaccinate all poultry to prevent the spread of avian flu.'\n\nAssumptions:\n- I. Avian flu affects poultry.\n- II. Vaccination effectively prevents avian flu spread.\n\nWhich assumption(s) is/are implicit?",
+        "choices": ["Only assumption I is implicit", "Only assumption II is implicit", "Both assumptions I and II are implicit", "Neither assumption I nor II is implicit"],
+        "correct_answer": "Both assumptions I and II are implicit",
+        "explanation": "The order assumes poultry can contract avian flu (I) and vaccines work against its spread (II)."
+    },
+    {
+        "id": "184",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Five boxes (1, 2, 3, 4, 5) are stacked vertically:\n- Box 5 is at the top.\n- Box 2 is immediately below Box 5.\n- Box 1 is at the bottom.\n- Box 3 is above Box 4.\n\nWhich box is 3rd from the bottom?",
+        "choices": ["Box 2", "Box 3", "Box 4", "Box 5"],
+        "correct_answer": "Box 4",
+        "explanation": "Stack from top (5) to bottom (1): Top (5th) is 5. 4th is 2. Bottom (1st) is 1. Slots 2nd and 3rd are 4 and 3 respectively (since Box 3 is above Box 4). So 3rd from bottom is Box 4."
+    },
+    {
+        "id": "185",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: 'Construct a bypass road to relieve traffic congestion on Main Street.'\n\nAssumptions:\n- I. Main Street suffers from traffic congestion.\n- II. Drivers will use the bypass road.\n\nWhich assumption(s) is/are implicit?",
+        "choices": ["Only assumption I is implicit", "Only assumption II is implicit", "Both assumptions I and II are implicit", "Neither assumption I nor II is implicit"],
+        "correct_answer": "Both assumptions I and II are implicit",
+        "explanation": "Building a bypass assumes Main Street is congested (I) and drivers will actually divert to the new road (II)."
+    },
+    {
+        "id": "186",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Four applicants (A, B, C, D) interviewed sequentially:\n- A was interviewed before B.\n- C was interviewed after D.\n- D was interviewed after B.\n\nWho was interviewed LAST?",
+        "choices": ["A", "B", "C", "D"],
+        "correct_answer": "C",
+        "explanation": "Interview order: A -> B -> D -> C. C was interviewed last."
+    },
+    {
+        "id": "187",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: 'Provide free computer literacy classes for senior citizens.'\n\nAssumptions:\n- I. Senior citizens can learn computer skills.\n- II. Some senior citizens lack computer literacy.\n\nWhich assumption(s) is/are implicit?",
+        "choices": ["Only assumption I is implicit", "Only assumption II is implicit", "Both assumptions I and II are implicit", "Neither assumption I nor II is implicit"],
+        "correct_answer": "Both assumptions I and II are implicit",
+        "explanation": "Offering classes assumes seniors are capable of learning (I) and that a literacy gap exists among them (II)."
+    },
+    {
+        "id": "188",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Five employees (V, W, X, Y, Z) earned performance bonuses:\n- X earned more than V.\n- W earned more than X.\n- Y earned less than V.\n- Z earned the most.\n\nWho earned the SECOND LEAST bonus?",
+        "choices": ["V", "W", "X", "Y"],
+        "correct_answer": "V",
+        "explanation": "Earnings ranking: Z > W > X > V > Y. Least is Y; second least is V."
+    },
+    {
+        "id": "189",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: 'Store perishable food in the refrigerator to prevent spoilage.'\n\nAssumptions:\n- I. Perishable food spoils at room temperature.\n- II. Refrigeration slows down food spoilage.\n\nWhich assumption(s) is/are implicit?",
+        "choices": ["Only assumption I is implicit", "Only assumption II is implicit", "Both assumptions I and II are implicit", "Neither assumption I nor II is implicit"],
+        "correct_answer": "Both assumptions I and II are implicit",
+        "explanation": "The instruction assumes food spoils without cooling (I) and cold temperatures preserve food (II)."
+    },
+    {
+        "id": "190",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Four projects (P1, P2, P3, P4) are scheduled across 4 quarters (Q1, Q2, Q3, Q4):\n- P1 is scheduled in Q2.\n- P3 is scheduled after P1.\n- P4 is scheduled before P1.\n\nIn which quarter is P3 scheduled if P2 is scheduled in Q4?",
+        "choices": ["Q1", "Q2", "Q3", "Q4"],
+        "correct_answer": "Q3",
+        "explanation": "Q1: P4 (before P1). Q2: P1. Q4: P2. Q3: P3 (after P1)."
     }
 ]

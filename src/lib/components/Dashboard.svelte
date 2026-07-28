@@ -5,7 +5,9 @@
     import { goto } from '$app/navigation';
     import { Trophy, TrendingUp, ClipboardCheck, BookOpen, Calendar, GraduationCap, Award, Clock, FileText, ArrowRight } from 'lucide-svelte';
 
-    let { user }: { user: User } = $props();
+    import { guestStore } from '$lib/guestStore.svelte';
+
+    let { user }: { user?: User | null } = $props();
 
     type Question = {
         id: string;
@@ -34,7 +36,21 @@
     let showAll = $state(false);
 
     onMount(async () => {
-        if (!user) return;
+        if (!user) {
+            // Guest mode: load attempts from guestStore
+            attempts = guestStore.attempts.map((att, idx) => ({
+                id: (att as any).id || `guest-${idx}`,
+                score: att.score,
+                total: att.total,
+                category: att.category,
+                mode: att.mode,
+                level: att.level,
+                completed_at: att.completed_at || (att as any).date || new Date().toISOString()
+            }));
+            loading = false;
+            return;
+        }
+
         try {
             const { data, error: dbError } = await supabase
                 .from('exam_attempts')
@@ -80,15 +96,20 @@
         });
     }
 
-    function formatMode(mode: string) {
-        return mode === 'mock' ? '⏱️ Mock Exam' : '📚 Practice';
-    }
-
     let displayedAttempts = $derived(showAll ? attempts : attempts.slice(0, 2));
 </script>
 
 <div class="dashboard glass-card slide-up">
-    <h2 class="dashboard-title">Welcome back, {user.user_metadata.full_name?.split(' ')[0] || 'Reviewer'}! 👋</h2>
+    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+        <h2 class="dashboard-title" style="margin: 0;">
+            Welcome back, {user ? (user.user_metadata?.full_name?.split(' ')[0] || 'Reviewer') : 'Guest'}! 👋
+        </h2>
+        {#if !user}
+            <span class="cse-badge cse-badge-primary" style="background: rgba(167, 139, 250, 0.15); border-color: rgba(167, 139, 250, 0.3); font-size: 0.75rem;">
+                Guest Mode (Local Storage)
+            </span>
+        {/if}
+    </div>
 
     {#if loading}
         <div style="text-align: center; padding: 1.5rem;">

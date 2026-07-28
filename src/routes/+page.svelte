@@ -6,13 +6,15 @@
   import Dashboard from '$lib/components/Dashboard.svelte';
   import ColorBendsBackground from '$lib/components/ColorBendsBackground.svelte';
   import BlurText from '$lib/components/BlurText.svelte';
-  import { getCategoryCountsForLevel, getCategoriesForLevel, type ExamLevel } from '$lib/questions';
-  import { GraduationCap, Building, BookOpen, Timer } from 'lucide-svelte';
+  import { getCategoryCountsForLevel, getCategoriesForLevel, allQuestions, type ExamLevel } from '$lib/questions';
+  import { GraduationCap, Building, BookOpen, Timer, Clock, ChevronRight, ArrowLeft } from 'lucide-svelte';
+  import { guestStore } from '$lib/guestStore.svelte';
 
   let selectedLevel = $state<ExamLevel>('professional');
   let selectedMode = $state('practice');
   let selectedCategory = $state('');
   let selectedLimit = $state('20');
+  let isGuestMode = $state(false);
 
   let categoryCounts = $derived(getCategoryCountsForLevel(selectedLevel));
   let availableCategories = $derived(getCategoriesForLevel(selectedLevel));
@@ -33,7 +35,18 @@
     }
   });
 
+  let showOnboarding = $state(false);
+
   onMount(() => {
+    if (typeof localStorage !== 'undefined') {
+      if (!localStorage.getItem('cse_onboarding_seen')) {
+        showOnboarding = true;
+      }
+      if (localStorage.getItem('cse_is_guest') === 'true') {
+        isGuestMode = true;
+      }
+    }
+
     const raw = localStorage.getItem('cse_active_session');
     if (raw) {
       try {
@@ -47,6 +60,27 @@
       }
     }
   });
+
+  function startGuestMode() {
+    isGuestMode = true;
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem('cse_is_guest', 'true');
+    }
+  }
+
+  function exitGuestMode() {
+    isGuestMode = false;
+    if (typeof localStorage !== 'undefined') {
+      localStorage.removeItem('cse_is_guest');
+    }
+  }
+
+  function dismissOnboarding() {
+    showOnboarding = false;
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem('cse_onboarding_seen', 'true');
+    }
+  }
 
   function startQuiz() {
     let url = `/quiz?mode=${selectedMode}&level=${selectedLevel}`;
@@ -86,6 +120,115 @@
 <!-- Animated WebGL Background -->
 <ColorBendsBackground />
 
+{#snippet quizConfigForm()}
+  <div id="quiz-config" class="glass-card slide-up" style="max-width: 640px; margin: 0 auto; position: relative; z-index: 10;">
+    <h2 style="font-size: 1.1rem; font-weight: 700; color: white; margin-bottom: 1.5rem; letter-spacing: -0.3px; font-family: var(--font-display);">
+      Configure Your Session
+    </h2>
+
+    <form onsubmit={handleSubmit}>
+      <!-- Exam Level Selection -->
+      <div class="field" style="margin-bottom: 1.5rem; position: relative;">
+        <label class="label">Exam Level</label>
+        <div class="mode-grid">
+          <label class="mode-card {selectedLevel === 'professional' ? 'selected' : ''}" for="level-pro">
+            <input type="radio" id="level-pro" name="level" value="professional" bind:group={selectedLevel} style="display:none">
+            <div style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;">
+              <GraduationCap size={30} style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));" />
+            </div>
+            <strong>Professional</strong>
+            <p>Includes Analytical Reasoning</p>
+          </label>
+
+          <label class="mode-card {selectedLevel === 'subprofessional' ? 'selected' : ''}" for="level-sub">
+            <input type="radio" id="level-sub" name="level" value="subprofessional" bind:group={selectedLevel} style="display:none">
+            <div style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;">
+              <Building size={30} style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));" />
+            </div>
+            <strong>Sub-Professional</strong>
+            <p>Includes Clerical Ability</p>
+          </label>
+        </div>
+
+        {#if showOnboarding}
+          <div class="onboarding-tooltip slide-up">
+            <div class="onboarding-arrow"></div>
+            <p class="onboarding-text">
+              <strong>Professional Level:</strong> Includes analytical reasoning, word association, and data interpretation (SG 11+ positions).<br><br>
+              <strong>Sub-Professional Level:</strong> Includes clerical ability, filing/alphabetizing, and spelling (SG 1-10 positions).
+            </p>
+            <button type="button" class="btn-onboarding-dismiss" onclick={dismissOnboarding}>
+              Got it
+            </button>
+          </div>
+        {/if}
+      </div>
+
+      <!-- Mode Selection -->
+      <div class="field" style="margin-bottom: 1.5rem;">
+        <label class="label">Exam Mode</label>
+        <div class="mode-grid">
+          <label class="mode-card {selectedMode === 'practice' ? 'selected' : ''}" for="mode-practice">
+            <input type="radio" id="mode-practice" name="mode" value="practice" bind:group={selectedMode} style="display:none">
+            <div style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;">
+              <BookOpen size={30} style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));" />
+            </div>
+            <strong>Practice Mode</strong>
+            <p>Instant feedback after each answer</p>
+          </label>
+
+          <label class="mode-card {selectedMode === 'mock' ? 'selected' : ''}" for="mode-mock">
+            <input type="radio" id="mode-mock" name="mode" value="mock" bind:group={selectedMode} style="display:none">
+            <div style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;">
+              <Timer size={30} style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));" />
+            </div>
+            <strong>Mock Exam</strong>
+            <p>Results revealed at the end</p>
+          </label>
+        </div>
+      </div>
+
+      <!-- Category -->
+      <div class="field" style="margin-bottom: 1.5rem;">
+        <label class="label" for="category-select">Category</label>
+        <div class="select is-fullwidth">
+          <select id="category-select" bind:value={selectedCategory}>
+            <option value="">All Categories (Mixed)</option>
+            {#each availableCategories as cat}
+              <option value={cat}>{cat}</option>
+            {/each}
+          </select>
+        </div>
+      </div>
+
+      <!-- Number of Questions -->
+      <div class="field" style="margin-bottom: 2rem;">
+        <label class="label" for="limit-select">Number of Questions</label>
+        <div class="select is-fullwidth">
+          <select id="limit-select" bind:value={selectedLimit}>
+            {#if maxQuestions >= 10}
+              <option value="10">10 Questions (Quick Review)</option>
+            {/if}
+            {#if maxQuestions >= 20}
+              <option value="20">20 Questions (Standard)</option>
+            {/if}
+            {#if maxQuestions >= 50}
+              <option value="50">50 Questions (Deep Dive)</option>
+            {/if}
+            {#if ![10, 20, 50].includes(maxQuestions)}
+              <option value={maxQuestions.toString()}>All {maxQuestions} Questions (Full)</option>
+            {/if}
+          </select>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-primary" style="width: 100%; font-size: 1rem; padding: 1rem; letter-spacing: 1px; text-transform: uppercase;">
+        Start Review Session →
+      </button>
+    </form>
+  </div>
+{/snippet}
+
 <div style="position: relative; z-index: 1;">
 
 {#if userSession.loading}
@@ -97,11 +240,23 @@
     </div>
   </div>
 
-{:else if userSession.user}
+{:else if userSession.user || isGuestMode}
   <!-- ============================================
-       AUTHENTICATED VIEW: Dashboard + Quiz Config
+       MAIN APP VIEW: Dashboard + Quiz Config (Auth & Guest)
   ============================================ -->
   <div class="auth-view">
+    {#if isGuestMode && !userSession.user}
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+        <button class="btn-ghost" onclick={exitGuestMode} style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; font-size: 0.88rem; color: #a78bfa; border-color: rgba(167, 139, 250, 0.3); font-weight: 600; border-radius: 10px; cursor: pointer; transition: all 0.2s;">
+          <ArrowLeft size={16} /> Back to Home
+        </button>
+
+        <span class="cse-badge cse-badge-primary" style="background: rgba(167, 139, 250, 0.12); border-color: rgba(167, 139, 250, 0.3); font-size: 0.78rem;">
+          ⚡ Guest Mode (Browser Cached)
+        </span>
+      </div>
+    {/if}
+
     <Dashboard user={userSession.user} />
 
     {#if hasSavedSession}
@@ -115,8 +270,14 @@
             <h3 style="font-size: 1.25rem; font-weight: 800; color: white; font-family: var(--font-display); letter-spacing: -0.3px;">
               Resume your progress
             </h3>
-            <p style="font-size: 0.88rem; color: #a78bfa; margin-top: 0.3rem; line-height: 1.4;">
-              <span style="text-transform: capitalize; font-weight: 700;">{savedSessionData?.mode === 'mock' ? '⏱️ Mock Exam' : '📚 Practice Session'}</span> • 
+            <p style="font-size: 0.88rem; color: #a78bfa; margin-top: 0.3rem; line-height: 1.4; display: flex; align-items: center; gap: 0.35rem; flex-wrap: wrap;">
+              <span style="text-transform: capitalize; font-weight: 700; display: inline-flex; align-items: center; gap: 0.25rem;">
+                {#if savedSessionData?.mode === 'mock'}
+                  <Clock size={14} /> Mock Exam
+                {:else}
+                  <BookOpen size={14} /> Practice Session
+                {/if}
+              </span> • 
               <span style="font-weight: 600;">{savedSessionData?.level === 'professional' ? 'Professional' : 'Sub-Professional'}</span> • 
               <span>{savedSessionData?.category || 'All Categories'}</span>
             </p>
@@ -136,105 +297,13 @@
       </div>
     {/if}
 
-    <!-- Quiz Config -->
-    <div id="quiz-config" class="glass-card slide-up" style="max-width: 640px; margin: 0 auto;">
-      <h2 style="font-size: 1.1rem; font-weight: 700; color: white; margin-bottom: 1.5rem; letter-spacing: -0.3px; font-family: var(--font-display);">
-        Configure Your Session
-      </h2>
-
-      <form onsubmit={handleSubmit}>
-        <!-- Exam Level Selection -->
-        <div class="field" style="margin-bottom: 1.5rem;">
-          <label class="label">Exam Level</label>
-          <div class="mode-grid">
-            <label class="mode-card {selectedLevel === 'professional' ? 'selected' : ''}" for="level-pro">
-              <input type="radio" id="level-pro" name="level" value="professional" bind:group={selectedLevel} style="display:none">
-              <div style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;">
-                <GraduationCap size={30} style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));" />
-              </div>
-              <strong>Professional</strong>
-              <p>Includes Analytical Reasoning</p>
-            </label>
-
-            <label class="mode-card {selectedLevel === 'subprofessional' ? 'selected' : ''}" for="level-sub">
-              <input type="radio" id="level-sub" name="level" value="subprofessional" bind:group={selectedLevel} style="display:none">
-              <div style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;">
-                <Building size={30} style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));" />
-              </div>
-              <strong>Sub-Professional</strong>
-              <p>Includes Clerical Ability</p>
-            </label>
-          </div>
-        </div>
-
-        <!-- Mode Selection -->
-        <div class="field" style="margin-bottom: 1.5rem;">
-          <label class="label">Exam Mode</label>
-          <div class="mode-grid">
-            <label class="mode-card {selectedMode === 'practice' ? 'selected' : ''}" for="mode-practice">
-              <input type="radio" id="mode-practice" name="mode" value="practice" bind:group={selectedMode} style="display:none">
-              <div style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;">
-                <BookOpen size={30} style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));" />
-              </div>
-              <strong>Practice Mode</strong>
-              <p>Instant feedback after each answer</p>
-            </label>
-
-            <label class="mode-card {selectedMode === 'mock' ? 'selected' : ''}" for="mode-mock">
-              <input type="radio" id="mode-mock" name="mode" value="mock" bind:group={selectedMode} style="display:none">
-              <div style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;">
-                <Timer size={30} style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));" />
-              </div>
-              <strong>Mock Exam</strong>
-              <p>Results revealed at the end</p>
-            </label>
-          </div>
-        </div>
-
-        <!-- Category -->
-        <div class="field" style="margin-bottom: 1.5rem;">
-          <label class="label" for="category-select">Category</label>
-          <div class="select is-fullwidth">
-            <select id="category-select" bind:value={selectedCategory}>
-              <option value="">All Categories (Mixed)</option>
-              {#each availableCategories as cat}
-                <option value={cat}>{cat}</option>
-              {/each}
-            </select>
-          </div>
-        </div>
-
-        <!-- Number of Questions -->
-        <div class="field" style="margin-bottom: 2rem;">
-          <label class="label" for="limit-select">Number of Questions</label>
-          <div class="select is-fullwidth">
-            <select id="limit-select" bind:value={selectedLimit}>
-              {#if maxQuestions >= 10}
-                <option value="10">10 Questions (Quick Review)</option>
-              {/if}
-              {#if maxQuestions >= 20}
-                <option value="20">20 Questions (Standard)</option>
-              {/if}
-              {#if maxQuestions >= 50}
-                <option value="50">50 Questions (Deep Dive)</option>
-              {/if}
-              {#if ![10, 20, 50].includes(maxQuestions)}
-                <option value={maxQuestions.toString()}>All {maxQuestions} Questions (Full)</option>
-              {/if}
-            </select>
-          </div>
-        </div>
-
-        <button type="submit" class="btn-primary" style="width: 100%; font-size: 1rem; padding: 1rem; letter-spacing: 1px; text-transform: uppercase;">
-          Start Review Session →
-        </button>
-      </form>
-    </div>
+    <!-- Quiz Config for Authenticated User & Guest -->
+    {@render quizConfigForm()}
   </div>
 
 {:else}
   <!-- ============================================
-       GUEST VIEW: Split-Screen Editorial Hero
+       GUEST LANDING: Split-Screen Editorial Hero
   ============================================ -->
   <div class="hero-split">
 
@@ -263,12 +332,12 @@
 
       <div class="hero-stats-row">
         <div class="hero-stat">
-          <span class="hero-stat-num">240+</span>
+          <span class="hero-stat-num">{allQuestions.length}+</span>
           <span class="hero-stat-label">Questions</span>
         </div>
         <div class="hero-stat-divider"></div>
         <div class="hero-stat">
-          <span class="hero-stat-num">15</span>
+          <span class="hero-stat-num">{new Set(allQuestions.map(q => q.category)).size}</span>
           <span class="hero-stat-label">Categories</span>
         </div>
         <div class="hero-stat-divider"></div>
@@ -288,8 +357,31 @@
           </svg>
           Continue with Google
         </button>
-        <p class="hero-cta-hint">Free forever · No credit card required</p>
+
+        <button class="btn-guest" onclick={startGuestMode}>
+          ⚡ Continue as Guest →
+        </button>
       </div>
+
+      {#if guestStore.attempts.length > 0}
+        <div class="guest-activity-card glass-card slide-up" style="margin-top: 2rem; max-width: 480px; padding: 1.25rem;">
+          <h4 style="font-size: 0.85rem; font-weight: 700; color: #a78bfa; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.75rem;">Your Cached Results (Guest)</h4>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            {#each guestStore.attempts.slice(0, 3) as att}
+              {@const pct = Math.round((att.score / att.total) * 100)}
+              <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.03); padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.8rem;">
+                <div>
+                  <strong>{att.category || 'All Categories'}</strong>
+                  <div style="font-size: 0.7rem; color: #7c6d8e;">{att.mode === 'mock' ? 'Mock Exam' : 'Practice'} · {att.level}</div>
+                </div>
+                <span style="font-weight: 800; font-family: var(--font-display); color: {pct >= 75 ? '#34d399' : '#fbbf24'};">
+                  {att.score}/{att.total} ({pct}%)
+                </span>
+              </div>
+            {/each}
+          </div>
+        </div>
+      {/if}
     </div>
 
     <!-- RIGHT: Animated live preview panel -->
@@ -303,7 +395,7 @@
         <div class="score-badge-ring"></div>
       </div>
 
-        <div class="preview-card">
+      <div class="preview-card">
         <div class="preview-card-header">
           <div class="preview-dots">
             <span class="pdot red"></span>
@@ -525,6 +617,8 @@
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
+    max-width: 320px;
+    width: 100%;
     opacity: 0;
     animation: fadeUp 0.6s 1.1s ease both;
   }
@@ -532,8 +626,10 @@
   .btn-hero-primary {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     gap: 0.75rem;
-    padding: 0.95rem 2rem;
+    padding: 0 1.75rem;
+    height: 52px;
     background: white;
     color: #0a0512;
     border: none;
@@ -545,7 +641,8 @@
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     letter-spacing: 0.1px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.4);
-    width: fit-content;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   .btn-hero-primary:hover {
@@ -557,11 +654,93 @@
     transform: translateY(0);
   }
 
-  .hero-cta-hint {
-    font-size: 0.78rem;
-    color: #4a4060;
-    font-weight: 500;
-    padding-left: 0.25rem;
+  .btn-guest {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0 1.75rem;
+    height: 52px;
+    background: linear-gradient(135deg, var(--cse-primary), var(--cse-primary-dark));
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    font-weight: 700;
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.25);
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .btn-guest:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.4);
+  }
+
+  /* Onboarding Tooltip */
+  .onboarding-tooltip {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(15, 10, 28, 0.98);
+    border: 1px solid rgba(167, 139, 250, 0.4);
+    border-radius: 12px;
+    padding: 1.25rem;
+    max-width: 380px;
+    width: calc(100% - 1rem);
+    z-index: 50;
+    box-shadow:
+      0 20px 40px rgba(0, 0, 0, 0.6),
+      0 0 30px rgba(124, 58, 237, 0.12);
+  }
+
+  .onboarding-arrow {
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 12px;
+    height: 12px;
+    background: rgba(15, 10, 28, 0.98);
+    border-left: 1px solid rgba(167, 139, 250, 0.4);
+    border-top: 1px solid rgba(167, 139, 250, 0.4);
+  }
+
+  .onboarding-text {
+    font-size: 0.82rem;
+    color: #94a3b8;
+    line-height: 1.55;
+    margin: 0 0 1rem 0;
+  }
+
+  .onboarding-text strong {
+    color: var(--cse-primary-light);
+  }
+
+  .btn-onboarding-dismiss {
+    display: block;
+    width: 100%;
+    padding: 0.6rem;
+    background: rgba(167, 139, 250, 0.12);
+    border: 1px solid rgba(167, 139, 250, 0.3);
+    border-radius: 8px;
+    color: var(--cse-primary-light);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    font-family: var(--font-body);
+    transition: all 0.2s ease;
+  }
+
+  .btn-onboarding-dismiss:hover {
+    background: rgba(167, 139, 250, 0.22);
+    border-color: rgba(167, 139, 250, 0.5);
   }
 
   /* RIGHT COLUMN */
@@ -988,10 +1167,6 @@
       padding: 1rem 1.5rem;
       font-size: 1rem;
       border-radius: 14px;
-    }
-
-    .hero-cta-hint {
-      text-align: center;
     }
   }
 

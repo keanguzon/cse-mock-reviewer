@@ -36,7 +36,7 @@
   </div>
 </nav>
 
-<main style="position: relative; min-height: 100vh;">
+<main style="position: relative; min-height: 100vh; padding-top: 4.5rem;">
   {@render children()}
 </main>
 

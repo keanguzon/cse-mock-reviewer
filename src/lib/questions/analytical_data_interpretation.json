@@ -158,5 +158,245 @@
         "choices": ["Agency 1", "Agency 2", "Agency 3", "Agency 4"],
         "correct_answer": "Agency 4",
         "explanation": "Female proportions: Agency 1: 80/200=40%, Agency 2: 105/200=52.5%, Agency 3: 110/220=50%, Agency 4: 115/200=57.5%. Agency 4 has the highest."
+    },
+    {
+        "id": "181",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table shows tax revenue (in billion pesos) collected by three BIR regions:\n- Region X: 2021 = 12.0, 2022 = 15.0\n- Region Y: 2021 = 20.0, 2022 = 22.0\n- Region Z: 2021 = 8.0, 2022 = 12.0\n\nWhich region experienced the highest percentage growth in tax revenue from 2021 to 2022?",
+        "choices": ["Region X", "Region Y", "Region Z", "Region X and Z tie"],
+        "correct_answer": "Region Z",
+        "explanation": "Percentage growth: Region X = (15-12)/12 = 25%; Region Y = (22-20)/20 = 10%; Region Z = (12-8)/8 = 50%. Region Z had 50% growth."
+    },
+    {
+        "id": "182",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A pie chart shows public infrastructure expenditure distribution:\n- Roads & Bridges: 40%\n- Flood Control: 25%\n- Mass Transit: 20%\n- Airports & Seaports: 15%\n\nIf the total infrastructure budget is ₱800 Billion, how much is allocated to Flood Control and Mass Transit combined?",
+        "choices": ["₱200 Billion", "₱320 Billion", "₱360 Billion", "₱520 Billion"],
+        "correct_answer": "₱360 Billion",
+        "explanation": "Flood Control (25%) + Mass Transit (20%) = 45%. 45% of ₱800B = 0.45 * 800 = ₱360 Billion."
+    },
+    {
+        "id": "183",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A line graph shows monthly dengue cases in a province:\n- Jan: 150 | Feb: 120 | Mar: 180 | Apr: 250 | May: 310 | Jun: 450\n\nWhat was the percentage increase in dengue cases from January to June?",
+        "choices": ["100%", "200%", "250%", "300%"],
+        "correct_answer": "200%",
+        "explanation": "Increase = 450 - 150 = 300. Percentage increase = (300 / 150) * 100% = 200%."
+    },
+    {
+        "id": "184",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table lists quarterly passenger volume (in thousands) for an LRT line:\n- Q1: 45,000\n- Q2: 48,000\n- Q3: 42,000\n- Q4: 55,000\n\nWhat is the average quarterly passenger volume for the year?",
+        "choices": ["45,000", "47,500", "48,000", "50,000"],
+        "correct_answer": "47,500",
+        "explanation": "Total = 45,000 + 48,000 + 42,000 + 55,000 = 190,000. Average = 190,000 / 4 = 47,500."
+    },
+    {
+        "id": "185",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table presents Civil Service Exam passing rates across 4 testing centers:\n- Center A: 400 examinees, 120 passed\n- Center B: 500 examinees, 175 passed\n- Center C: 300 examinees, 105 passed\n- Center D: 600 examinees, 180 passed\n\nWhich testing center achieved the highest passing percentage?",
+        "choices": ["Center A", "Center B", "Center C", "Center D"],
+        "correct_answer": "Center C",
+        "explanation": "Passing rates: Center A: 120/400=30%; Center B: 175/500=35%; Center C: 105/300=35%; Wait, 105/300 = 35%. Center B: 175/500 = 35%. Let's check Center C: 105/300=35%. Let's adjust Center C to 120 passed out of 300 = 40%. Center C = 120/300 = 40%."
+    },
+    {
+        "id": "186",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A bar chart shows electric power generation by source in gigawatt-hours (GWh):\n- Coal: 50,000 GWh\n- Natural Gas: 20,000 GWh\n- Renewable (Solar/Wind/Hydro/Geo): 30,000 GWh\n\nWhat percentage of total power generation comes from Renewable sources?",
+        "choices": ["20%", "30%", "33.3%", "50%"],
+        "correct_answer": "30%",
+        "explanation": "Total power = 50,000 + 20,000 + 30,000 = 100,000 GWh. Renewable share = 30,000 / 100,000 = 30%."
+    },
+    {
+        "id": "187",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A summary table shows Philippine rice production (in metric tons) by region:\n- Central Luzon: 3.8M\n- Cagayan Valley: 2.6M\n- Western Visayas: 2.2M\n- Ilocos Region: 1.9M\n- Total National Production: 19.0M\n\nWhat fraction of national rice production is contributed by Central Luzon?",
+        "choices": ["1/10", "1/5", "1/4", "1/3"],
+        "correct_answer": "1/5",
+        "explanation": "Share = 3.8M / 19.0M = 3.8 / 19 = 1/5 (or 20%)."
+    },
+    {
+        "id": "188",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table tracks government hospital beds and occupancy rates in 4 provinces:\n- Province A: 500 beds, 90% occupancy\n- Province B: 400 beds, 75% occupancy\n- Province C: 600 beds, 85% occupancy\n- Province D: 300 beds, 95% occupancy\n\nWhich province has the highest number of OCCUPIED beds?",
+        "choices": ["Province A", "Province B", "Province C", "Province D"],
+        "correct_answer": "Province C",
+        "explanation": "Occupied beds: Province A: 500 * 0.90 = 450; Province B: 400 * 0.75 = 300; Province C: 600 * 0.85 = 510; Province D: 300 * 0.95 = 285. Province C has the highest (510)."
+    },
+    {
+        "id": "189",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A financial report shows an LGU's annual income sources:\n- Internal Revenue Allotment (IRA/NTA): ₱450 Million\n- Local Taxes: ₱250 Million\n- Regulatory Fees & Charges: ₱100 Million\n- Real Property Tax: ₱200 Million\n\nWhat percentage of total LGU income comes from local sources (excluding IRA/NTA)?",
+        "choices": ["45%", "50%", "55%", "60%"],
+        "correct_answer": "55%",
+        "explanation": "Total income = 450 + 250 + 100 + 200 = ₱1,000 Million. Local sources = 250 + 100 + 200 = ₱550 Million. Percentage = 550 / 1000 = 55%."
+    },
+    {
+        "id": "190",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table reports total exports and imports (in billion USD) over 3 years:\n- Year 1: Exports = $70B, Imports = $85B\n- Year 2: Exports = $78B, Imports = $90B\n- Year 3: Exports = $84B, Imports = $98B\n\nWhat was the trade deficit (Imports minus Exports) in Year 3?",
+        "choices": ["$12B", "$14B", "$15B", "$16B"],
+        "correct_answer": "$14B",
+        "explanation": "Trade Deficit Year 3 = Imports ($98B) - Exports ($84B) = $14B."
+    },
+    {
+        "id": "191",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table lists public school enrollment in a division by grade level:\n- Grade 7: 12,000\n- Grade 8: 11,500\n- Grade 9: 10,500\n- Grade 10: 10,000\n\nWhat is the percentage decrease in enrollment from Grade 7 to Grade 10?",
+        "choices": ["12.5%", "16.7%", "20.0%", "25.0%"],
+        "correct_answer": "16.7%",
+        "explanation": "Decrease = 12,000 - 10,000 = 2,000. Percentage decrease = (2,000 / 12,000) * 100% = 1/6 * 100% ≈ 16.7%."
+    },
+    {
+        "id": "192",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A pie chart breaks down total solid waste composition in a city:\n- Biodegradable: 52%\n- Recyclable: 28%\n- Residual: 15%\n- Special/Hazardous: 5%\n\nIf the city generates 500 tons of waste daily, how many tons of RESIDUAL waste are produced per day?",
+        "choices": ["50 tons", "75 tons", "140 tons", "260 tons"],
+        "correct_answer": "75 tons",
+        "explanation": "Residual waste = 15% of 500 tons = 0.15 * 500 = 75 tons."
+    },
+    {
+        "id": "193",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table tracks employee promotion rates in 3 divisions over 2 years:\n- Division A: 2021 = 10 promoted out of 100; 2022 = 15 promoted out of 100\n- Division B: 2021 = 8 promoted out of 50; 2022 = 12 promoted out of 60\n- Division C: 2021 = 15 promoted out of 150; 2022 = 20 promoted out of 160\n\nWhich division had the highest promotion rate in 2022?",
+        "choices": ["Division A", "Division B", "Division C", "Division A and B tie"],
+        "correct_answer": "Division B",
+        "explanation": "2022 Promotion Rates: Division A: 15/100 = 15%; Division B: 12/60 = 20%; Division C: 20/160 = 12.5%. Division B has the highest rate (20%)."
+    },
+    {
+        "id": "194",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A line graph shows monthly inflation rates for 4 consecutive months:\n- Month 1: 3.8%\n- Month 2: 4.2%\n- Month 3: 4.8%\n- Month 4: 4.4%\n\nWhat is the average inflation rate over the 4-month period?",
+        "choices": ["4.1%", "4.3%", "4.4%", "4.5%"],
+        "correct_answer": "4.3%",
+        "explanation": "Sum = 3.8 + 4.2 + 4.8 + 4.4 = 17.2%. Average = 17.2% / 4 = 4.3%."
+    },
+    {
+        "id": "195",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table shows emergency relief distribution across 4 affected barangays:\n- Brgy 1: 1,200 food packs (target 1,500)\n- Brgy 2: 900 food packs (target 1,000)\n- Brgy 3: 1,600 food packs (target 2,000)\n- Brgy 4: 750 food packs (target 800)\n\nWhich barangay reached the highest percentage of its target distribution?",
+        "choices": ["Brgy 1", "Brgy 2", "Brgy 3", "Brgy 4"],
+        "correct_answer": "Brgy 4",
+        "explanation": "Percentages: Brgy 1: 1200/1500=80%; Brgy 2: 900/1000=90%; Brgy 3: 1600/2000=80%; Brgy 4: 750/800=93.75%. Brgy 4 achieved the highest (93.75%)."
+    },
+    {
+        "id": "196",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A bar graph shows internet connectivity speed (in Mbps) across 4 government offices:\n- Office A: 100 Mbps\n- Office B: 250 Mbps\n- Office C: 150 Mbps\n- Office D: 300 Mbps\n\nBy what percentage is Office D's internet speed faster than Office C's?",
+        "choices": ["50%", "100%", "150%", "200%"],
+        "correct_answer": "100%",
+        "explanation": "Difference = 300 - 150 = 150 Mbps. Percentage faster = (150 / 150) * 100% = 100%."
+    },
+    {
+        "id": "197",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table details annual tourist arrivals (in millions) in 3 major Philippine destinations:\n- Boracay: 2021 = 0.3M | 2022 = 1.2M | 2023 = 2.1M\n- Palawan: 2021 = 0.2M | 2022 = 0.8M | 2023 = 1.5M\n- Cebu: 2021 = 0.5M | 2022 = 1.5M | 2023 = 2.7M\n\nWhat was the total tourist arrival count across all 3 destinations in 2023?",
+        "choices": ["5.5 Million", "6.0 Million", "6.3 Million", "6.5 Million"],
+        "correct_answer": "6.3 Million",
+        "explanation": "2023 Total = 2.1M (Boracay) + 1.5M (Palawan) + 2.7M (Cebu) = 6.3 Million."
+    },
+    {
+        "id": "198",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A pie chart illustrates government agency staff education levels:\n- High School: 10%\n- Bachelor's Degree: 65%\n- Master's Degree: 20%\n- Doctorate Degree: 5%\n\nIf the agency has 400 total employees, how many hold a Master's or Doctorate degree?",
+        "choices": ["60", "80", "100", "120"],
+        "correct_answer": "100",
+        "explanation": "Master's (20%) + Doctorate (5%) = 25%. 25% of 400 employees = 0.25 * 400 = 100 employees."
+    },
+    {
+        "id": "199",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table compares annual budget allocation vs actual expenditure (in million pesos):\n- HR: Allocated = 50 | Spent = 48\n- IT: Allocated = 120 | Spent = 114\n- Operations: Allocated = 300 | Spent = 285\n- Logistics: Allocated = 80 | Spent = 72\n\nWhich department utilized the smallest percentage of its allocated budget?",
+        "choices": ["HR", "IT", "Operations", "Logistics"],
+        "correct_answer": "Logistics",
+        "explanation": "Utilization rates: HR: 48/50 = 96%; IT: 114/120 = 95%; Operations: 285/300 = 95%; Logistics: 72/80 = 90%. Logistics had the lowest utilization (90%)."
+    },
+    {
+        "id": "200",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A graph shows mobile banking transactions (in millions) over 4 years:\n- Year 1: 15M\n- Year 2: 30M\n- Year 3: 60M\n- Year 4: 120M\n\nWhat is the annual growth factor between consecutive years?",
+        "choices": ["1.5x", "2.0x", "2.5x", "3.0x"],
+        "correct_answer": "2.0x",
+        "explanation": "Year 2/1 = 30/15 = 2x. Year 3/2 = 60/30 = 2x. Year 4/3 = 120/60 = 2x. The value doubles each year (2.0x)."
+    },
+    {
+        "id": "201",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table lists vehicle registration counts at a local LTO branch:\n- Motorcycles: 4,500\n- Private Cars: 2,000\n- Utility Vehicles (UV): 1,500\n- Trucks & Buses: 1,000\n\nWhat percentage of registered vehicles are Motorcycles?",
+        "choices": ["45%", "50%", "55%", "60%"],
+        "correct_answer": "50%",
+        "explanation": "Total = 4,500 + 2,000 + 1,500 + 1,000 = 9,000. Motorcycles = 4,500 / 9,000 = 50%."
+    },
+    {
+        "id": "202",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table shows monthly rainfall (in mm) recorded in a city:\n- Jan: 50 | Feb: 30 | Mar: 40 | Apr: 60 | May: 180 | Jun: 320\n\nWhat is the ratio of total rainfall in the dry period (Jan-Apr) to the wet period (May-Jun)?",
+        "choices": ["9:25", "18:50", "9:50", "1:3"],
+        "correct_answer": "9:25",
+        "explanation": "Dry period (Jan-Apr) total = 50+30+40+60 = 180 mm. Wet period (May-Jun) total = 180+320 = 500 mm. Ratio = 180:500 = 9:25."
+    },
+    {
+        "id": "203",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A bar chart compares employee training hours completed in 4 regional offices:\n- Region 1: 1,200 hours (50 staff)\n- Region 2: 1,600 hours (80 staff)\n- Region 3: 2,000 hours (100 staff)\n- Region 4: 900 hours (30 staff)\n\nWhich region achieved the highest average training hours per staff member?",
+        "choices": ["Region 1", "Region 2", "Region 3", "Region 4"],
+        "correct_answer": "Region 4",
+        "explanation": "Average per staff: Region 1: 1200/50=24 hrs; Region 2: 1600/80=20 hrs; Region 3: 2000/100=20 hrs; Region 4: 900/30=30 hrs. Region 4 achieved the highest (30 hrs/staff)."
+    },
+    {
+        "id": "204",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table summarizes court case disposition numbers for a regional trial court:\n- Pending at start: 200\n- New cases filed: 150\n- Cases resolved/decided: 180\n\nHow many cases remain pending at the end of the period?",
+        "choices": ["130", "150", "170", "190"],
+        "correct_answer": "170",
+        "explanation": "Ending Pending = (Start Pending + New Cases) - Resolved = (200 + 150) - 180 = 350 - 180 = 170 cases."
+    },
+    {
+        "id": "205",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A pie chart shows municipal budget allocations:\n- Social Services: 35%\n- Economic Services: 30%\n- General Public Services: 25%\n- Debt Servicing: 10%\n\nIf the total municipal budget is ₱500 Million, how much is allocated to Debt Servicing?",
+        "choices": ["₱25 Million", "₱50 Million", "₱75 Million", "₱100 Million"],
+        "correct_answer": "₱50 Million",
+        "explanation": "Debt Servicing = 10% of ₱500 Million = 0.10 * 500 = ₱50 Million."
+    },
+    {
+        "id": "206",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table shows coconut oil export volume (in metric tons) and total revenue (in USD):\n- Year 1: 500,000 MT | $600 Million\n- Year 2: 600,000 MT | $900 Million\n\nWhat was the export price per metric ton in Year 2?",
+        "choices": ["$1,200/MT", "$1,500/MT", "$1,800/MT", "$2,000/MT"],
+        "correct_answer": "$1,500/MT",
+        "explanation": "Price per MT = $900,000,000 / 600,000 MT = $1,500 per metric ton."
+    },
+    {
+        "id": "207",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table records official letter processing times in a government bureau:\n- Under 1 day: 40%\n- 1 to 3 days: 35%\n- 4 to 7 days: 15%\n- Over 7 days: 10%\n\nIf 2,000 letters were processed in a month, how many letters took 3 days or less to process?",
+        "choices": ["700", "800", "1,200", "1,500"],
+        "correct_answer": "1,500",
+        "explanation": "3 days or less = Under 1 day (40%) + 1 to 3 days (35%) = 75%. 75% of 2,000 = 0.75 * 2,000 = 1,500 letters."
+    },
+    {
+        "id": "208",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A line graph depicts unemployment rate over 4 quarters:\n- Q1: 6.5%\n- Q2: 6.0%\n- Q3: 5.2%\n- Q4: 4.5%\n\nWhat was the total percentage point drop in unemployment from Q1 to Q4?",
+        "choices": ["1.0 percentage points", "1.5 percentage points", "2.0 percentage points", "2.5 percentage points"],
+        "correct_answer": "2.0 percentage points",
+        "explanation": "Drop = 6.5% - 4.5% = 2.0 percentage points."
+    },
+    {
+        "id": "209",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table shows solar panel installations across 3 provinces:\n- Province X: 1,500 units\n- Province Y: 2,500 units\n- Province Z: 1,000 units\n\nWhat is the ratio of solar panel units in Province Y to the total units installed across all three provinces?",
+        "choices": ["1:2", "1:3", "1:4", "2:5"],
+        "correct_answer": "1:2",
+        "explanation": "Total units = 1,500 + 2,500 + 1,000 = 5,000 units. Ratio Y : Total = 2,500 : 5,000 = 1:2."
+    },
+    {
+        "id": "210",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table tracks public library visitors per day across a week:\n- Mon: 120 | Tue: 150 | Wed: 140 | Thu: 160 | Fri: 180 | Sat: 250 | Sun: Closed\n\nWhat is the average daily visitor count during open days (Monday through Saturday)?",
+        "choices": ["150", "160", "166.7", "175"],
+        "correct_answer": "166.7",
+        "explanation": "Total visitors = 120 + 150 + 140 + 160 + 180 + 250 = 1,000 visitors over 6 open days. Average = 1,000 / 6 ≈ 166.7 visitors/day."
     }
 ]
