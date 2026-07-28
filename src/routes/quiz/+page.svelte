@@ -201,6 +201,9 @@
       pendingAnswer,
       elapsedSeconds
     };
+    // Always save to local cache as immediate backup
+    localStorage.setItem('cse_active_session', JSON.stringify(sessionData));
+
     if (userSession.user) {
       try {
         await supabase.from('active_sessions').upsert({
@@ -211,8 +214,6 @@
       } catch (e) {
         console.error('Error saving active session to Supabase:', e);
       }
-    } else {
-      localStorage.setItem('cse_active_session', JSON.stringify(sessionData));
     }
     goto('/');
   }

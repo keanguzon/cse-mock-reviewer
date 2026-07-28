@@ -37,16 +37,7 @@
 
   let showOnboarding = $state(false);
 
-  onMount(async () => {
-    if (typeof localStorage !== 'undefined') {
-      if (!localStorage.getItem('cse_onboarding_seen')) {
-        showOnboarding = true;
-      }
-      if (localStorage.getItem('cse_is_guest') === 'true') {
-        isGuestMode = true;
-      }
-    }
-
+  async function checkSavedSession() {
     let loadedSession: any = null;
 
     if (userSession.user) {
@@ -78,6 +69,27 @@
     if (loadedSession && loadedSession.questions && loadedSession.questions.length > 0) {
       savedSessionData = loadedSession;
       hasSavedSession = true;
+    } else {
+      savedSessionData = null;
+      hasSavedSession = false;
+    }
+  }
+
+  onMount(() => {
+    if (typeof localStorage !== 'undefined') {
+      if (!localStorage.getItem('cse_onboarding_seen')) {
+        showOnboarding = true;
+      }
+      if (localStorage.getItem('cse_is_guest') === 'true') {
+        isGuestMode = true;
+      }
+    }
+  });
+
+  $effect(() => {
+    // Re-check saved session whenever auth state finishes loading or changes
+    if (!userSession.loading || isGuestMode) {
+      checkSavedSession();
     }
   });
 
