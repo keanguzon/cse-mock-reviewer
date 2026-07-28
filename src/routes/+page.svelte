@@ -1159,12 +1159,25 @@
   /* ---- Responsive: Mobile ---- */
   @media (max-width: 600px) {
     .hero-split {
-      padding: 2rem 1.25rem 4rem;
-      gap: 2rem;
+      padding: 1.5rem 1.25rem 3rem;
+      gap: 1.75rem;
+      min-height: auto;
     }
 
-    /* Hide the right panel preview on small screens — keep hero clean */
     .hero-right {
+      display: block;
+      width: 100%;
+      order: 1;
+      margin-top: 0.5rem;
+      padding: 0;
+    }
+
+    .preview-card {
+      max-width: 100%;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    }
+
+    .score-badge-float {
       display: none;
     }
 
