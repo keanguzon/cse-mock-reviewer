@@ -2,97 +2,224 @@
   import { supabase } from '$lib/supabaseClient';
   import type { User } from '@supabase/supabase-js';
   import { page } from '$app/stores';
+  import { LogOut, ChevronDown } from 'lucide-svelte';
 
   let { user = null }: { user: User | null } = $props();
   let isQuizPage = $derived($page.url.pathname.startsWith('/quiz'));
 
-  async function signInWithGoogle() {
-    const { error } = await supabase.auth.signInWithOAuth({
-      provider: 'google',
-      options: {
-        redirectTo: `${window.location.origin}/`
-      }
-    });
-    if (error) console.error("Error logging in:", error.message);
+  let showDropdown = $state(false);
+
+  function toggleDropdown() {
+    showDropdown = !showDropdown;
+  }
+
+  function closeDropdown() {
+    showDropdown = false;
   }
 
   async function signOut() {
+    showDropdown = false;
     const { error } = await supabase.auth.signOut();
     if (error) console.error("Error logging out:", error.message);
   }
 </script>
 
 {#if user}
-  <div class="user-bar">
-    <img
-      src={user.user_metadata.avatar_url || 'https://api.dicebear.com/7.x/avataaars/svg?seed=fallback'}
-      alt="avatar"
-      class="avatar"
-    />
-    <span class="user-name" class:hidden={isQuizPage}>
-      {user.user_metadata.full_name || user.user_metadata.name || user.email}
-    </span>
-    {#if !isQuizPage}
-      <button class="btn-sign-out" onclick={signOut}>Sign Out</button>
+  <div class="user-menu-container">
+    <button class="user-pill-btn" onclick={toggleDropdown} aria-expanded={showDropdown} aria-label="User menu">
+      <img
+        src={user.user_metadata.avatar_url || 'https://api.dicebear.com/7.x/avataaars/svg?seed=fallback'}
+        alt="avatar"
+        class="avatar"
+      />
+      <span class="user-name hidden-mobile" class:hidden-quiz={isQuizPage}>
+        {user.user_metadata.full_name?.split(' ')[0] || user.user_metadata.name?.split(' ')[0] || 'Account'}
+      </span>
+      <ChevronDown size={14} class="chevron-icon" />
+    </button>
+
+    {#if showDropdown}
+      <div 
+        class="dropdown-backdrop" 
+        onclick={closeDropdown}
+        onkeydown={(e) => e.key === 'Escape' && closeDropdown()}
+        role="button"
+        tabindex="0"
+        aria-label="Close menu"
+      ></div>
+
+      <div class="user-dropdown-menu slide-up" role="menu">
+        <div class="menu-header">
+          <img
+            src={user.user_metadata.avatar_url || 'https://api.dicebear.com/7.x/avataaars/svg?seed=fallback'}
+            alt="avatar"
+            class="menu-avatar"
+          />
+          <div class="menu-user-info">
+            <span class="menu-name">{user.user_metadata.full_name || user.user_metadata.name || 'User'}</span>
+            <span class="menu-email">{user.email || ''}</span>
+          </div>
+        </div>
+
+        <div class="menu-divider"></div>
+
+        {#if !isQuizPage}
+          <button class="menu-item menu-item-danger" onclick={signOut}>
+            <LogOut size={15} />
+            <span>Sign Out</span>
+          </button>
+        {/if}
+      </div>
     {/if}
   </div>
 {/if}
 
 <style>
-  .user-bar {
+  .user-menu-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .user-pill-btn {
     display: flex;
     align-items: center;
-    gap: 0.6rem;
-    background: rgba(255,255,255,0.05);
-    border: 1px solid rgba(99, 102, 241, 0.2);
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(167, 139, 250, 0.25);
     border-radius: 999px;
-    padding: 0.3rem 0.8rem 0.3rem 0.3rem;
+    padding: 0.25rem 0.65rem 0.25rem 0.25rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: white;
+  }
+
+  .user-pill-btn:hover {
+    background: rgba(167, 139, 250, 0.12);
+    border-color: rgba(167, 139, 250, 0.45);
   }
 
   .avatar {
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     object-fit: cover;
     background: #1e2030;
   }
 
   .user-name {
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     font-weight: 600;
-    color: #e2e8f0;
-    max-width: 130px;
+    color: #f1f5f9;
+    max-width: 110px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
   }
 
-  .user-name.hidden {
+  .user-name.hidden-quiz {
     display: none;
   }
 
+  .chevron-icon {
+    color: #a78bfa;
+    transition: transform 0.2s ease;
+  }
+
+  /* Backdrop for closing click */
+  .dropdown-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    background: transparent;
+  }
+
+  /* Floating Menu */
+  .user-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 0;
+    width: 240px;
+    background: #130d22;
+    border: 1px solid rgba(167, 139, 250, 0.3);
+    border-radius: 14px;
+    padding: 0.75rem;
+    z-index: 101;
+    box-shadow:
+      0 15px 35px rgba(0, 0, 0, 0.6),
+      0 0 25px rgba(124, 58, 237, 0.15);
+  }
+
+  .menu-header {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    padding: 0.25rem 0.25rem 0.5rem;
+  }
+
+  .menu-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .menu-user-info {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .menu-name {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .menu-email {
+    font-size: 0.72rem;
+    color: #7c6d8e;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .menu-divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.08);
+    margin: 0.5rem 0;
+  }
+
+  .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    width: 100%;
+    padding: 0.55rem 0.75rem;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    font-family: var(--font-body);
+  }
+
+  .menu-item-danger {
+    color: #f87171;
+  }
+
+  .menu-item-danger:hover {
+    background: rgba(248, 113, 113, 0.12);
+    color: #fca5a5;
+  }
+
   @media (max-width: 600px) {
-    .user-name {
+    .hidden-mobile {
       display: none;
     }
   }
-
-  .btn-sign-out {
-    background: transparent;
-    border: 1px solid rgba(239, 68, 68, 0.3);
-    color: #f87171;
-    border-radius: 999px;
-    padding: 0.2rem 0.65rem;
-    font-size: 0.75rem;
-    font-weight: 600;
-    cursor: pointer;
-    font-family: 'Inter', sans-serif;
-    transition: all 0.2s ease;
-  }
-
-  .btn-sign-out:hover {
-    background: rgba(239, 68, 68, 0.1);
-  }
-
-
 </style>

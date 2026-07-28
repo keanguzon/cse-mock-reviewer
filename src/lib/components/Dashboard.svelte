@@ -3,7 +3,7 @@
     import { onMount } from 'svelte';
     import type { User } from '@supabase/supabase-js';
     import { goto } from '$app/navigation';
-    import { Trophy, TrendingUp, ClipboardCheck, BookOpen, Calendar, GraduationCap, Award, Clock, FileText, ArrowRight } from 'lucide-svelte';
+    import { Trophy, TrendingUp, ClipboardCheck, BookOpen, Calendar, GraduationCap, Award, Clock, FileText, ArrowRight, Sparkles, CheckCircle2, AlertTriangle } from 'lucide-svelte';
 
     import { guestStore } from '$lib/guestStore.svelte';
 
@@ -81,6 +81,44 @@
             : 0
     );
 
+    type CategoryStat = {
+        category: string;
+        totalCorrect: number;
+        totalQuestions: number;
+        percentage: number;
+    };
+
+    let categoryStats = $derived.by(() => {
+        if (attempts.length === 0) return [];
+        const map = new Map<string, { correct: number; total: number }>();
+        
+        attempts.forEach(att => {
+            const rawCat = att.category || 'General / Mixed';
+            const cat = rawCat === 'all' || rawCat === '' ? 'General / Mixed' : rawCat;
+            if (!map.has(cat)) map.set(cat, { correct: 0, total: 0 });
+            const entry = map.get(cat)!;
+            entry.correct += att.score;
+            entry.total += att.total;
+        });
+
+        const list: CategoryStat[] = [];
+        map.forEach((val, cat) => {
+            const pct = Math.round((val.correct / val.total) * 100);
+            list.push({
+                category: cat,
+                totalCorrect: val.correct,
+                totalQuestions: val.total,
+                percentage: pct
+            });
+        });
+
+        list.sort((a, b) => b.percentage - a.percentage);
+        return list;
+    });
+
+    let overallStrongAreas = $derived(categoryStats.filter(c => c.percentage >= 80));
+    let overallWeakAreas = $derived(categoryStats.filter(c => c.percentage < 80));
+
     function getLevelLabel(attempt: Attempt): { label: string; cls: string } {
         const lvl = (attempt.level || '').toLowerCase();
         if (lvl === 'subprofessional') return { label: 'Sub-Professional', cls: 'badge-sub' };
@@ -150,6 +188,53 @@
                 </div>
                 <h3>Quizzes Taken</h3>
                 <div class="stat-value">{attempts.length}</div>
+            </div>
+        </div>
+
+        <!-- Overall Focus Areas (Strengths & Weaknesses) -->
+        <div class="analytics-card" style="margin-top: 1.5rem; margin-bottom: 1.5rem; padding: 1.25rem; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(124, 58, 237, 0.2); border-radius: 12px;">
+            <h3 style="font-size: 0.95rem; font-weight: 700; color: var(--cse-primary-light); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                <Sparkles size={16} /> Performance & Focus Areas
+            </h3>
+
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <!-- Strong Areas -->
+                <div style="flex: 1; min-width: 220px; background: rgba(52, 211, 153, 0.05); border: 1px solid rgba(52, 211, 153, 0.2); border-radius: 10px; padding: 1rem;">
+                    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; color: #34d399; font-weight: 700; font-size: 0.85rem;">
+                        <CheckCircle2 size={16} /> Strong Areas (≥80%)
+                    </div>
+                    {#if overallStrongAreas.length > 0}
+                        <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+                            {#each overallStrongAreas as item}
+                                <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem;">
+                                    <span style="color: #e2e8f0; font-weight: 500;">{item.category}</span>
+                                    <span style="font-weight: 700; color: #34d399; font-family: var(--font-display);">{item.percentage}%</span>
+                                </div>
+                            {/each}
+                        </div>
+                    {:else}
+                        <p style="font-size: 0.78rem; color: #7c6d8e; margin: 0;">Complete more practice quizzes at ≥80% accuracy to highlight your strong subjects.</p>
+                    {/if}
+                </div>
+
+                <!-- Weak Areas / Needs Practice -->
+                <div style="flex: 1; min-width: 220px; background: rgba(251, 191, 36, 0.05); border: 1px solid rgba(251, 191, 36, 0.2); border-radius: 10px; padding: 1rem;">
+                    <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; color: #fbbf24; font-weight: 700; font-size: 0.85rem;">
+                        <AlertTriangle size={16} /> Needs Practice (&lt;80%)
+                    </div>
+                    {#if overallWeakAreas.length > 0}
+                        <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+                            {#each overallWeakAreas as item}
+                                <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem;">
+                                    <span style="color: #e2e8f0; font-weight: 500;">{item.category}</span>
+                                    <span style="font-weight: 700; color: #fbbf24; font-family: var(--font-display);">{item.percentage}%</span>
+                                </div>
+                            {/each}
+                        </div>
+                    {:else}
+                        <p style="font-size: 0.78rem; color: #34d399; margin: 0;">Great job! No weak areas detected in your recent exam attempts.</p>
+                    {/if}
+                </div>
             </div>
         </div>
 
