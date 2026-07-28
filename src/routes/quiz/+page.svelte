@@ -4,6 +4,8 @@
   import QuestionCard from '$lib/components/QuestionCard.svelte';
   import ProgressBar from '$lib/components/ProgressBar.svelte';
   import ResultScreen from '$lib/components/ResultScreen.svelte';
+  import { userSession } from '$lib/userSession.svelte';
+  import { supabase } from '$lib/supabaseClient';
   import { LayoutGrid, ChevronLeft, ChevronRight, AlertTriangle, Info } from 'lucide-svelte';
 
   let { data } = $props<{
@@ -94,26 +96,56 @@
     return total + (userAnswers[idx] === q.correct_answer ? 1 : 0);
   }, 0));
 
-  onMount(() => {
+  async function clearActiveSession() {
+    if (userSession.user) {
+      try {
+        await supabase.from('active_sessions').delete().eq('user_id', userSession.user.id);
+      } catch (e) {
+        console.error('Error clearing active session from Supabase:', e);
+      }
+    }
+    localStorage.removeItem('cse_active_session');
+  }
+
+  onMount(async () => {
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.get('continue') === 'true') {
-      const raw = localStorage.getItem('cse_active_session');
-      if (raw) {
+      let saved: any = null;
+      if (userSession.user) {
         try {
-          const saved = JSON.parse(raw);
-          if (saved && saved.questions && saved.questions.length > 0) {
-            questions = saved.questions;
-            currentIndex = saved.currentIndex;
-            userAnswers = saved.userAnswers || {};
-            currentMode = saved.mode;
-            currentCategory = saved.category || '';
-            currentLevel = saved.level || 'professional';
-            pendingAnswer = saved.pendingAnswer || null;
-            if (saved.elapsedSeconds) elapsedSeconds = saved.elapsedSeconds;
+          const { data: res } = await supabase
+            .from('active_sessions')
+            .select('session_data')
+            .eq('user_id', userSession.user.id)
+            .maybeSingle();
+          if (res?.session_data) {
+            saved = res.session_data;
           }
         } catch (e) {
-          console.error("Error loading session:", e);
+          console.error("Error loading session from Supabase:", e);
         }
+      }
+
+      if (!saved) {
+        const raw = localStorage.getItem('cse_active_session');
+        if (raw) {
+          try {
+            saved = JSON.parse(raw);
+          } catch (e) {
+            console.error("Error loading session from localStorage:", e);
+          }
+        }
+      }
+
+      if (saved && saved.questions && saved.questions.length > 0) {
+        questions = saved.questions;
+        currentIndex = saved.currentIndex;
+        userAnswers = saved.userAnswers || {};
+        currentMode = saved.mode;
+        currentCategory = saved.category || '';
+        currentLevel = saved.level || 'professional';
+        pendingAnswer = saved.pendingAnswer || null;
+        if (saved.elapsedSeconds) elapsedSeconds = saved.elapsedSeconds;
       }
     }
 
@@ -158,7 +190,7 @@
     goto('/');
   }
 
-  function handleSaveAndClose() {
+  async function handleSaveAndClose() {
     const sessionData = {
       questions,
       currentIndex,
@@ -169,7 +201,19 @@
       pendingAnswer,
       elapsedSeconds
     };
-    localStorage.setItem('cse_active_session', JSON.stringify(sessionData));
+    if (userSession.user) {
+      try {
+        await supabase.from('active_sessions').upsert({
+          user_id: userSession.user.id,
+          session_data: sessionData,
+          updated_at: new Date().toISOString()
+        });
+      } catch (e) {
+        console.error('Error saving active session to Supabase:', e);
+      }
+    } else {
+      localStorage.setItem('cse_active_session', JSON.stringify(sessionData));
+    }
     goto('/');
   }
 
@@ -179,8 +223,8 @@
       message: "Are you sure you want to terminate your exam session? Your current progress will be lost permanently.",
       actionText: "YES, TERMINATE",
       isDanger: true,
-      callback: () => {
-        localStorage.removeItem('cse_active_session');
+      callback: async () => {
+        await clearActiveSession();
         goto('/');
       }
     });
@@ -215,8 +259,8 @@
       message: "Are you sure you want to submit your exam now? You will not be able to change your answers.",
       actionText: "SUBMIT NOW",
       isDanger: false,
-      callback: () => {
-        localStorage.removeItem('cse_active_session');
+      callback: async () => {
+        await clearActiveSession();
         currentIndex = questions.length;
       }
     });

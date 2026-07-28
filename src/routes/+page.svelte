@@ -37,7 +37,7 @@
 
   let showOnboarding = $state(false);
 
-  onMount(() => {
+  onMount(async () => {
     if (typeof localStorage !== 'undefined') {
       if (!localStorage.getItem('cse_onboarding_seen')) {
         showOnboarding = true;
@@ -47,17 +47,37 @@
       }
     }
 
-    const raw = localStorage.getItem('cse_active_session');
-    if (raw) {
+    let loadedSession: any = null;
+
+    if (userSession.user) {
       try {
-        const data = JSON.parse(raw);
-        if (data && data.questions && data.questions.length > 0) {
-          savedSessionData = data;
-          hasSavedSession = true;
+        const { data: res } = await supabase
+          .from('active_sessions')
+          .select('session_data')
+          .eq('user_id', userSession.user.id)
+          .maybeSingle();
+        if (res?.session_data) {
+          loadedSession = res.session_data;
         }
       } catch (e) {
-        console.error("Error reading saved session:", e);
+        console.error("Error reading saved session from Supabase:", e);
       }
+    }
+
+    if (!loadedSession) {
+      const raw = localStorage.getItem('cse_active_session');
+      if (raw) {
+        try {
+          loadedSession = JSON.parse(raw);
+        } catch (e) {
+          console.error("Error reading saved session from localStorage:", e);
+        }
+      }
+    }
+
+    if (loadedSession && loadedSession.questions && loadedSession.questions.length > 0) {
+      savedSessionData = loadedSession;
+      hasSavedSession = true;
     }
   });
 
@@ -93,8 +113,15 @@
     goto('/quiz?continue=true');
   }
 
-  function discardSession() {
+  async function discardSession() {
     if (window.confirm("Are you sure you want to discard your saved session? Your progress will be lost permanently.")) {
+      if (userSession.user) {
+        try {
+          await supabase.from('active_sessions').delete().eq('user_id', userSession.user.id);
+        } catch (e) {
+          console.error("Error discarding active session from Supabase:", e);
+        }
+      }
       localStorage.removeItem('cse_active_session');
       hasSavedSession = false;
       savedSessionData = null;
