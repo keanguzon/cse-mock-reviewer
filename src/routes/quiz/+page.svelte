@@ -300,8 +300,9 @@
         </button>
 
         {#if currentIndex > 0}
-          <button class="btn-icon" onclick={handlePrevious} title="Previous Question" aria-label="Previous">
-            <ChevronLeft size={20} />
+          <button class="btn-icon btn-nav-step" onclick={handlePrevious} title="Previous Question" aria-label="Previous">
+            <ChevronLeft size={18} />
+            <span class="nav-label">PREV</span>
           </button>
         {/if}
 
@@ -314,8 +315,9 @@
             NEXT QUESTION →
           </button>
         {:else if currentIndex < questions.length - 1}
-          <button class="btn-icon" onclick={handleNext} title="Next Question" aria-label="Next">
-            <ChevronRight size={20} />
+          <button class="btn-icon btn-nav-step" onclick={handleNext} title="Next Question" aria-label="Next">
+            <span class="nav-label">NEXT</span>
+            <ChevronRight size={18} />
           </button>
         {/if}
 
@@ -499,6 +501,21 @@
     color: var(--cse-primary-light);
   }
 
+  .btn-nav-step {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    padding: 0.65rem 1.1rem;
+    font-weight: 700;
+  }
+
+  .nav-label {
+    font-size: 0.82rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+
   .action-buttons {
     display: flex;
     gap: 0.5rem;
@@ -529,12 +546,17 @@
     .action-buttons {
       justify-content: space-between;
       width: 100%;
+      gap: 0.65rem;
     }
     .action-buttons > button {
       flex: 1;
     }
-    .action-buttons > .btn-icon {
+    .action-buttons > .btn-icon:not(.btn-nav-step) {
       flex: 0 0 auto;
+    }
+    .btn-nav-step {
+      flex: 1 !important;
+      padding: 0.75rem 0.5rem;
     }
   }
 

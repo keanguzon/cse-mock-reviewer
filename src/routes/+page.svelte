@@ -246,13 +246,13 @@
   ============================================ -->
   <div class="auth-view">
     {#if isGuestMode && !userSession.user}
-      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
-        <button class="btn-ghost" onclick={exitGuestMode} style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; font-size: 0.88rem; color: #a78bfa; border-color: rgba(167, 139, 250, 0.3); font-weight: 600; border-radius: 10px; cursor: pointer; transition: all 0.2s;">
-          <ArrowLeft size={16} /> Back to Home
+      <div class="guest-mode-header">
+        <button class="btn-ghost btn-guest-back" onclick={exitGuestMode}>
+          <ArrowLeft size={16} /> <span>Back to Home</span>
         </button>
 
-        <span class="cse-badge cse-badge-primary" style="background: rgba(167, 139, 250, 0.12); border-color: rgba(167, 139, 250, 0.3); font-size: 0.78rem;">
-          ⚡ Guest Mode (Browser Cached)
+        <span class="cse-badge cse-badge-primary guest-badge">
+          ⚡ Guest Mode <span class="guest-cached-text">(Browser Cached)</span>
         </span>
       </div>
     {/if}
@@ -319,7 +319,7 @@
           <BlurText text="Ace the" delay={100} />
         </span>
         <span class="hero-line-accent gradient-text">
-          Civil&nbsp;Service
+          Civil Service
         </span>
         <span class="hero-line-3">
           <BlurText text="Exam." delay={800} />
@@ -678,6 +678,52 @@
   .btn-guest:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(124, 58, 237, 0.4);
+  }
+
+  /* Guest Mode Header Bar */
+  .guest-mode-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    width: 100%;
+  }
+
+  .btn-guest-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 0.88rem;
+    color: #a78bfa;
+    border: 1px solid rgba(167, 139, 250, 0.3);
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  .btn-guest-back:hover {
+    background: rgba(167, 139, 250, 0.12);
+    border-color: rgba(167, 139, 250, 0.5);
+    color: white;
+  }
+
+  .guest-badge {
+    background: rgba(167, 139, 250, 0.12);
+    border-color: rgba(167, 139, 250, 0.3);
+    font-size: 0.78rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 520px) {
+    .guest-cached-text {
+      display: none;
+    }
   }
 
   /* Onboarding Tooltip */
@@ -1128,15 +1174,19 @@
     }
 
     .hero-title {
-      font-size: clamp(2.6rem, 13vw, 3.5rem);
-      letter-spacing: -2px;
+      font-size: clamp(1.8rem, 9.5vw, 2.6rem);
+      letter-spacing: -1px;
       margin-bottom: 1.25rem;
       gap: 0.05em;
+      word-break: break-word;
+      overflow-wrap: break-word;
     }
 
     .hero-body {
-      font-size: 0.95rem;
+      font-size: 0.92rem;
       margin-bottom: 2rem;
+      word-break: break-word;
+      overflow-wrap: break-word;
     }
 
     .hero-stats-row {
@@ -1177,8 +1227,8 @@
     }
 
     .hero-title {
-      font-size: clamp(2.2rem, 14vw, 2.8rem);
-      letter-spacing: -1.5px;
+      font-size: clamp(1.6rem, 8.5vw, 2.2rem);
+      letter-spacing: -0.5px;
     }
 
     .hero-stats-row {
