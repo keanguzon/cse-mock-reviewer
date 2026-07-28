@@ -257,12 +257,10 @@
       </div>
     {/if}
 
-    <Dashboard user={userSession.user} />
-
     {#if hasSavedSession}
-      <div class="glass-card slide-up continue-session-card" style="max-width: 640px; margin: 0 auto 2rem; border-color: rgba(167, 139, 250, 0.45); background: rgba(124, 58, 237, 0.04); position: relative; overflow: hidden;">
+      <div class="glass-card slide-up continue-session-card" style="max-width: 640px; margin: 0 auto 1.5rem; border-color: rgba(167, 139, 250, 0.45); background: rgba(124, 58, 237, 0.08); position: relative; overflow: hidden;">
         <!-- Glowing gradient effect under card -->
-        <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(124, 58, 237, 0.08) 0%, transparent 60%); pointer-events: none; z-index: 0;"></div>
+        <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(124, 58, 237, 0.12) 0%, transparent 60%); pointer-events: none; z-index: 0;"></div>
         
         <div style="position: relative; z-index: 1;" class="continue-flex-container">
           <div style="flex: 1;">
@@ -296,6 +294,8 @@
         </div>
       </div>
     {/if}
+
+    <Dashboard user={userSession.user} />
 
     <!-- Quiz Config for Authenticated User & Guest -->
     {@render quizConfigForm()}

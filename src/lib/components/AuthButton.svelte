@@ -35,7 +35,7 @@
       <span class="user-name hidden-mobile" class:hidden-quiz={isQuizPage}>
         {user.user_metadata.full_name?.split(' ')[0] || user.user_metadata.name?.split(' ')[0] || 'Account'}
       </span>
-      <ChevronDown size={14} class="chevron-icon" />
+      <ChevronDown size={13} class="chevron-icon" />
     </button>
 
     {#if showDropdown}
@@ -81,16 +81,18 @@
   }
 
   .user-pill-btn {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
+    justify-content: center;
+    gap: 0.4rem;
     background: rgba(255, 255, 255, 0.06);
     border: 1px solid rgba(167, 139, 250, 0.25);
     border-radius: 999px;
-    padding: 0.25rem 0.65rem 0.25rem 0.25rem;
+    padding: 0.25rem 0.6rem 0.25rem 0.25rem;
     cursor: pointer;
     transition: all 0.2s ease;
     color: white;
+    box-sizing: border-box;
   }
 
   .user-pill-btn:hover {
@@ -101,9 +103,14 @@
   .avatar {
     width: 28px;
     height: 28px;
+    min-width: 28px;
+    min-height: 28px;
     border-radius: 50%;
     object-fit: cover;
+    flex-shrink: 0;
+    aspect-ratio: 1 / 1;
     background: #1e2030;
+    display: block;
   }
 
   .user-name {
@@ -122,6 +129,7 @@
 
   .chevron-icon {
     color: #a78bfa;
+    flex-shrink: 0;
     transition: transform 0.2s ease;
   }
 
@@ -152,21 +160,28 @@
   .menu-header {
     display: flex;
     align-items: center;
-    gap: 0.65rem;
-    padding: 0.25rem 0.25rem 0.5rem;
+    gap: 0.75rem;
+    padding: 0.25rem;
   }
 
   .menu-avatar {
-    width: 36px;
-    height: 36px;
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
     border-radius: 50%;
     object-fit: cover;
+    flex-shrink: 0;
+    aspect-ratio: 1 / 1;
+    display: block;
+    background: #1e2030;
   }
 
   .menu-user-info {
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    flex: 1;
   }
 
   .menu-name {
@@ -189,7 +204,7 @@
   .menu-divider {
     height: 1px;
     background: rgba(255, 255, 255, 0.08);
-    margin: 0.5rem 0;
+    margin: 0.6rem 0;
   }
 
   .menu-item {
@@ -220,6 +235,10 @@
   @media (max-width: 600px) {
     .hidden-mobile {
       display: none;
+    }
+    .user-pill-btn {
+      padding: 0.25rem 0.45rem 0.25rem 0.25rem;
+      gap: 0.25rem;
     }
   }
 </style>
