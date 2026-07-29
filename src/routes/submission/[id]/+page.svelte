@@ -106,7 +106,9 @@
       return mode === 'mock' ? '⏱️ Mock Exam' : '📚 Practice';
   }
   let categoryBreakdown = $derived.by(() => {
-    if (!questions || questions.length === 0) return [];
+    const questions = attempt?.questions;
+    const userAnswers = attempt?.user_answers;
+    if (!questions || questions.length === 0 || !userAnswers) return [];
     const map = new Map<string, { correct: number; total: number }>();
     questions.forEach((q: any, idx: number) => {
       const cat = q.category || 'General';
