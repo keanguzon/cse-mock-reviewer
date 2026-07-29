@@ -164,7 +164,7 @@
 <ColorBendsBackground />
 
 {#snippet quizConfigForm()}
-  <div id="quiz-config" class="glass-card slide-up" style="max-width: 640px; margin: 0 auto; position: relative; z-index: 10;">
+  <div id="quiz-config" style="width: 100%; position: relative; z-index: 10;">
     <h2 style="font-size: 1.1rem; font-weight: 700; color: white; margin-bottom: 1.5rem; letter-spacing: -0.3px; font-family: var(--font-display);">
       Configure Your Session
     </h2>
@@ -403,25 +403,6 @@
         </button>
       </div>
 
-      {#if guestStore.attempts.length > 0}
-        <div class="guest-activity-card glass-card slide-up" style="margin-top: 2rem; max-width: 480px; padding: 1.25rem;">
-          <h4 style="font-size: 0.85rem; font-weight: 700; color: #a78bfa; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.75rem;">Your Cached Results (Guest)</h4>
-          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
-            {#each guestStore.attempts.slice(0, 3) as att}
-              {@const pct = Math.round((att.score / att.total) * 100)}
-              <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.03); padding: 0.5rem 0.75rem; border-radius: 8px; font-size: 0.8rem;">
-                <div>
-                  <strong>{att.category || 'All Categories'}</strong>
-                  <div style="font-size: 0.7rem; color: #7c6d8e;">{att.mode === 'mock' ? 'Mock Exam' : 'Practice'} · {att.level}</div>
-                </div>
-                <span style="font-weight: 800; font-family: var(--font-body); font-variant-numeric: tabular-nums lining-nums; color: {pct >= 75 ? '#34d399' : '#fbbf24'};">
-                  {att.score}/{att.total} ({pct}%)
-                </span>
-              </div>
-            {/each}
-          </div>
-        </div>
-      {/if}
     </div>
 
     <!-- RIGHT: Animated live preview panel -->
