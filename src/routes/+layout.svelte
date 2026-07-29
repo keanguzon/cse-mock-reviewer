@@ -36,7 +36,7 @@
   </div>
 </nav>
 
-<main style="position: relative; min-height: 100vh;">
+<main style="position: relative; min-height: calc(100vh - 70px);">
   {@render children()}
 </main>
 

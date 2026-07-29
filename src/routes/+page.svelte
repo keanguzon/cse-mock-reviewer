@@ -661,7 +661,7 @@
     max-width: 1400px;
     width: 100%;
     margin: 0 auto;
-    padding: 3rem 1.5rem 5rem;
+    padding: 1rem 1rem 0.5rem;
   }
 
   /* ============================================
@@ -673,10 +673,11 @@
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     align-items: center;
-    min-height: calc(100vh - 70px);
+    min-height: calc(100vh - 90px);
     max-width: 1200px;
     margin: 0 auto;
-    padding: 4rem 2rem 6rem;
+    padding: 1rem 2rem 2rem;
+    box-sizing: border-box;
     user-select: none;
     -webkit-user-select: none;
   }
