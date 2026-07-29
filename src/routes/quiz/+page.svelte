@@ -168,6 +168,26 @@
     if (timerInterval) clearInterval(timerInterval);
   });
 
+  let unansweredIndices = $derived(
+    questions
+      ? questions
+          .map((_, i) => i)
+          .filter((i) => userAnswers[i] === undefined)
+      : []
+  );
+
+  let hasPreviousNav = $derived(
+    filterUnanswered
+      ? unansweredIndices.some((i) => i < currentIndex)
+      : currentIndex > 0
+  );
+
+  let hasNextNav = $derived(
+    filterUnanswered
+      ? unansweredIndices.some((i) => i > currentIndex)
+      : currentIndex < questions.length - 1
+  );
+
   function handleSelect(choice: string) {
     if (isPractice && hasAnswered) return;
     pendingAnswer = choice;
@@ -182,22 +202,28 @@
   }
 
   function handleNext() {
-    if (unansweredCount === 0) {
-      if (currentIndex < questions.length - 1) {
-        currentIndex += 1;
+    if (filterUnanswered) {
+      const next = unansweredIndices.find((i) => i > currentIndex);
+      if (next !== undefined) {
+        currentIndex = next;
+        pendingAnswer = userAnswers[currentIndex] || null;
       }
     } else {
-      let nextIndex = (currentIndex + 1) % questions.length;
-      while (userAnswers[nextIndex]) {
-        nextIndex = (nextIndex + 1) % questions.length;
+      if (currentIndex < questions.length - 1) {
+        currentIndex += 1;
+        pendingAnswer = userAnswers[currentIndex] || null;
       }
-      currentIndex = nextIndex;
     }
-    pendingAnswer = userAnswers[currentIndex] || null;
   }
 
   function handlePrevious() {
-    if (currentIndex > 0) {
+    if (filterUnanswered) {
+      const prev = unansweredIndices.filter((i) => i < currentIndex).pop();
+      if (prev !== undefined) {
+        currentIndex = prev;
+        pendingAnswer = userAnswers[currentIndex] || null;
+      }
+    } else if (currentIndex > 0) {
       currentIndex -= 1;
       pendingAnswer = userAnswers[currentIndex] || null;
     }
@@ -353,7 +379,7 @@
             <span>Answered.</span>
           {/if}
         {:else}
-          <span>Select an answer above.</span>
+          <span>Select an answer.</span>
         {/if}
       </div>
 
@@ -362,7 +388,7 @@
           <LayoutGrid size={20} />
         </button>
 
-        {#if currentIndex > 0}
+        {#if hasPreviousNav}
           <button class="btn-icon btn-nav-step" onclick={handlePrevious} title="Previous Question" aria-label="Previous">
             <ChevronLeft size={18} />
             <span class="nav-label">PREV</span>
@@ -373,11 +399,11 @@
           <button class="btn-primary uppercase" onclick={handleConfirm}>
             CONFIRM ANSWER
           </button>
-        {:else if isPractice && hasAnswered && currentIndex < questions.length - 1}
+        {:else if isPractice && hasAnswered && hasNextNav}
           <button class="btn-primary btn-next uppercase" onclick={handleNext}>
             NEXT QUESTION →
           </button>
-        {:else if currentIndex < questions.length - 1}
+        {:else if hasNextNav}
           <button class="btn-icon btn-nav-step" onclick={handleNext} title="Next Question" aria-label="Next">
             <span class="nav-label">NEXT</span>
             <ChevronRight size={18} />
@@ -485,8 +511,8 @@
     margin-top: 2rem;
     padding-top: 1.5rem;
     border-top: 1px solid var(--cse-border);
-    flex-wrap: wrap;
-    gap: 1rem;
+    flex-wrap: nowrap;
+    gap: 0.75rem;
   }
 
   .session-buttons {
@@ -500,10 +526,10 @@
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 10px;
     font-weight: 600;
-    padding: 0.75rem 1.25rem;
+    padding: 0.65rem 0.9rem;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     transition: var(--cse-transition);
@@ -523,10 +549,10 @@
     border: 1px solid rgba(248, 113, 113, 0.2);
     border-radius: 10px;
     font-weight: 600;
-    padding: 0.75rem 1.25rem;
+    padding: 0.65rem 0.9rem;
     cursor: pointer;
     font-family: 'Inter', sans-serif;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     transition: var(--cse-transition);
@@ -636,12 +662,12 @@
   }
 
   .status-text {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     color: var(--cse-text-muted);
     font-weight: 600;
     text-align: center;
     flex: 1 1 auto;
-    min-width: 180px;
+    min-width: 0;
   }
 
   /* Modal Styles */
@@ -685,6 +711,28 @@
     background: none; border: none;
     color: var(--cse-text-muted);
     font-size: 1.25rem; cursor: pointer;
+  }
+
+  .overview-filter {
+    padding: 0.75rem 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .filter-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--cse-text);
+  }
+
+  .filter-label input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    accent-color: var(--cse-primary);
+    cursor: pointer;
   }
 
   .overview-grid {
