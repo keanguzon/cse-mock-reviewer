@@ -6,8 +6,9 @@
     import { Trophy, TrendingUp, ClipboardCheck, BookOpen, Calendar, GraduationCap, Award, Clock, FileText, ArrowRight, Sparkles, CheckCircle2, AlertTriangle } from 'lucide-svelte';
 
     import { guestStore } from '$lib/guestStore.svelte';
+    import type { Snippet } from 'svelte';
 
-    let { user }: { user?: User | null } = $props();
+    let { user, configForm }: { user?: User | null, configForm?: Snippet } = $props();
 
     type Question = {
         id: string;
@@ -147,65 +148,79 @@
     let displayedAttempts = $derived(showAll ? attempts : attempts.slice(0, 2));
 </script>
 
-<div class="dashboard glass-card slide-up">
-    <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
-        <h2 class="dashboard-title" style="margin: 0;">
-            Welcome back, {user ? (user.user_metadata?.full_name?.split(' ')[0] || 'Reviewer') : 'Guest'}! 👋
-        </h2>
-        {#if !user}
-            <span class="cse-badge cse-badge-primary" style="background: rgba(167, 139, 250, 0.15); border-color: rgba(167, 139, 250, 0.3); font-size: 0.75rem;">
-                Guest Mode (Local Storage)
-            </span>
+<div class="dashboard slide-up dashboard-3-col-layout">
+    <!-- COLUMN 1: Profile & Stats -->
+    <div class="dashboard-col glass-card">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-direction: column; gap: 0.5rem; margin-bottom: 1.5rem;">
+            <h2 class="dashboard-title" style="margin: 0; font-size: 1.5rem;">
+                Welcome back, {user ? (user.user_metadata?.full_name?.split(' ')[0] || 'Reviewer') : 'Guest'}! 👋
+            </h2>
+            {#if !user}
+                <span class="cse-badge cse-badge-primary" style="background: rgba(167, 139, 250, 0.15); border-color: rgba(167, 139, 250, 0.3); font-size: 0.75rem;">
+                    Guest Mode (Local Storage)
+                </span>
+            {/if}
+        </div>
+
+        {#if loading}
+            <div style="text-align: center; padding: 1.5rem;">
+                <progress class="progress" max="100" style="max-width: 200px; margin: 0 auto;"></progress>
+                <p style="color: #7c6d8e; margin-top: 0.75rem; font-size: 0.9rem;">Loading your stats...</p>
+            </div>
+        {:else if error}
+            <p class="error-text">{error}</p>
+        {:else}
+            <div class="stats-grid stacked-stats">
+                <div class="stat-card" style="position: relative; overflow: hidden;">
+                    <div style="position: absolute; top: 0.5rem; right: 0.5rem; opacity: 0.08; color: var(--cse-orange);">
+                        <Trophy size={48} />
+                    </div>
+                    <h3>High Score</h3>
+                    <div class="stat-value" class:success={highScore >= 75} class:warning={highScore < 75}>
+                        {highScore}%
+                    </div>
+                </div>
+                <div class="stat-card" style="position: relative; overflow: hidden;">
+                    <div style="position: absolute; top: 0.5rem; right: 0.5rem; opacity: 0.08; color: var(--cse-primary-light);">
+                        <TrendingUp size={48} />
+                    </div>
+                    <h3>Average</h3>
+                    <div class="stat-value" class:success={averageScore >= 75} class:warning={averageScore < 75}>
+                        {averageScore}%
+                    </div>
+                </div>
+                <div class="stat-card" style="position: relative; overflow: hidden;">
+                    <div style="position: absolute; top: 0.5rem; right: 0.5rem; opacity: 0.08; color: var(--cse-green);">
+                        <ClipboardCheck size={48} />
+                    </div>
+                    <h3>Quizzes Taken</h3>
+                    <div class="stat-value">{attempts.length}</div>
+                </div>
+            </div>
         {/if}
-    </div>
+    </div> <!-- End Col 1 -->
 
-    {#if loading}
-        <div style="text-align: center; padding: 1.5rem;">
-            <progress class="progress" max="100" style="max-width: 200px; margin: 0 auto;"></progress>
-            <p style="color: #7c6d8e; margin-top: 0.75rem; font-size: 0.9rem;">Loading your stats...</p>
-        </div>
-    {:else if error}
-        <p class="error-text">{error}</p>
-    {:else if attempts.length === 0}
-        <div class="empty-state" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem;">
-            <ClipboardCheck size={40} style="color: #7c6d8e; margin-bottom: 0.75rem;" />
-            <p>You haven't completed any mock exams yet.</p>
-            <p style="color: #7c6d8e;">Start practicing to track your progress here!</p>
-        </div>
-    {:else}
-        <div class="stats-grid">
-            <div class="stat-card" style="position: relative; overflow: hidden;">
-                <div style="position: absolute; top: 0.5rem; right: 0.5rem; opacity: 0.08; color: var(--cse-orange);">
-                    <Trophy size={48} />
-                </div>
-                <h3>High Score</h3>
-                <div class="stat-value" class:success={highScore >= 75} class:warning={highScore < 75}>
-                    {highScore}%
-                </div>
-            </div>
-            <div class="stat-card" style="position: relative; overflow: hidden;">
-                <div style="position: absolute; top: 0.5rem; right: 0.5rem; opacity: 0.08; color: var(--cse-primary-light);">
-                    <TrendingUp size={48} />
-                </div>
-                <h3>Average</h3>
-                <div class="stat-value" class:success={averageScore >= 75} class:warning={averageScore < 75}>
-                    {averageScore}%
-                </div>
-            </div>
-            <div class="stat-card" style="position: relative; overflow: hidden;">
-                <div style="position: absolute; top: 0.5rem; right: 0.5rem; opacity: 0.08; color: var(--cse-green);">
-                    <ClipboardCheck size={48} />
-                </div>
-                <h3>Quizzes Taken</h3>
-                <div class="stat-value">{attempts.length}</div>
-            </div>
+        <!-- COLUMN 2: Configure Session -->
+        <div class="dashboard-col glass-card" style="display: flex; flex-direction: column;">
+            {#if configForm}
+                {@render configForm()}
+            {/if}
         </div>
 
-        <!-- Overall Focus Areas (Strengths & Weaknesses) -->
-        <div class="analytics-card" style="margin-top: 1.5rem; margin-bottom: 1.5rem; padding: 1.25rem; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(124, 58, 237, 0.2); border-radius: 12px;">
-            <h3 style="font-size: 0.95rem; font-weight: 700; color: var(--cse-primary-light); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
-                <Sparkles size={16} /> Performance & Focus Areas
-            </h3>
+        <!-- COLUMN 3: Analytics & History -->
+        <div class="dashboard-col glass-card" style="display: flex; flex-direction: column; gap: 1.5rem;">
+            {#if attempts.length === 0 && !loading && !error}
+                <div class="empty-state" style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem; flex: 1;">
+                    <ClipboardCheck size={40} style="color: #7c6d8e; margin-bottom: 0.75rem;" />
+                    <p>You haven't completed any mock exams yet.</p>
+                    <p style="color: #7c6d8e;">Start practicing to track your progress here!</p>
+                </div>
+            {:else if !loading && !error}
+                <!-- Overall Focus Areas (Strengths & Weaknesses) -->
+                <div class="analytics-card" style="margin-top: 1.5rem; margin-bottom: 1.5rem; padding: 1.25rem; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(124, 58, 237, 0.2); border-radius: 12px;">
+                    <h3 style="font-size: 0.95rem; font-weight: 700; color: var(--cse-primary-light); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                        <Sparkles size={16} /> Performance & Focus Areas
+                    </h3>
 
             <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
                 <!-- Strong Areas -->
@@ -248,8 +263,8 @@
             </div>
         </div>
 
-        <div class="recent-activity">
-            <h3>Recent Activity</h3>
+        <div class="recent-activity" style="margin-top: 0;">
+            <h3 style="font-size: 0.95rem; font-weight: 700; color: var(--cse-primary-light); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem;">Recent Activity</h3>
             <div class="activity-list">
                 {#each displayedAttempts as attempt}
                     {@const pct = Math.round((attempt.score / attempt.total) * 100)}
@@ -291,7 +306,7 @@
             </div>
 
             {#if attempts.length > 2}
-                <button class="btn-see-all" onclick={() => showAll = !showAll} style="display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem;">
+                <button class="btn-see-all" onclick={() => showAll = !showAll} style="display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem; width: 100%;">
                     {#if showAll}
                         ↑ Show Less
                     {:else}
@@ -300,40 +315,64 @@
                 </button>
             {/if}
         </div>
-    {/if}
+        {/if}
+    </div> <!-- End Col 3 -->
 </div>
 
 <style>
     .dashboard { margin-bottom: 2rem; }
 
-    .dashboard-title {
-        margin-top: 0;
-        margin-bottom: 1.5rem;
-        font-size: 1.4rem;
-        font-family: var(--font-display);
-        background: linear-gradient(135deg, #d8b4fe, #e879f9);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
+    .dashboard-3-col-layout {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        align-items: stretch;
+        max-width: 1400px;
+        margin: 0 auto;
     }
 
-    .error-text { color: var(--cse-red); text-align: center; }
+    .dashboard-col {
+        padding: 1.5rem;
+    }
 
-    .empty-state { text-align: center; padding: 1.5rem; color: #94a3b8; }
+    @media (max-width: 1024px) {
+        .dashboard-3-col-layout {
+            grid-template-columns: 1fr;
+        }
+    }
 
-    .stats-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-        gap: 0.75rem;
-        margin-bottom: 1.5rem;
+    .dashboard-title {
+        font-family: var(--font-display);
+        font-size: 2rem;
+        font-weight: 800;
+        letter-spacing: -1px;
+        background: linear-gradient(135deg, #fff, #a78bfa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .error-text {
+        color: var(--cse-red);
+        background: rgba(248, 113, 113, 0.1);
+        padding: 1rem;
+        border-radius: 8px;
+        text-align: center;
+        border: 1px solid rgba(248, 113, 113, 0.3);
+    }
+
+    .stats-grid.stacked-stats {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
     }
 
     .stat-card {
-        background: rgba(255,255,255,0.04);
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 12px;
         padding: 1.25rem;
-        border-radius: var(--cse-radius-sm);
-        border: 1px solid var(--cse-border);
-        text-align: center;
+        transition: var(--cse-transition);
+        position: relative;
     }
 
     .stat-card h3 {
@@ -356,30 +395,41 @@
     .stat-value.success { color: var(--cse-green); }
     .stat-value.warning { color: var(--cse-orange); }
 
-    .recent-activity h3 {
-        margin-bottom: 0.75rem;
-        font-size: 0.95rem;
-        color: var(--cse-text);
-        font-weight: 700;
+    .analytics-card {
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
     }
 
-    .activity-list { display: flex; flex-direction: column; gap: 0.5rem; }
+    .analytics-card > div {
+        flex-direction: column;
+    }
+
+    .recent-activity h3 {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 1.2rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        padding-bottom: 0.5rem;
+    }
+
+    .activity-list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
 
     .activity-item {
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+        border-radius: 10px;
+        padding: 1rem;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        padding: 0.85rem 1rem;
-        background: rgba(255,255,255,0.03);
-        border-radius: var(--cse-radius-sm);
-        border: 1px solid var(--cse-border);
-        gap: 0.75rem;
-        transition: border-color 0.2s ease, background 0.2s ease;
-    }
-
-    .activity-item:hover {
-        border-color: rgba(139,92,246,0.3);
-        background: rgba(139,92,246,0.03);
+        align-items: flex-start;
+        transition: var(--cse-transition);
+        flex-direction: column;
+        gap: 1rem;
     }
 
     .activity-info { display: flex; flex-direction: column; gap: 0.25rem; flex: 1; min-width: 0; }
@@ -420,7 +470,13 @@
         border: 1px solid rgba(251,191,36,0.25);
     }
 
-    .activity-right { display: flex; flex-direction: column; align-items: flex-end; gap: 0.4rem; flex-shrink: 0; }
+    .activity-right {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 100%;
+        justify-content: space-between;
+    }
 
     .score-badge {
         padding: 0.25rem 0.75rem;

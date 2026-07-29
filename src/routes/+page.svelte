@@ -338,10 +338,7 @@
       </div>
     {/if}
 
-    <Dashboard user={userSession.user} />
-
-    <!-- Quiz Config for Authenticated User & Guest -->
-    {@render quizConfigForm()}
+    <Dashboard user={userSession.user} configForm={quizConfigForm} />
   </div>
 
 {:else}
@@ -506,7 +503,8 @@
 
   /* ---- Auth View ---- */
   .auth-view {
-    max-width: 800px;
+    max-width: 1400px;
+    width: 100%;
     margin: 0 auto;
     padding: 3rem 1.5rem 5rem;
   }
