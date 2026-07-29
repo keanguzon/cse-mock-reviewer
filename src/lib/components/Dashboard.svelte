@@ -157,7 +157,7 @@
             </h2>
             {#if !user}
                 <span class="cse-badge cse-badge-primary" style="background: rgba(167, 139, 250, 0.15); border-color: rgba(167, 139, 250, 0.3); font-size: 0.75rem;">
-                    Guest Mode (Local Storage)
+                    Guest Mode
                 </span>
             {/if}
         </div>

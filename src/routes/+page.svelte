@@ -295,7 +295,7 @@
         </button>
 
         <span class="cse-badge cse-badge-primary guest-badge">
-          ⚡ Guest Mode <span class="guest-cached-text">(Browser Cached)</span>
+          ⚡ Guest Mode
         </span>
       </div>
     {/if}
