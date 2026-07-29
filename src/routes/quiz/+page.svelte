@@ -197,6 +197,7 @@
   }
 
   function handleClearSelection() {
+    if (isPractice && hasAnswered) return;
     delete userAnswers[currentIndex];
     userAnswers = { ...userAnswers };
     pendingAnswer = null;

@@ -1,652 +1,652 @@
 [
-    {
-        "id": "261",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which of the following names should be filed FIRST?",
-        "choices": [
-            "Delos Santos, Ana",
-            "De Guzman, Pedro",
-            "De Leon, Jose",
-            "De la Cruz, Maria"
-        ],
-        "correct_answer": "De Guzman, Pedro",
-        "explanation": "In alphabetical filing, compare letter by letter after 'De': G (Guzman) comes before L (la Cruz, Leon, los Santos)."
-    },
-    {
-        "id": "262",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Arrange the following names in correct alphabetical order:\n1. Santos, Maria\n2. Reyes, Juan\n3. Cruz, Ana\n4. Bautista, Pedro",
-        "choices": [
-            "3-4-2-1",
-            "4-3-2-1",
-            "3-2-4-1",
-            "4-3-1-2"
-        ],
-        "correct_answer": "4-3-2-1",
-        "explanation": "Alphabetically by surname: Bautista (4), Cruz (3), Reyes (2), Santos (1)."
-    },
-    {
-        "id": "263",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which name should be filed LAST among the following?",
-        "choices": [
-            "Ramos, Elena",
-            "Soriano, Mark",
-            "Torres, Luis",
-            "Villanueva, Rosa"
-        ],
-        "correct_answer": "Villanueva, Rosa",
-        "explanation": "Alphabetically: Ramos, Soriano, Torres, Villanueva. Villanueva comes last."
-    },
-    {
-        "id": "264",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "In filing, where would 'Department of Agriculture' be filed?",
-        "choices": [
-            "Under 'T' for The",
-            "Under 'A' for Agriculture",
-            "Under 'O' for Of",
-            "Under 'D' for Department"
-        ],
-        "correct_answer": "Under 'A' for Agriculture",
-        "explanation": "In government filing, agencies are filed under their distinctive name, not articles or prepositions. 'Agriculture' is the key word."
-    },
-    {
-        "id": "265",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which file number should come FIRST in numerical-chronological order?\n1. File 2024-0089\n2. File 2024-0012\n3. File 2024-0156\n4. File 2024-0045",
-        "choices": [
-            "File 1",
-            "File 4",
-            "File 3",
-            "File 2"
-        ],
-        "correct_answer": "File 2",
-        "explanation": "In numerical order: 0012, 0045, 0089, 0156. File 2024-0012 comes first."
-    },
-    {
-        "id": "266",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Arrange the following in correct filing order:\n1. Mac Arthur, James\n2. MacDonald, Mary\n3. MacBeth, William\n4. Mabini, Apolinario",
-        "choices": [
-            "1-2-3-4",
-            "4-2-3-1",
-            "4-1-3-2",
-            "4-3-1-2"
-        ],
-        "correct_answer": "4-1-3-2",
-        "explanation": "Filing order: Mabini, Mac Arthur (Mac A), MacBeth (MacB), MacDonald (MacD). 'Mac' and 'Mac ' are treated as filed."
-    },
-    {
-        "id": "267",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which of the following should be filed SECOND?\n1. Garcia, Pedro Jr.\n2. Garcia, Pedro Sr.\n3. Garcia, Pedro III\n4. Garcia, Pedro",
-        "choices": [
-            "Garcia, Pedro",
-            "Garcia, Pedro Sr.",
-            "Garcia, Pedro III",
-            "Garcia, Pedro Jr."
-        ],
-        "correct_answer": "Garcia, Pedro III",
-        "explanation": "Filing order for same names: no suffix first, then III, then Jr., then Sr. (alphabetical by suffix). Garcia Pedro, then III, then Jr., then Sr."
-    },
-    {
-        "id": "268",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "In which order should these business names be filed?\n1. The Manila Hotel\n2. Manila Bay Trading\n3. Manila Electric Company\n4. A-1 Manila Supply",
-        "choices": [
-            "4-1-2-3",
-            "1-2-3-4",
-            "4-2-3-1",
-            "2-3-1-4"
-        ],
-        "correct_answer": "4-2-3-1",
-        "explanation": "A-1 comes first (numbers before letters). 'The' is disregarded, so Manila Bay, Manila Electric, Manila Hotel."
-    },
-    {
-        "id": "269",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Where should the file 'Commission on Elections' be placed?",
-        "choices": [
-            "Under 'T' for The",
-            "Under 'C' for Commission",
-            "Under 'O' for On",
-            "Under 'E' for Elections"
-        ],
-        "correct_answer": "Under 'E' for Elections",
-        "explanation": "Government agencies are filed by their distinctive name. 'Elections' is the distinctive word in 'Commission on Elections.'"
-    },
-    {
-        "id": "270",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Arrange alphabetically:\n1. St. Luke's Medical Center\n2. San Miguel Corporation\n3. SM Investments\n4. Santiago, Clara",
-        "choices": [
-            "4-2-1-3",
-            "1-2-3-4",
-            "2-4-3-1",
-            "2-4-1-3"
-        ],
-        "correct_answer": "2-4-1-3",
-        "explanation": "'St.' is filed as 'Saint'. Order: San Miguel, Santiago, Saint Luke's, SM Investments."
-    },
-    {
-        "id": "271",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which document reference number should be filed THIRD?\nA. REC-2024-005\nB. REC-2024-001\nC. REC-2024-010\nD. REC-2024-003",
-        "choices": [
-            "REC-2024-003",
-            "REC-2024-010",
-            "REC-2024-001",
-            "REC-2024-005"
-        ],
-        "correct_answer": "REC-2024-005",
-        "explanation": "Numerical order: 001, 003, 005, 010. REC-2024-005 is third."
-    },
-    {
-        "id": "272",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "In filing personal names, which rule is correct?",
-        "choices": [
-            "File by first name, then last name",
-            "File by nickname",
-            "File by last name, then first name, then middle name",
-            "File by middle name, then last name"
-        ],
-        "correct_answer": "File by last name, then first name, then middle name",
-        "explanation": "The standard filing rule for personal names is: Last Name, First Name, Middle Name (or Initial)."
-    },
-    {
-        "id": "273",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which of the following should be filed FIRST?\n1. 11th Infantry Division\n2. 2nd Marine Battalion\n3. 1st Scout Ranger Regiment\n4. 20th Signal Battalion",
-        "choices": [
-            "11th Infantry Division",
-            "2nd Marine Battalion",
-            "20th Signal Battalion",
-            "1st Scout Ranger Regiment"
-        ],
-        "correct_answer": "1st Scout Ranger Regiment",
-        "explanation": "Numbers are filed in numerical order: 1st, 2nd, 11th, 20th. The 1st Scout Ranger Regiment comes first."
-    },
-    {
-        "id": "274",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "When filing, which comes first: 'Mc' or 'Mac'?",
-        "choices": [
-            "'Mac' always comes first",
-            "They are filed separately in different sections",
-            "'Mc' always comes first",
-            "They are filed as if both spelled 'Mac'"
-        ],
-        "correct_answer": "They are filed as if both spelled 'Mac'",
-        "explanation": "In standard filing rules, 'Mc' and 'Mac' are treated as if both were spelled 'Mac' and filed accordingly."
-    },
-    {
-        "id": "275",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Arrange alphabetically:\n1. Quezon City Hall\n2. Quezon Memorial Circle\n3. Quezon, Aurora\n4. Quezon, Manuel",
-        "choices": [
-            "3-4-1-2",
-            "1-2-3-4",
-            "4-3-1-2",
-            "3-4-2-1"
-        ],
-        "correct_answer": "3-4-1-2",
-        "explanation": "People before places/organizations. Among people: Aurora before Manuel. Among places: City Hall before Memorial Circle."
-    },
-    {
-        "id": "276",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "In which order should these be filed?\n1. Bureau of Internal Revenue\n2. Bureau of Immigration\n3. Bureau of Fire Protection\n4. Bureau of Customs",
-        "choices": [
-            "4-3-2-1",
-            "4-2-3-1",
-            "3-4-2-1",
-            "1-2-3-4"
-        ],
-        "correct_answer": "4-3-2-1",
-        "explanation": "Filed by distinctive name: Customs, Fire Protection, Immigration, Internal Revenue."
-    },
-    {
-        "id": "277",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which of the following is the correct alphabetical order?\nA. Angeles, Pedro\nB. Angel, Jose\nC. Angara, Juan\nD. Ang, Maria",
-        "choices": [
-            "D-C-B-A",
-            "A-B-C-D",
-            "D-B-C-A",
-            "B-D-C-A"
-        ],
-        "correct_answer": "D-B-C-A",
-        "explanation": "Alphabetically: Ang, Angel, Angara, Angeles. So D, B, C, A."
-    },
-    {
-        "id": "278",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Where should 'Office of the Ombudsman' be filed?",
-        "choices": [
-            "Under 'O' for Ombudsman",
-            "Under 'B' for Budget",
-            "Under 'O' for Office",
-            "Under 'T' for The"
-        ],
-        "correct_answer": "Under 'O' for Ombudsman",
-        "explanation": "Government offices are filed under the distinctive name. 'Ombudsman' is the key filing word."
-    },
-    {
-        "id": "279",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "If two people have the same last and first name, what determines filing order?",
-        "choices": [
-            "Middle name or initial",
-            "Address",
-            "Employee ID number",
-            "Date of birth"
-        ],
-        "correct_answer": "Middle name or initial",
-        "explanation": "When last and first names are identical, the middle name or initial is used as the next filing determinant."
-    },
-    {
-        "id": "280",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Arrange in filing order:\n1. Dela Cruz, Maria Santos\n2. Dela Cruz, Maria Reyes\n3. Dela Cruz, Maria\n4. Dela Cruz, Maria Teresa",
-        "choices": [
-            "3-1-2-4",
-            "4-3-2-1",
-            "1-2-3-4",
-            "3-2-1-4"
-        ],
-        "correct_answer": "3-2-1-4",
-        "explanation": "Same last and first name. 'Nothing' comes before 'something': Maria (no middle) first, then by middle name: Reyes, Santos, Teresa."
-    },
-    {
-        "id": "281",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which name should be filed FIRST among the following?\n1. Van Der Beken, Arthur\n2. Vance, Charles\n3. Van, David\n4. Van Damme, Eric",
-        "choices": [
-            "Van Der Beken, Arthur",
-            "Van Damme, Eric",
-            "Vance, Charles",
-            "Van, David"
-        ],
-        "correct_answer": "Van, David",
-        "explanation": "In filing: 'Van' alone comes before 'Van Damme', 'Van Der Beken', and 'Vance' under 'nothing before something'."
-    },
-    {
-        "id": "282",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Where should '3M Philippines Corporation' be filed in an alphabetical index?",
-        "choices": [
-            "Under 'T' for Three",
-            "Under 'M' for M",
-            "At the beginning of the 'A' section or before 'A' in numbers section",
-            "Under 'P' for Philippines"
-        ],
-        "correct_answer": "At the beginning of the 'A' section or before 'A' in numbers section",
-        "explanation": "Numbers written as digits (3M) are filed in a numerical section preceding the letter 'A' or filed by the digit value."
-    },
-    {
-        "id": "283",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "How is a hyphenated compound surname such as 'Santos-Cruz, Maria' indexed for filing?",
-        "choices": [
-            "As two separate names",
-            "By the first name only (Maria)",
-            "By the second name only (Cruz, Maria)",
-            "As one single word (Santos-Cruz -> SantosCruz)"
-        ],
-        "correct_answer": "As one single word (Santos-Cruz -> SantosCruz)",
-        "explanation": "In standard ARMA indexing rules, hyphenated surnames are treated as a single unit without the hyphen."
-    },
-    {
-        "id": "284",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which of the following corporate names should be filed SECOND?\n1. St. Martin's Clinic\n2. Saint Benedict Academy\n3. San Juan Hospital\n4. Santa Rosa Printing",
-        "choices": [
-            "Saint Benedict Academy",
-            "San Juan Hospital",
-            "St. Martin's Clinic",
-            "Santa Rosa Printing"
-        ],
-        "correct_answer": "Saint Benedict Academy",
-        "explanation": "'St.' is spelled out as 'Saint'. Alphabetical order: Saint Benedict Academy, Saint Martin's Clinic, San Juan Hospital, Santa Rosa Printing. 'Saint Benedict' comes second after Saint Martin's? Wait: Saint Benedict comes FIRST, Saint Martin SECOND!"
-    },
-    {
-        "id": "285",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Arrange these subject folders in correct alphabetical filing order:\n1. Personnel – Applications\n2. Personnel – Attendance\n3. Personnel – Appraisals\n4. Personnel – Appointments",
-        "choices": [
-            "1-3-4-2",
-            "4-3-1-2",
-            "4-1-3-2",
-            "1-4-3-2"
-        ],
-        "correct_answer": "4-1-3-2",
-        "explanation": "Sub-folders under Personnel: Appointments, Applications, Appraisals, Attendance. Alphabetical by second word: Appo, Appli, Appra, Atte."
-    },
-    {
-        "id": "286",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Where should a file named 'Dr. Jose Rizal' be indexed for filing?",
-        "choices": [
-            "Rizal, Jose (Dr.)",
-            "Doctor, Jose Rizal",
-            "Rizal, Dr. Jose",
-            "Jose, Rizal Dr."
-        ],
-        "correct_answer": "Rizal, Jose (Dr.)",
-        "explanation": "Titles and degrees (Dr., Atty., Engr.) are placed in parentheses at the end of the indexed name unit."
-    },
-    {
-        "id": "287",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which of the following names comes LAST when filed alphabetically?\n1. Fernandez, Ana\n2. Fernando, Ana\n3. Fernandes, Ana\n4. Hernando, Ana",
-        "choices": [
-            "Fernando, Ana",
-            "Fernandez, Ana",
-            "Hernando, Ana",
-            "Fernandes, Ana"
-        ],
-        "correct_answer": "Hernando, Ana",
-        "explanation": "Alphabetical order: Fernandes, Fernandez, Fernando, Hernando. Hernando begins with 'H' and comes last."
-    },
-    {
-        "id": "288",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "In geographic filing, how are state/provincial files organized?",
-        "choices": [
-            "By city first, then province",
-            "By zip code only",
-            "Alphabetically by province/state, then by city within that province",
-            "By population size"
-        ],
-        "correct_answer": "Alphabetically by province/state, then by city within that province",
-        "explanation": "Geographic filing groups records primarily by state/province alphabetically, then subdivides by city alphabetically."
-    },
-    {
-        "id": "289",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Arrange in correct filing order:\n1. Department of Finance\n2. Department of Health\n3. Department of Education\n4. Department of Justice",
-        "choices": [
-            "3-1-4-2",
-            "1-3-2-4",
-            "3-1-2-4",
-            "1-2-3-4"
-        ],
-        "correct_answer": "3-1-2-4",
-        "explanation": "File by distinctive subject word: Education, Finance, Health, Justice."
-    },
-    {
-        "id": "290",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "What is a 'Cross-Reference' in record filing?",
-        "choices": [
-            "A confidential file label",
-            "A file scheduled for destruction",
-            "A notation directing the searcher to another location where the record might be filed",
-            "A duplicate copy of the original file"
-        ],
-        "correct_answer": "A notation directing the searcher to another location where the record might be filed",
-        "explanation": "Cross-referencing guides users to an alternative filing location (e.g., maiden name vs. married name)."
-    },
-    {
-        "id": "291",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which of the following should be filed FIRST?\n1. 7-Eleven Store\n2. 5th Avenue Pharmacy\n3. 1st Choice Supermarket\n4. 24-Hour Car Wash",
-        "choices": [
-            "24-Hour Car Wash",
-            "1st Choice Supermarket",
-            "7-Eleven Store",
-            "5th Avenue Pharmacy"
-        ],
-        "correct_answer": "1st Choice Supermarket",
-        "explanation": "Numbers written as digits are filed in strict numerical sequence: 1st, 5th, 7, 24."
-    },
-    {
-        "id": "292",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "How is the business name 'A & B Trading' indexed for filing?",
-        "choices": [
-            "A B Trading",
-            "A & B Trading",
-            "Trading A & B",
-            "A And B Trading"
-        ],
-        "correct_answer": "A And B Trading",
-        "explanation": "Symbols like '&' are spelled out as 'And' when indexing business names."
-    },
-    {
-        "id": "293",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Arrange the following in proper filing sequence:\n1. Villanueva, Juan A.\n2. Villanueva, Juan\n3. Villanueva, Juan Antonio\n4. Villanueva, J. A.",
-        "choices": [
-            "2-1-4-3",
-            "4-2-1-3",
-            "2-4-1-3",
-            "1-2-3-4"
-        ],
-        "correct_answer": "2-4-1-3",
-        "explanation": "'Nothing before something': Juan (no middle) first, then J. A. (initials), then Juan A., then Juan Antonio."
-    },
-    {
-        "id": "294",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "In alpha-numeric filing system, what comes first: 'File B-12' or 'File B-2'?",
-        "choices": [
-            "Depends on folder color",
-            "File B-12",
-            "File B-2",
-            "They are identical"
-        ],
-        "correct_answer": "File B-2",
-        "explanation": "Within category 'B', numerical order places 2 before 12."
-    },
-    {
-        "id": "295",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which name should be filed THIRD?\n1. O'Connor, Patrick\n2. Obama, Barack\n3. Ocampo, Juan\n4. O'Brian, Sean",
-        "choices": [
-            "Ocampo, Juan",
-            "Obama, Barack",
-            "O'Brian, Sean",
-            "O'Connor, Patrick"
-        ],
-        "correct_answer": "Ocampo, Juan",
-        "explanation": "Apostrophes are ignored. Index strings: Obama, Obrian, Ocampo, Oconnor. 3rd is Ocampo."
-    },
-    {
-        "id": "296",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Where should 'National Bureau of Investigation' be filed?",
-        "choices": [
-            "Under 'I' for Investigation",
-            "Under 'N' for National",
-            "Under 'D' for Department",
-            "Under 'B' for Bureau"
-        ],
-        "correct_answer": "Under 'I' for Investigation",
-        "explanation": "Government bureaus are filed by their distinctive core title: Investigation (National Bureau of)."
-    },
-    {
-        "id": "297",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Arrange in alphabetical filing order:\n1. De la Rosa, Carlos\n2. Del Rosario, Carlos\n3. De Los Reyes, Carlos\n4. Dela Torre, Carlos",
-        "choices": [
-            "1-3-2-4",
-            "1-2-3-4",
-            "2-4-1-3",
-            "3-1-2-4"
-        ],
-        "correct_answer": "1-3-2-4",
-        "explanation": "Letter-by-letter indexing: De la Rosa (D-e-l-a-R-o-s-a), De Los Reyes (D-e-l-o-s-R-e-y-e-s), Del Rosario (D-e-l-R-o-s-a-r-i-o), Dela Torre (D-e-l-a-T-o-r-r-e)."
-    },
-    {
-        "id": "298",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "In filing terminology, what is a 'Charge Out Sheet'?",
-        "choices": [
-            "A list of employees on leave",
-            "A record inserted in place of a removed folder showing who took it and when",
-            "A disposal record",
-            "A bill sent to customers"
-        ],
-        "correct_answer": "A record inserted in place of a removed folder showing who took it and when",
-        "explanation": "A charge-out sheet/card replaces a borrowed document file to track its borrower and loan date."
-    },
-    {
-        "id": "299",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which company name should be filed FIRST?\n1. Apex Hardware Corp.\n2. Apex Auto Supply\n3. Apex Books & Stationeries\n4. Apex Air Cargo",
-        "choices": [
-            "Apex Books & Stationeries",
-            "Apex Air Cargo",
-            "Apex Auto Supply",
-            "Apex Hardware Corp."
-        ],
-        "correct_answer": "Apex Air Cargo",
-        "explanation": "All start with 'Apex'. Second words: Air, Auto, Books, Hardware. Apex Air Cargo comes first."
-    },
-    {
-        "id": "300",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Where should 'University of the Philippines' be indexed?",
-        "choices": [
-            "Under 'P' for Philippines (Philippines, University of the)",
-            "Under 'T' for The",
-            "Under 'U' for University",
-            "Under 'E' for Education"
-        ],
-        "correct_answer": "Under 'P' for Philippines (Philippines, University of the)",
-        "explanation": "Educational institutions with geographic distinctive words are indexed by the distinctive place name: Philippines, University of the."
-    },
-    {
-        "id": "301",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Arrange in correct filing order:\n1. Mercado, Jose\n2. Mercado, Jose Maria\n3. Mercado, Jose M.\n4. Mercado, J.",
-        "choices": [
-            "1-2-3-4",
-            "4-3-1-2",
-            "4-1-3-2",
-            "1-4-3-2"
-        ],
-        "correct_answer": "4-1-3-2",
-        "explanation": "'Nothing before something': J. (initial only), then Jose (full first), then Jose M., then Jose Maria."
-    },
-    {
-        "id": "302",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which document date should be filed FIRST in a reverse-chronological folder?",
-        "choices": [
-            "January 15, 2024",
-            "December 1, 2023",
-            "June 20, 2024",
-            "March 10, 2024"
-        ],
-        "correct_answer": "June 20, 2024",
-        "explanation": "In reverse-chronological filing, the most recent date (June 20, 2024) is placed at the front (first)."
-    },
-    {
-        "id": "303",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "How should the name 'Sister Maria Teresa' be indexed for filing if 'Sister' is a religious title?",
-        "choices": [
-            "Maria Teresa, Sister",
-            "Sister, Maria Teresa",
-            "Teresa, Maria Sister",
-            "Sister Maria, Teresa"
-        ],
-        "correct_answer": "Maria Teresa, Sister",
-        "explanation": "Titles of honor/religion are treated as trailing units in parentheses: Maria Teresa (Sister)."
-    },
-    {
-        "id": "304",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which of the following names comes SECOND in alphabetical filing?\n1. Alvarez, Mateo\n2. Alvarado, Mateo\n3. Alcantara, Mateo\n4. Albarracin, Mateo",
-        "choices": [
-            "Alcantara, Mateo",
-            "Alvarez, Mateo",
-            "Albarracin, Mateo",
-            "Alvarado, Mateo"
-        ],
-        "correct_answer": "Alcantara, Mateo",
-        "explanation": "Order: Albarracin (1st), Alcantara (2nd), Alvarado (3rd), Alvarez (4th). Alcantara comes 2nd."
-    },
-    {
-        "id": "305",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Where should 'Social Security System' be filed?",
-        "choices": [
-            "Under 'S' for Social",
-            "Under 'S' for Security",
-            "Under 'G' for Government",
-            "Under 'S' for System"
-        ],
-        "correct_answer": "Under 'S' for Social",
-        "explanation": "Social Security System is indexed directly under 'Social Security System' or 'Security System, Social'."
-    },
-    {
-        "id": "306",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which file code comes LAST in terminal-digit filing: '12-34-56' or '12-34-57'?",
-        "choices": [
-            "Depends on primary digit",
-            "They are filed together",
-            "12-34-57",
-            "12-34-56"
-        ],
-        "correct_answer": "12-34-57",
-        "explanation": "In terminal digit filing, files are grouped by the last digits (56 vs 57). 57 follows 56."
-    },
-    {
-        "id": "307",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Arrange these four file titles alphabetically:\n1. Red Cross Philippines\n2. Republic of the Philippines\n3. Real Estate Board\n4. Records Management Office",
-        "choices": [
-            "3-4-1-2",
-            "1-2-3-4",
-            "4-3-1-2",
-            "3-1-4-2"
-        ],
-        "correct_answer": "3-4-1-2",
-        "explanation": "Order: Real Estate, Records Management, Red Cross, Republic of the Philippines."
-    },
-    {
-        "id": "308",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "What does 'Tickler File' mean in office records management?",
-        "choices": [
-            "A confidential salary folder",
-            "A file of humorous memos",
-            "A chronological follow-up file used as a daily reminder for upcoming pending tasks",
-            "A archive for permanently closed cases"
-        ],
-        "correct_answer": "A chronological follow-up file used as a daily reminder for upcoming pending tasks",
-        "explanation": "A tickler file is a memory-aid file organized by date to remind staff of upcoming deadlines."
-    },
-    {
-        "id": "309",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "Which name should be filed FIRST?\n1. San Jose, Carmen\n2. Santa Maria, Carmen\n3. Santiago, Carmen\n4. Santos, Carmen",
-        "choices": [
-            "Santa Maria, Carmen",
-            "San Jose, Carmen",
-            "Santos, Carmen",
-            "Santiago, Carmen"
-        ],
-        "correct_answer": "San Jose, Carmen",
-        "explanation": "Order: San Jose, Santa Maria, Santiago, Santos. 'San Jose' comes first."
-    },
-    {
-        "id": "310",
-        "category": "Clerical Ability – Filing & Alphabetizing",
-        "question": "In filing business names containing numbers written as words (e.g., 'Five Star Hotel'), how are they indexed?",
-        "choices": [
-            "As digits (5 Star Hotel)",
-            "In the numerical section",
-            "At the end of the alphabet",
-            "As spelled out alphabetically (Five Star Hotel)"
-        ],
-        "correct_answer": "As spelled out alphabetically (Five Star Hotel)",
-        "explanation": "When numbers in business names are written as words, they are indexed as spelled."
-    }
+  {
+    "id": "261",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which of the following names should be filed FIRST?",
+    "choices": [
+      "Delos Santos, Ana",
+      "De Guzman, Pedro",
+      "De Leon, Jose",
+      "De la Cruz, Maria"
+    ],
+    "correct_answer": "De Guzman, Pedro",
+    "explanation": "In alphabetical filing, compare letter by letter after 'De': G (Guzman) comes before L (la Cruz, Leon, los Santos)."
+  },
+  {
+    "id": "262",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Arrange the following names in correct alphabetical order:\n1. Santos, Maria\n2. Reyes, Juan\n3. Cruz, Ana\n4. Bautista, Pedro",
+    "choices": [
+      "3-4-2-1",
+      "4-3-2-1",
+      "3-2-4-1",
+      "4-3-1-2"
+    ],
+    "correct_answer": "4-3-2-1",
+    "explanation": "Alphabetically by surname: Bautista (4), Cruz (3), Reyes (2), Santos (1)."
+  },
+  {
+    "id": "263",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which name should be filed LAST among the following?",
+    "choices": [
+      "Ramos, Elena",
+      "Soriano, Mark",
+      "Torres, Luis",
+      "Villanueva, Rosa"
+    ],
+    "correct_answer": "Villanueva, Rosa",
+    "explanation": "Alphabetically: Ramos, Soriano, Torres, Villanueva. Villanueva comes last."
+  },
+  {
+    "id": "264",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "In filing, where would 'Department of Agriculture' be filed?",
+    "choices": [
+      "Under 'T' for The",
+      "Under 'A' for Agriculture",
+      "Under 'O' for Of",
+      "Under 'D' for Department"
+    ],
+    "correct_answer": "Under 'A' for Agriculture",
+    "explanation": "In government filing, agencies are filed under their distinctive name, not articles or prepositions. 'Agriculture' is the key word."
+  },
+  {
+    "id": "265",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which file number should come FIRST in numerical-chronological order?\n1. File 2024-0089\n2. File 2024-0012\n3. File 2024-0156\n4. File 2024-0045",
+    "choices": [
+      "File 1",
+      "File 4",
+      "File 3",
+      "File 2"
+    ],
+    "correct_answer": "File 2",
+    "explanation": "In numerical order: 0012, 0045, 0089, 0156. File 2024-0012 comes first."
+  },
+  {
+    "id": "266",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Arrange the following in correct filing order:\n1. Mac Arthur, James\n2. MacDonald, Mary\n3. MacBeth, William\n4. Mabini, Apolinario",
+    "choices": [
+      "1-2-3-4",
+      "4-2-3-1",
+      "4-1-3-2",
+      "4-3-1-2"
+    ],
+    "correct_answer": "4-1-3-2",
+    "explanation": "Filing order: Mabini, Mac Arthur (Mac A), MacBeth (MacB), MacDonald (MacD). 'Mac' and 'Mac ' are treated as filed."
+  },
+  {
+    "id": "267",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which of the following should be filed SECOND?\n1. Garcia, Pedro Jr.\n2. Garcia, Pedro Sr.\n3. Garcia, Pedro III\n4. Garcia, Pedro",
+    "choices": [
+      "Garcia, Pedro",
+      "Garcia, Pedro Sr.",
+      "Garcia, Pedro III",
+      "Garcia, Pedro Jr."
+    ],
+    "correct_answer": "Garcia, Pedro III",
+    "explanation": "Filing order for same names: no suffix first, then III, then Jr., then Sr. (alphabetical by suffix). Garcia Pedro, then III, then Jr., then Sr."
+  },
+  {
+    "id": "268",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "In which order should these business names be filed?\n1. The Manila Hotel\n2. Manila Bay Trading\n3. Manila Electric Company\n4. A-1 Manila Supply",
+    "choices": [
+      "4-1-2-3",
+      "1-2-3-4",
+      "4-2-3-1",
+      "2-3-1-4"
+    ],
+    "correct_answer": "4-2-3-1",
+    "explanation": "A-1 comes first (numbers before letters). 'The' is disregarded, so Manila Bay, Manila Electric, Manila Hotel."
+  },
+  {
+    "id": "269",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Where should the file 'Commission on Elections' be placed?",
+    "choices": [
+      "Under 'T' for The",
+      "Under 'C' for Commission",
+      "Under 'O' for On",
+      "Under 'E' for Elections"
+    ],
+    "correct_answer": "Under 'E' for Elections",
+    "explanation": "Government agencies are filed by their distinctive name. 'Elections' is the distinctive word in 'Commission on Elections.'"
+  },
+  {
+    "id": "270",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Arrange alphabetically:\n1. St. Luke's Medical Center\n2. San Miguel Corporation\n3. SM Investments\n4. Santiago, Clara",
+    "choices": [
+      "4-2-1-3",
+      "1-2-3-4",
+      "2-4-3-1",
+      "2-4-1-3"
+    ],
+    "correct_answer": "2-4-1-3",
+    "explanation": "'St.' is filed as 'Saint'. Order: San Miguel, Santiago, Saint Luke's, SM Investments."
+  },
+  {
+    "id": "271",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which document reference number should be filed THIRD?\nA. REC-2024-005\nB. REC-2024-001\nC. REC-2024-010\nD. REC-2024-003",
+    "choices": [
+      "REC-2024-003",
+      "REC-2024-010",
+      "REC-2024-001",
+      "REC-2024-005"
+    ],
+    "correct_answer": "REC-2024-005",
+    "explanation": "Numerical order: 001, 003, 005, 010. REC-2024-005 is third."
+  },
+  {
+    "id": "272",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "In filing personal names, which rule is correct?",
+    "choices": [
+      "File by first name, then last name, then middle name",
+      "File by nickname, then legal last name, then first name",
+      "File by last name, then first name, then middle name",
+      "File by middle name, then last name, then first name"
+    ],
+    "correct_answer": "File by last name, then first name, then middle name",
+    "explanation": "The standard filing rule for personal names is: Last Name, First Name, Middle Name (or Initial)."
+  },
+  {
+    "id": "273",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which of the following should be filed FIRST?\n1. 11th Infantry Division\n2. 2nd Marine Battalion\n3. 1st Scout Ranger Regiment\n4. 20th Signal Battalion",
+    "choices": [
+      "11th Infantry Division",
+      "2nd Marine Battalion",
+      "20th Signal Battalion",
+      "1st Scout Ranger Regiment"
+    ],
+    "correct_answer": "1st Scout Ranger Regiment",
+    "explanation": "Numbers are filed in numerical order: 1st, 2nd, 11th, 20th. The 1st Scout Ranger Regiment comes first."
+  },
+  {
+    "id": "274",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "When filing, which comes first: 'Mc' or 'Mac'?",
+    "choices": [
+      "'Mac' always comes first",
+      "They are filed separately in different sections",
+      "'Mc' always comes first",
+      "They are filed as if both spelled 'Mac'"
+    ],
+    "correct_answer": "They are filed as if both spelled 'Mac'",
+    "explanation": "In standard filing rules, 'Mc' and 'Mac' are treated as if both were spelled 'Mac' and filed accordingly."
+  },
+  {
+    "id": "275",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Arrange alphabetically:\n1. Quezon City Hall\n2. Quezon Memorial Circle\n3. Quezon, Aurora\n4. Quezon, Manuel",
+    "choices": [
+      "3-4-1-2",
+      "1-2-3-4",
+      "4-3-1-2",
+      "3-4-2-1"
+    ],
+    "correct_answer": "3-4-1-2",
+    "explanation": "People before places/organizations. Among people: Aurora before Manuel. Among places: City Hall before Memorial Circle."
+  },
+  {
+    "id": "276",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "In which order should these be filed?\n1. Bureau of Internal Revenue\n2. Bureau of Immigration\n3. Bureau of Fire Protection\n4. Bureau of Customs",
+    "choices": [
+      "4-3-2-1",
+      "4-2-3-1",
+      "3-4-2-1",
+      "1-2-3-4"
+    ],
+    "correct_answer": "4-3-2-1",
+    "explanation": "Filed by distinctive name: Customs, Fire Protection, Immigration, Internal Revenue."
+  },
+  {
+    "id": "277",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which of the following is the correct alphabetical order?\nA. Angeles, Pedro\nB. Angel, Jose\nC. Angara, Juan\nD. Ang, Maria",
+    "choices": [
+      "D-C-B-A",
+      "A-B-C-D",
+      "D-B-C-A",
+      "B-D-C-A"
+    ],
+    "correct_answer": "D-B-C-A",
+    "explanation": "Alphabetically: Ang, Angel, Angara, Angeles. So D, B, C, A."
+  },
+  {
+    "id": "278",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Where should 'Office of the Ombudsman' be filed?",
+    "choices": [
+      "Under 'O' for Ombudsman",
+      "Under 'B' for Budget",
+      "Under 'O' for Office",
+      "Under 'T' for The"
+    ],
+    "correct_answer": "Under 'O' for Ombudsman",
+    "explanation": "Government offices are filed under the distinctive name. 'Ombudsman' is the key filing word."
+  },
+  {
+    "id": "279",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "If two people have the same last and first name, what determines filing order?",
+    "choices": [
+      "Middle name or initial",
+      "Address",
+      "Employee ID number",
+      "Date of birth"
+    ],
+    "correct_answer": "Middle name or initial",
+    "explanation": "When last and first names are identical, the middle name or initial is used as the next filing determinant."
+  },
+  {
+    "id": "280",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Arrange in filing order:\n1. Dela Cruz, Maria Santos\n2. Dela Cruz, Maria Reyes\n3. Dela Cruz, Maria\n4. Dela Cruz, Maria Teresa",
+    "choices": [
+      "3-1-2-4",
+      "4-3-2-1",
+      "1-2-3-4",
+      "3-2-1-4"
+    ],
+    "correct_answer": "3-2-1-4",
+    "explanation": "Same last and first name. 'Nothing' comes before 'something': Maria (no middle) first, then by middle name: Reyes, Santos, Teresa."
+  },
+  {
+    "id": "281",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which name should be filed FIRST among the following?\n1. Van Der Beken, Arthur\n2. Vance, Charles\n3. Van, David\n4. Van Damme, Eric",
+    "choices": [
+      "Van Der Beken, Arthur",
+      "Van Damme, Eric",
+      "Vance, Charles",
+      "Van, David"
+    ],
+    "correct_answer": "Van, David",
+    "explanation": "In filing: 'Van' alone comes before 'Van Damme', 'Van Der Beken', and 'Vance' under 'nothing before something'."
+  },
+  {
+    "id": "282",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Where should '3M Philippines Corporation' be filed in an alphabetical index?",
+    "choices": [
+      "Under 3 (Three M Philippines)",
+      "Under M (M Philippines 3)",
+      "Under T (Three M Philippines Corporation)",
+      "Under P (Philippines 3M Corporation)"
+    ],
+    "correct_answer": "Under T (Three M Philippines Corporation)",
+    "explanation": "Numbers written as digits (3M) are filed in a numerical section preceding the letter 'A' or filed by the digit value."
+  },
+  {
+    "id": "283",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "How is a hyphenated compound surname such as 'Santos-Cruz, Maria' indexed for filing?",
+    "choices": [
+      "As two separate names",
+      "By the first name only (Maria)",
+      "By the second name only (Cruz, Maria)",
+      "As one single word (Santos-Cruz -> SantosCruz)"
+    ],
+    "correct_answer": "As one single word (Santos-Cruz -> SantosCruz)",
+    "explanation": "In standard ARMA indexing rules, hyphenated surnames are treated as a single unit without the hyphen."
+  },
+  {
+    "id": "284",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which of the following corporate names should be filed SECOND?\n1. St. Martin's Clinic\n2. Saint Benedict Academy\n3. San Juan Hospital\n4. Santa Rosa Printing",
+    "choices": [
+      "Saint Benedict Academy",
+      "San Juan Hospital",
+      "St. Martin's Clinic",
+      "Santa Rosa Printing"
+    ],
+    "correct_answer": "Saint Benedict Academy",
+    "explanation": "'St.' is spelled out as 'Saint'. Alphabetical order: Saint Benedict Academy, Saint Martin's Clinic, San Juan Hospital, Santa Rosa Printing. 'Saint Benedict' comes second after Saint Martin's? Wait: Saint Benedict comes FIRST, Saint Martin SECOND!"
+  },
+  {
+    "id": "285",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Arrange these subject folders in correct alphabetical filing order:\n1. Personnel – Applications\n2. Personnel – Attendance\n3. Personnel – Appraisals\n4. Personnel – Appointments",
+    "choices": [
+      "1-3-4-2",
+      "4-3-1-2",
+      "4-1-3-2",
+      "1-4-3-2"
+    ],
+    "correct_answer": "4-1-3-2",
+    "explanation": "Sub-folders under Personnel: Appointments, Applications, Appraisals, Attendance. Alphabetical by second word: Appo, Appli, Appra, Atte."
+  },
+  {
+    "id": "286",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Where should a file named 'Dr. Jose Rizal' be indexed for filing?",
+    "choices": [
+      "Rizal, Jose (Dr.)",
+      "Jose, Rizal (Dr.)",
+      "Rizal, Dr. (Jose)",
+      "Dr. Jose (Rizal)"
+    ],
+    "correct_answer": "Rizal, Jose (Dr.)",
+    "explanation": "Titles and degrees (Dr., Atty., Engr.) are placed in parentheses at the end of the indexed name unit."
+  },
+  {
+    "id": "287",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which of the following names comes LAST when filed alphabetically?\n1. Fernandez, Ana\n2. Fernando, Ana\n3. Fernandes, Ana\n4. Hernando, Ana",
+    "choices": [
+      "Fernando, Ana",
+      "Fernandez, Ana",
+      "Hernando, Ana",
+      "Fernandes, Ana"
+    ],
+    "correct_answer": "Hernando, Ana",
+    "explanation": "Alphabetical order: Fernandes, Fernandez, Fernando, Hernando. Hernando begins with 'H' and comes last."
+  },
+  {
+    "id": "288",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "In geographic filing, how are state/provincial files organized?",
+    "choices": [
+      "Chronologically by creation date of the file, then by province code",
+      "Alphabetically by state/province name, then by city/town within each state",
+      "Numerically by regional zipcode number, then by street address",
+      "Categorically by government agency type, then by department branch"
+    ],
+    "correct_answer": "Alphabetically by state/province name, then by city/town within each state",
+    "explanation": "Geographic filing groups records primarily by state/province alphabetically, then subdivides by city alphabetically."
+  },
+  {
+    "id": "289",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Arrange in correct filing order:\n1. Department of Finance\n2. Department of Health\n3. Department of Education\n4. Department of Justice",
+    "choices": [
+      "3-1-4-2",
+      "1-3-2-4",
+      "3-1-2-4",
+      "1-2-3-4"
+    ],
+    "correct_answer": "3-1-2-4",
+    "explanation": "File by distinctive subject word: Education, Finance, Health, Justice."
+  },
+  {
+    "id": "290",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "What is a 'Cross-Reference' in record filing?",
+    "choices": [
+      "A reference guide for purging and destroying expired historical records",
+      "A note guiding a user to find a file stored under a different name or location",
+      "A secondary backup file stored at an offsite digital repository",
+      "A master index listing all active employee personnel records"
+    ],
+    "correct_answer": "A note guiding a user to find a file stored under a different name or location",
+    "explanation": "Cross-referencing guides users to an alternative filing location (e.g., maiden name vs. married name)."
+  },
+  {
+    "id": "291",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which of the following should be filed FIRST?\n1. 7-Eleven Store\n2. 5th Avenue Pharmacy\n3. 1st Choice Supermarket\n4. 24-Hour Car Wash",
+    "choices": [
+      "24-Hour Car Wash",
+      "1st Choice Supermarket",
+      "7-Eleven Store",
+      "5th Avenue Pharmacy"
+    ],
+    "correct_answer": "1st Choice Supermarket",
+    "explanation": "Numbers written as digits are filed in strict numerical sequence: 1st, 5th, 7, 24."
+  },
+  {
+    "id": "292",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "How is the business name 'A & B Trading' indexed for filing?",
+    "choices": [
+      "A B Trading",
+      "A & B Trading",
+      "Trading A & B",
+      "A And B Trading"
+    ],
+    "correct_answer": "A And B Trading",
+    "explanation": "Symbols like '&' are spelled out as 'And' when indexing business names."
+  },
+  {
+    "id": "293",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Arrange the following in proper filing sequence:\n1. Villanueva, Juan A.\n2. Villanueva, Juan\n3. Villanueva, Juan Antonio\n4. Villanueva, J. A.",
+    "choices": [
+      "2-1-4-3",
+      "4-2-1-3",
+      "2-4-1-3",
+      "1-2-3-4"
+    ],
+    "correct_answer": "2-4-1-3",
+    "explanation": "'Nothing before something': Juan (no middle) first, then J. A. (initials), then Juan A., then Juan Antonio."
+  },
+  {
+    "id": "294",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "In alpha-numeric filing system, what comes first: 'File B-12' or 'File B-2'?",
+    "choices": [
+      "Depends on folder color",
+      "File B-12",
+      "File B-2",
+      "They are identical"
+    ],
+    "correct_answer": "File B-2",
+    "explanation": "Within category 'B', numerical order places 2 before 12."
+  },
+  {
+    "id": "295",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which name should be filed THIRD?\n1. O'Connor, Patrick\n2. Obama, Barack\n3. Ocampo, Juan\n4. O'Brian, Sean",
+    "choices": [
+      "Ocampo, Juan",
+      "Obama, Barack",
+      "O'Brian, Sean",
+      "O'Connor, Patrick"
+    ],
+    "correct_answer": "Ocampo, Juan",
+    "explanation": "Apostrophes are ignored. Index strings: Obama, Obrian, Ocampo, Oconnor. 3rd is Ocampo."
+  },
+  {
+    "id": "296",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Where should 'National Bureau of Investigation' be filed?",
+    "choices": [
+      "Under 'I' for Investigation",
+      "Under 'N' for National",
+      "Under 'D' for Department",
+      "Under 'B' for Bureau"
+    ],
+    "correct_answer": "Under 'I' for Investigation",
+    "explanation": "Government bureaus are filed by their distinctive core title: Investigation (National Bureau of)."
+  },
+  {
+    "id": "297",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Arrange in alphabetical filing order:\n1. De la Rosa, Carlos\n2. Del Rosario, Carlos\n3. De Los Reyes, Carlos\n4. Dela Torre, Carlos",
+    "choices": [
+      "1-3-2-4",
+      "1-2-3-4",
+      "2-4-1-3",
+      "3-1-2-4"
+    ],
+    "correct_answer": "1-3-2-4",
+    "explanation": "Letter-by-letter indexing: De la Rosa (D-e-l-a-R-o-s-a), De Los Reyes (D-e-l-o-s-R-e-y-e-s), Del Rosario (D-e-l-R-o-s-a-r-i-o), Dela Torre (D-e-l-a-T-o-r-r-e)."
+  },
+  {
+    "id": "298",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "In filing terminology, what is a 'Charge Out Sheet'?",
+    "choices": [
+      "A receipt issued to clients for administrative record search fees",
+      "A record placed in a file location showing who borrowed a file and when",
+      "A requisition form submitted to order new office storage supplies",
+      "A destruction log recording obsolete files discarded from archives"
+    ],
+    "correct_answer": "A record placed in a file location showing who borrowed a file and when",
+    "explanation": "A charge-out sheet/card replaces a borrowed document file to track its borrower and loan date."
+  },
+  {
+    "id": "299",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which company name should be filed FIRST?\n1. Apex Hardware Corp.\n2. Apex Auto Supply\n3. Apex Books & Stationeries\n4. Apex Air Cargo",
+    "choices": [
+      "Apex Books & Stationeries",
+      "Apex Air Cargo",
+      "Apex Auto Supply",
+      "Apex Hardware Corp."
+    ],
+    "correct_answer": "Apex Air Cargo",
+    "explanation": "All start with 'Apex'. Second words: Air, Auto, Books, Hardware. Apex Air Cargo comes first."
+  },
+  {
+    "id": "300",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Where should 'University of the Philippines' be indexed?",
+    "choices": [
+      "Under U for University (University of the Philippines)",
+      "Under O for Of (Of the Philippines, University)",
+      "Under P for Philippines (Philippines, University of the)",
+      "Under T for The (The Philippines, University of)"
+    ],
+    "correct_answer": "Under P for Philippines (Philippines, University of the)",
+    "explanation": "Educational institutions with geographic distinctive words are indexed by the distinctive place name: Philippines, University of the."
+  },
+  {
+    "id": "301",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Arrange in correct filing order:\n1. Mercado, Jose\n2. Mercado, Jose Maria\n3. Mercado, Jose M.\n4. Mercado, J.",
+    "choices": [
+      "1-2-3-4",
+      "4-3-1-2",
+      "4-1-3-2",
+      "1-4-3-2"
+    ],
+    "correct_answer": "4-1-3-2",
+    "explanation": "'Nothing before something': J. (initial only), then Jose (full first), then Jose M., then Jose Maria."
+  },
+  {
+    "id": "302",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which document date should be filed FIRST in a reverse-chronological folder?",
+    "choices": [
+      "January 15, 2024",
+      "December 1, 2023",
+      "June 20, 2024",
+      "March 10, 2024"
+    ],
+    "correct_answer": "June 20, 2024",
+    "explanation": "In reverse-chronological filing, the most recent date (June 20, 2024) is placed at the front (first)."
+  },
+  {
+    "id": "303",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "How should the name 'Sister Maria Teresa' be indexed for filing if 'Sister' is a religious title?",
+    "choices": [
+      "Maria Teresa, Sister",
+      "Sister, Maria Teresa",
+      "Teresa, Maria Sister",
+      "Sister Maria, Teresa"
+    ],
+    "correct_answer": "Maria Teresa, Sister",
+    "explanation": "Titles of honor/religion are treated as trailing units in parentheses: Maria Teresa (Sister)."
+  },
+  {
+    "id": "304",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which of the following names comes SECOND in alphabetical filing?\n1. Alvarez, Mateo\n2. Alvarado, Mateo\n3. Alcantara, Mateo\n4. Albarracin, Mateo",
+    "choices": [
+      "Alcantara, Mateo",
+      "Alvarez, Mateo",
+      "Albarracin, Mateo",
+      "Alvarado, Mateo"
+    ],
+    "correct_answer": "Alcantara, Mateo",
+    "explanation": "Order: Albarracin (1st), Alcantara (2nd), Alvarado (3rd), Alvarez (4th). Alcantara comes 2nd."
+  },
+  {
+    "id": "305",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Where should 'Social Security System' be filed?",
+    "choices": [
+      "Under 'S' for Social",
+      "Under 'S' for Security",
+      "Under 'G' for Government",
+      "Under 'S' for System"
+    ],
+    "correct_answer": "Under 'S' for Social",
+    "explanation": "Social Security System is indexed directly under 'Social Security System' or 'Security System, Social'."
+  },
+  {
+    "id": "306",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which file code comes LAST in terminal-digit filing: '12-34-56' or '12-34-57'?",
+    "choices": [
+      "Depends on primary digit",
+      "They are filed together",
+      "12-34-57",
+      "12-34-56"
+    ],
+    "correct_answer": "12-34-57",
+    "explanation": "In terminal digit filing, files are grouped by the last digits (56 vs 57). 57 follows 56."
+  },
+  {
+    "id": "307",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Arrange these four file titles alphabetically:\n1. Red Cross Philippines\n2. Republic of the Philippines\n3. Real Estate Board\n4. Records Management Office",
+    "choices": [
+      "3-4-1-2",
+      "1-2-3-4",
+      "4-3-1-2",
+      "3-1-4-2"
+    ],
+    "correct_answer": "3-4-1-2",
+    "explanation": "Order: Real Estate, Records Management, Red Cross, Republic of the Philippines."
+  },
+  {
+    "id": "308",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "What does 'Tickler File' mean in office records management?",
+    "choices": [
+      "A confidential file folder used for storing employee grievance reports",
+      "A chronological memory aid file used to remind staff of upcoming dates or tasks",
+      "A digital backup system used to archive inactive financial audits",
+      "A secure storage box intended for locking up restricted office keys"
+    ],
+    "correct_answer": "A chronological memory aid file used to remind staff of upcoming dates or tasks",
+    "explanation": "A tickler file is a memory-aid file organized by date to remind staff of upcoming deadlines."
+  },
+  {
+    "id": "309",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "Which name should be filed FIRST?\n1. San Jose, Carmen\n2. Santa Maria, Carmen\n3. Santiago, Carmen\n4. Santos, Carmen",
+    "choices": [
+      "Santa Maria, Carmen",
+      "San Jose, Carmen",
+      "Santos, Carmen",
+      "Santiago, Carmen"
+    ],
+    "correct_answer": "San Jose, Carmen",
+    "explanation": "Order: San Jose, Santa Maria, Santiago, Santos. 'San Jose' comes first."
+  },
+  {
+    "id": "310",
+    "category": "Clerical Ability – Filing & Alphabetizing",
+    "question": "In filing business names containing numbers written as words (e.g., 'Five Star Hotel'), how are they indexed?",
+    "choices": [
+      "In digits format (5 Star Hotel)",
+      "In numerical filing section (1 to 100)",
+      "In special symbols section (# Star Hotel)",
+      "As spelled out alphabetically (Five Star Hotel)"
+    ],
+    "correct_answer": "As spelled out alphabetically (Five Star Hotel)",
+    "explanation": "When numbers in business names are written as words, they are indexed as spelled."
+  }
 ]

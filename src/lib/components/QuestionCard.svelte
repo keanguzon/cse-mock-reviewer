@@ -77,7 +77,7 @@
     {/each}
   </div>
 
-  {#if selectedAnswer !== null && onClear}
+  {#if selectedAnswer !== null && (!isPractice || !hasAnswered) && onClear}
     <div class="clear-selection-container">
       <button type="button" class="btn-clear-selection" onclick={onClear}>
         <RotateCcw size={13} /> Clear Selection

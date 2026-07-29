@@ -1,652 +1,652 @@
 [
-    {
-        "id": "221",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under the 1987 Philippine Constitution, sovereignty resides in the:",
-        "choices": [
-            "President",
-            "Supreme Court",
-            "People",
-            "Congress"
-        ],
-        "correct_answer": "People",
-        "explanation": "Article II, Section 1 states: 'Sovereignty resides in the people and all government authority emanates from them.'"
-    },
-    {
-        "id": "222",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "How many articles does the 1987 Philippine Constitution have?",
-        "choices": [
-            "14",
-            "16",
-            "20",
-            "18"
-        ],
-        "correct_answer": "18",
-        "explanation": "The 1987 Philippine Constitution has 18 articles covering various aspects of governance, rights, and state policies."
-    },
-    {
-        "id": "223",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Who is the Commander-in-Chief of all armed forces of the Philippines?",
-        "choices": [
-            "The Vice President",
-            "The President",
-            "Secretary of National Defense",
-            "Chief of Staff of AFP"
-        ],
-        "correct_answer": "The President",
-        "explanation": "Article VII, Section 18 designates the President as the Commander-in-Chief of all armed forces."
-    },
-    {
-        "id": "224",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What is the term of office of the President of the Philippines?",
-        "choices": [
-            "4 years",
-            "5 years",
-            "6 years",
-            "8 years"
-        ],
-        "correct_answer": "6 years",
-        "explanation": "Article VII, Section 4 states the President shall serve a term of six years without reelection."
-    },
-    {
-        "id": "225",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Which article of the 1987 Constitution covers the Bill of Rights?",
-        "choices": [
-            "Article III",
-            "Article IV",
-            "Article II",
-            "Article I"
-        ],
-        "correct_answer": "Article III",
-        "explanation": "Article III of the 1987 Constitution is the Bill of Rights, protecting fundamental freedoms and liberties."
-    },
-    {
-        "id": "226",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under RA 6713, public officials must act with commitment to which of the following?",
-        "choices": [
-            "Patriotism, justice, and sincerity",
-            "Popularity and influence",
-            "Profit and efficiency",
-            "Power and authority"
-        ],
-        "correct_answer": "Patriotism, justice, and sincerity",
-        "explanation": "RA 6713 requires public officials and employees to act with patriotism, justice, sincerity, and other ethical standards."
-    },
-    {
-        "id": "227",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under RA 6713, within how many days must a public official submit their Statement of Assets, Liabilities, and Net Worth (SALN)?",
-        "choices": [
-            "Within 30 days after assumption of office",
-            "Within 60 days after assumption of office",
-            "Within 15 days after assumption of office",
-            "Within 90 days after assumption of office"
-        ],
-        "correct_answer": "Within 30 days after assumption of office",
-        "explanation": "Section 8 of RA 6713 requires filing of SALN within 30 days after assumption of office and every year thereafter."
-    },
-    {
-        "id": "228",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "The Philippines is a:",
-        "choices": [
-            "Constitutional monarchy",
-            "Democratic and republican state",
-            "Federal state",
-            "Parliamentary state"
-        ],
-        "correct_answer": "Democratic and republican state",
-        "explanation": "Article II, Section 1 declares: 'The Philippines is a democratic and republican State.'"
-    },
-    {
-        "id": "229",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Which Constitutional Commission is tasked with the protection of human rights?",
-        "choices": [
-            "Commission on Elections",
-            "Commission on Audit",
-            "Civil Service Commission",
-            "Commission on Human Rights"
-        ],
-        "correct_answer": "Commission on Human Rights",
-        "explanation": "The Commission on Human Rights (CHR), established under Article XIII, Section 17, investigates human rights violations."
-    },
-    {
-        "id": "230",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "How many senators compose the Philippine Senate?",
-        "choices": [
-            "30",
-            "20",
-            "12",
-            "24"
-        ],
-        "correct_answer": "24",
-        "explanation": "Article VI, Section 2 provides that the Senate shall be composed of 24 senators elected at large."
-    },
-    {
-        "id": "231",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What is the minimum age requirement to run for President of the Philippines?",
-        "choices": [
-            "35 years old",
-            "30 years old",
-            "25 years old",
-            "40 years old"
-        ],
-        "correct_answer": "40 years old",
-        "explanation": "Article VII, Section 2 requires a candidate for President to be at least 40 years of age on the day of the election."
-    },
-    {
-        "id": "232",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What principle in the Constitution states that the Philippines renounces war as an instrument of national policy?",
-        "choices": [
-            "Sovereignty of the People",
-            "Civilian Supremacy",
-            "Renunciation of War",
-            "Separation of Church and State"
-        ],
-        "correct_answer": "Renunciation of War",
-        "explanation": "Article II, Section 2 states: 'The Philippines renounces war as an instrument of national policy.'"
-    },
-    {
-        "id": "233",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under RA 6713, gifts given to public officials in connection with official transactions are:",
-        "choices": [
-            "Allowed if properly declared",
-            "Allowed if given by relatives",
-            "Allowed if under PHP 5,000",
-            "Prohibited"
-        ],
-        "correct_answer": "Prohibited",
-        "explanation": "Section 7(d) of RA 6713 prohibits the solicitation or acceptance of gifts in connection with official duties."
-    },
-    {
-        "id": "234",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What is the concept of 'ecological balance' enshrined in the Philippine Constitution?",
-        "choices": [
-            "The right to exploit marine resources",
-            "The duty to industrialize rural areas",
-            "The duty to protect the environment for present and future generations",
-            "The right to own natural resources"
-        ],
-        "correct_answer": "The duty to protect the environment for present and future generations",
-        "explanation": "Article II, Section 16 states the State shall protect the right of the people to a balanced and healthful ecology."
-    },
-    {
-        "id": "235",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Which of the three branches of government has the power of the purse?",
-        "choices": [
-            "Legislative",
-            "Executive",
-            "Judiciary",
-            "None of the above"
-        ],
-        "correct_answer": "Legislative",
-        "explanation": "The Legislative branch (Congress) holds the power of the purse — the authority to appropriate public funds."
-    },
-    {
-        "id": "236",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "The concept of 'separation of church and state' is found in which section of the Constitution?",
-        "choices": [
-            "Article II, Section 1",
-            "Article VI, Section 1",
-            "Article III, Section 1",
-            "Article II, Section 6"
-        ],
-        "correct_answer": "Article II, Section 6",
-        "explanation": "Article II, Section 6 declares: 'The separation of Church and State shall be inviolable.'"
-    },
-    {
-        "id": "237",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under RA 6713, what is the primary obligation of a public servant?",
-        "choices": [
-            "To follow orders from superiors without question",
-            "To uphold public interest over personal interest",
-            "To serve the political party in power",
-            "To maximize personal income"
-        ],
-        "correct_answer": "To uphold public interest over personal interest",
-        "explanation": "RA 6713 establishes that public officials must uphold public interest over personal interest at all times."
-    },
-    {
-        "id": "238",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What is the writ of habeas corpus?",
-        "choices": [
-            "A court order to seize evidence",
-            "A court order to prevent publication",
-            "A court order to bring a detained person before the court",
-            "A warrant for arrest"
-        ],
-        "correct_answer": "A court order to bring a detained person before the court",
-        "explanation": "The writ of habeas corpus orders the person detaining another to bring the detainee before the court to determine the legality of detention."
-    },
-    {
-        "id": "239",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What does Article XIII of the 1987 Constitution primarily deal with?",
-        "choices": [
-            "General Provisions",
-            "National Economy and Patrimony",
-            "Education, Science, and Culture",
-            "Social Justice and Human Rights"
-        ],
-        "correct_answer": "Social Justice and Human Rights",
-        "explanation": "Article XIII covers Social Justice and Human Rights, including provisions on labor, agrarian reform, and urban reform."
-    },
-    {
-        "id": "240",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under the principle of civilian supremacy, which statement is correct?",
-        "choices": [
-            "The armed forces operate independently.",
-            "Civilian authority is at all times supreme over the military.",
-            "The military controls the civilian government.",
-            "The President must have military background."
-        ],
-        "correct_answer": "Civilian authority is at all times supreme over the military.",
-        "explanation": "Article II, Section 3 establishes: 'Civilian authority is, at all times, supreme over the military.'"
-    },
-    {
-        "id": "241",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Which Constitutional Commission is designated as the central personnel agency of the Philippine government?",
-        "choices": [
-            "Civil Service Commission",
-            "Commission on Human Rights",
-            "Commission on Elections",
-            "Commission on Audit"
-        ],
-        "correct_answer": "Civil Service Commission",
-        "explanation": "Article IX-B, Section 1(1) designates the Civil Service Commission as the central personnel agency of the government."
-    },
-    {
-        "id": "242",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What is the compulsory retirement age for members of the Supreme Court and judges of lower courts?",
-        "choices": [
-            "65 years old",
-            "75 years old",
-            "60 years old",
-            "70 years old"
-        ],
-        "correct_answer": "70 years old",
-        "explanation": "Article VIII, Section 11 specifies that Supreme Court Justices and lower court judges hold office during good behavior until they reach seventy years of age."
-    },
-    {
-        "id": "243",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Which article of the 1987 Philippine Constitution outlines the Executive Department?",
-        "choices": [
-            "Article VIII",
-            "Article V",
-            "Article VI",
-            "Article VII"
-        ],
-        "correct_answer": "Article VII",
-        "explanation": "Article VII governs the Executive Department, detailing the powers, duties, and qualifications of the President and Vice President."
-    },
-    {
-        "id": "244",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under RA 6713, within how many days must a public official divest ownership in any private business enterprise that presents a conflict of interest upon assumption of office?",
-        "choices": [
-            "90 days",
-            "30 days",
-            "60 days",
-            "15 days"
-        ],
-        "correct_answer": "60 days",
-        "explanation": "Section 9 of RA 6713 mandates divestment within sixty (60) days from assumption of office when a conflict of interest arises."
-    },
-    {
-        "id": "245",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "According to Article IV of the Constitution, which of the following describes a natural-born citizen of the Philippines?",
-        "choices": [
-            "Those who are citizens of the Philippines from birth without having to perform any act to acquire or perfect citizenship",
-            "Those naturalized in accordance with law",
-            "Those who acquired citizenship by marriage",
-            "Those whose parents are foreign nationals born in the Philippines"
-        ],
-        "correct_answer": "Those who are citizens of the Philippines from birth without having to perform any act to acquire or perfect citizenship",
-        "explanation": "Article IV, Section 2 defines natural-born citizens as those who are citizens from birth without having to perform any act to acquire or perfect citizenship."
-    },
-    {
-        "id": "246",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What body has the exclusive power to initiate all cases of impeachment?",
-        "choices": [
-            "The Supreme Court",
-            "The Senate",
-            "The House of Representatives",
-            "The Ombudsman"
-        ],
-        "correct_answer": "The House of Representatives",
-        "explanation": "Article XI, Section 3(1) states that the House of Representatives shall have the exclusive power to initiate all cases of impeachment."
-    },
-    {
-        "id": "247",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What body has the sole power to try and decide all cases of impeachment?",
-        "choices": [
-            "The Senate",
-            "The Supreme Court",
-            "The House of Representatives",
-            "The Sandiganbayan"
-        ],
-        "correct_answer": "The Senate",
-        "explanation": "Article XI, Section 3(6) specifies that the Senate shall have the sole power to try and decide all cases of impeachment."
-    },
-    {
-        "id": "248",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under Article III, Section 1, no person shall be deprived of life, liberty, or property without:",
-        "choices": [
-            "Judicial consent",
-            "Executive approval",
-            "Prior notice to Congress",
-            "Due process of law"
-        ],
-        "correct_answer": "Due process of law",
-        "explanation": "Article III, Section 1 states: 'No person shall be deprived of life, liberty, or property without due process of law, nor shall any person be denied the equal protection of the laws.'"
-    },
-    {
-        "id": "249",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under RA 6713, within how many working days from receipt must public officials respond to letters, telegrams, or other communications sent by the public?",
-        "choices": [
-            "5 working days",
-            "15 working days",
-            "7 working days",
-            "30 working days"
-        ],
-        "correct_answer": "15 working days",
-        "explanation": "Section 5(a) of RA 6713 requires public officers to respond to letters and communications within fifteen (15) working days from receipt."
-    },
-    {
-        "id": "250",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Which Constitutional Commission is tasked with examining, auditing, and settling all accounts pertaining to government funds and properties?",
-        "choices": [
-            "Civil Service Commission",
-            "Commission on Audit",
-            "Governance Commission for GOCCs",
-            "Commission on Elections"
-        ],
-        "correct_answer": "Commission on Audit",
-        "explanation": "Article IX-D, Section 2(1) grants the Commission on Audit (COA) the power to audit all government accounts."
-    },
-    {
-        "id": "251",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What is the maximum period for which the President may suspend the privilege of the writ of habeas corpus or declare martial law without congressional extension?",
-        "choices": [
-            "90 days",
-            "60 days",
-            "180 days",
-            "30 days"
-        ],
-        "correct_answer": "60 days",
-        "explanation": "Article VII, Section 18 limits the initial period of martial law or suspension of the writ to not more than sixty days."
-    },
-    {
-        "id": "252",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What is the vote requirement in Congress, voting jointly, to revoke a presidential declaration of martial law?",
-        "choices": [
-            "Two-thirds majority of all its Members",
-            "Three-fourths majority of all its Members",
-            "Simple majority of all its Members",
-            "Unanimous vote"
-        ],
-        "correct_answer": "Simple majority of all its Members",
-        "explanation": "Article VII, Section 18 states Congress, voting jointly by a vote of at least a majority of all its Members, may revoke such proclamation."
-    },
-    {
-        "id": "253",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under Article XI, who is designated as the overall protector of the people against government abuses and corruption?",
-        "choices": [
-            "The Chief Justice",
-            "The Ombudsman",
-            "The Secretary of Justice",
-            "The Chairman of CHR"
-        ],
-        "correct_answer": "The Ombudsman",
-        "explanation": "Article XI, Section 12 establishes the Ombudsman and his Deputies as 'protectors of the people.'"
-    },
-    {
-        "id": "254",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What Special Anti-Graft Court has jurisdiction over criminal and civil cases involving graft and corrupt practices committed by public officers?",
-        "choices": [
-            "Court of Appeals",
-            "Sandiganbayan",
-            "Court of Tax Appeals",
-            "Regional Trial Court"
-        ],
-        "correct_answer": "Sandiganbayan",
-        "explanation": "Article XI, Section 4 mandates that the anti-graft court known as the Sandiganbayan shall continue to function and exercise jurisdiction."
-    },
-    {
-        "id": "255",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Which of the following is NOT an impeachable official under the 1987 Constitution?",
-        "choices": [
-            "Senators",
-            "The Vice President",
-            "The President",
-            "Members of the Supreme Court"
-        ],
-        "correct_answer": "Senators",
-        "explanation": "Article XI, Section 2 lists impeachable officials: President, Vice President, Members of Supreme Court, Members of Constitutional Commissions, and Ombudsman. Senators are disciplined by their respective house."
-    },
-    {
-        "id": "256",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under Article XII, Section 2, all lands of the public domain, waters, minerals, and other natural resources are owned by the State under which doctrine?",
-        "choices": [
-            "Regalian Doctrine",
-            "Police Power Doctrine",
-            "Doctrine of Eminent Domain",
-            "Doctrine of Parens Patriae"
-        ],
-        "correct_answer": "Regalian Doctrine",
-        "explanation": "The Regalian Doctrine asserts that all public domain lands and natural resources belong to the State."
-    },
-    {
-        "id": "257",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What is the term of office for members of the Constitutional Commissions (CSC, COMELEC, COA)?",
-        "choices": [
-            "7 years without reappointment",
-            "3 years without reappointment",
-            "6 years with reappointment",
-            "5 years with reappointment"
-        ],
-        "correct_answer": "7 years without reappointment",
-        "explanation": "Articles IX-B, IX-C, and IX-D establish a staggered 7-year term without reappointment for Commission Chairmen and Members."
-    },
-    {
-        "id": "258",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under Article VI, Section 26, how many readings in separate days must a bill undergo in each House before becoming a law?",
-        "choices": [
-            "Four readings",
-            "One reading",
-            "Two readings",
-            "Three readings"
-        ],
-        "correct_answer": "Three readings",
-        "explanation": "Article VI, Section 26(2) requires that no bill passed by either House shall become a law unless it has passed three readings on separate days."
-    },
-    {
-        "id": "259",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under RA 6713, which norm of conduct requires public officials to extend prompt, courteous, and adequate service to the public?",
-        "choices": [
-            "Political Neutrality",
-            "Professionalism",
-            "Justness and Sincerity",
-            "Responsiveness to the Public"
-        ],
-        "correct_answer": "Responsiveness to the Public",
-        "explanation": "Section 4(e) defines Responsiveness to the Public as extending prompt, courteous, and adequate service."
-    },
-    {
-        "id": "260",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What is the power of the State to take private property for public use upon payment of just compensation?",
-        "choices": [
-            "Police Power",
-            "Taxation Power",
-            "Eminent Domain",
-            "Plenary Power"
-        ],
-        "correct_answer": "Eminent Domain",
-        "explanation": "Article III, Section 9 states: 'Private property shall not be taken for public use without just compensation,' which defines Eminent Domain."
-    },
-    {
-        "id": "261",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Which article of the 1987 Constitution is dedicated to Local Government?",
-        "choices": [
-            "Article IX",
-            "Article XII",
-            "Article XI",
-            "Article X"
-        ],
-        "correct_answer": "Article X",
-        "explanation": "Article X covers Local Government, guaranteeing local autonomy to territorial and political subdivisions."
-    },
-    {
-        "id": "262",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What is the minimum voting age for Filipino citizens according to Article V (Suffrage)?",
-        "choices": [
-            "25 years old",
-            "16 years old",
-            "21 years old",
-            "18 years old"
-        ],
-        "correct_answer": "18 years old",
-        "explanation": "Article V, Section 1 grants suffrage to citizens of the Philippines not otherwise disqualified by law, who are at least eighteen years of age."
-    },
-    {
-        "id": "263",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under RA 6713, what is prohibited regarding post-employment for former public officials within one year after separation from service?",
-        "choices": [
-            "Enrolling in higher education",
-            "Practicing any profession",
-            "Traveling abroad",
-            "Practicing before the office they used to head or serve"
-        ],
-        "correct_answer": "Practicing before the office they used to head or serve",
-        "explanation": "Section 7(b) prohibits former public officials from practicing before their former office within one year after separation."
-    },
-    {
-        "id": "264",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What is the required vote of all the members of Congress to propose amendments to the Constitution through a Constituent Assembly?",
-        "choices": [
-            "Simple majority of both Houses",
-            "Two-thirds of all its Members",
-            "Unanimous vote",
-            "Three-fourths of all its Members"
-        ],
-        "correct_answer": "Three-fourths of all its Members",
-        "explanation": "Article XVII, Section 1(1) requires a vote of three-fourths of all Members of Congress to propose amendments."
-    },
-    {
-        "id": "265",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under the 1987 Constitution, how long must a candidate for Senator be a resident of the Philippines prior to the election day?",
-        "choices": [
-            "At least 2 years",
-            "At least 1 year",
-            "At least 5 years",
-            "At least 6 months"
-        ],
-        "correct_answer": "At least 2 years",
-        "explanation": "Article VI, Section 3 requires a Senator to be a resident of the Philippines for not less than two years immediately preceding the day of the election."
-    },
-    {
-        "id": "266",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Which body recommends appointees to the Judiciary for selection by the President?",
-        "choices": [
-            "Commission on Appointments",
-            "Civil Service Commission",
-            "Judicial and Bar Council (JBC)",
-            "Supreme Court En Banc"
-        ],
-        "correct_answer": "Judicial and Bar Council (JBC)",
-        "explanation": "Article VIII, Section 8 establishes the Judicial and Bar Council under the supervision of the Supreme Court to recommend judicial appointees."
-    },
-    {
-        "id": "267",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under RA 6713, what penalty may be imposed for violations of ethical standards?",
-        "choices": [
-            "Warning only",
-            "Impeachments",
-            "Fine not exceeding 6 months salary or suspension not exceeding 1 year or removal",
-            "Automatic life imprisonment"
-        ],
-        "correct_answer": "Fine not exceeding 6 months salary or suspension not exceeding 1 year or removal",
-        "explanation": "Section 11 outlines administrative and criminal penalties including fines up to 6 months salary, suspension up to 1 year, or removal."
-    },
-    {
-        "id": "268",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What concept guarantees that local government units receive a just share in national taxes (NTA/IRA)?",
-        "choices": [
-            "Revenue Sharing Charter",
-            "Automatic Release of Local Share",
-            "Devolution Bond",
-            "Local Fiscal Autonomy"
-        ],
-        "correct_answer": "Automatic Release of Local Share",
-        "explanation": "Article X, Section 6 states local government units shall have a just share in national taxes which shall be automatically released to them."
-    },
-    {
-        "id": "269",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under Article II, Section 12, the State recognizes the sanctity of family life and shall protect the life of the mother and the life of the unborn from:",
-        "choices": [
-            "Conception",
-            "Birth",
-            "First trimester",
-            "Viability"
-        ],
-        "correct_answer": "Conception",
-        "explanation": "Article II, Section 12 mandates the protection of 'the life of the mother and the life of the unborn from conception.'"
-    },
-    {
-        "id": "270",
-        "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What is the maximum term limit for Members of the House of Representatives?",
-        "choices": [
-            "Unrestricted terms",
-            "3 consecutive terms of 3 years",
-            "2 consecutive terms of 3 years",
-            "2 consecutive terms of 6 years"
-        ],
-        "correct_answer": "3 consecutive terms of 3 years",
-        "explanation": "Article VI, Section 7 states no Member of the House of Representatives shall serve for more than three consecutive terms."
-    }
+  {
+    "id": "221",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under the 1987 Philippine Constitution, sovereignty resides in the:",
+    "choices": [
+      "President",
+      "Supreme Court",
+      "People",
+      "Congress"
+    ],
+    "correct_answer": "People",
+    "explanation": "Article II, Section 1 states: 'Sovereignty resides in the people and all government authority emanates from them.'"
+  },
+  {
+    "id": "222",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "How many articles does the 1987 Philippine Constitution have?",
+    "choices": [
+      "14",
+      "16",
+      "20",
+      "18"
+    ],
+    "correct_answer": "18",
+    "explanation": "The 1987 Philippine Constitution has 18 articles covering various aspects of governance, rights, and state policies."
+  },
+  {
+    "id": "223",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Who is the Commander-in-Chief of all armed forces of the Philippines?",
+    "choices": [
+      "The Vice President",
+      "The President",
+      "Secretary of National Defense",
+      "Chief of Staff of AFP"
+    ],
+    "correct_answer": "The President",
+    "explanation": "Article VII, Section 18 designates the President as the Commander-in-Chief of all armed forces."
+  },
+  {
+    "id": "224",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What is the term of office of the President of the Philippines?",
+    "choices": [
+      "4 years",
+      "5 years",
+      "6 years",
+      "8 years"
+    ],
+    "correct_answer": "6 years",
+    "explanation": "Article VII, Section 4 states the President shall serve a term of six years without reelection."
+  },
+  {
+    "id": "225",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Which article of the 1987 Constitution covers the Bill of Rights?",
+    "choices": [
+      "Article III",
+      "Article IV",
+      "Article II",
+      "Article I"
+    ],
+    "correct_answer": "Article III",
+    "explanation": "Article III of the 1987 Constitution is the Bill of Rights, protecting fundamental freedoms and liberties."
+  },
+  {
+    "id": "226",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under RA 6713, public officials must act with commitment to which of the following?",
+    "choices": [
+      "Patriotism, justice, and sincerity",
+      "Popularity and influence",
+      "Profit and efficiency",
+      "Power and authority"
+    ],
+    "correct_answer": "Patriotism, justice, and sincerity",
+    "explanation": "RA 6713 requires public officials and employees to act with patriotism, justice, sincerity, and other ethical standards."
+  },
+  {
+    "id": "227",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under RA 6713, within how many days must a public official submit their Statement of Assets, Liabilities, and Net Worth (SALN)?",
+    "choices": [
+      "Within 30 days after assumption of office",
+      "Within 60 days after assumption of office",
+      "Within 15 days after assumption of office",
+      "Within 90 days after assumption of office"
+    ],
+    "correct_answer": "Within 30 days after assumption of office",
+    "explanation": "Section 8 of RA 6713 requires filing of SALN within 30 days after assumption of office and every year thereafter."
+  },
+  {
+    "id": "228",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "The Philippines is a:",
+    "choices": [
+      "Constitutional monarchy",
+      "Democratic and republican state",
+      "Federal state",
+      "Parliamentary state"
+    ],
+    "correct_answer": "Democratic and republican state",
+    "explanation": "Article II, Section 1 declares: 'The Philippines is a democratic and republican State.'"
+  },
+  {
+    "id": "229",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Which Constitutional Commission is tasked with the protection of human rights?",
+    "choices": [
+      "Commission on Elections",
+      "Commission on Audit",
+      "Civil Service Commission",
+      "Commission on Human Rights"
+    ],
+    "correct_answer": "Commission on Human Rights",
+    "explanation": "The Commission on Human Rights (CHR), established under Article XIII, Section 17, investigates human rights violations."
+  },
+  {
+    "id": "230",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "How many senators compose the Philippine Senate?",
+    "choices": [
+      "30",
+      "20",
+      "12",
+      "24"
+    ],
+    "correct_answer": "24",
+    "explanation": "Article VI, Section 2 provides that the Senate shall be composed of 24 senators elected at large."
+  },
+  {
+    "id": "231",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What is the minimum age requirement to run for President of the Philippines?",
+    "choices": [
+      "35 years old",
+      "30 years old",
+      "25 years old",
+      "40 years old"
+    ],
+    "correct_answer": "40 years old",
+    "explanation": "Article VII, Section 2 requires a candidate for President to be at least 40 years of age on the day of the election."
+  },
+  {
+    "id": "232",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What principle in the Constitution states that the Philippines renounces war as an instrument of national policy?",
+    "choices": [
+      "Sovereignty of the People",
+      "Civilian Supremacy",
+      "Renunciation of War",
+      "Separation of Church and State"
+    ],
+    "correct_answer": "Renunciation of War",
+    "explanation": "Article II, Section 2 states: 'The Philippines renounces war as an instrument of national policy.'"
+  },
+  {
+    "id": "233",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under RA 6713, gifts given to public officials in connection with official transactions are:",
+    "choices": [
+      "Allowed if properly declared",
+      "Allowed if given by relatives",
+      "Allowed if under PHP 5,000",
+      "Prohibited"
+    ],
+    "correct_answer": "Prohibited",
+    "explanation": "Section 7(d) of RA 6713 prohibits the solicitation or acceptance of gifts in connection with official duties."
+  },
+  {
+    "id": "234",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What is the concept of 'ecological balance' enshrined in the Philippine Constitution?",
+    "choices": [
+      "The state right to exploit and harvest marine coastal resources",
+      "The civic duty to industrialize and urbanize rural agricultural lands",
+      "The duty to protect the environment for present and future generations",
+      "The constitutional right to own and commercialize natural forest lands"
+    ],
+    "correct_answer": "The duty to protect the environment for present and future generations",
+    "explanation": "Article II, Section 16 states the State shall protect the right of the people to a balanced and healthful ecology."
+  },
+  {
+    "id": "235",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Which of the three branches of government has the power of the purse?",
+    "choices": [
+      "Legislative",
+      "Executive",
+      "Judiciary",
+      "None of the above"
+    ],
+    "correct_answer": "Legislative",
+    "explanation": "The Legislative branch (Congress) holds the power of the purse — the authority to appropriate public funds."
+  },
+  {
+    "id": "236",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "The concept of 'separation of church and state' is found in which section of the Constitution?",
+    "choices": [
+      "Article II, Section 1",
+      "Article VI, Section 1",
+      "Article III, Section 1",
+      "Article II, Section 6"
+    ],
+    "correct_answer": "Article II, Section 6",
+    "explanation": "Article II, Section 6 declares: 'The separation of Church and State shall be inviolable.'"
+  },
+  {
+    "id": "237",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under RA 6713, what is the primary obligation of a public servant?",
+    "choices": [
+      "To follow orders from superiors without question",
+      "To uphold public interest over personal interest",
+      "To serve the political party in power",
+      "To maximize personal income"
+    ],
+    "correct_answer": "To uphold public interest over personal interest",
+    "explanation": "RA 6713 establishes that public officials must uphold public interest over personal interest at all times."
+  },
+  {
+    "id": "238",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What is the writ of habeas corpus?",
+    "choices": [
+      "A court order to search private property and seize physical evidence",
+      "A court order to restrain media companies from publishing news",
+      "A court order to bring a detained person before the court",
+      "A warrant issued by police officers for immediate criminal arrest"
+    ],
+    "correct_answer": "A court order to bring a detained person before the court",
+    "explanation": "The writ of habeas corpus orders the person detaining another to bring the detainee before the court to determine the legality of detention."
+  },
+  {
+    "id": "239",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What does Article XIII of the 1987 Constitution primarily deal with?",
+    "choices": [
+      "General Provisions",
+      "National Economy and Patrimony",
+      "Education, Science, and Culture",
+      "Social Justice and Human Rights"
+    ],
+    "correct_answer": "Social Justice and Human Rights",
+    "explanation": "Article XIII covers Social Justice and Human Rights, including provisions on labor, agrarian reform, and urban reform."
+  },
+  {
+    "id": "240",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under the principle of civilian supremacy, which statement is correct?",
+    "choices": [
+      "The armed forces operate independently.",
+      "Civilian authority is at all times supreme over the military.",
+      "The military controls the civilian government.",
+      "The President must have military background."
+    ],
+    "correct_answer": "Civilian authority is at all times supreme over the military.",
+    "explanation": "Article II, Section 3 establishes: 'Civilian authority is, at all times, supreme over the military.'"
+  },
+  {
+    "id": "241",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Which Constitutional Commission is designated as the central personnel agency of the Philippine government?",
+    "choices": [
+      "Civil Service Commission",
+      "Commission on Human Rights",
+      "Commission on Elections",
+      "Commission on Audit"
+    ],
+    "correct_answer": "Civil Service Commission",
+    "explanation": "Article IX-B, Section 1(1) designates the Civil Service Commission as the central personnel agency of the government."
+  },
+  {
+    "id": "242",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What is the compulsory retirement age for members of the Supreme Court and judges of lower courts?",
+    "choices": [
+      "65 years old",
+      "75 years old",
+      "60 years old",
+      "70 years old"
+    ],
+    "correct_answer": "70 years old",
+    "explanation": "Article VIII, Section 11 specifies that Supreme Court Justices and lower court judges hold office during good behavior until they reach seventy years of age."
+  },
+  {
+    "id": "243",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Which article of the 1987 Philippine Constitution outlines the Executive Department?",
+    "choices": [
+      "Article VIII",
+      "Article V",
+      "Article VI",
+      "Article VII"
+    ],
+    "correct_answer": "Article VII",
+    "explanation": "Article VII governs the Executive Department, detailing the powers, duties, and qualifications of the President and Vice President."
+  },
+  {
+    "id": "244",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under RA 6713, within how many days must a public official divest ownership in any private business enterprise that presents a conflict of interest upon assumption of office?",
+    "choices": [
+      "90 days",
+      "30 days",
+      "60 days",
+      "15 days"
+    ],
+    "correct_answer": "60 days",
+    "explanation": "Section 9 of RA 6713 mandates divestment within sixty (60) days from assumption of office when a conflict of interest arises."
+  },
+  {
+    "id": "245",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "According to Article IV of the Constitution, which of the following describes a natural-born citizen of the Philippines?",
+    "choices": [
+      "Naturalized foreign citizens who successfully complete minimum ten-year residency requirements",
+      "Citizens of the Philippines from birth without having to perform any act to acquire or perfect their Philippine citizenship",
+      "Foreign national spouses who marry a natural-born Philippine citizen in civil rites",
+      "Permanent resident aliens who hold dual nationality certificates issued by the embassy"
+    ],
+    "correct_answer": "Citizens of the Philippines from birth without having to perform any act to acquire or perfect their Philippine citizenship",
+    "explanation": "Article IV, Section 2 defines natural-born citizens as those who are citizens from birth without having to perform any act to acquire or perfect citizenship."
+  },
+  {
+    "id": "246",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What body has the exclusive power to initiate all cases of impeachment?",
+    "choices": [
+      "The Supreme Court",
+      "The Senate",
+      "The House of Representatives",
+      "The Ombudsman"
+    ],
+    "correct_answer": "The House of Representatives",
+    "explanation": "Article XI, Section 3(1) states that the House of Representatives shall have the exclusive power to initiate all cases of impeachment."
+  },
+  {
+    "id": "247",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What body has the sole power to try and decide all cases of impeachment?",
+    "choices": [
+      "The Senate",
+      "The Supreme Court",
+      "The House of Representatives",
+      "The Sandiganbayan"
+    ],
+    "correct_answer": "The Senate",
+    "explanation": "Article XI, Section 3(6) specifies that the Senate shall have the sole power to try and decide all cases of impeachment."
+  },
+  {
+    "id": "248",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under Article III, Section 1, no person shall be deprived of life, liberty, or property without:",
+    "choices": [
+      "Judicial consent",
+      "Executive approval",
+      "Prior notice to Congress",
+      "Due process of law"
+    ],
+    "correct_answer": "Due process of law",
+    "explanation": "Article III, Section 1 states: 'No person shall be deprived of life, liberty, or property without due process of law, nor shall any person be denied the equal protection of the laws.'"
+  },
+  {
+    "id": "249",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under RA 6713, within how many working days from receipt must public officials respond to letters, telegrams, or other communications sent by the public?",
+    "choices": [
+      "5 working days",
+      "15 working days",
+      "7 working days",
+      "30 working days"
+    ],
+    "correct_answer": "15 working days",
+    "explanation": "Section 5(a) of RA 6713 requires public officers to respond to letters and communications within fifteen (15) working days from receipt."
+  },
+  {
+    "id": "250",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Which Constitutional Commission is tasked with examining, auditing, and settling all accounts pertaining to government funds and properties?",
+    "choices": [
+      "Civil Service Commission",
+      "Commission on Audit",
+      "Governance Commission for GOCCs",
+      "Commission on Elections"
+    ],
+    "correct_answer": "Commission on Audit",
+    "explanation": "Article IX-D, Section 2(1) grants the Commission on Audit (COA) the power to audit all government accounts."
+  },
+  {
+    "id": "251",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What is the maximum period for which the President may suspend the privilege of the writ of habeas corpus or declare martial law without congressional extension?",
+    "choices": [
+      "90 days",
+      "60 days",
+      "180 days",
+      "30 days"
+    ],
+    "correct_answer": "60 days",
+    "explanation": "Article VII, Section 18 limits the initial period of martial law or suspension of the writ to not more than sixty days."
+  },
+  {
+    "id": "252",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What is the vote requirement in Congress, voting jointly, to revoke a presidential declaration of martial law?",
+    "choices": [
+      "Two-thirds majority of all its Members",
+      "Three-fourths majority of all its Members",
+      "Simple majority of all its Members",
+      "Unanimous vote"
+    ],
+    "correct_answer": "Simple majority of all its Members",
+    "explanation": "Article VII, Section 18 states Congress, voting jointly by a vote of at least a majority of all its Members, may revoke such proclamation."
+  },
+  {
+    "id": "253",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under Article XI, who is designated as the overall protector of the people against government abuses and corruption?",
+    "choices": [
+      "The Chief Justice",
+      "The Ombudsman",
+      "The Secretary of Justice",
+      "The Chairman of CHR"
+    ],
+    "correct_answer": "The Ombudsman",
+    "explanation": "Article XI, Section 12 establishes the Ombudsman and his Deputies as 'protectors of the people.'"
+  },
+  {
+    "id": "254",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What Special Anti-Graft Court has jurisdiction over criminal and civil cases involving graft and corrupt practices committed by public officers?",
+    "choices": [
+      "Court of Appeals",
+      "Sandiganbayan",
+      "Court of Tax Appeals",
+      "Regional Trial Court"
+    ],
+    "correct_answer": "Sandiganbayan",
+    "explanation": "Article XI, Section 4 mandates that the anti-graft court known as the Sandiganbayan shall continue to function and exercise jurisdiction."
+  },
+  {
+    "id": "255",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Which of the following is NOT an impeachable official under the 1987 Constitution?",
+    "choices": [
+      "Senators",
+      "The Vice President",
+      "The President",
+      "Members of the Supreme Court"
+    ],
+    "correct_answer": "Senators",
+    "explanation": "Article XI, Section 2 lists impeachable officials: President, Vice President, Members of Supreme Court, Members of Constitutional Commissions, and Ombudsman. Senators are disciplined by their respective house."
+  },
+  {
+    "id": "256",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under Article XII, Section 2, all lands of the public domain, waters, minerals, and other natural resources are owned by the State under which doctrine?",
+    "choices": [
+      "Regalian Doctrine",
+      "Police Power Doctrine",
+      "Doctrine of Eminent Domain",
+      "Doctrine of Parens Patriae"
+    ],
+    "correct_answer": "Regalian Doctrine",
+    "explanation": "The Regalian Doctrine asserts that all public domain lands and natural resources belong to the State."
+  },
+  {
+    "id": "257",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What is the term of office for members of the Constitutional Commissions (CSC, COMELEC, COA)?",
+    "choices": [
+      "7 years without reappointment",
+      "3 years without reappointment",
+      "6 years with reappointment",
+      "5 years with reappointment"
+    ],
+    "correct_answer": "7 years without reappointment",
+    "explanation": "Articles IX-B, IX-C, and IX-D establish a staggered 7-year term without reappointment for Commission Chairmen and Members."
+  },
+  {
+    "id": "258",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under Article VI, Section 26, how many readings in separate days must a bill undergo in each House before becoming a law?",
+    "choices": [
+      "Four readings",
+      "One reading",
+      "Two readings",
+      "Three readings"
+    ],
+    "correct_answer": "Three readings",
+    "explanation": "Article VI, Section 26(2) requires that no bill passed by either House shall become a law unless it has passed three readings on separate days."
+  },
+  {
+    "id": "259",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under RA 6713, which norm of conduct requires public officials to extend prompt, courteous, and adequate service to the public?",
+    "choices": [
+      "Political Neutrality",
+      "Professionalism",
+      "Justness and Sincerity",
+      "Responsiveness to the Public"
+    ],
+    "correct_answer": "Responsiveness to the Public",
+    "explanation": "Section 4(e) defines Responsiveness to the Public as extending prompt, courteous, and adequate service."
+  },
+  {
+    "id": "260",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What is the power of the State to take private property for public use upon payment of just compensation?",
+    "choices": [
+      "Police Power",
+      "Taxation Power",
+      "Eminent Domain",
+      "Plenary Power"
+    ],
+    "correct_answer": "Eminent Domain",
+    "explanation": "Article III, Section 9 states: 'Private property shall not be taken for public use without just compensation,' which defines Eminent Domain."
+  },
+  {
+    "id": "261",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Which article of the 1987 Constitution is dedicated to Local Government?",
+    "choices": [
+      "Article IX",
+      "Article XII",
+      "Article XI",
+      "Article X"
+    ],
+    "correct_answer": "Article X",
+    "explanation": "Article X covers Local Government, guaranteeing local autonomy to territorial and political subdivisions."
+  },
+  {
+    "id": "262",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What is the minimum voting age for Filipino citizens according to Article V (Suffrage)?",
+    "choices": [
+      "25 years old",
+      "16 years old",
+      "21 years old",
+      "18 years old"
+    ],
+    "correct_answer": "18 years old",
+    "explanation": "Article V, Section 1 grants suffrage to citizens of the Philippines not otherwise disqualified by law, who are at least eighteen years of age."
+  },
+  {
+    "id": "263",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under RA 6713, what is prohibited regarding post-employment for former public officials within one year after separation from service?",
+    "choices": [
+      "Filing an official leave of absence with supervisor approval",
+      "Soliciting or accepting gifts connected to official duties",
+      "Participating in authorized community public service projects",
+      "Joining an accredited professional civil service organization"
+    ],
+    "correct_answer": "Soliciting or accepting gifts connected to official duties",
+    "explanation": "Section 7(b) prohibits former public officials from practicing before their former office within one year after separation."
+  },
+  {
+    "id": "264",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What is the required vote of all the members of Congress to propose amendments to the Constitution through a Constituent Assembly?",
+    "choices": [
+      "Simple majority of both Houses",
+      "Two-thirds of all its Members",
+      "Unanimous vote",
+      "Three-fourths of all its Members"
+    ],
+    "correct_answer": "Three-fourths of all its Members",
+    "explanation": "Article XVII, Section 1(1) requires a vote of three-fourths of all Members of Congress to propose amendments."
+  },
+  {
+    "id": "265",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under the 1987 Constitution, how long must a candidate for Senator be a resident of the Philippines prior to the election day?",
+    "choices": [
+      "At least 2 years",
+      "At least 1 year",
+      "At least 5 years",
+      "At least 6 months"
+    ],
+    "correct_answer": "At least 2 years",
+    "explanation": "Article VI, Section 3 requires a Senator to be a resident of the Philippines for not less than two years immediately preceding the day of the election."
+  },
+  {
+    "id": "266",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Which body recommends appointees to the Judiciary for selection by the President?",
+    "choices": [
+      "Civil Service Commission (CSC)",
+      "Judicial and Bar Council (JBC)",
+      "Supreme Court En Banc (SCEB)",
+      "Commission on Appointments (CA)"
+    ],
+    "correct_answer": "Judicial and Bar Council (JBC)",
+    "explanation": "Article VIII, Section 8 establishes the Judicial and Bar Council under the supervision of the Supreme Court to recommend judicial appointees."
+  },
+  {
+    "id": "267",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under RA 6713, what penalty may be imposed for violations of ethical standards?",
+    "choices": [
+      "Official reprimand and written warning entered into personnel record",
+      "Mandatory impeachment proceedings initiated by the House of Representatives",
+      "Fine not exceeding 6 months salary or suspension not exceeding 1 year or removal",
+      "Automatic life imprisonment and immediate forfeiture of all personal properties"
+    ],
+    "correct_answer": "Fine not exceeding 6 months salary or suspension not exceeding 1 year or removal",
+    "explanation": "Section 11 outlines administrative and criminal penalties including fines up to 6 months salary, suspension up to 1 year, or removal."
+  },
+  {
+    "id": "268",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What concept guarantees that local government units receive a just share in national taxes (NTA/IRA)?",
+    "choices": [
+      "Revenue Sharing Charter",
+      "Automatic Release of Local Share",
+      "Devolution Bond",
+      "Local Fiscal Autonomy"
+    ],
+    "correct_answer": "Automatic Release of Local Share",
+    "explanation": "Article X, Section 6 states local government units shall have a just share in national taxes which shall be automatically released to them."
+  },
+  {
+    "id": "269",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "Under Article II, Section 12, the State recognizes the sanctity of family life and shall protect the life of the mother and the life of the unborn from:",
+    "choices": [
+      "Conception",
+      "Birth",
+      "First trimester",
+      "Viability"
+    ],
+    "correct_answer": "Conception",
+    "explanation": "Article II, Section 12 mandates the protection of 'the life of the mother and the life of the unborn from conception.'"
+  },
+  {
+    "id": "270",
+    "category": "General Information – Philippine Constitution & RA 6713",
+    "question": "What is the maximum term limit for Members of the House of Representatives?",
+    "choices": [
+      "Unrestricted terms",
+      "3 consecutive terms of 3 years",
+      "2 consecutive terms of 3 years",
+      "2 consecutive terms of 6 years"
+    ],
+    "correct_answer": "3 consecutive terms of 3 years",
+    "explanation": "Article VI, Section 7 states no Member of the House of Representatives shall serve for more than three consecutive terms."
+  }
 ]
