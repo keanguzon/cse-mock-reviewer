@@ -485,6 +485,8 @@
     margin-top: 2rem;
     padding-top: 1.5rem;
     border-top: 1px solid var(--cse-border);
+    flex-wrap: wrap;
+    gap: 1rem;
   }
 
   .session-buttons {
@@ -637,6 +639,9 @@
     font-size: 0.95rem;
     color: var(--cse-text-muted);
     font-weight: 600;
+    text-align: center;
+    flex: 1 1 auto;
+    min-width: 180px;
   }
 
   /* Modal Styles */
