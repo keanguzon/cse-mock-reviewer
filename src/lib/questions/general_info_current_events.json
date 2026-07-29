@@ -1,52 +1,652 @@
 [
-    {"id":"241","category":"General Information – Current Events & Basic Facts","question":"What is the capital city of the Philippines?","choices":["Quezon City","Cebu City","Manila","Davao City"],"correct_answer":"Manila","explanation":"Manila is the capital of the Philippines, while Quezon City is the most populous city in Metro Manila."},
-    {"id":"242","category":"General Information – Current Events & Basic Facts","question":"Who is known as the 'Father of the Philippine Constitution'?","choices":["Jose Rizal","Apolinario Mabini","Andres Bonifacio","Felipe Calderon"],"correct_answer":"Felipe Calderon","explanation":"Felipe Calderon is recognized as the Father of the Malolos Constitution (1899), the first Philippine Constitution."},
-    {"id":"243","category":"General Information – Current Events & Basic Facts","question":"How many regions does the Philippines currently have?","choices":["15","16","17","18"],"correct_answer":"17","explanation":"The Philippines has 17 administrative regions, including the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)."},
-    {"id":"244","category":"General Information – Current Events & Basic Facts","question":"What is the national flower of the Philippines?","choices":["Orchid","Rose","Sampaguita","Sunflower"],"correct_answer":"Sampaguita","explanation":"The Sampaguita (Jasminum sambac) was declared the national flower of the Philippines in 1934."},
-    {"id":"245","category":"General Information – Current Events & Basic Facts","question":"Which Philippine law is known as the 'Ease of Doing Business Act'?","choices":["RA 6713","RA 11032","RA 9485","RA 7160"],"correct_answer":"RA 11032","explanation":"RA 11032 (Ease of Doing Business and Efficient Government Service Delivery Act of 2018) streamlines government transactions."},
-    {"id":"246","category":"General Information – Current Events & Basic Facts","question":"What is the Philippine national hero's full name?","choices":["Jose Protasio Rizal Mercado y Alonso Realonda","Andres Bonifacio y de Castro","Emilio Aguinaldo y Famy","Manuel L. Quezon"],"correct_answer":"Jose Protasio Rizal Mercado y Alonso Realonda","explanation":"Jose Rizal is the Philippines' national hero, known for his novels Noli Me Tangere and El Filibusterismo."},
-    {"id":"247","category":"General Information – Current Events & Basic Facts","question":"Which government agency administers the Civil Service Examination?","choices":["Professional Regulation Commission","Department of Education","Civil Service Commission","Commission on Higher Education"],"correct_answer":"Civil Service Commission","explanation":"The Civil Service Commission (CSC) is mandated to administer the Career Service Examination for government positions."},
-    {"id":"248","category":"General Information – Current Events & Basic Facts","question":"What is the highest peak in the Philippines?","choices":["Mt. Pulag","Mt. Apo","Mt. Pinatubo","Mt. Mayon"],"correct_answer":"Mt. Apo","explanation":"Mt. Apo in Davao del Sur is the highest peak in the Philippines at 2,954 meters (9,692 feet)."},
-    {"id":"249","category":"General Information – Current Events & Basic Facts","question":"What is Republic Act No. 9003 about?","choices":["Anti-Violence Against Women","Ecological Solid Waste Management","Anti-Money Laundering","Indigenous Peoples' Rights"],"correct_answer":"Ecological Solid Waste Management","explanation":"RA 9003 is the Ecological Solid Waste Management Act of 2000, mandating proper waste management across the country."},
-    {"id":"250","category":"General Information – Current Events & Basic Facts","question":"Which body approves the national budget in the Philippines?","choices":["The President","The Supreme Court","Congress","The Cabinet"],"correct_answer":"Congress","explanation":"The national budget is prepared by the Executive branch but must be approved by Congress (Senate and House of Representatives)."},
-    {"id":"251","category":"General Information – Current Events & Basic Facts","question":"What does BARMM stand for?","choices":["Bureau of Autonomous Region of Muslim Mindanao","Bangsamoro Autonomous Region in Muslim Mindanao","Bangsamoro Area of Regional Muslim Municipality","Bureau of Administrative Reforms in Muslim Mindanao"],"correct_answer":"Bangsamoro Autonomous Region in Muslim Mindanao","explanation":"BARMM replaced the Autonomous Region in Muslim Mindanao (ARMM) through RA 11054 (Bangsamoro Organic Law)."},
-    {"id":"252","category":"General Information – Current Events & Basic Facts","question":"What is the Philippine National Police (PNP) under?","choices":["Department of National Defense","Department of the Interior and Local Government","Office of the President","Department of Justice"],"correct_answer":"Department of the Interior and Local Government","explanation":"The PNP is under the Department of the Interior and Local Government (DILG) for administrative supervision."},
-    {"id":"253","category":"General Information – Current Events & Basic Facts","question":"How many years does a Philippine senator serve in office?","choices":["3 years","4 years","6 years","8 years"],"correct_answer":"6 years","explanation":"Senators serve a term of 6 years and may be reelected for a maximum of two consecutive terms."},
-    {"id":"254","category":"General Information – Current Events & Basic Facts","question":"What is the longest river in the Philippines?","choices":["Pasig River","Cagayan River","Pampanga River","Agusan River"],"correct_answer":"Cagayan River","explanation":"The Cagayan River (Rio Grande de Cagayan) in northern Luzon is the longest river in the Philippines at about 505 kilometers."},
-    {"id":"255","category":"General Information – Current Events & Basic Facts","question":"What treaty ceded the Philippines from Spain to the United States in 1898?","choices":["Treaty of Manila","Treaty of Paris","Treaty of Versailles","Treaty of Tordesillas"],"correct_answer":"Treaty of Paris","explanation":"The Treaty of Paris (1898) ended the Spanish-American War and ceded the Philippines to the United States for $20 million."},
-    {"id":"256","category":"General Information – Current Events & Basic Facts","question":"Which Philippine law promotes environmental awareness and ecological balance?","choices":["RA 9275","RA 8749","RA 9003","All of the above"],"correct_answer":"All of the above","explanation":"RA 9275 (Clean Water Act), RA 8749 (Clean Air Act), and RA 9003 (Solid Waste Management Act) all promote ecological balance."},
-    {"id":"257","category":"General Information – Current Events & Basic Facts","question":"What is the role of the Commission on Audit (COA)?","choices":["To conduct elections","To adjudicate legal disputes","To examine and audit government revenue and expenditures","To appoint government employees"],"correct_answer":"To examine and audit government revenue and expenditures","explanation":"COA is the supreme audit institution mandated to examine, audit, and settle all accounts of the government."},
-    {"id":"258","category":"General Information – Current Events & Basic Facts","question":"Who was the first female President of the Philippines?","choices":["Gloria Macapagal Arroyo","Corazon Aquino","Miriam Defensor Santiago","Imelda Marcos"],"correct_answer":"Corazon Aquino","explanation":"Corazon C. Aquino became the first female President of the Philippines in 1986 after the EDSA People Power Revolution."},
-    {"id":"259","category":"General Information – Current Events & Basic Facts","question":"When is Philippine Independence Day celebrated?","choices":["June 12","July 4","March 22","August 26"],"correct_answer":"June 12","explanation":"Philippine Independence Day is celebrated on June 12, commemorating the declaration of independence from Spain in 1898."},
-    {"id":"260","category":"General Information – Current Events & Basic Facts","question":"What is the Bangko Sentral ng Pilipinas (BSP) primarily responsible for?","choices":["Tax collection","Regulating banks and maintaining monetary stability","National budgeting","International trade agreements"],"correct_answer":"Regulating banks and maintaining monetary stability","explanation":"The BSP is the central bank of the Philippines, responsible for monetary policy, bank supervision, and maintaining price stability."},
-    {"id":"261","category":"General Information – Current Events & Basic Facts","question":"What Philippine law mandates mandatory SIM card registration for all mobile subscribers?","choices":["RA 10844","RA 11934","RA 10173","RA 11032"],"correct_answer":"RA 11934","explanation":"Republic Act No. 11934 (SIM Registration Act) requires all mobile phone SIM cards to be registered prior to activation."},
-    {"id":"262","category":"General Information – Current Events & Basic Facts","question":"Which Philippine volcano is famous for its near-perfect cone shape?","choices":["Mt. Pinatubo","Mt. Taal","Mt. Mayon","Mt. Kanlaon"],"correct_answer":"Mt. Mayon","explanation":"Mt. Mayon in Albay, Bicol is globally renowned for its symmetrical, near-perfect volcanic cone shape."},
-    {"id":"263","category":"General Information – Current Events & Basic Facts","question":"What law institutionalized the Pantawid Pamilyang Pilipino Program (4Ps) as the national conditional cash transfer program?","choices":["RA 10931","RA 11210","RA 11310","RA 11469"],"correct_answer":"RA 11310","explanation":"Republic Act No. 11310 enacted in 2019 institutionalized 4Ps as the permanent national poverty reduction strategy."},
-    {"id":"264","category":"General Information – Current Events & Basic Facts","question":"What is the national bird of the Philippines?","choices":["Maya","Philippine Eagle","Kalaw","Philippine Duck"],"correct_answer":"Philippine Eagle","explanation":"The Philippine Eagle (Pithecophaga jefferyi) was declared the national bird of the Philippines in 1995 under Proclamation No. 615."},
-    {"id":"265","category":"General Information – Current Events & Basic Facts","question":"Which law provides free tuition and exemption from other fees in state universities and colleges (SUCs)?","choices":["RA 10931","RA 10533","RA 10121","RA 9155"],"correct_answer":"RA 10931","explanation":"Republic Act No. 10931, or the Universal Access to Quality Tertiary Education Act, guarantees free tuition in SUCs and LUCs."},
-    {"id":"266","category":"General Information – Current Events & Basic Facts","question":"In which year was the Association of Southeast Asian Nations (ASEAN) founded?","choices":["1945","1967","1987","1995"],"correct_answer":"1967","explanation":"ASEAN was established on August 8, 1967 in Bangkok, Thailand by five founding countries, including the Philippines."},
-    {"id":"267","category":"General Information – Current Events & Basic Facts","question":"Where is the ASEAN Secretariat headquartered?","choices":["Manila, Philippines","Bangkok, Thailand","Jakarta, Indonesia","Singapore"],"correct_answer":"Jakarta, Indonesia","explanation":"The ASEAN Secretariat is located in Jakarta, Indonesia."},
-    {"id":"268","category":"General Information – Current Events & Basic Facts","question":"What is the national tree of the Philippines?","choices":["Acacia","Narra","Bamboo","Mahogany"],"correct_answer":"Narra","explanation":"The Narra (Pterocarpus indicus) was declared the national tree of the Philippines in 1934."},
-    {"id":"269","category":"General Information – Current Events & Basic Facts","question":"Which Philippine law established the Maharlika Investment Fund (MIF)?","choices":["RA 11954","RA 11861","RA 11934","RA 11534"],"correct_answer":"RA 11954","explanation":"Republic Act No. 11954 created the Maharlika Investment Fund, the Philippines' first sovereign wealth fund."},
-    {"id":"270","category":"General Information – Current Events & Basic Facts","question":"What is the largest island in the Philippine archipelago by land area?","choices":["Mindanao","Samar","Luzon","Negros"],"correct_answer":"Luzon","explanation":"Luzon is the largest island in the Philippines, covering an area of approximately 109,965 square kilometers."},
-    {"id":"271","category":"General Information – Current Events & Basic Facts","question":"What Philippine environmental law is known as the 'Clean Air Act of 1999'?","choices":["RA 8749","RA 9275","RA 9003","RA 6969"],"correct_answer":"RA 8749","explanation":"Republic Act No. 8749 provides a comprehensive air pollution control policy for the country."},
-    {"id":"272","category":"General Information – Current Events & Basic Facts","question":"What Philippine law is known as the 'Clean Water Act of 2004'?","choices":["RA 8749","RA 9275","RA 9003","RA 9729"],"correct_answer":"RA 9275","explanation":"Republic Act No. 9275 aims to protect the country's water bodies from pollution from land-based sources."},
-    {"id":"273","category":"General Information – Current Events & Basic Facts","question":"Which agency is responsible for issuing weather forecasts, typhoon warnings, and flood advisories in the Philippines?","choices":["PHIVOLCS","PAGASA","NDRRMC","NAMRIA"],"correct_answer":"PAGASA","explanation":"PAGASA (Philippine Atmospheric, Geophysical and Astronomical Services Administration) provides weather and flood monitoring."},
-    {"id":"274","category":"General Information – Current Events & Basic Facts","question":"Which agency monitors and studies earthquakes, volcanic eruptions, and tsunamis in the Philippines?","choices":["PAGASA","PHIVOLCS","DENR","Mines and Geosciences Bureau"],"correct_answer":"PHIVOLCS","explanation":"PHIVOLCS (Philippine Institute of Volcanology and Seismology) monitors seismic and volcanic activities."},
-    {"id":"275","category":"General Information – Current Events & Basic Facts","question":"What is the expanded maternity leave duration for female workers under RA 11210?","choices":["60 days","90 days","105 days","120 days"],"correct_answer":"105 days","explanation":"Republic Act No. 11210 (105-Day Expanded Maternity Leave Law) grants 105 days of paid maternity leave to female workers."},
-    {"id":"276","category":"General Information – Current Events & Basic Facts","question":"Who was the first President of the Commonwealth of the Philippines?","choices":["Emilio Aguinaldo","Manuel L. Quezon","Sergio Osmeña","Manuel Roxas"],"correct_answer":"Manuel L. Quezon","explanation":"Manuel L. Quezon served as the first President of the Philippine Commonwealth from 1935 to 1944."},
-    {"id":"277","category":"General Information – Current Events & Basic Facts","question":"What UNESCO World Heritage Site in the Philippines is an underground river located in Palawan?","choices":["Tubbataha Reefs","Puerto Princesa Subterranean River National Park","Banaue Rice Terraces","Mount Hamiguitan"],"correct_answer":"Puerto Princesa Subterranean River National Park","explanation":"The Puerto Princesa Subterranean River in Palawan is a UNESCO World Heritage Site and one of the New 7 Wonders of Nature."},
-    {"id":"278","category":"General Information – Current Events & Basic Facts","question":"What law established the National Disaster Risk Reduction and Management Council (NDRRMC)?","choices":["RA 10121","RA 9184","RA 7160","RA 10533"],"correct_answer":"RA 10121","explanation":"Republic Act No. 10121 (Philippine Disaster Risk Reduction and Management Act of 2010) created the NDRRMC framework."},
-    {"id":"279","category":"General Information – Current Events & Basic Facts","question":"Which historical event on February 22–25, 1986 restored democracy in the Philippines?","choices":["Malolos Congress","EDSA People Power Revolution","Cry of Pugad Lawin","Declaration of Martial Law"],"correct_answer":"EDSA People Power Revolution","explanation":"The EDSA People Power Revolution in February 1986 peacefully ended 20 years of authoritarian rule."},
-    {"id":"280","category":"General Information – Current Events & Basic Facts","question":"What is the currency of the Philippines regulated by the Bangko Sentral ng Pilipinas?","choices":["Dollar","Peso (PHP)","Rupiah","Ringgit"],"correct_answer":"Peso (PHP)","explanation":"The Philippine Peso (PHP, ₱) is the official currency of the Republic of the Philippines."},
-    {"id":"281","category":"General Information – Current Events & Basic Facts","question":"What is the title of the Philippine National Anthem composed by Julián Felipe?","choices":["Bayang Magiliw","Lupang Hinirang","Perlas ng Silangan","Ako ay Pilipino"],"correct_answer":"Lupang Hinirang","explanation":"Lupang Hinirang is the official title of the Philippine National Anthem. Its lyrics were adapted from José Palma's poem 'Filipinas'."},
-    {"id":"282","category":"General Information – Current Events & Basic Facts","question":"Which agency collects internal revenue taxes and enforces tax laws in the Philippines?","choices":["Bureau of Customs","Bureau of Internal Revenue (BIR)","Department of Finance","Treasury of the Philippines"],"correct_answer":"Bureau of Internal Revenue (BIR)","explanation":"The BIR, under the Department of Finance, assesses and collects all internal revenue taxes."},
-    {"id":"283","category":"General Information – Current Events & Basic Facts","question":"Which agency collects import duties and customs tariffs at Philippine ports?","choices":["Bureau of Internal Revenue","Bureau of Customs (BOC)","Philippine Coast Guard","Maritime Industry Authority"],"correct_answer":"Bureau of Customs (BOC)","explanation":"The Bureau of Customs (BOC) handles border control, trade facilitation, and assessment of customs duties."},
-    {"id":"284","category":"General Information – Current Events & Basic Facts","question":"What Philippine law mandates the integration of Enhanced Basic Education (K to 12 Program)?","choices":["RA 10533","RA 9155","RA 7722","RA 10931"],"correct_answer":"RA 10533","explanation":"Republic Act No. 10533 (Enhanced Basic Education Act of 2013) established the K to 12 basic education system."},
-    {"id":"285","category":"General Information – Current Events & Basic Facts","question":"What is the primary function of the Department of Foreign Affairs (DFA)?","choices":["Managing internal security","Conducting Philippine foreign relations and issuing passports","Regulating domestic commerce","Overseeing public health"],"correct_answer":"Conducting Philippine foreign relations and issuing passports","explanation":"The DFA manages state diplomacy, foreign policy implementation, consular services, and passport issuance."},
-    {"id":"286","category":"General Information – Current Events & Basic Facts","question":"Which Philippine island group comprises Luzon, Visayas, and Mindanao?","choices":["Luzon, Panay, Mindanao","Luzon, Visayas, Mindanao","Mindoro, Samar, Mindanao","Palawan, Visayas, Mindanao"],"correct_answer":"Luzon, Visayas, Mindanao","explanation":"The Philippine archipelago is geographically divided into three major island groups: Luzon, Visayas, and Mindanao."},
-    {"id":"287","category":"General Information – Current Events & Basic Facts","question":"What is the official seal motto found on the Coat of Arms of the Philippines?","choices":["Katarungan, Kalayaan, Kapatiran","Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa","Isang Bansa, Isang Diwa","Bayan Muna Bago Ang Sarili"],"correct_answer":"Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa","explanation":"RA 8491 (Flag and Heraldic Code) designates 'Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa' as the National Motto."},
-    {"id":"288","category":"General Information – Current Events & Basic Facts","question":"What Philippine law created the Department of Information and Communications Technology (DICT)?","choices":["RA 10844","RA 10173","RA 10175","RA 11032"],"correct_answer":"RA 10844","explanation":"Republic Act No. 10844 established the DICT in 2016 to lead ICT policy and digital transformation."},
-    {"id":"289","category":"General Information – Current Events & Basic Facts","question":"Which sea borders the Philippines to the west?","choices":["Philippine Sea","Celebes Sea","West Philippine Sea / South China Sea","Sulu Sea"],"correct_answer":"West Philippine Sea / South China Sea","explanation":"The West Philippine Sea (South China Sea) borders the Philippines to the west, while the Philippine Sea borders to the east."},
-    {"id":"290","category":"General Information – Current Events & Basic Facts","question":"What is the official publication where laws, executive orders, and administrative regulations are officially promulgated?","choices":["Official Gazette","Philippine Star","Manila Bulletin","Congressional Record"],"correct_answer":"Official Gazette","explanation":"The Official Gazette is the official publication of the Republic of the Philippines through which laws acquire binding effect after publication."}
+    {
+        "id": "241",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the capital city of the Philippines?",
+        "choices": [
+            "Cebu City",
+            "Quezon City",
+            "Manila",
+            "Davao City"
+        ],
+        "correct_answer": "Manila",
+        "explanation": "Manila is the capital of the Philippines, while Quezon City is the most populous city in Metro Manila."
+    },
+    {
+        "id": "242",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Who is known as the 'Father of the Philippine Constitution'?",
+        "choices": [
+            "Felipe Calderon",
+            "Jose Rizal",
+            "Andres Bonifacio",
+            "Apolinario Mabini"
+        ],
+        "correct_answer": "Felipe Calderon",
+        "explanation": "Felipe Calderon is recognized as the Father of the Malolos Constitution (1899), the first Philippine Constitution."
+    },
+    {
+        "id": "243",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "How many regions does the Philippines currently have?",
+        "choices": [
+            "15",
+            "16",
+            "17",
+            "18"
+        ],
+        "correct_answer": "17",
+        "explanation": "The Philippines has 17 administrative regions, including the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)."
+    },
+    {
+        "id": "244",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the national flower of the Philippines?",
+        "choices": [
+            "Rose",
+            "Sampaguita",
+            "Orchid",
+            "Sunflower"
+        ],
+        "correct_answer": "Sampaguita",
+        "explanation": "The Sampaguita (Jasminum sambac) was declared the national flower of the Philippines in 1934."
+    },
+    {
+        "id": "245",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which Philippine law is known as the 'Ease of Doing Business Act'?",
+        "choices": [
+            "RA 11032",
+            "RA 6713",
+            "RA 9485",
+            "RA 7160"
+        ],
+        "correct_answer": "RA 11032",
+        "explanation": "RA 11032 (Ease of Doing Business and Efficient Government Service Delivery Act of 2018) streamlines government transactions."
+    },
+    {
+        "id": "246",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the Philippine national hero's full name?",
+        "choices": [
+            "Andres Bonifacio y de Castro",
+            "Emilio Aguinaldo y Famy",
+            "Manuel L. Quezon",
+            "Jose Protasio Rizal Mercado y Alonso Realonda"
+        ],
+        "correct_answer": "Jose Protasio Rizal Mercado y Alonso Realonda",
+        "explanation": "Jose Rizal is the Philippines' national hero, known for his novels Noli Me Tangere and El Filibusterismo."
+    },
+    {
+        "id": "247",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which government agency administers the Civil Service Examination?",
+        "choices": [
+            "Department of Education",
+            "Professional Regulation Commission",
+            "Civil Service Commission",
+            "Commission on Higher Education"
+        ],
+        "correct_answer": "Civil Service Commission",
+        "explanation": "The Civil Service Commission (CSC) is mandated to administer the Career Service Examination for government positions."
+    },
+    {
+        "id": "248",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the highest peak in the Philippines?",
+        "choices": [
+            "Mt. Pulag",
+            "Mt. Apo",
+            "Mt. Mayon",
+            "Mt. Pinatubo"
+        ],
+        "correct_answer": "Mt. Apo",
+        "explanation": "Mt. Apo in Davao del Sur is the highest peak in the Philippines at 2,954 meters (9,692 feet)."
+    },
+    {
+        "id": "249",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is Republic Act No. 9003 about?",
+        "choices": [
+            "Anti-Money Laundering",
+            "Ecological Solid Waste Management",
+            "Anti-Violence Against Women",
+            "Indigenous Peoples' Rights"
+        ],
+        "correct_answer": "Ecological Solid Waste Management",
+        "explanation": "RA 9003 is the Ecological Solid Waste Management Act of 2000, mandating proper waste management across the country."
+    },
+    {
+        "id": "250",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which body approves the national budget in the Philippines?",
+        "choices": [
+            "Congress",
+            "The Supreme Court",
+            "The President",
+            "The Cabinet"
+        ],
+        "correct_answer": "Congress",
+        "explanation": "The national budget is prepared by the Executive branch but must be approved by Congress (Senate and House of Representatives)."
+    },
+    {
+        "id": "251",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What does BARMM stand for?",
+        "choices": [
+            "Bangsamoro Autonomous Region in Muslim Mindanao",
+            "Bangsamoro Area of Regional Muslim Municipality",
+            "Bureau of Administrative Reforms in Muslim Mindanao",
+            "Bureau of Autonomous Region of Muslim Mindanao"
+        ],
+        "correct_answer": "Bangsamoro Autonomous Region in Muslim Mindanao",
+        "explanation": "BARMM replaced the Autonomous Region in Muslim Mindanao (ARMM) through RA 11054 (Bangsamoro Organic Law)."
+    },
+    {
+        "id": "252",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the Philippine National Police (PNP) under?",
+        "choices": [
+            "Department of National Defense",
+            "Department of Justice",
+            "Office of the President",
+            "Department of the Interior and Local Government"
+        ],
+        "correct_answer": "Department of the Interior and Local Government",
+        "explanation": "The PNP is under the Department of the Interior and Local Government (DILG) for administrative supervision."
+    },
+    {
+        "id": "253",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "How many years does a Philippine senator serve in office?",
+        "choices": [
+            "8 years",
+            "6 years",
+            "3 years",
+            "4 years"
+        ],
+        "correct_answer": "6 years",
+        "explanation": "Senators serve a term of 6 years and may be reelected for a maximum of two consecutive terms."
+    },
+    {
+        "id": "254",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the longest river in the Philippines?",
+        "choices": [
+            "Agusan River",
+            "Cagayan River",
+            "Pampanga River",
+            "Pasig River"
+        ],
+        "correct_answer": "Cagayan River",
+        "explanation": "The Cagayan River (Rio Grande de Cagayan) in northern Luzon is the longest river in the Philippines at about 505 kilometers."
+    },
+    {
+        "id": "255",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What treaty ceded the Philippines from Spain to the United States in 1898?",
+        "choices": [
+            "Treaty of Tordesillas",
+            "Treaty of Paris",
+            "Treaty of Versailles",
+            "Treaty of Manila"
+        ],
+        "correct_answer": "Treaty of Paris",
+        "explanation": "The Treaty of Paris (1898) ended the Spanish-American War and ceded the Philippines to the United States for $20 million."
+    },
+    {
+        "id": "256",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which Philippine law promotes environmental awareness and ecological balance?",
+        "choices": [
+            "RA 9003",
+            "All of the above",
+            "RA 9275",
+            "RA 8749"
+        ],
+        "correct_answer": "All of the above",
+        "explanation": "RA 9275 (Clean Water Act), RA 8749 (Clean Air Act), and RA 9003 (Solid Waste Management Act) all promote ecological balance."
+    },
+    {
+        "id": "257",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the role of the Commission on Audit (COA)?",
+        "choices": [
+            "To adjudicate legal disputes",
+            "To appoint government employees",
+            "To examine and audit government revenue and expenditures",
+            "To conduct elections"
+        ],
+        "correct_answer": "To examine and audit government revenue and expenditures",
+        "explanation": "COA is the supreme audit institution mandated to examine, audit, and settle all accounts of the government."
+    },
+    {
+        "id": "258",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Who was the first female President of the Philippines?",
+        "choices": [
+            "Imelda Marcos",
+            "Corazon Aquino",
+            "Gloria Macapagal Arroyo",
+            "Miriam Defensor Santiago"
+        ],
+        "correct_answer": "Corazon Aquino",
+        "explanation": "Corazon C. Aquino became the first female President of the Philippines in 1986 after the EDSA People Power Revolution."
+    },
+    {
+        "id": "259",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "When is Philippine Independence Day celebrated?",
+        "choices": [
+            "August 26",
+            "June 12",
+            "July 4",
+            "March 22"
+        ],
+        "correct_answer": "June 12",
+        "explanation": "Philippine Independence Day is celebrated on June 12, commemorating the declaration of independence from Spain in 1898."
+    },
+    {
+        "id": "260",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the Bangko Sentral ng Pilipinas (BSP) primarily responsible for?",
+        "choices": [
+            "Regulating banks and maintaining monetary stability",
+            "International trade agreements",
+            "National budgeting",
+            "Tax collection"
+        ],
+        "correct_answer": "Regulating banks and maintaining monetary stability",
+        "explanation": "The BSP is the central bank of the Philippines, responsible for monetary policy, bank supervision, and maintaining price stability."
+    },
+    {
+        "id": "261",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What Philippine law mandates mandatory SIM card registration for all mobile subscribers?",
+        "choices": [
+            "RA 10173",
+            "RA 11934",
+            "RA 10844",
+            "RA 11032"
+        ],
+        "correct_answer": "RA 11934",
+        "explanation": "Republic Act No. 11934 (SIM Registration Act) requires all mobile phone SIM cards to be registered prior to activation."
+    },
+    {
+        "id": "262",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which Philippine volcano is famous for its near-perfect cone shape?",
+        "choices": [
+            "Mt. Mayon",
+            "Mt. Kanlaon",
+            "Mt. Taal",
+            "Mt. Pinatubo"
+        ],
+        "correct_answer": "Mt. Mayon",
+        "explanation": "Mt. Mayon in Albay, Bicol is globally renowned for its symmetrical, near-perfect volcanic cone shape."
+    },
+    {
+        "id": "263",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What law institutionalized the Pantawid Pamilyang Pilipino Program (4Ps) as the national conditional cash transfer program?",
+        "choices": [
+            "RA 10931",
+            "RA 11469",
+            "RA 11310",
+            "RA 11210"
+        ],
+        "correct_answer": "RA 11310",
+        "explanation": "Republic Act No. 11310 enacted in 2019 institutionalized 4Ps as the permanent national poverty reduction strategy."
+    },
+    {
+        "id": "264",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the national bird of the Philippines?",
+        "choices": [
+            "Philippine Duck",
+            "Kalaw",
+            "Philippine Eagle",
+            "Maya"
+        ],
+        "correct_answer": "Philippine Eagle",
+        "explanation": "The Philippine Eagle (Pithecophaga jefferyi) was declared the national bird of the Philippines in 1995 under Proclamation No. 615."
+    },
+    {
+        "id": "265",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which law provides free tuition and exemption from other fees in state universities and colleges (SUCs)?",
+        "choices": [
+            "RA 10121",
+            "RA 9155",
+            "RA 10931",
+            "RA 10533"
+        ],
+        "correct_answer": "RA 10931",
+        "explanation": "Republic Act No. 10931, or the Universal Access to Quality Tertiary Education Act, guarantees free tuition in SUCs and LUCs."
+    },
+    {
+        "id": "266",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "In which year was the Association of Southeast Asian Nations (ASEAN) founded?",
+        "choices": [
+            "1945",
+            "1967",
+            "1987",
+            "1995"
+        ],
+        "correct_answer": "1967",
+        "explanation": "ASEAN was established on August 8, 1967 in Bangkok, Thailand by five founding countries, including the Philippines."
+    },
+    {
+        "id": "267",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Where is the ASEAN Secretariat headquartered?",
+        "choices": [
+            "Singapore",
+            "Jakarta, Indonesia",
+            "Manila, Philippines",
+            "Bangkok, Thailand"
+        ],
+        "correct_answer": "Jakarta, Indonesia",
+        "explanation": "The ASEAN Secretariat is located in Jakarta, Indonesia."
+    },
+    {
+        "id": "268",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the national tree of the Philippines?",
+        "choices": [
+            "Bamboo",
+            "Mahogany",
+            "Narra",
+            "Acacia"
+        ],
+        "correct_answer": "Narra",
+        "explanation": "The Narra (Pterocarpus indicus) was declared the national tree of the Philippines in 1934."
+    },
+    {
+        "id": "269",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which Philippine law established the Maharlika Investment Fund (MIF)?",
+        "choices": [
+            "RA 11861",
+            "RA 11534",
+            "RA 11934",
+            "RA 11954"
+        ],
+        "correct_answer": "RA 11954",
+        "explanation": "Republic Act No. 11954 created the Maharlika Investment Fund, the Philippines' first sovereign wealth fund."
+    },
+    {
+        "id": "270",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the largest island in the Philippine archipelago by land area?",
+        "choices": [
+            "Luzon",
+            "Mindanao",
+            "Negros",
+            "Samar"
+        ],
+        "correct_answer": "Luzon",
+        "explanation": "Luzon is the largest island in the Philippines, covering an area of approximately 109,965 square kilometers."
+    },
+    {
+        "id": "271",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What Philippine environmental law is known as the 'Clean Air Act of 1999'?",
+        "choices": [
+            "RA 6969",
+            "RA 9003",
+            "RA 9275",
+            "RA 8749"
+        ],
+        "correct_answer": "RA 8749",
+        "explanation": "Republic Act No. 8749 provides a comprehensive air pollution control policy for the country."
+    },
+    {
+        "id": "272",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What Philippine law is known as the 'Clean Water Act of 2004'?",
+        "choices": [
+            "RA 9729",
+            "RA 9275",
+            "RA 9003",
+            "RA 8749"
+        ],
+        "correct_answer": "RA 9275",
+        "explanation": "Republic Act No. 9275 aims to protect the country's water bodies from pollution from land-based sources."
+    },
+    {
+        "id": "273",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which agency is responsible for issuing weather forecasts, typhoon warnings, and flood advisories in the Philippines?",
+        "choices": [
+            "PAGASA",
+            "NAMRIA",
+            "PHIVOLCS",
+            "NDRRMC"
+        ],
+        "correct_answer": "PAGASA",
+        "explanation": "PAGASA (Philippine Atmospheric, Geophysical and Astronomical Services Administration) provides weather and flood monitoring."
+    },
+    {
+        "id": "274",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which agency monitors and studies earthquakes, volcanic eruptions, and tsunamis in the Philippines?",
+        "choices": [
+            "DENR",
+            "PHIVOLCS",
+            "PAGASA",
+            "Mines and Geosciences Bureau"
+        ],
+        "correct_answer": "PHIVOLCS",
+        "explanation": "PHIVOLCS (Philippine Institute of Volcanology and Seismology) monitors seismic and volcanic activities."
+    },
+    {
+        "id": "275",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the expanded maternity leave duration for female workers under RA 11210?",
+        "choices": [
+            "60 days",
+            "120 days",
+            "90 days",
+            "105 days"
+        ],
+        "correct_answer": "105 days",
+        "explanation": "Republic Act No. 11210 (105-Day Expanded Maternity Leave Law) grants 105 days of paid maternity leave to female workers."
+    },
+    {
+        "id": "276",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Who was the first President of the Commonwealth of the Philippines?",
+        "choices": [
+            "Emilio Aguinaldo",
+            "Sergio Osmeña",
+            "Manuel Roxas",
+            "Manuel L. Quezon"
+        ],
+        "correct_answer": "Manuel L. Quezon",
+        "explanation": "Manuel L. Quezon served as the first President of the Philippine Commonwealth from 1935 to 1944."
+    },
+    {
+        "id": "277",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What UNESCO World Heritage Site in the Philippines is an underground river located in Palawan?",
+        "choices": [
+            "Mount Hamiguitan",
+            "Tubbataha Reefs",
+            "Puerto Princesa Subterranean River National Park",
+            "Banaue Rice Terraces"
+        ],
+        "correct_answer": "Puerto Princesa Subterranean River National Park",
+        "explanation": "The Puerto Princesa Subterranean River in Palawan is a UNESCO World Heritage Site and one of the New 7 Wonders of Nature."
+    },
+    {
+        "id": "278",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What law established the National Disaster Risk Reduction and Management Council (NDRRMC)?",
+        "choices": [
+            "RA 10533",
+            "RA 9184",
+            "RA 10121",
+            "RA 7160"
+        ],
+        "correct_answer": "RA 10121",
+        "explanation": "Republic Act No. 10121 (Philippine Disaster Risk Reduction and Management Act of 2010) created the NDRRMC framework."
+    },
+    {
+        "id": "279",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which historical event on February 22–25, 1986 restored democracy in the Philippines?",
+        "choices": [
+            "Cry of Pugad Lawin",
+            "Declaration of Martial Law",
+            "EDSA People Power Revolution",
+            "Malolos Congress"
+        ],
+        "correct_answer": "EDSA People Power Revolution",
+        "explanation": "The EDSA People Power Revolution in February 1986 peacefully ended 20 years of authoritarian rule."
+    },
+    {
+        "id": "280",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the currency of the Philippines regulated by the Bangko Sentral ng Pilipinas?",
+        "choices": [
+            "Rupiah",
+            "Ringgit",
+            "Dollar",
+            "Peso (PHP)"
+        ],
+        "correct_answer": "Peso (PHP)",
+        "explanation": "The Philippine Peso (PHP, ₱) is the official currency of the Republic of the Philippines."
+    },
+    {
+        "id": "281",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the title of the Philippine National Anthem composed by Julián Felipe?",
+        "choices": [
+            "Bayang Magiliw",
+            "Perlas ng Silangan",
+            "Ako ay Pilipino",
+            "Lupang Hinirang"
+        ],
+        "correct_answer": "Lupang Hinirang",
+        "explanation": "Lupang Hinirang is the official title of the Philippine National Anthem. Its lyrics were adapted from José Palma's poem 'Filipinas'."
+    },
+    {
+        "id": "282",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which agency collects internal revenue taxes and enforces tax laws in the Philippines?",
+        "choices": [
+            "Treasury of the Philippines",
+            "Bureau of Customs",
+            "Bureau of Internal Revenue (BIR)",
+            "Department of Finance"
+        ],
+        "correct_answer": "Bureau of Internal Revenue (BIR)",
+        "explanation": "The BIR, under the Department of Finance, assesses and collects all internal revenue taxes."
+    },
+    {
+        "id": "283",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which agency collects import duties and customs tariffs at Philippine ports?",
+        "choices": [
+            "Maritime Industry Authority",
+            "Philippine Coast Guard",
+            "Bureau of Customs (BOC)",
+            "Bureau of Internal Revenue"
+        ],
+        "correct_answer": "Bureau of Customs (BOC)",
+        "explanation": "The Bureau of Customs (BOC) handles border control, trade facilitation, and assessment of customs duties."
+    },
+    {
+        "id": "284",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What Philippine law mandates the integration of Enhanced Basic Education (K to 12 Program)?",
+        "choices": [
+            "RA 10533",
+            "RA 7722",
+            "RA 10931",
+            "RA 9155"
+        ],
+        "correct_answer": "RA 10533",
+        "explanation": "Republic Act No. 10533 (Enhanced Basic Education Act of 2013) established the K to 12 basic education system."
+    },
+    {
+        "id": "285",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the primary function of the Department of Foreign Affairs (DFA)?",
+        "choices": [
+            "Conducting Philippine foreign relations and issuing passports",
+            "Managing internal security",
+            "Overseeing public health",
+            "Regulating domestic commerce"
+        ],
+        "correct_answer": "Conducting Philippine foreign relations and issuing passports",
+        "explanation": "The DFA manages state diplomacy, foreign policy implementation, consular services, and passport issuance."
+    },
+    {
+        "id": "286",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which Philippine island group comprises Luzon, Visayas, and Mindanao?",
+        "choices": [
+            "Luzon, Visayas, Mindanao",
+            "Palawan, Visayas, Mindanao",
+            "Luzon, Panay, Mindanao",
+            "Mindoro, Samar, Mindanao"
+        ],
+        "correct_answer": "Luzon, Visayas, Mindanao",
+        "explanation": "The Philippine archipelago is geographically divided into three major island groups: Luzon, Visayas, and Mindanao."
+    },
+    {
+        "id": "287",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the official seal motto found on the Coat of Arms of the Philippines?",
+        "choices": [
+            "Bayan Muna Bago Ang Sarili",
+            "Katarungan, Kalayaan, Kapatiran",
+            "Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa",
+            "Isang Bansa, Isang Diwa"
+        ],
+        "correct_answer": "Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa",
+        "explanation": "RA 8491 (Flag and Heraldic Code) designates 'Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa' as the National Motto."
+    },
+    {
+        "id": "288",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What Philippine law created the Department of Information and Communications Technology (DICT)?",
+        "choices": [
+            "RA 10175",
+            "RA 10173",
+            "RA 11032",
+            "RA 10844"
+        ],
+        "correct_answer": "RA 10844",
+        "explanation": "Republic Act No. 10844 established the DICT in 2016 to lead ICT policy and digital transformation."
+    },
+    {
+        "id": "289",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "Which sea borders the Philippines to the west?",
+        "choices": [
+            "Philippine Sea",
+            "Sulu Sea",
+            "West Philippine Sea / South China Sea",
+            "Celebes Sea"
+        ],
+        "correct_answer": "West Philippine Sea / South China Sea",
+        "explanation": "The West Philippine Sea (South China Sea) borders the Philippines to the west, while the Philippine Sea borders to the east."
+    },
+    {
+        "id": "290",
+        "category": "General Information – Current Events & Basic Facts",
+        "question": "What is the official publication where laws, executive orders, and administrative regulations are officially promulgated?",
+        "choices": [
+            "Philippine Star",
+            "Official Gazette",
+            "Congressional Record",
+            "Manila Bulletin"
+        ],
+        "correct_answer": "Official Gazette",
+        "explanation": "The Official Gazette is the official publication of the Republic of the Philippines through which laws acquire binding effect after publication."
+    }
 ]

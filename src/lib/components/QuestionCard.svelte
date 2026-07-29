@@ -129,6 +129,14 @@
     vertical-align: middle;
   }
 
+  :global(.q-text u) {
+    text-decoration: underline;
+    text-decoration-color: var(--cse-primary-light);
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    font-weight: 700;
+  }
+
   .choices-grid {
     display: flex;
     flex-direction: column;

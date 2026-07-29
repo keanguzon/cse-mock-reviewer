@@ -105,6 +105,33 @@
   function formatMode(mode: string) {
       return mode === 'mock' ? '⏱️ Mock Exam' : '📚 Practice';
   }
+  let categoryBreakdown = $derived.by(() => {
+    if (!questions || questions.length === 0) return [];
+    const map = new Map<string, { correct: number; total: number }>();
+    questions.forEach((q: any, idx: number) => {
+      const cat = q.category || 'General';
+      if (!map.has(cat)) map.set(cat, { correct: 0, total: 0 });
+      const entry = map.get(cat)!;
+      entry.total++;
+      if (userAnswers[idx] === q.correct_answer) entry.correct++;
+    });
+    const results: any[] = [];
+    map.forEach((val, cat) => {
+      const pct = Math.round((val.correct / val.total) * 100);
+      results.push({
+        category: cat,
+        correct: val.correct,
+        total: val.total,
+        percentage: pct,
+        status: pct >= 90 ? 'strong' : pct >= 80 ? 'passing' : 'weak',
+      });
+    });
+    results.sort((a, b) => b.percentage - a.percentage);
+    return results;
+  });
+
+  let strongAreas = $derived(categoryBreakdown.filter(c => c.status === 'strong'));
+  let weakAreas = $derived(categoryBreakdown.filter(c => c.status === 'weak'));
 </script>
 
 <div class="page-overlay" style="position: relative; z-index: 1;">
@@ -166,6 +193,44 @@
             </div>
           </div>
         </header>
+
+        {#if categoryBreakdown.length > 0}
+          <div class="category-breakdown slide-up">
+            <h3 class="breakdown-title">Performance by Category</h3>
+
+            <div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 0.75rem; flex-wrap: wrap;">
+              {#if strongAreas.length > 0}
+                <div class="area-label area-strong">
+                  <span class="area-dot strong-dot"></span>
+                  Strong Areas ({strongAreas.length})
+                </div>
+              {/if}
+              {#if weakAreas.length > 0}
+                <div class="area-label area-weak">
+                  <span class="area-dot weak-dot"></span>
+                  Needs Practice ({weakAreas.length})
+                </div>
+              {/if}
+            </div>
+
+            <div class="breakdown-list">
+              {#each categoryBreakdown as cat}
+                <div class="breakdown-item">
+                  <div class="breakdown-info">
+                    <span class="breakdown-cat">{cat.category}</span>
+                    <span class="breakdown-score {cat.status}">{cat.correct}/{cat.total} ({cat.percentage}%)</span>
+                  </div>
+                  <div class="breakdown-bar-bg">
+                    <div
+                      class="breakdown-bar-fill {cat.status}"
+                      style="width: {cat.percentage}%"
+                    ></div>
+                  </div>
+                </div>
+              {/each}
+            </div>
+          </div>
+        {/if}
 
         {#if questions.length === 0}
           <div class="glass-card text-center" style="margin-bottom: 3rem;">
@@ -538,6 +603,109 @@
 
   .choice-disabled {
     opacity: 0.5;
+  }
+  
+  /* Benchmark & Breakdown Styling */
+  .category-breakdown {
+    max-width: 500px;
+    margin: 0 auto 3rem;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.02);
+    padding: 1.25rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .breakdown-title {
+    font-family: var(--font-display);
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--cse-text-muted);
+    margin-bottom: 0.75rem;
+    text-align: center;
+  }
+
+  .area-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+  }
+  .area-strong { color: var(--cse-green); }
+  .area-weak { color: var(--cse-orange); }
+
+  .area-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+  }
+  .strong-dot { background: var(--cse-green); box-shadow: 0 0 6px var(--cse-green); }
+  .weak-dot { background: var(--cse-orange); box-shadow: 0 0 6px var(--cse-orange); }
+
+  .breakdown-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .breakdown-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .breakdown-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .breakdown-cat {
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--cse-text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70%;
+  }
+
+  .breakdown-score {
+    font-size: 0.72rem;
+    font-weight: 800;
+    font-family: var(--font-body);
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+  .breakdown-score.strong { color: var(--cse-green); }
+  .breakdown-score.passing { color: #a5b4fc; }
+  .breakdown-score.weak { color: var(--cse-orange); }
+
+  .breakdown-bar-bg {
+    width: 100%;
+    height: 5px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+
+  .breakdown-bar-fill {
+    height: 100%;
+    border-radius: 999px;
+    transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .breakdown-bar-fill.strong {
+    background: linear-gradient(90deg, var(--cse-green), #6ee7b7);
+  }
+  .breakdown-bar-fill.passing {
+    background: linear-gradient(90deg, var(--cse-primary), var(--cse-primary-light));
+  }
+  .breakdown-bar-fill.weak {
+    background: linear-gradient(90deg, var(--cse-orange), #fde68a);
   }
 
   .explanation {

@@ -2,10 +2,22 @@
   import { onMount } from 'svelte';
 
   let canvas: HTMLCanvasElement;
+  let useFallback = $state(false);
 
   onMount(() => {
     const gl = canvas.getContext('webgl')!;
-    if (!gl) return;
+    if (!gl) { useFallback = true; return; }
+
+    // Detect software renderer (SwiftShader, Mesa, etc.) and skip animation
+    const debugInfo = gl.getExtension('WEBGL_debug_renderer_info');
+    if (debugInfo) {
+      const renderer = gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL);
+      if (/swiftshader|software|mesa|llvmpipe/i.test(renderer)) {
+        useFallback = true;
+        canvas.style.display = 'none';
+        return;
+      }
+    }
 
     const VS = `
       attribute vec2 a_position;
@@ -85,7 +97,6 @@
 
     function resize() {
       // Downsample WebGL render buffer scale for 4x GPU performance boost
-      // Ambient fluid shaders look even smoother when sampled at half-res
       const scale = 0.5;
       canvas.width = Math.max(320, Math.floor(window.innerWidth * scale));
       canvas.height = Math.max(240, Math.floor(window.innerHeight * scale));
@@ -118,15 +129,31 @@
   });
 </script>
 
-<canvas
-  bind:this={canvas}
-  aria-hidden="true"
-  style="
+<div class="color-bends-wrapper" aria-hidden="true">
+  {#if useFallback}
+    <div class="color-bends-fallback"></div>
+  {/if}
+  <canvas
+    bind:this={canvas}
+    style="
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    "
+  ></canvas>
+</div>
+
+<style>
+  .color-bends-wrapper {
     position: fixed;
     inset: 0;
-    width: 100%;
-    height: 100%;
     z-index: 0;
     pointer-events: none;
-  "
-></canvas>
+  }
+  .color-bends-fallback {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse at 50% 50%, rgba(129, 14, 238, 0.15) 0%, transparent 70%);
+  }
+</style>

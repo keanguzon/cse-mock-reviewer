@@ -84,7 +84,7 @@
   }
 
   .timer-display {
-    font-family: var(--font-display);
+    font-family: var(--font-body);
     font-weight: 800;
     font-size: 0.9rem;
     letter-spacing: 1px;

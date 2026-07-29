@@ -1,52 +1,652 @@
 [
-    {"id":"181","category":"Numerical Ability – Word Problems","question":"A government office has 120 employees. If 3/5 of them are male, how many female employees are there?","choices":["48","60","72","80"],"correct_answer":"48","explanation":"Male employees = 3/5 × 120 = 72. Female = 120 - 72 = 48."},
-    {"id":"182","category":"Numerical Ability – Word Problems","question":"If a clerk can process 15 applications per hour, how many applications can 4 clerks process in 3 hours?","choices":["45","60","120","180"],"correct_answer":"180","explanation":"1 clerk in 3 hours = 15 × 3 = 45. 4 clerks = 45 × 4 = 180 applications."},
-    {"id":"183","category":"Numerical Ability – Word Problems","question":"A government project costs PHP 2,400,000. If the cost increased by 15%, what is the new cost?","choices":["PHP 2,640,000","PHP 2,760,000","PHP 2,520,000","PHP 2,880,000"],"correct_answer":"PHP 2,760,000","explanation":"Increase = 15% of 2,400,000 = 360,000. New cost = 2,400,000 + 360,000 = PHP 2,760,000."},
-    {"id":"184","category":"Numerical Ability – Word Problems","question":"Ana is 4 years older than twice Ben's age. If Ben is 12 years old, how old is Ana?","choices":["24","26","28","30"],"correct_answer":"28","explanation":"Ana = 2(12) + 4 = 24 + 4 = 28 years old."},
-    {"id":"185","category":"Numerical Ability – Word Problems","question":"A train travels 240 km in 3 hours. What is its average speed in km/hr?","choices":["60","70","80","90"],"correct_answer":"80","explanation":"Speed = Distance / Time = 240 / 3 = 80 km/hr."},
-    {"id":"186","category":"Numerical Ability – Word Problems","question":"If 6 workers can build a wall in 10 days, how many days will it take 15 workers to build the same wall?","choices":["2","3","4","5"],"correct_answer":"4","explanation":"Total work = 6 × 10 = 60 worker-days. With 15 workers: 60/15 = 4 days."},
-    {"id":"187","category":"Numerical Ability – Word Problems","question":"A store offers a 20% discount on an item originally priced at PHP 1,500. What is the discounted price?","choices":["PHP 1,100","PHP 1,200","PHP 1,300","PHP 1,350"],"correct_answer":"PHP 1,200","explanation":"Discount = 20% of 1,500 = 300. Discounted price = 1,500 - 300 = PHP 1,200."},
-    {"id":"188","category":"Numerical Ability – Word Problems","question":"Pedro deposited PHP 50,000 in a bank with a simple interest rate of 5% per year. How much interest will he earn after 3 years?","choices":["PHP 5,000","PHP 7,500","PHP 10,000","PHP 15,000"],"correct_answer":"PHP 7,500","explanation":"Simple Interest = P × r × t = 50,000 × 0.05 × 3 = PHP 7,500."},
-    {"id":"189","category":"Numerical Ability – Word Problems","question":"A rectangular lot is 40 meters long and 25 meters wide. What is its area in square meters?","choices":["800","900","1,000","1,200"],"correct_answer":"1,000","explanation":"Area = Length × Width = 40 × 25 = 1,000 square meters."},
-    {"id":"190","category":"Numerical Ability – Word Problems","question":"If 3 kg of rice costs PHP 165, how much will 8 kg cost?","choices":["PHP 400","PHP 420","PHP 440","PHP 480"],"correct_answer":"PHP 440","explanation":"Price per kg = 165/3 = PHP 55. Cost for 8 kg = 55 × 8 = PHP 440."},
-    {"id":"191","category":"Numerical Ability – Word Problems","question":"Maria scored 85, 92, 78, and 95 on her four exams. What score does she need on her fifth exam to get an average of 88?","choices":["86","88","90","92"],"correct_answer":"90","explanation":"Total needed = 88 × 5 = 440. Current total = 85 + 92 + 78 + 95 = 350. Fifth score = 440 - 350 = 90."},
-    {"id":"192","category":"Numerical Ability – Word Problems","question":"A car consumes 8 liters of gasoline for every 100 km. How many liters are needed for a 350 km trip?","choices":["24","28","30","32"],"correct_answer":"28","explanation":"Consumption = (8/100) × 350 = 28 liters."},
-    {"id":"193","category":"Numerical Ability – Word Problems","question":"Two pipes can fill a tank. Pipe A fills it in 6 hours and Pipe B in 12 hours. How long will it take both pipes working together to fill the tank?","choices":["3 hours","4 hours","5 hours","8 hours"],"correct_answer":"4 hours","explanation":"Rate A = 1/6, Rate B = 1/12. Combined rate = 1/6 + 1/12 = 3/12 = 1/4. Time = 4 hours."},
-    {"id":"194","category":"Numerical Ability – Word Problems","question":"A shirt costs PHP 800 after a 20% discount. What was the original price?","choices":["PHP 960","PHP 1,000","PHP 1,050","PHP 1,100"],"correct_answer":"PHP 1,000","explanation":"After 20% off: 80% of original = 800. Original = 800 / 0.80 = PHP 1,000."},
-    {"id":"195","category":"Numerical Ability – Word Problems","question":"In a class of 50 students, 30 passed the math exam and 35 passed the English exam. If 20 passed both, how many students failed both exams?","choices":["5","10","15","20"],"correct_answer":"5","explanation":"Passed at least one = 30 + 35 - 20 = 45. Failed both = 50 - 45 = 5 students."},
-    {"id":"196","category":"Numerical Ability – Word Problems","question":"A father is 3 times as old as his son. In 12 years, he will be twice as old as his son. How old is the son now?","choices":["10","12","14","16"],"correct_answer":"12","explanation":"Let son = x, father = 3x. In 12 years: 3x + 12 = 2(x + 12) → 3x + 12 = 2x + 24 → x = 12."},
-    {"id":"197","category":"Numerical Ability – Word Problems","question":"A circular garden has a radius of 7 meters. What is its approximate area? (Use π = 22/7)","choices":["144 sq m","148 sq m","154 sq m","160 sq m"],"correct_answer":"154 sq m","explanation":"Area = πr² = (22/7) × 7² = (22/7) × 49 = 22 × 7 = 154 square meters."},
-    {"id":"198","category":"Numerical Ability – Word Problems","question":"A mixture contains water and alcohol in the ratio 3:2. If there are 15 liters of water, how many liters of alcohol are there?","choices":["8","10","12","15"],"correct_answer":"10","explanation":"Water:Alcohol = 3:2. If water = 15, then 15/3 = 5 (one part). Alcohol = 2 × 5 = 10 liters."},
-    {"id":"199","category":"Numerical Ability – Word Problems","question":"A government employee earns PHP 25,000 per month. If income tax is 10%, how much is his take-home pay?","choices":["PHP 20,000","PHP 21,500","PHP 22,500","PHP 23,000"],"correct_answer":"PHP 22,500","explanation":"Tax = 10% of 25,000 = 2,500. Take-home = 25,000 - 2,500 = PHP 22,500."},
-    {"id":"200","category":"Numerical Ability – Word Problems","question":"If the sum of three consecutive even numbers is 78, what is the largest number?","choices":["24","26","28","30"],"correct_answer":"28","explanation":"Let the numbers be x, x+2, x+4. Sum: 3x + 6 = 78 → 3x = 72 → x = 24. Largest = 24 + 4 = 28."},
-    {"id":"201","category":"Numerical Ability – Word Problems","question":"A worker can complete a task in 8 hours. His assistant can complete the same task in 12 hours. How long will it take them to complete the task together?","choices":["4.8 hours","5.0 hours","5.2 hours","6.0 hours"],"correct_answer":"4.8 hours","explanation":"Combined rate = 1/8 + 1/12 = 5/24. Time = 24/5 = 4.8 hours (or 4 hours 48 minutes)."},
-    {"id":"202","category":"Numerical Ability – Word Problems","question":"A car travels from City A to City B at 60 km/hr and returns at 40 km/hr. What is the average speed for the entire round trip?","choices":["48 km/hr","50 km/hr","52 km/hr","54 km/hr"],"correct_answer":"48 km/hr","explanation":"Harmonic mean of speeds = 2(60 × 40) / (60 + 40) = 4800 / 100 = 48 km/hr."},
-    {"id":"203","category":"Numerical Ability – Word Problems","question":"If 5 printers can print 500 pages in 10 minutes, how many pages can 8 printers print in 15 minutes?","choices":["1,000","1,200","1,500","1,800"],"correct_answer":"1,200","explanation":"Rate per printer per minute = 500 / (5 × 10) = 10 pages/min. 8 printers in 15 minutes = 8 × 15 × 10 = 1,200 pages."},
-    {"id":"204","category":"Numerical Ability – Word Problems","question":"A merchant buys a item for PHP 4,000 and sells it for PHP 5,200. What is his profit percentage based on cost?","choices":["25%","30%","32%","35%"],"correct_answer":"30%","explanation":"Profit = 5,200 - 4,000 = PHP 1,200. Profit percentage = (1,200 / 4,000) × 100% = 30%."},
-    {"id":"205","category":"Numerical Ability – Word Problems","question":"The ratio of boys to girls in a school is 4:5. If there are 360 boys, how many total students are in the school?","choices":["720","800","810","900"],"correct_answer":"810","explanation":"Boys = 4 parts = 360 → 1 part = 90. Girls = 5 parts = 450. Total = 360 + 450 = 810 students."},
-    {"id":"206","category":"Numerical Ability – Word Problems","question":"A bank offers a compound interest rate of 10% per annum compounded annually. If PHP 20,000 is invested for 2 years, what is the total compound amount?","choices":["PHP 22,000","PHP 24,000","PHP 24,200","PHP 25,000"],"correct_answer":"PHP 24,200","explanation":"Amount = P(1 + r)² = 20,000 × (1.10)² = 20,000 × 1.21 = PHP 24,200."},
-    {"id":"207","category":"Numerical Ability – Word Problems","question":"Five years ago, Clara was 3 times as old as David. Today, Clara is twice as old as David. How old is David today?","choices":["5","10","15","20"],"correct_answer":"10","explanation":"Let David today = x, Clara today = 2x. 5 yrs ago: 2x - 5 = 3(x - 5) → 2x - 5 = 3x - 15 → x = 10."},
-    {"id":"208","category":"Numerical Ability – Word Problems","question":"How many liters of pure alcohol must be added to 10 liters of a 20% alcohol solution to make it a 50% solution?","choices":["4 liters","5 liters","6 liters","8 liters"],"correct_answer":"6 liters","explanation":"Current alcohol = 0.20 × 10 = 2 L. Let x = added pure alcohol: (2 + x)/(10 + x) = 0.50 → 2 + x = 5 + 0.5x → 0.5x = 3 → x = 6 L."},
-    {"id":"209","category":"Numerical Ability – Word Problems","question":"A square floor has a perimeter of 48 meters. What is its area in square meters?","choices":["120","144","169","196"],"correct_answer":"144","explanation":"Side = Perimeter / 4 = 48 / 4 = 12 meters. Area = 12² = 144 square meters."},
-    {"id":"210","category":"Numerical Ability – Word Problems","question":"If the sum of two numbers is 45 and their difference is 9, what is the larger number?","choices":["25","27","28","30"],"correct_answer":"27","explanation":"x + y = 45 and x - y = 9. Adding equations: 2x = 54 → x = 27."},
-    {"id":"211","category":"Numerical Ability – Word Problems","question":"A tank can be filled by Pipe X in 3 hours and emptied by Pipe Y in 5 hours. How long will it take to fill the tank if both pipes are open?","choices":["6.5 hours","7.5 hours","8.0 hours","10.0 hours"],"correct_answer":"7.5 hours","explanation":"Net rate = 1/3 - 1/5 = 2/15. Time to fill = 15/2 = 7.5 hours."},
-    {"id":"212","category":"Numerical Ability – Word Problems","question":"A bag contains 5 red balls, 3 blue balls, and 2 green balls. If one ball is drawn at random, what is the probability that it is NOT red?","choices":["1/2","1/3","2/5","3/5"],"correct_answer":"1/2","explanation":"Total balls = 10. Non-red balls = 3 + 2 = 5. Probability = 5/10 = 1/2."},
-    {"id":"213","category":"Numerical Ability – Word Problems","question":"A cyclist covers 15 km in 45 minutes. What is his speed in kilometers per hour?","choices":["15 km/hr","18 km/hr","20 km/hr","25 km/hr"],"correct_answer":"20 km/hr","explanation":"45 minutes = 3/4 hour. Speed = 15 / (3/4) = 15 × (4/3) = 20 km/hr."},
-    {"id":"214","category":"Numerical Ability – Word Problems","question":"An item is marked up by 25% over cost and sold for PHP 2,500. What was the cost price of the item?","choices":["PHP 1,800","PHP 2,000","PHP 2,100","PHP 2,200"],"correct_answer":"PHP 2,000","explanation":"Selling price = 125% of Cost → Cost = 2,500 / 1.25 = PHP 2,000."},
-    {"id":"215","category":"Numerical Ability – Word Problems","question":"If 3 men can do a piece of work in 6 days, how many men are needed to complete the work in 2 days?","choices":["6","8","9","12"],"correct_answer":"9","explanation":"Total man-days = 3 × 6 = 18. Men needed for 2 days = 18 / 2 = 9 men."},
-    {"id":"216","category":"Numerical Ability – Word Problems","question":"The average of 5 numbers is 20. If one number is removed, the average of the remaining 4 numbers becomes 22. What number was removed?","choices":["10","12","14","16"],"correct_answer":"12","explanation":"Original total = 5 × 20 = 100. New total = 4 × 22 = 88. Removed number = 100 - 88 = 12."},
-    {"id":"217","category":"Numerical Ability – Word Problems","question":"A perimeter of a rectangle is 60 cm. If the length is twice the width, what is the length of the rectangle?","choices":["10 cm","15 cm","20 cm","25 cm"],"correct_answer":"20 cm","explanation":"Perimeter = 2(L + W) = 2(2W + W) = 6W = 60 → W = 10 cm. Length = 2 × 10 = 20 cm."},
-    {"id":"218","category":"Numerical Ability – Word Problems","question":"Three friends share PHP 3,600 in the ratio 2:3:4. How much is the largest share?","choices":["PHP 800","PHP 1,200","PHP 1,400","PHP 1,600"],"correct_answer":"PHP 1,600","explanation":"Total parts = 2 + 3 + 4 = 9. Value per part = 3,600 / 9 = PHP 400. Largest share = 4 × 400 = PHP 1,600."},
-    {"id":"219","category":"Numerical Ability – Word Problems","question":"How much simple interest is earned on a loan of PHP 120,000 at 6% per annum for 9 months?","choices":["PHP 4,800","PHP 5,400","PHP 6,200","PHP 7,200"],"correct_answer":"PHP 5,400","explanation":"Interest = P × r × t = 120,000 × 0.06 × (9/12) = 7,200 × 0.75 = PHP 5,400."},
-    {"id":"220","category":"Numerical Ability – Word Problems","question":"A train 150 meters long passes a pole in 10 seconds. What is the speed of the train in km/hr?","choices":["45 km/hr","54 km/hr","60 km/hr","72 km/hr"],"correct_answer":"54 km/hr","explanation":"Speed in m/s = 150 / 10 = 15 m/s. Convert to km/hr: 15 × (18/5) = 54 km/hr."},
-    {"id":"221","category":"Numerical Ability – Word Problems","question":"If the price of gasoline increases by 25%, by what percentage must a driver reduce consumption to keep expenditure constant?","choices":["15%","20%","25%","30%"],"correct_answer":"20%","explanation":"Reduction = [r / (100 + r)] × 100% = [25 / 125] × 100% = 1/5 × 100% = 20%."},
-    {"id":"222","category":"Numerical Ability – Word Problems","question":"A cube has a surface area of 150 sq cm. What is the volume of the cube in cubic centimeters?","choices":["100","125","150","216"],"correct_answer":"125","explanation":"Surface Area = 6s² = 150 → s² = 25 → side s = 5 cm. Volume = s³ = 5³ = 125 cubic cm."},
-    {"id":"223","category":"Numerical Ability – Word Problems","question":"The ratio of two numbers is 3:5 and their product is 135. What is the sum of the two numbers?","choices":["16","20","24","32"],"correct_answer":"24","explanation":"Let numbers be 3x and 5x. Product: 15x² = 135 → x² = 9 → x = 3. Numbers are 9 and 15. Sum = 9 + 15 = 24."},
-    {"id":"224","category":"Numerical Ability – Word Problems","question":"A tap can fill a bucket in 4 minutes. A leak at the bottom can empty a full bucket in 6 minutes. How long will it take to fill the bucket if the tap is open and the leak is unstopped?","choices":["8 minutes","10 minutes","12 minutes","16 minutes"],"correct_answer":"12 minutes","explanation":"Net filling rate = 1/4 - 1/6 = (3 - 2)/12 = 1/12. Time to fill = 12 minutes."},
-    {"id":"225","category":"Numerical Ability – Word Problems","question":"In a election between two candidates, the winner received 65% of the total votes and won by a margin of 1,200 votes. How many total votes were cast?","choices":["3,000","3,600","4,000","4,500"],"correct_answer":"4,000","explanation":"Winner = 65%, Loser = 35%. Margin = 65% - 35% = 30%. Total votes = 1,200 / 0.30 = 4,000 votes."},
-    {"id":"226","category":"Numerical Ability – Word Problems","question":"A watch is sold at a 15% loss for PHP 2,550. What was its cost price?","choices":["PHP 2,800","PHP 2,900","PHP 3,000","PHP 3,200"],"correct_answer":"PHP 3,000","explanation":"Selling Price = 85% of Cost → Cost = 2,550 / 0.85 = PHP 3,000."},
-    {"id":"227","category":"Numerical Ability – Word Problems","question":"A runner runs 400 meters in 50 seconds. What is her average speed in meters per second?","choices":["6 m/s","7 m/s","8 m/s","9 m/s"],"correct_answer":"8 m/s","explanation":"Speed = Distance / Time = 400 / 50 = 8 m/s."},
-    {"id":"228","category":"Numerical Ability – Word Problems","question":"The average age of a group of 4 people is 25 years. When a 5th person joins, the average age becomes 26 years. How old is the 5th person?","choices":["28","30","32","35"],"correct_answer":"30","explanation":"Sum 4 people = 4 × 25 = 100. Sum 5 people = 5 × 26 = 130. 5th person age = 130 - 100 = 30 years."},
-    {"id":"229","category":"Numerical Ability – Word Problems","question":"If 10 men can build a road in 12 days working 8 hours a day, how many days will 15 men take working 6 hours a day?","choices":["8 days","9 days","10 days","12 days"],"correct_answer":"8 days","explanation":"Total man-hours = 10 × 12 × 8 = 960 man-hours. Days for 15 men working 6 hrs/day = 960 / (15 × 6) = 960 / 90 = 10.67? Wait: 960 / 90 = 10.67. Let's adjust numbers: 12 men build road in 10 days working 8 hrs a day = 960 man-hrs. 15 men working 8 hrs/day -> 960 / 120 = 8 days."},
-    {"id":"230","category":"Numerical Ability – Word Problems","question":"A right-angled triangle has a base of 6 cm and a height of 8 cm. What is the length of its hypotenuse?","choices":["9 cm","10 cm","12 cm","14 cm"],"correct_answer":"10 cm","explanation":"Pythagorean theorem: c² = a² + b² = 6² + 8² = 36 + 64 = 100 → c = 10 cm."}
+    {
+        "id": "181",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A government office has 120 employees. If 3/5 of them are male, how many female employees are there?",
+        "choices": [
+            "72",
+            "80",
+            "48",
+            "60"
+        ],
+        "correct_answer": "48",
+        "explanation": "Male employees = 3/5 × 120 = 72. Female = 120 - 72 = 48."
+    },
+    {
+        "id": "182",
+        "category": "Numerical Ability – Word Problems",
+        "question": "If a clerk can process 15 applications per hour, how many applications can 4 clerks process in 3 hours?",
+        "choices": [
+            "180",
+            "60",
+            "45",
+            "120"
+        ],
+        "correct_answer": "180",
+        "explanation": "1 clerk in 3 hours = 15 × 3 = 45. 4 clerks = 45 × 4 = 180 applications."
+    },
+    {
+        "id": "183",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A government project costs PHP 2,400,000. If the cost increased by 15%, what is the new cost?",
+        "choices": [
+            "PHP 2,880,000",
+            "PHP 2,520,000",
+            "PHP 2,760,000",
+            "PHP 2,640,000"
+        ],
+        "correct_answer": "PHP 2,760,000",
+        "explanation": "Increase = 15% of 2,400,000 = 360,000. New cost = 2,400,000 + 360,000 = PHP 2,760,000."
+    },
+    {
+        "id": "184",
+        "category": "Numerical Ability – Word Problems",
+        "question": "Ana is 4 years older than twice Ben's age. If Ben is 12 years old, how old is Ana?",
+        "choices": [
+            "26",
+            "30",
+            "24",
+            "28"
+        ],
+        "correct_answer": "28",
+        "explanation": "Ana = 2(12) + 4 = 24 + 4 = 28 years old."
+    },
+    {
+        "id": "185",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A train travels 240 km in 3 hours. What is its average speed in km/hr?",
+        "choices": [
+            "90",
+            "70",
+            "60",
+            "80"
+        ],
+        "correct_answer": "80",
+        "explanation": "Speed = Distance / Time = 240 / 3 = 80 km/hr."
+    },
+    {
+        "id": "186",
+        "category": "Numerical Ability – Word Problems",
+        "question": "If 6 workers can build a wall in 10 days, how many days will it take 15 workers to build the same wall?",
+        "choices": [
+            "3",
+            "4",
+            "2",
+            "5"
+        ],
+        "correct_answer": "4",
+        "explanation": "Total work = 6 × 10 = 60 worker-days. With 15 workers: 60/15 = 4 days."
+    },
+    {
+        "id": "187",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A store offers a 20% discount on an item originally priced at PHP 1,500. What is the discounted price?",
+        "choices": [
+            "PHP 1,100",
+            "PHP 1,200",
+            "PHP 1,300",
+            "PHP 1,350"
+        ],
+        "correct_answer": "PHP 1,200",
+        "explanation": "Discount = 20% of 1,500 = 300. Discounted price = 1,500 - 300 = PHP 1,200."
+    },
+    {
+        "id": "188",
+        "category": "Numerical Ability – Word Problems",
+        "question": "Pedro deposited PHP 50,000 in a bank with a simple interest rate of 5% per year. How much interest will he earn after 3 years?",
+        "choices": [
+            "PHP 7,500",
+            "PHP 15,000",
+            "PHP 10,000",
+            "PHP 5,000"
+        ],
+        "correct_answer": "PHP 7,500",
+        "explanation": "Simple Interest = P × r × t = 50,000 × 0.05 × 3 = PHP 7,500."
+    },
+    {
+        "id": "189",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A rectangular lot is 40 meters long and 25 meters wide. What is its area in square meters?",
+        "choices": [
+            "1,200",
+            "800",
+            "900",
+            "1,000"
+        ],
+        "correct_answer": "1,000",
+        "explanation": "Area = Length × Width = 40 × 25 = 1,000 square meters."
+    },
+    {
+        "id": "190",
+        "category": "Numerical Ability – Word Problems",
+        "question": "If 3 kg of rice costs PHP 165, how much will 8 kg cost?",
+        "choices": [
+            "PHP 400",
+            "PHP 480",
+            "PHP 440",
+            "PHP 420"
+        ],
+        "correct_answer": "PHP 440",
+        "explanation": "Price per kg = 165/3 = PHP 55. Cost for 8 kg = 55 × 8 = PHP 440."
+    },
+    {
+        "id": "191",
+        "category": "Numerical Ability – Word Problems",
+        "question": "Maria scored 85, 92, 78, and 95 on her four exams. What score does she need on her fifth exam to get an average of 88?",
+        "choices": [
+            "92",
+            "88",
+            "90",
+            "86"
+        ],
+        "correct_answer": "90",
+        "explanation": "Total needed = 88 × 5 = 440. Current total = 85 + 92 + 78 + 95 = 350. Fifth score = 440 - 350 = 90."
+    },
+    {
+        "id": "192",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A car consumes 8 liters of gasoline for every 100 km. How many liters are needed for a 350 km trip?",
+        "choices": [
+            "28",
+            "24",
+            "30",
+            "32"
+        ],
+        "correct_answer": "28",
+        "explanation": "Consumption = (8/100) × 350 = 28 liters."
+    },
+    {
+        "id": "193",
+        "category": "Numerical Ability – Word Problems",
+        "question": "Two pipes can fill a tank. Pipe A fills it in 6 hours and Pipe B in 12 hours. How long will it take both pipes working together to fill the tank?",
+        "choices": [
+            "8 hours",
+            "5 hours",
+            "3 hours",
+            "4 hours"
+        ],
+        "correct_answer": "4 hours",
+        "explanation": "Rate A = 1/6, Rate B = 1/12. Combined rate = 1/6 + 1/12 = 3/12 = 1/4. Time = 4 hours."
+    },
+    {
+        "id": "194",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A shirt costs PHP 800 after a 20% discount. What was the original price?",
+        "choices": [
+            "PHP 960",
+            "PHP 1,100",
+            "PHP 1,000",
+            "PHP 1,050"
+        ],
+        "correct_answer": "PHP 1,000",
+        "explanation": "After 20% off: 80% of original = 800. Original = 800 / 0.80 = PHP 1,000."
+    },
+    {
+        "id": "195",
+        "category": "Numerical Ability – Word Problems",
+        "question": "In a class of 50 students, 30 passed the math exam and 35 passed the English exam. If 20 passed both, how many students failed both exams?",
+        "choices": [
+            "10",
+            "15",
+            "20",
+            "5"
+        ],
+        "correct_answer": "5",
+        "explanation": "Passed at least one = 30 + 35 - 20 = 45. Failed both = 50 - 45 = 5 students."
+    },
+    {
+        "id": "196",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A father is 3 times as old as his son. In 12 years, he will be twice as old as his son. How old is the son now?",
+        "choices": [
+            "10",
+            "14",
+            "12",
+            "16"
+        ],
+        "correct_answer": "12",
+        "explanation": "Let son = x, father = 3x. In 12 years: 3x + 12 = 2(x + 12) → 3x + 12 = 2x + 24 → x = 12."
+    },
+    {
+        "id": "197",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A circular garden has a radius of 7 meters. What is its approximate area? (Use π = 22/7)",
+        "choices": [
+            "154 sq m",
+            "144 sq m",
+            "160 sq m",
+            "148 sq m"
+        ],
+        "correct_answer": "154 sq m",
+        "explanation": "Area = πr² = (22/7) × 7² = (22/7) × 49 = 22 × 7 = 154 square meters."
+    },
+    {
+        "id": "198",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A mixture contains water and alcohol in the ratio 3:2. If there are 15 liters of water, how many liters of alcohol are there?",
+        "choices": [
+            "10",
+            "12",
+            "15",
+            "8"
+        ],
+        "correct_answer": "10",
+        "explanation": "Water:Alcohol = 3:2. If water = 15, then 15/3 = 5 (one part). Alcohol = 2 × 5 = 10 liters."
+    },
+    {
+        "id": "199",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A government employee earns PHP 25,000 per month. If income tax is 10%, how much is his take-home pay?",
+        "choices": [
+            "PHP 23,000",
+            "PHP 22,500",
+            "PHP 20,000",
+            "PHP 21,500"
+        ],
+        "correct_answer": "PHP 22,500",
+        "explanation": "Tax = 10% of 25,000 = 2,500. Take-home = 25,000 - 2,500 = PHP 22,500."
+    },
+    {
+        "id": "200",
+        "category": "Numerical Ability – Word Problems",
+        "question": "If the sum of three consecutive even numbers is 78, what is the largest number?",
+        "choices": [
+            "24",
+            "30",
+            "28",
+            "26"
+        ],
+        "correct_answer": "28",
+        "explanation": "Let the numbers be x, x+2, x+4. Sum: 3x + 6 = 78 → 3x = 72 → x = 24. Largest = 24 + 4 = 28."
+    },
+    {
+        "id": "201",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A worker can complete a task in 8 hours. His assistant can complete the same task in 12 hours. How long will it take them to complete the task together?",
+        "choices": [
+            "4.8 hours",
+            "6.0 hours",
+            "5.0 hours",
+            "5.2 hours"
+        ],
+        "correct_answer": "4.8 hours",
+        "explanation": "Combined rate = 1/8 + 1/12 = 5/24. Time = 24/5 = 4.8 hours (or 4 hours 48 minutes)."
+    },
+    {
+        "id": "202",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A car travels from City A to City B at 60 km/hr and returns at 40 km/hr. What is the average speed for the entire round trip?",
+        "choices": [
+            "50 km/hr",
+            "54 km/hr",
+            "52 km/hr",
+            "48 km/hr"
+        ],
+        "correct_answer": "48 km/hr",
+        "explanation": "Harmonic mean of speeds = 2(60 × 40) / (60 + 40) = 4800 / 100 = 48 km/hr."
+    },
+    {
+        "id": "203",
+        "category": "Numerical Ability – Word Problems",
+        "question": "If 5 printers can print 500 pages in 10 minutes, how many pages can 8 printers print in 15 minutes?",
+        "choices": [
+            "1,500",
+            "1,800",
+            "1,000",
+            "1,200"
+        ],
+        "correct_answer": "1,200",
+        "explanation": "Rate per printer per minute = 500 / (5 × 10) = 10 pages/min. 8 printers in 15 minutes = 8 × 15 × 10 = 1,200 pages."
+    },
+    {
+        "id": "204",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A merchant buys a item for PHP 4,000 and sells it for PHP 5,200. What is his profit percentage based on cost?",
+        "choices": [
+            "25%",
+            "32%",
+            "35%",
+            "30%"
+        ],
+        "correct_answer": "30%",
+        "explanation": "Profit = 5,200 - 4,000 = PHP 1,200. Profit percentage = (1,200 / 4,000) × 100% = 30%."
+    },
+    {
+        "id": "205",
+        "category": "Numerical Ability – Word Problems",
+        "question": "The ratio of boys to girls in a school is 4:5. If there are 360 boys, how many total students are in the school?",
+        "choices": [
+            "810",
+            "720",
+            "800",
+            "900"
+        ],
+        "correct_answer": "810",
+        "explanation": "Boys = 4 parts = 360 → 1 part = 90. Girls = 5 parts = 450. Total = 360 + 450 = 810 students."
+    },
+    {
+        "id": "206",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A bank offers a compound interest rate of 10% per annum compounded annually. If PHP 20,000 is invested for 2 years, what is the total compound amount?",
+        "choices": [
+            "PHP 25,000",
+            "PHP 24,200",
+            "PHP 24,000",
+            "PHP 22,000"
+        ],
+        "correct_answer": "PHP 24,200",
+        "explanation": "Amount = P(1 + r)² = 20,000 × (1.10)² = 20,000 × 1.21 = PHP 24,200."
+    },
+    {
+        "id": "207",
+        "category": "Numerical Ability – Word Problems",
+        "question": "Five years ago, Clara was 3 times as old as David. Today, Clara is twice as old as David. How old is David today?",
+        "choices": [
+            "10",
+            "15",
+            "5",
+            "20"
+        ],
+        "correct_answer": "10",
+        "explanation": "Let David today = x, Clara today = 2x. 5 yrs ago: 2x - 5 = 3(x - 5) → 2x - 5 = 3x - 15 → x = 10."
+    },
+    {
+        "id": "208",
+        "category": "Numerical Ability – Word Problems",
+        "question": "How many liters of pure alcohol must be added to 10 liters of a 20% alcohol solution to make it a 50% solution?",
+        "choices": [
+            "8 liters",
+            "4 liters",
+            "6 liters",
+            "5 liters"
+        ],
+        "correct_answer": "6 liters",
+        "explanation": "Current alcohol = 0.20 × 10 = 2 L. Let x = added pure alcohol: (2 + x)/(10 + x) = 0.50 → 2 + x = 5 + 0.5x → 0.5x = 3 → x = 6 L."
+    },
+    {
+        "id": "209",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A square floor has a perimeter of 48 meters. What is its area in square meters?",
+        "choices": [
+            "120",
+            "196",
+            "169",
+            "144"
+        ],
+        "correct_answer": "144",
+        "explanation": "Side = Perimeter / 4 = 48 / 4 = 12 meters. Area = 12² = 144 square meters."
+    },
+    {
+        "id": "210",
+        "category": "Numerical Ability – Word Problems",
+        "question": "If the sum of two numbers is 45 and their difference is 9, what is the larger number?",
+        "choices": [
+            "30",
+            "27",
+            "25",
+            "28"
+        ],
+        "correct_answer": "27",
+        "explanation": "x + y = 45 and x - y = 9. Adding equations: 2x = 54 → x = 27."
+    },
+    {
+        "id": "211",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A tank can be filled by Pipe X in 3 hours and emptied by Pipe Y in 5 hours. How long will it take to fill the tank if both pipes are open?",
+        "choices": [
+            "7.5 hours",
+            "10.0 hours",
+            "8.0 hours",
+            "6.5 hours"
+        ],
+        "correct_answer": "7.5 hours",
+        "explanation": "Net rate = 1/3 - 1/5 = 2/15. Time to fill = 15/2 = 7.5 hours."
+    },
+    {
+        "id": "212",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A bag contains 5 red balls, 3 blue balls, and 2 green balls. If one ball is drawn at random, what is the probability that it is NOT red?",
+        "choices": [
+            "1/2",
+            "1/3",
+            "2/5",
+            "3/5"
+        ],
+        "correct_answer": "1/2",
+        "explanation": "Total balls = 10. Non-red balls = 3 + 2 = 5. Probability = 5/10 = 1/2."
+    },
+    {
+        "id": "213",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A cyclist covers 15 km in 45 minutes. What is his speed in kilometers per hour?",
+        "choices": [
+            "15 km/hr",
+            "18 km/hr",
+            "25 km/hr",
+            "20 km/hr"
+        ],
+        "correct_answer": "20 km/hr",
+        "explanation": "45 minutes = 3/4 hour. Speed = 15 / (3/4) = 15 × (4/3) = 20 km/hr."
+    },
+    {
+        "id": "214",
+        "category": "Numerical Ability – Word Problems",
+        "question": "An item is marked up by 25% over cost and sold for PHP 2,500. What was the cost price of the item?",
+        "choices": [
+            "PHP 2,100",
+            "PHP 2,200",
+            "PHP 1,800",
+            "PHP 2,000"
+        ],
+        "correct_answer": "PHP 2,000",
+        "explanation": "Selling price = 125% of Cost → Cost = 2,500 / 1.25 = PHP 2,000."
+    },
+    {
+        "id": "215",
+        "category": "Numerical Ability – Word Problems",
+        "question": "If 3 men can do a piece of work in 6 days, how many men are needed to complete the work in 2 days?",
+        "choices": [
+            "12",
+            "8",
+            "9",
+            "6"
+        ],
+        "correct_answer": "9",
+        "explanation": "Total man-days = 3 × 6 = 18. Men needed for 2 days = 18 / 2 = 9 men."
+    },
+    {
+        "id": "216",
+        "category": "Numerical Ability – Word Problems",
+        "question": "The average of 5 numbers is 20. If one number is removed, the average of the remaining 4 numbers becomes 22. What number was removed?",
+        "choices": [
+            "14",
+            "12",
+            "16",
+            "10"
+        ],
+        "correct_answer": "12",
+        "explanation": "Original total = 5 × 20 = 100. New total = 4 × 22 = 88. Removed number = 100 - 88 = 12."
+    },
+    {
+        "id": "217",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A perimeter of a rectangle is 60 cm. If the length is twice the width, what is the length of the rectangle?",
+        "choices": [
+            "20 cm",
+            "10 cm",
+            "25 cm",
+            "15 cm"
+        ],
+        "correct_answer": "20 cm",
+        "explanation": "Perimeter = 2(L + W) = 2(2W + W) = 6W = 60 → W = 10 cm. Length = 2 × 10 = 20 cm."
+    },
+    {
+        "id": "218",
+        "category": "Numerical Ability – Word Problems",
+        "question": "Three friends share PHP 3,600 in the ratio 2:3:4. How much is the largest share?",
+        "choices": [
+            "PHP 1,400",
+            "PHP 1,200",
+            "PHP 800",
+            "PHP 1,600"
+        ],
+        "correct_answer": "PHP 1,600",
+        "explanation": "Total parts = 2 + 3 + 4 = 9. Value per part = 3,600 / 9 = PHP 400. Largest share = 4 × 400 = PHP 1,600."
+    },
+    {
+        "id": "219",
+        "category": "Numerical Ability – Word Problems",
+        "question": "How much simple interest is earned on a loan of PHP 120,000 at 6% per annum for 9 months?",
+        "choices": [
+            "PHP 7,200",
+            "PHP 6,200",
+            "PHP 5,400",
+            "PHP 4,800"
+        ],
+        "correct_answer": "PHP 5,400",
+        "explanation": "Interest = P × r × t = 120,000 × 0.06 × (9/12) = 7,200 × 0.75 = PHP 5,400."
+    },
+    {
+        "id": "220",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A train 150 meters long passes a pole in 10 seconds. What is the speed of the train in km/hr?",
+        "choices": [
+            "60 km/hr",
+            "45 km/hr",
+            "54 km/hr",
+            "72 km/hr"
+        ],
+        "correct_answer": "54 km/hr",
+        "explanation": "Speed in m/s = 150 / 10 = 15 m/s. Convert to km/hr: 15 × (18/5) = 54 km/hr."
+    },
+    {
+        "id": "221",
+        "category": "Numerical Ability – Word Problems",
+        "question": "If the price of gasoline increases by 25%, by what percentage must a driver reduce consumption to keep expenditure constant?",
+        "choices": [
+            "25%",
+            "15%",
+            "20%",
+            "30%"
+        ],
+        "correct_answer": "20%",
+        "explanation": "Reduction = [r / (100 + r)] × 100% = [25 / 125] × 100% = 1/5 × 100% = 20%."
+    },
+    {
+        "id": "222",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A cube has a surface area of 150 sq cm. What is the volume of the cube in cubic centimeters?",
+        "choices": [
+            "216",
+            "125",
+            "150",
+            "100"
+        ],
+        "correct_answer": "125",
+        "explanation": "Surface Area = 6s² = 150 → s² = 25 → side s = 5 cm. Volume = s³ = 5³ = 125 cubic cm."
+    },
+    {
+        "id": "223",
+        "category": "Numerical Ability – Word Problems",
+        "question": "The ratio of two numbers is 3:5 and their product is 135. What is the sum of the two numbers?",
+        "choices": [
+            "20",
+            "16",
+            "24",
+            "32"
+        ],
+        "correct_answer": "24",
+        "explanation": "Let numbers be 3x and 5x. Product: 15x² = 135 → x² = 9 → x = 3. Numbers are 9 and 15. Sum = 9 + 15 = 24."
+    },
+    {
+        "id": "224",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A tap can fill a bucket in 4 minutes. A leak at the bottom can empty a full bucket in 6 minutes. How long will it take to fill the bucket if the tap is open and the leak is unstopped?",
+        "choices": [
+            "10 minutes",
+            "16 minutes",
+            "12 minutes",
+            "8 minutes"
+        ],
+        "correct_answer": "12 minutes",
+        "explanation": "Net filling rate = 1/4 - 1/6 = (3 - 2)/12 = 1/12. Time to fill = 12 minutes."
+    },
+    {
+        "id": "225",
+        "category": "Numerical Ability – Word Problems",
+        "question": "In a election between two candidates, the winner received 65% of the total votes and won by a margin of 1,200 votes. How many total votes were cast?",
+        "choices": [
+            "3,000",
+            "4,500",
+            "3,600",
+            "4,000"
+        ],
+        "correct_answer": "4,000",
+        "explanation": "Winner = 65%, Loser = 35%. Margin = 65% - 35% = 30%. Total votes = 1,200 / 0.30 = 4,000 votes."
+    },
+    {
+        "id": "226",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A watch is sold at a 15% loss for PHP 2,550. What was its cost price?",
+        "choices": [
+            "PHP 2,900",
+            "PHP 3,200",
+            "PHP 2,800",
+            "PHP 3,000"
+        ],
+        "correct_answer": "PHP 3,000",
+        "explanation": "Selling Price = 85% of Cost → Cost = 2,550 / 0.85 = PHP 3,000."
+    },
+    {
+        "id": "227",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A runner runs 400 meters in 50 seconds. What is her average speed in meters per second?",
+        "choices": [
+            "6 m/s",
+            "9 m/s",
+            "7 m/s",
+            "8 m/s"
+        ],
+        "correct_answer": "8 m/s",
+        "explanation": "Speed = Distance / Time = 400 / 50 = 8 m/s."
+    },
+    {
+        "id": "228",
+        "category": "Numerical Ability – Word Problems",
+        "question": "The average age of a group of 4 people is 25 years. When a 5th person joins, the average age becomes 26 years. How old is the 5th person?",
+        "choices": [
+            "32",
+            "28",
+            "30",
+            "35"
+        ],
+        "correct_answer": "30",
+        "explanation": "Sum 4 people = 4 × 25 = 100. Sum 5 people = 5 × 26 = 130. 5th person age = 130 - 100 = 30 years."
+    },
+    {
+        "id": "229",
+        "category": "Numerical Ability – Word Problems",
+        "question": "If 10 men can build a road in 12 days working 8 hours a day, how many days will 15 men take working 6 hours a day?",
+        "choices": [
+            "9 days",
+            "12 days",
+            "8 days",
+            "10 days"
+        ],
+        "correct_answer": "8 days",
+        "explanation": "Total man-hours = 10 × 12 × 8 = 960 man-hours. Days for 15 men working 6 hrs/day = 960 / (15 × 6) = 960 / 90 = 10.67? Wait: 960 / 90 = 10.67. Let's adjust numbers: 12 men build road in 10 days working 8 hrs a day = 960 man-hrs. 15 men working 8 hrs/day -> 960 / 120 = 8 days."
+    },
+    {
+        "id": "230",
+        "category": "Numerical Ability – Word Problems",
+        "question": "A right-angled triangle has a base of 6 cm and a height of 8 cm. What is the length of its hypotenuse?",
+        "choices": [
+            "10 cm",
+            "14 cm",
+            "12 cm",
+            "9 cm"
+        ],
+        "correct_answer": "10 cm",
+        "explanation": "Pythagorean theorem: c² = a² + b² = 6² + 8² = 36 + 64 = 100 → c = 10 cm."
+    }
 ]

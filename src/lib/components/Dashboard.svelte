@@ -54,7 +54,7 @@
         try {
             const { data, error: dbError } = await supabase
                 .from('exam_attempts')
-                .select('id, score, total, category, mode, level, completed_at')
+                .select('id, score, total, category, mode, level, completed_at, questions, user_answers')
                 .eq('user_id', user.id)
                 .order('completed_at', { ascending: false })
                 .limit(10);
@@ -93,12 +93,22 @@
         const map = new Map<string, { correct: number; total: number }>();
         
         attempts.forEach(att => {
-            const rawCat = att.category || 'General / Mixed';
-            const cat = rawCat === 'all' || rawCat === '' ? 'General / Mixed' : rawCat;
-            if (!map.has(cat)) map.set(cat, { correct: 0, total: 0 });
-            const entry = map.get(cat)!;
-            entry.correct += att.score;
-            entry.total += att.total;
+            if (att.questions && att.user_answers && att.questions.length > 0) {
+                att.questions.forEach((q: any, idx: number) => {
+                    const cat = q.category || 'General / Mixed';
+                    if (!map.has(cat)) map.set(cat, { correct: 0, total: 0 });
+                    const entry = map.get(cat)!;
+                    entry.total++;
+                    if (att.user_answers[idx] === q.correct_answer) entry.correct++;
+                });
+            } else {
+                const rawCat = att.category || 'General / Mixed';
+                const cat = rawCat === 'all' || rawCat === '' ? 'General / Mixed' : rawCat;
+                if (!map.has(cat)) map.set(cat, { correct: 0, total: 0 });
+                const entry = map.get(cat)!;
+                entry.correct += att.score;
+                entry.total += att.total;
+            }
         });
 
         const list: CategoryStat[] = [];

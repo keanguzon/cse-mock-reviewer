@@ -2,40 +2,65 @@
     {
         "id": "121",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All accountants are detail-oriented.\n- Some managers are accountants.\n\nConclusions:\n- I. Some managers are detail-oriented.\n- II. All detail-oriented people are accountants.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Since some managers are accountants, and all accountants are detail-oriented, those managers must also be detail-oriented. Conclusion II is the converse fallacy."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All accountants are detail-oriented.\n- Some managers are accountants.\n\nConclusions:\n- I. All detail-oriented people are accountants.\n- II. Some managers are detail-oriented.",
+        "choices": [
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows",
+            "Only conclusion II follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Since some managers are accountants, and all accountants are detail-oriented, those managers must also be detail-oriented. conclusion II is the converse fallacy."
     },
     {
         "id": "122",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No corrupt official is trustworthy.\n- Some public servants are corrupt officials.\n\nConclusions:\n- I. Some public servants are not trustworthy.\n- II. All public servants are trustworthy.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Some public servants are corrupt, and no corrupt official is trustworthy; therefore some public servants are not trustworthy. Conclusion II contradicts this."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No corrupt official is trustworthy.\n- Some public servants are corrupt officials.\n\nConclusions:\n- I. All public servants are trustworthy.\n- II. Some public servants are not trustworthy.",
+        "choices": [
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Some public servants are corrupt, and no corrupt official is trustworthy; therefore some public servants are not trustworthy. conclusion II contradicts this."
     },
     {
         "id": "123",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All lawyers are eloquent.\n- No eloquent person is easily intimidated.\n\nConclusions:\n- I. No lawyer is easily intimidated.\n- II. Some easily intimidated people are lawyers.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "All lawyers are eloquent, and no eloquent person is easily intimidated, so no lawyer is easily intimidated. Conclusion II contradicts this."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All lawyers are eloquent.\n- No eloquent person is easily intimidated.\n\nConclusions:\n- I. Some easily intimidated people are lawyers.\n- II. No lawyer is easily intimidated.",
+        "choices": [
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Only conclusion I follows",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "All lawyers are eloquent, and no eloquent person is easily intimidated, so no lawyer is easily intimidated. conclusion II contradicts this."
     },
     {
         "id": "124",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some government employees are researchers.\n- All researchers have college degrees.\n\nConclusions:\n- I. Some government employees have college degrees.\n- II. Some people with college degrees are not government employees.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Government employees who are researchers must have college degrees, so Conclusion I follows. Conclusion II is possible but not guaranteed by the premises."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some government employees are researchers.\n- All researchers have college degrees.\n\nConclusions:\n- I. Some people with college degrees are not government employees.\n- II. Some government employees have college degrees.",
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows",
+            "Both conclusions I and II follow",
+            "Only conclusion II follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Government employees who are researchers must have college degrees, so conclusion I follows. conclusion II is possible but not guaranteed by the premises."
     },
     {
         "id": "125",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All valid laws are constitutional.\n- Republic Act 101 is constitutional.\n\nConclusions:\n- I. Republic Act 101 is a valid law.\n- II. Some constitutional measures are not valid laws.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Both conclusions I and II follow",
+            "Only conclusion II follows",
+            "Only conclusion I follows",
+            "Neither conclusion I nor II follows"
+        ],
         "correct_answer": "Neither conclusion I nor II follows",
         "explanation": "Being constitutional does not mean something is a valid law (affirming the consequent). Neither conclusion necessarily follows from the premises alone."
     },
@@ -43,7 +68,12 @@
         "id": "126",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No pet is wild.\n- All lions are wild.\n\nConclusions:\n- I. No lion is a pet.\n- II. Some pets are not lions.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows"
+        ],
         "correct_answer": "Both conclusions I and II follow",
         "explanation": "Since all lions are wild and no pet is wild, no lion can be a pet (I). Since no pet is a lion, 'some pets are not lions' is trivially true (II)."
     },
@@ -51,7 +81,12 @@
         "id": "127",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some documents are classified.\n- Some classified items are confidential.\n\nConclusions:\n- I. Some documents are confidential.\n- II. No document is confidential.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Either conclusion I or II follows", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion I follows",
+            "Neither conclusion I nor II follows",
+            "Only conclusion II follows",
+            "Either conclusion I or II follows"
+        ],
         "correct_answer": "Neither conclusion I nor II follows",
         "explanation": "There is no direct link between documents and confidential items. The classified documents and the classified confidential items may not overlap."
     },
@@ -59,7 +94,12 @@
         "id": "128",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All professional civil servants are eligibility passers.\n- All eligibility passers are government assets.\n\nConclusions:\n- I. All professional civil servants are government assets.\n- II. Some government assets are professional civil servants.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows",
+            "Only conclusion II follows"
+        ],
         "correct_answer": "Both conclusions I and II follow",
         "explanation": "By transitivity, professional civil servants are government assets (I). Since professional civil servants exist within government assets, some government assets are professional civil servants (II)."
     },
@@ -67,7 +107,12 @@
         "id": "129",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some policies are popular.\n- All popular things are beneficial.\n\nConclusions:\n- I. Some policies are beneficial.\n- II. Some beneficial things are policies.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion II follows",
+            "Only conclusion I follows",
+            "Neither conclusion I nor II follows",
+            "Both conclusions I and II follow"
+        ],
         "correct_answer": "Both conclusions I and II follow",
         "explanation": "Popular policies are also beneficial, so some policies are beneficial (I). Since there exist things that are both beneficial and policies, (II) also follows."
     },
@@ -75,7 +120,12 @@
         "id": "130",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No insect has warm blood.\n- All mosquitoes are insects.\n\nConclusions:\n- I. No mosquito has warm blood.\n- II. Some warm-blooded creatures are not mosquitoes.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Only conclusion I follows"
+        ],
         "correct_answer": "Both conclusions I and II follow",
         "explanation": "Mosquitoes are insects and no insect has warm blood, so no mosquito has warm blood (I). Since mosquitoes are excluded from warm-blooded creatures, all warm-blooded creatures are not mosquitoes (II)."
     },
@@ -83,7 +133,12 @@
         "id": "131",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All citizens are tax payers.\n- Some tax payers are philanthropists.\n\nConclusions:\n- I. Some citizens are philanthropists.\n- II. No citizen is a philanthropist.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Either conclusion I or II follows", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Either conclusion I or II follows",
+            "Neither conclusion I nor II follows",
+            "Only conclusion II follows",
+            "Only conclusion I follows"
+        ],
         "correct_answer": "Neither conclusion I nor II follows",
         "explanation": "The philanthropist tax payers may or may not be citizens. Without knowing which tax payers are philanthropists, neither conclusion can be confirmed."
     },
@@ -91,143 +146,233 @@
         "id": "132",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All leaders are visionary.\n- No visionary person is pessimistic.\n\nConclusions:\n- I. No leader is pessimistic.\n- II. No pessimistic person is a leader.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Both conclusions I and II follow",
+            "Only conclusion II follows",
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows"
+        ],
         "correct_answer": "Both conclusions I and II follow",
         "explanation": "Leaders are visionary, and no visionary is pessimistic, so no leader is pessimistic (I). Mutual exclusivity is symmetric, so no pessimistic person is a leader (II)."
     },
     {
         "id": "133",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All birds have feathers.\n- Penguins are birds.\n\nConclusions:\n- I. Penguins have feathers.\n- II. All creatures with feathers are birds.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Since penguins are birds and all birds have feathers, penguins have feathers (I). However, we cannot conclude that all feathered creatures are birds — that is the converse fallacy (II)."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All birds have feathers.\n- Penguins are birds.\n\nConclusions:\n- I. All creatures with feathers are birds.\n- II. Penguins have feathers.",
+        "choices": [
+            "Only conclusion I follows",
+            "Both conclusions I and II follow",
+            "Only conclusion II follows",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Since penguins are birds and all birds have feathers, penguins have feathers (II). However, we cannot conclude that all feathered creatures are birds — that is the converse fallacy (I)."
     },
     {
         "id": "134",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some athletes are students.\n- All students are disciplined.\n\nConclusions:\n- I. Some athletes are disciplined.\n- II. All disciplined people are students.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Athletes who are students must be disciplined, so some athletes are disciplined (I). But not all disciplined people are necessarily students (II)."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some athletes are students.\n- All students are disciplined.\n\nConclusions:\n- I. All disciplined people are students.\n- II. Some athletes are disciplined.",
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Only conclusion I follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Athletes who are students must be disciplined, so some athletes are disciplined (II). But not all disciplined people are necessarily students (I)."
     },
     {
         "id": "135",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No employee who is absent can receive a perfect attendance bonus.\n- Juan was absent last month.\n\nConclusions:\n- I. Juan cannot receive a perfect attendance bonus.\n- II. Juan will receive a partial attendance bonus instead.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Since Juan was absent and no absent employee can receive the bonus, Juan cannot receive it (I). There is no mention of a partial bonus in the premises (II)."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No employee who is absent can receive a perfect attendance bonus.\n- Juan was absent last month.\n\nConclusions:\n- I. Juan will receive a partial attendance bonus instead.\n- II. Juan cannot receive a perfect attendance bonus.",
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Only conclusion II follows",
+            "Only conclusion I follows",
+            "Both conclusions I and II follow"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Since Juan was absent and no absent employee can receive the bonus, Juan cannot receive it (II). There is no mention of a partial bonus in the premises (I)."
     },
     {
         "id": "136",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All registered voters have IDs.\n- Maria does not have an ID.\n\nConclusions:\n- I. Maria is not a registered voter.\n- II. Maria cannot vote.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "By contrapositive: if all registered voters have IDs and Maria doesn't, she is not a registered voter (I). But the premises don't state that only registered voters can vote (II)."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All registered voters have IDs.\n- Maria does not have an ID.\n\nConclusions:\n- I. Maria cannot vote.\n- II. Maria is not a registered voter.",
+        "choices": [
+            "Only conclusion II follows",
+            "Only conclusion I follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "By contrapositive: if all registered voters have IDs and Maria doesn't, she is not a registered voter (II). But the premises don't state that only registered voters can vote (I)."
     },
     {
         "id": "137",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some teachers are writers.\n- No writer is lazy.\n\nConclusions:\n- I. Some teachers are not lazy.\n- II. No teacher is lazy.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Teachers who are writers cannot be lazy, so some teachers are not lazy (I). But teachers who are not writers could still be lazy, so we can't conclude no teacher is lazy (II)."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some teachers are writers.\n- No writer is lazy.\n\nConclusions:\n- I. No teacher is lazy.\n- II. Some teachers are not lazy.",
+        "choices": [
+            "Both conclusions I and II follow",
+            "Only conclusion II follows",
+            "Only conclusion I follows",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Teachers who are writers cannot be lazy, so some teachers are not lazy (II). But teachers who are not writers could still be lazy, so we can't conclude no teacher is lazy (I)."
     },
     {
         "id": "138",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All fruits contain vitamins.\n- Some foods are fruits.\n\nConclusions:\n- I. Some foods contain vitamins.\n- II. All foods contain vitamins.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Foods that are fruits contain vitamins, so some foods contain vitamins (I). But not all foods are fruits, so we cannot say all foods contain vitamins (II)."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All fruits contain vitamins.\n- Some foods are fruits.\n\nConclusions:\n- I. All foods contain vitamins.\n- II. Some foods contain vitamins.",
+        "choices": [
+            "Only conclusion I follows",
+            "Neither conclusion I nor II follows",
+            "Both conclusions I and II follow",
+            "Only conclusion II follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Foods that are fruits contain vitamins, so some foods contain vitamins (II). But not all foods are fruits, so we cannot say all foods contain vitamins (I)."
     },
     {
         "id": "139",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No honest person cheats.\n- All members of this organization are honest.\n\nConclusions:\n- I. No member of this organization cheats.\n- II. Some cheaters are members of this organization.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "All members are honest and no honest person cheats, so no member cheats (I). Since no member cheats, no cheater can be a member — Conclusion II directly contradicts this."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No honest person cheats.\n- All members of this organization are honest.\n\nConclusions:\n- I. Some cheaters are members of this organization.\n- II. No member of this organization cheats.",
+        "choices": [
+            "Both conclusions I and II follow",
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "All members are honest and no honest person cheats, so no member cheats (II). Since no member cheats, no cheater can be a member — conclusion II directly contradicts this."
     },
     {
         "id": "140",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some employees are engineers.\n- Some engineers are managers.\n\nConclusions:\n- I. Some employees are managers.\n- II. No employee is a manager.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Either conclusion I or II follows", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion II follows",
+            "Neither conclusion I nor II follows",
+            "Either conclusion I or II follows",
+            "Only conclusion I follows"
+        ],
         "correct_answer": "Neither conclusion I nor II follows",
         "explanation": "The employee-engineers and the manager-engineers may or may not overlap. Without a direct link, neither conclusion can be definitively drawn from the premises."
     },
     {
         "id": "141",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All government auditors are certified accountants.\n- All certified accountants understand tax laws.\n\nConclusions:\n- I. All government auditors understand tax laws.\n- II. All people who understand tax laws are government auditors.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "By hypothetical syllogism (All A are B, All B are C -> All A are C), Conclusion I follows. Conclusion II commits the converse fallacy."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All government auditors are certified accountants.\n- All certified accountants understand tax laws.\n\nConclusions:\n- I. All people who understand tax laws are government auditors.\n- II. All government auditors understand tax laws.",
+        "choices": [
+            "Both conclusions I and II follow",
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "By hypothetical syllogism (All A are B, All B are C -> All A are C), conclusion I follows. conclusion II commits the converse fallacy."
     },
     {
         "id": "142",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No unexcused absence is permitted.\n- Maria has an unexcused absence.\n\nConclusions:\n- I. Maria's absence is not permitted.\n- II. Maria will be terminated from service.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Since no unexcused absence is permitted and Maria's absence is unexcused, her absence is not permitted (I). Termination (II) goes beyond the given statements."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No unexcused absence is permitted.\n- Maria has an unexcused absence.\n\nConclusions:\n- I. Maria will be terminated from service.\n- II. Maria's absence is not permitted.",
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Only conclusion II follows",
+            "Only conclusion I follows",
+            "Both conclusions I and II follow"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Since no unexcused absence is permitted and Maria's absence is unexcused, her absence is not permitted (II). Termination (I) goes beyond the given statements."
     },
     {
         "id": "143",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- If an applicant passes the civil service exam, they become eligible for permanent appointment.\n- Juan became eligible for permanent appointment.\n\nConclusions:\n- I. Juan passed the civil service exam.\n- II. Juan did not pass the civil service exam.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows"
+        ],
         "correct_answer": "Neither conclusion I nor II follows",
         "explanation": "Afirming the consequent fallacy: eligibility could be acquired through other laws (e.g., Honor Graduate Eligibility RA 1080). We cannot definitively infer I."
     },
     {
         "id": "144",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- If a typhoon alert is raised to Signal 3, government offices are closed.\n- Government offices are not closed today.\n\nConclusions:\n- I. Typhoon alert Signal 3 was not raised today.\n- II. Typhoon alert Signal 1 was raised today.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Modus Tollens (If P then Q; Not Q; Therefore Not P). Since offices are not closed, Signal 3 was not raised. Signal 1 (II) is unmentioned."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- If a typhoon alert is raised to Signal 3, government offices are closed.\n- Government offices are not closed today.\n\nConclusions:\n- I. Typhoon alert Signal 1 was raised today.\n- II. Typhoon alert Signal 3 was not raised today.",
+        "choices": [
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Only conclusion I follows",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Modus Tollens (If P then Q; Not Q; Therefore Not P). Since offices are not closed, Signal 3 was not raised. Signal 1 (I) is unmentioned."
     },
     {
         "id": "145",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All public officers must file their SALN annually.\n- Elena is a public officer.\n\nConclusions:\n- I. Elena must file her SALN annually.\n- II. Elena has already filed her SALN this year.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Universal instantiation directly applies the rule to Elena (I). Whether she has already filed (II) is not stated."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All public officers must file their SALN annually.\n- Elena is a public officer.\n\nConclusions:\n- I. Elena has already filed her SALN this year.\n- II. Elena must file her SALN annually.",
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Only conclusion I follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Universal instantiation directly applies the rule to Elena (II). Whether she has already filed (I) is not stated."
     },
     {
         "id": "146",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Either the project will be approved by the board or it will be deferred.\n- The project was not approved by the board.\n\nConclusions:\n- I. The project was deferred.\n- II. The project was permanently cancelled.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Disjunctive syllogism (P or Q; Not P; Therefore Q). Since it was not approved, it must be deferred (I). Permanent cancellation (II) is not stated."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Either the project will be approved by the board or it will be deferred.\n- The project was not approved by the board.\n\nConclusions:\n- I. The project was permanently cancelled.\n- II. The project was deferred.",
+        "choices": [
+            "Only conclusion II follows",
+            "Only conclusion I follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Disjunctive syllogism (P or Q; Not P; Therefore Q). Since it was not approved, it must be deferred (II). Permanent cancellation (I) is not stated."
     },
     {
         "id": "147",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some department heads are lawyers.\n- All lawyers understand legal procedures.\n\nConclusions:\n- I. Some department heads understand legal procedures.\n- II. All department heads understand legal procedures.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Department heads who are lawyers must understand legal procedures, so 'some' do (I). We cannot generalize to 'all' department heads (II)."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some department heads are lawyers.\n- All lawyers understand legal procedures.\n\nConclusions:\n- I. All department heads understand legal procedures.\n- II. Some department heads understand legal procedures.",
+        "choices": [
+            "Only conclusion I follows",
+            "Both conclusions I and II follow",
+            "Only conclusion II follows",
+            "Neither conclusion I nor II follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Department heads who are lawyers must understand legal procedures, so 'some' do (II). We cannot generalize to 'all' department heads (I)."
     },
     {
         "id": "148",
         "category": "Analytical Ability – Logic / Syllogisms",
-        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No temporary employee is eligible for a pension.\n- Some division chiefs are temporary employees.\n\nConclusions:\n- I. Some division chiefs are not eligible for a pension.\n- II. All division chiefs are eligible for a pension.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
-        "correct_answer": "Only conclusion I follows",
-        "explanation": "Division chiefs who are temporary employees cannot be eligible for a pension, so 'some division chiefs are not eligible' (I) follows. II contradicts this."
+        "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No temporary employee is eligible for a pension.\n- Some division chiefs are temporary employees.\n\nConclusions:\n- I. All division chiefs are eligible for a pension.\n- II. Some division chiefs are not eligible for a pension.",
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Both conclusions I and II follow",
+            "Only conclusion II follows",
+            "Only conclusion I follows"
+        ],
+        "correct_answer": "Only conclusion II follows",
+        "explanation": "Division chiefs who are temporary employees cannot be eligible for a pension, so 'some division chiefs are not eligible' (II) follows. I contradicts this."
     },
     {
         "id": "149",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All items listed in Schedule A are tax-exempt.\n- Item X is listed in Schedule A.\n\nConclusions:\n- I. Item X is tax-exempt.\n- II. Item X is a luxury good.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Both conclusions I and II follow",
+            "Only conclusion II follows",
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Direct deductive application: Item X is in Schedule A, and all Schedule A items are tax-exempt (I)."
     },
@@ -235,7 +380,12 @@
         "id": "150",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All municipal mayors are elected officials.\n- All elected officials are public servants.\n\nConclusions:\n- I. All municipal mayors are public servants.\n- II. All public servants are municipal mayors.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Chain syllogism (All A are B, All B are C -> All A are C). Conclusion II is the converse fallacy."
     },
@@ -243,7 +393,12 @@
         "id": "151",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No counterfeit bills are valid currency.\n- Some notes in the register are counterfeit bills.\n\nConclusions:\n- I. Some notes in the register are not valid currency.\n- II. All notes in the register are valid currency.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion I follows",
+            "Both conclusions I and II follow",
+            "Only conclusion II follows",
+            "Neither conclusion I nor II follows"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Counterfeit notes in the register are not valid currency, so 'some notes in the register are not valid currency' (I)."
     },
@@ -251,7 +406,12 @@
         "id": "152",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- If an employee completes 10 years of service, they receive a loyalty award.\n- Pedro received a loyalty award.\n\nConclusions:\n- I. Pedro completed 10 years of service.\n- II. Pedro has worked for less than 10 years.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Both conclusions I and II follow",
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Neither conclusion I nor II follows"
+        ],
         "correct_answer": "Neither conclusion I nor II follows",
         "explanation": "Affirming the consequent fallacy: receiving an award could happen through other special recognitions. Neither I nor II is logically guaranteed."
     },
@@ -259,7 +419,12 @@
         "id": "153",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All formal complaints must be submitted in writing.\n- Complaint Y was submitted verbally.\n\nConclusions:\n- I. Complaint Y is not a formal complaint.\n- II. Complaint Y will be dismissed immediately.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Only conclusion II follows",
+            "Only conclusion I follows",
+            "Both conclusions I and II follow"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Since all formal complaints are written and Y is verbal, Y is not a formal complaint (Modus Tollens, I). Immediate dismissal (II) is an extra assumption."
     },
@@ -267,7 +432,12 @@
         "id": "154",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some government contracts are multi-year agreements.\n- All multi-year agreements require legislative oversight.\n\nConclusions:\n- I. Some government contracts require legislative oversight.\n- II. All government contracts require legislative oversight.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Government contracts that are multi-year require legislative oversight, so 'some' do (I). We cannot claim 'all' government contracts do."
     },
@@ -275,7 +445,12 @@
         "id": "155",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No unauthorized personnel are allowed in the archives.\n- Agent Santos is allowed in the archives.\n\nConclusions:\n- I. Agent Santos is an authorized personnel.\n- II. Agent Santos is the head archivist.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Only conclusion II follows",
+            "Only conclusion I follows",
+            "Both conclusions I and II follow"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Since no unauthorized person is allowed and Santos is allowed, Santos cannot be unauthorized; Santos must be authorized (I)."
     },
@@ -283,7 +458,12 @@
         "id": "156",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All regional offices submitted their annual reports.\n- Region 4-A is a regional office.\n\nConclusions:\n- I. Region 4-A submitted its annual report.\n- II. Region 4-A's report was approved without revisions.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Universal instantiation: Region 4-A is a regional office, so it submitted its report (I). Revisions/approval status (II) is unmentioned."
     },
@@ -291,7 +471,12 @@
         "id": "157",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some procurement officers are lawyers.\n- Some procurement officers are accountants.\n\nConclusions:\n- I. Some lawyers are accountants.\n- II. No lawyer is an accountant.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Either conclusion I or II follows", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion II follows",
+            "Only conclusion I follows",
+            "Either conclusion I or II follows",
+            "Neither conclusion I nor II follows"
+        ],
         "correct_answer": "Neither conclusion I nor II follows",
         "explanation": "Two 'some' premises sharing a middle term ('procurement officers') cannot yield a necessary logical conclusion about the relation between lawyers and accountants."
     },
@@ -299,7 +484,12 @@
         "id": "158",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All career service officers undergo performance reviews.\n- Mark does not undergo performance reviews.\n\nConclusions:\n- I. Mark is not a career service officer.\n- II. Mark is a contractual employee.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion I follows",
+            "Neither conclusion I nor II follows",
+            "Both conclusions I and II follow",
+            "Only conclusion II follows"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Modus Tollens: If Mark were a career service officer, he would undergo reviews. Since he does not, he is not one (I). Specific status (II) is unstated."
     },
@@ -307,7 +497,12 @@
         "id": "159",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No confidential file may be emailed.\n- File Z was emailed.\n\nConclusions:\n- I. File Z is not a confidential file.\n- II. File Z contains public information.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Since no confidential file may be emailed and File Z was emailed, File Z cannot be a confidential file (I)."
     },
@@ -315,7 +510,12 @@
         "id": "160",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All permanent employees receive hazard pay if working in high-risk areas.\n- Clara works in a high-risk area and is a permanent employee.\n\nConclusions:\n- I. Clara receives hazard pay.\n- II. Clara receives double hazard pay.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Both conclusions I and II follow",
+            "Only conclusion I follows",
+            "Only conclusion II follows"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Clara meets both conditions (permanent employee + high-risk area), so she receives hazard pay (I). 'Double' hazard pay (II) is unwarranted."
     },
@@ -323,7 +523,12 @@
         "id": "161",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All constitutional commissions are independent bodies.\n- The Civil Service Commission is a constitutional commission.\n\nConclusions:\n- I. The Civil Service Commission is an independent body.\n- II. All independent bodies are constitutional commissions.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Conclusion I follows by categorical deduction. Conclusion II is the converse fallacy."
     },
@@ -331,7 +536,12 @@
         "id": "162",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some public utilities are state-owned.\n- All state-owned entities are subject to COA audit.\n\nConclusions:\n- I. Some public utilities are subject to COA audit.\n- II. All public utilities are subject to COA audit.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion I follows",
+            "Neither conclusion I nor II follows",
+            "Only conclusion II follows",
+            "Both conclusions I and II follow"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Public utilities that are state-owned are subject to COA audit, so 'some public utilities are subject to COA audit' (I). 'All' goes beyond the premise."
     },
@@ -339,7 +549,12 @@
         "id": "163",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No ordinance may violate a national law.\n- Ordinance 45 violates a national law.\n\nConclusions:\n- I. Ordinance 45 is invalid.\n- II. Ordinance 45 was passed by the city council.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion I follows",
+            "Both conclusions I and II follow",
+            "Only conclusion II follows",
+            "Neither conclusion I nor II follows"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "An ordinance violating a national law is invalid under the hierarchy of laws (I). Who passed it (II) is unstated."
     },
@@ -347,7 +562,12 @@
         "id": "164",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- If an applicant scores 80% or higher, they pass the CSE.\n- Ben scored 85% on the CSE.\n\nConclusions:\n- I. Ben passed the CSE.\n- II. Ben achieved the highest score in his region.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Both conclusions I and II follow",
+            "Only conclusion II follows",
+            "Only conclusion I follows",
+            "Neither conclusion I nor II follows"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Modus Ponens: 85% is >= 80%, so Ben passed (I). Regional ranking (II) is not provided."
     },
@@ -355,7 +575,12 @@
         "id": "165",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All presidential appointees require confirmation by the Commission on Appointments unless exempted by the Constitution.\n- Cabinet secretaries are presidential appointees not exempted by the Constitution.\n\nConclusions:\n- I. Cabinet secretaries require confirmation by the Commission on Appointments.\n- II. All presidential appointees are Cabinet secretaries.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Neither conclusion I nor II follows",
+            "Both conclusions I and II follow",
+            "Only conclusion I follows",
+            "Only conclusion II follows"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Cabinet secretaries fall under the general rule, requiring confirmation (I). II is a converse generalization."
     },
@@ -363,7 +588,12 @@
         "id": "166",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some department circulars are legally binding.\n- All legally binding documents must be published in the Official Gazette.\n\nConclusions:\n- I. Some department circulars must be published in the Official Gazette.\n- II. No department circular must be published in the Official Gazette.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Both conclusions I and II follow",
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Neither conclusion I nor II follows"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Department circulars that are legally binding must be published, so 'some' must be (I)."
     },
@@ -371,7 +601,12 @@
         "id": "167",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- No elected official may hold more than one public office unless allowed by law.\n- Senator Cruz holds two public offices without legal authorization.\n\nConclusions:\n- I. Senator Cruz is violating the prohibition on dual office-holding.\n- II. Senator Cruz will be removed from office.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Both conclusions I and II follow",
+            "Only conclusion I follows",
+            "Only conclusion II follows",
+            "Neither conclusion I nor II follows"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Holding two offices without authorization directly violates the prohibition (I). Specific penalty execution (II) is outside the premises."
     },
@@ -379,7 +614,12 @@
         "id": "168",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All accredited NGOs are eligible for government grants.\n- Foundation K is an accredited NGO.\n\nConclusions:\n- I. Foundation K is eligible for government grants.\n- II. Foundation K has already received a government grant.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Both conclusions I and II follow",
+            "Only conclusion II follows",
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Foundation K meets the condition for eligibility (I). Actual receipt of funds (II) is not stated."
     },
@@ -387,7 +627,12 @@
         "id": "169",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- If an LGU implements a comprehensive waste plan, it receives a green banner award.\n- LGU Metroville received a green banner award.\n\nConclusions:\n- I. LGU Metroville implemented a comprehensive waste plan.\n- II. LGU Metroville failed to manage its waste properly.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Neither conclusion I nor II follows",
+            "Only conclusion I follows"
+        ],
         "correct_answer": "Neither conclusion I nor II follows",
         "explanation": "Affirming the consequent fallacy: receiving the award might have occurred through other environmental metrics."
     },
@@ -395,7 +640,12 @@
         "id": "170",
         "category": "Analytical Ability – Logic / Syllogisms",
         "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All regular employees receive a 13th-month pay.\n- Employees on probation do not receive regular employee benefits.\n\nConclusions:\n- I. Regular employees receive a 13th-month pay.\n- II. Contractual workers never receive bonuses.",
-        "choices": ["Only conclusion I follows", "Only conclusion II follows", "Both conclusions I and II follow", "Neither conclusion I nor II follows"],
+        "choices": [
+            "Only conclusion II follows",
+            "Both conclusions I and II follow",
+            "Only conclusion I follows",
+            "Neither conclusion I nor II follows"
+        ],
         "correct_answer": "Only conclusion I follows",
         "explanation": "Conclusion I directly restates the first premise. Conclusion II makes an unstated generalization about contractual workers."
     }

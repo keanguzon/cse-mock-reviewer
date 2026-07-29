@@ -2,72 +2,117 @@
     {
         "id": "61",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) In conclusion, a well-structured filing system saves time and reduces errors.\n(2) First, categorize all documents by department and date.\n(3) Maintaining an organized filing system is essential in any government office.\n(4) Then, assign a unique reference number to each folder for easy retrieval.",
-        "choices": ["3-2-4-1", "2-4-1-3", "1-3-2-4", "3-4-2-1"],
-        "correct_answer": "3-2-4-1",
-        "explanation": "Sentence 3 introduces the topic. Sentence 2 provides the first step ('First'). Sentence 4 gives the next step ('Then'). Sentence 1 concludes ('In conclusion')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Maintaining an organized filing system is essential in any government office.\n(2) First, categorize all documents by department and date.\n(3) Then, assign a unique reference number to each folder for easy retrieval.\n(4) In conclusion, a well-structured filing system saves time and reduces errors.",
+        "choices": [
+            "4-1-2-3",
+            "1-2-3-4",
+            "1-3-2-4",
+            "2-3-4-1"
+        ],
+        "correct_answer": "1-2-3-4",
+        "explanation": "Sentence 1 introduces the topic. Sentence 2 provides the first step ('First'). Sentence 3 gives the next step ('Then'). Sentence 4 concludes ('In conclusion')."
     },
     {
         "id": "62",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) However, digital records now offer faster search and retrieval capabilities.\n(2) For decades, government offices relied on paper-based records management.\n(3) As a result, many agencies are transitioning to electronic document systems.\n(4) These paper systems were often slow and prone to misplacement of files.",
-        "choices": ["2-4-1-3", "1-2-3-4", "4-2-1-3", "2-1-4-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 establishes the historical context. Sentence 4 describes the problems. Sentence 1 introduces the contrast ('However'). Sentence 3 states the result ('As a result')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) However, digital records now offer faster search and retrieval capabilities.\n(2) As a result, many agencies are transitioning to electronic document systems.\n(3) These paper systems were often slow and prone to misplacement of files.\n(4) For decades, government offices relied on paper-based records management.",
+        "choices": [
+            "4-1-3-2",
+            "1-4-2-3",
+            "3-4-1-2",
+            "4-3-1-2"
+        ],
+        "correct_answer": "4-3-1-2",
+        "explanation": "Sentence 4 establishes the historical context. Sentence 3 describes the problems. Sentence 1 introduces the contrast ('However'). Sentence 2 states the result ('As a result')."
     },
     {
         "id": "63",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) This training equips them with skills needed to serve the public effectively.\n(2) Upon passing, new hires undergo an orientation program.\n(3) The Civil Service Examination is the gateway to government employment.\n(4) The exam tests applicants on verbal, numerical, and analytical abilities.",
-        "choices": ["3-4-2-1", "2-1-3-4", "4-3-1-2", "1-2-3-4"],
-        "correct_answer": "3-4-2-1",
-        "explanation": "Sentence 3 introduces the topic. Sentence 4 elaborates on the exam. Sentence 2 follows chronologically ('Upon passing'). Sentence 1 concludes with the result."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) This training equips them with skills needed to serve the public effectively.\n(2) The Civil Service Examination is the gateway to government employment.\n(3) Upon passing, new hires undergo an orientation program.\n(4) The exam tests applicants on verbal, numerical, and analytical abilities.",
+        "choices": [
+            "1-3-2-4",
+            "4-2-1-3",
+            "2-4-3-1",
+            "3-1-2-4"
+        ],
+        "correct_answer": "2-4-3-1",
+        "explanation": "Sentence 2 introduces the topic. Sentence 4 elaborates on the exam. Sentence 3 follows chronologically ('Upon passing'). Sentence 1 concludes with the result."
     },
     {
         "id": "64",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Finally, proofread the entire document before submitting it.\n(2) Begin by outlining the main points you wish to address.\n(3) Writing an effective memorandum requires careful planning.\n(4) Next, draft the body using clear and concise language.",
-        "choices": ["3-2-4-1", "2-4-1-3", "1-3-2-4", "3-4-2-1"],
-        "correct_answer": "3-2-4-1",
-        "explanation": "Sentence 3 introduces the topic. Sentence 2 provides the first step ('Begin by'). Sentence 4 gives the next step ('Next'). Sentence 1 concludes ('Finally')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Next, draft the body using clear and concise language.\n(2) Begin by outlining the main points you wish to address.\n(3) Finally, proofread the entire document before submitting it.\n(4) Writing an effective memorandum requires careful planning.",
+        "choices": [
+            "2-1-3-4",
+            "4-2-1-3",
+            "4-1-2-3",
+            "3-4-2-1"
+        ],
+        "correct_answer": "4-2-1-3",
+        "explanation": "Sentence 4 introduces the topic. Sentence 2 provides the first step ('Begin by'). Sentence 1 gives the next step ('Next'). Sentence 3 concludes ('Finally')."
     },
     {
         "id": "65",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Consequently, the government allocates significant funds for disaster preparedness each year.\n(2) Typhoons, earthquakes, and volcanic eruptions are common in the archipelago.\n(3) The Philippines is one of the most disaster-prone countries in the world.\n(4) These natural hazards cause billions of pesos in damages annually.",
-        "choices": ["3-2-4-1", "2-3-1-4", "1-3-4-2", "4-2-3-1"],
-        "correct_answer": "3-2-4-1",
-        "explanation": "Sentence 3 introduces the general claim. Sentence 2 provides specific examples. Sentence 4 states the consequence. Sentence 1 concludes with the government's response."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Typhoons, earthquakes, and volcanic eruptions are common in the archipelago.\n(2) The Philippines is one of the most disaster-prone countries in the world.\n(3) These natural hazards cause billions of pesos in damages annually.\n(4) Consequently, the government allocates significant funds for disaster preparedness each year.",
+        "choices": [
+            "3-1-2-4",
+            "2-1-3-4",
+            "4-2-3-1",
+            "1-2-4-3"
+        ],
+        "correct_answer": "2-1-3-4",
+        "explanation": "Sentence 2 introduces the general claim. Sentence 1 provides specific examples. Sentence 3 states the consequence. Sentence 4 concludes with the government's response."
     },
     {
         "id": "66",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) They must declare their assets, liabilities, and net worth annually.\n(2) Transparency is a cornerstone of good governance.\n(3) This practice helps prevent corruption and promotes public trust.\n(4) Public officials in the Philippines are required to file a Statement of Assets, Liabilities, and Net Worth (SALN).",
-        "choices": ["2-4-1-3", "4-1-3-2", "1-4-2-3", "2-1-4-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces the broad concept. Sentence 4 narrows to a specific mechanism (SALN). Sentence 1 elaborates on what SALN requires. Sentence 3 concludes with the purpose."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Transparency is a cornerstone of good governance.\n(2) Public officials in the Philippines are required to file a Statement of Assets, Liabilities, and Net Worth (SALN).\n(3) This practice helps prevent corruption and promotes public trust.\n(4) They must declare their assets, liabilities, and net worth annually.",
+        "choices": [
+            "1-4-2-3",
+            "2-4-3-1",
+            "1-2-4-3",
+            "4-2-1-3"
+        ],
+        "correct_answer": "1-2-4-3",
+        "explanation": "Sentence 1 introduces the broad concept. Sentence 2 narrows to a specific mechanism (SALN). Sentence 4 elaborates on what SALN requires. Sentence 3 concludes with the purpose."
     },
     {
         "id": "67",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) It provides free legal assistance to indigent clients.\n(2) The Public Attorney's Office (PAO) is a key institution in the Philippine justice system.\n(3) Without PAO, many disadvantaged citizens would have no access to legal representation.\n(4) Its lawyers handle criminal, civil, labor, and administrative cases.",
-        "choices": ["2-1-4-3", "1-4-2-3", "3-2-1-4", "2-4-1-3"],
-        "correct_answer": "2-1-4-3",
-        "explanation": "Sentence 2 introduces the institution. Sentence 1 states its primary function. Sentence 4 adds detail about scope. Sentence 3 concludes with its broader importance."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) The Public Attorney's Office (PAO) is a key institution in the Philippine justice system.\n(2) Without PAO, many disadvantaged citizens would have no access to legal representation.\n(3) Its lawyers handle criminal, civil, labor, and administrative cases.\n(4) It provides free legal assistance to indigent clients.",
+        "choices": [
+            "4-3-1-2",
+            "2-1-4-3",
+            "1-3-4-2",
+            "1-4-3-2"
+        ],
+        "correct_answer": "1-4-3-2",
+        "explanation": "Sentence 1 introduces the institution. Sentence 4 states its primary function. Sentence 3 adds detail about scope. Sentence 2 concludes with its broader importance."
     },
     {
         "id": "68",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Second, set realistic goals and track your progress weekly.\n(2) First, identify your weakest subject areas by taking a diagnostic test.\n(3) Preparing for the Civil Service Exam requires a structured study plan.\n(4) With consistent effort, passing the exam is an achievable goal.",
-        "choices": ["3-2-1-4", "2-1-3-4", "1-2-4-3", "3-1-2-4"],
-        "correct_answer": "3-2-1-4",
-        "explanation": "Sentence 3 introduces the topic. Sentence 2 gives the first step ('First'). Sentence 1 gives the second step ('Second'). Sentence 4 provides a motivational conclusion."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Second, set realistic goals and track your progress weekly.\n(2) First, identify your weakest subject areas by taking a diagnostic test.\n(3) With consistent effort, passing the exam is an achievable goal.\n(4) Preparing for the Civil Service Exam requires a structured study plan.",
+        "choices": [
+            "4-2-1-3",
+            "4-1-2-3",
+            "1-2-3-4",
+            "2-1-4-3"
+        ],
+        "correct_answer": "4-2-1-3",
+        "explanation": "Sentence 4 introduces the topic. Sentence 2 gives the first step ('First'). Sentence 1 gives the second step ('Second'). Sentence 3 provides a motivational conclusion."
     },
     {
         "id": "69",
         "category": "Verbal Ability – Paragraph Organization",
         "question": "Which sentence does NOT belong in the following paragraph?\n\n(1) The Commission on Audit (COA) is mandated to examine government expenditures. (2) It ensures that public funds are spent according to law. (3) The Supreme Court is the highest judicial body in the Philippines. (4) COA's work is essential for maintaining fiscal accountability in government.",
-        "choices": ["Sentence 1", "Sentence 2", "Sentence 3", "Sentence 4"],
+        "choices": [
+            "Sentence 4",
+            "Sentence 2",
+            "Sentence 1",
+            "Sentence 3"
+        ],
         "correct_answer": "Sentence 3",
         "explanation": "The paragraph discusses COA and fiscal accountability. Sentence 3 introduces the Supreme Court, which is unrelated to the paragraph's topic."
     },
@@ -75,327 +120,532 @@
         "id": "70",
         "category": "Verbal Ability – Paragraph Organization",
         "question": "Which sentence does NOT belong in the following paragraph?\n\n(1) Regular exercise improves cardiovascular health and reduces stress. (2) Employees who exercise regularly tend to be more productive at work. (3) The annual physical fitness test for government employees was moved to March. (4) Encouraging physical activity in the workplace benefits both employers and employees.",
-        "choices": ["Sentence 1", "Sentence 2", "Sentence 3", "Sentence 4"],
+        "choices": [
+            "Sentence 1",
+            "Sentence 4",
+            "Sentence 2",
+            "Sentence 3"
+        ],
         "correct_answer": "Sentence 3",
         "explanation": "The paragraph discusses the benefits of exercise in the workplace. Sentence 3 introduces a scheduling detail about a fitness test, which breaks the thematic focus."
     },
     {
         "id": "71",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Moreover, it promotes accountability among public officials.\n(2) The Right of the People to Information on Matters of Public Concern is enshrined in the 1987 Philippine Constitution.\n(3) This ensures that citizens can make informed decisions and participate actively in governance.\n(4) This constitutional right guarantees access to official records and documents.",
-        "choices": ["2-4-1-3", "4-2-3-1", "2-1-4-3", "1-2-3-4"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces the constitutional provision. Sentence 4 explains what it guarantees. Sentence 1 adds another benefit ('Moreover'). Sentence 3 concludes with the overall impact."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) This constitutional right guarantees access to official records and documents.\n(2) This ensures that citizens can make informed decisions and participate actively in governance.\n(3) Moreover, it promotes accountability among public officials.\n(4) The Right of the People to Information on Matters of Public Concern is enshrined in the 1987 Philippine Constitution.",
+        "choices": [
+            "4-3-1-2",
+            "3-4-2-1",
+            "4-1-3-2",
+            "1-4-2-3"
+        ],
+        "correct_answer": "4-1-3-2",
+        "explanation": "Sentence 4 introduces the constitutional provision. Sentence 1 explains what it guarantees. Sentence 3 adds another benefit ('Moreover'). Sentence 2 concludes with the overall impact."
     },
     {
         "id": "72",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) As a result, the agency has seen a significant decrease in processing time.\n(2) The agency implemented an online application system last year.\n(3) Citizens can now submit requirements from home without visiting the office.\n(4) Prior to this, all transactions required in-person visits.",
-        "choices": ["4-2-3-1", "2-4-3-1", "2-3-4-1", "4-3-2-1"],
-        "correct_answer": "2-4-3-1",
-        "explanation": "Sentence 2 introduces the new online system. Sentence 4 contrasts this with the past ('Prior to this' refers to the new system). Sentence 3 describes the present capability. Sentence 1 concludes with the result ('As a result')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) The agency implemented an online application system last year.\n(2) Citizens can now submit requirements from home without visiting the office.\n(3) As a result, the agency has seen a significant decrease in processing time.\n(4) Prior to this, all transactions required in-person visits.",
+        "choices": [
+            "1-4-2-3",
+            "4-2-1-3",
+            "1-2-4-3",
+            "4-1-2-3"
+        ],
+        "correct_answer": "1-4-2-3",
+        "explanation": "Sentence 1 introduces the new online system. Sentence 4 contrasts this with the past ('Prior to this' refers to the new system). Sentence 2 describes the present capability. Sentence 3 concludes with the result ('As a result')."
     },
     {
         "id": "73",
         "category": "Verbal Ability – Paragraph Organization",
         "question": "Which sentence does NOT belong in the following paragraph?\n\n(1) Proper waste segregation involves separating biodegradable from non-biodegradable materials. (2) The local government has mandated the use of color-coded bins. (3) Green bins are for biodegradable waste, while blue bins are for recyclables. (4) The new highway bypass will reduce traffic congestion in the city center.",
-        "choices": ["Sentence 1", "Sentence 2", "Sentence 3", "Sentence 4"],
+        "choices": [
+            "Sentence 2",
+            "Sentence 3",
+            "Sentence 1",
+            "Sentence 4"
+        ],
         "correct_answer": "Sentence 4",
         "explanation": "The paragraph discusses waste segregation and color-coded bins. Sentence 4 about a highway bypass is completely unrelated to the topic."
     },
     {
         "id": "74",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) These include verbal ability, numerical ability, and analytical skills.\n(2) Passing the exam is a prerequisite for permanent appointment in government.\n(3) The Career Service Examination tests a wide range of competencies.\n(4) Therefore, thorough preparation is essential for aspiring public servants.",
-        "choices": ["3-1-2-4", "1-3-4-2", "2-3-1-4", "3-2-1-4"],
-        "correct_answer": "3-1-2-4",
-        "explanation": "Sentence 3 introduces the exam. Sentence 1 specifies the competencies ('These include'). Sentence 2 states the importance. Sentence 4 concludes ('Therefore')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Passing the exam is a prerequisite for permanent appointment in government.\n(2) These include verbal ability, numerical ability, and analytical skills.\n(3) Therefore, thorough preparation is essential for aspiring public servants.\n(4) The Career Service Examination tests a wide range of competencies.",
+        "choices": [
+            "4-1-2-3",
+            "2-4-3-1",
+            "4-2-1-3",
+            "1-4-2-3"
+        ],
+        "correct_answer": "4-2-1-3",
+        "explanation": "Sentence 4 introduces the exam. Sentence 2 specifies the competencies ('These include'). Sentence 1 states the importance. Sentence 3 concludes ('Therefore')."
     },
     {
         "id": "75",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Unfortunately, many communities still lack access to clean drinking water.\n(2) Clean water is essential for maintaining public health.\n(3) The government has launched several programs to address this issue.\n(4) Contaminated water sources lead to the spread of waterborne diseases.",
-        "choices": ["2-4-1-3", "1-2-3-4", "4-2-1-3", "2-1-4-3"],
-        "correct_answer": "2-1-4-3",
-        "explanation": "Sentence 2 establishes the importance of clean water. Sentence 1 introduces the problem ('Unfortunately, many lack access'). Sentence 4 elaborates on the consequence of this lack of access. Sentence 3 concludes with the government's solution to 'this issue'."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Clean water is essential for maintaining public health.\n(2) Unfortunately, many communities still lack access to clean drinking water.\n(3) Contaminated water sources lead to the spread of waterborne diseases.\n(4) The government has launched several programs to address this issue.",
+        "choices": [
+            "1-3-2-4",
+            "2-1-4-3",
+            "1-2-3-4",
+            "3-1-2-4"
+        ],
+        "correct_answer": "1-2-3-4",
+        "explanation": "Sentence 1 establishes the importance of clean water. Sentence 2 introduces the problem ('Unfortunately, many lack access'). Sentence 3 elaborates on the consequence of this lack of access. Sentence 4 concludes with the government's solution to 'this issue'."
     },
     {
         "id": "76",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) It was established to protect the rights and promote the welfare of overseas Filipino workers.\n(2) The Philippine Overseas Labor Office (POLO) is an agency under the Department of Migrant Workers.\n(3) Through its services, OFWs receive assistance with employment contracts and labor disputes.\n(4) In addition, it provides pre-departure orientation seminars for departing workers.",
-        "choices": ["2-1-3-4", "1-2-4-3", "3-4-2-1", "2-3-1-4"],
-        "correct_answer": "2-1-3-4",
-        "explanation": "Sentence 2 introduces POLO. Sentence 1 states its mandate. Sentence 3 describes its services. Sentence 4 adds another service ('In addition')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) It was established to protect the rights and promote the welfare of overseas Filipino workers.\n(2) Through its services, OFWs receive assistance with employment contracts and labor disputes.\n(3) The Philippine Overseas Labor Office (POLO) is an agency under the Department of Migrant Workers.\n(4) In addition, it provides pre-departure orientation seminars for departing workers.",
+        "choices": [
+            "1-3-4-2",
+            "3-1-2-4",
+            "3-2-1-4",
+            "2-4-3-1"
+        ],
+        "correct_answer": "3-1-2-4",
+        "explanation": "Sentence 3 introduces POLO. Sentence 1 states its mandate. Sentence 2 describes its services. Sentence 4 adds another service ('In addition')."
     },
     {
         "id": "77",
         "category": "Verbal Ability – Paragraph Organization",
         "question": "Which sentence does NOT belong in the following paragraph?\n\n(1) The barangay is the smallest political unit in the Philippines. (2) It is headed by a barangay captain elected by the residents. (3) The Philippine peso has experienced fluctuations against the US dollar. (4) The barangay council assists in maintaining peace and order in the community.",
-        "choices": ["Sentence 1", "Sentence 2", "Sentence 3", "Sentence 4"],
+        "choices": [
+            "Sentence 1",
+            "Sentence 3",
+            "Sentence 4",
+            "Sentence 2"
+        ],
         "correct_answer": "Sentence 3",
         "explanation": "The paragraph discusses the barangay as a political unit. Sentence 3 about the Philippine peso is completely unrelated."
     },
     {
         "id": "78",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) These programs include Pantawid Pamilyang Pilipino Program (4Ps) and the Social Amelioration Program.\n(2) Poverty remains one of the most pressing social issues in the Philippines.\n(3) Despite these efforts, significant challenges remain in reaching the most marginalized communities.\n(4) To address this, the government has implemented various social welfare programs.",
-        "choices": ["2-4-1-3", "4-1-2-3", "1-4-3-2", "2-1-4-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces the problem. Sentence 4 presents the government response. Sentence 1 gives specific examples ('These programs include'). Sentence 3 acknowledges remaining challenges ('Despite')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) These programs include Pantawid Pamilyang Pilipino Program (4Ps) and the Social Amelioration Program.\n(2) To address this, the government has implemented various social welfare programs.\n(3) Poverty remains one of the most pressing social issues in the Philippines.\n(4) Despite these efforts, significant challenges remain in reaching the most marginalized communities.",
+        "choices": [
+            "2-1-3-4",
+            "1-2-4-3",
+            "3-2-1-4",
+            "3-1-2-4"
+        ],
+        "correct_answer": "3-2-1-4",
+        "explanation": "Sentence 3 introduces the problem. Sentence 2 presents the government response. Sentence 1 gives specific examples ('These programs include'). Sentence 4 acknowledges remaining challenges ('Despite')."
     },
     {
         "id": "79",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) For this reason, continuous professional development is encouraged.\n(2) Government employees must stay updated on new laws, policies, and technologies.\n(3) Lifelong learning is crucial in public service.\n(4) Training programs and seminars are regularly conducted by the Civil Service Commission.",
-        "choices": ["3-2-4-1", "2-3-1-4", "1-3-4-2", "3-4-2-1"],
-        "correct_answer": "3-2-4-1",
-        "explanation": "Sentence 3 introduces the theme of lifelong learning. Sentence 2 explains why it matters. Sentence 4 describes how it is supported. Sentence 1 concludes ('For this reason')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Training programs and seminars are regularly conducted by the Civil Service Commission.\n(2) Lifelong learning is crucial in public service.\n(3) Government employees must stay updated on new laws, policies, and technologies.\n(4) For this reason, continuous professional development is encouraged.",
+        "choices": [
+            "3-2-4-1",
+            "2-3-1-4",
+            "2-1-3-4",
+            "4-2-1-3"
+        ],
+        "correct_answer": "2-3-1-4",
+        "explanation": "Sentence 2 introduces the theme of lifelong learning. Sentence 3 explains why it matters. Sentence 1 describes how it is supported. Sentence 4 concludes ('For this reason')."
     },
     {
         "id": "80",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) This ensures that public service positions are filled based on competence rather than connections.\n(2) The merit-based system is a fundamental principle of the Philippine civil service.\n(3) Under this system, appointments and promotions are determined by qualifications and performance.\n(4) The Civil Service Commission oversees the implementation of this system across all government agencies.",
-        "choices": ["2-3-4-1", "3-2-1-4", "4-2-3-1", "2-4-3-1"],
-        "correct_answer": "2-3-4-1",
-        "explanation": "Sentence 2 introduces the merit-based system. Sentence 3 explains how it works. Sentence 4 states who oversees it. Sentence 1 concludes with the benefit ('This ensures')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) The merit-based system is a fundamental principle of the Philippine civil service.\n(2) This ensures that public service positions are filled based on competence rather than connections.\n(3) The Civil Service Commission oversees the implementation of this system across all government agencies.\n(4) Under this system, appointments and promotions are determined by qualifications and performance.",
+        "choices": [
+            "1-4-3-2",
+            "4-1-2-3",
+            "1-3-4-2",
+            "3-1-4-2"
+        ],
+        "correct_answer": "1-4-3-2",
+        "explanation": "Sentence 1 introduces the merit-based system. Sentence 4 explains how it works. Sentence 3 states who oversees it. Sentence 2 concludes with the benefit ('This ensures')."
     },
     {
         "id": "81",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) After receiving the bid proposals, the Bids and Awards Committee (BAC) evaluates each submission.\n(2) Government procurement in the Philippines is governed by Republic Act No. 9184.\n(3) Once evaluated, the contract is awarded to the lowest calculated responsive bidder.\n(4) First, an invitation to bid is publicly advertised to ensure competitive bidding.",
-        "choices": ["2-4-1-3", "4-1-3-2", "2-1-4-3", "1-4-2-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces RA 9184. Sentence 4 describes the first step ('First'). Sentence 1 describes the next step ('After receiving'). Sentence 3 concludes with the award ('Once evaluated')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) First, an invitation to bid is publicly advertised to ensure competitive bidding.\n(2) After receiving the bid proposals, the Bids and Awards Committee (BAC) evaluates each submission.\n(3) Government procurement in the Philippines is governed by Republic Act No. 9184.\n(4) Once evaluated, the contract is awarded to the lowest calculated responsive bidder.",
+        "choices": [
+            "1-2-4-3",
+            "3-1-2-4",
+            "3-2-1-4",
+            "2-1-3-4"
+        ],
+        "correct_answer": "3-1-2-4",
+        "explanation": "Sentence 3 introduces RA 9184. Sentence 1 describes the first step ('First'). Sentence 2 describes the next step ('After receiving'). Sentence 4 concludes with the award ('Once evaluated')."
     },
     {
         "id": "82",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Consequently, public agencies can respond faster to citizen requests.\n(2) E-governance has revolutionized public administration in recent years.\n(3) Traditional paper-based workflows are being replaced by digital portals.\n(4) This transition reduces processing times and minimizes bureaucratic red tape.",
-        "choices": ["2-3-4-1", "3-2-1-4", "4-2-3-1", "2-4-1-3"],
-        "correct_answer": "2-3-4-1",
-        "explanation": "Sentence 2 introduces E-governance. Sentence 3 specifies the change (paper to digital). Sentence 4 explains the benefit ('This transition'). Sentence 1 states the final consequence ('Consequently')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) E-governance has revolutionized public administration in recent years.\n(2) This transition reduces processing times and minimizes bureaucratic red tape.\n(3) Consequently, public agencies can respond faster to citizen requests.\n(4) Traditional paper-based workflows are being replaced by digital portals.",
+        "choices": [
+            "1-4-2-3",
+            "2-1-4-3",
+            "4-1-3-2",
+            "1-2-3-4"
+        ],
+        "correct_answer": "1-4-2-3",
+        "explanation": "Sentence 1 introduces E-governance. Sentence 4 specifies the change (paper to digital). Sentence 2 explains the benefit ('This transition'). Sentence 3 states the final consequence ('Consequently')."
     },
     {
         "id": "83",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Subsequently, the budget proposal is submitted to Congress for review and approval.\n(2) The Philippine national budget process follows four distinct phases.\n(3) It begins with Budget Preparation, where executive agencies formulate their budget requirements.\n(4) Finally, after congressional approval, the President signs the General Appropriations Act.",
-        "choices": ["2-3-1-4", "3-2-4-1", "1-2-3-4", "2-1-3-4"],
-        "correct_answer": "2-3-1-4",
-        "explanation": "Sentence 2 introduces the 4 phases. Sentence 3 starts chronological flow ('It begins'). Sentence 1 describes the next phase ('Subsequently'). Sentence 4 completes the flow ('Finally')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) It begins with Budget Preparation, where executive agencies formulate their budget requirements.\n(2) Finally, after congressional approval, the President signs the General Appropriations Act.\n(3) Subsequently, the budget proposal is submitted to Congress for review and approval.\n(4) The Philippine national budget process follows four distinct phases.",
+        "choices": [
+            "4-3-1-2",
+            "4-1-3-2",
+            "3-4-1-2",
+            "1-4-2-3"
+        ],
+        "correct_answer": "4-1-3-2",
+        "explanation": "Sentence 4 introduces the 4 phases. Sentence 1 starts chronological flow ('It begins'). Sentence 3 describes the next phase ('Subsequently'). Sentence 2 completes the flow ('Finally')."
     },
     {
         "id": "84",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) As a result, coastal communities were evacuated ahead of landfall.\n(2) The Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA) issued a severe weather bulletin.\n(3) These timely warnings significantly minimized casualties during the typhoon.\n(4) The bulletin alerted local disaster management councils of an approaching super typhoon.",
-        "choices": ["2-4-1-3", "4-2-1-3", "1-2-4-3", "2-1-4-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces PAGASA's bulletin. Sentence 4 describes what the bulletin did. Sentence 1 describes the resulting action ('As a result'). Sentence 3 concludes with the positive outcome."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) As a result, coastal communities were evacuated ahead of landfall.\n(2) These timely warnings significantly minimized casualties during the typhoon.\n(3) The Philippine Atmospheric, Geophysical and Astronomical Services Administration (PAGASA) issued a severe weather bulletin.\n(4) The bulletin alerted local disaster management councils of an approaching super typhoon.",
+        "choices": [
+            "3-1-4-2",
+            "3-4-1-2",
+            "1-3-4-2",
+            "4-3-1-2"
+        ],
+        "correct_answer": "3-4-1-2",
+        "explanation": "Sentence 3 introduces PAGASA's bulletin. Sentence 4 describes what the bulletin did. Sentence 1 describes the resulting action ('As a result'). Sentence 2 concludes with the positive outcome."
     },
     {
         "id": "85",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) In addition, employees must set individual targets aligned with organizational goals.\n(2) The Strategic Performance Management System (SPMS) measures government employee performance.\n(3) At the end of the rating period, performance is evaluated against these predefined targets.\n(4) First, offices define their organizational performance commitment and review (OPCR).",
-        "choices": ["2-4-1-3", "4-1-3-2", "2-1-4-3", "1-4-2-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces SPMS. Sentence 4 gives the first step ('First'). Sentence 1 adds the individual step ('In addition'). Sentence 3 concludes with the evaluation phase ('At the end')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) The Strategic Performance Management System (SPMS) measures government employee performance.\n(2) At the end of the rating period, performance is evaluated against these predefined targets.\n(3) First, offices define their organizational performance commitment and review (OPCR).\n(4) In addition, employees must set individual targets aligned with organizational goals.",
+        "choices": [
+            "4-3-1-2",
+            "3-4-2-1",
+            "1-4-3-2",
+            "1-3-4-2"
+        ],
+        "correct_answer": "1-3-4-2",
+        "explanation": "Sentence 1 introduces SPMS. Sentence 3 gives the first step ('First'). Sentence 4 adds the individual step ('In addition'). Sentence 2 concludes with the evaluation phase ('At the end')."
     },
     {
         "id": "86",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Therefore, government agencies are required to post their Citizen's Charters conspicuously.\n(2) Republic Act 11032 promotes efficient government service delivery.\n(3) This document outlines step-by-step procedures, requirements, fees, and processing times.\n(4) It aims to eliminate red tape and streamline transactions across all public offices.",
-        "choices": ["2-4-1-3", "4-2-1-3", "2-1-3-4", "1-3-2-4"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces RA 11032. Sentence 4 states its aim. Sentence 1 presents the requirement ('Therefore'). Sentence 3 defines 'this document' (Citizen's Charter)."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) This document outlines step-by-step procedures, requirements, fees, and processing times.\n(2) Therefore, government agencies are required to post their Citizen's Charters conspicuously.\n(3) Republic Act 11032 promotes efficient government service delivery.\n(4) It aims to eliminate red tape and streamline transactions across all public offices.",
+        "choices": [
+            "2-1-3-4",
+            "4-3-2-1",
+            "3-4-2-1",
+            "3-2-1-4"
+        ],
+        "correct_answer": "3-4-2-1",
+        "explanation": "Sentence 3 introduces RA 11032. Sentence 4 states its aim. Sentence 2 presents the requirement ('Therefore'). Sentence 1 defines 'this document' (Citizen's Charter)."
     },
     {
         "id": "87",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) After collection, recyclable materials are sorted at Materials Recovery Facilities (MRFs).\n(2) Solid waste management is a critical environmental responsibility for local government units.\n(3) Organic waste, on the other hand, is directed to composting facilities.\n(4) Under RA 9003, households are mandated to segregate waste at the source into biodegradable and non-biodegradable.",
-        "choices": ["2-4-1-3", "4-2-1-3", "2-1-4-3", "1-4-2-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces the topic. Sentence 4 states the household mandate under RA 9003. Sentence 1 describes recyclable processing ('After collection'). Sentence 3 contrasts with organic waste ('on the other hand')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Organic waste, on the other hand, is directed to composting facilities.\n(2) After collection, recyclable materials are sorted at Materials Recovery Facilities (MRFs).\n(3) Under RA 9003, households are mandated to segregate waste at the source into biodegradable and non-biodegradable.\n(4) Solid waste management is a critical environmental responsibility for local government units.",
+        "choices": [
+            "3-4-2-1",
+            "4-3-2-1",
+            "2-3-4-1",
+            "4-2-3-1"
+        ],
+        "correct_answer": "4-3-2-1",
+        "explanation": "Sentence 4 introduces the topic. Sentence 3 states the household mandate under RA 9003. Sentence 2 describes recyclable processing ('After collection'). Sentence 1 contrasts with organic waste ('on the other hand')."
     },
     {
         "id": "88",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) However, applicants must present original supporting documents for verification.\n(2) Online appointment systems have simplified Philippine passport application.\n(3) Once verified, biometric data and photographs are captured at the consular office.\n(4) Applicants first fill out personal details and pay fees through the official portal.",
-        "choices": ["2-4-1-3", "4-2-1-3", "2-1-4-3", "1-4-2-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces online passport applications. Sentence 4 describes the online step ('first'). Sentence 1 transitions to the in-person requirement ('However'). Sentence 3 details the final step ('Once verified')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) However, applicants must present original supporting documents for verification.\n(2) Applicants first fill out personal details and pay fees through the official portal.\n(3) Once verified, biometric data and photographs are captured at the consular office.\n(4) Online appointment systems have simplified Philippine passport application.",
+        "choices": [
+            "1-2-4-3",
+            "4-2-1-3",
+            "2-4-1-3",
+            "4-1-2-3"
+        ],
+        "correct_answer": "4-2-1-3",
+        "explanation": "Sentence 4 introduces online passport applications. Sentence 2 describes the online step ('first'). Sentence 1 transitions to the in-person requirement ('However'). Sentence 3 details the final step ('Once verified')."
     },
     {
         "id": "89",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) These consultations allow stakeholders to voice concerns regarding proposed regulations.\n(2) Public consultation is an integral part of democratic governance.\n(3) Based on feedback received, regulatory bodies refine draft policies before final enactment.\n(4) Government agencies organize town hall meetings and public hearings for this purpose.",
-        "choices": ["2-4-1-3", "4-2-1-3", "2-1-4-3", "1-4-2-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces public consultation. Sentence 4 explains how agencies do it ('for this purpose'). Sentence 1 explains what consultations achieve ('These consultations allow'). Sentence 3 concludes with policy refinement."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Based on feedback received, regulatory bodies refine draft policies before final enactment.\n(2) These consultations allow stakeholders to voice concerns regarding proposed regulations.\n(3) Government agencies organize town hall meetings and public hearings for this purpose.\n(4) Public consultation is an integral part of democratic governance.",
+        "choices": [
+            "4-3-2-1",
+            "2-3-4-1",
+            "3-4-2-1",
+            "4-2-3-1"
+        ],
+        "correct_answer": "4-3-2-1",
+        "explanation": "Sentence 4 introduces public consultation. Sentence 3 explains how agencies do it ('for this purpose'). Sentence 2 explains what consultations achieve ('These consultations allow'). Sentence 1 concludes with policy refinement."
     },
     {
         "id": "90",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) This digital transformation aims to make government services accessible 24/7.\n(2) The Department of Information and Communications Technology (DICT) launched the eGov PH Super App.\n(3) Through the app, citizens can access various government services in a single platform.\n(4) Services include passport renewal, business registration, and social security inquiries.",
-        "choices": ["2-3-4-1", "3-2-1-4", "2-1-3-4", "4-2-3-1"],
-        "correct_answer": "2-3-4-1",
-        "explanation": "Sentence 2 introduces DICT's eGov PH app. Sentence 3 explains how it functions. Sentence 4 lists specific examples of services. Sentence 1 concludes with the broader digital goal ('This digital transformation')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Services include passport renewal, business registration, and social security inquiries.\n(2) Through the app, citizens can access various government services in a single platform.\n(3) The Department of Information and Communications Technology (DICT) launched the eGov PH Super App.\n(4) This digital transformation aims to make government services accessible 24/7.",
+        "choices": [
+            "3-2-1-4",
+            "2-3-4-1",
+            "3-4-2-1",
+            "1-3-2-4"
+        ],
+        "correct_answer": "3-2-1-4",
+        "explanation": "Sentence 3 introduces DICT's eGov PH app. Sentence 2 explains how it functions. Sentence 1 lists specific examples of services. Sentence 4 concludes with the broader digital goal ('This digital transformation')."
     },
     {
         "id": "91",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Upon entry, visitors undergo security screening and present valid identification.\n(2) Visiting hours and access policies are strictly enforced in all government buildings.\n(3) Next, receptionist issues a visitor pass corresponding to the designated office.\n(4) Finally, visitors must return the pass and sign out before departing.",
-        "choices": ["2-1-3-4", "1-3-4-2", "2-3-1-4", "3-1-2-4"],
-        "correct_answer": "2-1-3-4",
-        "explanation": "Sentence 2 states the general policy. Sentence 1 gives the initial entry step ('Upon entry'). Sentence 3 gives the second step ('Next'). Sentence 4 gives the exit step ('Finally')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Next, receptionist issues a visitor pass corresponding to the designated office.\n(2) Upon entry, visitors undergo security screening and present valid identification.\n(3) Visiting hours and access policies are strictly enforced in all government buildings.\n(4) Finally, visitors must return the pass and sign out before departing.",
+        "choices": [
+            "3-1-2-4",
+            "3-2-1-4",
+            "1-2-3-4",
+            "2-1-4-3"
+        ],
+        "correct_answer": "3-2-1-4",
+        "explanation": "Sentence 3 states the general policy. Sentence 2 gives the initial entry step ('Upon entry'). Sentence 1 gives the second step ('Next'). Sentence 4 gives the exit step ('Finally')."
     },
     {
         "id": "92",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Vaccination drives and health education campaigns were intensified nationwide.\n(2) The Department of Health (DOH) declared a public health response to combat dengue outbreaks.\n(3) As a result, reported infection rates began to stabilize in affected provinces.\n(4) Local health units collaborated with barangay officials to eliminate mosquito breeding sites.",
-        "choices": ["2-4-1-3", "4-2-1-3", "2-1-4-3", "1-4-2-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces DOH's declaration. Sentence 4 describes local action (mosquito elimination). Sentence 1 describes broader campaigns. Sentence 3 concludes with the result ('As a result')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Local health units collaborated with barangay officials to eliminate mosquito breeding sites.\n(2) As a result, reported infection rates began to stabilize in affected provinces.\n(3) The Department of Health (DOH) declared a public health response to combat dengue outbreaks.\n(4) Vaccination drives and health education campaigns were intensified nationwide.",
+        "choices": [
+            "3-1-4-2",
+            "4-1-3-2",
+            "1-3-4-2",
+            "3-4-1-2"
+        ],
+        "correct_answer": "3-1-4-2",
+        "explanation": "Sentence 3 introduces DOH's declaration. Sentence 1 describes local action (mosquito elimination). Sentence 4 describes broader campaigns. Sentence 2 concludes with the result ('As a result')."
     },
     {
         "id": "93",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) It starts with the identification of training needs across departments.\n(2) Human Resource Development (HRD) plays a key role in public sector capacity building.\n(3) Finally, post-training evaluations are conducted to measure skill improvements.\n(4) Next, tailored training modules are designed and delivered by subject experts.",
-        "choices": ["2-1-4-3", "1-4-3-2", "2-4-1-3", "4-1-2-3"],
-        "correct_answer": "2-1-4-3",
-        "explanation": "Sentence 2 introduces HRD. Sentence 1 states the start of the process ('It starts'). Sentence 4 gives the next phase ('Next'). Sentence 3 finishes the process ('Finally')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) It starts with the identification of training needs across departments.\n(2) Human Resource Development (HRD) plays a key role in public sector capacity building.\n(3) Next, tailored training modules are designed and delivered by subject experts.\n(4) Finally, post-training evaluations are conducted to measure skill improvements.",
+        "choices": [
+            "2-1-3-4",
+            "3-1-2-4",
+            "1-3-4-2",
+            "2-3-1-4"
+        ],
+        "correct_answer": "2-1-3-4",
+        "explanation": "Sentence 2 introduces HRD. Sentence 1 states the start of the process ('It starts'). Sentence 3 gives the next phase ('Next'). Sentence 4 finishes the process ('Finally')."
     },
     {
         "id": "94",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) These audits ensure that public funds are utilized efficiently and transparently.\n(2) The Commission on Audit (COA) is the supreme audit institution of the Philippines.\n(3) Annual audit reports are subsequently published on COA's official website.\n(4) COA examiners conduct financial and compliance audits of all government entities.",
-        "choices": ["2-4-1-3", "4-2-1-3", "2-1-4-3", "1-4-2-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces COA. Sentence 4 states what COA examiners do. Sentence 1 explains the purpose of the audits ('These audits ensure'). Sentence 3 describes the publication phase ('subsequently')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) COA examiners conduct financial and compliance audits of all government entities.\n(2) These audits ensure that public funds are utilized efficiently and transparently.\n(3) The Commission on Audit (COA) is the supreme audit institution of the Philippines.\n(4) Annual audit reports are subsequently published on COA's official website.",
+        "choices": [
+            "3-2-1-4",
+            "3-1-2-4",
+            "1-3-2-4",
+            "2-1-3-4"
+        ],
+        "correct_answer": "3-1-2-4",
+        "explanation": "Sentence 3 introduces COA. Sentence 1 states what COA examiners do. Sentence 2 explains the purpose of the audits ('These audits ensure'). Sentence 4 describes the publication phase ('subsequently')."
     },
     {
         "id": "95",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) In response, the local council enacted ordinances banning single-use plastics.\n(2) Plastic pollution poses a severe threat to marine ecosystems in coastal towns.\n(3) Regular coastal cleanup drives are also conducted by community volunteers.\n(4) These combined efforts have visibly reduced plastic litter along the shoreline.",
-        "choices": ["2-1-3-4", "1-2-3-4", "2-3-1-4", "3-1-2-4"],
-        "correct_answer": "2-1-3-4",
-        "explanation": "Sentence 2 states the threat. Sentence 1 gives the council's response ('In response'). Sentence 3 adds community efforts ('also'). Sentence 4 summarizes the outcome ('These combined efforts')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Regular coastal cleanup drives are also conducted by community volunteers.\n(2) Plastic pollution poses a severe threat to marine ecosystems in coastal towns.\n(3) These combined efforts have visibly reduced plastic litter along the shoreline.\n(4) In response, the local council enacted ordinances banning single-use plastics.",
+        "choices": [
+            "2-4-1-3",
+            "4-2-1-3",
+            "1-4-2-3",
+            "2-1-4-3"
+        ],
+        "correct_answer": "2-4-1-3",
+        "explanation": "Sentence 2 states the threat. Sentence 4 gives the council's response ('In response'). Sentence 1 adds community efforts ('also'). Sentence 3 summarizes the outcome ('These combined efforts')."
     },
     {
         "id": "96",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) After submission, investigators conduct preliminary examinations of the evidence.\n(2) Whistleblowers can submit reports through a dedicated confidential hotline.\n(3) Anti-corruption agencies rely on public reporting to uncover fraudulent activities.\n(4) If probable cause is established, formal administrative or criminal charges are filed.",
-        "choices": ["3-2-1-4", "2-3-1-4", "3-1-2-4", "1-2-3-4"],
-        "correct_answer": "3-2-1-4",
-        "explanation": "Sentence 3 introduces public reporting in anti-corruption. Sentence 2 details how whistleblowers report. Sentence 1 describes post-submission investigation. Sentence 4 states the final legal outcome ('If probable cause...')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) If probable cause is established, formal administrative or criminal charges are filed.\n(2) After submission, investigators conduct preliminary examinations of the evidence.\n(3) Anti-corruption agencies rely on public reporting to uncover fraudulent activities.\n(4) Whistleblowers can submit reports through a dedicated confidential hotline.",
+        "choices": [
+            "2-4-3-1",
+            "3-4-2-1",
+            "3-2-4-1",
+            "4-3-2-1"
+        ],
+        "correct_answer": "3-4-2-1",
+        "explanation": "Sentence 3 introduces public reporting in anti-corruption. Sentence 4 details how whistleblowers report. Sentence 2 describes post-submission investigation. Sentence 1 states the final legal outcome ('If probable cause...')."
     },
     {
         "id": "97",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Furthermore, trees reduce urban heat island effects by providing shade.\n(2) Urban greening projects are being prioritized in major Metro Manila cities.\n(3) Planting trees in urban spaces improves air quality by absorbing pollutants.\n(4) Consequently, city planners are integrating parks into commercial development zones.",
-        "choices": ["2-3-1-4", "3-2-4-1", "2-1-3-4", "1-3-2-4"],
-        "correct_answer": "2-3-1-4",
-        "explanation": "Sentence 2 introduces urban greening projects. Sentence 3 presents the primary benefit (air quality). Sentence 1 adds a secondary benefit ('Furthermore'). Sentence 4 states the planning outcome ('Consequently')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Urban greening projects are being prioritized in major Metro Manila cities.\n(2) Planting trees in urban spaces improves air quality by absorbing pollutants.\n(3) Consequently, city planners are integrating parks into commercial development zones.\n(4) Furthermore, trees reduce urban heat island effects by providing shade.",
+        "choices": [
+            "2-1-3-4",
+            "1-4-2-3",
+            "1-2-4-3",
+            "4-2-1-3"
+        ],
+        "correct_answer": "1-2-4-3",
+        "explanation": "Sentence 1 introduces urban greening projects. Sentence 2 presents the primary benefit (air quality). Sentence 4 adds a secondary benefit ('Furthermore'). Sentence 3 states the planning outcome ('Consequently')."
     },
     {
         "id": "98",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Once verified, funds are directly transferred to beneficiaries' bank accounts.\n(2) Social pension distribution for indigent senior citizens has been streamlined.\n(3) Local social welfare officers first validate the eligibility of senior applicants.\n(4) This direct payment model minimizes delays and prevents unauthorized deductions.",
-        "choices": ["2-3-1-4", "3-2-4-1", "2-1-3-4", "1-3-2-4"],
-        "correct_answer": "2-3-1-4",
-        "explanation": "Sentence 2 introduces social pension distribution. Sentence 3 gives the initial validation step ('first'). Sentence 1 gives the payment step ('Once verified'). Sentence 4 explains the overall advantage ('This direct payment model')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Once verified, funds are directly transferred to beneficiaries' bank accounts.\n(2) This direct payment model minimizes delays and prevents unauthorized deductions.\n(3) Social pension distribution for indigent senior citizens has been streamlined.\n(4) Local social welfare officers first validate the eligibility of senior applicants.",
+        "choices": [
+            "3-4-1-2",
+            "3-1-4-2",
+            "1-4-3-2",
+            "4-3-2-1"
+        ],
+        "correct_answer": "3-4-1-2",
+        "explanation": "Sentence 3 introduces social pension distribution. Sentence 4 gives the initial validation step ('first'). Sentence 1 gives the payment step ('Once verified'). Sentence 2 explains the overall advantage ('This direct payment model')."
     },
     {
         "id": "99",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Feedback forms are collected daily and analyzed weekly by the quality assurance team.\n(2) Customer feedback mechanisms are essential for improving government services.\n(3) Service improvements are then implemented based on recurring citizen complaints.\n(4) Offices place suggestion boxes and QR code surveys at transaction counters.",
-        "choices": ["2-4-1-3", "4-2-1-3", "2-1-4-3", "1-4-2-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces feedback mechanisms. Sentence 4 describes placement of suggestion tools. Sentence 1 describes collection and analysis ('collected daily'). Sentence 3 describes the implementation of improvements ('then implemented')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Customer feedback mechanisms are essential for improving government services.\n(2) Service improvements are then implemented based on recurring citizen complaints.\n(3) Offices place suggestion boxes and QR code surveys at transaction counters.\n(4) Feedback forms are collected daily and analyzed weekly by the quality assurance team.",
+        "choices": [
+            "1-4-3-2",
+            "1-3-4-2",
+            "3-1-4-2",
+            "4-3-1-2"
+        ],
+        "correct_answer": "1-3-4-2",
+        "explanation": "Sentence 1 introduces feedback mechanisms. Sentence 3 describes placement of suggestion tools. Sentence 4 describes collection and analysis ('collected daily'). Sentence 2 describes the implementation of improvements ('then implemented')."
     },
     {
         "id": "100",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) In conclusion, disaster resilience requires continuous cooperation between government and citizens.\n(2) Disaster preparedness is a shared responsibility across all sectors of society.\n(3) Meanwhile, citizens must participate in earthquake drills and prepare emergency kits.\n(4) Government agencies must maintain early warning systems and clear evacuation routes.",
-        "choices": ["2-4-3-1", "4-3-2-1", "2-3-4-1", "1-2-4-3"],
-        "correct_answer": "2-4-3-1",
-        "explanation": "Sentence 2 introduces shared responsibility. Sentence 4 outlines the government's duties. Sentence 3 outlines citizen duties ('Meanwhile'). Sentence 1 concludes ('In conclusion')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Meanwhile, citizens must participate in earthquake drills and prepare emergency kits.\n(2) Disaster preparedness is a shared responsibility across all sectors of society.\n(3) In conclusion, disaster resilience requires continuous cooperation between government and citizens.\n(4) Government agencies must maintain early warning systems and clear evacuation routes.",
+        "choices": [
+            "2-1-4-3",
+            "4-1-2-3",
+            "2-4-1-3",
+            "3-2-4-1"
+        ],
+        "correct_answer": "2-4-1-3",
+        "explanation": "Sentence 2 introduces shared responsibility. Sentence 4 outlines the government's duties. Sentence 1 outlines citizen duties ('Meanwhile'). Sentence 3 concludes ('In conclusion')."
     },
     {
         "id": "101",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) The Ombudsman conducts investigations into alleged graft and corruption among public officials.\n(2) Article XI of the 1987 Constitution establishes the Accountability of Public Officers.\n(3) If evidence warrants, cases are prosecuted before the Sandiganbayan.\n(4) It creates the Office of the Ombudsman as an independent watchdog body.",
-        "choices": ["2-4-1-3", "4-2-1-3", "2-1-4-3", "1-4-2-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 cites Article XI. Sentence 4 explains what it creates ('It creates'). Sentence 1 describes what the Ombudsman does. Sentence 3 states the judicial outcome ('If evidence warrants')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) If evidence warrants, cases are prosecuted before the Sandiganbayan.\n(2) Article XI of the 1987 Constitution establishes the Accountability of Public Officers.\n(3) The Ombudsman conducts investigations into alleged graft and corruption among public officials.\n(4) It creates the Office of the Ombudsman as an independent watchdog body.",
+        "choices": [
+            "2-3-4-1",
+            "2-4-3-1",
+            "3-4-2-1",
+            "4-2-3-1"
+        ],
+        "correct_answer": "2-4-3-1",
+        "explanation": "Sentence 2 cites Article XI. Sentence 4 explains what it creates ('It creates'). Sentence 3 describes what the Ombudsman does. Sentence 1 states the judicial outcome ('If evidence warrants')."
     },
     {
         "id": "102",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Subsequently, field officers conduct site inspections to verify building compliance.\n(2) Securing a building permit is a mandatory requirement prior to construction.\n(3) Upon successful inspection, the local building official issues the permit.\n(4) Applicants first submit architectural plans and engineering specifications.",
-        "choices": ["2-4-1-3", "4-2-1-3", "2-1-4-3", "1-4-2-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces the requirement. Sentence 4 states the first action ('first submit'). Sentence 1 states the field inspection step ('Subsequently'). Sentence 3 concludes with permit issuance ('Upon successful inspection')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Upon successful inspection, the local building official issues the permit.\n(2) Applicants first submit architectural plans and engineering specifications.\n(3) Subsequently, field officers conduct site inspections to verify building compliance.\n(4) Securing a building permit is a mandatory requirement prior to construction.",
+        "choices": [
+            "4-2-3-1",
+            "3-2-4-1",
+            "2-4-3-1",
+            "4-3-2-1"
+        ],
+        "correct_answer": "4-2-3-1",
+        "explanation": "Sentence 4 introduces the requirement. Sentence 2 states the first action ('first submit'). Sentence 3 states the field inspection step ('Subsequently'). Sentence 1 concludes with permit issuance ('Upon successful inspection')."
     },
     {
         "id": "103",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) As a result, farmers reported a 20% increase in harvest yields.\n(2) The Department of Agriculture distributed high-yielding seed varieties to local cooperatives.\n(3) Technical assistance and irrigation support were also provided alongside the seeds.\n(4) These interventions aimed to enhance food security in rural provinces.",
-        "choices": ["2-3-4-1", "3-2-1-4", "2-4-3-1", "4-2-3-1"],
-        "correct_answer": "2-3-4-1",
-        "explanation": "Sentence 2 introduces seed distribution. Sentence 3 adds technical assistance ('also provided'). Sentence 4 states the objective ('These interventions aimed'). Sentence 1 concludes with measurable results ('As a result')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) These interventions aimed to enhance food security in rural provinces.\n(2) As a result, farmers reported a 20% increase in harvest yields.\n(3) The Department of Agriculture distributed high-yielding seed varieties to local cooperatives.\n(4) Technical assistance and irrigation support were also provided alongside the seeds.",
+        "choices": [
+            "4-3-2-1",
+            "1-3-4-2",
+            "3-4-1-2",
+            "3-1-4-2"
+        ],
+        "correct_answer": "3-4-1-2",
+        "explanation": "Sentence 3 introduces seed distribution. Sentence 4 adds technical assistance ('also provided'). Sentence 1 states the objective ('These interventions aimed'). Sentence 2 concludes with measurable results ('As a result')."
     },
     {
         "id": "104",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) This database enables swift background checks and verification of criminal records.\n(2) The Philippine National Police (PNP) modernized its criminal record management system.\n(3) Law enforcement officers can now access central records remotely using mobile terminals.\n(4) Consequently, investigation turnaround times have been drastically reduced.",
-        "choices": ["2-1-3-4", "1-2-3-4", "2-3-1-4", "3-1-2-4"],
-        "correct_answer": "2-1-3-4",
-        "explanation": "Sentence 2 introduces the modernization. Sentence 1 describes the central database capabilities ('This database'). Sentence 3 explains field access ('can now access'). Sentence 4 gives the final impact ('Consequently')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Law enforcement officers can now access central records remotely using mobile terminals.\n(2) Consequently, investigation turnaround times have been drastically reduced.\n(3) The Philippine National Police (PNP) modernized its criminal record management system.\n(4) This database enables swift background checks and verification of criminal records.",
+        "choices": [
+            "3-1-4-2",
+            "4-3-1-2",
+            "3-4-1-2",
+            "1-4-3-2"
+        ],
+        "correct_answer": "3-4-1-2",
+        "explanation": "Sentence 3 introduces the modernization. Sentence 4 describes the central database capabilities ('This database'). Sentence 1 explains field access ('can now access'). Sentence 2 gives the final impact ('Consequently')."
     },
     {
         "id": "105",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Therefore, public officers must divest from business interests that conflict with their duties.\n(2) RA 6713 establishes ethical standards for public officials and employees.\n(3) Conflict of interest arises when a public official's private interest influences official actions.\n(4) Failure to divest within thirty days constitutes a violation of the ethics code.",
-        "choices": ["2-3-1-4", "3-2-4-1", "2-1-3-4", "1-3-2-4"],
-        "correct_answer": "2-3-1-4",
-        "explanation": "Sentence 2 introduces RA 6713. Sentence 3 defines conflict of interest. Sentence 1 states the duty ('Therefore... must divest'). Sentence 4 gives the consequence of non-compliance."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Failure to divest within thirty days constitutes a violation of the ethics code.\n(2) Therefore, public officers must divest from business interests that conflict with their duties.\n(3) Conflict of interest arises when a public official's private interest influences official actions.\n(4) RA 6713 establishes ethical standards for public officials and employees.",
+        "choices": [
+            "4-3-2-1",
+            "4-2-3-1",
+            "2-3-4-1",
+            "3-4-1-2"
+        ],
+        "correct_answer": "4-3-2-1",
+        "explanation": "Sentence 4 introduces RA 6713. Sentence 3 defines conflict of interest. Sentence 2 states the duty ('Therefore... must divest'). Sentence 1 gives the consequence of non-compliance."
     },
     {
         "id": "106",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) After initial screening, shortlisted candidates undergo structured panel interviews.\n(2) Recruitment in government agencies follows guidelines established by the CSC.\n(3) The agency's Human Resource Merit Promotion and Selection Board (HRMPSB) conducts the final rating.\n(4) Interested applicants first submit their Personal Data Sheet (PDS) and supporting credentials.",
-        "choices": ["2-4-1-3", "4-2-1-3", "2-1-4-3", "1-4-2-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces CSC recruitment guidelines. Sentence 4 states applicant submission ('first submit'). Sentence 1 describes candidate screening and interviews. Sentence 3 concludes with the HRMPSB final rating."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Interested applicants first submit their Personal Data Sheet (PDS) and supporting credentials.\n(2) After initial screening, shortlisted candidates undergo structured panel interviews.\n(3) The agency's Human Resource Merit Promotion and Selection Board (HRMPSB) conducts the final rating.\n(4) Recruitment in government agencies follows guidelines established by the CSC.",
+        "choices": [
+            "1-4-2-3",
+            "4-1-2-3",
+            "4-2-1-3",
+            "2-1-4-3"
+        ],
+        "correct_answer": "4-1-2-3",
+        "explanation": "Sentence 4 introduces CSC recruitment guidelines. Sentence 1 states applicant submission ('first submit'). Sentence 2 describes candidate screening and interviews. Sentence 3 concludes with the HRMPSB final rating."
     },
     {
         "id": "107",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) These workshops cover financial literacy, budgeting, and retirement planning.\n(2) Pre-retirement counseling programs prepare government employees for life after public service.\n(3) As a result, retirees report feeling more financially secure and mentally prepared.\n(4) The Civil Service Commission conducts these sessions annually for retiring personnel.",
-        "choices": ["2-4-1-3", "4-2-1-3", "2-1-4-3", "1-4-2-3"],
-        "correct_answer": "2-4-1-3",
-        "explanation": "Sentence 2 introduces pre-retirement counseling. Sentence 4 specifies who conducts them. Sentence 1 lists workshop topics ('These workshops cover'). Sentence 3 concludes with retiree benefits ('As a result')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Pre-retirement counseling programs prepare government employees for life after public service.\n(2) The Civil Service Commission conducts these sessions annually for retiring personnel.\n(3) These workshops cover financial literacy, budgeting, and retirement planning.\n(4) As a result, retirees report feeling more financially secure and mentally prepared.",
+        "choices": [
+            "2-1-3-4",
+            "1-2-3-4",
+            "3-2-1-4",
+            "1-3-2-4"
+        ],
+        "correct_answer": "1-2-3-4",
+        "explanation": "Sentence 1 introduces pre-retirement counseling. Sentence 2 specifies who conducts them. Sentence 3 lists workshop topics ('These workshops cover'). Sentence 4 concludes with retiree benefits ('As a result')."
     },
     {
         "id": "108",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Once processed, the tax clear certificate is issued electronically to the taxpayer.\n(2) Obtaining a Tax Clearance Certificate is required for government bidding.\n(3) The Bureau of Internal Revenue (BIR) verifies that all tax liabilities are fully settled.\n(4) Taxpayers file their application together with proof of recent tax returns.",
-        "choices": ["2-4-3-1", "4-2-1-3", "2-3-4-1", "1-4-2-3"],
-        "correct_answer": "2-4-3-1",
-        "explanation": "Sentence 2 states why tax clearances are needed. Sentence 4 describes taxpayer application. Sentence 3 describes BIR verification. Sentence 1 describes electronic issuance ('Once processed')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Obtaining a Tax Clearance Certificate is required for government bidding.\n(2) The Bureau of Internal Revenue (BIR) verifies that all tax liabilities are fully settled.\n(3) Once processed, the tax clear certificate is issued electronically to the taxpayer.\n(4) Taxpayers file their application together with proof of recent tax returns.",
+        "choices": [
+            "1-4-2-3",
+            "4-1-3-2",
+            "3-4-1-2",
+            "1-2-4-3"
+        ],
+        "correct_answer": "1-4-2-3",
+        "explanation": "Sentence 1 states why tax clearances are needed. Sentence 4 describes taxpayer application. Sentence 2 describes BIR verification. Sentence 3 describes electronic issuance ('Once processed')."
     },
     {
         "id": "109",
         "category": "Verbal Ability – Paragraph Organization",
-        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Consequently, public trust in municipal services has significantly improved.\n(2) Transparent governance relies on open access to public records.\n(3) Local government units are adopting proactive disclosure policies under Freedom of Information guidelines.\n(4) Financial statements, procurement bids, and ordinance drafts are published online monthly.",
-        "choices": ["2-3-4-1", "3-2-1-4", "2-4-3-1", "4-2-3-1"],
-        "correct_answer": "2-3-4-1",
-        "explanation": "Sentence 2 states the principle of transparent governance. Sentence 3 specifies LGU policy adoption. Sentence 4 lists documents published online. Sentence 1 states the overall impact ('Consequently')."
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Consequently, public trust in municipal services has significantly improved.\n(2) Financial statements, procurement bids, and ordinance drafts are published online monthly.\n(3) Transparent governance relies on open access to public records.\n(4) Local government units are adopting proactive disclosure policies under Freedom of Information guidelines.",
+        "choices": [
+            "2-3-4-1",
+            "3-2-4-1",
+            "4-3-1-2",
+            "3-4-2-1"
+        ],
+        "correct_answer": "3-4-2-1",
+        "explanation": "Sentence 3 states the principle of transparent governance. Sentence 4 specifies LGU policy adoption. Sentence 2 lists documents published online. Sentence 1 states the overall impact ('Consequently')."
     },
     {
         "id": "110",
         "category": "Verbal Ability – Paragraph Organization",
         "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Finally, regular maintenance checks prevent unexpected equipment breakdowns.\n(2) Proper maintenance of government vehicles ensures official transport safety.\n(3) Drivers must complete daily trip tickets and log pre-departure inspections.\n(4) Fleet managers monitor fuel consumption and schedule routine servicing.",
-        "choices": ["2-3-4-1", "3-2-4-1", "2-4-3-1", "4-2-3-1"],
+        "choices": [
+            "2-3-4-1",
+            "4-2-3-1",
+            "2-4-3-1",
+            "3-2-4-1"
+        ],
         "correct_answer": "2-3-4-1",
         "explanation": "Sentence 2 introduces vehicle maintenance. Sentence 3 describes driver responsibilities. Sentence 4 describes manager oversight. Sentence 1 concludes with prevention benefits ('Finally')."
     }

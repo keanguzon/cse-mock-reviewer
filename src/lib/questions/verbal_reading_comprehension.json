@@ -3,7 +3,12 @@
         "id": "81",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 6713, also known as the Code of Conduct and Ethical Standards for Public Officials and Employees, was enacted to promote a high standard of ethics in public service. The law requires all government workers to act with patriotism, justice, and sincerity. It mandates the disclosure of financial interests and prohibits the solicitation or acceptance of gifts in connection with official duties. Violations can lead to administrative sanctions, including suspension or dismissal from service.\n\nWhat is the primary purpose of Republic Act No. 6713?",
-        "choices": ["To increase the salaries of government employees", "To promote a high standard of ethics in public service", "To establish the Civil Service Commission", "To create a judicial review process for public officials"],
+        "choices": [
+            "To establish the Civil Service Commission",
+            "To increase the salaries of government employees",
+            "To create a judicial review process for public officials",
+            "To promote a high standard of ethics in public service"
+        ],
         "correct_answer": "To promote a high standard of ethics in public service",
         "explanation": "The passage explicitly states that RA 6713 'was enacted to promote a high standard of ethics in public service.'"
     },
@@ -11,7 +16,12 @@
         "id": "82",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 6713, also known as the Code of Conduct and Ethical Standards for Public Officials and Employees, was enacted to promote a high standard of ethics in public service. The law requires all government workers to act with patriotism, justice, and sincerity. It mandates the disclosure of financial interests and prohibits the solicitation or acceptance of gifts in connection with official duties. Violations can lead to administrative sanctions, including suspension or dismissal from service.\n\nAccording to the passage, which of the following is prohibited under RA 6713?",
-        "choices": ["Participating in community service activities", "Soliciting or accepting gifts connected to official duties", "Filing a leave of absence", "Joining a professional organization"],
+        "choices": [
+            "Filing a leave of absence",
+            "Soliciting or accepting gifts connected to official duties",
+            "Participating in community service activities",
+            "Joining a professional organization"
+        ],
         "correct_answer": "Soliciting or accepting gifts connected to official duties",
         "explanation": "The passage states the law 'prohibits the solicitation or acceptance of gifts in connection with official duties.'"
     },
@@ -19,7 +29,12 @@
         "id": "83",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 6713, also known as the Code of Conduct and Ethical Standards for Public Officials and Employees, was enacted to promote a high standard of ethics in public service. The law requires all government workers to act with patriotism, justice, and sincerity. It mandates the disclosure of financial interests and prohibits the solicitation or acceptance of gifts in connection with official duties. Violations can lead to administrative sanctions, including suspension or dismissal from service.\n\nWhat can happen to those who violate the provisions of RA 6713?",
-        "choices": ["They receive a promotion", "They are given a warning letter only", "They may face suspension or dismissal from service", "They are transferred to a different department"],
+        "choices": [
+            "They receive a promotion",
+            "They are given a warning letter only",
+            "They are transferred to a different department",
+            "They may face suspension or dismissal from service"
+        ],
         "correct_answer": "They may face suspension or dismissal from service",
         "explanation": "The passage clearly states that 'violations can lead to administrative sanctions, including suspension or dismissal from service.'"
     },
@@ -27,7 +42,12 @@
         "id": "84",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Freedom of Information (FOI) program in the Philippines aims to make government transactions and records accessible to the public. Under Executive Order No. 2, all government offices under the executive branch are mandated to disclose public records, contracts, and transactions. However, certain information classified as exceptions — such as those involving national security, diplomatic negotiations, or personal privacy — may be withheld. The FOI program is seen as a crucial step toward greater government transparency and citizen empowerment.\n\nWhat is the main goal of the FOI program?",
-        "choices": ["To classify all government documents as confidential", "To make government transactions and records accessible to the public", "To limit the rights of citizens to access information", "To privatize government records"],
+        "choices": [
+            "To limit the rights of citizens to access information",
+            "To classify all government documents as confidential",
+            "To privatize government records",
+            "To make government transactions and records accessible to the public"
+        ],
         "correct_answer": "To make government transactions and records accessible to the public",
         "explanation": "The first sentence states the FOI program 'aims to make government transactions and records accessible to the public.'"
     },
@@ -35,7 +55,12 @@
         "id": "85",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Freedom of Information (FOI) program in the Philippines aims to make government transactions and records accessible to the public. Under Executive Order No. 2, all government offices under the executive branch are mandated to disclose public records, contracts, and transactions. However, certain information classified as exceptions — such as those involving national security, diplomatic negotiations, or personal privacy — may be withheld. The FOI program is seen as a crucial step toward greater government transparency and citizen empowerment.\n\nWhich of the following is an exception to the FOI disclosure requirement?",
-        "choices": ["Public infrastructure project contracts", "Employee salary grades", "Information involving national security", "Annual budget allocations"],
+        "choices": [
+            "Information involving national security",
+            "Employee salary grades",
+            "Public infrastructure project contracts",
+            "Annual budget allocations"
+        ],
         "correct_answer": "Information involving national security",
         "explanation": "The passage lists national security, diplomatic negotiations, and personal privacy as exceptions to the disclosure requirement."
     },
@@ -43,7 +68,12 @@
         "id": "86",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Freedom of Information (FOI) program in the Philippines aims to make government transactions and records accessible to the public. Under Executive Order No. 2, all government offices under the executive branch are mandated to disclose public records, contracts, and transactions. However, certain information classified as exceptions — such as those involving national security, diplomatic negotiations, or personal privacy — may be withheld. The FOI program is seen as a crucial step toward greater government transparency and citizen empowerment.\n\nThe word 'mandated' in the passage most nearly means:",
-        "choices": ["Suggested", "Encouraged", "Required", "Permitted"],
+        "choices": [
+            "Permitted",
+            "Required",
+            "Suggested",
+            "Encouraged"
+        ],
         "correct_answer": "Required",
         "explanation": "'Mandated' means officially required or ordered by authority."
     },
@@ -51,7 +81,12 @@
         "id": "87",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Local Government Code of 1991, or Republic Act No. 7160, devolved several functions from the national government to local government units (LGUs). These include the delivery of basic services such as health, agriculture, social welfare, and public works. The law aimed to empower LGUs by giving them greater autonomy and fiscal independence. As a result, governors, mayors, and barangay captains now play a more direct role in addressing the needs of their constituents.\n\nWhat was the main purpose of RA 7160?",
-        "choices": ["To centralize power in the national government", "To abolish local government units", "To devolve functions from the national to local governments", "To reduce the budget of local government units"],
+        "choices": [
+            "To abolish local government units",
+            "To centralize power in the national government",
+            "To devolve functions from the national to local governments",
+            "To reduce the budget of local government units"
+        ],
         "correct_answer": "To devolve functions from the national to local governments",
         "explanation": "The passage states that RA 7160 'devolved several functions from the national government to local government units.'"
     },
@@ -59,7 +94,12 @@
         "id": "88",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Local Government Code of 1991, or Republic Act No. 7160, devolved several functions from the national government to local government units (LGUs). These include the delivery of basic services such as health, agriculture, social welfare, and public works. The law aimed to empower LGUs by giving them greater autonomy and fiscal independence. As a result, governors, mayors, and barangay captains now play a more direct role in addressing the needs of their constituents.\n\nWhich of the following services was devolved to LGUs under the Local Government Code?",
-        "choices": ["National defense", "Foreign affairs", "Health services", "Monetary policy"],
+        "choices": [
+            "Foreign affairs",
+            "Health services",
+            "Monetary policy",
+            "National defense"
+        ],
         "correct_answer": "Health services",
         "explanation": "The passage specifies that devolved services include 'health, agriculture, social welfare, and public works.'"
     },
@@ -67,7 +107,12 @@
         "id": "89",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Local Government Code of 1991, or Republic Act No. 7160, devolved several functions from the national government to local government units (LGUs). These include the delivery of basic services such as health, agriculture, social welfare, and public works. The law aimed to empower LGUs by giving them greater autonomy and fiscal independence. As a result, governors, mayors, and barangay captains now play a more direct role in addressing the needs of their constituents.\n\nThe word 'autonomy' in the passage most nearly means:",
-        "choices": ["Dependency", "Self-governance", "Obedience", "Conformity"],
+        "choices": [
+            "Dependency",
+            "Obedience",
+            "Conformity",
+            "Self-governance"
+        ],
         "correct_answer": "Self-governance",
         "explanation": "'Autonomy' means the right or condition of self-government."
     },
@@ -75,7 +120,12 @@
         "id": "90",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nPublic servants are expected to uphold the principles of accountability, transparency, and integrity. Accountability means being answerable for one's actions and decisions. Transparency requires that government processes be open and visible to the public. Integrity involves adherence to moral and ethical principles in the performance of duty. Together, these three principles form the foundation of good governance.\n\nWhat does accountability mean according to the passage?",
-        "choices": ["Making government processes visible to the public", "Being answerable for one's actions and decisions", "Adhering to moral and ethical principles", "Following the orders of a superior"],
+        "choices": [
+            "Being answerable for one's actions and decisions",
+            "Following the orders of a superior",
+            "Making government processes visible to the public",
+            "Adhering to moral and ethical principles"
+        ],
         "correct_answer": "Being answerable for one's actions and decisions",
         "explanation": "The passage directly defines accountability as 'being answerable for one's actions and decisions.'"
     },
@@ -83,7 +133,12 @@
         "id": "91",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Philippine Civil Service Commission (CSC) is the central human resource institution of the Philippine government. It is tasked with establishing a career service that ensures merit and fitness as the primary considerations in the recruitment, appointment, and promotion of government employees. The CSC administers the Career Service Examination, both at the professional and sub-professional levels, as the primary means of entry into the government workforce. Through its mandate, the CSC aims to build a competent, honest, and accountable bureaucracy.\n\nWhich of the following best describes the primary basis for government employment decisions according to the CSC?",
-        "choices": ["Political affiliation and party loyalty", "Seniority and years of service", "Merit and fitness", "Personal connections and recommendations"],
+        "choices": [
+            "Merit and fitness",
+            "Personal connections and recommendations",
+            "Seniority and years of service",
+            "Political affiliation and party loyalty"
+        ],
         "correct_answer": "Merit and fitness",
         "explanation": "The passage explicitly states that the CSC ensures 'merit and fitness as the primary considerations.'"
     },
@@ -91,7 +146,12 @@
         "id": "92",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Anti-Red Tape Act of 2007 (Republic Act No. 9485) was enacted to improve efficiency in government service delivery. The law requires all government agencies to establish and comply with service standards, including the maximum time allowed to process requests and the number of signatures required. Failure to comply with these standards may result in administrative liability for the responsible officials. The law was later amended by RA 11032, the Ease of Doing Business Act.\n\nWhat is the main objective of the Anti-Red Tape Act?",
-        "choices": ["To increase government employment", "To improve efficiency in government service delivery", "To abolish unnecessary government agencies", "To reduce government employee benefits"],
+        "choices": [
+            "To abolish unnecessary government agencies",
+            "To increase government employment",
+            "To improve efficiency in government service delivery",
+            "To reduce government employee benefits"
+        ],
         "correct_answer": "To improve efficiency in government service delivery",
         "explanation": "The passage states the Act 'was enacted to improve efficiency in government service delivery.'"
     },
@@ -99,7 +159,12 @@
         "id": "93",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Anti-Red Tape Act of 2007 (Republic Act No. 9485) was enacted to improve efficiency in government service delivery. The law requires all government agencies to establish and comply with service standards, including the maximum time allowed to process requests and the number of signatures required. Failure to comply with these standards may result in administrative liability for the responsible officials. The law was later amended by RA 11032, the Ease of Doing Business Act.\n\nWhat happens when government officials fail to meet the service standards set by the Anti-Red Tape Act?",
-        "choices": ["They receive additional training only", "They may face administrative liability", "They are automatically dismissed", "They are given a financial penalty"],
+        "choices": [
+            "They receive additional training only",
+            "They are automatically dismissed",
+            "They are given a financial penalty",
+            "They may face administrative liability"
+        ],
         "correct_answer": "They may face administrative liability",
         "explanation": "The passage states that 'failure to comply with these standards may result in administrative liability for the responsible officials.'"
     },
@@ -107,7 +172,12 @@
         "id": "94",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nEnvironmental conservation is a shared responsibility of government and citizens. The Philippine Clean Air Act (RA 8749) aims to achieve and maintain clean air that meets the National Air Quality guidelines. The law prohibits the use of incinerators and requires industries to install pollution control devices. It also establishes an air quality management fund for research and monitoring activities.\n\nWhat does the Philippine Clean Air Act prohibit?",
-        "choices": ["Use of renewable energy", "Use of incinerators", "Construction of factories", "Use of public transportation"],
+        "choices": [
+            "Construction of factories",
+            "Use of incinerators",
+            "Use of public transportation",
+            "Use of renewable energy"
+        ],
         "correct_answer": "Use of incinerators",
         "explanation": "The passage states that 'The law prohibits the use of incinerators.'"
     },
@@ -115,7 +185,12 @@
         "id": "95",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nEnvironmental conservation is a shared responsibility of government and citizens. The Philippine Clean Air Act (RA 8749) aims to achieve and maintain clean air that meets the National Air Quality guidelines. The law prohibits the use of incinerators and requires industries to install pollution control devices. It also establishes an air quality management fund for research and monitoring activities.\n\nWhat is the purpose of the air quality management fund mentioned in the passage?",
-        "choices": ["To subsidize industrial operations", "To fund research and monitoring activities", "To compensate pollution victims", "To build new government offices"],
+        "choices": [
+            "To build new government offices",
+            "To fund research and monitoring activities",
+            "To compensate pollution victims",
+            "To subsidize industrial operations"
+        ],
         "correct_answer": "To fund research and monitoring activities",
         "explanation": "The passage states that the fund is established 'for research and monitoring activities.'"
     },
@@ -123,7 +198,12 @@
         "id": "96",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Pantawid Pamilyang Pilipino Program (4Ps) is a conditional cash transfer program of the Philippine government. It provides cash grants to the poorest Filipino families, provided they comply with certain conditions such as keeping their children in school and attending regular health check-ups. The program aims to break the intergenerational cycle of poverty by investing in the health, nutrition, and education of poor households. As of 2024, the program has benefited millions of Filipino families.\n\nWhat type of program is the 4Ps?",
-        "choices": ["An unconditional cash transfer program", "A conditional cash transfer program", "A microfinance lending program", "A livelihood training program"],
+        "choices": [
+            "A livelihood training program",
+            "A microfinance lending program",
+            "An unconditional cash transfer program",
+            "A conditional cash transfer program"
+        ],
         "correct_answer": "A conditional cash transfer program",
         "explanation": "The passage directly identifies 4Ps as 'a conditional cash transfer program.'"
     },
@@ -131,7 +211,12 @@
         "id": "97",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Pantawid Pamilyang Pilipino Program (4Ps) is a conditional cash transfer program of the Philippine government. It provides cash grants to the poorest Filipino families, provided they comply with certain conditions such as keeping their children in school and attending regular health check-ups. The program aims to break the intergenerational cycle of poverty by investing in the health, nutrition, and education of poor households.\n\nWhat is one of the conditions that 4Ps beneficiaries must comply with?",
-        "choices": ["Finding employment within six months", "Keeping their children in school", "Attending government-sponsored seminars on entrepreneurship", "Volunteering for community service projects"],
+        "choices": [
+            "Attending government-sponsored seminars on entrepreneurship",
+            "Keeping their children in school",
+            "Finding employment within six months",
+            "Volunteering for community service projects"
+        ],
         "correct_answer": "Keeping their children in school",
         "explanation": "The passage mentions 'keeping their children in school' as one of the conditions for receiving cash grants."
     },
@@ -139,7 +224,12 @@
         "id": "98",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Philippines adopted a presidential form of government under the 1987 Constitution. The government is divided into three co-equal branches: the Executive, headed by the President; the Legislative, composed of the Senate and the House of Representatives; and the Judiciary, headed by the Supreme Court. This separation of powers ensures a system of checks and balances, preventing any single branch from exercising absolute authority.\n\nWhat form of government does the Philippines have?",
-        "choices": ["Parliamentary", "Federal", "Presidential", "Monarchy"],
+        "choices": [
+            "Monarchy",
+            "Parliamentary",
+            "Presidential",
+            "Federal"
+        ],
         "correct_answer": "Presidential",
         "explanation": "The passage states 'The Philippines adopted a presidential form of government under the 1987 Constitution.'"
     },
@@ -147,7 +237,12 @@
         "id": "99",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Philippines adopted a presidential form of government under the 1987 Constitution. The government is divided into three co-equal branches: the Executive, headed by the President; the Legislative, composed of the Senate and the House of Representatives; and the Judiciary, headed by the Supreme Court. This separation of powers ensures a system of checks and balances, preventing any single branch from exercising absolute authority.\n\nWhat is the purpose of the separation of powers according to the passage?",
-        "choices": ["To give more power to the President", "To allow citizens to vote directly on laws", "To ensure a system of checks and balances", "To create more government agencies"],
+        "choices": [
+            "To allow citizens to vote directly on laws",
+            "To create more government agencies",
+            "To give more power to the President",
+            "To ensure a system of checks and balances"
+        ],
         "correct_answer": "To ensure a system of checks and balances",
         "explanation": "The passage states that the separation of powers 'ensures a system of checks and balances, preventing any single branch from exercising absolute authority.'"
     },
@@ -155,7 +250,12 @@
         "id": "100",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Philippines adopted a presidential form of government under the 1987 Constitution. The government is divided into three co-equal branches: the Executive, headed by the President; the Legislative, composed of the Senate and the House of Representatives; and the Judiciary, headed by the Supreme Court. This separation of powers ensures a system of checks and balances, preventing any single branch from exercising absolute authority.\n\nWhich branch of government is headed by the Supreme Court?",
-        "choices": ["The Executive", "The Legislative", "The Judiciary", "The Administrative"],
+        "choices": [
+            "The Executive",
+            "The Judiciary",
+            "The Legislative",
+            "The Administrative"
+        ],
         "correct_answer": "The Judiciary",
         "explanation": "The passage states that the Judiciary is 'headed by the Supreme Court.'"
     },
@@ -163,7 +263,12 @@
         "id": "101",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 9485, known as the Anti-Red Tape Act of 2007, mandates all government agencies to improve efficiency in delivering public services. Under this law, agencies must publish a Citizen's Charter detailing step-by-step procedures, requirements, fees, and standard processing times for each transaction. Furthermore, the law penalizes public officers who fail to comply with posted processing times without valid cause.\n\nWhat does RA 9485 require government agencies to publish?",
-        "choices": ["Annual Financial Report", "Citizen's Charter", "Employee Directory", "Strategic Action Plan"],
+        "choices": [
+            "Citizen's Charter",
+            "Strategic Action Plan",
+            "Annual Financial Report",
+            "Employee Directory"
+        ],
         "correct_answer": "Citizen's Charter",
         "explanation": "The passage explicitly states that 'agencies must publish a Citizen's Charter detailing step-by-step procedures.'"
     },
@@ -171,7 +276,12 @@
         "id": "102",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 9485, known as the Anti-Red Tape Act of 2007, mandates all government agencies to improve efficiency in delivering public services. Under this law, agencies must publish a Citizen's Charter detailing step-by-step procedures, requirements, fees, and standard processing times for each transaction. Furthermore, the law penalizes public officers who fail to comply with posted processing times without valid cause.\n\nWhat is a primary goal of RA 9485?",
-        "choices": ["To increase tax collection", "To improve efficiency in delivering public services", "To digitize all government records", "To reduce the number of government employees"],
+        "choices": [
+            "To improve efficiency in delivering public services",
+            "To increase tax collection",
+            "To digitize all government records",
+            "To reduce the number of government employees"
+        ],
         "correct_answer": "To improve efficiency in delivering public services",
         "explanation": "The passage notes that RA 9485 'mandates all government agencies to improve efficiency in delivering public services.'"
     },
@@ -179,7 +289,12 @@
         "id": "103",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 9485, known as the Anti-Red Tape Act of 2007, mandates all government agencies to improve efficiency in delivering public services. Under this law, agencies must publish a Citizen's Charter detailing step-by-step procedures, requirements, fees, and standard processing times for each transaction. Furthermore, the law penalizes public officers who fail to comply with posted processing times without valid cause.\n\nWhat consequences face public officers who fail to meet posted processing times without valid cause?",
-        "choices": ["Mandatory transfer", "Immediate dismissal", "Penalties under the law", "Loss of civil service eligibility"],
+        "choices": [
+            "Penalties under the law",
+            "Loss of civil service eligibility",
+            "Mandatory transfer",
+            "Immediate dismissal"
+        ],
         "correct_answer": "Penalties under the law",
         "explanation": "The text states that 'the law penalizes public officers who fail to comply with posted processing times without valid cause.'"
     },
@@ -187,7 +302,12 @@
         "id": "104",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 7877, or the Anti-Sexual Harassment Act of 1995, declares work, education, or training-related sexual harassment unlawful in the Philippines. It applies to employers, managers, teachers, or any person who holds authority, influence, or moral ascendancy over another. The law requires all employers and educational institution heads to create a Committee on Decorum and Investigation (CODI) to handle complaints.\n\nWhat special committee must employers create under RA 7877?",
-        "choices": ["Disciplinary Action Board", "Ethics Oversight Panel", "Committee on Decorum and Investigation", "Grievance Mediation Council"],
+        "choices": [
+            "Grievance Mediation Council",
+            "Committee on Decorum and Investigation",
+            "Disciplinary Action Board",
+            "Ethics Oversight Panel"
+        ],
         "correct_answer": "Committee on Decorum and Investigation",
         "explanation": "The passage explicitly names the 'Committee on Decorum and Investigation (CODI)' as required under RA 7877."
     },
@@ -195,7 +315,12 @@
         "id": "105",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 7877, or the Anti-Sexual Harassment Act of 1995, declares work, education, or training-related sexual harassment unlawful in the Philippines. It applies to employers, managers, teachers, or any person who holds authority, influence, or moral ascendancy over another. The law requires all employers and educational institution heads to create a Committee on Decorum and Investigation (CODI) to handle complaints.\n\nTo whom does RA 7877 apply?",
-        "choices": ["Only private sector managers", "Persons holding authority, influence, or moral ascendancy", "Only university professors", "Elected national officials exclusively"],
+        "choices": [
+            "Only university professors",
+            "Persons holding authority, influence, or moral ascendancy",
+            "Only private sector managers",
+            "Elected national officials exclusively"
+        ],
         "correct_answer": "Persons holding authority, influence, or moral ascendancy",
         "explanation": "The text states that RA 7877 applies to 'employers, managers, teachers, or any person who holds authority, influence, or moral ascendancy over another.'"
     },
@@ -203,7 +328,12 @@
         "id": "106",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 7877, or the Anti-Sexual Harassment Act of 1995, declares work, education, or training-related sexual harassment unlawful in the Philippines. It applies to employers, managers, teachers, or any person who holds authority, influence, or moral ascendancy over another. The law requires all employers and educational institution heads to create a Committee on Decorum and Investigation (CODI) to handle complaints.\n\nIn which environments is sexual harassment declared unlawful by RA 7877?",
-        "choices": ["Work, education, or training-related environments", "Public transportation only", "Private residential areas only", "Commercial shopping centers only"],
+        "choices": [
+            "Private residential areas only",
+            "Public transportation only",
+            "Commercial shopping centers only",
+            "Work, education, or training-related environments"
+        ],
         "correct_answer": "Work, education, or training-related environments",
         "explanation": "The passage states RA 7877 'declares work, education, or training-related sexual harassment unlawful.'"
     },
@@ -211,7 +341,12 @@
         "id": "107",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nExecutive Order No. 292, also known as the Administrative Code of 1987, organizes the structural framework of the Philippine government. Book V specifically governs the Civil Service Commission (CSC) as the central personnel agency of the government. It establishes merit and fitness as the basis for appointment and promotion in the public service, protecting civil servants against arbitrary removal from office.\n\nWhat does Book V of Executive Order No. 292 govern?",
-        "choices": ["The Department of Finance", "The Civil Service Commission", "The Foreign Service Corps", "The Armed Forces of the Philippines"],
+        "choices": [
+            "The Civil Service Commission",
+            "The Department of Finance",
+            "The Foreign Service Corps",
+            "The Armed Forces of the Philippines"
+        ],
         "correct_answer": "The Civil Service Commission",
         "explanation": "The passage mentions 'Book V specifically governs the Civil Service Commission (CSC) as the central personnel agency.'"
     },
@@ -219,7 +354,12 @@
         "id": "108",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nExecutive Order No. 292, also known as the Administrative Code of 1987, organizes the structural framework of the Philippine government. Book V specifically governs the Civil Service Commission (CSC) as the central personnel agency of the government. It establishes merit and fitness as the basis for appointment and promotion in the public service, protecting civil servants against arbitrary removal from office.\n\nWhat principles form the basis for civil service appointments according to EO 292?",
-        "choices": ["Seniority and connections", "Merit and fitness", "Political affiliation and loyalty", "Educational attainment alone"],
+        "choices": [
+            "Political affiliation and loyalty",
+            "Merit and fitness",
+            "Educational attainment alone",
+            "Seniority and connections"
+        ],
         "correct_answer": "Merit and fitness",
         "explanation": "The passage states that EO 292 'establishes merit and fitness as the basis for appointment and promotion.'"
     },
@@ -227,7 +367,12 @@
         "id": "109",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nExecutive Order No. 292, also known as the Administrative Code of 1987, organizes the structural framework of the Philippine government. Book V specifically governs the Civil Service Commission (CSC) as the central personnel agency of the government. It establishes merit and fitness as the basis for appointment and promotion in the public service, protecting civil servants against arbitrary removal from office.\n\nHow does EO 292 protect civil servants?",
-        "choices": ["By guaranteeing lifetime pensions", "By protecting them against arbitrary removal from office", "By granting immunity from prosecution", "By exempting them from income taxes"],
+        "choices": [
+            "By granting immunity from prosecution",
+            "By protecting them against arbitrary removal from office",
+            "By exempting them from income taxes",
+            "By guaranteeing lifetime pensions"
+        ],
         "correct_answer": "By protecting them against arbitrary removal from office",
         "explanation": "The passage concludes by noting that it is 'protecting civil servants against arbitrary removal from office.'"
     },
@@ -235,7 +380,12 @@
         "id": "110",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 11032 amended the Anti-Red Tape Act to mandate standardized processing times across government offices: 3 working days for simple transactions, 7 working days for complex transactions, and 20 working days for highly technical applications. It also introduced the Zero-Contact Policy, minimizing face-to-face interactions between public officials and transacting citizens to eliminate corruption opportunities.\n\nWhat is the mandatory processing time for simple transactions under RA 11032?",
-        "choices": ["1 working day", "3 working days", "7 working days", "20 working days"],
+        "choices": [
+            "3 working days",
+            "1 working day",
+            "20 working days",
+            "7 working days"
+        ],
         "correct_answer": "3 working days",
         "explanation": "The passage specifies '3 working days for simple transactions.'"
     },
@@ -243,7 +393,12 @@
         "id": "111",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 11032 amended the Anti-Red Tape Act to mandate standardized processing times across government offices: 3 working days for simple transactions, 7 working days for complex transactions, and 20 working days for highly technical applications. It also introduced the Zero-Contact Policy, minimizing face-to-face interactions between public officials and transacting citizens to eliminate corruption opportunities.\n\nWhat is the maximum processing time for highly technical applications under RA 11032?",
-        "choices": ["7 working days", "15 working days", "20 working days", "30 working days"],
+        "choices": [
+            "30 working days",
+            "20 working days",
+            "15 working days",
+            "7 working days"
+        ],
         "correct_answer": "20 working days",
         "explanation": "The text states '20 working days for highly technical applications.'"
     },
@@ -251,7 +406,12 @@
         "id": "112",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 11032 amended the Anti-Red Tape Act to mandate standardized processing times across government offices: 3 working days for simple transactions, 7 working days for complex transactions, and 20 working days for highly technical applications. It also introduced the Zero-Contact Policy, minimizing face-to-face interactions between public officials and transacting citizens to eliminate corruption opportunities.\n\nWhat is the main goal of the Zero-Contact Policy introduced by RA 11032?",
-        "choices": ["To reduce government electricity bills", "To eliminate corruption opportunities by minimizing face-to-face interaction", "To replace all human employees with robots", "To speed up postal mail deliveries"],
+        "choices": [
+            "To speed up postal mail deliveries",
+            "To reduce government electricity bills",
+            "To eliminate corruption opportunities by minimizing face-to-face interaction",
+            "To replace all human employees with robots"
+        ],
         "correct_answer": "To eliminate corruption opportunities by minimizing face-to-face interaction",
         "explanation": "The passage notes that the Zero-Contact Policy works by 'minimizing face-to-face interactions... to eliminate corruption opportunities.'"
     },
@@ -259,7 +419,12 @@
         "id": "113",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 10173, the Data Privacy Act of 2012, protects individual personal information in information and communications systems. It established the National Privacy Commission (NPC) to administer and implement the law. Data controllers and processors are required to implement reasonable organizational, physical, and technical measures to secure personal data against unauthorized processing and accidental loss.\n\nWhich agency was established to implement the Data Privacy Act of 2012?",
-        "choices": ["Cybercrime Investigation Center", "National Bureau of Investigation", "National Privacy Commission", "Department of Information and Communications Technology"],
+        "choices": [
+            "National Privacy Commission",
+            "National Bureau of Investigation",
+            "Cybercrime Investigation Center",
+            "Department of Information and Communications Technology"
+        ],
         "correct_answer": "National Privacy Commission",
         "explanation": "The text explicitly states that RA 10173 'established the National Privacy Commission (NPC) to administer and implement the law.'"
     },
@@ -267,7 +432,12 @@
         "id": "114",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 10173, the Data Privacy Act of 2012, protects individual personal information in information and communications systems. It established the National Privacy Commission (NPC) to administer and implement the law. Data controllers and processors are required to implement reasonable organizational, physical, and technical measures to secure personal data against unauthorized processing and accidental loss.\n\nWhat types of security measures must data controllers implement under RA 10173?",
-        "choices": ["Financial, medical, and legal measures", "Organizational, physical, and technical measures", "Military, environmental, and maritime measures", "Political, diplomatic, and judicial measures"],
+        "choices": [
+            "Political, diplomatic, and judicial measures",
+            "Organizational, physical, and technical measures",
+            "Military, environmental, and maritime measures",
+            "Financial, medical, and legal measures"
+        ],
         "correct_answer": "Organizational, physical, and technical measures",
         "explanation": "The passage mentions that data controllers must implement 'reasonable organizational, physical, and technical measures.'"
     },
@@ -275,7 +445,12 @@
         "id": "115",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 10173, the Data Privacy Act of 2012, protects individual personal information in information and communications systems. It established the National Privacy Commission (NPC) to administer and implement the law. Data controllers and processors are required to implement reasonable organizational, physical, and technical measures to secure personal data against unauthorized processing and accidental loss.\n\nWhat is the primary scope of protection under RA 10173?",
-        "choices": ["Corporate trade secrets", "Individual personal information in ICT systems", "Government classified defense documents", "Intellectual property copyrights"],
+        "choices": [
+            "Intellectual property copyrights",
+            "Government classified defense documents",
+            "Corporate trade secrets",
+            "Individual personal information in ICT systems"
+        ],
         "correct_answer": "Individual personal information in ICT systems",
         "explanation": "The passage states that RA 10173 'protects individual personal information in information and communications systems.'"
     },
@@ -283,7 +458,12 @@
         "id": "116",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 9729, the Climate Change Act of 2009, mainstreamed climate change considerations into government policy formulations. It created the Climate Change Commission (CCC) as an independent policy-making body attached to the Office of the President. The CCC formulates the National Climate Change Action Plan (NCCAP), focusing on food security, water sufficiency, ecological stability, and human security.\n\nWhere is the Climate Change Commission attached administratively?",
-        "choices": ["Department of Environment and Natural Resources", "Office of the President", "Department of Science and Technology", "Department of Agriculture"],
+        "choices": [
+            "Department of Agriculture",
+            "Department of Science and Technology",
+            "Department of Environment and Natural Resources",
+            "Office of the President"
+        ],
         "correct_answer": "Office of the President",
         "explanation": "The text states the CCC is created 'as an independent policy-making body attached to the Office of the President.'"
     },
@@ -291,7 +471,12 @@
         "id": "117",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 9729, the Climate Change Act of 2009, mainstreamed climate change considerations into government policy formulations. It created the Climate Change Commission (CCC) as an independent policy-making body attached to the Office of the President. The CCC formulates the National Climate Change Action Plan (NCCAP), focusing on food security, water sufficiency, ecological stability, and human security.\n\nWhat key document is formulated by the Climate Change Commission?",
-        "choices": ["National Disaster Preparedness Manual", "National Climate Change Action Plan", "Environmental Impact Assessment Guidelines", "Clean Air Implementation Blueprint"],
+        "choices": [
+            "National Disaster Preparedness Manual",
+            "Clean Air Implementation Blueprint",
+            "Environmental Impact Assessment Guidelines",
+            "National Climate Change Action Plan"
+        ],
         "correct_answer": "National Climate Change Action Plan",
         "explanation": "The passage notes that 'The CCC formulates the National Climate Change Action Plan (NCCAP).'"
     },
@@ -299,7 +484,12 @@
         "id": "118",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 9729, the Climate Change Act of 2009, mainstreamed climate change considerations into government policy formulations. It created the Climate Change Commission (CCC) as an independent policy-making body attached to the Office of the President. The CCC formulates the National Climate Change Action Plan (NCCAP), focusing on food security, water sufficiency, ecological stability, and human security.\n\nWhich of the following is NOT mentioned as a focus area of the NCCAP?",
-        "choices": ["Food security", "Water sufficiency", "Space exploration", "Human security"],
+        "choices": [
+            "Food security",
+            "Water sufficiency",
+            "Space exploration",
+            "Human security"
+        ],
         "correct_answer": "Space exploration",
         "explanation": "The passage lists food security, water sufficiency, ecological stability, and human security. Space exploration is not mentioned."
     },
@@ -307,7 +497,12 @@
         "id": "119",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 11223, the Universal Health Care (UHC) Act, automatically enrolls all Filipino citizens into the National Health Insurance Program administered by PhilHealth. It seeks to ensure that every Filipino has equitable access to quality and affordable health care services without suffering financial hardship. Under the UHC Act, health services are categorized into population-based services managed by the DOH and individual-based services covered by PhilHealth.\n\nWho is automatically enrolled in the National Health Insurance Program under RA 11223?",
-        "choices": ["Only employed public servants", "All Filipino citizens", "Indigent senior citizens exclusively", "Persons with disabilities only"],
+        "choices": [
+            "All Filipino citizens",
+            "Indigent senior citizens exclusively",
+            "Persons with disabilities only",
+            "Only employed public servants"
+        ],
         "correct_answer": "All Filipino citizens",
         "explanation": "The passage states that the UHC Act 'automatically enrolls all Filipino citizens into the National Health Insurance Program.'"
     },
@@ -315,7 +510,12 @@
         "id": "120",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 11223, the Universal Health Care (UHC) Act, automatically enrolls all Filipino citizens into the National Health Insurance Program administered by PhilHealth. It seeks to ensure that every Filipino has equitable access to quality and affordable health care services without suffering financial hardship. Under the UHC Act, health services are categorized into population-based services managed by the DOH and individual-based services covered by PhilHealth.\n\nAccording to the passage, who manages population-based health services under the UHC Act?",
-        "choices": ["PhilHealth", "Local Government Units", "Department of Health (DOH)", "Private Hospital Networks"],
+        "choices": [
+            "PhilHealth",
+            "Private Hospital Networks",
+            "Department of Health (DOH)",
+            "Local Government Units"
+        ],
         "correct_answer": "Department of Health (DOH)",
         "explanation": "The passage states that 'population-based services [are] managed by the DOH.'"
     },
@@ -323,7 +523,12 @@
         "id": "121",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 11223, the Universal Health Care (UHC) Act, automatically enrolls all Filipino citizens into the National Health Insurance Program administered by PhilHealth. It seeks to ensure that every Filipino has equitable access to quality and affordable health care services without suffering financial hardship. Under the UHC Act, health services are categorized into population-based services managed by the DOH and individual-based services covered by PhilHealth.\n\nWhat is a central objective of the UHC Act regarding health care costs?",
-        "choices": ["To maximize hospital profits", "To eliminate private clinics", "To ensure affordable access without financial hardship", "To mandate private health insurance for everyone"],
+        "choices": [
+            "To maximize hospital profits",
+            "To eliminate private clinics",
+            "To mandate private health insurance for everyone",
+            "To ensure affordable access without financial hardship"
+        ],
         "correct_answer": "To ensure affordable access without financial hardship",
         "explanation": "The passage states the law seeks to ensure access to affordable care 'without suffering financial hardship.'"
     },
@@ -331,7 +536,12 @@
         "id": "122",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 7305, the Magna Carta for Public Health Workers, aims to promote and improve the social and economic well-being of health personnel in government service. It grants benefits such as hazard pay, night shift differential, longevity pay, and free medical examination. The law ensures that public health workers receive compensation commensurate with their hazardous working conditions and technical qualifications.\n\nWhat is the main purpose of RA 7305?",
-        "choices": ["To privatize public hospitals", "To promote the social and economic well-being of public health workers", "To regulate medical licensing exams", "To reduce government spending on healthcare"],
+        "choices": [
+            "To promote the social and economic well-being of public health workers",
+            "To reduce government spending on healthcare",
+            "To regulate medical licensing exams",
+            "To privatize public hospitals"
+        ],
         "correct_answer": "To promote the social and economic well-being of public health workers",
         "explanation": "The passage states RA 7305 'aims to promote and improve the social and economic well-being of health personnel.'"
     },
@@ -339,7 +549,12 @@
         "id": "123",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 7305, the Magna Carta for Public Health Workers, aims to promote and improve the social and economic well-being of health personnel in government service. It grants benefits such as hazard pay, night shift differential, longevity pay, and free medical examination. The law ensures that public health workers receive compensation commensurate with their hazardous working conditions and technical qualifications.\n\nWhich of the following benefits is explicitly mentioned in the passage?",
-        "choices": ["Housing subsidies", "Hazard pay", "Vehicle loans", "Tax exemption on all income"],
+        "choices": [
+            "Hazard pay",
+            "Vehicle loans",
+            "Housing subsidies",
+            "Tax exemption on all income"
+        ],
         "correct_answer": "Hazard pay",
         "explanation": "The text lists 'benefits such as hazard pay, night shift differential, longevity pay, and free medical examination.'"
     },
@@ -347,7 +562,12 @@
         "id": "124",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nRepublic Act No. 7305, the Magna Carta for Public Health Workers, aims to promote and improve the social and economic well-being of health personnel in government service. It grants benefits such as hazard pay, night shift differential, longevity pay, and free medical examination. The law ensures that public health workers receive compensation commensurate with their hazardous working conditions and technical qualifications.\n\nAccording to the passage, why do public health workers deserve special compensation?",
-        "choices": ["Because of their high administrative rank", "Because of their hazardous working conditions and qualifications", "Because they work strictly during daytime", "Because they are elected officials"],
+        "choices": [
+            "Because of their hazardous working conditions and qualifications",
+            "Because they work strictly during daytime",
+            "Because they are elected officials",
+            "Because of their high administrative rank"
+        ],
         "correct_answer": "Because of their hazardous working conditions and qualifications",
         "explanation": "The passage notes compensation should be 'commensurate with their hazardous working conditions and technical qualifications.'"
     },
@@ -355,7 +575,12 @@
         "id": "125",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nUnder Executive Order No. 2 (s. 2016), Freedom of Information (FOI) was established across all executive branch offices in the Philippines. It guarantees every Filipino citizen access to official records, public documents, and research data used as a basis for policy development. However, access is subject to exceptions specified by the Constitution, existing laws, and jurisprudence, such as national security matters and personal privacy.\n\nWhich branch of government is covered by Executive Order No. 2?",
-        "choices": ["The Judicial Branch", "The Executive Branch", "The Legislative Branch", "All Local Courts"],
+        "choices": [
+            "The Judicial Branch",
+            "The Executive Branch",
+            "The Legislative Branch",
+            "All Local Courts"
+        ],
         "correct_answer": "The Executive Branch",
         "explanation": "The passage states that FOI was established 'across all executive branch offices in the Philippines.'"
     },
@@ -363,7 +588,12 @@
         "id": "126",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nUnder Executive Order No. 2 (s. 2016), Freedom of Information (FOI) was established across all executive branch offices in the Philippines. It guarantees every Filipino citizen access to official records, public documents, and research data used as a basis for policy development. However, access is subject to exceptions specified by the Constitution, existing laws, and jurisprudence, such as national security matters and personal privacy.\n\nWhat right does EO No. 2 guarantee to Filipino citizens?",
-        "choices": ["Free legal representation", "Access to official records and public documents", "Exemption from court fees", "Right to draft executive orders"],
+        "choices": [
+            "Access to official records and public documents",
+            "Free legal representation",
+            "Right to draft executive orders",
+            "Exemption from court fees"
+        ],
         "correct_answer": "Access to official records and public documents",
         "explanation": "The passage notes EO No. 2 'guarantees every Filipino citizen access to official records, public documents, and research data.'"
     },
@@ -371,7 +601,12 @@
         "id": "127",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nUnder Executive Order No. 2 (s. 2016), Freedom of Information (FOI) was established across all executive branch offices in the Philippines. It guarantees every Filipino citizen access to official records, public documents, and research data used as a basis for policy development. However, access is subject to exceptions specified by the Constitution, existing laws, and jurisprudence, such as national security matters and personal privacy.\n\nWhich of the following is cited as an exception to FOI disclosure?",
-        "choices": ["Annual budget statements", "National security matters", "Citizen's charter guidelines", "Published agency research"],
+        "choices": [
+            "National security matters",
+            "Annual budget statements",
+            "Published agency research",
+            "Citizen's charter guidelines"
+        ],
         "correct_answer": "National security matters",
         "explanation": "The text lists 'national security matters and personal privacy' as examples of exceptions to FOI access."
     },
@@ -379,7 +614,12 @@
         "id": "128",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Philippine National Police Reform and Reorganization Act of 1998 (RA 8551) reformed the PNP into a civilian police force under the administrative control of the National Police Commission (NAPOLCOM). It emphasizes human rights training, gender sensitivity, and community-oriented policing. The law mandates that at least 10% of annual recruitment quotas be reserved for qualified female applicants.\n\nWhich body exercises administrative control over the PNP under RA 8551?",
-        "choices": ["Department of National Defense", "National Police Commission (NAPOLCOM)", "Civil Service Commission", "Armed Forces of the Philippines"],
+        "choices": [
+            "Armed Forces of the Philippines",
+            "Department of National Defense",
+            "Civil Service Commission",
+            "National Police Commission (NAPOLCOM)"
+        ],
         "correct_answer": "National Police Commission (NAPOLCOM)",
         "explanation": "The passage states that the PNP is 'under the administrative control of the National Police Commission (NAPOLCOM).'"
     },
@@ -387,7 +627,12 @@
         "id": "129",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Philippine National Police Reform and Reorganization Act of 1998 (RA 8551) reformed the PNP into a civilian police force under the administrative control of the National Police Commission (NAPOLCOM). It emphasizes human rights training, gender sensitivity, and community-oriented policing. The law mandates that at least 10% of annual recruitment quotas be reserved for qualified female applicants.\n\nWhat percentage of annual recruitment quotas is reserved for female applicants under RA 8551?",
-        "choices": ["At least 5%", "At least 10%", "At least 25%", "At least 50%"],
+        "choices": [
+            "At least 50%",
+            "At least 10%",
+            "At least 25%",
+            "At least 5%"
+        ],
         "correct_answer": "At least 10%",
         "explanation": "The passage explicitly notes that 'at least 10% of annual recruitment quotas [are] reserved for qualified female applicants.'"
     },
@@ -395,7 +640,12 @@
         "id": "130",
         "category": "Verbal Ability – Reading Comprehension",
         "question": "Read the passage and answer the question.\n\nThe Philippine National Police Reform and Reorganization Act of 1998 (RA 8551) reformed the PNP into a civilian police force under the administrative control of the National Police Commission (NAPOLCOM). It emphasizes human rights training, gender sensitivity, and community-oriented policing. The law mandates that at least 10% of annual recruitment quotas be reserved for qualified female applicants.\n\nWhat character descriptor is emphasized for the PNP under RA 8551?",
-        "choices": ["A paramilitary defense force", "A civilian police force", "A secretive intelligence agency", "A specialized judicial court"],
+        "choices": [
+            "A civilian police force",
+            "A specialized judicial court",
+            "A secretive intelligence agency",
+            "A paramilitary defense force"
+        ],
         "correct_answer": "A civilian police force",
         "explanation": "The passage states that RA 8551 'reformed the PNP into a civilian police force.'"
     }

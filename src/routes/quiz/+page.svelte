@@ -30,6 +30,7 @@
   let userAnswers = $state<Record<number, string>>({});
   let pendingAnswer = $state<string | null>(null);
   let showOverview = $state(false);
+  let filterUnanswered = $state(false);
 
   let startTime = $state(Date.now());
   let elapsedSeconds = $state(0);
@@ -181,10 +182,18 @@
   }
 
   function handleNext() {
-    if (currentIndex < questions.length - 1) {
-      currentIndex += 1;
-      pendingAnswer = userAnswers[currentIndex] || null;
+    if (unansweredCount === 0) {
+      if (currentIndex < questions.length - 1) {
+        currentIndex += 1;
+      }
+    } else {
+      let nextIndex = (currentIndex + 1) % questions.length;
+      while (userAnswers[nextIndex]) {
+        nextIndex = (nextIndex + 1) % questions.length;
+      }
+      currentIndex = nextIndex;
     }
+    pendingAnswer = userAnswers[currentIndex] || null;
   }
 
   function handlePrevious() {
@@ -269,6 +278,7 @@
       actionText: "SUBMIT NOW",
       isDanger: false,
       callback: async () => {
+        if (timerInterval) clearInterval(timerInterval);
         await clearActiveSession();
         currentIndex = questions.length;
       }
@@ -391,14 +401,24 @@
         <h3>Question Overview</h3>
         <button class="close-btn" onclick={toggleOverview} aria-label="Close">✕</button>
       </div>
+      
+      <div class="overview-filter">
+        <label class="filter-label">
+          <input type="checkbox" bind:checked={filterUnanswered} />
+          <span>Show Unanswered Only</span>
+        </label>
+      </div>
+
       <div class="overview-grid">
         {#each questions as _, i}
-          <button 
-            class="grid-item {userAnswers[i] ? 'answered' : 'unanswered'} {currentIndex === i ? 'current' : ''}"
-            onclick={() => jumpToQuestion(i)}
-          >
-            {i + 1}
-          </button>
+          {#if !filterUnanswered || !userAnswers[i]}
+            <button 
+              class="grid-item {userAnswers[i] ? 'answered' : 'unanswered'} {currentIndex === i ? 'current' : ''}"
+              onclick={() => jumpToQuestion(i)}
+            >
+              {i + 1}
+            </button>
+          {/if}
         {/each}
       </div>
       <div class="overview-footer">
@@ -623,8 +643,7 @@
   .overview-overlay {
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.9);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -730,8 +749,7 @@
   .modal-overlay {
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0, 0, 0, 0.85);
-    backdrop-filter: blur(8px);
+    background: rgba(0, 0, 0, 0.9);
     display: flex;
     align-items: center;
     justify-content: center;

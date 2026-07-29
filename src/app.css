@@ -11,8 +11,8 @@
   --cse-primary-dark: #6d28d9;
   --cse-primary-light: #a78bfa;
   --cse-accent: #e879f9;
-  --cse-surface: rgba(18, 12, 30, 0.85);
-  --cse-surface-light: rgba(30, 20, 50, 0.92);
+  --cse-surface: rgba(18, 12, 30, 0.92);
+  --cse-surface-light: rgba(30, 20, 50, 0.95);
   --cse-border: rgba(124, 58, 237, 0.22);
   --cse-text: #f0e8ff;
   --cse-text-muted: #7c6d8e;
@@ -43,8 +43,7 @@ body::before {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
   opacity: 0.025;
   pointer-events: none;
-  z-index: 9999;
-  mix-blend-mode: overlay;
+  z-index: 1;
 }
 
 /* Override Bulma base colours */
@@ -54,8 +53,6 @@ body::before {
 /* ---- Glassmorphism Card ---- */
 .glass-card {
   background: var(--cse-surface);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
   border: 1px solid var(--cse-border);
   border-radius: var(--cse-radius);
   box-shadow:
@@ -460,4 +457,18 @@ body::before {
   font-family: var(--font-body);
   font-weight: 800;
   font-variant-numeric: tabular-nums lining-nums;
+}
+
+/* Respect user motion preferences and improve low-end device performance */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  body::before {
+    display: none !important;
+  }
 }
