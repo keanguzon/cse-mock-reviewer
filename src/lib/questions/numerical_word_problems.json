@@ -323,5 +323,70 @@
     ],
     "correct_answer": "PHP 2,000",
     "explanation": "Selling price = 125% of Cost → Cost = 2,500 / 1.25 = PHP 2,000."
+  },
+  {
+    "id": "418",
+    "category": "Numerical Ability – Word Problems",
+    "question": "A vendor buys apples at PHP 15 each and sells them for PHP 22 each. What is his total profit from 50 apples?",
+    "choices": [
+      "PHP 350 total profit",
+      "PHP 300 total profit",
+      "PHP 400 total profit",
+      "PHP 250 total profit"
+    ],
+    "correct_answer": "PHP 350 total profit",
+    "explanation": "Profit per apple = 22 - 15 = 7. Total profit = 50 × 7 = 350."
+  },
+  {
+    "id": "419",
+    "category": "Numerical Ability – Word Problems",
+    "question": "The ratio of land to water in a town model is 3:7. If total area is 500 sq meters, what is the land area?",
+    "choices": [
+      "150 square meters",
+      "200 square meters",
+      "175 square meters",
+      "125 square meters"
+    ],
+    "correct_answer": "150 square meters",
+    "explanation": "Total parts = 10. Land = 3/10 × 500 = 150 sq meters."
+  },
+  {
+    "id": "420",
+    "category": "Numerical Ability – Word Problems",
+    "question": "A room is 8 meters long and 6 meters wide. How many square tiles of side 1 meter are needed to cover the floor?",
+    "choices": [
+      "48 tiles in total",
+      "56 tiles in total",
+      "40 tiles in total",
+      "52 tiles in total"
+    ],
+    "correct_answer": "48 tiles in total",
+    "explanation": "Area = 8 × 6 = 48 sq meters. 48 / 1 = 48 tiles."
+  },
+  {
+    "id": "421",
+    "category": "Numerical Ability – Word Problems",
+    "question": "An item originally priced at PHP 1,200 is increased by 10%, then discounted by 10%. What is the final price?",
+    "choices": [
+      "PHP 1,188 final price",
+      "PHP 1,200 final price",
+      "PHP 1,170 final price",
+      "PHP 1,190 final price"
+    ],
+    "correct_answer": "PHP 1,188 final price",
+    "explanation": "Increase by 10%: 1200 + 120 = 1320. Discount by 10%: 1320 - 132 = 1188."
+  },
+  {
+    "id": "422",
+    "category": "Numerical Ability – Word Problems",
+    "question": "If 4 liters of paint cover 50 square meters, how many liters of paint are needed for 125 square meters?",
+    "choices": [
+      "10 liters of paint",
+      "12 liters of paint",
+      "8 liters of paint",
+      "15 liters of paint"
+    ],
+    "correct_answer": "10 liters of paint",
+    "explanation": "Rate = 50 / 4 = 12.5 sq m/liter. 125 / 12.5 = 10 liters."
   }
 ]

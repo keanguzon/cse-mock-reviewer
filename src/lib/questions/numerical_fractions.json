@@ -323,5 +323,70 @@
     "correct_answer": "1/2 as the answer",
     "explanation": "0.75 = 3/4. 3/4 × 2/3 = 6/12 = 1/2.",
     "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "433",
+    "category": "Numerical Ability – Fractions & Decimals",
+    "question": "What is 4/5 minus 2/3?",
+    "choices": [
+      "2/15 as the answer",
+      "1/5 as the answer",
+      "2/5 as the answer",
+      "1/15 as the answer"
+    ],
+    "correct_answer": "2/15 as the answer",
+    "explanation": "4/5 - 2/3 = 12/15 - 10/15 = 2/15."
+  },
+  {
+    "id": "434",
+    "category": "Numerical Ability – Fractions & Decimals",
+    "question": "Convert 0.875 to a fraction in simplest form.",
+    "choices": [
+      "7/8 in fraction form",
+      "5/6 in fraction form",
+      "3/4 in fraction form",
+      "9/10 in fraction form"
+    ],
+    "correct_answer": "7/8 in fraction form",
+    "explanation": "0.875 = 875/1000 = 7/8."
+  },
+  {
+    "id": "435",
+    "category": "Numerical Ability – Fractions & Decimals",
+    "question": "What is 3 and 3/4 divided by 1 and 1/4?",
+    "choices": [
+      "3 as the quotient",
+      "2 and 1/2 quotient",
+      "4 as the quotient",
+      "2 as the quotient"
+    ],
+    "correct_answer": "3 as the quotient",
+    "explanation": "15/4 ÷ 5/4 = 15/4 × 4/5 = 3."
+  },
+  {
+    "id": "436",
+    "category": "Numerical Ability – Fractions & Decimals",
+    "question": "Express 3/25 as a decimal and as a percentage.",
+    "choices": [
+      "0.12 or 12 percent",
+      "0.15 or 15 percent",
+      "0.08 or 8 percent",
+      "0.16 or 16 percent"
+    ],
+    "correct_answer": "0.12 or 12 percent",
+    "explanation": "3 / 25 = 0.12 = 12%."
+  },
+  {
+    "id": "437",
+    "category": "Numerical Ability – Fractions & Decimals",
+    "question": "What is 5/8 of 120?",
+    "choices": [
+      "75 as the result",
+      "70 as the result",
+      "80 as the result",
+      "65 as the result"
+    ],
+    "correct_answer": "75 as the result",
+    "explanation": "5/8 × 120 = 5 × 15 = 75."
   }
 ]

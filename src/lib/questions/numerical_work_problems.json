@@ -323,5 +323,70 @@
     "correct_answer": "45 days needed total",
     "explanation": "12 carpenters × 60 days = 720 man-days for 4 houses. Per house = 180 man-days. 2 houses = 360. With 8: 360/8 = 45 days.",
     "category": "Numerical Ability – Work Problems"
+  },
+  {
+    "id": "428",
+    "category": "Numerical Ability – Work Problems",
+    "question": "A printer prints 30 pages per minute. A second printer prints 45 pages per minute. How many minutes do both printers need to print 900 pages?",
+    "choices": [
+      "12 minutes total",
+      "15 minutes total",
+      "10 minutes total",
+      "18 minutes total"
+    ],
+    "correct_answer": "12 minutes total",
+    "explanation": "Combined rate = 30 + 45 = 75 pages/min. Time = 900 / 75 = 12 minutes."
+  },
+  {
+    "id": "429",
+    "category": "Numerical Ability – Work Problems",
+    "question": "Ten workers can complete a landscaping job in 9 days. How many workers are needed to complete the job in 6 days?",
+    "choices": [
+      "15 workers needed",
+      "12 workers needed",
+      "18 workers needed",
+      "14 workers needed"
+    ],
+    "correct_answer": "15 workers needed",
+    "explanation": "Work = 10 × 9 = 90 man-days. For 6 days: 90 / 6 = 15 workers."
+  },
+  {
+    "id": "430",
+    "category": "Numerical Ability – Work Problems",
+    "question": "Pipe X fills a pool in 8 hours. Pipe Y fills the same pool in 12 hours. How long will it take both pipes working together to fill the pool?",
+    "choices": [
+      "4 hours and 48 minutes",
+      "5 hours and 15 minutes",
+      "4 hours and 30 minutes",
+      "5 hours and 30 minutes"
+    ],
+    "correct_answer": "4 hours and 48 minutes",
+    "explanation": "Combined rate = 1/8 + 1/12 = 5/24. Time = 24/5 = 4.8 hours = 4 hours 48 minutes."
+  },
+  {
+    "id": "431",
+    "category": "Numerical Ability – Work Problems",
+    "question": "A team of 4 technicians can repair 20 computers in 5 hours. How many computers can 6 technicians repair in 8 hours?",
+    "choices": [
+      "48 computers total",
+      "40 computers total",
+      "50 computers total",
+      "45 computers total"
+    ],
+    "correct_answer": "48 computers total",
+    "explanation": "Rate per technician = 20 / (4 × 5) = 1 computer/hr. 6 technicians × 8 hrs × 1 = 48 computers."
+  },
+  {
+    "id": "432",
+    "category": "Numerical Ability – Work Problems",
+    "question": "Worker A can assemble a bike in 4 hours. Worker B can do it in 6 hours. If Worker A works alone for 1 hour then B joins, how long does B work?",
+    "choices": [
+      "1 hour and 48 minutes",
+      "2 hours and 15 minutes",
+      "2 hours exactly total",
+      "1 hour and 30 minutes"
+    ],
+    "correct_answer": "1 hour and 48 minutes",
+    "explanation": "A does 1/4 in 1 hr. Remaining = 3/4. Combined rate = 1/4 + 1/6 = 5/12. Time for B = (3/4)/(5/12) = 9/5 = 1.8 hrs = 1 hr 48 min."
   }
 ]

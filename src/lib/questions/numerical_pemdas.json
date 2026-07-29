@@ -323,5 +323,70 @@
     "correct_answer": "13 is the answer",
     "explanation": "2² = 4. 16 ÷ 4 = 4. (7-4) = 3. 3 × 3 = 9. 4 + 9 = 13.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
+  },
+  {
+    "id": "438",
+    "category": "Numerical Ability – PEMDAS / Order of Operations",
+    "question": "Evaluate: 14 + 6 × 3 - 8 ÷ 2",
+    "choices": [
+      "28 is the result",
+      "26 is the result",
+      "30 is the result",
+      "24 is the result"
+    ],
+    "correct_answer": "28 is the result",
+    "explanation": "6 × 3 = 18. 8 ÷ 2 = 4. 14 + 18 - 4 = 28."
+  },
+  {
+    "id": "439",
+    "category": "Numerical Ability – PEMDAS / Order of Operations",
+    "question": "Evaluate: (15 + 5) ÷ (6 - 2) + 4²",
+    "choices": [
+      "21 is the answer",
+      "19 is the answer",
+      "23 is the answer",
+      "25 is the answer"
+    ],
+    "correct_answer": "21 is the answer",
+    "explanation": "Parentheses: 20 and 4. 20 ÷ 4 = 5. 4² = 16. 5 + 16 = 21."
+  },
+  {
+    "id": "440",
+    "category": "Numerical Ability – PEMDAS / Order of Operations",
+    "question": "Evaluate: 3 × (4 + 2³) - 10",
+    "choices": [
+      "26 is the result",
+      "24 is the result",
+      "28 is the result",
+      "22 is the result"
+    ],
+    "correct_answer": "26 is the result",
+    "explanation": "2³ = 8. 4 + 8 = 12. 3 × 12 = 36. 36 - 10 = 26."
+  },
+  {
+    "id": "441",
+    "category": "Numerical Ability – PEMDAS / Order of Operations",
+    "question": "Evaluate: 40 - 4 × (12 - 7) + 5",
+    "choices": [
+      "25 is the answer",
+      "30 is the answer",
+      "20 is the answer",
+      "35 is the answer"
+    ],
+    "correct_answer": "25 is the answer",
+    "explanation": "(12 - 7) = 5. 4 × 5 = 20. 40 - 20 + 5 = 25."
+  },
+  {
+    "id": "442",
+    "category": "Numerical Ability – PEMDAS / Order of Operations",
+    "question": "Evaluate: (18 ÷ 3)² - 5 × 4",
+    "choices": [
+      "16 is the result",
+      "14 is the result",
+      "18 is the result",
+      "12 is the result"
+    ],
+    "correct_answer": "16 is the result",
+    "explanation": "18 ÷ 3 = 6. 6² = 36. 5 × 4 = 20. 36 - 20 = 16."
   }
 ]
