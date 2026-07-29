@@ -3,12 +3,12 @@
     "id": "393",
     "question": "Evaluate: 8 + 2 × 5",
     "choices": [
-      "18 is the answer",
-      "50 is the answer",
-      "40 is the answer",
-      "25 is the answer"
+      "18",
+      "50",
+      "40",
+      "25"
     ],
-    "correct_answer": "18 is the answer",
+    "correct_answer": "18",
     "explanation": "Multiplication first: 2 × 5 = 10. Then 8 + 10 = 18.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -16,12 +16,12 @@
     "id": "394",
     "question": "Evaluate: (6 + 4) × 3 - 2",
     "choices": [
-      "28 is the result",
-      "30 is the result",
-      "22 is the result",
-      "26 is the result"
+      "28",
+      "30",
+      "22",
+      "26"
     ],
-    "correct_answer": "28 is the result",
+    "correct_answer": "28",
     "explanation": "Parentheses: 10. Then 10 × 3 = 30. Then 30 - 2 = 28.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -29,12 +29,12 @@
     "id": "395",
     "question": "Evaluate: 36 ÷ 6 + 2 × 4",
     "choices": [
-      "14 is the answer",
-      "32 is the answer",
-      "10 is the answer",
-      "20 is the answer"
+      "14",
+      "32",
+      "10",
+      "20"
     ],
-    "correct_answer": "14 is the answer",
+    "correct_answer": "14",
     "explanation": "36 ÷ 6 = 6. 2 × 4 = 8. Then 6 + 8 = 14.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -42,12 +42,12 @@
     "id": "396",
     "question": "Evaluate: 5 × (8 - 3) + 12 ÷ 4",
     "choices": [
-      "28 is the result",
-      "25 is the result",
-      "30 is the result",
-      "22 is the result"
+      "28",
+      "25",
+      "30",
+      "22"
     ],
-    "correct_answer": "28 is the result",
+    "correct_answer": "28",
     "explanation": "Parentheses: 5. Then 5 × 5 = 25. 12 ÷ 4 = 3. 25 + 3 = 28.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -55,12 +55,12 @@
     "id": "397",
     "question": "Evaluate: 48 ÷ (4 + 4) × 2",
     "choices": [
-      "12 is the answer",
-      "6 is the answer",
-      "16 is the answer",
-      "24 is the answer"
+      "12",
+      "6",
+      "16",
+      "24"
     ],
-    "correct_answer": "12 is the answer",
+    "correct_answer": "12",
     "explanation": "Parentheses: 8. Then 48 ÷ 8 = 6. Then 6 × 2 = 12.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -68,12 +68,12 @@
     "id": "398",
     "question": "Evaluate: 3² + 4 × 2 - 1",
     "choices": [
-      "16 is the result",
-      "14 is the result",
-      "18 is the result",
-      "20 is the result"
+      "16",
+      "14",
+      "18",
+      "20"
     ],
-    "correct_answer": "16 is the result",
+    "correct_answer": "16",
     "explanation": "3² = 9. 4 × 2 = 8. Then 9 + 8 - 1 = 16.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -81,12 +81,12 @@
     "id": "399",
     "question": "Evaluate: 100 - 5 × (3 + 7)",
     "choices": [
-      "50 is the answer",
-      "40 is the answer",
-      "60 is the answer",
-      "45 is the answer"
+      "50",
+      "40",
+      "60",
+      "45"
     ],
-    "correct_answer": "50 is the answer",
+    "correct_answer": "50",
     "explanation": "Parentheses: 10. Then 5 × 10 = 50. 100 - 50 = 50.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -94,12 +94,12 @@
     "id": "400",
     "question": "Evaluate: (15 - 5) ÷ 2 + 3 × 4",
     "choices": [
-      "17 is the result",
-      "14 is the result",
-      "20 is the result",
-      "12 is the result"
+      "17",
+      "14",
+      "20",
+      "12"
     ],
-    "correct_answer": "17 is the result",
+    "correct_answer": "17",
     "explanation": "Parentheses: 10. 10 ÷ 2 = 5. 3 × 4 = 12. 5 + 12 = 17.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -107,12 +107,12 @@
     "id": "401",
     "question": "Evaluate: 2 × 3² - 4 + 6",
     "choices": [
-      "20 is the answer",
-      "18 is the answer",
-      "24 is the answer",
-      "22 is the answer"
+      "20",
+      "18",
+      "24",
+      "22"
     ],
-    "correct_answer": "20 is the answer",
+    "correct_answer": "20",
     "explanation": "3² = 9. 2 × 9 = 18. 18 - 4 + 6 = 20.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -120,12 +120,12 @@
     "id": "402",
     "question": "Evaluate: 7 + 3 × (10 - 6) ÷ 2",
     "choices": [
-      "13 is the result",
-      "20 is the result",
-      "10 is the result",
-      "15 is the result"
+      "13",
+      "20",
+      "10",
+      "15"
     ],
-    "correct_answer": "13 is the result",
+    "correct_answer": "13",
     "explanation": "Parentheses: 4. 3 × 4 = 12. 12 ÷ 2 = 6. 7 + 6 = 13.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -133,12 +133,12 @@
     "id": "403",
     "question": "Evaluate: 25 - 3 × 4 + 2²",
     "choices": [
-      "17 is the answer",
-      "12 is the answer",
-      "20 is the answer",
-      "15 is the answer"
+      "17",
+      "12",
+      "20",
+      "15"
     ],
-    "correct_answer": "17 is the answer",
+    "correct_answer": "17",
     "explanation": "2² = 4. 3 × 4 = 12. 25 - 12 + 4 = 17.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -146,12 +146,12 @@
     "id": "404",
     "question": "Evaluate: (2 + 3)² - 10 ÷ 5",
     "choices": [
-      "23 is the result",
-      "25 is the result",
-      "20 is the result",
-      "15 is the result"
+      "23",
+      "25",
+      "20",
+      "15"
     ],
-    "correct_answer": "23 is the result",
+    "correct_answer": "23",
     "explanation": "Parentheses: 5. 5² = 25. 10 ÷ 5 = 2. 25 - 2 = 23.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -159,12 +159,12 @@
     "id": "405",
     "question": "Evaluate: 6 × 8 ÷ 4 + 5 - 3",
     "choices": [
-      "14 is the answer",
-      "12 is the answer",
-      "10 is the answer",
-      "16 is the answer"
+      "14",
+      "12",
+      "10",
+      "16"
     ],
-    "correct_answer": "14 is the answer",
+    "correct_answer": "14",
     "explanation": "6 × 8 = 48. 48 ÷ 4 = 12. 12 + 5 - 3 = 14.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -172,12 +172,12 @@
     "id": "406",
     "question": "Evaluate: 4 × (6 + 2) ÷ (10 - 6)",
     "choices": [
-      "8 is the result",
-      "6 is the result",
-      "10 is the result",
-      "12 is the result"
+      "8",
+      "6",
+      "10",
+      "12"
     ],
-    "correct_answer": "8 is the result",
+    "correct_answer": "8",
     "explanation": "Parentheses: (8) and (4). 4 × 8 = 32. 32 ÷ 4 = 8.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -185,12 +185,12 @@
     "id": "407",
     "question": "Evaluate: 10 + 2³ × 3 - 5",
     "choices": [
-      "29 is the answer",
-      "75 is the answer",
-      "24 is the answer",
-      "31 is the answer"
+      "29",
+      "75",
+      "24",
+      "31"
     ],
-    "correct_answer": "29 is the answer",
+    "correct_answer": "29",
     "explanation": "2³ = 8. 8 × 3 = 24. 10 + 24 - 5 = 29.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -198,12 +198,12 @@
     "id": "408",
     "question": "Evaluate: 18 ÷ (3 × 2) + 7",
     "choices": [
-      "10 is the result",
-      "12 is the result",
-      "13 is the result",
-      "11 is the result"
+      "10",
+      "12",
+      "13",
+      "11"
     ],
-    "correct_answer": "10 is the result",
+    "correct_answer": "10",
     "explanation": "Parentheses: 6. 18 ÷ 6 = 3. 3 + 7 = 10.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -211,12 +211,12 @@
     "id": "409",
     "question": "Evaluate: 5 + (4² - 6) × 2",
     "choices": [
-      "25 is the answer",
-      "18 is the answer",
-      "28 is the answer",
-      "20 is the answer"
+      "25",
+      "18",
+      "28",
+      "20"
     ],
-    "correct_answer": "25 is the answer",
+    "correct_answer": "25",
     "explanation": "4² = 16. 16 - 6 = 10. 10 × 2 = 20. 5 + 20 = 25.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -224,12 +224,12 @@
     "id": "410",
     "question": "Evaluate: 20 ÷ 4 + 6 × 3 - 1",
     "choices": [
-      "22 is the result",
-      "18 is the result",
-      "20 is the result",
-      "24 is the result"
+      "22",
+      "18",
+      "20",
+      "24"
     ],
-    "correct_answer": "22 is the result",
+    "correct_answer": "22",
     "explanation": "20 ÷ 4 = 5. 6 × 3 = 18. 5 + 18 - 1 = 22.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -237,12 +237,12 @@
     "id": "411",
     "question": "Evaluate: (12 - 4) × (3 + 2)",
     "choices": [
-      "40 is the answer",
-      "30 is the answer",
-      "50 is the answer",
-      "35 is the answer"
+      "40",
+      "30",
+      "50",
+      "35"
     ],
-    "correct_answer": "40 is the answer",
+    "correct_answer": "40",
     "explanation": "(8) × (5) = 40.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -250,12 +250,12 @@
     "id": "412",
     "question": "Evaluate: 9 - 3 + 6 ÷ 2 × 4",
     "choices": [
-      "18 is the result",
-      "24 is the result",
-      "12 is the result",
-      "16 is the result"
+      "18",
+      "24",
+      "12",
+      "16"
     ],
-    "correct_answer": "18 is the result",
+    "correct_answer": "18",
     "explanation": "6 ÷ 2 = 3. 3 × 4 = 12. 9 - 3 + 12 = 18.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -263,12 +263,12 @@
     "id": "413",
     "question": "Evaluate: 2 × (5 + 3²) - 8",
     "choices": [
-      "20 is the answer",
-      "28 is the answer",
-      "24 is the answer",
-      "18 is the answer"
+      "20",
+      "28",
+      "24",
+      "18"
     ],
-    "correct_answer": "20 is the answer",
+    "correct_answer": "20",
     "explanation": "Hmm: 3² = 9. 5 + 9 = 14. 2 × 14 = 28. 28 - 8 = 20.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -276,12 +276,12 @@
     "id": "414",
     "question": "Evaluate: 50 - (4 × 5 + 10) ÷ 3",
     "choices": [
-      "40 is the result",
-      "30 is the result",
-      "45 is the result",
-      "35 is the result"
+      "40",
+      "30",
+      "45",
+      "35"
     ],
-    "correct_answer": "40 is the result",
+    "correct_answer": "40",
     "explanation": "4 × 5 = 20. 20 + 10 = 30. 30 ÷ 3 = 10. 50 - 10 = 40.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -289,12 +289,12 @@
     "id": "415",
     "question": "Evaluate: 3 × 4 - 8 ÷ 2 + 5",
     "choices": [
-      "13 is the answer",
-      "10 is the answer",
-      "15 is the answer",
-      "11 is the answer"
+      "13",
+      "10",
+      "15",
+      "11"
     ],
-    "correct_answer": "13 is the answer",
+    "correct_answer": "13",
     "explanation": "3 × 4 = 12. 8 ÷ 2 = 4. 12 - 4 + 5 = 13.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -302,12 +302,12 @@
     "id": "416",
     "question": "Evaluate: (7 + 3) × 2 - 4²",
     "choices": [
-      "4 is the result",
-      "6 is the result",
-      "2 is the result",
-      "8 is the result"
+      "4",
+      "6",
+      "2",
+      "8"
     ],
-    "correct_answer": "4 is the result",
+    "correct_answer": "4",
     "explanation": "Parentheses: 10. 10 × 2 = 20. 4² = 16. 20 - 16 = 4.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -315,12 +315,12 @@
     "id": "417",
     "question": "Evaluate: 16 ÷ 2² + 3 × (7 - 4)",
     "choices": [
-      "13 is the answer",
-      "10 is the answer",
-      "15 is the answer",
-      "11 is the answer"
+      "13",
+      "10",
+      "15",
+      "11"
     ],
-    "correct_answer": "13 is the answer",
+    "correct_answer": "13",
     "explanation": "2² = 4. 16 ÷ 4 = 4. (7-4) = 3. 3 × 3 = 9. 4 + 9 = 13.",
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
@@ -329,12 +329,12 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations",
     "question": "Evaluate: 14 + 6 × 3 - 8 ÷ 2",
     "choices": [
-      "28 is the result",
-      "26 is the result",
-      "30 is the result",
-      "24 is the result"
+      "28",
+      "26",
+      "30",
+      "24"
     ],
-    "correct_answer": "28 is the result",
+    "correct_answer": "28",
     "explanation": "6 × 3 = 18. 8 ÷ 2 = 4. 14 + 18 - 4 = 28."
   },
   {
@@ -342,12 +342,12 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations",
     "question": "Evaluate: (15 + 5) ÷ (6 - 2) + 4²",
     "choices": [
-      "21 is the answer",
-      "19 is the answer",
-      "23 is the answer",
-      "25 is the answer"
+      "21",
+      "19",
+      "23",
+      "25"
     ],
-    "correct_answer": "21 is the answer",
+    "correct_answer": "21",
     "explanation": "Parentheses: 20 and 4. 20 ÷ 4 = 5. 4² = 16. 5 + 16 = 21."
   },
   {
@@ -355,12 +355,12 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations",
     "question": "Evaluate: 3 × (4 + 2³) - 10",
     "choices": [
-      "26 is the result",
-      "24 is the result",
-      "28 is the result",
-      "22 is the result"
+      "26",
+      "24",
+      "28",
+      "22"
     ],
-    "correct_answer": "26 is the result",
+    "correct_answer": "26",
     "explanation": "2³ = 8. 4 + 8 = 12. 3 × 12 = 36. 36 - 10 = 26."
   },
   {
@@ -368,12 +368,12 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations",
     "question": "Evaluate: 40 - 4 × (12 - 7) + 5",
     "choices": [
-      "25 is the answer",
-      "30 is the answer",
-      "20 is the answer",
-      "35 is the answer"
+      "25",
+      "30",
+      "20",
+      "35"
     ],
-    "correct_answer": "25 is the answer",
+    "correct_answer": "25",
     "explanation": "(12 - 7) = 5. 4 × 5 = 20. 40 - 20 + 5 = 25."
   },
   {
@@ -381,12 +381,12 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations",
     "question": "Evaluate: (18 ÷ 3)² - 5 × 4",
     "choices": [
-      "16 is the result",
-      "14 is the result",
-      "18 is the result",
-      "12 is the result"
+      "16",
+      "14",
+      "18",
+      "12"
     ],
-    "correct_answer": "16 is the result",
+    "correct_answer": "16",
     "explanation": "18 ÷ 3 = 6. 6² = 36. 5 × 4 = 20. 36 - 20 = 16."
   }
 ]
