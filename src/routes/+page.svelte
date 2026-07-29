@@ -1,24 +1,39 @@
 <script lang="ts">
-  import { goto } from '$app/navigation';
-  import { onMount } from 'svelte';
-  import { supabase } from '$lib/supabaseClient';
-  import { userSession } from '$lib/userSession.svelte';
-  import Dashboard from '$lib/components/Dashboard.svelte';
-  import ColorBendsBackground from '$lib/components/ColorBendsBackground.svelte';
-  import BlurText from '$lib/components/BlurText.svelte';
-  import { getCategoryCountsForLevel, getCategoriesForLevel, allQuestions, type ExamLevel } from '$lib/questions';
-  import { GraduationCap, Building, BookOpen, Timer, Clock, ChevronRight, ArrowLeft } from 'lucide-svelte';
-  import { guestStore } from '$lib/guestStore.svelte';
+  import { goto } from "$app/navigation";
+  import { onMount } from "svelte";
+  import { supabase } from "$lib/supabaseClient";
+  import { userSession } from "$lib/userSession.svelte";
+  import Dashboard from "$lib/components/Dashboard.svelte";
+  import ColorBendsBackground from "$lib/components/ColorBendsBackground.svelte";
+  import BlurText from "$lib/components/BlurText.svelte";
+  import {
+    getCategoryCountsForLevel,
+    getCategoriesForLevel,
+    allQuestions,
+    type ExamLevel,
+  } from "$lib/questions";
+  import {
+    GraduationCap,
+    Building,
+    BookOpen,
+    Timer,
+    Clock,
+    ChevronRight,
+    ArrowLeft,
+  } from "lucide-svelte";
+  import { guestStore } from "$lib/guestStore.svelte";
 
-  let selectedLevel = $state<ExamLevel>('professional');
-  let selectedMode = $state('practice');
-  let selectedCategory = $state('');
-  let selectedLimit = $state('20');
+  let selectedLevel = $state<ExamLevel>("professional");
+  let selectedMode = $state("practice");
+  let selectedCategory = $state("");
+  let selectedLimit = $state("20");
   let isGuestMode = $state(false);
 
   let categoryCounts = $derived(getCategoryCountsForLevel(selectedLevel));
   let availableCategories = $derived(getCategoriesForLevel(selectedLevel));
-  let maxQuestions = $derived(categoryCounts[selectedCategory] || categoryCounts[''] || 0);
+  let maxQuestions = $derived(
+    categoryCounts[selectedCategory] || categoryCounts[""] || 0,
+  );
 
   let hasSavedSession = $state(false);
   let savedSessionData = $state<any>(null);
@@ -26,7 +41,7 @@
   // Reset category when switching levels
   $effect(() => {
     selectedLevel; // track
-    selectedCategory = '';
+    selectedCategory = "";
   });
 
   $effect(() => {
@@ -43,9 +58,9 @@
     if (userSession.user) {
       try {
         const { data: res } = await supabase
-          .from('active_sessions')
-          .select('session_data')
-          .eq('user_id', userSession.user.id)
+          .from("active_sessions")
+          .select("session_data")
+          .eq("user_id", userSession.user.id)
           .maybeSingle();
         if (res?.session_data) {
           loadedSession = res.session_data;
@@ -56,7 +71,7 @@
     }
 
     if (!loadedSession) {
-      const raw = localStorage.getItem('cse_active_session');
+      const raw = localStorage.getItem("cse_active_session");
       if (raw) {
         try {
           loadedSession = JSON.parse(raw);
@@ -66,7 +81,11 @@
       }
     }
 
-    if (loadedSession && loadedSession.questions && loadedSession.questions.length > 0) {
+    if (
+      loadedSession &&
+      loadedSession.questions &&
+      loadedSession.questions.length > 0
+    ) {
       savedSessionData = loadedSession;
       hasSavedSession = true;
     } else {
@@ -76,11 +95,11 @@
   }
 
   onMount(() => {
-    if (typeof localStorage !== 'undefined') {
-      if (!localStorage.getItem('cse_onboarding_seen')) {
+    if (typeof localStorage !== "undefined") {
+      if (!localStorage.getItem("cse_onboarding_seen")) {
         showOnboarding = true;
       }
-      if (localStorage.getItem('cse_is_guest') === 'true') {
+      if (localStorage.getItem("cse_is_guest") === "true") {
         isGuestMode = true;
       }
     }
@@ -95,46 +114,54 @@
 
   function startGuestMode() {
     isGuestMode = true;
-    if (typeof localStorage !== 'undefined') {
-      localStorage.setItem('cse_is_guest', 'true');
+    if (typeof localStorage !== "undefined") {
+      localStorage.setItem("cse_is_guest", "true");
     }
   }
 
   function exitGuestMode() {
     isGuestMode = false;
-    if (typeof localStorage !== 'undefined') {
-      localStorage.removeItem('cse_is_guest');
+    if (typeof localStorage !== "undefined") {
+      localStorage.removeItem("cse_is_guest");
     }
   }
 
   function dismissOnboarding() {
     showOnboarding = false;
-    if (typeof localStorage !== 'undefined') {
-      localStorage.setItem('cse_onboarding_seen', 'true');
+    if (typeof localStorage !== "undefined") {
+      localStorage.setItem("cse_onboarding_seen", "true");
     }
   }
 
   function startQuiz() {
     let url = `/quiz?mode=${selectedMode}&level=${selectedLevel}`;
-    if (selectedCategory) url += `&category=${encodeURIComponent(selectedCategory)}`;
+    if (selectedCategory)
+      url += `&category=${encodeURIComponent(selectedCategory)}`;
     url += `&limit=${selectedLimit}`;
     goto(url);
   }
 
   function continueSession() {
-    goto('/quiz?continue=true');
+    goto("/quiz?continue=true");
   }
 
   async function discardSession() {
-    if (window.confirm("Are you sure you want to discard your saved session? Your progress will be lost permanently.")) {
+    if (
+      window.confirm(
+        "Are you sure you want to discard your saved session? Your progress will be lost permanently.",
+      )
+    ) {
       if (userSession.user) {
         try {
-          await supabase.from('active_sessions').delete().eq('user_id', userSession.user.id);
+          await supabase
+            .from("active_sessions")
+            .delete()
+            .eq("user_id", userSession.user.id);
         } catch (e) {
           console.error("Error discarding active session from Supabase:", e);
         }
       }
-      localStorage.removeItem('cse_active_session');
+      localStorage.removeItem("cse_active_session");
       hasSavedSession = false;
       savedSessionData = null;
     }
@@ -147,14 +174,14 @@
 
   async function signInWithGoogle() {
     const { error } = await supabase.auth.signInWithOAuth({
-      provider: 'google',
+      provider: "google",
       options: {
         redirectTo: `${window.location.origin}/`,
         queryParams: {
-          access_type: 'offline',
-          prompt: 'consent'
-        }
-      }
+          access_type: "offline",
+          prompt: "consent",
+        },
+      },
     });
     if (error) console.error("Error logging in:", error.message);
   }
@@ -165,7 +192,9 @@
 
 {#snippet quizConfigForm()}
   <div id="quiz-config" style="width: 100%; position: relative; z-index: 10;">
-    <h2 style="font-size: 1.1rem; font-weight: 700; color: white; margin-bottom: 1.5rem; letter-spacing: -0.3px; font-family: var(--font-display);">
+    <h2
+      style="font-size: 1.1rem; font-weight: 700; color: white; margin-bottom: 1.5rem; letter-spacing: -0.3px; font-family: var(--font-display);"
+    >
       Configure Your Session
     </h2>
 
@@ -174,19 +203,53 @@
       <div class="field" style="margin-bottom: 1.5rem; position: relative;">
         <label class="label">Exam Level</label>
         <div class="mode-grid">
-          <label class="mode-card {selectedLevel === 'professional' ? 'selected' : ''}" for="level-pro">
-            <input type="radio" id="level-pro" name="level" value="professional" bind:group={selectedLevel} style="display:none">
-            <div style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;">
-              <GraduationCap size={30} style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));" />
+          <label
+            class="mode-card {selectedLevel === 'professional'
+              ? 'selected'
+              : ''}"
+            for="level-pro"
+          >
+            <input
+              type="radio"
+              id="level-pro"
+              name="level"
+              value="professional"
+              bind:group={selectedLevel}
+              style="display:none"
+            />
+            <div
+              style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;"
+            >
+              <GraduationCap
+                size={30}
+                style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));"
+              />
             </div>
             <strong>Professional</strong>
             <p>Includes Analytical Reasoning</p>
           </label>
 
-          <label class="mode-card {selectedLevel === 'subprofessional' ? 'selected' : ''}" for="level-sub">
-            <input type="radio" id="level-sub" name="level" value="subprofessional" bind:group={selectedLevel} style="display:none">
-            <div style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;">
-              <Building size={30} style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));" />
+          <label
+            class="mode-card {selectedLevel === 'subprofessional'
+              ? 'selected'
+              : ''}"
+            for="level-sub"
+          >
+            <input
+              type="radio"
+              id="level-sub"
+              name="level"
+              value="subprofessional"
+              bind:group={selectedLevel}
+              style="display:none"
+            />
+            <div
+              style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;"
+            >
+              <Building
+                size={30}
+                style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));"
+              />
             </div>
             <strong>Sub-Professional</strong>
             <p>Includes Clerical Ability</p>
@@ -197,10 +260,17 @@
           <div class="onboarding-tooltip slide-up">
             <div class="onboarding-arrow"></div>
             <p class="onboarding-text">
-              <strong>Professional Level:</strong> Includes analytical reasoning, word association, and data interpretation (SG 11+ positions).<br><br>
-              <strong>Sub-Professional Level:</strong> Includes clerical ability, filing/alphabetizing, and spelling (SG 1-10 positions).
+              <strong>Professional Level:</strong> Includes analytical
+              reasoning, word association, and data interpretation (SG 11+
+              positions).<br /><br />
+              <strong>Sub-Professional Level:</strong> Includes clerical ability,
+              filing/alphabetizing, and spelling (SG 1-10 positions).
             </p>
-            <button type="button" class="btn-onboarding-dismiss" onclick={dismissOnboarding}>
+            <button
+              type="button"
+              class="btn-onboarding-dismiss"
+              onclick={dismissOnboarding}
+            >
               Got it
             </button>
           </div>
@@ -211,19 +281,49 @@
       <div class="field" style="margin-bottom: 1.5rem;">
         <label class="label">Exam Mode</label>
         <div class="mode-grid">
-          <label class="mode-card {selectedMode === 'practice' ? 'selected' : ''}" for="mode-practice">
-            <input type="radio" id="mode-practice" name="mode" value="practice" bind:group={selectedMode} style="display:none">
-            <div style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;">
-              <BookOpen size={30} style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));" />
+          <label
+            class="mode-card {selectedMode === 'practice' ? 'selected' : ''}"
+            for="mode-practice"
+          >
+            <input
+              type="radio"
+              id="mode-practice"
+              name="mode"
+              value="practice"
+              bind:group={selectedMode}
+              style="display:none"
+            />
+            <div
+              style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;"
+            >
+              <BookOpen
+                size={30}
+                style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));"
+              />
             </div>
             <strong>Practice Mode</strong>
             <p>Instant feedback after each answer</p>
           </label>
 
-          <label class="mode-card {selectedMode === 'mock' ? 'selected' : ''}" for="mode-mock">
-            <input type="radio" id="mode-mock" name="mode" value="mock" bind:group={selectedMode} style="display:none">
-            <div style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;">
-              <Timer size={30} style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));" />
+          <label
+            class="mode-card {selectedMode === 'mock' ? 'selected' : ''}"
+            for="mode-mock"
+          >
+            <input
+              type="radio"
+              id="mode-mock"
+              name="mode"
+              value="mock"
+              bind:group={selectedMode}
+              style="display:none"
+            />
+            <div
+              style="display: flex; justify-content: center; margin-bottom: 0.75rem; color: #a78bfa;"
+            >
+              <Timer
+                size={30}
+                style="filter: drop-shadow(0 0 8px rgba(167,139,250,0.3));"
+              />
             </div>
             <strong>Mock Exam</strong>
             <p>Results revealed at the end</p>
@@ -259,13 +359,19 @@
               <option value="50">50 Questions (Deep Dive)</option>
             {/if}
             {#if ![10, 20, 50].includes(maxQuestions)}
-              <option value={maxQuestions.toString()}>All {maxQuestions} Questions (Full)</option>
+              <option value={maxQuestions.toString()}
+                >All {maxQuestions} Questions (Full)</option
+              >
             {/if}
           </select>
         </div>
       </div>
 
-      <button type="submit" class="btn-primary" style="width: 100%; font-size: 1rem; padding: 1rem; letter-spacing: 1px; text-transform: uppercase;">
+      <button
+        type="submit"
+        class="btn-primary"
+        style="width: 100%; font-size: 1rem; padding: 1rem; letter-spacing: 1px; text-transform: uppercase;"
+      >
         Start Review Session →
       </button>
     </form>
@@ -273,203 +379,271 @@
 {/snippet}
 
 <div style="position: relative; z-index: 1;">
-
-{#if userSession.loading}
-  <!-- Loading State -->
-  <div class="hero-section">
-    <div style="text-align: center;">
-      <progress class="progress" max="100" style="max-width: 200px; margin: 0 auto;"></progress>
-      <p style="color: #7c6d8e; margin-top: 1rem; font-size: 0.9rem;">Syncing session...</p>
+  {#if userSession.loading}
+    <!-- Loading State -->
+    <div class="hero-section">
+      <div style="text-align: center;">
+        <progress
+          class="progress"
+          max="100"
+          style="max-width: 200px; margin: 0 auto;"
+        ></progress>
+        <p style="color: #7c6d8e; margin-top: 1rem; font-size: 0.9rem;">
+          Syncing session...
+        </p>
+      </div>
     </div>
-  </div>
-
-{:else if userSession.user || isGuestMode}
-  <!-- ============================================
+  {:else if userSession.user || isGuestMode}
+    <!-- ============================================
        MAIN APP VIEW: Dashboard + Quiz Config (Auth & Guest)
   ============================================ -->
-  <div class="auth-view">
-    {#if isGuestMode && !userSession.user}
-      <div class="guest-mode-header">
-        <button class="btn-ghost btn-guest-back" onclick={exitGuestMode}>
-          <ArrowLeft size={16} /> <span>Back to Home</span>
-        </button>
+    <div class="auth-view">
+      {#if isGuestMode && !userSession.user}
+        <div class="guest-mode-header">
+          <button class="btn-ghost btn-guest-back" onclick={exitGuestMode}>
+            <ArrowLeft size={16} /> <span>Back to Home</span>
+          </button>
 
-        <span class="cse-badge cse-badge-primary guest-badge">
-          ⚡ Guest Mode
-        </span>
-      </div>
-    {/if}
+          <span class="cse-badge cse-badge-primary guest-badge">
+            ⚡ Guest Mode
+          </span>
+        </div>
+      {/if}
 
-    {#if hasSavedSession}
-      <div class="glass-card slide-up continue-session-card" style="max-width: 640px; margin: 0 auto 1.5rem; border-color: rgba(167, 139, 250, 0.45); background: rgba(124, 58, 237, 0.08); position: relative; overflow: hidden;">
-        <!-- Glowing gradient effect under card -->
-        <div style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(124, 58, 237, 0.12) 0%, transparent 60%); pointer-events: none; z-index: 0;"></div>
-        
-        <div style="position: relative; z-index: 1;" class="continue-flex-container">
-          <div style="flex: 1;">
-            <span class="cse-badge cse-badge-primary" style="margin-bottom: 0.6rem; background: rgba(167, 139, 250, 0.2); border-color: rgba(167, 139, 250, 0.4);">Saved Session Detected</span>
-            <h3 style="font-size: 1.25rem; font-weight: 800; color: white; font-family: var(--font-display); letter-spacing: -0.3px;">
-              Resume your progress
-            </h3>
-            <p style="font-size: 0.88rem; color: #a78bfa; margin-top: 0.3rem; line-height: 1.4; display: flex; align-items: center; gap: 0.35rem; flex-wrap: wrap;">
-              <span style="text-transform: capitalize; font-weight: 700; display: inline-flex; align-items: center; gap: 0.25rem;">
-                {#if savedSessionData?.mode === 'mock'}
-                  <Clock size={14} /> Mock Exam
-                {:else}
-                  <BookOpen size={14} /> Practice Session
-                {/if}
-              </span> • 
-              <span style="font-weight: 600;">{savedSessionData?.level === 'professional' ? 'Professional' : 'Sub-Professional'}</span> • 
-              <span>{savedSessionData?.category || 'All Categories'}</span>
-            </p>
-            <p style="font-size: 0.82rem; color: var(--cse-text-muted); margin-top: 0.4rem; font-weight: 500;">
-              Progress: <strong style="color: white;">{savedSessionData?.currentIndex + 1}</strong> of <strong style="color: white;">{savedSessionData?.questions?.length}</strong> questions
-            </p>
-          </div>
-          <div class="continue-actions-buttons" style="display: flex; gap: 0.75rem; flex-direction: column; align-items: stretch; min-width: 180px;">
-            <button class="btn-primary" onclick={continueSession} style="padding: 0.75rem 1.5rem; font-size: 0.9rem; text-align: center;">
-              Resume Session →
-            </button>
-            <button class="btn-ghost" onclick={discardSession} style="padding: 0.75rem 1.5rem; font-size: 0.9rem; border-color: rgba(248, 113, 113, 0.2); color: var(--cse-red); font-weight: 700; text-align: center;">
-              Discard
-            </button>
+      {#if hasSavedSession}
+        <div
+          class="glass-card slide-up continue-session-card"
+          style="max-width: 640px; margin: 0 auto 1.5rem; border-color: rgba(167, 139, 250, 0.45); background: rgba(124, 58, 237, 0.08); position: relative; overflow: hidden;"
+        >
+          <!-- Glowing gradient effect under card -->
+          <div
+            style="position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(124, 58, 237, 0.12) 0%, transparent 60%); pointer-events: none; z-index: 0;"
+          ></div>
+
+          <div
+            style="position: relative; z-index: 1;"
+            class="continue-flex-container"
+          >
+            <div style="flex: 1;">
+              <span
+                class="cse-badge cse-badge-primary"
+                style="margin-bottom: 0.6rem; background: rgba(167, 139, 250, 0.2); border-color: rgba(167, 139, 250, 0.4);"
+                >Saved Session Detected</span
+              >
+              <h3
+                style="font-size: 1.25rem; font-weight: 800; color: white; font-family: var(--font-display); letter-spacing: -0.3px;"
+              >
+                Resume your progress
+              </h3>
+              <p
+                style="font-size: 0.88rem; color: #a78bfa; margin-top: 0.3rem; line-height: 1.4; display: flex; align-items: center; gap: 0.35rem; flex-wrap: wrap;"
+              >
+                <span
+                  style="text-transform: capitalize; font-weight: 700; display: inline-flex; align-items: center; gap: 0.25rem;"
+                >
+                  {#if savedSessionData?.mode === "mock"}
+                    <Clock size={14} /> Mock Exam
+                  {:else}
+                    <BookOpen size={14} /> Practice Session
+                  {/if}
+                </span>
+                •
+                <span style="font-weight: 600;"
+                  >{savedSessionData?.level === "professional"
+                    ? "Professional"
+                    : "Sub-Professional"}</span
+                >
+                •
+                <span>{savedSessionData?.category || "All Categories"}</span>
+              </p>
+              <p
+                style="font-size: 0.82rem; color: var(--cse-text-muted); margin-top: 0.4rem; font-weight: 500;"
+              >
+                Progress: <strong style="color: white;"
+                  >{savedSessionData?.currentIndex + 1}</strong
+                >
+                of
+                <strong style="color: white;"
+                  >{savedSessionData?.questions?.length}</strong
+                > questions
+              </p>
+            </div>
+            <div
+              class="continue-actions-buttons"
+              style="display: flex; gap: 0.75rem; flex-direction: column; align-items: stretch; min-width: 180px;"
+            >
+              <button
+                class="btn-primary"
+                onclick={continueSession}
+                style="padding: 0.75rem 1.5rem; font-size: 0.9rem; text-align: center;"
+              >
+                Resume Session →
+              </button>
+              <button
+                class="btn-ghost"
+                onclick={discardSession}
+                style="padding: 0.75rem 1.5rem; font-size: 0.9rem; border-color: rgba(248, 113, 113, 0.2); color: var(--cse-red); font-weight: 700; text-align: center;"
+              >
+                Discard
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-    {/if}
+      {/if}
 
-    <Dashboard user={userSession.user} configForm={quizConfigForm} />
-  </div>
-
-{:else}
-  <!-- ============================================
+      <Dashboard user={userSession.user} configForm={quizConfigForm} />
+    </div>
+  {:else}
+    <!-- ============================================
        GUEST LANDING: Split-Screen Editorial Hero
   ============================================ -->
-  <div class="hero-split">
+    <div class="hero-split">
+      <!-- LEFT: Editorial text column -->
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <span class="eyebrow-dot"></span>
+          <span>Philippine Civil Service Exam Reviewer</span>
+        </div>
 
-    <!-- LEFT: Editorial text column -->
-    <div class="hero-left">
-      <div class="hero-eyebrow">
-        <span class="eyebrow-dot"></span>
-        <span>Philippine Civil Service Exam Reviewer</span>
+        <h1 class="hero-title">
+          <span class="hero-line-1">
+            <BlurText text="Ace the" delay={100} />
+          </span>
+          <span class="hero-line-accent gradient-text"> Civil Service </span>
+          <span class="hero-line-3">
+            <BlurText text="Exam." delay={800} />
+          </span>
+        </h1>
+
+        <p class="hero-body">
+          Intelligent mock exams, instant answer feedback, and deep progress
+          analytics — built for Filipino aspirants who mean business.
+        </p>
+
+        <div class="hero-stats-row">
+          <div class="hero-stat">
+            <span class="hero-stat-num">{allQuestions.length}+</span>
+            <span class="hero-stat-label">Questions</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num"
+              >{new Set(allQuestions.map((q) => q.category)).size}</span
+            >
+            <span class="hero-stat-label">Categories</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num">Free</span>
+            <span class="hero-stat-label">Always</span>
+          </div>
+        </div>
+
+        <div class="hero-cta-group">
+          <button class="btn-hero-primary" onclick={signInWithGoogle}>
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              style="flex-shrink:0;"
+            >
+              <path
+                d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+                fill="#4285F4"
+              />
+              <path
+                d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                fill="#34A853"
+              />
+              <path
+                d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                fill="#FBBC05"
+              />
+              <path
+                d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                fill="#EA4335"
+              />
+            </svg>
+            Continue with Google
+          </button>
+
+          <button class="btn-guest" onclick={startGuestMode}>
+            ⚡ Continue as Guest →
+          </button>
+        </div>
       </div>
 
-      <h1 class="hero-title">
-        <span class="hero-line-1">
-          <BlurText text="Ace the" delay={100} />
-        </span>
-        <span class="hero-line-accent gradient-text">
-          Civil Service
-        </span>
-        <span class="hero-line-3">
-          <BlurText text="Exam." delay={800} />
-        </span>
-      </h1>
-
-      <p class="hero-body">
-        Intelligent mock exams, instant answer feedback, and deep progress analytics — built for Filipino aspirants who mean business.
-      </p>
-
-      <div class="hero-stats-row">
-        <div class="hero-stat">
-          <span class="hero-stat-num">{allQuestions.length}+</span>
-          <span class="hero-stat-label">Questions</span>
+      <!-- RIGHT: Animated live preview panel -->
+      <div class="hero-right" aria-hidden="true">
+        <!-- Floating score badge -->
+        <div class="score-badge-float">
+          <div class="score-badge-inner">
+            <span class="score-badge-num">87%</span>
+            <span class="score-badge-label">Last Score</span>
+          </div>
+          <div class="score-badge-ring"></div>
         </div>
-        <div class="hero-stat-divider"></div>
-        <div class="hero-stat">
-          <span class="hero-stat-num">{new Set(allQuestions.map(q => q.category)).size}</span>
-          <span class="hero-stat-label">Categories</span>
+
+        <div class="preview-card">
+          <div class="preview-card-header">
+            <div class="preview-dots">
+              <span class="pdot red"></span>
+              <span class="pdot yellow"></span>
+              <span class="pdot green"></span>
+            </div>
+            <span class="preview-card-title"
+              >Verbal Ability &middot; Q12 of 20</span
+            >
+          </div>
+
+          <div class="preview-progress-bar">
+            <div class="preview-progress-fill" style="width: 60%"></div>
+          </div>
+
+          <div class="preview-question">
+            <p class="pq-label">CHOOSE THE WORD MOST SIMILAR IN MEANING</p>
+            <p class="pq-text">CLANDESTINE</p>
+          </div>
+
+          <div class="preview-choices">
+            <div class="pc incorrect">
+              <span class="pc-letter">A</span>
+              <span class="pc-text">Open</span>
+            </div>
+            <div class="pc correct">
+              <span class="pc-letter">B</span>
+              <span class="pc-text">Secret</span>
+              <span class="pc-mark">✓ Correct</span>
+            </div>
+            <div class="pc dimmed">
+              <span class="pc-letter">C</span>
+              <span class="pc-text">Obvious</span>
+            </div>
+            <div class="pc dimmed">
+              <span class="pc-letter">D</span>
+              <span class="pc-text">Transparent</span>
+            </div>
+          </div>
+
+          <div class="preview-explanation">
+            <span class="pe-tag">Explanation</span>
+            <p>
+              Clandestine means kept secret or done secretively. The closest
+              synonym is <strong>secret</strong>.
+            </p>
+          </div>
         </div>
-        <div class="hero-stat-divider"></div>
-        <div class="hero-stat">
-          <span class="hero-stat-num">Free</span>
-          <span class="hero-stat-label">Always</span>
+
+        <!-- Floating category pill -->
+        <div class="category-float">
+          <span class="cf-dot"></span>
+          15 Categories Available
         </div>
       </div>
-
-      <div class="hero-cta-group">
-        <button class="btn-hero-primary" onclick={signInWithGoogle}>
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="flex-shrink:0;">
-            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
-            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
-            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
-            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
-          </svg>
-          Continue with Google
-        </button>
-
-        <button class="btn-guest" onclick={startGuestMode}>
-          ⚡ Continue as Guest →
-        </button>
-      </div>
-
     </div>
-
-    <!-- RIGHT: Animated live preview panel -->
-    <div class="hero-right" aria-hidden="true">
-      <!-- Floating score badge -->
-      <div class="score-badge-float">
-        <div class="score-badge-inner">
-          <span class="score-badge-num">87%</span>
-          <span class="score-badge-label">Last Score</span>
-        </div>
-        <div class="score-badge-ring"></div>
-      </div>
-
-      <div class="preview-card">
-        <div class="preview-card-header">
-          <div class="preview-dots">
-            <span class="pdot red"></span>
-            <span class="pdot yellow"></span>
-            <span class="pdot green"></span>
-          </div>
-          <span class="preview-card-title">Verbal Ability &middot; Q12 of 20</span>
-        </div>
-
-        <div class="preview-progress-bar">
-          <div class="preview-progress-fill" style="width: 60%"></div>
-        </div>
-
-        <div class="preview-question">
-          <p class="pq-label">CHOOSE THE WORD MOST SIMILAR IN MEANING</p>
-          <p class="pq-text">CLANDESTINE</p>
-        </div>
-
-        <div class="preview-choices">
-          <div class="pc incorrect">
-            <span class="pc-letter">A</span>
-            <span class="pc-text">Open</span>
-          </div>
-          <div class="pc correct">
-            <span class="pc-letter">B</span>
-            <span class="pc-text">Secret</span>
-            <span class="pc-mark">✓ Correct</span>
-          </div>
-          <div class="pc dimmed">
-            <span class="pc-letter">C</span>
-            <span class="pc-text">Obvious</span>
-          </div>
-          <div class="pc dimmed">
-            <span class="pc-letter">D</span>
-            <span class="pc-text">Transparent</span>
-          </div>
-        </div>
-
-        <div class="preview-explanation">
-          <span class="pe-tag">Explanation</span>
-          <p>Clandestine means kept secret or done secretively. The closest synonym is <strong>secret</strong>.</p>
-        </div>
-      </div>
-
-      <!-- Floating category pill -->
-      <div class="category-float">
-        <span class="cf-dot"></span>
-        15 Categories Available
-      </div>
-    </div>
-  </div>
-{/if}
-
+  {/if}
 </div>
 
 <style>
@@ -539,8 +713,15 @@
   }
 
   @keyframes pulse-dot {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.5; transform: scale(0.8); }
+    0%,
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(0.8);
+    }
   }
 
   /* Title */
@@ -559,7 +740,7 @@
 
   .hero-line-1 {
     display: block;
-    color: rgba(255,255,255,0.45);
+    color: rgba(255, 255, 255, 0.45);
     font-size: 0.65em;
     letter-spacing: -1px;
   }
@@ -576,12 +757,16 @@
   .hero-line-3 {
     display: block;
     font-size: 0.9em;
-    color: rgba(255,255,255,0.9);
+    color: rgba(255, 255, 255, 0.9);
     letter-spacing: -2px;
   }
 
   @keyframes blurInWord {
-    to { opacity: 1; filter: blur(0); transform: translateY(0); }
+    to {
+      opacity: 1;
+      filter: blur(0);
+      transform: translateY(0);
+    }
   }
 
   /* Body text */
@@ -631,7 +816,7 @@
   .hero-stat-divider {
     width: 1px;
     height: 32px;
-    background: rgba(255,255,255,0.08);
+    background: rgba(255, 255, 255, 0.08);
   }
 
   /* CTA group */
@@ -660,16 +845,18 @@
     font-weight: 700;
     font-family: var(--font-body);
     cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
     letter-spacing: 0.1px;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     width: 100%;
     box-sizing: border-box;
   }
 
   .btn-hero-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
   }
 
   .btn-hero-primary:active {
@@ -683,7 +870,11 @@
     gap: 0.5rem;
     padding: 0 1.75rem;
     height: 52px;
-    background: linear-gradient(135deg, var(--cse-primary), var(--cse-primary-dark));
+    background: linear-gradient(
+      135deg,
+      var(--cse-primary),
+      var(--cse-primary-dark)
+    );
     color: white;
     border: none;
     border-radius: 12px;
@@ -691,7 +882,9 @@
     font-weight: 700;
     font-family: var(--font-body);
     cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
     box-shadow: 0 4px 15px rgba(124, 58, 237, 0.25);
     width: 100%;
     box-sizing: border-box;
@@ -833,15 +1026,20 @@
     width: 100%;
     max-width: 420px;
     box-shadow:
-      0 30px 80px -10px rgba(0,0,0,0.8),
+      0 30px 80px -10px rgba(0, 0, 0, 0.8),
       0 0 60px rgba(124, 58, 237, 0.1),
-      inset 0 1px 0 rgba(255,255,255,0.04);
+      inset 0 1px 0 rgba(255, 255, 255, 0.04);
     animation: float 6s ease-in-out infinite;
   }
 
   @keyframes float {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
   }
 
   .preview-card-header {
@@ -849,8 +1047,8 @@
     align-items: center;
     gap: 0.75rem;
     padding: 0.85rem 1.25rem;
-    background: rgba(255,255,255,0.02);
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.02);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   }
 
   .preview-dots {
@@ -864,9 +1062,15 @@
     border-radius: 50%;
   }
 
-  .pdot.red { background: #ff5f57; }
-  .pdot.yellow { background: #ffbd2e; }
-  .pdot.green { background: #28c840; }
+  .pdot.red {
+    background: #ff5f57;
+  }
+  .pdot.yellow {
+    background: #ffbd2e;
+  }
+  .pdot.green {
+    background: #28c840;
+  }
 
   .preview-card-title {
     font-size: 0.68rem;
@@ -878,7 +1082,7 @@
 
   .preview-progress-bar {
     height: 3px;
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.05);
   }
 
   .preview-progress-fill {
@@ -939,7 +1143,9 @@
     flex-shrink: 0;
   }
 
-  .pc-text { flex: 1; }
+  .pc-text {
+    flex: 1;
+  }
 
   .pc.correct {
     background: rgba(52, 211, 153, 0.1);
@@ -975,13 +1181,13 @@
   }
 
   .pc.dimmed {
-    background: rgba(255,255,255,0.02);
-    border-color: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.02);
+    border-color: rgba(255, 255, 255, 0.05);
     color: #4a4060;
   }
 
   .pc.dimmed .pc-letter {
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.05);
     color: #4a4060;
   }
 
@@ -1024,8 +1230,13 @@
   }
 
   @keyframes float-reverse {
-    0%, 100% { transform: translateY(0px) rotate(-2deg); }
-    50% { transform: translateY(8px) rotate(1deg); }
+    0%,
+    100% {
+      transform: translateY(0px) rotate(-2deg);
+    }
+    50% {
+      transform: translateY(8px) rotate(1deg);
+    }
   }
 
   .score-badge-inner {
@@ -1038,7 +1249,7 @@
     align-items: center;
     gap: 0.1rem;
     box-shadow:
-      0 10px 30px rgba(0,0,0,0.5),
+      0 10px 30px rgba(0, 0, 0, 0.5),
       0 0 20px rgba(52, 211, 153, 0.15);
     position: relative;
     z-index: 1;
@@ -1073,19 +1284,19 @@
   /* Floating category pill */
   .category-float {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 17px; /* Lifted up closer to the card on desktop */
+    left: 48px;
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     background: rgba(15, 10, 28, 0.98);
-    border: 1px solid rgba(255,255,255,0.08);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     border-radius: 999px;
     padding: 0.5rem 1rem;
     font-size: 0.72rem;
     font-weight: 600;
     color: #7c6d8e;
-    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
     animation: float-reverse 7s 0.5s ease-in-out infinite;
   }
 
@@ -1099,8 +1310,14 @@
 
   /* Keyframes */
   @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(18px); }
-    to   { opacity: 1; transform: translateY(0); }
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   /* ---- Mode cards ---- */
@@ -1113,11 +1330,11 @@
   .mode-card {
     display: block;
     padding: 1.25rem;
-    border: 2px solid rgba(255,255,255,0.08);
+    border: 2px solid rgba(255, 255, 255, 0.08);
     border-radius: 12px;
     cursor: pointer;
     transition: all 0.2s ease;
-    background: rgba(255,255,255,0.03);
+    background: rgba(255, 255, 255, 0.03);
     text-align: center;
     color: #94a3b8;
   }
@@ -1177,6 +1394,10 @@
     .hero-body {
       max-width: 100%;
     }
+
+    .category-float {
+      bottom: 0;
+    }
   }
 
   /* ---- Responsive: Mobile ---- */
@@ -1201,7 +1422,10 @@
     }
 
     .score-badge-float {
-      display: none;
+      display: block;
+      top: auto;
+      bottom: -20px;
+      right: 10px;
     }
 
     .hero-eyebrow {
