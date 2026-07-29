@@ -196,6 +196,12 @@
     }
   }
 
+  function handleClearSelection() {
+    delete userAnswers[currentIndex];
+    userAnswers = { ...userAnswers };
+    pendingAnswer = null;
+  }
+
   function handleConfirm() {
     if (!pendingAnswer || (isPractice && hasAnswered)) return;
     userAnswers[currentIndex] = pendingAnswer;
@@ -349,6 +355,7 @@
       {currentIndex}
       total={questions.length}
       onSelect={handleSelect}
+      onClear={handleClearSelection}
     />
 
     <footer class="quiz-actions slide-up" style="animation-delay: 0.2s">

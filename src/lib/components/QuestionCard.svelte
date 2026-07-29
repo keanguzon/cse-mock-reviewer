@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { RotateCcw } from 'lucide-svelte';
+
   type Question = {
     id: string;
     question: string;
@@ -15,7 +17,8 @@
     isPractice,
     currentIndex,
     total,
-    onSelect 
+    onSelect,
+    onClear
   } = $props<{
     question: Question;
     hasAnswered: boolean;
@@ -24,6 +27,7 @@
     currentIndex: number;
     total: number;
     onSelect: (choice: string) => void;
+    onClear?: () => void;
   }>();
 
   const getChoiceClass = (choice: string) => {
@@ -72,6 +76,14 @@
       </button>
     {/each}
   </div>
+
+  {#if selectedAnswer !== null && onClear}
+    <div class="clear-selection-container">
+      <button type="button" class="btn-clear-selection" onclick={onClear}>
+        <RotateCcw size={13} /> Clear Selection
+      </button>
+    </div>
+  {/if}
 
   {#if hasAnswered && isPractice && question.explanation}
     <footer class="explanation slide-up">
@@ -249,6 +261,34 @@
   }
   .correct-icon { color: var(--cse-green); }
   .wrong-icon { color: var(--cse-red); }
+
+  .clear-selection-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.75rem;
+  }
+
+  .btn-clear-selection {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #94a3b8;
+    border-radius: 8px;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: var(--font-body);
+  }
+
+  .btn-clear-selection:hover {
+    background: rgba(248, 113, 113, 0.12);
+    border-color: rgba(248, 113, 113, 0.3);
+    color: var(--cse-red);
+  }
 
   .explanation {
     margin-top: 1.5rem;
