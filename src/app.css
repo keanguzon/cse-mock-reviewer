@@ -444,7 +444,8 @@ body::before {
   font-size: 1.1rem;
   font-weight: 800;
   color: #c4b5fd;
-  font-family: var(--font-display);
+  font-family: var(--font-body);
+  font-variant-numeric: tabular-nums lining-nums;
 }
 
 .mock-stat-label {
@@ -452,4 +453,11 @@ body::before {
   color: #7c6d8e;
   text-transform: uppercase;
   letter-spacing: 0.8px;
+}
+
+/* Uniform number rendering for stats, scores, and percentages */
+.stat-num {
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-variant-numeric: tabular-nums lining-nums;
 }

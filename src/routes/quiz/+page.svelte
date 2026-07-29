@@ -45,7 +45,7 @@
   $effect(() => {
     if (isTimeUp && !isFinished) {
       if (timerInterval) clearInterval(timerInterval);
-      localStorage.removeItem('cse_active_session');
+      clearActiveSession();
       currentIndex = questions.length;
     }
   });
@@ -108,6 +108,14 @@
   }
 
   onMount(async () => {
+    // Wait for auth state to resolve before checking session
+    if (userSession.loading) {
+      await new Promise<void>(resolve => {
+        const check = () => userSession.loading ? setTimeout(check, 50) : resolve();
+        check();
+      });
+    }
+
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.get('continue') === 'true') {
       let saved: any = null;

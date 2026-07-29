@@ -336,7 +336,8 @@
     font-weight: 900;
     line-height: 1;
     letter-spacing: -2px;
-    font-family: var(--font-display);
+    font-family: var(--font-body);
+    font-variant-numeric: tabular-nums lining-nums;
   }
 
   .text-emerald { color: var(--cse-green); }
@@ -765,7 +766,8 @@
   .breakdown-score {
     font-size: 0.72rem;
     font-weight: 800;
-    font-family: var(--font-display);
+    font-family: var(--font-body);
+    font-variant-numeric: tabular-nums lining-nums;
   }
   .breakdown-score.strong { color: var(--cse-green); }
   .breakdown-score.passing { color: #a5b4fc; }

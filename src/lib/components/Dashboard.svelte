@@ -208,7 +208,7 @@
                             {#each overallStrongAreas as item}
                                 <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem;">
                                     <span style="color: #e2e8f0; font-weight: 500;">{item.category}</span>
-                                    <span style="font-weight: 700; color: #34d399; font-family: var(--font-display);">{item.percentage}%</span>
+                                    <span style="font-weight: 800; color: #34d399; font-family: var(--font-body); font-variant-numeric: tabular-nums lining-nums;">{item.percentage}%</span>
                                 </div>
                             {/each}
                         </div>
@@ -227,7 +227,7 @@
                             {#each overallWeakAreas as item}
                                 <div style="display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem;">
                                     <span style="color: #e2e8f0; font-weight: 500;">{item.category}</span>
-                                    <span style="font-weight: 700; color: #fbbf24; font-family: var(--font-display);">{item.percentage}%</span>
+                                    <span style="font-weight: 800; color: #fbbf24; font-family: var(--font-body); font-variant-numeric: tabular-nums lining-nums;">{item.percentage}%</span>
                                 </div>
                             {/each}
                         </div>
@@ -339,7 +339,8 @@
         font-size: 1.8rem;
         font-weight: 800;
         color: var(--cse-text);
-        font-family: var(--font-display);
+        font-family: var(--font-body);
+        font-variant-numeric: tabular-nums lining-nums;
     }
 
     .stat-value.success { color: var(--cse-green); }

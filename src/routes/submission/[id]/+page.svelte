@@ -373,7 +373,8 @@
   .score-percent {
     font-size: 1.6rem;
     font-weight: 900;
-    font-family: var(--font-display);
+    font-family: var(--font-body);
+    font-variant-numeric: tabular-nums lining-nums;
     letter-spacing: -0.5px;
   }
 

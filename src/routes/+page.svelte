@@ -413,7 +413,7 @@
                   <strong>{att.category || 'All Categories'}</strong>
                   <div style="font-size: 0.7rem; color: #7c6d8e;">{att.mode === 'mock' ? 'Mock Exam' : 'Practice'} · {att.level}</div>
                 </div>
-                <span style="font-weight: 800; font-family: var(--font-display); color: {pct >= 75 ? '#34d399' : '#fbbf24'};">
+                <span style="font-weight: 800; font-family: var(--font-body); font-variant-numeric: tabular-nums lining-nums; color: {pct >= 75 ? '#34d399' : '#fbbf24'};">
                   {att.score}/{att.total} ({pct}%)
                 </span>
               </div>
@@ -1062,9 +1062,10 @@
   }
 
   .score-badge-num {
-    font-family: var(--font-display);
-    font-size: 1.6rem;
+    font-family: var(--font-body);
     font-weight: 900;
+    font-variant-numeric: tabular-nums lining-nums;
+    font-size: 1.6rem;
     color: #34d399;
     letter-spacing: -1px;
     line-height: 1;
