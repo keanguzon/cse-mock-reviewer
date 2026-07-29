@@ -30,12 +30,12 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage and answer the question.\n\nRepublic Act No. 6713, also known as the Code of Conduct and Ethical Standards for Public Officials and Employees, was enacted to promote a high standard of ethics in public service. The law requires all government workers to act with patriotism, justice, and sincerity. It mandates the disclosure of financial interests and prohibits the solicitation or acceptance of gifts in connection with official duties. Violations can lead to administrative sanctions, including suspension or dismissal from service.\n\nWhat can happen to those who violate the provisions of RA 6713?",
     "choices": [
-      "They receive a promotion",
-      "They are given a warning letter only",
-      "They are transferred to a different department",
-      "They may face suspension or dismissal from service"
+      "Promotional advancement and salary grade increase",
+      "Formal written reprimand and administrative warning",
+      "Reassignment and transfer to a different department",
+      "Administrative suspension or dismissal from service"
     ],
-    "correct_answer": "They may face suspension or dismissal from service",
+    "correct_answer": "Administrative suspension or dismissal from service",
     "explanation": "The passage clearly states that 'violations can lead to administrative sanctions, including suspension or dismissal from service.'"
   },
   {
@@ -43,9 +43,9 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage and answer the question.\n\nThe Freedom of Information (FOI) program in the Philippines aims to make government transactions and records accessible to the public. Under Executive Order No. 2, all government offices under the executive branch are mandated to disclose public records, contracts, and transactions. However, certain information classified as exceptions — such as those involving national security, diplomatic negotiations, or personal privacy — may be withheld. The FOI program is seen as a crucial step toward greater government transparency and citizen empowerment.\n\nWhat is the main goal of the FOI program?",
     "choices": [
-      "To limit the rights of citizens to access information",
-      "To classify all government documents as confidential",
-      "To privatize government records",
+      "To limit the rights of citizens to access official public information",
+      "To classify all government documents and records as confidential",
+      "To privatize government records and administrative documentation",
       "To make government transactions and records accessible to the public"
     ],
     "correct_answer": "To make government transactions and records accessible to the public",
@@ -82,10 +82,10 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage and answer the question.\n\nThe Local Government Code of 1991, or Republic Act No. 7160, devolved several functions from the national government to local government units (LGUs). These include the delivery of basic services such as health, agriculture, social welfare, and public works. The law aimed to empower LGUs by giving them greater autonomy and fiscal independence. As a result, governors, mayors, and barangay captains now play a more direct role in addressing the needs of their constituents.\n\nWhat was the main purpose of RA 7160?",
     "choices": [
-      "To abolish local government units",
-      "To centralize power in the national government",
+      "To abolish local government units and regional municipal offices",
+      "To centralize power and authority in the national government",
       "To devolve functions from the national to local governments",
-      "To reduce the budget of local government units"
+      "To reduce the financial budget of local government units"
     ],
     "correct_answer": "To devolve functions from the national to local governments",
     "explanation": "The passage states that RA 7160 'devolved several functions from the national government to local government units.'"
@@ -213,11 +213,11 @@
     "question": "Read the passage and answer the question.\n\nThe Pantawid Pamilyang Pilipino Program (4Ps) is a conditional cash transfer program of the Philippine government. It provides cash grants to the poorest Filipino families, provided they comply with certain conditions such as keeping their children in school and attending regular health check-ups. The program aims to break the intergenerational cycle of poverty by investing in the health, nutrition, and education of poor households.\n\nWhat is one of the conditions that 4Ps beneficiaries must comply with?",
     "choices": [
       "Attending government-sponsored seminars on entrepreneurship",
-      "Keeping their children in school",
-      "Finding employment within six months",
-      "Volunteering for community service projects"
+      "Keeping school-aged children enrolled and attending classes",
+      "Securing full-time employment within six calendar months",
+      "Volunteering for weekly community public service projects"
     ],
-    "correct_answer": "Keeping their children in school",
+    "correct_answer": "Keeping school-aged children enrolled and attending classes",
     "explanation": "The passage mentions 'keeping their children in school' as one of the conditions for receiving cash grants."
   },
   {
@@ -407,12 +407,12 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage and answer the question.\n\nRepublic Act No. 11032 amended the Anti-Red Tape Act to mandate standardized processing times across government offices: 3 working days for simple transactions, 7 working days for complex transactions, and 20 working days for highly technical applications. It also introduced the Zero-Contact Policy, minimizing face-to-face interactions between public officials and transacting citizens to eliminate corruption opportunities.\n\nWhat is the main goal of the Zero-Contact Policy introduced by RA 11032?",
     "choices": [
-      "To speed up international postal mail deliveries",
-      "To reduce government building electricity consumption",
-      "To eliminate corruption opportunities by minimizing face-to-face interaction",
-      "To automate public service by replacing human employees with AI"
+      "To speed up international postal mail service deliveries",
+      "To reduce government building monthly electric consumption",
+      "To eliminate corruption by minimizing face-to-face contact",
+      "To automate public service by replacing employees with AI"
     ],
-    "correct_answer": "To eliminate corruption opportunities by minimizing face-to-face interaction",
+    "correct_answer": "To eliminate corruption by minimizing face-to-face contact",
     "explanation": "The passage notes that the Zero-Contact Policy works by 'minimizing face-to-face interactions... to eliminate corruption opportunities.'"
   },
   {
@@ -423,7 +423,7 @@
       "National Privacy Commission",
       "National Bureau of Investigation",
       "Cybercrime Investigation Center",
-      "Department of Information and Communications Technology"
+      "Department of Information Technology"
     ],
     "correct_answer": "National Privacy Commission",
     "explanation": "The text explicitly states that RA 10173 'established the National Privacy Commission (NPC) to administer and implement the law.'"
@@ -524,8 +524,8 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage and answer the question.\n\nRepublic Act No. 11223, the Universal Health Care (UHC) Act, automatically enrolls all Filipino citizens into the National Health Insurance Program administered by PhilHealth. It seeks to ensure that every Filipino has equitable access to quality and affordable health care services without suffering financial hardship. Under the UHC Act, health services are categorized into population-based services managed by the DOH and individual-based services covered by PhilHealth.\n\nWhat is a central objective of the UHC Act regarding health care costs?",
     "choices": [
-      "To maximize hospital profits",
-      "To eliminate private clinics",
+      "To maximize private hospital operational profits",
+      "To eliminate private medical clinics nationwide",
       "To mandate private health insurance for everyone",
       "To ensure affordable access without financial hardship"
     ],

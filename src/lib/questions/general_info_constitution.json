@@ -316,12 +316,12 @@
     "category": "General Information – Philippine Constitution & RA 6713",
     "question": "According to Article IV of the Constitution, which of the following describes a natural-born citizen of the Philippines?",
     "choices": [
-      "Naturalized foreign citizens who successfully complete minimum ten-year residency requirements",
-      "Citizens of the Philippines from birth without having to perform any act to acquire or perfect their Philippine citizenship",
+      "Naturalized foreign citizens who complete minimum ten-year residency requirements",
+      "Citizens of the Philippines from birth without having to perform any act to acquire citizenship",
       "Foreign national spouses who marry a natural-born Philippine citizen in civil rites",
-      "Permanent resident aliens who hold dual nationality certificates issued by the embassy"
+      "Permanent resident aliens holding dual nationality certificates issued by the embassy"
     ],
-    "correct_answer": "Citizens of the Philippines from birth without having to perform any act to acquire or perfect their Philippine citizenship",
+    "correct_answer": "Citizens of the Philippines from birth without having to perform any act to acquire citizenship",
     "explanation": "Article IV, Section 2 defines natural-born citizens as those who are citizens from birth without having to perform any act to acquire or perfect citizenship."
   },
   {
@@ -407,12 +407,12 @@
     "category": "General Information – Philippine Constitution & RA 6713",
     "question": "What is the vote requirement in Congress, voting jointly, to revoke a presidential declaration of martial law?",
     "choices": [
-      "Two-thirds majority of all its Members",
-      "Three-fourths majority of all its Members",
-      "Simple majority of all its Members",
-      "Unanimous vote"
+      "Two-thirds majority vote of all its Members",
+      "Three-fourths majority vote of all its Members",
+      "Simple majority vote of all its Members",
+      "Unanimous concurrence of all its Members"
     ],
-    "correct_answer": "Simple majority of all its Members",
+    "correct_answer": "Simple majority vote of all its Members",
     "explanation": "Article VII, Section 18 states Congress, voting jointly by a vote of at least a majority of all its Members, may revoke such proclamation."
   },
   {
