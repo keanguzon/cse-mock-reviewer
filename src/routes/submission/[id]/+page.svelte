@@ -3,7 +3,7 @@
   import { supabase } from '$lib/supabaseClient';
   import { userSession } from '$lib/userSession.svelte';
   import { goto } from '$app/navigation';
-  import { ArrowLeft, Calendar, Award, GraduationCap, Clock, FileText } from 'lucide-svelte';
+  import { ArrowLeft, Calendar, Award, GraduationCap, Clock, FileText, BarChart2, X } from 'lucide-svelte';
 
   type Question = {
     id: string;
@@ -32,6 +32,7 @@
   let attempt = $state<Attempt | null>(null);
   let loading = $state(true);
   let error = $state<string | null>(null);
+  let showAnalyticsModal = $state(false);
 
   onMount(async () => {
     const checkSession = () => {
@@ -156,12 +157,20 @@
       {@const userAnswers = attempt.user_answers || {}}
 
       <div class="review-card slide-up">
-        <header class="review-header">
-          <button class="btn-back" onclick={() => goto('/')} style="display: inline-flex; align-items: center; gap: 0.5rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+          <button class="btn-back" onclick={() => goto('/')} style="display: inline-flex; align-items: center; gap: 0.5rem; margin: 0;">
             <ArrowLeft size={18} />
             Back to Dashboard
           </button>
           
+          {#if categoryBreakdown.length > 0}
+            <button class="btn-primary" onclick={() => showAnalyticsModal = true} style="padding: 0.6rem 1.25rem; font-size: 0.85rem; display: inline-flex; align-items: center; gap: 0.5rem; text-transform: uppercase; letter-spacing: 0.5px;">
+              <BarChart2 size={16} /> View Analytics
+            </button>
+          {/if}
+        </div>
+
+        <header class="review-header" style="margin-top: 0;">
           <div class="review-meta-container">
             <div class="review-meta">
               <h2 class="submission-title">{attempt.category === 'all' || attempt.category === '' ? 'Mixed Categories' : attempt.category}</h2>
@@ -196,43 +205,7 @@
           </div>
         </header>
 
-        {#if categoryBreakdown.length > 0}
-          <div class="category-breakdown slide-up">
-            <h3 class="breakdown-title">Performance by Category</h3>
-
-            <div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 0.75rem; flex-wrap: wrap;">
-              {#if strongAreas.length > 0}
-                <div class="area-label area-strong">
-                  <span class="area-dot strong-dot"></span>
-                  Strong Areas ({strongAreas.length})
-                </div>
-              {/if}
-              {#if weakAreas.length > 0}
-                <div class="area-label area-weak">
-                  <span class="area-dot weak-dot"></span>
-                  Needs Practice ({weakAreas.length})
-                </div>
-              {/if}
-            </div>
-
-            <div class="breakdown-list">
-              {#each categoryBreakdown as cat}
-                <div class="breakdown-item">
-                  <div class="breakdown-info">
-                    <span class="breakdown-cat">{cat.category}</span>
-                    <span class="breakdown-score {cat.status}">{cat.correct}/{cat.total} ({cat.percentage}%)</span>
-                  </div>
-                  <div class="breakdown-bar-bg">
-                    <div
-                      class="breakdown-bar-fill {cat.status}"
-                      style="width: {cat.percentage}%"
-                    ></div>
-                  </div>
-                </div>
-              {/each}
-            </div>
-          </div>
-        {/if}
+        <!-- Analytics Modal moved to bottom -->
 
         {#if questions.length === 0}
           <div class="glass-card text-center" style="margin-bottom: 3rem;">
@@ -299,6 +272,55 @@
     {/if}
   </div>
 </div>
+
+{#if showAnalyticsModal}
+  <div class="modal-overlay fade-in" onclick={() => showAnalyticsModal = false} onkeydown={(e) => e.key === 'Escape' && (showAnalyticsModal = false)} tabindex="0" role="button">
+    <div class="modal-content slide-up" onclick={(e) => e.stopPropagation()} role="dialog">
+      <div class="modal-header">
+        <h3 style="margin: 0; font-family: var(--font-display); font-size: 1.25rem;">Analytics Overview</h3>
+        <button class="btn-icon" onclick={() => showAnalyticsModal = false} aria-label="Close modal">
+          <X size={20} />
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="category-breakdown" style="background: transparent; border: none; padding: 0; margin: 0; max-width: 100%;">
+          <div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
+            {#if strongAreas.length > 0}
+              <div class="area-label area-strong">
+                <span class="area-dot strong-dot"></span>
+                Strong Areas ({strongAreas.length})
+              </div>
+            {/if}
+            {#if weakAreas.length > 0}
+              <div class="area-label area-weak">
+                <span class="area-dot weak-dot"></span>
+                Needs Practice ({weakAreas.length})
+              </div>
+            {/if}
+          </div>
+
+          <div class="breakdown-list">
+            {#each categoryBreakdown as cat}
+              <div class="breakdown-item">
+                <div class="breakdown-info">
+                  <span class="breakdown-cat">{cat.category}</span>
+                  <span class="breakdown-score {cat.status}">{cat.correct}/{cat.total} ({cat.percentage}%)</span>
+                </div>
+                <div class="breakdown-bar-bg">
+                  <div
+                    class="breakdown-bar-fill {cat.status}"
+                    style="width: {cat.percentage}%"
+                  ></div>
+                </div>
+              </div>
+            {/each}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{/if}
 
 <style>
   .page-overlay {
@@ -731,6 +753,62 @@
     justify-content: center;
     border-top: 1px solid var(--cse-border);
     padding-top: 2.5rem;
+  }
+
+  /* Modal Styles */
+  .modal-overlay {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 1rem;
+    backdrop-filter: blur(8px);
+  }
+
+  .modal-content {
+    background: #171923;
+    border: 1px solid rgba(139, 92, 246, 0.3);
+    border-radius: 16px;
+    width: 100%;
+    max-width: 600px;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05);
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .modal-body {
+    padding: 1.5rem;
+    overflow-y: auto;
+  }
+
+  .btn-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    color: var(--cse-text-muted);
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 0.4rem;
+    transition: var(--cse-transition);
+  }
+
+  .btn-icon:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
   }
 
   :global(.blank-line) {
