@@ -200,9 +200,9 @@
     "question": "Which Philippine law promotes environmental awareness and ecological balance?",
     "choices": [
       "RA 9003",
-      "All of the above",
       "RA 9275",
-      "RA 8749"
+      "RA 8749",
+      "All of the above"
     ],
     "correct_answer": "All of the above",
     "explanation": "RA 9275 (Clean Water Act), RA 8749 (Clean Air Act), and RA 9003 (Solid Waste Management Act) all promote ecological balance."
@@ -587,14 +587,14 @@
   {
     "id": "286",
     "category": "General Information – Current Events & Basic Facts",
-    "question": "Which Philippine island group comprises Luzon, Visayas, and Mindanao?",
+    "question": "What three major island groups comprise the Philippine archipelago?",
     "choices": [
-      "Luzon, Visayas, Mindanao",
-      "Palawan, Visayas, Mindanao",
-      "Luzon, Panay, Mindanao",
-      "Mindoro, Samar, Mindanao"
+      "Luzon, Visayas, and Mindanao",
+      "Palawan, Visayas, and Mindanao",
+      "Luzon, Panay, and Mindanao",
+      "Mindoro, Samar, and Mindanao"
     ],
-    "correct_answer": "Luzon, Visayas, Mindanao",
+    "correct_answer": "Luzon, Visayas, and Mindanao",
     "explanation": "The Philippine archipelago is geographically divided into three major island groups: Luzon, Visayas, and Mindanao."
   },
   {
