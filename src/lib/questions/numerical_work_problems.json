@@ -41,7 +41,7 @@
   {
     "id": "201",
     "category": "Numerical Ability – Work Problems",
-    "question": "A worker can complete a task in 8 hours. His assistant can complete the same task in 12 hours. How long will it take them to complete the task together?",
+    "question": "Worker A can complete a task in 8 hours, while Worker B takes 12 hours for the same task. How long will it take them to complete the task working together?",
     "choices": [
       "4.8 hours",
       "6.0 hours",
@@ -49,7 +49,7 @@
       "5.2 hours"
     ],
     "correct_answer": "4.8 hours",
-    "explanation": "Combined rate = 1/8 + 1/12 = 5/24. Time = 24/5 = 4.8 hours (or 4 hours 48 minutes)."
+    "explanation": "Worker A's rate = 1/8, Worker B's rate = 1/12. Combined rate = 1/8 + 1/12 = 5/24. Time = 24/5 = 4.8 hours (4 hours and 48 minutes)."
   },
   {
     "id": "211",
@@ -80,7 +80,7 @@
   {
     "id": "224",
     "category": "Numerical Ability – Work Problems",
-    "question": "A tap can fill a bucket in 4 minutes. A leak at the bottom can empty a full bucket in 6 minutes. How long will it take to fill the bucket if the tap is open and the leak is unstopped?",
+    "question": "Tap A can fill a bucket in 4 minutes, while Drain B can empty a full bucket in 6 minutes. How long will it take to fill the bucket if both are open together?",
     "choices": [
       "10 minutes",
       "16 minutes",
@@ -88,7 +88,7 @@
       "8 minutes"
     ],
     "correct_answer": "12 minutes",
-    "explanation": "Net filling rate = 1/4 - 1/6 = (3 - 2)/12 = 1/12. Time to fill = 12 minutes."
+    "explanation": "Rate = 1/4 - 1/6 = 3/12 - 2/12 = 1/12. Time = 12 minutes."
   },
   {
     "id": "229",
@@ -105,7 +105,7 @@
   },
   {
     "id": "352",
-    "question": "A painter can paint a fence in 5 hours. His apprentice can do it in 10 hours. How long will it take them working together?",
+    "question": "Painter A can paint a fence in 5 hours, while Painter B takes 10 hours for the same fence. How long will it take them working together?",
     "choices": [
       "3 hours and 20 minutes",
       "4 hours and 30 minutes",
@@ -113,7 +113,7 @@
       "3 hours and 45 minutes"
     ],
     "correct_answer": "3 hours and 20 minutes",
-    "explanation": "Combined rate = 1/5 + 1/10 = 3/10. Time = 10/3 = 3 hours 20 minutes.",
+    "explanation": "Combined rate = 1/5 + 1/10 = 3/10. Time = 10/3 = 3 hours and 20 minutes.",
     "category": "Numerical Ability – Work Problems"
   },
   {
@@ -144,7 +144,7 @@
   },
   {
     "id": "355",
-    "question": "A typist can finish a report in 6 hours. After working for 2 hours, a second typist joins and they finish in 2 more hours. How long would the second typist take alone?",
+    "question": "Typist A can finish a report in 6 hours. After Typist A works for 2 hours, Typist B joins and together they finish in 2 more hours. How long would Typist B take to finish the report alone?",
     "choices": [
       "6 hours total",
       "4 hours total",
@@ -152,7 +152,7 @@
       "5 hours total"
     ],
     "correct_answer": "6 hours total",
-    "explanation": "First typist did 2/6 + 2/6 = 4/6 of work. Second did 2/x of work. 4/6 + 2/x = 1. 2/x = 2/6. x = 6.",
+    "explanation": "Typist A did (2 + 2)/6 = 4/6 of the work. Typist B did 2/6 of the work in 2 hours. Therefore, Typist B would take 6 hours alone.",
     "category": "Numerical Ability – Work Problems"
   },
   {
@@ -196,7 +196,7 @@
   },
   {
     "id": "359",
-    "question": "A faucet fills a tank in 12 minutes. A drain empties it in 18 minutes. If both are open, how long to fill the empty tank?",
+    "question": "Faucet A fills a tank in 12 minutes, while Drain B empties it in 18 minutes. If both are open together, how long will it take to fill the empty tank?",
     "choices": [
       "36 minutes total",
       "30 minutes total",
@@ -204,12 +204,12 @@
       "42 minutes total"
     ],
     "correct_answer": "36 minutes total",
-    "explanation": "Rate = 1/12 - 1/18 = 3/36 - 2/36 = 1/36. Time = 36 minutes.",
+    "explanation": "Net rate = 1/12 - 1/18 = 3/36 - 2/36 = 1/36 per minute. Time = 36 minutes total.",
     "category": "Numerical Ability – Work Problems"
   },
   {
     "id": "360",
-    "question": "Three friends can clean a house individually in 2, 3, and 6 hours. How long will it take if all three work together?",
+    "question": "Alex, Ben, and Carl can clean a house individually in 2, 3, and 6 hours respectively. How long will it take if all three work together?",
     "choices": [
       "1 hour exactly",
       "2 hours exactly",
@@ -217,12 +217,12 @@
       "45 minutes total"
     ],
     "correct_answer": "1 hour exactly",
-    "explanation": "Rate = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1. Time = 1 hour.",
+    "explanation": "Combined rate = 1/2 + 1/3 + 1/6 = 6/6 = 1 house per hour. Time = 1 hour exactly.",
     "category": "Numerical Ability – Work Problems"
   },
   {
     "id": "361",
-    "question": "A truck can deliver supplies in 5 trips. A van needs 8 trips to deliver the same amount. How many trips in total if both work together?",
+    "question": "Truck A can deliver all supplies in 5 trips, while Van B needs 8 trips for the same load. How many combined trips would it take if both operate together?",
     "choices": [
       "3 combined trips needed",
       "4 combined trips needed",
@@ -230,7 +230,7 @@
       "5 combined trips needed"
     ],
     "correct_answer": "3 combined trips needed",
-    "explanation": "Per trip: truck = 1/5, van = 1/8. Combined = 1/5 + 1/8 = 13/40. Trips = 40/13 ≈ 3.08, so about 3 full combined trips.",
+    "explanation": "Combined rate = 1/5 + 1/8 = 13/40 of the load per trip. Combined trips needed = 40/13 ≈ 3 combined trips.",
     "category": "Numerical Ability – Work Problems"
   },
   {
@@ -274,7 +274,7 @@
   },
   {
     "id": "365",
-    "question": "A secretary can type a document in 3 hours. Her assistant takes 4 hours for the same document. How long together?",
+    "question": "Secretary A can type a document in 3 hours, while Assistant B takes 4 hours for the same document. How long will it take them working together?",
     "choices": [
       "1 hour and 43 minutes",
       "2 hours and 15 minutes",
@@ -282,7 +282,7 @@
       "2 hours and 30 minutes"
     ],
     "correct_answer": "1 hour and 43 minutes",
-    "explanation": "Rate = 1/3 + 1/4 = 7/12. Time = 12/7 ≈ 1.71 hours = 1 hr 43 min.",
+    "explanation": "Combined rate = 1/3 + 1/4 = 7/12. Time = 12/7 = 1.71 hours = 1 hour and 43 minutes.",
     "category": "Numerical Ability – Work Problems"
   },
   {
@@ -327,7 +327,7 @@
   {
     "id": "428",
     "category": "Numerical Ability – Work Problems",
-    "question": "A printer prints 30 pages per minute. A second printer prints 45 pages per minute. How many minutes do both printers need to print 900 pages?",
+    "question": "Printer A prints 30 pages per minute, while Printer B prints 45 pages per minute. How many minutes do both printers need together to print 900 pages?",
     "choices": [
       "12 minutes total",
       "15 minutes total",
@@ -335,7 +335,7 @@
       "18 minutes total"
     ],
     "correct_answer": "12 minutes total",
-    "explanation": "Combined rate = 30 + 45 = 75 pages/min. Time = 900 / 75 = 12 minutes."
+    "explanation": "Combined rate = 30 + 45 = 75 pages/min. Time = 900 / 75 = 12 minutes total."
   },
   {
     "id": "429",

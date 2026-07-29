@@ -196,7 +196,7 @@
   },
   {
     "id": "342",
-    "question": "The combined age of two brothers is 36. One is 4 years older than the other. How old is the younger brother?",
+    "question": "The combined age of brothers Ethan and Liam is 36. Ethan is 4 years older than Liam. How old is Liam?",
     "choices": [
       "16 years old",
       "20 years old",
@@ -209,7 +209,7 @@
   },
   {
     "id": "343",
-    "question": "In 12 years, a girl will be 3 times her present age. How old is she now?",
+    "question": "In 12 years, Sophia will be 3 times her present age. How old is Sophia now?",
     "choices": [
       "4 years old",
       "6 years old",
@@ -235,7 +235,7 @@
   },
   {
     "id": "345",
-    "question": "The product of the ages of two children is 72. One child is twice as old as the other. How old is the older child?",
+    "question": "The product of the ages of siblings Leo and Nora is 72. Leo is twice as old as Nora. How old is Leo?",
     "choices": [
       "6 years old",
       "12 years old",
@@ -300,7 +300,7 @@
   },
   {
     "id": "350",
-    "question": "An uncle is 32 years older than his niece. In how many years will the uncle be exactly twice the niece's age?",
+    "question": "Uncle Mario is 32 years older than his niece Rita. In how many years will Mario be exactly twice Rita's age?",
     "choices": [
       "32 years later",
       "28 years later",
