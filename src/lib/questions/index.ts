@@ -9,6 +9,10 @@ import analyticalAssumptions from './analytical_assumptions.json';
 import analyticalDataInterp from './analytical_data_interpretation.json';
 import numericalWordProblems from './numerical_word_problems.json';
 import numericalNumberSeries from './numerical_number_series.json';
+import numericalAgeProblems from './numerical_age_problems.json';
+import numericalWorkProblems from './numerical_work_problems.json';
+import numericalFractions from './numerical_fractions.json';
+import numericalPemdas from './numerical_pemdas.json';
 import generalConstitution from './general_info_constitution.json';
 import generalCurrentEvents from './general_info_current_events.json';
 import clericalFiling from './clerical_filing.json';
@@ -51,6 +55,10 @@ export const allQuestions: Question[] = [
     ...analyticalDataInterp,
     ...numericalWordProblems,
     ...numericalNumberSeries,
+    ...numericalAgeProblems,
+    ...numericalWorkProblems,
+    ...numericalFractions,
+    ...numericalPemdas,
     ...generalConstitution,
     ...generalCurrentEvents,
     ...clericalFiling,

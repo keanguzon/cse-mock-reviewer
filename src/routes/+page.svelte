@@ -102,6 +102,26 @@
       if (localStorage.getItem("cse_is_guest") === "true") {
         isGuestMode = true;
       }
+      // Restore last dropdown selections
+      const savedLevel = localStorage.getItem("cse_last_level");
+      const savedMode = localStorage.getItem("cse_last_mode");
+      const savedCategory = localStorage.getItem("cse_last_category");
+      const savedLimit = localStorage.getItem("cse_last_limit");
+      if (savedLevel === "professional" || savedLevel === "subprofessional") {
+        selectedLevel = savedLevel as ExamLevel;
+      }
+      if (savedMode === "practice" || savedMode === "mock") {
+        selectedMode = savedMode;
+      }
+      // Defer category/limit restore to after level is set
+      requestAnimationFrame(() => {
+        if (savedCategory && (savedCategory === "" || getCategoriesForLevel(selectedLevel).includes(savedCategory))) {
+          selectedCategory = savedCategory;
+        }
+        if (savedLimit) {
+          selectedLimit = savedLimit;
+        }
+      });
     }
   });
 
@@ -134,6 +154,13 @@
   }
 
   function startQuiz() {
+    // Persist selections to localStorage
+    if (typeof localStorage !== "undefined") {
+      localStorage.setItem("cse_last_level", selectedLevel);
+      localStorage.setItem("cse_last_mode", selectedMode);
+      localStorage.setItem("cse_last_category", selectedCategory);
+      localStorage.setItem("cse_last_limit", selectedLimit);
+    }
     let url = `/quiz?mode=${selectedMode}&level=${selectedLevel}`;
     if (selectedCategory)
       url += `&category=${encodeURIComponent(selectedCategory)}`;
@@ -358,7 +385,13 @@
             {#if maxQuestions >= 50}
               <option value="50">50 Questions (Deep Dive)</option>
             {/if}
-            {#if ![10, 20, 50].includes(maxQuestions)}
+            {#if selectedCategory === "" && selectedLevel === "subprofessional" && maxQuestions >= 80}
+              <option value="80">80 Questions (Realistic CSC Exam)</option>
+            {/if}
+            {#if selectedCategory === "" && selectedLevel === "professional" && maxQuestions >= 170}
+              <option value="170">170 Questions (Realistic CSC Exam)</option>
+            {/if}
+            {#if ![10, 20, 50, 80, 170].includes(maxQuestions)}
               <option value={maxQuestions.toString()}
                 >All {maxQuestions} Questions (Full)</option
               >

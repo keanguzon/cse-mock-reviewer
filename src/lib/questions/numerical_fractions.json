@@ -1,0 +1,327 @@
+[
+  {
+    "id": "181",
+    "category": "Numerical Ability – Fractions & Decimals",
+    "question": "A government office has 120 employees. If 3/5 of them are male, how many female employees are there?",
+    "choices": [
+      "72",
+      "80",
+      "48",
+      "60"
+    ],
+    "correct_answer": "48",
+    "explanation": "Male employees = 3/5 × 120 = 72. Female = 120 - 72 = 48."
+  },
+  {
+    "id": "369",
+    "question": "What is 3/4 + 2/3?",
+    "choices": [
+      "17/12 or 1 and 5/12",
+      "5/7 or less than 1",
+      "11/12 or almost 1",
+      "7/6 or 1 and 1/6"
+    ],
+    "correct_answer": "17/12 or 1 and 5/12",
+    "explanation": "3/4 + 2/3 = 9/12 + 8/12 = 17/12 = 1 5/12.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "370",
+    "question": "Simplify the fraction 48/64 to its lowest terms.",
+    "choices": [
+      "6/8 in lowest terms",
+      "3/4 in lowest terms",
+      "12/16 in lowest terms",
+      "24/32 in lowest terms"
+    ],
+    "correct_answer": "3/4 in lowest terms",
+    "explanation": "GCD of 48 and 64 is 16. 48/16 = 3, 64/16 = 4. Answer: 3/4.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "371",
+    "question": "What is 5/6 minus 1/4?",
+    "choices": [
+      "7/12 as the result",
+      "4/6 as the result",
+      "1/2 as the result",
+      "3/8 as the result"
+    ],
+    "correct_answer": "7/12 as the result",
+    "explanation": "5/6 - 1/4 = 10/12 - 3/12 = 7/12.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "372",
+    "question": "What is 2/5 multiplied by 3/8?",
+    "choices": [
+      "3/20 as the product",
+      "6/13 as the product",
+      "5/13 as the product",
+      "1/4 as the product"
+    ],
+    "correct_answer": "3/20 as the product",
+    "explanation": "2/5 × 3/8 = 6/40 = 3/20.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "373",
+    "question": "Divide 7/8 by 1/4. What is the result?",
+    "choices": [
+      "7/32 as the quotient",
+      "7/2 or 3 and 1/2",
+      "7/4 or 1 and 3/4",
+      "2/7 as the quotient"
+    ],
+    "correct_answer": "7/2 or 3 and 1/2",
+    "explanation": "7/8 ÷ 1/4 = 7/8 × 4/1 = 28/8 = 7/2 = 3 1/2.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "374",
+    "question": "Convert 3/8 to a decimal number.",
+    "choices": [
+      "0.375 in decimal form",
+      "0.380 in decimal form",
+      "0.350 in decimal form",
+      "0.325 in decimal form"
+    ],
+    "correct_answer": "0.375 in decimal form",
+    "explanation": "3 ÷ 8 = 0.375.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "375",
+    "question": "Convert 0.625 to a fraction in lowest terms.",
+    "choices": [
+      "5/8 in fraction form",
+      "3/5 in fraction form",
+      "6/10 in fraction form",
+      "7/12 in fraction form"
+    ],
+    "correct_answer": "5/8 in fraction form",
+    "explanation": "0.625 = 625/1000 = 5/8.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "376",
+    "question": "What is 2 and 1/3 plus 1 and 2/5?",
+    "choices": [
+      "3 and 11/15 combined",
+      "3 and 3/8 combined",
+      "4 and 1/15 combined",
+      "3 and 7/15 combined"
+    ],
+    "correct_answer": "3 and 11/15 combined",
+    "explanation": "2 1/3 + 1 2/5 = 7/3 + 7/5 = 35/15 + 21/15 = 56/15 = 3 11/15.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "377",
+    "question": "Convert the fraction 5/6 to a decimal (rounded to 3 decimal places).",
+    "choices": [
+      "0.833 as the decimal",
+      "0.850 as the decimal",
+      "0.667 as the decimal",
+      "0.750 as the decimal"
+    ],
+    "correct_answer": "0.833 as the decimal",
+    "explanation": "5 ÷ 6 = 0.8333... ≈ 0.833.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "378",
+    "question": "What fraction is equivalent to 0.4 in simplest form?",
+    "choices": [
+      "2/5 in simplest form",
+      "4/10 in simplest form",
+      "1/4 in simplest form",
+      "3/8 in simplest form"
+    ],
+    "correct_answer": "2/5 in simplest form",
+    "explanation": "0.4 = 4/10 = 2/5.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "379",
+    "question": "What is 3 and 1/2 minus 1 and 3/4?",
+    "choices": [
+      "1 and 3/4 as the answer",
+      "2 and 1/4 as the answer",
+      "1 and 1/2 as the answer",
+      "2 and 1/2 as the answer"
+    ],
+    "correct_answer": "1 and 3/4 as the answer",
+    "explanation": "3 1/2 - 1 3/4 = 7/2 - 7/4 = 14/4 - 7/4 = 7/4 = 1 3/4.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "380",
+    "question": "Express 7/20 as a percentage.",
+    "choices": [
+      "35 percent of the whole",
+      "37 percent of the whole",
+      "40 percent of the whole",
+      "30 percent of the whole"
+    ],
+    "correct_answer": "35 percent of the whole",
+    "explanation": "7/20 = 0.35 = 35%.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "381",
+    "question": "What is 4/9 multiplied by 3/2?",
+    "choices": [
+      "2/3 as the product",
+      "12/18 unreduced form",
+      "4/6 as the product",
+      "1/3 as the product"
+    ],
+    "correct_answer": "2/3 as the product",
+    "explanation": "4/9 × 3/2 = 12/18 = 2/3.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "382",
+    "question": "Which fraction is greater: 5/7 or 7/10?",
+    "choices": [
+      "5/7 is greater than 7/10",
+      "7/10 is greater than 5/7",
+      "They are exactly equal values",
+      "Cannot be determined at all"
+    ],
+    "correct_answer": "5/7 is greater than 7/10",
+    "explanation": "5/7 = 50/70 and 7/10 = 49/70. 50/70 > 49/70.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "383",
+    "question": "Convert 0.125 to a fraction in lowest terms.",
+    "choices": [
+      "1/8 in fraction form",
+      "1/6 in fraction form",
+      "1/4 in fraction form",
+      "3/16 in fraction form"
+    ],
+    "correct_answer": "1/8 in fraction form",
+    "explanation": "0.125 = 125/1000 = 1/8.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "384",
+    "question": "What is 1/2 + 1/3 + 1/6?",
+    "choices": [
+      "1 as the exact sum",
+      "5/6 as the exact sum",
+      "11/12 as the exact sum",
+      "2/3 as the exact sum"
+    ],
+    "correct_answer": "1 as the exact sum",
+    "explanation": "1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "385",
+    "question": "Express 45% as a fraction in simplest form.",
+    "choices": [
+      "9/20 in simplest form",
+      "45/100 unreduced fraction",
+      "11/25 in simplest form",
+      "4/9 in simplest form"
+    ],
+    "correct_answer": "9/20 in simplest form",
+    "explanation": "45% = 45/100 = 9/20.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "386",
+    "question": "What is 5/12 divided by 5/6?",
+    "choices": [
+      "1/2 as the quotient",
+      "25/72 as the quotient",
+      "5/12 as the quotient",
+      "6/12 as the quotient"
+    ],
+    "correct_answer": "1/2 as the quotient",
+    "explanation": "5/12 ÷ 5/6 = 5/12 × 6/5 = 30/60 = 1/2.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "387",
+    "question": "Convert the repeating decimal 0.333... to a fraction.",
+    "choices": [
+      "1/3 in fraction form",
+      "3/10 in fraction form",
+      "33/100 in fraction form",
+      "1/4 in fraction form"
+    ],
+    "correct_answer": "1/3 in fraction form",
+    "explanation": "0.333... = 1/3.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "388",
+    "question": "What is 2/3 of 45?",
+    "choices": [
+      "30 as the answer",
+      "25 as the answer",
+      "35 as the answer",
+      "20 as the answer"
+    ],
+    "correct_answer": "30 as the answer",
+    "explanation": "2/3 × 45 = 90/3 = 30.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "389",
+    "question": "Arrange these fractions from least to greatest: 2/5, 1/3, 3/10.",
+    "choices": [
+      "3/10, 1/3, 2/5 is the order",
+      "1/3, 3/10, 2/5 is the order",
+      "2/5, 1/3, 3/10 is the order",
+      "1/3, 2/5, 3/10 is the order"
+    ],
+    "correct_answer": "3/10, 1/3, 2/5 is the order",
+    "explanation": "LCD = 30. 2/5 = 12/30, 1/3 = 10/30, 3/10 = 9/30. Order: 9/30, 10/30, 12/30.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "390",
+    "question": "What is 7/8 expressed as a decimal?",
+    "choices": [
+      "0.875 in decimal form",
+      "0.785 in decimal form",
+      "0.857 in decimal form",
+      "0.750 in decimal form"
+    ],
+    "correct_answer": "0.875 in decimal form",
+    "explanation": "7 ÷ 8 = 0.875.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "391",
+    "question": "Convert the mixed number 4 and 3/5 to an improper fraction.",
+    "choices": [
+      "23/5 as improper fraction",
+      "20/5 as improper fraction",
+      "43/10 as improper fraction",
+      "19/5 as improper fraction"
+    ],
+    "correct_answer": "23/5 as improper fraction",
+    "explanation": "4 × 5 + 3 = 23. Answer: 23/5.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  },
+  {
+    "id": "392",
+    "question": "What is 0.75 multiplied by 2/3 expressed as a fraction?",
+    "choices": [
+      "1/2 as the answer",
+      "3/4 as the answer",
+      "2/3 as the answer",
+      "3/8 as the answer"
+    ],
+    "correct_answer": "1/2 as the answer",
+    "explanation": "0.75 = 3/4. 3/4 × 2/3 = 6/12 = 1/2.",
+    "category": "Numerical Ability – Fractions & Decimals"
+  }
+]

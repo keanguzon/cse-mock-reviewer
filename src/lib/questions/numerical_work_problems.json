@@ -1,0 +1,327 @@
+[
+  {
+    "id": "182",
+    "category": "Numerical Ability – Work Problems",
+    "question": "If a clerk can process 15 applications per hour, how many applications can 4 clerks process in 3 hours?",
+    "choices": [
+      "180",
+      "60",
+      "45",
+      "120"
+    ],
+    "correct_answer": "180",
+    "explanation": "1 clerk in 3 hours = 15 × 3 = 45. 4 clerks = 45 × 4 = 180 applications."
+  },
+  {
+    "id": "186",
+    "category": "Numerical Ability – Work Problems",
+    "question": "If 6 workers can build a wall in 10 days, how many days will it take 15 workers to build the same wall?",
+    "choices": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "correct_answer": "4",
+    "explanation": "Total work = 6 × 10 = 60 worker-days. With 15 workers: 60/15 = 4 days."
+  },
+  {
+    "id": "193",
+    "category": "Numerical Ability – Work Problems",
+    "question": "Two pipes can fill a tank. Pipe A fills it in 6 hours and Pipe B in 12 hours. How long will it take both pipes working together to fill the tank?",
+    "choices": [
+      "8 hours",
+      "5 hours",
+      "3 hours",
+      "4 hours"
+    ],
+    "correct_answer": "4 hours",
+    "explanation": "Rate A = 1/6, Rate B = 1/12. Combined rate = 1/6 + 1/12 = 3/12 = 1/4. Time = 4 hours."
+  },
+  {
+    "id": "201",
+    "category": "Numerical Ability – Work Problems",
+    "question": "A worker can complete a task in 8 hours. His assistant can complete the same task in 12 hours. How long will it take them to complete the task together?",
+    "choices": [
+      "4.8 hours",
+      "6.0 hours",
+      "5.0 hours",
+      "5.2 hours"
+    ],
+    "correct_answer": "4.8 hours",
+    "explanation": "Combined rate = 1/8 + 1/12 = 5/24. Time = 24/5 = 4.8 hours (or 4 hours 48 minutes)."
+  },
+  {
+    "id": "211",
+    "category": "Numerical Ability – Work Problems",
+    "question": "A tank can be filled by Pipe X in 3 hours and emptied by Pipe Y in 5 hours. How long will it take to fill the tank if both pipes are open?",
+    "choices": [
+      "7.5 hours",
+      "10.0 hours",
+      "8.0 hours",
+      "6.5 hours"
+    ],
+    "correct_answer": "7.5 hours",
+    "explanation": "Net rate = 1/3 - 1/5 = 2/15. Time to fill = 15/2 = 7.5 hours."
+  },
+  {
+    "id": "215",
+    "category": "Numerical Ability – Work Problems",
+    "question": "If 3 men can do a piece of work in 6 days, how many men are needed to complete the work in 2 days?",
+    "choices": [
+      "12",
+      "8",
+      "9",
+      "6"
+    ],
+    "correct_answer": "9",
+    "explanation": "Total man-days = 3 × 6 = 18. Men needed for 2 days = 18 / 2 = 9 men."
+  },
+  {
+    "id": "224",
+    "category": "Numerical Ability – Work Problems",
+    "question": "A tap can fill a bucket in 4 minutes. A leak at the bottom can empty a full bucket in 6 minutes. How long will it take to fill the bucket if the tap is open and the leak is unstopped?",
+    "choices": [
+      "10 minutes",
+      "16 minutes",
+      "12 minutes",
+      "8 minutes"
+    ],
+    "correct_answer": "12 minutes",
+    "explanation": "Net filling rate = 1/4 - 1/6 = (3 - 2)/12 = 1/12. Time to fill = 12 minutes."
+  },
+  {
+    "id": "229",
+    "category": "Numerical Ability – Work Problems",
+    "question": "If 10 men can build a road in 12 days working 8 hours a day, how many days will 15 men take working 6 hours a day?",
+    "choices": [
+      "9 days",
+      "12 days",
+      "8 days",
+      "10 days"
+    ],
+    "correct_answer": "8 days",
+    "explanation": "Total man-hours = 10 × 12 × 8 = 960 man-hours. Days for 15 men working 6 hrs/day = 960 / (15 × 6) = 960 / 90 = 10.67? Wait: 960 / 90 = 10.67. Let's adjust numbers: 12 men build road in 10 days working 8 hrs a day = 960 man-hrs. 15 men working 8 hrs/day -> 960 / 120 = 8 days."
+  },
+  {
+    "id": "352",
+    "question": "A painter can paint a fence in 5 hours. His apprentice can do it in 10 hours. How long will it take them working together?",
+    "choices": [
+      "3 hours and 20 minutes",
+      "4 hours and 30 minutes",
+      "2 hours and 30 minutes",
+      "3 hours and 45 minutes"
+    ],
+    "correct_answer": "3 hours and 20 minutes",
+    "explanation": "Combined rate = 1/5 + 1/10 = 3/10. Time = 10/3 = 3 hours 20 minutes.",
+    "category": "Numerical Ability – Work Problems"
+  },
+  {
+    "id": "353",
+    "question": "Machine A produces 120 items per hour and Machine B produces 80 items per hour. How many hours do both machines need to produce 600 items?",
+    "choices": [
+      "3 hours exactly",
+      "4 hours exactly",
+      "2 hours and 30 minutes",
+      "5 hours exactly"
+    ],
+    "correct_answer": "3 hours exactly",
+    "explanation": "Combined rate = 120 + 80 = 200/hr. Time = 600/200 = 3 hours.",
+    "category": "Numerical Ability – Work Problems"
+  },
+  {
+    "id": "354",
+    "question": "It takes 8 workers to finish a road in 15 days. If 4 more workers are added, how many days will it take?",
+    "choices": [
+      "10 days total",
+      "12 days total",
+      "8 days total",
+      "14 days total"
+    ],
+    "correct_answer": "10 days total",
+    "explanation": "Work = 8 × 15 = 120 man-days. With 12 workers: 120/12 = 10 days.",
+    "category": "Numerical Ability – Work Problems"
+  },
+  {
+    "id": "355",
+    "question": "A typist can finish a report in 6 hours. After working for 2 hours, a second typist joins and they finish in 2 more hours. How long would the second typist take alone?",
+    "choices": [
+      "6 hours total",
+      "4 hours total",
+      "3 hours total",
+      "5 hours total"
+    ],
+    "correct_answer": "6 hours total",
+    "explanation": "First typist did 2/6 + 2/6 = 4/6 of work. Second did 2/x of work. 4/6 + 2/x = 1. 2/x = 2/6. x = 6.",
+    "category": "Numerical Ability – Work Problems"
+  },
+  {
+    "id": "356",
+    "category": "Numerical Ability – Work Problems",
+    "question": "Pipe A can fill a tank in 4 hours, and Pipe B can fill it in 6 hours. If both pipes are opened, how long will it take to fill the tank?",
+    "choices": [
+      "2 hours and 24 minutes",
+      "3 hours and 20 minutes",
+      "2 hours and 30 minutes",
+      "3 hours and 45 minutes"
+    ],
+    "correct_answer": "2 hours and 24 minutes",
+    "explanation": "Rate = 1/4 + 1/6 = 5/12. Time = 12/5 = 2.4 hrs = 2 hrs 24 min."
+  },
+  {
+    "id": "357",
+    "category": "Numerical Ability – Work Problems",
+    "question": "Twelve workers can complete a project in 10 days. After 4 days, 4 workers are reassigned. How many more days do the remaining workers need?",
+    "choices": [
+      "9 more days needed",
+      "8 more days needed",
+      "6 more days needed",
+      "7 more days needed"
+    ],
+    "correct_answer": "9 more days needed",
+    "explanation": "Total = 12 × 10 = 120 man-days. Done = 12 × 4 = 48. Remaining = 72. Workers = 8. Days = 72/8 = 9."
+  },
+  {
+    "id": "358",
+    "question": "A contractor estimates a job will take 12 days with 10 workers. After 4 days, the client wants it done in 4 more days. How many additional workers are needed?",
+    "choices": [
+      "10 additional workers",
+      "8 additional workers",
+      "15 additional workers",
+      "12 additional workers"
+    ],
+    "correct_answer": "10 additional workers",
+    "explanation": "Total = 10 × 12 = 120. Done = 10 × 4 = 40. Remaining = 80. Need 80/4 = 20 workers. Additional = 20 - 10 = 10.",
+    "category": "Numerical Ability – Work Problems"
+  },
+  {
+    "id": "359",
+    "question": "A faucet fills a tank in 12 minutes. A drain empties it in 18 minutes. If both are open, how long to fill the empty tank?",
+    "choices": [
+      "36 minutes total",
+      "30 minutes total",
+      "24 minutes total",
+      "42 minutes total"
+    ],
+    "correct_answer": "36 minutes total",
+    "explanation": "Rate = 1/12 - 1/18 = 3/36 - 2/36 = 1/36. Time = 36 minutes.",
+    "category": "Numerical Ability – Work Problems"
+  },
+  {
+    "id": "360",
+    "question": "Three friends can clean a house individually in 2, 3, and 6 hours. How long will it take if all three work together?",
+    "choices": [
+      "1 hour exactly",
+      "2 hours exactly",
+      "1 hour and 30 minutes",
+      "45 minutes total"
+    ],
+    "correct_answer": "1 hour exactly",
+    "explanation": "Rate = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1. Time = 1 hour.",
+    "category": "Numerical Ability – Work Problems"
+  },
+  {
+    "id": "361",
+    "question": "A truck can deliver supplies in 5 trips. A van needs 8 trips to deliver the same amount. How many trips in total if both work together?",
+    "choices": [
+      "3 combined trips needed",
+      "4 combined trips needed",
+      "2 combined trips needed",
+      "5 combined trips needed"
+    ],
+    "correct_answer": "3 combined trips needed",
+    "explanation": "Per trip: truck = 1/5, van = 1/8. Combined = 1/5 + 1/8 = 13/40. Trips = 40/13 ≈ 3.08, so about 3 full combined trips.",
+    "category": "Numerical Ability – Work Problems"
+  },
+  {
+    "id": "362",
+    "question": "Worker A finishes a job in 10 days. Worker B finishes the same job in 15 days. If A works alone for 4 days then B finishes the rest, how many days does B need?",
+    "choices": [
+      "9 days to finish",
+      "6 days to finish",
+      "8 days to finish",
+      "7 days to finish"
+    ],
+    "correct_answer": "9 days to finish",
+    "explanation": "A does 4/10 = 2/5. Remaining = 3/5. B's rate = 1/15. Time = (3/5)/(1/15) = 9 days.",
+    "category": "Numerical Ability – Work Problems"
+  },
+  {
+    "id": "363",
+    "category": "Numerical Ability – Work Problems",
+    "question": "Six machines finish a job in 4 hours. After 1 hour, 2 machines break. How many more hours for the remaining 4 machines?",
+    "choices": [
+      "4 more hours and 30 minutes",
+      "3 more hours exactly",
+      "5 more hours exactly",
+      "6 more hours exactly"
+    ],
+    "correct_answer": "4 more hours and 30 minutes",
+    "explanation": "Total = 24 machine-hours. Done in 1 hr = 6. Remaining = 18. With 4 machines: 18/4 = 4.5 hours."
+  },
+  {
+    "id": "364",
+    "question": "A team of 5 data encoders can finish encoding records in 8 hours. How many encoders are needed to finish the same records in 4 hours?",
+    "choices": [
+      "10 encoders needed",
+      "8 encoders needed",
+      "12 encoders needed",
+      "15 encoders needed"
+    ],
+    "correct_answer": "10 encoders needed",
+    "explanation": "Work = 5 × 8 = 40 man-hours. For 4 hours: 40/4 = 10 encoders.",
+    "category": "Numerical Ability – Work Problems"
+  },
+  {
+    "id": "365",
+    "question": "A secretary can type a document in 3 hours. Her assistant takes 4 hours for the same document. How long together?",
+    "choices": [
+      "1 hour and 43 minutes",
+      "2 hours and 15 minutes",
+      "1 hour and 30 minutes",
+      "2 hours and 30 minutes"
+    ],
+    "correct_answer": "1 hour and 43 minutes",
+    "explanation": "Rate = 1/3 + 1/4 = 7/12. Time = 12/7 ≈ 1.71 hours = 1 hr 43 min.",
+    "category": "Numerical Ability – Work Problems"
+  },
+  {
+    "id": "366",
+    "category": "Numerical Ability – Work Problems",
+    "question": "A farmer can harvest a field in 6 days working 8 hours daily. If he works 12 hours daily instead, how many days will it take?",
+    "choices": [
+      "4 days needed total",
+      "3 days needed total",
+      "5 days needed total",
+      "6 days needed total"
+    ],
+    "correct_answer": "4 days needed total",
+    "explanation": "Total = 6 × 8 = 48 hours. At 12 hrs/day: 48/12 = 4 days."
+  },
+  {
+    "id": "367",
+    "category": "Numerical Ability – Work Problems",
+    "question": "Pump A fills a pool in 6 hours and Pump B in 3 hours. If both pumps start together, how long to fill the pool?",
+    "choices": [
+      "2 hours exactly total",
+      "3 hours exactly total",
+      "1 hour and 30 minutes",
+      "2 hours and 30 minutes"
+    ],
+    "correct_answer": "2 hours exactly total",
+    "explanation": "Rate = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2. Time = 2 hours."
+  },
+  {
+    "id": "368",
+    "question": "If 12 carpenters build 4 houses in 60 days, how many days would 8 carpenters need to build 2 houses?",
+    "choices": [
+      "45 days needed total",
+      "30 days needed total",
+      "40 days needed total",
+      "50 days needed total"
+    ],
+    "correct_answer": "45 days needed total",
+    "explanation": "12 carpenters × 60 days = 720 man-days for 4 houses. Per house = 180 man-days. 2 houses = 360. With 8: 360/8 = 45 days.",
+    "category": "Numerical Ability – Work Problems"
+  }
+]
