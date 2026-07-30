@@ -1,13 +1,25 @@
 import { json } from '@sveltejs/kit';
 import { supabase } from '$lib/supabaseClient';
 import { env } from '$env/dynamic/public';
-import { allQuestions, getQuestionsByLevel, type ExamLevel } from '$lib/questions';
+import { getQuestionsByLevel, type ExamLevel } from '$lib/questions';
 
 export async function GET({ url }) {
-    const category = url.searchParams.get('category');
+    const rawCategory = url.searchParams.get('category');
     const limitParam = url.searchParams.get('limit');
-    const level = (url.searchParams.get('level') || 'professional') as ExamLevel;
-    const limit = limitParam ? parseInt(limitParam) : 20;
+    const levelParam = url.searchParams.get('level');
+
+    // Bound limit strictly between 1 and 150.
+    const limit = Math.min(Math.max(parseInt(limitParam || '20', 10) || 20, 1), 150);
+
+    // Sanitize level and category inputs.
+    const level: ExamLevel = levelParam === 'subprofessional' ? 'subprofessional' : 'professional';
+    const category = typeof rawCategory === 'string' && rawCategory.trim().length > 0 ? rawCategory.trim() : null;
+
+    // Security and cache control response headers.
+    const responseHeaders = {
+        'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate',
+        'X-Content-Type-Options': 'nosniff'
+    };
 
     const isSupabaseConfigured = env.PUBLIC_SUPABASE_URL && 
                                  env.PUBLIC_SUPABASE_URL !== 'https://placeholder.supabase.co' &&
@@ -22,7 +34,7 @@ export async function GET({ url }) {
             });
 
             if (!rpcError && rpcData && rpcData.length > 0) {
-                return json(rpcData);
+                return json(rpcData, { headers: responseHeaders });
             }
 
             let query = supabase.from('questions').select('*');
@@ -38,7 +50,7 @@ export async function GET({ url }) {
                     const j = Math.floor(Math.random() * (i + 1));
                     [questions[i], questions[j]] = [questions[j], questions[i]];
                 }
-                return json(questions.slice(0, limit));
+                return json(questions.slice(0, limit), { headers: responseHeaders });
             }
             
             console.warn("Supabase fetch returned empty or error, falling back to local JSON...");
@@ -47,25 +59,25 @@ export async function GET({ url }) {
         }
     }
 
-    // Graceful fallback to local JSON files
+    // Graceful fallback to local JSON files.
     try {
         let questions = getQuestionsByLevel(level);
 
-        // Optional filtering by category
+        // Optional filtering by category.
         if (category) {
             questions = questions.filter(q => q.category === category);
         }
 
-        // Shuffle questions (Fisher-Yates)
+        // Shuffle questions using Fisher-Yates algorithm.
         let shuffled = [...questions];
         for (let i = shuffled.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
             [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
         }
 
-        return json(shuffled.slice(0, limit));
+        return json(shuffled.slice(0, limit), { headers: responseHeaders });
     } catch (e) {
         console.error("Error with questions:", e);
-        return json({ error: "Failed to load questions" }, { status: 500 });
+        return json({ error: "Failed to load questions" }, { status: 500, headers: responseHeaders });
     }
 }

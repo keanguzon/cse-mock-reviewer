@@ -128,7 +128,7 @@
                     if (!map.has(cat)) map.set(cat, { correct: 0, total: 0 });
                     const entry = map.get(cat)!;
                     entry.total++;
-                    if (att.user_answers[idx] === q.correct_answer)
+                    if (att.user_answers?.[idx] === q.correct_answer)
                         entry.correct++;
                 });
             } else {

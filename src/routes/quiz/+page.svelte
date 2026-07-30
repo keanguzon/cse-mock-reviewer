@@ -171,20 +171,20 @@
   let unansweredIndices = $derived(
     questions
       ? questions
-          .map((_, i) => i)
-          .filter((i) => userAnswers[i] === undefined)
+          .map((_: any, i: number) => i)
+          .filter((i: number) => userAnswers[i] === undefined)
       : []
   );
 
   let hasPreviousNav = $derived(
     filterUnanswered
-      ? unansweredIndices.some((i) => i < currentIndex)
+      ? unansweredIndices.some((i: number) => i < currentIndex)
       : currentIndex > 0
   );
 
   let hasNextNav = $derived(
     filterUnanswered
-      ? unansweredIndices.some((i) => i > currentIndex)
+      ? unansweredIndices.some((i: number) => i > currentIndex)
       : currentIndex < questions.length - 1
   );
 
@@ -210,7 +210,7 @@
 
   function handleNext() {
     if (filterUnanswered) {
-      const next = unansweredIndices.find((i) => i > currentIndex);
+      const next = unansweredIndices.find((i: number) => i > currentIndex);
       if (next !== undefined) {
         currentIndex = next;
         pendingAnswer = userAnswers[currentIndex] || null;
@@ -225,7 +225,7 @@
 
   function handlePrevious() {
     if (filterUnanswered) {
-      const prev = unansweredIndices.filter((i) => i < currentIndex).pop();
+      const prev = unansweredIndices.filter((i: number) => i < currentIndex).pop();
       if (prev !== undefined) {
         currentIndex = prev;
         pendingAnswer = userAnswers[currentIndex] || null;
