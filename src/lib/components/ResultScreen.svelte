@@ -86,28 +86,35 @@
 
   import { guestStore } from '$lib/guestStore.svelte';
 
-  async function saveAttempt() {
+  async function saveAttempt(retries = 2) {
     if (userSession.user) {
-      try {
-        saveStatus = 'saving';
-        const { error } = await supabase
-          .from('exam_attempts')
-          .insert({
-            user_id: userSession.user.id,
-            score,
-            total,
-            category,
-            mode,
-            level,
-            questions: questions,
-            user_answers: userAnswers
-          });
+      saveStatus = 'saving';
+      for (let attempt = 0; attempt <= retries; attempt++) {
+        try {
+          const { error } = await supabase
+            .from('exam_attempts')
+            .insert({
+              user_id: userSession.user.id,
+              score,
+              total,
+              category,
+              mode,
+              level,
+              questions: questions,
+              user_answers: userAnswers
+            });
 
-        if (error) throw error;
-        saveStatus = 'saved';
-      } catch (err: any) {
-        console.error('Error saving score attempt:', err.message);
-        saveStatus = 'error';
+          if (error) throw error;
+          saveStatus = 'saved';
+          return;
+        } catch (err: any) {
+          console.error(`Save attempt ${attempt + 1} failed:`, err.message);
+          if (attempt < retries) {
+            await new Promise(r => setTimeout(r, 1500));
+          } else {
+            saveStatus = 'error';
+          }
+        }
       }
     } else {
       guestStore.save({
@@ -214,6 +221,9 @@
             <CheckCircle2 size={16} class="text-emerald" /> Progress saved to your account!
           {:else if saveStatus === 'error'}
             <AlertTriangle size={16} class="text-red" /> Couldn't save this attempt.
+            <button class="btn-ghost" onclick={() => saveAttempt(1)} style="padding: 0.2rem 0.6rem; font-size: 0.75rem; border-color: rgba(248, 113, 113, 0.4); color: var(--cse-red); margin-left: 0.5rem; display: inline-flex; align-items: center; gap: 0.25rem;">
+              🔄 Retry
+            </button>
           {/if}
         {:else}
           <CheckCircle2 size={16} class="text-emerald" /> Results cached in browser! Sign in to sync across devices.
