@@ -536,7 +536,7 @@
     font-weight: 600;
     padding: 0.65rem 0.9rem;
     cursor: pointer;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-body);
     font-size: 0.8rem;
     letter-spacing: 0.5px;
     text-transform: uppercase;
@@ -559,7 +559,7 @@
     font-weight: 600;
     padding: 0.65rem 0.9rem;
     cursor: pointer;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-body);
     font-size: 0.8rem;
     letter-spacing: 0.5px;
     text-transform: uppercase;

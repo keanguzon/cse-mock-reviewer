@@ -20,6 +20,7 @@
     Clock,
     ChevronRight,
     ArrowLeft,
+    AlertTriangle,
   } from "lucide-svelte";
   import { guestStore } from "$lib/guestStore.svelte";
 
@@ -37,6 +38,7 @@
 
   let hasSavedSession = $state(false);
   let savedSessionData = $state<any>(null);
+  let showDiscardModal = $state(false);
 
   // Reset category when switching levels
   $effect(() => {
@@ -172,26 +174,25 @@
     goto("/quiz?continue=true");
   }
 
-  async function discardSession() {
-    if (
-      window.confirm(
-        "Are you sure you want to discard your saved session? Your progress will be lost permanently.",
-      )
-    ) {
-      if (userSession.user) {
-        try {
-          await supabase
-            .from("active_sessions")
-            .delete()
-            .eq("user_id", userSession.user.id);
-        } catch (e) {
-          console.error("Error discarding active session from Supabase:", e);
-        }
+  function handleDiscardClick() {
+    showDiscardModal = true;
+  }
+
+  async function confirmDiscard() {
+    showDiscardModal = false;
+    if (userSession.user) {
+      try {
+        await supabase
+          .from("active_sessions")
+          .delete()
+          .eq("user_id", userSession.user.id);
+      } catch (e) {
+        console.error("Error discarding active session from Supabase:", e);
       }
-      localStorage.removeItem("cse_active_session");
-      hasSavedSession = false;
-      savedSessionData = null;
     }
+    localStorage.removeItem("cse_active_session");
+    hasSavedSession = false;
+    savedSessionData = null;
   }
 
   function handleSubmit(e: Event) {
@@ -514,10 +515,56 @@
               </button>
               <button
                 class="btn-ghost"
-                onclick={discardSession}
+                onclick={handleDiscardClick}
                 style="padding: 0.75rem 1.5rem; font-size: 0.9rem; border-color: rgba(248, 113, 113, 0.2); color: var(--cse-red); font-weight: 700; text-align: center;"
               >
                 Discard
+              </button>
+            </div>
+          </div>
+        </div>
+      {/if}
+
+      {#if showDiscardModal}
+        <div
+          class="modal-overlay fade-in"
+          onclick={() => (showDiscardModal = false)}
+          onkeydown={(e) => e.key === "Escape" && (showDiscardModal = false)}
+          tabindex="0"
+          role="button"
+        >
+          <div
+            class="confirm-modal slide-up"
+            onclick={(e) => e.stopPropagation()}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="confirm-discard-title"
+          >
+            <div class="confirm-header">
+              <div class="confirm-icon danger-icon">
+                <AlertTriangle size={24} />
+              </div>
+              <h3 id="confirm-discard-title">Discard Saved Session</h3>
+            </div>
+            <div class="confirm-body">
+              <p>
+                Are you sure you want to discard your saved session? Your progress will be lost permanently.
+              </p>
+            </div>
+            <div class="confirm-footer">
+              <button
+                type="button"
+                class="btn-ghost"
+                onclick={() => (showDiscardModal = false)}
+              >
+                CANCEL
+              </button>
+              <button
+                type="button"
+                class="btn-danger-confirm"
+                onclick={confirmDiscard}
+              >
+                YES, DISCARD
               </button>
             </div>
           </div>
