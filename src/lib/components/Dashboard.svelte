@@ -20,7 +20,6 @@
     } from "lucide-svelte";
 
     import { guestStore } from "$lib/guestStore.svelte";
-    import AnalyticsCard from "$lib/components/AnalyticsCard.svelte";
     import type { Snippet } from "svelte";
 
     let { user, configForm }: { user?: User | null; configForm?: Snippet } =
@@ -52,7 +51,6 @@
     let error = $state<string | null>(null);
     let showAll = $state(false);
     let showAllFocusAreas = $state(false);
-    let selectedAnalyticsAttempt = $state<Attempt | null>(null);
 
     onMount(async () => {
         if (!user) {
@@ -478,22 +476,13 @@
                                 >
                                     {attempt.score}/{attempt.total}
                                 </span>
-                                <div style="display: flex; gap: 0.35rem; align-items: center;">
-                                    <button
-                                        class="btn-view-submission"
-                                        style="background: rgba(167, 139, 250, 0.12); border-color: rgba(167, 139, 250, 0.3); color: #a78bfa;"
-                                        onclick={() => selectedAnalyticsAttempt = attempt}
-                                    >
-                                        Analytics
-                                    </button>
-                                    <button
-                                        class="btn-view-submission"
-                                        onclick={() =>
-                                            goto("/submission/" + attempt.id)}
-                                    >
-                                        Submission
-                                    </button>
-                                </div>
+                                <button
+                                    class="btn-view-submission"
+                                    onclick={() =>
+                                        goto("/submission/" + attempt.id)}
+                                >
+                                    View Submission
+                                </button>
                             </div>
                         </div>
                     {/each}
@@ -519,52 +508,6 @@
     </div>
     <!-- End Col 3 -->
 </div>
-
-{#if selectedAnalyticsAttempt}
-    <div
-        class="analytics-modal-overlay fade-in"
-        onclick={() => (selectedAnalyticsAttempt = null)}
-        onkeydown={(e) => e.key === "Escape" && (selectedAnalyticsAttempt = null)}
-        tabindex="0"
-        role="button"
-    >
-        <div
-            class="analytics-modal-card glass-card slide-up"
-            onclick={(e) => e.stopPropagation()}
-            role="dialog"
-            aria-modal="true"
-        >
-            <header
-                style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; padding-bottom: 0.75rem; border-bottom: 1px solid rgba(255, 255, 255, 0.08);"
-            >
-                <div style="display: flex; align-items: center; gap: 0.5rem;">
-                    <Sparkles size={18} class="text-emerald" />
-                    <span
-                        style="font-size: 0.85rem; font-weight: 700; text-transform: uppercase; color: #a78bfa; letter-spacing: 1px;"
-                    >
-                        Analytics Breakdown
-                    </span>
-                </div>
-                <button
-                    class="btn-ghost"
-                    onclick={() => (selectedAnalyticsAttempt = null)}
-                    style="padding: 0.25rem 0.6rem; font-size: 0.8rem; border-color: rgba(255,255,255,0.15);"
-                >
-                    ✕ Close
-                </button>
-            </header>
-
-            <AnalyticsCard
-                score={selectedAnalyticsAttempt.score}
-                total={selectedAnalyticsAttempt.total}
-                questions={selectedAnalyticsAttempt.questions || []}
-                userAnswers={selectedAnalyticsAttempt.user_answers || {}}
-                title="Performance Overview"
-                showSaveStatus={false}
-            />
-        </div>
-    </div>
-{/if}
 
 <style>
     .dashboard {

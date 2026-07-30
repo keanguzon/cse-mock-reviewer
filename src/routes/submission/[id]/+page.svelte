@@ -3,6 +3,7 @@
   import { supabase } from '$lib/supabaseClient';
   import { userSession } from '$lib/userSession.svelte';
   import { goto } from '$app/navigation';
+  import AnalyticsCard from '$lib/components/AnalyticsCard.svelte';
   import { ArrowLeft, Calendar, Award, GraduationCap, Clock, FileText, BarChart2, X } from 'lucide-svelte';
 
   type Question = {
@@ -273,50 +274,25 @@
   </div>
 </div>
 
-{#if showAnalyticsModal}
+{#if showAnalyticsModal && attempt}
   <div class="modal-overlay fade-in" onclick={() => showAnalyticsModal = false} onkeydown={(e) => e.key === 'Escape' && (showAnalyticsModal = false)} tabindex="0" role="button">
-    <div class="modal-content slide-up" onclick={(e) => e.stopPropagation()} role="dialog">
-      <div class="modal-header">
-        <h3 style="margin: 0; font-family: var(--font-display); font-size: 1.25rem;">Analytics Overview</h3>
+    <div class="modal-content slide-up" onclick={(e) => e.stopPropagation()} role="dialog" style="max-width: 600px; padding: 1.5rem;">
+      <div class="modal-header" style="margin-bottom: 1.25rem; padding-bottom: 0.75rem; border-bottom: 1px solid rgba(255,255,255,0.08);">
+        <h3 style="margin: 0; font-family: var(--font-display); font-size: 1.25rem; color: white;">Analytics Overview</h3>
         <button class="btn-icon" onclick={() => showAnalyticsModal = false} aria-label="Close modal">
           <X size={20} />
         </button>
       </div>
       
-      <div class="modal-body">
-        <div class="category-breakdown" style="background: transparent; border: none; padding: 0; margin: 0; max-width: 100%;">
-          <div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
-            {#if strongAreas.length > 0}
-              <div class="area-label area-strong">
-                <span class="area-dot strong-dot"></span>
-                Strong Areas ({strongAreas.length})
-              </div>
-            {/if}
-            {#if weakAreas.length > 0}
-              <div class="area-label area-weak">
-                <span class="area-dot weak-dot"></span>
-                Needs Practice ({weakAreas.length})
-              </div>
-            {/if}
-          </div>
-
-          <div class="breakdown-list">
-            {#each categoryBreakdown as cat}
-              <div class="breakdown-item">
-                <div class="breakdown-info">
-                  <span class="breakdown-cat">{cat.category}</span>
-                  <span class="breakdown-score {cat.status}">{cat.correct}/{cat.total} ({cat.percentage}%)</span>
-                </div>
-                <div class="breakdown-bar-bg">
-                  <div
-                    class="breakdown-bar-fill {cat.status}"
-                    style="width: {cat.percentage}%"
-                  ></div>
-                </div>
-              </div>
-            {/each}
-          </div>
-        </div>
+      <div class="modal-body" style="padding: 0;">
+        <AnalyticsCard
+          score={attempt.score}
+          total={attempt.total}
+          questions={attempt.questions || []}
+          userAnswers={attempt.user_answers || {}}
+          title="Performance Overview"
+          showSaveStatus={false}
+        />
       </div>
     </div>
   </div>
