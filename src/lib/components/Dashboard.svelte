@@ -17,6 +17,9 @@
         Sparkles,
         CheckCircle2,
         AlertTriangle,
+        ChevronDown,
+        Lock,
+        Loader2,
     } from "lucide-svelte";
 
     import { guestStore } from "$lib/guestStore.svelte";
@@ -49,8 +52,28 @@
     let attempts: Attempt[] = $state([]);
     let loading = $state(true);
     let error = $state<string | null>(null);
-    let showAll = $state(false);
+    let isFocusAreasExpanded = $state(false);
     let showAllFocusAreas = $state(false);
+    let isLoggingIn = $state(false);
+
+    async function signInWithGoogle() {
+        if (isLoggingIn) return;
+        isLoggingIn = true;
+        const { error } = await supabase.auth.signInWithOAuth({
+            provider: "google",
+            options: {
+                redirectTo: `${window.location.origin}/`,
+                queryParams: {
+                    access_type: "offline",
+                    prompt: "consent",
+                },
+            },
+        });
+        if (error) {
+            console.error("Error logging in:", error.message);
+            isLoggingIn = false;
+        }
+    }
 
     onMount(async () => {
         if (!user) {
@@ -78,8 +101,7 @@
                     "id, score, total, category, mode, level, completed_at, questions, user_answers",
                 )
                 .eq("user_id", user.id)
-                .order("completed_at", { ascending: false })
-                .limit(10);
+                .order("completed_at", { ascending: false });
 
             if (dbError) throw dbError;
             attempts = data || [];
@@ -124,21 +146,19 @@
         attempts.forEach((att) => {
             if (att.questions && att.user_answers && att.questions.length > 0) {
                 att.questions.forEach((q: any, idx: number) => {
-                    const cat = q.category || "General / Mixed";
-                    if (!map.has(cat)) map.set(cat, { correct: 0, total: 0 });
-                    const entry = map.get(cat)!;
+                    const rawCat = (q.category || "").trim();
+                    if (!rawCat || rawCat.toLowerCase() === "all" || rawCat.toLowerCase() === "all categories" || rawCat === "Mixed Categories" || rawCat === "General / Mixed") return;
+                    if (!map.has(rawCat)) map.set(rawCat, { correct: 0, total: 0 });
+                    const entry = map.get(rawCat)!;
                     entry.total++;
                     if (att.user_answers?.[idx] === q.correct_answer)
                         entry.correct++;
                 });
             } else {
-                const rawCat = att.category || "General / Mixed";
-                const cat =
-                    rawCat === "all" || rawCat === ""
-                        ? "General / Mixed"
-                        : rawCat;
-                if (!map.has(cat)) map.set(cat, { correct: 0, total: 0 });
-                const entry = map.get(cat)!;
+                const rawCat = (att.category || "").trim();
+                if (!rawCat || rawCat.toLowerCase() === "all" || rawCat.toLowerCase() === "all categories" || rawCat === "Mixed Categories" || rawCat === "General / Mixed") return;
+                if (!map.has(rawCat)) map.set(rawCat, { correct: 0, total: 0 });
+                const entry = map.get(rawCat)!;
                 entry.correct += att.score;
                 entry.total += att.total;
             }
@@ -186,7 +206,7 @@
         });
     }
 
-    let displayedAttempts = $derived(showAll ? attempts : attempts.slice(0, 1));
+    let displayedAttempts = $derived(attempts.slice(0, 3));
 </script>
 
 <div class="dashboard slide-up dashboard-3-col-layout">
@@ -195,7 +215,7 @@
         <div
             style="display: flex; justify-content: space-between; align-items: flex-start; flex-direction: column; gap: 0.5rem; margin-bottom: 1.5rem;"
         >
-            <h2 class="dashboard-title" style="margin: 0; font-size: 1.5rem;">
+            <h2 class="dashboard-title" style="margin: 0; font-size: 1.25rem; font-weight: 900; text-transform: uppercase; letter-spacing: 0.5px; color: white;">
                 Welcome back, {user
                     ? user.user_metadata?.full_name?.split(" ")[0] || "Reviewer"
                     : "Guest"}!
@@ -310,41 +330,68 @@
                 </p>
             </div>
         {:else if !loading && !error}
-            <!-- Overall Focus Areas (Strengths & Weaknesses) -->
-            <div
-                class="analytics-card"
-                style="margin-top: 1.5rem; margin-bottom: 1.5rem; padding: 1.25rem; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(124, 58, 237, 0.2); border-radius: 12px;"
-            >
+            {#if !user}
+                <!-- Guest Mode Lock Card for Performance & Focus Areas -->
+                <div class="guest-focus-lock slide-up">
+                    <div class="lock-icon-badge">
+                        <Lock size={22} />
+                    </div>
+                    <h4 class="guest-lock-title">Unlock Subject Analytics</h4>
+                    <p class="guest-lock-desc">
+                        Sign in to save your progress, track your strengths per subject topic, and get personalized focus area recommendations.
+                    </p>
+                    <button
+                        class="btn-guest-login"
+                        class:btn-loading={isLoggingIn}
+                        disabled={isLoggingIn}
+                        onclick={signInWithGoogle}
+                    >
+                        {#if isLoggingIn}
+                            <Loader2 size={16} class="spinner-icon" /> Signing in...
+                        {:else}
+                            <svg class="google-icon" width="16" height="16" viewBox="0 0 24 24">
+                                <path fill="#EA4335" d="M12 5c1.6 0 3 .6 4.1 1.6l3.1-3.1C17.3 1.7 14.8 1 12 1 7.5 1 3.7 3.6 1.9 7.3l3.7 2.9C6.5 7.3 9 5 12 5z"/>
+                                <path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5c-.3 1.5-1.1 2.8-2.4 3.7l3.7 2.9c2.2-2 3.7-5 3.7-8.8z"/>
+                                <path fill="#FBBC05" d="M5.6 14.8c-.2-.7-.4-1.5-.4-2.3s.2-1.6.4-2.3L1.9 7.3C.7 9.7 0 12.4 0 15.2s.7 5.5 1.9 7.9l3.7-2.9c-.6-.8-1-1.8-1-2.9z"/>
+                                <path fill="#34A853" d="M12 23c3.2 0 6-1.1 8-3l-3.7-2.9c-1.1.7-2.5 1.2-4.3 1.2-3 0-5.5-2.3-6.4-5.2L1.9 16C3.7 19.7 7.5 22.3 12 23z"/>
+                            </svg>
+                            Sign in with Google
+                        {/if}
+                    </button>
+                </div>
+            {:else}
+                <!-- Overall Focus Areas for Logged In User -->
                 <h3
                     style="font-size: 0.95rem; font-weight: 700; color: var(--cse-primary-light); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;"
                 >
                     <Sparkles size={16} /> Performance & Focus Areas
                 </h3>
 
-                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-                    <!-- Strong Areas -->
-                    <div
-                        style="flex: 1; min-width: 220px; background: rgba(52, 211, 153, 0.05); border: 1px solid rgba(52, 211, 153, 0.2); border-radius: 10px; padding: 1rem;"
-                    >
+                <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+                    <!-- Strong Areas Section -->
+                    <div>
                         <div
-                            style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; color: #34d399; font-weight: 700; font-size: 0.85rem;"
+                            style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.6rem; color: #34d399; font-weight: 700; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.5px;"
                         >
-                            <CheckCircle2 size={16} /> Strong Areas (≥80%)
+                            <CheckCircle2 size={15} /> Strong Areas (≥80%)
                         </div>
                         {#if overallStrongAreas.length > 0}
                             <div
-                                style="display: flex; flex-direction: column; gap: 0.4rem;"
+                                style="display: flex; flex-direction: column; gap: 0.45rem;"
                             >
-                                {#each showAllFocusAreas ? overallStrongAreas : overallStrongAreas.slice(0, 3) as item}
+                                {#each overallStrongAreas as item, idx}
                                     <div
-                                        style="display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem;"
+                                        class="focus-area-item"
+                                        class:mobile-hidden={idx >= 3 &&
+                                            !isFocusAreasExpanded}
+                                        style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; font-size: 0.82rem; padding: 0.2rem 0; border-bottom: 1px dashed rgba(255, 255, 255, 0.05);"
                                     >
                                         <span
-                                            style="color: #e2e8f0; font-weight: 500;"
+                                            style="color: #e2e8f0; font-weight: 500; line-height: 1.4;"
                                             >{item.category}</span
                                         >
                                         <span
-                                            style="font-weight: 800; color: #34d399; font-family: var(--font-body); font-variant-numeric: tabular-nums lining-nums;"
+                                            style="font-weight: 800; color: #34d399; font-family: var(--font-body); font-variant-numeric: tabular-nums lining-nums; flex-shrink: 0;"
                                             >{item.percentage}%</span
                                         >
                                     </div>
@@ -354,35 +401,36 @@
                             <p
                                 style="font-size: 0.78rem; color: #7c6d8e; margin: 0;"
                             >
-                                Complete more practice quizzes at ≥80% accuracy
-                                to highlight your strong subjects.
+                                Complete practice quizzes at ≥80% accuracy to
+                                highlight your strong subjects.
                             </p>
                         {/if}
                     </div>
 
-                    <!-- Weak Areas / Needs Practice -->
-                    <div
-                        style="flex: 1; min-width: 220px; background: rgba(251, 191, 36, 0.05); border: 1px solid rgba(251, 191, 36, 0.2); border-radius: 10px; padding: 1rem;"
-                    >
+                    <!-- Needs Practice Section -->
+                    <div>
                         <div
-                            style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.6rem; color: #fbbf24; font-weight: 700; font-size: 0.85rem;"
+                            style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.6rem; color: #fbbf24; font-weight: 700; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.5px;"
                         >
-                            <AlertTriangle size={16} /> Needs Practice (&lt;80%)
+                            <AlertTriangle size={15} /> Needs Practice (&lt;80%)
                         </div>
                         {#if overallWeakAreas.length > 0}
                             <div
-                                style="display: flex; flex-direction: column; gap: 0.4rem;"
+                                style="display: flex; flex-direction: column; gap: 0.45rem;"
                             >
-                                {#each showAllFocusAreas ? overallWeakAreas : overallWeakAreas.slice(0, 3) as item}
+                                {#each overallWeakAreas as item, idx}
                                     <div
-                                        style="display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem;"
+                                        class="focus-area-item"
+                                        class:mobile-hidden={idx >= 3 &&
+                                            !isFocusAreasExpanded}
+                                        style="display: flex; justify-content: space-between; align-items: flex-start; gap: 0.75rem; font-size: 0.82rem; padding: 0.2rem 0; border-bottom: 1px dashed rgba(255, 255, 255, 0.05);"
                                     >
                                         <span
-                                            style="color: #e2e8f0; font-weight: 500;"
+                                            style="color: #e2e8f0; font-weight: 500; line-height: 1.4;"
                                             >{item.category}</span
                                         >
                                         <span
-                                            style="font-weight: 800; color: #fbbf24; font-family: var(--font-body); font-variant-numeric: tabular-nums lining-nums;"
+                                            style="font-weight: 800; color: #fbbf24; font-family: var(--font-body); font-variant-numeric: tabular-nums lining-nums; flex-shrink: 0;"
                                             >{item.percentage}%</span
                                         >
                                     </div>
@@ -400,114 +448,123 @@
 
                     {#if overallStrongAreas.length > 3 || overallWeakAreas.length > 3}
                         <button
-                            class="btn-see-all"
+                            class="modern-expand-btn"
                             onclick={() =>
-                                (showAllFocusAreas = !showAllFocusAreas)}
-                            style="display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem; width: 100%; margin-top: 0.5rem;"
+                                (isFocusAreasExpanded = !isFocusAreasExpanded)}
+                            aria-expanded={isFocusAreasExpanded}
                         >
-                            {#if showAllFocusAreas}
-                                ↑ Show Less
-                            {:else}
-                                See All Areas <ArrowRight size={13} />
-                            {/if}
+                            <span
+                                >{isFocusAreasExpanded
+                                    ? "Show Less"
+                                    : "Show All"}</span
+                            >
+                            <span
+                                class="expand-icon-pill"
+                                class:rotated={isFocusAreasExpanded}
+                            >
+                                <ChevronDown size={14} />
+                            </span>
                         </button>
                     {/if}
                 </div>
-            </div>
-
-            <div class="recent-activity" style="margin-top: 0;">
-                <h3
-                    style="font-size: 0.95rem; font-weight: 700; color: var(--cse-primary-light); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem;"
-                >
-                    Recent Activity
-                </h3>
-                <div class="activity-list">
-                    {#each displayedAttempts as attempt}
-                        {@const pct = Math.round(
-                            (attempt.score / attempt.total) * 100,
-                        )}
-                        {@const level = getLevelLabel(attempt)}
-                        <div class="activity-item">
-                            <div class="activity-info">
-                                <strong
-                                    >{attempt.category === "all" ||
-                                    attempt.category === ""
-                                        ? "Mixed Categories"
-                                        : attempt.category}</strong
-                                >
-                                <div
-                                    class="activity-meta-row"
-                                    style="display: flex; align-items: center; gap: 0.5rem;"
-                                >
-                                    <span
-                                        class="level-badge {level.cls}"
-                                        style="display: inline-flex; align-items: center; gap: 0.25rem;"
-                                    >
-                                        {#if level.label.includes("Professional")}
-                                            <GraduationCap size={11} />
-                                        {:else}
-                                            <Award size={11} />
-                                        {/if}
-                                        {level.label}
-                                    </span>
-                                    <small
-                                        style="display: inline-flex; align-items: center; gap: 0.25rem; color: #7c6d8e;"
-                                    >
-                                        <Calendar size={11} />
-                                        {formatDate(attempt.completed_at)}
-                                    </small>
-                                </div>
-                                <small
-                                    class="mode-label"
-                                    style="display: inline-flex; align-items: center; gap: 0.25rem; margin-top: 0.25rem;"
-                                >
-                                    {#if attempt.mode === "mock"}
-                                        <Clock size={11} /> Mock Exam
-                                    {:else}
-                                        <FileText size={11} /> Practice Mode
-                                    {/if}
-                                </small>
-                            </div>
-                            <div class="activity-right">
-                                <span
-                                    class="score-badge"
-                                    class:good={pct >= 75}
-                                    class:needs-work={pct < 75}
-                                >
-                                    {attempt.score}/{attempt.total}
-                                </span>
-                                <button
-                                    class="btn-view-submission"
-                                    onclick={() =>
-                                        goto("/submission/" + attempt.id)}
-                                >
-                                    View Submission
-                                </button>
-                            </div>
-                        </div>
-                    {/each}
-                </div>
-
-                {#if attempts.length > 1}
-                    <button
-                        class="btn-see-all"
-                        onclick={() => (showAll = !showAll)}
-                        style="display: inline-flex; align-items: center; justify-content: center; gap: 0.35rem; width: 100%;"
-                    >
-                        {#if showAll}
-                            ↑ Show Less
-                        {:else}
-                            See All Exams ({attempts.length}) <ArrowRight
-                                size={13}
-                            />
-                        {/if}
-                    </button>
-                {/if}
-            </div>
+            {/if}
         {/if}
     </div>
     <!-- End Col 3 -->
 </div>
+
+{#if !loading && !error && attempts.length > 0}
+    <div
+        class="recent-activity-card glass-card slide-up"
+        style="max-width: 1400px; margin: 1.5rem auto 0 auto; padding: 1.5rem;"
+    >
+        <div
+            style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;"
+        >
+            <h3
+                style="font-size: 1rem; font-weight: 700; color: var(--cse-primary-light); text-transform: uppercase; letter-spacing: 1px; margin: 0;"
+            >
+                Recent Activity
+            </h3>
+            {#if attempts.length > 3}
+                <button
+                    class="btn-see-all-inline"
+                    onclick={() => goto("/exams")}
+                    style="display: inline-flex; align-items: center; gap: 0.35rem; background: none; border: none; color: var(--cse-primary-light); font-size: 0.85rem; font-weight: 600; cursor: pointer; font-family: var(--font-body);"
+                >
+                    See All Exams ({attempts.length}) <ArrowRight size={14} />
+                </button>
+            {/if}
+        </div>
+
+        <div
+            class="activity-list"
+            style="display: flex; flex-direction: column; gap: 0.75rem;"
+        >
+            {#each displayedAttempts as attempt}
+                {@const pct = Math.round((attempt.score / attempt.total) * 100)}
+                {@const level = getLevelLabel(attempt)}
+                <div class="activity-item">
+                    <div class="activity-info">
+                        <strong
+                            >{attempt.category === "all" ||
+                            attempt.category === ""
+                                ? "Mixed Categories"
+                                : attempt.category}</strong
+                        >
+                        <div
+                            class="activity-meta-row"
+                            style="display: flex; align-items: center; gap: 0.5rem;"
+                        >
+                            <span
+                                class="level-badge {level.cls}"
+                                style="display: inline-flex; align-items: center; gap: 0.25rem;"
+                            >
+                                {#if level.label.includes("Professional")}
+                                    <GraduationCap size={11} />
+                                {:else}
+                                    <Award size={11} />
+                                {/if}
+                                {level.label}
+                            </span>
+                            <small
+                                style="display: inline-flex; align-items: center; gap: 0.25rem; color: #7c6d8e;"
+                            >
+                                <Calendar size={11} />
+                                {formatDate(attempt.completed_at)}
+                            </small>
+                        </div>
+                        <small
+                            class="mode-label"
+                            style="display: inline-flex; align-items: center; gap: 0.25rem; margin-top: 0.25rem;"
+                        >
+                            {#if attempt.mode === "mock"}
+                                <Clock size={11} /> Mock Exam
+                            {:else}
+                                <FileText size={11} /> Practice Mode
+                            {/if}
+                        </small>
+                    </div>
+                    <div class="activity-right">
+                        <span
+                            class="score-badge"
+                            class:good={pct >= 75}
+                            class:needs-work={pct < 75}
+                        >
+                            {attempt.score}/{attempt.total}
+                        </span>
+                        <button
+                            class="btn-view-submission"
+                            onclick={() => goto("/submission/" + attempt.id)}
+                        >
+                            View Submission
+                        </button>
+                    </div>
+                </div>
+            {/each}
+        </div>
+    </div>
+{/if}
 
 <style>
     .dashboard {
@@ -617,14 +674,14 @@
 
     .activity-item {
         background: rgba(255, 255, 255, 0.02);
-        border: 1px solid rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.06);
         border-radius: 10px;
-        padding: 1rem;
+        padding: 0.85rem 1.25rem;
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
         transition: var(--cse-transition);
-        flex-direction: column;
+        flex-direction: row;
         gap: 1rem;
     }
 
@@ -637,7 +694,7 @@
     }
 
     .activity-info strong {
-        font-size: 0.85rem;
+        font-size: 0.95rem;
         color: var(--cse-text);
         white-space: nowrap;
         overflow: hidden;
@@ -686,9 +743,9 @@
     .activity-right {
         display: flex;
         align-items: center;
-        gap: 1rem;
-        width: 100%;
-        justify-content: space-between;
+        gap: 1.25rem;
+        width: auto;
+        justify-content: flex-end;
     }
 
     .score-badge {
@@ -712,13 +769,13 @@
     }
 
     .btn-view-submission {
-        background: rgba(139, 92, 246, 0.1);
-        border: 1px solid rgba(139, 92, 246, 0.25);
-        color: var(--cse-primary-light, #a78bfa);
+        background: rgba(139, 92, 246, 0.12);
+        border: 1px solid rgba(167, 139, 250, 0.3);
+        color: var(--cse-primary-light, #c4b5fd);
+        padding: 0.35rem 0.75rem;
         border-radius: 6px;
-        font-size: 0.7rem;
+        font-size: 0.75rem;
         font-weight: 700;
-        padding: 0.25rem 0.6rem;
         cursor: pointer;
         transition: all 0.2s ease;
         text-transform: uppercase;
@@ -728,9 +785,11 @@
     }
 
     .btn-view-submission:hover {
-        background: rgba(139, 92, 246, 0.22);
-        border-color: rgba(139, 92, 246, 0.5);
+        background: rgba(139, 92, 246, 0.25);
+        border-color: rgba(167, 139, 250, 0.6);
+        color: white;
         transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(124, 58, 237, 0.2);
     }
 
     .btn-see-all {
@@ -790,7 +849,136 @@
         box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
     }
 
-    @media (max-width: 600px) {
+    .modern-expand-btn {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        width: 100%;
+        margin-top: 0.75rem;
+        padding: 0.55rem 1rem;
+        background: rgba(139, 92, 246, 0.08);
+        border: 1px solid rgba(167, 139, 250, 0.2);
+        border-radius: 999px;
+        color: var(--cse-primary-light);
+        font-family: var(--font-body);
+        font-size: 0.8rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        backdrop-filter: blur(8px);
+    }
+
+    .modern-expand-btn:hover,
+    .modern-expand-btn:active {
+        background: rgba(139, 92, 246, 0.16);
+        border-color: rgba(167, 139, 250, 0.4);
+        color: white;
+        box-shadow: 0 4px 12px rgba(139, 92, 246, 0.15);
+    }
+
+    .expand-icon-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .expand-icon-pill.rotated {
+        transform: rotate(180deg);
+    }    /* Guest Lock Card for Performance & Focus Areas */
+    .guest-focus-lock {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2.5rem 1.5rem;
+        min-height: 340px;
+        height: 100%;
+        background: linear-gradient(145deg, rgba(124, 58, 237, 0.12), rgba(20, 15, 38, 0.6));
+        border: 1px solid rgba(167, 139, 250, 0.25);
+        border-radius: 14px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(12px);
+    }
+
+    .lock-icon-badge {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, rgba(167, 139, 250, 0.2), rgba(124, 58, 237, 0.1));
+        border: 1px solid rgba(167, 139, 250, 0.35);
+        color: #c4b5fd;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1rem;
+        box-shadow: 0 0 16px rgba(167, 139, 250, 0.2);
+    }
+
+    .guest-lock-title {
+        font-size: 1.1rem;
+        font-weight: 700;
+        color: white;
+        margin: 0 0 0.5rem 0;
+        font-family: var(--font-body);
+        letter-spacing: -0.3px;
+    }
+
+    .guest-lock-desc {
+        font-size: 0.85rem;
+        color: #c4b5fd;
+        line-height: 1.5;
+        margin: 0 0 1.5rem 0;
+        max-width: 300px;
+        font-family: var(--font-body);
+        opacity: 0.9;
+    }
+
+    .btn-guest-login {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.6rem;
+        padding: 0.65rem 1.35rem;
+        background: linear-gradient(135deg, var(--cse-primary), #6d28d9);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 999px;
+        color: white;
+        font-size: 0.88rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        font-family: var(--font-body);
+        box-shadow: 0 4px 16px rgba(124, 58, 237, 0.35);
+    }
+
+    .btn-guest-login:hover {
+        background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+        border-color: rgba(255, 255, 255, 0.4);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 20px rgba(124, 58, 237, 0.5);
+    }
+
+    .google-icon {
+        background: white;
+        border-radius: 50%;
+        padding: 2px;
+        box-sizing: content-box;
+    }
+
+    @media (max-width: 1024px) {
+        .modern-expand-btn {
+            display: flex;
+        }
+        .focus-area-item.mobile-hidden {
+            display: none !important;
+        }
         .dashboard-title {
             font-size: 1.2rem;
         }

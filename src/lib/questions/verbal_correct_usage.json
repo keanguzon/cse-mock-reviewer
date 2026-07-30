@@ -383,7 +383,7 @@
         "choices": [
             "An imminent scientist gave the keynote address.",
             "An eminent scientist gave the keynote address.",
-            "An eminent scientist gave the keynote address.",
+            "An emminent scientist gave the keynote address.",
             "An immanent scientist gave the keynote address."
         ],
         "correct_answer": "An eminent scientist gave the keynote address.",

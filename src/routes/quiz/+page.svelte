@@ -6,7 +6,7 @@
   import ResultScreen from '$lib/components/ResultScreen.svelte';
   import { userSession } from '$lib/userSession.svelte';
   import { supabase } from '$lib/supabaseClient';
-  import { LayoutGrid, ChevronLeft, ChevronRight, AlertTriangle, Info } from 'lucide-svelte';
+  import { LayoutGrid, ChevronLeft, ChevronRight, AlertTriangle, Info, Loader2 } from 'lucide-svelte';
 
   let { data } = $props<{
     data: {
@@ -23,6 +23,9 @@
 
   let currentCategory = $state(data?.category || '');
   let currentLevel = $state(data?.level || 'professional');
+
+  let isSavingAndClosing = $state(false);
+  let isExecutingConfirm = $state(false);
   
   let isPractice = $derived(currentMode === 'practice');
   
@@ -241,31 +244,53 @@
   }
 
   async function handleSaveAndClose() {
-    const sessionData = {
-      questions,
-      currentIndex,
-      userAnswers,
-      mode: currentMode,
-      category: currentCategory,
-      level: currentLevel,
-      pendingAnswer,
-      elapsedSeconds
-    };
-    // Always save to local cache as immediate backup
-    localStorage.setItem('cse_active_session', JSON.stringify(sessionData));
+    if (isSavingAndClosing) return;
+    isSavingAndClosing = true;
+    
+    try {
+      const sessionData = {
+        questions,
+        currentIndex,
+        userAnswers,
+        mode: currentMode,
+        category: currentCategory,
+        level: currentLevel,
+        pendingAnswer,
+        elapsedSeconds
+      };
 
-    if (userSession.user) {
-      try {
-        await supabase.from('active_sessions').upsert({
+      // Always save to local cache as immediate backup
+      localStorage.setItem('cse_active_session', JSON.stringify(sessionData));
+
+      if (userSession.user) {
+        const { error } = await supabase.from('active_sessions').upsert({
           user_id: userSession.user.id,
           session_data: sessionData,
           updated_at: new Date().toISOString()
-        });
-      } catch (e) {
-        console.error('Error saving active session to Supabase:', e);
+        }, { onConflict: 'user_id' });
+        
+        if (error) throw error;
       }
+      
+      goto('/');
+    } catch (err) {
+      console.error('Error saving active session to Supabase:', err);
+    } finally {
+      isSavingAndClosing = false;
     }
-    goto('/');
+  }
+
+  async function executeConfirmCallback() {
+    if (isExecutingConfirm) return;
+    isExecutingConfirm = true;
+    try {
+      if (onConfirmCallback) {
+        await onConfirmCallback();
+      }
+    } finally {
+      isExecutingConfirm = false;
+      showConfirmModal = false;
+    }
   }
 
   function handleTerminateSession() {
@@ -362,15 +387,35 @@
     <footer class="quiz-actions slide-up" style="animation-delay: 0.2s">
       <div class="session-buttons">
         {#if currentIndex < questions.length - 1}
-          <button class="btn-dark" onclick={handleSaveAndClose}>
-            Save and Close
+          <button
+            class="btn-dark"
+            class:btn-loading={isSavingAndClosing}
+            disabled={isSavingAndClosing}
+            onclick={handleSaveAndClose}
+            style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;"
+          >
+            {#if isSavingAndClosing}
+              <Loader2 size={14} class="spinner-icon" /> Saving...
+            {:else}
+              Save and Close
+            {/if}
           </button>
           <button class="btn-terminate hidden-mobile" onclick={handleTerminateSession}>
             Terminate Session
           </button>
         {:else}
-          <button class="btn-dark" onclick={handleSaveAndClose}>
-            Save and Close
+          <button
+            class="btn-dark"
+            class:btn-loading={isSavingAndClosing}
+            disabled={isSavingAndClosing}
+            onclick={handleSaveAndClose}
+            style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;"
+          >
+            {#if isSavingAndClosing}
+              <Loader2 size={14} class="spinner-icon" /> Saving...
+            {:else}
+              Save and Close
+            {/if}
           </button>
         {/if}
       </div>
@@ -493,8 +538,18 @@
             CANCEL
           </button>
         {/if}
-        <button class={isDangerAction ? 'btn-danger-confirm' : 'btn-primary'} onclick={() => onConfirmCallback?.()}>
-          {confirmActionText}
+        <button
+          class={isDangerAction ? 'btn-danger-confirm' : 'btn-primary'}
+          class:btn-loading={isExecutingConfirm}
+          disabled={isExecutingConfirm}
+          onclick={executeConfirmCallback}
+          style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;"
+        >
+          {#if isExecutingConfirm}
+            <Loader2 size={16} class="spinner-icon" /> Processing...
+          {:else}
+            {confirmActionText}
+          {/if}
         </button>
       </div>
     </div>

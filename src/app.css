@@ -1,5 +1,5 @@
 @import "bulma/css/bulma.min.css";
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800;900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400&display=swap');
 
 /* ============================================
    PREMIUM DESIGN SYSTEM
@@ -22,7 +22,7 @@
   --cse-transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   --cse-radius: 16px;
   --cse-radius-sm: 10px;
-  --font-display: 'Syne', sans-serif;
+  --font-display: 'DM Sans', sans-serif;
   --font-body: 'DM Sans', sans-serif;
 }
 
@@ -116,7 +116,7 @@ body::before {
 }
 
 .navbar-brand-text {
-  font-family: var(--font-display);
+  font-family: 'Syne', sans-serif;
   font-size: 1.35rem;
   font-weight: 900;
   letter-spacing: -1px;
@@ -275,6 +275,23 @@ body::before {
 }
 
 /* ---- Animations ---- */
+.spinner-icon {
+  animation: spin 0.8s linear infinite;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.btn-loading {
+  opacity: 0.85 !important;
+  cursor: wait !important;
+  pointer-events: none !important;
+}
+
 .slide-up {
   animation: slideUp 0.35s cubic-bezier(0.4, 0, 0.2, 1) both;
 }

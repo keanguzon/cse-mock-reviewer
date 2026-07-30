@@ -21,6 +21,7 @@
     ChevronRight,
     ArrowLeft,
     AlertTriangle,
+    Loader2,
   } from "lucide-svelte";
   import { guestStore } from "$lib/guestStore.svelte";
 
@@ -39,6 +40,11 @@
   let hasSavedSession = $state(false);
   let savedSessionData = $state<any>(null);
   let showDiscardModal = $state(false);
+
+  let isStartingQuiz = $state(false);
+  let isResumingSession = $state(false);
+  let isDiscarding = $state(false);
+  let isLoggingIn = $state(false);
 
   // Reset category when switching levels
   $effect(() => {
@@ -156,6 +162,8 @@
   }
 
   function startQuiz() {
+    if (isStartingQuiz) return;
+    isStartingQuiz = true;
     // Persist selections to localStorage
     if (typeof localStorage !== "undefined") {
       localStorage.setItem("cse_last_level", selectedLevel);
@@ -171,6 +179,8 @@
   }
 
   function continueSession() {
+    if (isResumingSession) return;
+    isResumingSession = true;
     goto("/quiz?continue=true");
   }
 
@@ -179,7 +189,8 @@
   }
 
   async function confirmDiscard() {
-    showDiscardModal = false;
+    if (isDiscarding) return;
+    isDiscarding = true;
     if (userSession.user) {
       try {
         await supabase
@@ -193,6 +204,8 @@
     localStorage.removeItem("cse_active_session");
     hasSavedSession = false;
     savedSessionData = null;
+    showDiscardModal = false;
+    isDiscarding = false;
   }
 
   function handleSubmit(e: Event) {
@@ -201,6 +214,8 @@
   }
 
   async function signInWithGoogle() {
+    if (isLoggingIn) return;
+    isLoggingIn = true;
     const { error } = await supabase.auth.signInWithOAuth({
       provider: "google",
       options: {
@@ -211,7 +226,10 @@
         },
       },
     });
-    if (error) console.error("Error logging in:", error.message);
+    if (error) {
+      console.error("Error logging in:", error.message);
+      isLoggingIn = false;
+    }
   }
 </script>
 
@@ -221,7 +239,7 @@
 {#snippet quizConfigForm()}
   <div id="quiz-config" style="width: 100%; position: relative; z-index: 10;">
     <h2
-      style="font-size: 1.1rem; font-weight: 700; color: white; margin-bottom: 1.5rem; letter-spacing: -0.3px; font-family: var(--font-display);"
+      style="font-size: 0.95rem; font-weight: 700; color: var(--cse-primary-light); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem; font-family: var(--font-display);"
     >
       Configure Your Session
     </h2>
@@ -364,7 +382,7 @@
         <label class="label" for="category-select">Category</label>
         <div class="select is-fullwidth">
           <select id="category-select" bind:value={selectedCategory}>
-            <option value="">All Categories (Mixed)</option>
+            <option value="">Mixed Categories</option>
             {#each availableCategories as cat}
               <option value={cat}>{cat}</option>
             {/each}
@@ -404,9 +422,15 @@
       <button
         type="submit"
         class="btn-primary"
-        style="width: 100%; font-size: 1rem; padding: 1rem; letter-spacing: 1px; text-transform: uppercase;"
+        class:btn-loading={isStartingQuiz}
+        disabled={isStartingQuiz}
+        style="width: 100%; font-size: 1rem; padding: 1rem; letter-spacing: 1px; text-transform: uppercase; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;"
       >
-        Start Review Session →
+        {#if isStartingQuiz}
+          <Loader2 size={20} class="spinner-icon" /> Starting Session...
+        {:else}
+          Start Review Session →
+        {/if}
       </button>
     </form>
   </div>
@@ -508,10 +532,16 @@
             >
               <button
                 class="btn-primary"
+                class:btn-loading={isResumingSession}
+                disabled={isResumingSession}
                 onclick={continueSession}
-                style="padding: 0.75rem 1.5rem; font-size: 0.9rem; text-align: center;"
+                style="padding: 0.75rem 1.5rem; font-size: 0.9rem; text-align: center; display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;"
               >
-                Resume Session →
+                {#if isResumingSession}
+                  <Loader2 size={18} class="spinner-icon" /> Resuming...
+                {:else}
+                  Resume Session →
+                {/if}
               </button>
               <button
                 class="btn-ghost"
@@ -555,6 +585,7 @@
               <button
                 type="button"
                 class="btn-ghost"
+                disabled={isDiscarding}
                 onclick={() => (showDiscardModal = false)}
               >
                 CANCEL
@@ -562,9 +593,16 @@
               <button
                 type="button"
                 class="btn-danger-confirm"
+                class:btn-loading={isDiscarding}
+                disabled={isDiscarding}
                 onclick={confirmDiscard}
+                style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;"
               >
-                YES, DISCARD
+                {#if isDiscarding}
+                  <Loader2 size={16} class="spinner-icon" /> Discarding...
+                {:else}
+                  YES, DISCARD
+                {/if}
               </button>
             </div>
           </div>
@@ -809,7 +847,7 @@
   .hero-title {
     display: flex;
     flex-direction: column;
-    font-family: var(--font-display);
+    font-family: 'Syne', sans-serif;
     font-size: clamp(3rem, 6vw, 5.5rem);
     font-weight: 900;
     line-height: 0.95;
@@ -878,7 +916,7 @@
   }
 
   .hero-stat-num {
-    font-family: var(--font-display);
+    font-family: 'Syne', sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
     color: white;
@@ -1186,7 +1224,7 @@
   }
 
   .pq-text {
-    font-family: var(--font-display);
+    font-family: 'Syne', sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
     color: white;
