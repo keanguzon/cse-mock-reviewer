@@ -97,10 +97,19 @@
   .q-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
     margin-bottom: 1.5rem;
     border-bottom: 1px solid var(--cse-border);
     padding-bottom: 1rem;
+  }
+
+  @media (max-width: 600px) {
+    .q-header {
+      flex-direction: column;
+      gap: 0.75rem;
+    }
   }
 
   .page-number {
