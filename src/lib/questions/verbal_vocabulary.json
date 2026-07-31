@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "19001",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word that is most nearly the same in meaning as the underlined word: The manager gave a <u>Cursory</u> review of the proposal before the meeting.",
     "choices": [
@@ -13,7 +13,7 @@
     "explanation": "'Cursory' means done rapidly without attention to detail. 'Hasty' is the closest synonym, implying a quick and superficial action."
   },
   {
-    "id": "2",
+    "id": "19002",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Benevolent</u>.",
     "choices": [
@@ -26,7 +26,7 @@
     "explanation": "'Benevolent' means well-meaning and kindly. 'Malevolent' means having or showing a wish to do evil to others — a direct antonym."
   },
   {
-    "id": "3",
+    "id": "19003",
     "category": "Verbal Ability – Vocabulary",
     "question": "The word <u>Ubiquitous</u> most nearly means:",
     "choices": [
@@ -39,7 +39,7 @@
     "explanation": "'Ubiquitous' means found everywhere or very common. It comes from the Latin 'ubique,' meaning 'everywhere.'"
   },
   {
-    "id": "4",
+    "id": "19004",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Pragmatic</u>.",
     "choices": [
@@ -52,7 +52,7 @@
     "explanation": "'Pragmatic' means dealing with things sensibly and realistically, making 'practical' the closest synonym."
   },
   {
-    "id": "5",
+    "id": "19005",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Verbose</u>.",
     "choices": [
@@ -65,7 +65,7 @@
     "explanation": "'Verbose' means using more words than needed. 'Concise' means giving a lot of information clearly in few words — the direct antonym."
   },
   {
-    "id": "6",
+    "id": "19006",
     "category": "Verbal Ability – Vocabulary",
     "question": "The word <u>Meticulous</u> most nearly means:",
     "choices": [
@@ -78,7 +78,7 @@
     "explanation": "'Meticulous' describes someone who is very careful and precise, paying close attention to every detail."
   },
   {
-    "id": "7",
+    "id": "19007",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Candid</u>.",
     "choices": [
@@ -91,7 +91,7 @@
     "explanation": "'Candid' means truthful and straightforward. 'Frank' carries the same meaning of open honesty in expression."
   },
   {
-    "id": "8",
+    "id": "19008",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Lethargic</u>.",
     "choices": [
@@ -104,7 +104,7 @@
     "explanation": "'Lethargic' means affected by lethargy — a lack of energy and enthusiasm. 'Energetic' is its opposite."
   },
   {
-    "id": "9",
+    "id": "19009",
     "category": "Verbal Ability – Vocabulary",
     "question": "The word <u>Ambiguous</u> most nearly means:",
     "choices": [
@@ -117,7 +117,7 @@
     "explanation": "'Ambiguous' means having a double meaning or being unclear, allowing for multiple interpretations."
   },
   {
-    "id": "10",
+    "id": "19010",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Diligent</u>.",
     "choices": [
@@ -130,7 +130,7 @@
     "explanation": "'Diligent' means having or showing care and effort in one's work. 'Industrious' shares this meaning of being hardworking."
   },
   {
-    "id": "11",
+    "id": "19011",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Alleviate</u>.",
     "choices": [
@@ -143,7 +143,7 @@
     "explanation": "'Alleviate' means to make suffering or a problem less severe. 'Relieve' is the closest synonym."
   },
   {
-    "id": "12",
+    "id": "19012",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Lucid</u>.",
     "choices": [
@@ -156,7 +156,7 @@
     "explanation": "'Lucid' means expressed clearly or easy to understand. 'Confusing' is its antonym."
   },
   {
-    "id": "13",
+    "id": "19013",
     "category": "Verbal Ability – Vocabulary",
     "question": "The word <u>Tenacious</u> most nearly means:",
     "choices": [
@@ -169,7 +169,7 @@
     "explanation": "'Tenacious' means holding firmly to something — not readily letting go. 'Persistent' captures this meaning of determined continuation."
   },
   {
-    "id": "14",
+    "id": "19014",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Prudent</u>.",
     "choices": [
@@ -182,7 +182,7 @@
     "explanation": "'Prudent' means acting with or showing care and thought for the future. 'Cautious' is the closest synonym."
   },
   {
-    "id": "15",
+    "id": "19015",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Abundant</u>.",
     "choices": [
@@ -195,7 +195,7 @@
     "explanation": "'Abundant' means existing or available in large quantities. 'Scarce' means insufficient for the demand — its direct antonym."
   },
   {
-    "id": "16",
+    "id": "19016",
     "category": "Verbal Ability – Vocabulary",
     "question": "The word <u>Clandestine</u> most nearly means:",
     "choices": [
@@ -208,7 +208,7 @@
     "explanation": "'Clandestine' means kept secret or done secretively, especially because illicit. 'Secret' is the closest synonym."
   },
   {
-    "id": "17",
+    "id": "19017",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Resilient</u>.",
     "choices": [
@@ -221,7 +221,7 @@
     "explanation": "'Resilient' means able to withstand or recover quickly from difficult conditions. 'Tough' captures this quality of durability."
   },
   {
-    "id": "18",
+    "id": "19018",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Frivolous</u>.",
     "choices": [
@@ -234,7 +234,7 @@
     "explanation": "'Frivolous' means not having any serious purpose or value. 'Serious' is its direct antonym."
   },
   {
-    "id": "19",
+    "id": "19019",
     "category": "Verbal Ability – Vocabulary",
     "question": "The word <u>Incessant</u> most nearly means:",
     "choices": [
@@ -247,7 +247,7 @@
     "explanation": "'Incessant' means continuing without pause or interruption. 'Continuous' is the closest synonym."
   },
   {
-    "id": "20",
+    "id": "19020",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Astute</u>.",
     "choices": [
@@ -260,7 +260,7 @@
     "explanation": "'Astute' means having an ability to accurately assess situations or people and turn this to one's advantage. 'Shrewd' shares this meaning of keen intelligence."
   },
   {
-    "id": "21",
+    "id": "19021",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Ameliorate</u>.",
     "choices": [
@@ -273,7 +273,7 @@
     "explanation": "'Ameliorate' means to make something bad or unsatisfactory better. 'Improve' is its direct synonym."
   },
   {
-    "id": "22",
+    "id": "19022",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Mitigate</u>.",
     "choices": [
@@ -286,7 +286,7 @@
     "explanation": "'Mitigate' means to make less severe, serious, or painful. 'Aggravate' means to make a problem or injury worse, making it the direct antonym."
   },
   {
-    "id": "23",
+    "id": "19023",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Exacerbate</u>.",
     "choices": [
@@ -299,7 +299,7 @@
     "explanation": "'Exacerbate' means to make a problem, bad situation, or negative feeling worse."
   },
   {
-    "id": "24",
+    "id": "19024",
     "category": "Verbal Ability – Vocabulary",
     "question": "The word <u>Juxtapose</u> most nearly means:",
     "choices": [
@@ -312,7 +312,7 @@
     "explanation": "'Juxtapose' means to place two or more things close together or side-by-side for comparison or contrast."
   },
   {
-    "id": "25",
+    "id": "19025",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Obfuscate</u>.",
     "choices": [
@@ -325,7 +325,7 @@
     "explanation": "'Obfuscate' means to render obscure, unclear, or unintelligible. 'Clarify' is its direct antonym."
   },
   {
-    "id": "26",
+    "id": "19026",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Paradigm</u>.",
     "choices": [
@@ -338,7 +338,7 @@
     "explanation": "A 'paradigm' is a typical example or pattern of something; a archetype or model."
   },
   {
-    "id": "27",
+    "id": "19027",
     "category": "Verbal Ability – Vocabulary",
     "question": "The word <u>Quintessential</u> most nearly means:",
     "choices": [
@@ -351,7 +351,7 @@
     "explanation": "'Quintessential' representing the most perfect or typical example of a quality or class."
   },
   {
-    "id": "28",
+    "id": "19028",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Relinquish</u>.",
     "choices": [
@@ -364,7 +364,7 @@
     "explanation": "'Relinquish' means to voluntarily cease to keep or claim; to give up or surrender."
   },
   {
-    "id": "29",
+    "id": "19029",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Adversity</u>.",
     "choices": [
@@ -377,7 +377,7 @@
     "explanation": "'Adversity' refers to difficult situations or misfortunes. 'Prosperity' (success and good fortune) is its antonym."
   },
   {
-    "id": "30",
+    "id": "19030",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Benign</u>.",
     "choices": [
@@ -390,7 +390,7 @@
     "explanation": "'Benign' means gentle and kindly, or not harmful in effect. 'Malignant' means harmful or malevolent."
   },
   {
-    "id": "31",
+    "id": "19031",
     "category": "Verbal Ability – Vocabulary",
     "question": "The word <u>Complacent</u> most nearly means:",
     "choices": [
@@ -403,7 +403,7 @@
     "explanation": "'Complacent' means showing smug or uncritical satisfaction with oneself or one's achievements."
   },
   {
-    "id": "32",
+    "id": "19032",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Disparate</u>.",
     "choices": [
@@ -416,7 +416,7 @@
     "explanation": "'Disparate' means essentially different in kind; not allowing comparison. 'Similar' is its opposite."
   },
   {
-    "id": "33",
+    "id": "19033",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Equanimity</u>.",
     "choices": [
@@ -429,7 +429,7 @@
     "explanation": "'Equanimity' means mental calmness, composure, and evenness of temper, especially in a difficult situation."
   },
   {
-    "id": "34",
+    "id": "19034",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Fastidious</u>.",
     "choices": [
@@ -442,7 +442,7 @@
     "explanation": "'Fastidious' means very attentive to and concerned about accuracy and detail."
   },
   {
-    "id": "35",
+    "id": "19035",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Gregarious</u>.",
     "choices": [
@@ -455,7 +455,7 @@
     "explanation": "'Gregarious' describes a person fond of company or sociable. 'Reclusive' (avoiding the company of other people) is its antonym."
   },
   {
-    "id": "36",
+    "id": "19036",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Impetuous</u>.",
     "choices": [
@@ -468,7 +468,7 @@
     "explanation": "'Impetuous' means acting or done quickly and without thought or care."
   },
   {
-    "id": "37",
+    "id": "19037",
     "category": "Verbal Ability – Vocabulary",
     "question": "The word <u>Lucrative</u> most nearly means:",
     "choices": [
@@ -481,7 +481,7 @@
     "explanation": "'Lucrative' means producing a great deal of profit."
   },
   {
-    "id": "38",
+    "id": "19038",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Munificent</u>.",
     "choices": [
@@ -494,7 +494,7 @@
     "explanation": "'Munificent' means larger or more generous than is usual or necessary."
   },
   {
-    "id": "39",
+    "id": "19039",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Nefarious</u>.",
     "choices": [
@@ -507,7 +507,7 @@
     "explanation": "'Nefarious' means wicked or criminal. 'Honorable' is its direct antonym."
   },
   {
-    "id": "40",
+    "id": "19040",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Opulent</u>.",
     "choices": [
@@ -520,7 +520,7 @@
     "explanation": "'Opulent' means ostentatiously rich and luxurious or lavish."
   },
   {
-    "id": "41",
+    "id": "19041",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Pragmatism</u>.",
     "choices": [
@@ -533,7 +533,7 @@
     "explanation": "'Pragmatism' focuses on practical considerations. 'Idealism' focuses on pursuit of ideals, making it the opposite."
   },
   {
-    "id": "42",
+    "id": "19042",
     "category": "Verbal Ability – Vocabulary",
     "question": "The word <u>Recluse</u> most nearly means:",
     "choices": [
@@ -546,7 +546,7 @@
     "explanation": "A 'recluse' is a person who lives a solitary life and tends to avoid other people; a hermit."
   },
   {
-    "id": "43",
+    "id": "19043",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Surreptitious</u>.",
     "choices": [
@@ -559,7 +559,7 @@
     "explanation": "'Surreptitious' means kept secret, especially because it would not be approved of."
   },
   {
-    "id": "44",
+    "id": "19044",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Transient</u>.",
     "choices": [
@@ -572,7 +572,7 @@
     "explanation": "'Transient' means lasting only for a short time. 'Permanent' is its direct antonym."
   },
   {
-    "id": "45",
+    "id": "19045",
     "category": "Verbal Ability – Vocabulary",
     "question": "The word <u>Unanimous</u> most nearly means:",
     "choices": [
@@ -585,7 +585,7 @@
     "explanation": "'Unanimous' means held or carried by the agreement of all people involved."
   },
   {
-    "id": "46",
+    "id": "19046",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Vociferous</u>.",
     "choices": [
@@ -598,7 +598,7 @@
     "explanation": "'Vociferous' means expressing opinions or feelings in a loud and forceful manner."
   },
   {
-    "id": "47",
+    "id": "19047",
     "category": "Verbal Ability – Vocabulary",
     "question": "Choose the word most similar in meaning to <u>Zealous</u>.",
     "choices": [
@@ -611,7 +611,7 @@
     "explanation": "'Zealous' means having or showing zeal; passionate and fervent in supporting a cause."
   },
   {
-    "id": "48",
+    "id": "19048",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Affluent</u>.",
     "choices": [
@@ -624,7 +624,7 @@
     "explanation": "'Affluent' means having a great deal of money; wealthy. 'Impoverished' means poor."
   },
   {
-    "id": "49",
+    "id": "19049",
     "category": "Verbal Ability – Vocabulary",
     "question": "The word <u>Cognizant</u> most nearly means:",
     "choices": [
@@ -637,7 +637,7 @@
     "explanation": "'Cognizant' means having knowledge or being aware of something."
   },
   {
-    "id": "50",
+    "id": "19050",
     "category": "Verbal Ability – Vocabulary",
     "question": "Select the word most opposite in meaning to <u>Diligent</u>.",
     "choices": [
@@ -648,5 +648,655 @@
     ],
     "correct_answer": "Slothful",
     "explanation": "'Diligent' means showing care and effort in work. 'Slothful' (lazy) is its antonym."
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly opposite in meaning to the underlined word:\n\nThe mayor's OBSCURE statements during the press conference left the reporters confused.",
+    "choices": [
+      "Complicated",
+      "Vague",
+      "Clear",
+      "Hidden"
+    ],
+    "correct_answer": "Clear",
+    "explanation": "'Obscure' means unclear or hard to understand. The opposite is 'Clear'.",
+    "id": "19051"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly SIMILAR in meaning to the capitalized word:\n\nThe new employee's DILIGENT approach to the project impressed the manager.",
+    "choices": [
+      "Industrious",
+      "Careless",
+      "Lazy",
+      "Apathetic"
+    ],
+    "correct_answer": "Industrious",
+    "explanation": "'Diligent' means showing care and conscientiousness in one's work. 'Industrious' means hard-working, which is the closest synonym.",
+    "id": "19052"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Select the correct meaning of the underlined word in context:\n\nHer speech was so ELOQUENT that the entire auditorium was moved to tears.",
+    "choices": [
+      "Boring and lengthy",
+      "Loud and aggressive",
+      "Fluent and persuasive",
+      "Confusing and erratic"
+    ],
+    "correct_answer": "Fluent and persuasive",
+    "explanation": "'Eloquent' means fluent or persuasive in speaking or writing.",
+    "id": "19053"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly opposite in meaning to the capitalized word:\n\nThe company experienced a PROLIFIC year, releasing over a dozen new software products.",
+    "choices": [
+      "Barren",
+      "Abundant",
+      "Productive",
+      "Fertile"
+    ],
+    "correct_answer": "Barren",
+    "explanation": "'Prolific' means producing much fruit or foliage or many works. The antonym is 'Barren', meaning unproductive or unfruitful.",
+    "id": "19054"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Which of the following is a synonym of INEVITABLE?",
+    "choices": [
+      "Avoidable",
+      "Unlikely",
+      "Uncertain",
+      "Unavoidable"
+    ],
+    "correct_answer": "Unavoidable",
+    "explanation": "'Inevitable' means certain to happen; unavoidable.",
+    "id": "19055"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly opposite in meaning to the underlined word:\n\nThe judge noted the MITIGATING circumstances surrounding the crime.",
+    "choices": [
+      "Alleviating",
+      "Relieving",
+      "Soothing",
+      "Aggravating"
+    ],
+    "correct_answer": "Aggravating",
+    "explanation": "'Mitigating' means making something less severe, harmful, or painful. The opposite is 'Aggravating', which means making a problem worse.",
+    "id": "19056"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly SIMILAR in meaning to the capitalized word:\n\nThe manager praised Juan for his METICULOUS attention to the financial records.",
+    "choices": [
+      "Careless",
+      "Thorough",
+      "Fast",
+      "Sloppy"
+    ],
+    "correct_answer": "Thorough",
+    "explanation": "'Meticulous' means showing great attention to detail; very careful and precise. 'Thorough' is the best synonym.",
+    "id": "19057"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Select the correct meaning of the underlined word in context:\n\nThe team's morale was high after a series of LUCRATIVE business deals.",
+    "choices": [
+      "Producing a great deal of profit",
+      "Requiring intense physical labor",
+      "Involving illegal activities",
+      "Causing significant financial loss"
+    ],
+    "correct_answer": "Producing a great deal of profit",
+    "explanation": "'Lucrative' means producing a great deal of profit or wealth.",
+    "id": "19058"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Which of the following is an antonym of CANDID?",
+    "choices": [
+      "Straightforward",
+      "Honest",
+      "Deceitful",
+      "Frank"
+    ],
+    "correct_answer": "Deceitful",
+    "explanation": "'Candid' means truthful and straightforward. The opposite is 'Deceitful' or dishonest.",
+    "id": "19059"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly SIMILAR in meaning to the capitalized word:\n\nThe artist's work is considered truly UNIQUE in the modern art scene.",
+    "choices": [
+      "Frequent",
+      "Ordinary",
+      "Common",
+      "Unparalleled"
+    ],
+    "correct_answer": "Unparalleled",
+    "explanation": "'Unique' means being the only one of its kind; unlike anything else. 'Unparalleled' is the closest synonym.",
+    "id": "19060"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Select the correct meaning of the underlined word in context:\n\nThe supervisor was known for being ASTUTE in reading the market trends.",
+    "choices": [
+      "Slow and unobservant",
+      "Loud and obnoxious",
+      "Lazy and indifferent",
+      "Sharp and shrewd"
+    ],
+    "correct_answer": "Sharp and shrewd",
+    "explanation": "'Astute' means having or showing an ability to accurately assess situations or people and turn this to one's advantage; shrewd.",
+    "id": "19061"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly opposite in meaning to the capitalized word:\n\nThe local government implemented a TRANSIENT solution to the flooding problem.",
+    "choices": [
+      "Brief",
+      "Temporary",
+      "Fleeting",
+      "Permanent"
+    ],
+    "correct_answer": "Permanent",
+    "explanation": "'Transient' means lasting only for a short time; impermanent. The opposite is 'Permanent'.",
+    "id": "19062"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Which of the following is a synonym of CONCUR?",
+    "choices": [
+      "Agree",
+      "Reject",
+      "Disagree",
+      "Argue"
+    ],
+    "correct_answer": "Agree",
+    "explanation": "'Concur' means to be of the same opinion; to agree.",
+    "id": "19063"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly SIMILAR in meaning to the underlined word:\n\nHer EXPLICIT instructions left no room for misinterpretation.",
+    "choices": [
+      "Confusing",
+      "Ambiguous",
+      "Vague",
+      "Definite"
+    ],
+    "correct_answer": "Definite",
+    "explanation": "'Explicit' means stated clearly and in detail, leaving no room for confusion. 'Definite' is the closest meaning.",
+    "id": "19064"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Select the correct meaning of the capitalized word in context:\n\nThe dictator was ousted because of his TYRANNICAL rule.",
+    "choices": [
+      "Democratic and fair",
+      "Generous and kind",
+      "Oppressive and controlling",
+      "Weak and ineffective"
+    ],
+    "correct_answer": "Oppressive and controlling",
+    "explanation": "'Tyrannical' refers to exercising power in a cruel or arbitrary way; oppressive.",
+    "id": "19065"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly opposite in meaning to the underlined word:\n\nThe budget deficit was exacerbated by the FRIVOLOUS spending of the previous administration.",
+    "choices": [
+      "Prudent",
+      "Extravagant",
+      "Silly",
+      "Careless"
+    ],
+    "correct_answer": "Prudent",
+    "explanation": "'Frivolous' means not having any serious purpose or value; careless with money. The opposite is 'Prudent', meaning acting with or showing care for the future.",
+    "id": "19066"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Which of the following is an antonym of VIGILANT?",
+    "choices": [
+      "Watchful",
+      "Alert",
+      "Observant",
+      "Careless"
+    ],
+    "correct_answer": "Careless",
+    "explanation": "'Vigilant' means keeping careful watch for possible danger or difficulties. The opposite is 'Careless' or inattentive.",
+    "id": "19067"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly SIMILAR in meaning to the capitalized word:\n\nThe applicant gave a CONCISE answer to the interviewer's complex question.",
+    "choices": [
+      "Wordy",
+      "Lengthy",
+      "Rambling",
+      "Brief"
+    ],
+    "correct_answer": "Brief",
+    "explanation": "'Concise' means giving a lot of information clearly and in a few words; brief but comprehensive.",
+    "id": "19068"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Select the correct meaning of the underlined word in context:\n\nAfter hours of debate, the committee reached a CONSENSUS on the new policy.",
+    "choices": [
+      "A legal dispute",
+      "A temporary pause",
+      "A general agreement",
+      "A fierce disagreement"
+    ],
+    "correct_answer": "A general agreement",
+    "explanation": "'Consensus' means a general agreement among a group of people.",
+    "id": "19069"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly opposite in meaning to the capitalized word:\n\nThe old building is now OBSOLETE and scheduled for demolition.",
+    "choices": [
+      "Outdated",
+      "Ancient",
+      "Antiquated",
+      "Contemporary"
+    ],
+    "correct_answer": "Contemporary",
+    "explanation": "'Obsolete' means no longer produced or used; out of date. The antonym is 'Contemporary' or modern.",
+    "id": "19070"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Which of the following is a synonym of ABOLISH?",
+    "choices": [
+      "Establish",
+      "Create",
+      "Eliminate",
+      "Build"
+    ],
+    "correct_answer": "Eliminate",
+    "explanation": "'Abolish' means to formally put an end to a system, practice, or institution. 'Eliminate' is the closest synonym.",
+    "id": "19071"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly SIMILAR in meaning to the underlined word:\n\nThe typhoon caused SUBSTANTIAL damage to the coastal towns.",
+    "choices": [
+      "Insignificant",
+      "Considerable",
+      "Minor",
+      "Trivial"
+    ],
+    "correct_answer": "Considerable",
+    "explanation": "'Substantial' means of considerable importance, size, or worth. 'Considerable' is the best synonym.",
+    "id": "19072"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Select the correct meaning of the capitalized word in context:\n\nThe sudden increase in taxes provoked the IRE of the local business owners.",
+    "choices": [
+      "Indifference",
+      "Approval",
+      "Anger",
+      "Joy"
+    ],
+    "correct_answer": "Anger",
+    "explanation": "'Ire' means intense anger.",
+    "id": "19073"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly opposite in meaning to the underlined word:\n\nThe politician's promises proved to be completely SPURIOUS.",
+    "choices": [
+      "Fake",
+      "Genuine",
+      "Deceptive",
+      "False"
+    ],
+    "correct_answer": "Genuine",
+    "explanation": "'Spurious' means not being what it purports to be; false or fake. The opposite is 'Genuine'.",
+    "id": "19074"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Which of the following is an antonym of PLENTIFUL?",
+    "choices": [
+      "Ample",
+      "Scarce",
+      "Abundant",
+      "Copious"
+    ],
+    "correct_answer": "Scarce",
+    "explanation": "'Plentiful' means existing in or yielding great quantities; abundant. The opposite is 'Scarce'.",
+    "id": "19075"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly SIMILAR in meaning to the capitalized word:\n\nThe supervisor was known for his PRAGMATIC approach to solving factory problems.",
+    "choices": [
+      "Emotional",
+      "Idealistic",
+      "Practical",
+      "Theoretical"
+    ],
+    "correct_answer": "Practical",
+    "explanation": "'Pragmatic' means dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations.",
+    "id": "19076"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Select the correct meaning of the underlined word in context:\n\nHer constant complaining began to VEX her coworkers.",
+    "choices": [
+      "Support",
+      "Amuse",
+      "Encourage",
+      "Annoy"
+    ],
+    "correct_answer": "Annoy",
+    "explanation": "'Vex' means to make someone feel annoyed, frustrated, or worried.",
+    "id": "19077"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly opposite in meaning to the capitalized word:\n\nThe economy experienced a period of STAGNATION.",
+    "choices": [
+      "Decline",
+      "Growth",
+      "Sluggishness",
+      "Inactivity"
+    ],
+    "correct_answer": "Growth",
+    "explanation": "'Stagnation' means a lack of activity, growth, or development. The opposite is 'Growth'.",
+    "id": "19078"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Which of the following is a synonym of INNOCUOUS?",
+    "choices": [
+      "Dangerous",
+      "Harmless",
+      "Harmful",
+      "Toxic"
+    ],
+    "correct_answer": "Harmless",
+    "explanation": "'Innocuous' means not harmful or offensive.",
+    "id": "19079"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly SIMILAR in meaning to the underlined word:\n\nThe scientist presented COGENT arguments for the new energy policy.",
+    "choices": [
+      "Weak",
+      "Confusing",
+      "Convincing",
+      "Illogical"
+    ],
+    "correct_answer": "Convincing",
+    "explanation": "'Cogent' means (of an argument or case) clear, logical, and convincing.",
+    "id": "19080"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Select the correct meaning of the capitalized word in context:\n\nThe mayor tried to APPEASE the angry protesters by agreeing to a dialogue.",
+    "choices": [
+      "Insult",
+      "Pacify",
+      "Ignore",
+      "Provoke"
+    ],
+    "correct_answer": "Pacify",
+    "explanation": "'Appease' means to pacify or placate someone by acceding to their demands.",
+    "id": "19081"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly opposite in meaning to the underlined word:\n\nThe rules of the competition are very RIGID.",
+    "choices": [
+      "Strict",
+      "Flexible",
+      "Harsh",
+      "Firm"
+    ],
+    "correct_answer": "Flexible",
+    "explanation": "'Rigid' means unable to bend or be forced out of shape; not adaptable. The opposite is 'Flexible'.",
+    "id": "19082"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Which of the following is an antonym of MELANCHOLY?",
+    "choices": [
+      "Joy",
+      "Sadness",
+      "Sorrow",
+      "Despair"
+    ],
+    "correct_answer": "Joy",
+    "explanation": "'Melancholy' refers to a feeling of pensive sadness. The opposite is 'Joy' or happiness.",
+    "id": "19083"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly SIMILAR in meaning to the capitalized word:\n\nThe new employee has a very AMIABLE personality.",
+    "choices": [
+      "Hostile",
+      "Rude",
+      "Friendly",
+      "Aggressive"
+    ],
+    "correct_answer": "Friendly",
+    "explanation": "'Amiable' means having or displaying a friendly and pleasant manner.",
+    "id": "19084"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Select the correct meaning of the underlined word in context:\n\nHis decision to quit his stable job was completely RASH.",
+    "choices": [
+      "Logical",
+      "Hasty and reckless",
+      "Calculated",
+      "Well-thought-out"
+    ],
+    "correct_answer": "Hasty and reckless",
+    "explanation": "'Rash' means displaying or proceeding from a lack of careful consideration of the possible consequences of an action.",
+    "id": "19085"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly opposite in meaning to the capitalized word:\n\nThe artist is known for his ECCENTRIC behavior.",
+    "choices": [
+      "Strange",
+      "Peculiar",
+      "Bizarre",
+      "Conventional"
+    ],
+    "correct_answer": "Conventional",
+    "explanation": "'Eccentric' means unconventional and slightly strange. The antonym is 'Conventional' or normal.",
+    "id": "19086"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Which of the following is a synonym of ELUCIDATE?",
+    "choices": [
+      "Obscure",
+      "Clarify",
+      "Complicate",
+      "Confuse"
+    ],
+    "correct_answer": "Clarify",
+    "explanation": "'Elucidate' means to make something clear; to explain or clarify.",
+    "id": "19087"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly SIMILAR in meaning to the underlined word:\n\nThe evidence presented in court was CORROBORATED by two witnesses.",
+    "choices": [
+      "Rejected",
+      "Confirmed",
+      "Contradicted",
+      "Denied"
+    ],
+    "correct_answer": "Confirmed",
+    "explanation": "'Corroborate' means to confirm or give support to a statement, theory, or finding.",
+    "id": "19088"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Select the correct meaning of the capitalized word in context:\n\nThe drought had a DELETERIOUS effect on the local agriculture.",
+    "choices": [
+      "Insignificant",
+      "Helpful",
+      "Harmful",
+      "Beneficial"
+    ],
+    "correct_answer": "Harmful",
+    "explanation": "'Deleterious' means causing harm or damage.",
+    "id": "19089"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly opposite in meaning to the underlined word:\n\nThe company is looking for a VERSATILE employee.",
+    "choices": [
+      "Resourceful",
+      "Flexible",
+      "Adaptable",
+      "Limited"
+    ],
+    "correct_answer": "Limited",
+    "explanation": "'Versatile' means able to adapt or be adapted to many different functions or activities. The opposite is 'Limited' or inflexible.",
+    "id": "19090"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Which of the following is an antonym of NOVICE?",
+    "choices": [
+      "Expert",
+      "Beginner",
+      "Learner",
+      "Amateur"
+    ],
+    "correct_answer": "Expert",
+    "explanation": "'Novice' refers to a person new to or inexperienced in a field or situation. The opposite is an 'Expert' or veteran.",
+    "id": "19091"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly SIMILAR in meaning to the capitalized word:\n\nThe detective found a CLANDESTINE meeting place in the basement.",
+    "choices": [
+      "Public",
+      "Known",
+      "Open",
+      "Secret"
+    ],
+    "correct_answer": "Secret",
+    "explanation": "'Clandestine' means kept secret or done secretively, especially because illicit.",
+    "id": "19092"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Select the correct meaning of the underlined word in context:\n\nHer APATHY towards the project was evident in her lack of participation.",
+    "choices": [
+      "Passion",
+      "Indifference",
+      "Enthusiasm",
+      "Dedication"
+    ],
+    "correct_answer": "Indifference",
+    "explanation": "'Apathy' means a lack of interest, enthusiasm, or concern; indifference.",
+    "id": "19093"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly opposite in meaning to the capitalized word:\n\nThe judge gave a LENIENT sentence due to the offender's age.",
+    "choices": [
+      "Forgiving",
+      "Severe",
+      "Mild",
+      "Merciful"
+    ],
+    "correct_answer": "Severe",
+    "explanation": "'Lenient' means more merciful or tolerant than expected. The antonym is 'Severe' or strict.",
+    "id": "19094"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Which of the following is a synonym of RETALIATE?",
+    "choices": [
+      "Forgive",
+      "Revenge",
+      "Ignore",
+      "Pardon"
+    ],
+    "correct_answer": "Revenge",
+    "explanation": "'Retaliate' means to make an attack or assault in return for a similar attack; to take revenge.",
+    "id": "19095"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly SIMILAR in meaning to the underlined word:\n\nThe document was completely FABRICATED to mislead the public.",
+    "choices": [
+      "Original",
+      "Invented",
+      "Authentic",
+      "Genuine"
+    ],
+    "correct_answer": "Invented",
+    "explanation": "'Fabricate' means to invent or concoct something, typically with deceitful intent.",
+    "id": "19096"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Select the correct meaning of the capitalized word in context:\n\nThe speaker's speech was full of REDUNDANT phrases.",
+    "choices": [
+      "Concise",
+      "Essential",
+      "Repetitive",
+      "Meaningful"
+    ],
+    "correct_answer": "Repetitive",
+    "explanation": "'Redundant' means not or no longer needed or useful; superfluous; repetitive.",
+    "id": "19097"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly opposite in meaning to the underlined word:\n\nThe community has a very HOMOGENEOUS population.",
+    "choices": [
+      "Identical",
+      "Uniform",
+      "Diverse",
+      "Similar"
+    ],
+    "correct_answer": "Diverse",
+    "explanation": "'Homogeneous' means of the same kind; alike. The opposite is 'Diverse' or heterogeneous.",
+    "id": "19098"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Which of the following is an antonym of OBLIGATORY?",
+    "choices": [
+      "Optional",
+      "Compulsory",
+      "Mandatory",
+      "Required"
+    ],
+    "correct_answer": "Optional",
+    "explanation": "'Obligatory' means required by a legal, moral, or other rule; compulsory. The opposite is 'Optional'.",
+    "id": "19099"
+  },
+  {
+    "category": "Verbal Ability – Vocabulary",
+    "question": "Choose the word that is most nearly SIMILAR in meaning to the capitalized word:\n\nThe instructions provided in the manual were extremely LUCID.",
+    "choices": [
+      "Clear",
+      "Vague",
+      "Obscure",
+      "Confusing"
+    ],
+    "correct_answer": "Clear",
+    "explanation": "'Lucid' means expressed clearly; easy to understand.",
+    "id": "19100"
   }
 ]

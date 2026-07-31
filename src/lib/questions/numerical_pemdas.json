@@ -1,6 +1,6 @@
 [
   {
-    "id": "393",
+    "id": "12001",
     "question": "Evaluate: 8 + 2 × 5",
     "choices": [
       "18",
@@ -13,7 +13,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "394",
+    "id": "12002",
     "question": "Evaluate: (6 + 4) × 3 - 2",
     "choices": [
       "28",
@@ -26,7 +26,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "395",
+    "id": "12003",
     "question": "Evaluate: 36 ÷ 6 + 2 × 4",
     "choices": [
       "14",
@@ -39,7 +39,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "396",
+    "id": "12004",
     "question": "Evaluate: 5 × (8 - 3) + 12 ÷ 4",
     "choices": [
       "28",
@@ -52,7 +52,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "397",
+    "id": "12005",
     "question": "Evaluate: 48 ÷ (4 + 4) × 2",
     "choices": [
       "12",
@@ -65,7 +65,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "398",
+    "id": "12006",
     "question": "Evaluate: 3² + 4 × 2 - 1",
     "choices": [
       "16",
@@ -78,7 +78,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "399",
+    "id": "12007",
     "question": "Evaluate: 100 - 5 × (3 + 7)",
     "choices": [
       "50",
@@ -91,7 +91,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "400",
+    "id": "12008",
     "question": "Evaluate: (15 - 5) ÷ 2 + 3 × 4",
     "choices": [
       "17",
@@ -104,7 +104,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "401",
+    "id": "12009",
     "question": "Evaluate: 2 × 3² - 4 + 6",
     "choices": [
       "20",
@@ -117,7 +117,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "402",
+    "id": "12010",
     "question": "Evaluate: 7 + 3 × (10 - 6) ÷ 2",
     "choices": [
       "13",
@@ -130,7 +130,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "403",
+    "id": "12011",
     "question": "Evaluate: 25 - 3 × 4 + 2²",
     "choices": [
       "17",
@@ -143,7 +143,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "404",
+    "id": "12012",
     "question": "Evaluate: (2 + 3)² - 10 ÷ 5",
     "choices": [
       "23",
@@ -156,7 +156,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "405",
+    "id": "12013",
     "question": "Evaluate: 6 × 8 ÷ 4 + 5 - 3",
     "choices": [
       "14",
@@ -169,7 +169,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "406",
+    "id": "12014",
     "question": "Evaluate: 4 × (6 + 2) ÷ (10 - 6)",
     "choices": [
       "8",
@@ -182,7 +182,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "407",
+    "id": "12015",
     "question": "Evaluate: 10 + 2³ × 3 - 5",
     "choices": [
       "29",
@@ -195,7 +195,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "408",
+    "id": "12016",
     "question": "Evaluate: 18 ÷ (3 × 2) + 7",
     "choices": [
       "10",
@@ -208,7 +208,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "409",
+    "id": "12017",
     "question": "Evaluate: 5 + (4² - 6) × 2",
     "choices": [
       "25",
@@ -221,7 +221,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "410",
+    "id": "12018",
     "question": "Evaluate: 20 ÷ 4 + 6 × 3 - 1",
     "choices": [
       "22",
@@ -234,7 +234,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "411",
+    "id": "12019",
     "question": "Evaluate: (12 - 4) × (3 + 2)",
     "choices": [
       "40",
@@ -247,7 +247,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "412",
+    "id": "12020",
     "question": "Evaluate: 9 - 3 + 6 ÷ 2 × 4",
     "choices": [
       "18",
@@ -260,7 +260,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "413",
+    "id": "12021",
     "question": "Evaluate: 2 × (5 + 3²) - 8",
     "choices": [
       "20",
@@ -273,7 +273,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "414",
+    "id": "12022",
     "question": "Evaluate: 50 - (4 × 5 + 10) ÷ 3",
     "choices": [
       "40",
@@ -286,7 +286,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "415",
+    "id": "12023",
     "question": "Evaluate: 3 × 4 - 8 ÷ 2 + 5",
     "choices": [
       "13",
@@ -299,7 +299,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "416",
+    "id": "12024",
     "question": "Evaluate: (7 + 3) × 2 - 4²",
     "choices": [
       "4",
@@ -312,7 +312,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "417",
+    "id": "12025",
     "question": "Evaluate: 16 ÷ 2² + 3 × (7 - 4)",
     "choices": [
       "13",
@@ -325,7 +325,7 @@
     "category": "Numerical Ability – PEMDAS / Order of Operations"
   },
   {
-    "id": "438",
+    "id": "12026",
     "category": "Numerical Ability – PEMDAS / Order of Operations",
     "question": "Evaluate: 14 + 6 × 3 - 8 ÷ 2",
     "choices": [
@@ -338,7 +338,7 @@
     "explanation": "6 × 3 = 18. 8 ÷ 2 = 4. 14 + 18 - 4 = 28."
   },
   {
-    "id": "439",
+    "id": "12027",
     "category": "Numerical Ability – PEMDAS / Order of Operations",
     "question": "Evaluate: (15 + 5) ÷ (6 - 2) + 4²",
     "choices": [
@@ -351,7 +351,7 @@
     "explanation": "Parentheses: 20 and 4. 20 ÷ 4 = 5. 4² = 16. 5 + 16 = 21."
   },
   {
-    "id": "440",
+    "id": "12028",
     "category": "Numerical Ability – PEMDAS / Order of Operations",
     "question": "Evaluate: 3 × (4 + 2³) - 10",
     "choices": [
@@ -364,7 +364,7 @@
     "explanation": "2³ = 8. 4 + 8 = 12. 3 × 12 = 36. 36 - 10 = 26."
   },
   {
-    "id": "441",
+    "id": "12029",
     "category": "Numerical Ability – PEMDAS / Order of Operations",
     "question": "Evaluate: 40 - 4 × (12 - 7) + 5",
     "choices": [
@@ -377,7 +377,7 @@
     "explanation": "(12 - 7) = 5. 4 × 5 = 20. 40 - 20 + 5 = 25."
   },
   {
-    "id": "442",
+    "id": "12030",
     "category": "Numerical Ability – PEMDAS / Order of Operations",
     "question": "Evaluate: (18 ÷ 3)² - 5 × 4",
     "choices": [
@@ -388,5 +388,590 @@
     ],
     "correct_answer": "16",
     "explanation": "18 ÷ 3 = 6. 6² = 36. 5 × 4 = 20. 36 - 20 = 16."
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 12 + 6 ÷ 3 × 2 - 4",
+    "choices": [
+      "10",
+      "8",
+      "14",
+      "12"
+    ],
+    "correct_answer": "12",
+    "explanation": "6 ÷ 3 = 2. 2 × 2 = 4. 12 + 4 - 4 = 12.",
+    "id": "12031"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 5 × (8 - 3) + 4^2 ÷ 2",
+    "choices": [
+      "29",
+      "31",
+      "33",
+      "35"
+    ],
+    "correct_answer": "33",
+    "explanation": "(8 - 3) = 5. 5 × 5 = 25. 4^2 = 16. 16 ÷ 2 = 8. 25 + 8 = 33.",
+    "id": "12032"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 20 - [3 + 2 × (6 - 2)]",
+    "choices": [
+      "13",
+      "7",
+      "9",
+      "11"
+    ],
+    "correct_answer": "9",
+    "explanation": "(6 - 2) = 4. 2 × 4 = 8. 3 + 8 = 11. 20 - 11 = 9.",
+    "id": "12033"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 36 ÷ 4 × 3 + 2 - 5",
+    "choices": [
+      "24",
+      "20",
+      "22",
+      "26"
+    ],
+    "correct_answer": "24",
+    "explanation": "36 ÷ 4 = 9. 9 × 3 = 27. 27 + 2 - 5 = 24.",
+    "id": "12034"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: (15 - 5) × 2 + 18 ÷ 3",
+    "choices": [
+      "22",
+      "26",
+      "24",
+      "28"
+    ],
+    "correct_answer": "26",
+    "explanation": "(15 - 5) = 10. 10 × 2 = 20. 18 ÷ 3 = 6. 20 + 6 = 26.",
+    "id": "12035"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 8 + 2^3 × (5 - 3) ÷ 4",
+    "choices": [
+      "16",
+      "10",
+      "14",
+      "12"
+    ],
+    "correct_answer": "12",
+    "explanation": "2^3 = 8. (5 - 3) = 2. 8 × 2 = 16. 16 ÷ 4 = 4. 8 + 4 = 12.",
+    "id": "12036"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 45 ÷ 5 + 3 × (7 - 4)",
+    "choices": [
+      "16",
+      "18",
+      "21",
+      "15"
+    ],
+    "correct_answer": "18",
+    "explanation": "45 ÷ 5 = 9. (7 - 4) = 3. 3 × 3 = 9. 9 + 9 = 18.",
+    "id": "12037"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 10 + 5 × 4 - 12 ÷ 3",
+    "choices": [
+      "30",
+      "28",
+      "24",
+      "26"
+    ],
+    "correct_answer": "26",
+    "explanation": "5 × 4 = 20. 12 ÷ 3 = 4. 10 + 20 - 4 = 26.",
+    "id": "12038"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: (8 + 4) ÷ 3 + 2^4 - 5",
+    "choices": [
+      "17",
+      "14",
+      "13",
+      "15"
+    ],
+    "correct_answer": "15",
+    "explanation": "(8 + 4) = 12. 12 ÷ 3 = 4. 2^4 = 16. 4 + 16 - 5 = 15.",
+    "id": "12039"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 50 - 4 × (6 + 2) + 10 ÷ 2",
+    "choices": [
+      "27",
+      "23",
+      "21",
+      "25"
+    ],
+    "correct_answer": "23",
+    "explanation": "(6 + 2) = 8. 4 × 8 = 32. 10 ÷ 2 = 5. 50 - 32 + 5 = 23.",
+    "id": "12040"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 6 × 3 + (16 - 4) ÷ 4",
+    "choices": [
+      "18",
+      "19",
+      "21",
+      "23"
+    ],
+    "correct_answer": "21",
+    "explanation": "6 × 3 = 18. (16 - 4) = 12. 12 ÷ 4 = 3. 18 + 3 = 21.",
+    "id": "12041"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 100 - [25 + 5 × (8 - 4)]",
+    "choices": [
+      "60",
+      "50",
+      "55",
+      "45"
+    ],
+    "correct_answer": "55",
+    "explanation": "(8 - 4) = 4. 5 × 4 = 20. 25 + 20 = 45. 100 - 45 = 55.",
+    "id": "12042"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 3^3 - 4 × 5 + 12 ÷ 2",
+    "choices": [
+      "13",
+      "9",
+      "11",
+      "15"
+    ],
+    "correct_answer": "13",
+    "explanation": "3^3 = 27. 4 × 5 = 20. 12 ÷ 2 = 6. 27 - 20 + 6 = 13.",
+    "id": "12043"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: (14 + 6) ÷ 5 × 3 - 4",
+    "choices": [
+      "12",
+      "10",
+      "8",
+      "6"
+    ],
+    "correct_answer": "8",
+    "explanation": "(14 + 6) = 20. 20 ÷ 5 = 4. 4 × 3 = 12. 12 - 4 = 8.",
+    "id": "12044"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 7 + 3 × (10 - 2^3)",
+    "choices": [
+      "17",
+      "15",
+      "11",
+      "13"
+    ],
+    "correct_answer": "13",
+    "explanation": "2^3 = 8. (10 - 8) = 2. 3 × 2 = 6. 7 + 6 = 13.",
+    "id": "12045"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 40 ÷ (2 + 3) × 4 - 10",
+    "choices": [
+      "24",
+      "18",
+      "22",
+      "20"
+    ],
+    "correct_answer": "22",
+    "explanation": "(2 + 3) = 5. 40 ÷ 5 = 8. 8 × 4 = 32. 32 - 10 = 22.",
+    "id": "12046"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 18 - 2 × 3^2 + 14 ÷ 7",
+    "choices": [
+      "2",
+      "4",
+      "6",
+      "0"
+    ],
+    "correct_answer": "2",
+    "explanation": "3^2 = 9. 2 × 9 = 18. 14 ÷ 7 = 2. 18 - 18 + 2 = 2.",
+    "id": "12047"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: (25 - 5) ÷ (8 - 3) + 6 × 2",
+    "choices": [
+      "12",
+      "14",
+      "18",
+      "16"
+    ],
+    "correct_answer": "16",
+    "explanation": "(25 - 5) = 20. (8 - 3) = 5. 20 ÷ 5 = 4. 6 × 2 = 12. 4 + 12 = 16.",
+    "id": "12048"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 9 + 81 ÷ 9 × 2 - 10",
+    "choices": [
+      "19",
+      "21",
+      "15",
+      "17"
+    ],
+    "correct_answer": "17",
+    "explanation": "81 ÷ 9 = 9. 9 × 2 = 18. 9 + 18 - 10 = 17.",
+    "id": "12049"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 60 ÷ 5 - (3 + 4) × 1",
+    "choices": [
+      "7",
+      "6",
+      "5",
+      "4"
+    ],
+    "correct_answer": "5",
+    "explanation": "60 ÷ 5 = 12. (3 + 4) = 7. 7 × 1 = 7. 12 - 7 = 5.",
+    "id": "12050"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 4^2 + 3 × (12 - 8) - 15 ÷ 3",
+    "choices": [
+      "25",
+      "21",
+      "23",
+      "19"
+    ],
+    "correct_answer": "23",
+    "explanation": "4^2 = 16. (12 - 8) = 4. 3 × 4 = 12. 15 ÷ 3 = 5. 16 + 12 - 5 = 23.",
+    "id": "12051"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: (30 - 6 × 3) ÷ 4 + 7",
+    "choices": [
+      "10",
+      "9",
+      "12",
+      "8"
+    ],
+    "correct_answer": "10",
+    "explanation": "6 × 3 = 18. (30 - 18) = 12. 12 ÷ 4 = 3. 3 + 7 = 10.",
+    "id": "12052"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 15 + 24 ÷ 6 × (5 - 2)",
+    "choices": [
+      "27",
+      "25",
+      "23",
+      "29"
+    ],
+    "correct_answer": "27",
+    "explanation": "24 ÷ 6 = 4. (5 - 2) = 3. 4 × 3 = 12. 15 + 12 = 27.",
+    "id": "12053"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 5^2 - [10 + 2 × (7 - 4)]",
+    "choices": [
+      "7",
+      "13",
+      "11",
+      "9"
+    ],
+    "correct_answer": "9",
+    "explanation": "5^2 = 25. (7 - 4) = 3. 2 × 3 = 6. 10 + 6 = 16. 25 - 16 = 9.",
+    "id": "12054"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 32 ÷ 8 × 2 + 5 - 3",
+    "choices": [
+      "10",
+      "12",
+      "6",
+      "8"
+    ],
+    "correct_answer": "10",
+    "explanation": "32 ÷ 8 = 4. 4 × 2 = 8. 8 + 5 - 3 = 10.",
+    "id": "12055"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: (18 ÷ 3)^2 - 4 × 5",
+    "choices": [
+      "16",
+      "14",
+      "18",
+      "12"
+    ],
+    "correct_answer": "16",
+    "explanation": "(18 ÷ 3) = 6. 6^2 = 36. 4 × 5 = 20. 36 - 20 = 16.",
+    "id": "12056"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 7 × 4 - 18 ÷ 2 + (9 - 5)",
+    "choices": [
+      "21",
+      "27",
+      "23",
+      "25"
+    ],
+    "correct_answer": "23",
+    "explanation": "7 × 4 = 28. 18 ÷ 2 = 9. (9 - 5) = 4. 28 - 9 + 4 = 23.",
+    "id": "12057"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 50 ÷ (12 - 2) + 3^3",
+    "choices": [
+      "28",
+      "34",
+      "32",
+      "30"
+    ],
+    "correct_answer": "32",
+    "explanation": "(12 - 2) = 10. 50 ÷ 10 = 5. 3^3 = 27. 5 + 27 = 32.",
+    "id": "12058"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 14 + 8 ÷ 2 × 3 - 6",
+    "choices": [
+      "20",
+      "16",
+      "18",
+      "22"
+    ],
+    "correct_answer": "20",
+    "explanation": "8 ÷ 2 = 4. 4 × 3 = 12. 14 + 12 - 6 = 20.",
+    "id": "12059"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: (9 + 3) × (8 - 5) ÷ 6",
+    "choices": [
+      "8",
+      "5",
+      "4",
+      "6"
+    ],
+    "correct_answer": "6",
+    "explanation": "(9 + 3) = 12. (8 - 5) = 3. 12 × 3 = 36. 36 ÷ 6 = 6.",
+    "id": "12060"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 45 - 3 × (4^2 - 6)",
+    "choices": [
+      "15",
+      "13",
+      "17",
+      "19"
+    ],
+    "correct_answer": "15",
+    "explanation": "4^2 = 16. (16 - 6) = 10. 3 × 10 = 30. 45 - 30 = 15.",
+    "id": "12061"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 2^4 ÷ 4 + 5 × 3 - 2",
+    "choices": [
+      "19",
+      "15",
+      "17",
+      "21"
+    ],
+    "correct_answer": "17",
+    "explanation": "2^4 = 16. 16 ÷ 4 = 4. 5 × 3 = 15. 4 + 15 - 2 = 17.",
+    "id": "12062"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 64 ÷ 8 × (3 + 1) - 10",
+    "choices": [
+      "24",
+      "20",
+      "22",
+      "18"
+    ],
+    "correct_answer": "22",
+    "explanation": "64 ÷ 8 = 8. (3 + 1) = 4. 8 × 4 = 32. 32 - 10 = 22.",
+    "id": "12063"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: (16 - 4 × 3) + 25 ÷ 5",
+    "choices": [
+      "9",
+      "7",
+      "11",
+      "8"
+    ],
+    "correct_answer": "9",
+    "explanation": "4 × 3 = 12. (16 - 12) = 4. 25 ÷ 5 = 5. 4 + 5 = 9.",
+    "id": "12064"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 10 + 2^5 ÷ 8 - 3 × 2",
+    "choices": [
+      "6",
+      "10",
+      "12",
+      "8"
+    ],
+    "correct_answer": "8",
+    "explanation": "2^5 = 32. 32 ÷ 8 = 4. 3 × 2 = 6. 10 + 4 - 6 = 8.",
+    "id": "12065"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: (35 - 5) ÷ 6 × 4 + 2",
+    "choices": [
+      "20",
+      "24",
+      "22",
+      "18"
+    ],
+    "correct_answer": "22",
+    "explanation": "(35 - 5) = 30. 30 ÷ 6 = 5. 5 × 4 = 20. 20 + 2 = 22.",
+    "id": "12066"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 90 ÷ 9 + 4 × 5 - 12",
+    "choices": [
+      "22",
+      "16",
+      "20",
+      "18"
+    ],
+    "correct_answer": "18",
+    "explanation": "90 ÷ 9 = 10. 4 × 5 = 20. 10 + 20 - 12 = 18.",
+    "id": "12067"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 3 × (7 + 5) - 4^2 ÷ 2",
+    "choices": [
+      "30",
+      "32",
+      "28",
+      "26"
+    ],
+    "correct_answer": "28",
+    "explanation": "(7 + 5) = 12. 3 × 12 = 36. 4^2 = 16. 16 ÷ 2 = 8. 36 - 8 = 28.",
+    "id": "12068"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: (28 ÷ 4 + 3) × 2 - 5",
+    "choices": [
+      "11",
+      "13",
+      "17",
+      "15"
+    ],
+    "correct_answer": "15",
+    "explanation": "28 ÷ 4 = 7. (7 + 3) = 10. 10 × 2 = 20. 20 - 5 = 15.",
+    "id": "12069"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 8 + 6 × 5 - 30 ÷ 3",
+    "choices": [
+      "26",
+      "24",
+      "28",
+      "30"
+    ],
+    "correct_answer": "28",
+    "explanation": "6 × 5 = 30. 30 ÷ 3 = 10. 8 + 30 - 10 = 28.",
+    "id": "12070"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: (11 - 3)^2 ÷ 8 + 14",
+    "choices": [
+      "24",
+      "22",
+      "20",
+      "18"
+    ],
+    "correct_answer": "22",
+    "explanation": "(11 - 3) = 8. 8^2 = 64. 64 ÷ 8 = 8. 8 + 14 = 22.",
+    "id": "12071"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 42 ÷ 7 × (2 + 3) - 8",
+    "choices": [
+      "20",
+      "24",
+      "22",
+      "26"
+    ],
+    "correct_answer": "22",
+    "explanation": "42 ÷ 7 = 6. (2 + 3) = 5. 6 × 5 = 30. 30 - 8 = 22.",
+    "id": "12072"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 100 - (5^2 + 15 × 3)",
+    "choices": [
+      "35",
+      "30",
+      "40",
+      "25"
+    ],
+    "correct_answer": "30",
+    "explanation": "5^2 = 25. 15 × 3 = 45. (25 + 45) = 70. 100 - 70 = 30.",
+    "id": "12073"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: (15 ÷ 3 + 2) × (8 - 4)",
+    "choices": [
+      "32",
+      "24",
+      "28",
+      "26"
+    ],
+    "correct_answer": "28",
+    "explanation": "(15 ÷ 3 + 2) = 5 + 2 = 7. (8 - 4) = 4. 7 × 4 = 28.",
+    "id": "12074"
+  },
+  {
+    "category": "Numerical Ability – Operations / PEMDAS",
+    "question": "Evaluate: 18 + 12 ÷ 4 × 5 - 10",
+    "choices": [
+      "23",
+      "19",
+      "25",
+      "21"
+    ],
+    "correct_answer": "23",
+    "explanation": "12 ÷ 4 = 3. 3 × 5 = 15. 18 + 15 - 10 = 23.",
+    "id": "12075"
   }
 ]

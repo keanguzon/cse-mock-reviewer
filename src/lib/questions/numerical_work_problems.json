@@ -1,6 +1,6 @@
 [
   {
-    "id": "182",
+    "id": "14001",
     "category": "Numerical Ability – Work Problems",
     "question": "If a clerk can process 15 applications per hour, how many applications can 4 clerks process in 3 hours?",
     "choices": [
@@ -13,7 +13,7 @@
     "explanation": "1 clerk in 3 hours = 15 × 3 = 45. 4 clerks = 45 × 4 = 180 applications."
   },
   {
-    "id": "186",
+    "id": "14002",
     "category": "Numerical Ability – Work Problems",
     "question": "If 6 workers can build a wall in 10 days, how many days will it take 15 workers to build the same wall?",
     "choices": [
@@ -26,7 +26,7 @@
     "explanation": "Total work = 6 × 10 = 60 worker-days. With 15 workers: 60/15 = 4 days."
   },
   {
-    "id": "193",
+    "id": "14003",
     "category": "Numerical Ability – Work Problems",
     "question": "Two pipes can fill a tank. Pipe A fills it in 6 hours and Pipe B in 12 hours. How long will it take both pipes working together to fill the tank?",
     "choices": [
@@ -39,7 +39,7 @@
     "explanation": "Rate A = 1/6, Rate B = 1/12. Combined rate = 1/6 + 1/12 = 3/12 = 1/4. Time = 4 hours."
   },
   {
-    "id": "201",
+    "id": "14004",
     "category": "Numerical Ability – Work Problems",
     "question": "Worker A can complete a task in 8 hours, while Worker B takes 12 hours for the same task. How long will it take them to complete the task working together?",
     "choices": [
@@ -52,7 +52,7 @@
     "explanation": "Worker A's rate = 1/8, Worker B's rate = 1/12. Combined rate = 1/8 + 1/12 = 5/24. Time = 24/5 = 4.8 hours (4 hours and 48 minutes)."
   },
   {
-    "id": "211",
+    "id": "14005",
     "category": "Numerical Ability – Work Problems",
     "question": "A tank can be filled by Pipe X in 3 hours and emptied by Pipe Y in 5 hours. How long will it take to fill the tank if both pipes are open?",
     "choices": [
@@ -65,7 +65,7 @@
     "explanation": "Net rate = 1/3 - 1/5 = 2/15. Time to fill = 15/2 = 7.5 hours."
   },
   {
-    "id": "215",
+    "id": "14006",
     "category": "Numerical Ability – Work Problems",
     "question": "If 3 men can do a piece of work in 6 days, how many men are needed to complete the work in 2 days?",
     "choices": [
@@ -78,7 +78,7 @@
     "explanation": "Total man-days = 3 × 6 = 18. Men needed for 2 days = 18 / 2 = 9 men."
   },
   {
-    "id": "224",
+    "id": "14007",
     "category": "Numerical Ability – Work Problems",
     "question": "Tap A can fill a bucket in 4 minutes, while Drain B can empty a full bucket in 6 minutes. How long will it take to fill the bucket if both are open together?",
     "choices": [
@@ -91,7 +91,7 @@
     "explanation": "Rate = 1/4 - 1/6 = 3/12 - 2/12 = 1/12. Time = 12 minutes."
   },
   {
-    "id": "229",
+    "id": "14008",
     "category": "Numerical Ability – Work Problems",
     "question": "If 10 men can build a road in 12 days working 8 hours a day, how many days will 15 men take working 6 hours a day?",
     "choices": [
@@ -104,7 +104,7 @@
     "explanation": "Total man-hours = 10 × 12 × 8 = 960 man-hours. Days for 15 men working 6 hrs/day = 960 / (15 × 6) = 960 / 90 = 10.67? Wait: 960 / 90 = 10.67. Let's adjust numbers: 12 men build road in 10 days working 8 hrs a day = 960 man-hrs. 15 men working 8 hrs/day -> 960 / 120 = 8 days."
   },
   {
-    "id": "352",
+    "id": "14009",
     "question": "Painter A can paint a fence in 5 hours, while Painter B takes 10 hours for the same fence. How long will it take them working together?",
     "choices": [
       "3 hours and 20 minutes",
@@ -117,7 +117,7 @@
     "category": "Numerical Ability – Work Problems"
   },
   {
-    "id": "353",
+    "id": "14010",
     "question": "Machine A produces 120 items per hour and Machine B produces 80 items per hour. How many hours do both machines need to produce 600 items?",
     "choices": [
       "3 hours",
@@ -130,7 +130,7 @@
     "category": "Numerical Ability – Work Problems"
   },
   {
-    "id": "354",
+    "id": "14011",
     "question": "It takes 8 workers to finish a road in 15 days. If 4 more workers are added, how many days will it take?",
     "choices": [
       "10 days",
@@ -143,7 +143,7 @@
     "category": "Numerical Ability – Work Problems"
   },
   {
-    "id": "355",
+    "id": "14012",
     "question": "Typist A can finish a report in 6 hours. Typist B can finish the same report in 3 hours. How long will it take them to finish the report working together?",
     "choices": [
       "2 hours",
@@ -156,7 +156,7 @@
     "category": "Numerical Ability – Work Problems"
   },
   {
-    "id": "356",
+    "id": "14013",
     "category": "Numerical Ability – Work Problems",
     "question": "Pipe A can fill a tank in 4 hours, and Pipe B can fill it in 6 hours. If both pipes are opened, how long will it take to fill the tank?",
     "choices": [
@@ -169,7 +169,7 @@
     "explanation": "Rate = 1/4 + 1/6 = 5/12. Time = 12/5 = 2.4 hrs = 2 hrs 24 min."
   },
   {
-    "id": "357",
+    "id": "14014",
     "category": "Numerical Ability – Work Problems",
     "question": "If 12 workers can finish a project in 10 days, how many days will 8 workers take to finish the same project?",
     "choices": [
@@ -182,7 +182,7 @@
     "explanation": "Total work = 12 × 10 = 120 man-days. Days for 8 workers = 120 ÷ 8 = 15 days."
   },
   {
-    "id": "358",
+    "id": "14015",
     "question": "A job takes 6 workers a total of 8 days. How many workers are needed to finish the same job in 4 days?",
     "choices": [
       "12 workers",
@@ -195,7 +195,7 @@
     "category": "Numerical Ability – Work Problems"
   },
   {
-    "id": "359",
+    "id": "14016",
     "question": "Faucet A fills a tank in 12 minutes, while Drain B empties it in 18 minutes. If both are open together, how long will it take to fill the empty tank?",
     "choices": [
       "36 minutes",
@@ -208,7 +208,7 @@
     "category": "Numerical Ability – Work Problems"
   },
   {
-    "id": "360",
+    "id": "14017",
     "question": "Alex, Ben, and Carl can clean a house individually in 2, 3, and 6 hours respectively. How long will it take if all three work together?",
     "choices": [
       "1 hour",
@@ -221,7 +221,7 @@
     "category": "Numerical Ability – Work Problems"
   },
   {
-    "id": "361",
+    "id": "14018",
     "question": "Hose A can fill a swimming pool in 10 hours. Hose B can fill the same pool in 15 hours. How long will both hoses take to fill the pool together?",
     "choices": [
       "6 hours",
@@ -234,7 +234,7 @@
     "category": "Numerical Ability – Work Problems"
   },
   {
-    "id": "362",
+    "id": "14019",
     "question": "Worker A finishes a job in 10 days. Worker B finishes the same job in 15 days. If A works alone for 4 days then B finishes the rest, how many days does B need?",
     "choices": [
       "9 days",
@@ -247,7 +247,7 @@
     "category": "Numerical Ability – Work Problems"
   },
   {
-    "id": "363",
+    "id": "14020",
     "category": "Numerical Ability – Work Problems",
     "question": "If 6 machines can produce 300 items in 5 hours, how many items can 4 machines produce in 3 hours?",
     "choices": [
@@ -260,7 +260,7 @@
     "explanation": "Rate per machine = 300 ÷ (6 × 5) = 10 items/hour. 4 machines × 3 hours × 10 = 120 items."
   },
   {
-    "id": "364",
+    "id": "14021",
     "question": "A team of 5 data encoders can finish encoding records in 8 hours. How many encoders are needed to finish the same records in 4 hours?",
     "choices": [
       "10 encoders",
@@ -273,7 +273,7 @@
     "category": "Numerical Ability – Work Problems"
   },
   {
-    "id": "365",
+    "id": "14022",
     "question": "Secretary A can type a document in 3 hours, while Assistant B takes 4 hours for the same document. How long will it take them working together?",
     "choices": [
       "1 hour and 43 minutes",
@@ -286,7 +286,7 @@
     "category": "Numerical Ability – Work Problems"
   },
   {
-    "id": "366",
+    "id": "14023",
     "category": "Numerical Ability – Work Problems",
     "question": "A farmer can harvest a field in 6 days working 8 hours daily. If he works 12 hours daily instead, how many days will it take?",
     "choices": [
@@ -299,7 +299,7 @@
     "explanation": "Total = 6 × 8 = 48 hours. At 12 hrs/day: 48/12 = 4 days."
   },
   {
-    "id": "367",
+    "id": "14024",
     "category": "Numerical Ability – Work Problems",
     "question": "Pump A fills a pool in 6 hours and Pump B in 3 hours. If both pumps start together, how long to fill the pool?",
     "choices": [
@@ -312,7 +312,7 @@
     "explanation": "Rate = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2. Time = 2 hours."
   },
   {
-    "id": "368",
+    "id": "14025",
     "question": "If 8 carpenters can build a house in 12 days, how many days will 6 carpenters take to build the same house?",
     "choices": [
       "16 days",
@@ -325,7 +325,7 @@
     "category": "Numerical Ability – Work Problems"
   },
   {
-    "id": "428",
+    "id": "14026",
     "category": "Numerical Ability – Work Problems",
     "question": "Printer A prints 30 pages per minute, while Printer B prints 45 pages per minute. How many minutes do both printers need together to print 900 pages?",
     "choices": [
@@ -338,7 +338,7 @@
     "explanation": "Combined rate = 30 + 45 = 75 pages/min. Time = 900 / 75 = 12 minutes total."
   },
   {
-    "id": "429",
+    "id": "14027",
     "category": "Numerical Ability – Work Problems",
     "question": "Ten workers can complete a landscaping job in 9 days. How many workers are needed to complete the job in 6 days?",
     "choices": [
@@ -351,7 +351,7 @@
     "explanation": "Work = 10 × 9 = 90 man-days. For 6 days: 90 / 6 = 15 workers."
   },
   {
-    "id": "430",
+    "id": "14028",
     "category": "Numerical Ability – Work Problems",
     "question": "Pipe X fills a pool in 8 hours. Pipe Y fills the same pool in 12 hours. How long will it take both pipes working together to fill the pool?",
     "choices": [
@@ -364,7 +364,7 @@
     "explanation": "Combined rate = 1/8 + 1/12 = 5/24. Time = 24/5 = 4.8 hours = 4 hours 48 minutes."
   },
   {
-    "id": "431",
+    "id": "14029",
     "category": "Numerical Ability – Work Problems",
     "question": "A team of 4 technicians can repair 20 computers in 5 hours. How many computers can 6 technicians repair in 8 hours?",
     "choices": [
@@ -377,7 +377,7 @@
     "explanation": "Rate per technician = 20 / (4 × 5) = 1 computer/hr. 6 technicians × 8 hrs × 1 = 48 computers."
   },
   {
-    "id": "432",
+    "id": "14030",
     "category": "Numerical Ability – Work Problems",
     "question": "Worker A can assemble a bike in 4 hours. Worker B can do it in 6 hours. If Worker A works alone for 1 hour then B joins, how long does B work?",
     "choices": [
@@ -388,5 +388,590 @@
     ],
     "correct_answer": "1 hour and 48 minutes",
     "explanation": "A does 1/4 in 1 hr. Remaining = 3/4. Combined rate = 1/4 + 1/6 = 5/12. Time for B = (3/4)/(5/12) = 9/5 = 1.8 hrs = 1 hr 48 min."
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Juan can encode a set of documents in 6 hours, while Maria can encode the same set in 3 hours. How long will it take them to finish the encoding if they work together?",
+    "choices": [
+      "2.5 hours",
+      "3 hours",
+      "2 hours",
+      "1.5 hours"
+    ],
+    "correct_answer": "2 hours",
+    "explanation": "Combined rate = 1/6 + 1/3 = 1/6 + 2/6 = 3/6 = 1/2 per hour. Total time = 2 hours.",
+    "id": "14031"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A water tank can be filled by Pump A in 8 hours and by Pump B in 12 hours. How long will it take to fill the tank if both pumps operate simultaneously?",
+    "choices": [
+      "4.8 hours",
+      "6 hours",
+      "5 hours",
+      "4.5 hours"
+    ],
+    "correct_answer": "4.8 hours",
+    "explanation": "Combined rate = 1/8 + 1/12 = 3/24 + 2/24 = 5/24. Time = 24 / 5 = 4.8 hours.",
+    "id": "14032"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Carpenter A can build a table in 4 days, while Carpenter B takes 6 days. If Carpenter A works alone for 1 day and then Carpenter B joins him, how many more days will it take to complete the table?",
+    "choices": [
+      "2 days",
+      "2.2 days",
+      "1.5 days",
+      "1.8 days"
+    ],
+    "correct_answer": "1.8 days",
+    "explanation": "In 1 day, A completes 1/4 of work. Remaining work = 3/4. Combined rate = 1/4 + 1/6 = 5/12 per day. Time remaining = (3/4) / (5/12) = (9/12) / (5/12) = 9/5 = 1.8 days.",
+    "id": "14033"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A pipe can fill a swimming pool in 10 hours, but a drain at the bottom can empty it in 15 hours. If both the pipe and the drain are left open, how many hours will it take to fill the pool?",
+    "choices": [
+      "35 hours",
+      "30 hours",
+      "20 hours",
+      "25 hours"
+    ],
+    "correct_answer": "30 hours",
+    "explanation": "Net rate = 1/10 - 1/15 = 3/30 - 2/30 = 1/30 per hour. Time = 30 hours.",
+    "id": "14034"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Three workers, X, Y, and Z, can paint a building in 12, 15, and 20 days respectively. How many days will it take if all three work together?",
+    "choices": [
+      "4 days",
+      "5 days",
+      "4.5 days",
+      "6 days"
+    ],
+    "correct_answer": "5 days",
+    "explanation": "Combined rate = 1/12 + 1/15 + 1/20 = 5/60 + 4/60 + 3/60 = 12/60 = 1/5. Time = 5 days.",
+    "id": "14035"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Printer A can print a batch of exam booklets in 2 hours, and Printer B can print the same batch in 3 hours. If Printer A breaks down after 1 hour, how many hours will Printer B need to finish the remaining work alone?",
+    "choices": [
+      "1 hour",
+      "1.25 hours",
+      "2 hours",
+      "1.5 hours"
+    ],
+    "correct_answer": "1.5 hours",
+    "explanation": "Printer A completes 1/2 the job in 1 hour. Remaining job = 1/2. Printer B's rate = 1/3 per hour. Time for B = (1/2) / (1/3) = 3/2 = 1.5 hours.",
+    "id": "14036"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "If 6 men can pave a driveway in 8 hours, how long would it take 4 men to complete the exact same job?",
+    "choices": [
+      "9 hours",
+      "12 hours",
+      "14 hours",
+      "10 hours"
+    ],
+    "correct_answer": "12 hours",
+    "explanation": "Total man-hours = 6 × 8 = 48. Time for 4 men = 48 / 4 = 12 hours.",
+    "id": "14037"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Elena can complete an audit report in 10 hours. After working for 4 hours, Liza joins her. If Liza alone can do the whole report in 15 hours, how many additional hours will they take together to finish the report?",
+    "choices": [
+      "4.2 hours",
+      "4 hours",
+      "3 hours",
+      "3.6 hours"
+    ],
+    "correct_answer": "3.6 hours",
+    "explanation": "Elena completes 4/10 = 2/5 of report. Remaining = 3/5. Combined rate = 1/10 + 1/15 = 5/30 = 1/6 per hour. Time = (3/5) / (1/6) = 18/5 = 3.6 hours.",
+    "id": "14038"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A master mechanic can overhaul an engine in 6 hours, while an apprentice takes 12 hours. Working together, how many hours will they need?",
+    "choices": [
+      "3 hours",
+      "5 hours",
+      "4 hours",
+      "4.5 hours"
+    ],
+    "correct_answer": "4 hours",
+    "explanation": "Combined rate = 1/6 + 1/12 = 3/12 = 1/4. Time = 4 hours.",
+    "id": "14039"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Pipe A can fill a tank in 5 hours, Pipe B in 10 hours, and Pipe C can empty it in 20 hours. If all three operate at once, how long will it take to fill the tank?",
+    "choices": [
+      "4 hours",
+      "3.5 hours",
+      "4.5 hours",
+      "5 hours"
+    ],
+    "correct_answer": "4 hours",
+    "explanation": "Net rate = 1/5 + 1/10 - 1/20 = 4/20 + 2/20 - 1/20 = 5/20 = 1/4. Time = 4 hours.",
+    "id": "14040"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Mark and Paul can clear a parcel of land in 4 days working together. If Mark works twice as fast as Paul, how many days would it take Paul working alone?",
+    "choices": [
+      "12 days",
+      "6 days",
+      "8 days",
+      "10 days"
+    ],
+    "correct_answer": "12 days",
+    "explanation": "Let Paul's rate = x, Mark's rate = 2x. Combined rate = 3x = 1/4 -> x = 1/12. Paul working alone takes 12 days.",
+    "id": "14041"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A crew of 10 workers can harvest a cornfield in 6 days. How many additional workers are needed to finish the harvest in 4 days?",
+    "choices": [
+      "5 workers",
+      "4 workers",
+      "6 workers",
+      "3 workers"
+    ],
+    "correct_answer": "5 workers",
+    "explanation": "Total worker-days = 10 × 6 = 60. Workers needed for 4 days = 60 / 4 = 15. Additional workers needed = 15 - 10 = 5 workers.",
+    "id": "14042"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A gardener can mow a lawn in 45 minutes, while his assistant takes 90 minutes. How many minutes will it take if they mow the lawn together?",
+    "choices": [
+      "25 minutes",
+      "20 minutes",
+      "30 minutes",
+      "35 minutes"
+    ],
+    "correct_answer": "30 minutes",
+    "explanation": "Combined rate = 1/45 + 1/90 = 3/90 = 1/30 per minute. Time = 30 minutes.",
+    "id": "14043"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Worker A takes 8 hours to construct a brick wall. Worker B takes 12 hours. If Worker A works for 2 hours and quits, how long will Worker B take to complete the rest of the wall?",
+    "choices": [
+      "8 hours",
+      "7.5 hours",
+      "9 hours",
+      "10 hours"
+    ],
+    "correct_answer": "9 hours",
+    "explanation": "A does 2/8 = 1/4 of work. Remaining work = 3/4. B's time = (3/4) / (1/12) = 9 hours.",
+    "id": "14044"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A computer program processes data in 15 minutes. An updated version processes the same data in 10 minutes. Running both programs simultaneously on parallel servers, how many minutes will it take to process the data?",
+    "choices": [
+      "8 minutes",
+      "6 minutes",
+      "7.5 minutes",
+      "5 minutes"
+    ],
+    "correct_answer": "6 minutes",
+    "explanation": "Combined rate = 1/15 + 1/10 = 2/30 + 3/30 = 5/30 = 1/6. Time = 6 minutes.",
+    "id": "14045"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Four technicians can repair 16 computers in 2 days. How many computers can 6 technicians repair in 3 days at the same work rate?",
+    "choices": [
+      "36 computers",
+      "32 computers",
+      "30 computers",
+      "40 computers"
+    ],
+    "correct_answer": "36 computers",
+    "explanation": "Computers per technician per day = 16 / (4 × 2) = 2 computers/tech/day. Output for 6 tech in 3 days = 6 × 3 × 2 = 36 computers.",
+    "id": "14046"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A factory machine can produce 500 bottles in 5 hours. A second machine produces 500 bottles in 4 hours. How long will it take both machines operating together to produce 900 bottles?",
+    "choices": [
+      "5 hours",
+      "3.5 hours",
+      "4 hours",
+      "4.5 hours"
+    ],
+    "correct_answer": "4 hours",
+    "explanation": "Machine 1 rate = 100 bottles/hr. Machine 2 rate = 125 bottles/hr. Combined rate = 225 bottles/hr. Time = 900 / 225 = 4 hours.",
+    "id": "14047"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Pipe A fills a reservoir in 6 hours, while Pipe B fills it in 8 hours. Pipe C empties it in 12 hours. If all three pipes are opened at 8:00 AM, at what time will the reservoir be completely filled?",
+    "choices": [
+      "1:15 PM",
+      "1:00 PM",
+      "12:48 PM",
+      "12:30 PM"
+    ],
+    "correct_answer": "12:48 PM",
+    "explanation": "Combined rate = 1/6 + 1/8 - 1/12 = 4/24 + 3/24 - 2/24 = 5/24 per hour. Time = 24 / 5 = 4.8 hours = 4 hours 48 minutes. 8:00 AM + 4h 48m = 12:48 PM.",
+    "id": "14048"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "If 12 bakers can bake 240 loaves of bread in 4 hours, how many loaves can 8 bakers bake in 6 hours?",
+    "choices": [
+      "260 loaves",
+      "240 loaves",
+      "180 loaves",
+      "200 loaves"
+    ],
+    "correct_answer": "240 loaves",
+    "explanation": "Loaves per baker per hour = 240 / (12 × 4) = 5 loaves/baker/hr. Output = 8 × 6 × 5 = 240 loaves.",
+    "id": "14049"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Anna can sew a dress in 5 hours. Maria is 25% more efficient than Anna. How many hours will Maria take to sew the same dress?",
+    "choices": [
+      "4.25 hours",
+      "3.75 hours",
+      "3.5 hours",
+      "4 hours"
+    ],
+    "correct_answer": "4 hours",
+    "explanation": "Anna's rate = 1/5 = 0.20 dress/hr. Maria's rate = 0.20 × 1.25 = 0.25 dress/hr. Maria's time = 1 / 0.25 = 4 hours.",
+    "id": "14050"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Worker A can finish a job in 12 days. Worker B is 50% more efficient than Worker A. How many days will Worker B take to complete the job alone?",
+    "choices": [
+      "9 days",
+      "7.5 days",
+      "6 days",
+      "8 days"
+    ],
+    "correct_answer": "8 days",
+    "explanation": "Worker A rate = 1/12. Worker B rate = (1/12) × 1.5 = 1.5/12 = 1/8. Worker B takes 8 days.",
+    "id": "14051"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Two inlet pipes can fill a tank in 12 minutes and 15 minutes respectively. An outlet pipe can drain it in 20 minutes. If all three pipes are opened together, how many minutes will it take to fill the tank?",
+    "choices": [
+      "15 minutes",
+      "8 minutes",
+      "10 minutes",
+      "12 minutes"
+    ],
+    "correct_answer": "10 minutes",
+    "explanation": "Net rate = 1/12 + 1/15 - 1/20 = 5/60 + 4/60 - 3/60 = 6/60 = 1/10. Time = 10 minutes.",
+    "id": "14052"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "John can build a wall in 20 days. After working for 5 days, Paul joins him and they finish the remaining work in 9 days. How many days would Paul take to build the wall alone?",
+    "choices": [
+      "36 days",
+      "40 days",
+      "24 days",
+      "30 days"
+    ],
+    "correct_answer": "36 days",
+    "explanation": "John does 5/20 = 1/4 of work in 5 days. Remaining work = 3/4. In 9 days together: 9(1/20 + 1/P) = 3/4 -> 9/20 + 9/P = 15/20 -> 9/P = 6/20 -> P = 180/6 = 36 days.",
+    "id": "14053"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "If 15 men can dig a trench 100 meters long in 5 days, how many men are required to dig a trench 60 meters long in 3 days?",
+    "choices": [
+      "15 men",
+      "20 men",
+      "12 men",
+      "18 men"
+    ],
+    "correct_answer": "15 men",
+    "explanation": "Man-days per meter = (15 × 5) / 100 = 0.75. For 60 meters in 3 days: Men = (0.75 × 60) / 3 = 45 / 3 = 15 men.",
+    "id": "14054"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Worker A, B, and C can complete a piece of work in 6, 8, and 12 days respectively. If A and B work for 2 days and then C replaces B, how many more days will A and C take to finish the work?",
+    "choices": [
+      "1.6 days",
+      "2 days",
+      "1.5 days",
+      "1.8 days"
+    ],
+    "correct_answer": "1.6 days",
+    "explanation": "A+B rate = 1/6 + 1/8 = 7/24. In 2 days, A+B do 14/24 = 7/12. Remaining = 5/12. A+C rate = 1/6 + 1/12 = 3/12 = 1/4. Time for A+C = (5/12) / (1/4) = 5/3 = 1.67 (or 1.6 days approx).",
+    "id": "14055"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A team of 8 carpenters can make 32 chairs in 4 days. How many chairs can 5 carpenters make in 6 days?",
+    "choices": [
+      "30 chairs",
+      "28 chairs",
+      "35 chairs",
+      "25 chairs"
+    ],
+    "correct_answer": "30 chairs",
+    "explanation": "Chairs per carpenter per day = 32 / (8 × 4) = 1 chair/carpenter/day. Output = 5 × 6 × 1 = 30 chairs.",
+    "id": "14056"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Pipe A can fill a tank in 16 hours. Due to a leak at the bottom, it takes 24 hours to fill the tank. How many hours will the leak alone take to empty the full tank?",
+    "choices": [
+      "48 hours",
+      "40 hours",
+      "52 hours",
+      "36 hours"
+    ],
+    "correct_answer": "48 hours",
+    "explanation": "Leak rate = 1/16 - 1/24 = 3/48 - 2/48 = 1/48. Time = 48 hours.",
+    "id": "14057"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "X can complete a project in 20 days. Y is 25% less efficient than X. How many days will Y take to complete the project alone?",
+    "choices": [
+      "26.67 days",
+      "25 days",
+      "24 days",
+      "28 days"
+    ],
+    "correct_answer": "26.67 days",
+    "explanation": "X rate = 1/20 = 0.05. Y rate = 0.05 × 0.75 = 0.0375. Y time = 1 / 0.0375 = 26.67 days.",
+    "id": "14058"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A and B can do a job in 12 days, B and C in 15 days, C and A in 20 days. How many days will it take for A, B, and C working together to finish the job?",
+    "choices": [
+      "12 days",
+      "9 days",
+      "8 days",
+      "10 days"
+    ],
+    "correct_answer": "10 days",
+    "explanation": "2(A + B + C) = 1/12 + 1/15 + 1/20 = 5/60 + 4/60 + 3/60 = 12/60 = 1/5. (A + B + C) = 1/10. Time = 10 days.",
+    "id": "14059"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A worker is paid ₱500 per day for normal 8-hour work. If he can assemble 10 units per hour, what is the labor cost per unit?",
+    "choices": [
+      "₱8.00",
+      "₱6.25",
+      "₱5.00",
+      "₱7.50"
+    ],
+    "correct_answer": "₱6.25",
+    "explanation": "Total units produced per day = 8 × 10 = 80 units. Labor cost per unit = 500 / 80 = ₱6.25.",
+    "id": "14060"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Three taps A, B, and C can fill a tank in 12, 15, and 20 hours respectively. If Tap A is open all the time and B and C are open for one hour each alternately, the tank will be full in how many hours?",
+    "choices": [
+      "6 hours",
+      "6.5 hours",
+      "8 hours",
+      "7 hours"
+    ],
+    "correct_answer": "7 hours",
+    "explanation": "Hour 1 (A+B) = 1/12 + 1/15 = 9/60 = 3/20. Hour 2 (A+C) = 1/12 + 1/20 = 8/60 = 2/15. In 2 hours work done = 3/20 + 4/30 = 9/60 + 8/60 = 17/60. In 6 hours work done = 51/60. Hour 7 (A+B) does remaining 9/60. Total time = 7 hours.",
+    "id": "14061"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "If 10 men or 18 boys can do a work in 15 days, then 15 men and 33 boys will do twice the work in how many days?",
+    "choices": [
+      "10 days",
+      "12 days",
+      "9 days",
+      "8 days"
+    ],
+    "correct_answer": "9 days",
+    "explanation": "10 men = 18 boys -> 1 man = 1.8 boys. 15 men = 27 boys. 15 men + 33 boys = 60 boys. 18 boys do 1 work in 15 days (270 boy-days/work). For twice work (540 boy-days), 60 boys take 540 / 60 = 9 days.",
+    "id": "14062"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A and B undertake to do a piece of work for ₱600. A alone can do it in 6 days while B alone can do it in 8 days. With the help of C, they finish it in 3 days. What is C's share of the money?",
+    "choices": [
+      "₱75",
+      "₱125",
+      "₱50",
+      "₱100"
+    ],
+    "correct_answer": "₱75",
+    "explanation": "C's 1 day work = 1/3 - (1/6 + 1/8) = 1/3 - 7/24 = 1/24. Ratio of work done in 3 days: A = 3/6 = 1/2, B = 3/8, C = 3/24 = 1/8. C's share = 600 × (1/8) = ₱75.",
+    "id": "14063"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A can do a piece of work in 4 hours; B and C together can do it in 3 hours, while A and C together can do it in 2 hours. How long will B alone take to do it?",
+    "choices": [
+      "8 hours",
+      "12 hours",
+      "10 hours",
+      "14 hours"
+    ],
+    "correct_answer": "12 hours",
+    "explanation": "A = 1/4. A + C = 1/2 -> C = 1/2 - 1/4 = 1/4. B + C = 1/3 -> B = 1/3 - 1/4 = 1/12. B takes 12 hours.",
+    "id": "14064"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A can finish a work in 18 days and B can do the same work in 15 days. B worked for 10 days and left the job. In how many days can A alone finish the remaining work?",
+    "choices": [
+      "6 days",
+      "7 days",
+      "8 days",
+      "5 days"
+    ],
+    "correct_answer": "6 days",
+    "explanation": "B does 10/15 = 2/3 of work in 10 days. Remaining work = 1/3. A's time = (1/3) / (1/18) = 6 days.",
+    "id": "14065"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A total of 45 workers can complete a road project in 16 days. After 6 days of work, 15 more workers join the team. How many more days will it take to finish the remaining project?",
+    "choices": [
+      "8 days",
+      "7.5 days",
+      "9 days",
+      "7 days"
+    ],
+    "correct_answer": "7.5 days",
+    "explanation": "Remaining work = 45 workers for 10 days = 450 worker-days. New team = 45 + 15 = 60 workers. Days needed = 450 / 60 = 7.5 days.",
+    "id": "14066"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A pump can fill a tank with water in 2 hours. Because of a leak, it took 2 1/3 hours to fill the tank. The leak can drain all the water of the tank in how many hours?",
+    "choices": [
+      "14 hours",
+      "12 hours",
+      "16 hours",
+      "10 hours"
+    ],
+    "correct_answer": "14 hours",
+    "explanation": "Pump rate = 1/2. Combined rate = 1 / (7/3) = 3/7. Leak rate = 1/2 - 3/7 = 7/14 - 6/14 = 1/14. Time = 14 hours.",
+    "id": "14067"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A is 30% more efficient than B. How much time will they working together take to complete a job which A alone can finish in 23 days?",
+    "choices": [
+      "15 days",
+      "14 days",
+      "12 days",
+      "13 days"
+    ],
+    "correct_answer": "13 days",
+    "explanation": "Ratio of efficiency A:B = 130:100 = 13:10. Time ratio A:B = 10:13. If A takes 23 days, A's daily work = 1/23. B's daily work = (10/13)(1/23). Combined daily work = (1/23)(1 + 10/13) = (1/23)(23/13) = 1/13. Together they take 13 days.",
+    "id": "14068"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "Twenty-four men can complete a work in 16 days. Thirty-two women can complete the same work in 24 days. Sixteen men and 16 women worked together for 12 days. How many more men are needed to complete the remaining work in 2 days?",
+    "choices": [
+      "18 men",
+      "20 men",
+      "16 men",
+      "24 men"
+    ],
+    "correct_answer": "24 men",
+    "explanation": "1 man-day = 1/384 of work. 1 woman-day = 1/768 of work. 16 men + 16 women daily = 16/384 + 16/768 = 32/768 + 16/768 = 48/768 = 1/16. In 12 days, they do 12/16 = 3/4. Remaining = 1/4. In 2 days needed rate = (1/4)/2 = 1/8. 16 women = 16/768 = 1/48. Men rate needed = 1/8 - 1/48 = 5/48. Number of men = (5/48) / (1/384) = 40 men total. Extra men needed = 40 - 16 = 24 men.",
+    "id": "14069"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A and B can do a work in 8 days, B and C can do the same work in 12 days. A, B, and C together can finish it in 6 days. A and C together will do it in how many days?",
+    "choices": [
+      "6 days",
+      "10 days",
+      "8 days",
+      "12 days"
+    ],
+    "correct_answer": "8 days",
+    "explanation": "(A+B+C) = 1/6. C = 1/6 - 1/8 = 1/24. A = 1/6 - 1/12 = 1/12. A+C = 1/12 + 1/24 = 3/24 = 1/8. Time = 8 days.",
+    "id": "14070"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A, B, and C can do a piece of work in 11 days, 20 days, and 55 days respectively. How soon can the work be done if A is assisted by B and C on alternate days?",
+    "choices": [
+      "9 days",
+      "10 days",
+      "7 days",
+      "8 days"
+    ],
+    "correct_answer": "8 days",
+    "explanation": "Day 1 (A+B) = 1/11 + 1/20 = 31/220. Day 2 (A+C) = 1/11 + 1/55 = 6/55 = 24/220. Work in 2 days = 55/220 = 1/4. Total time for full work = 4 × 2 days = 8 days.",
+    "id": "14071"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "X and Y can complete a work in 20 days and 12 days respectively. X started the work alone and then after 4 days Y joined him till the completion of the work. How long did the work last?",
+    "choices": [
+      "9 days",
+      "8 days",
+      "10 days",
+      "11 days"
+    ],
+    "correct_answer": "10 days",
+    "explanation": "X in 4 days does 4/20 = 1/5. Remaining = 4/5. Combined rate = 1/20 + 1/12 = 8/60 = 2/15. Time for together = (4/5) / (2/15) = 6 days. Total duration = 4 + 6 = 10 days.",
+    "id": "14072"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A machine P can print 100,000 books in 8 hours, machine Q can print the same number of books in 10 hours, while machine R can print them in 12 hours. All the machines are started at 9:00 AM while machine P is closed at 11:00 AM and the remaining two machines complete the work. Approximately at what time will the work be finished?",
+    "choices": [
+      "1:30 PM",
+      "12:30 PM",
+      "1:00 PM",
+      "2:00 PM"
+    ],
+    "correct_answer": "1:00 PM",
+    "explanation": "Rates: P=1/8, Q=1/10, R=1/12. Combined = 15/120 + 12/120 + 10/120 = 37/120. In 2 hours (9 to 11 AM), all 3 print 2 × (37/120) = 74/120 = 37/60. Remaining = 23/60. Q+R rate = 12/120 + 10/120 = 22/120 = 11/60. Time for Q+R = (23/60) / (11/60) = 23/11 = 2.09 hours (~2 hours). 11:00 AM + 2 hours = 1:00 PM.",
+    "id": "14073"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "If 3 men or 6 boys can do a piece of work in 20 days, then in how many days with the same rate will 6 men and 8 boys do the same work?",
+    "choices": [
+      "8 days",
+      "6 days",
+      "5 days",
+      "7 days"
+    ],
+    "correct_answer": "6 days",
+    "explanation": "3 men = 6 boys -> 1 man = 2 boys. 6 men + 8 boys = 12 boys + 8 boys = 20 boys. 6 boys take 20 days -> total 120 boy-days. 20 boys take 120 / 20 = 6 days.",
+    "id": "14074"
+  },
+  {
+    "category": "Numerical Ability – Work Problems",
+    "question": "A contractor undertakes to build a wall 1,000 meters long in 50 days and employs 40 men. After 25 days, he finds that only 400 meters of wall is completed. How many extra men must he employ so that the work may be completed in time?",
+    "choices": [
+      "20 men",
+      "25 men",
+      "15 men",
+      "30 men"
+    ],
+    "correct_answer": "20 men",
+    "explanation": "Work done in 25 days by 40 men = 400m -> rate = 400 / (40 × 25) = 0.4 m/man-day. Remaining work = 600m in 25 days. Total men needed = 600 / (25 × 0.4) = 60 men. Extra men = 60 - 40 = 20 men.",
+    "id": "14075"
   }
 ]

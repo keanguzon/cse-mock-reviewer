@@ -1,6 +1,6 @@
 [
   {
-    "id": "184",
+    "id": "9001",
     "category": "Numerical Ability – Age Problems",
     "question": "Ana is 4 years older than twice Ben's age. If Ben is 12 years old, how old is Ana?",
     "choices": [
@@ -13,7 +13,7 @@
     "explanation": "Ana = 2(12) + 4 = 24 + 4 = 28 years old."
   },
   {
-    "id": "196",
+    "id": "9002",
     "category": "Numerical Ability – Age Problems",
     "question": "A father is 3 times as old as his son. In 12 years, he will be twice as old as his son. How old is the son now?",
     "choices": [
@@ -26,7 +26,7 @@
     "explanation": "Let son = x, father = 3x. In 12 years: 3x + 12 = 2(x + 12) → 3x + 12 = 2x + 24 → x = 12."
   },
   {
-    "id": "207",
+    "id": "9003",
     "category": "Numerical Ability – Age Problems",
     "question": "Five years ago, Clara was 3 times as old as David. Today, Clara is twice as old as David. How old is David today?",
     "choices": [
@@ -39,7 +39,7 @@
     "explanation": "Let David today = x, Clara today = 2x. 5 yrs ago: 2x - 5 = 3(x - 5) → 2x - 5 = 3x - 15 → x = 10."
   },
   {
-    "id": "228",
+    "id": "9004",
     "category": "Numerical Ability – Age Problems",
     "question": "The average age of a group of 4 people is 25 years. When a 5th person joins, the average age becomes 26 years. How old is the 5th person?",
     "choices": [
@@ -52,7 +52,7 @@
     "explanation": "Sum 4 people = 4 × 25 = 100. Sum 5 people = 5 × 26 = 130. 5th person age = 130 - 100 = 30 years."
   },
   {
-    "id": "331",
+    "id": "9005",
     "question": "A mother is 28 years older than her daughter. In 5 years, the mother will be 3 times as old as her daughter. How old is the daughter now?",
     "choices": [
       "9 years old",
@@ -65,7 +65,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "332",
+    "id": "9006",
     "question": "The sum of the ages of a father and his son is 50. Five years ago, the father was 7 times as old as his son. How old is the son now?",
     "choices": [
       "10 years old",
@@ -78,7 +78,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "333",
+    "id": "9007",
     "question": "Rico is twice as old as Marco. Four years ago, Rico was three times as old as Marco. How old is Marco now?",
     "choices": [
       "6 years old",
@@ -91,7 +91,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "334",
+    "id": "9008",
     "question": "A teacher is 30 years older than her student. In 10 years, the teacher will be twice as old as the student. How old is the student?",
     "choices": [
       "15 years old",
@@ -104,7 +104,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "335",
+    "id": "9009",
     "question": "The ages of three siblings are consecutive odd numbers. If their total age is 45, what is the age of the youngest?",
     "choices": [
       "15 years old",
@@ -117,7 +117,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "336",
+    "id": "9010",
     "category": "Numerical Ability – Age Problems",
     "question": "Anna is 5 years older than Beth. The sum of their present ages is 41. How old is Beth now?",
     "choices": [
@@ -130,7 +130,7 @@
     "explanation": "Let Beth = x, Anna = x + 5. x + x + 5 = 41. 2x = 36. x = 18."
   },
   {
-    "id": "337",
+    "id": "9011",
     "question": "John is 4 times as old as his nephew. In 8 years, John will be only twice as old. How old is the nephew now?",
     "choices": [
       "6 years old",
@@ -143,7 +143,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "338",
+    "id": "9012",
     "question": "The ratio of a grandfather's age to his grandson's age is 8:1. If the difference of their ages is 56, how old is the grandson?",
     "choices": [
       "7 years old",
@@ -156,7 +156,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "339",
+    "id": "9013",
     "question": "Six years from now, Carlo will be twice as old as he was 4 years ago. How old is Carlo now?",
     "choices": [
       "12 years old",
@@ -169,7 +169,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "340",
+    "id": "9014",
     "question": "Mila is 3 years younger than Nina. Two years ago, Nina was twice as old as Mila. How old is Nina now?",
     "choices": [
       "8 years old",
@@ -182,7 +182,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "341",
+    "id": "9015",
     "question": "A man's age is 4 more than 3 times his son's age. If the son is 10 years old, how old is the man?",
     "choices": [
       "34 years old",
@@ -195,7 +195,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "342",
+    "id": "9016",
     "question": "The combined age of brothers Ethan and Liam is 36. Ethan is 4 years older than Liam. How old is Liam?",
     "choices": [
       "16 years old",
@@ -208,7 +208,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "343",
+    "id": "9017",
     "question": "In 12 years, Sophia will be 3 times her present age. How old is Sophia now?",
     "choices": [
       "4 years old",
@@ -221,7 +221,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "344",
+    "id": "9018",
     "question": "A woman was 25 years old when her child was born. Now the sum of their ages is 45. How old is the child?",
     "choices": [
       "12 years old",
@@ -234,7 +234,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "345",
+    "id": "9019",
     "question": "The product of the ages of siblings Leo and Nora is 72. Leo is twice as old as Nora. How old is Leo?",
     "choices": [
       "6 years old",
@@ -247,7 +247,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "346",
+    "id": "9020",
     "question": "Liza was 30 when she got married. After how many years will her age be 5/3 of her age at marriage?",
     "choices": [
       "20 years later",
@@ -260,7 +260,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "347",
+    "id": "9021",
     "question": "Three years ago, Pablo was half as old as his sister Rosa. If Rosa is 19 now, how old is Pablo?",
     "choices": [
       "11 years old",
@@ -273,7 +273,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "348",
+    "id": "9022",
     "question": "The average age of 5 family members is 26 years. If the youngest member is 6 years old, what is the average age of the other 4?",
     "choices": [
       "31 years old",
@@ -286,7 +286,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "349",
+    "id": "9023",
     "category": "Numerical Ability – Age Problems",
     "question": "Fifteen years from now, Dante will be 3 times as old as he was 5 years ago. How old is Dante now?",
     "choices": [
@@ -299,7 +299,7 @@
     "explanation": "x + 15 = 3(x - 5). x + 15 = 3x - 15. 30 = 2x. x = 15."
   },
   {
-    "id": "350",
+    "id": "9024",
     "question": "Uncle Mario is 32 years older than his niece Rita. In how many years will Mario be exactly twice Rita's age?",
     "choices": [
       "32 years later",
@@ -312,7 +312,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "351",
+    "id": "9025",
     "question": "Elena is twice as old as her cousin. The sum of their ages is 36. How old is Elena?",
     "choices": [
       "18 years old",
@@ -325,7 +325,7 @@
     "category": "Numerical Ability – Age Problems"
   },
   {
-    "id": "423",
+    "id": "9026",
     "category": "Numerical Ability – Age Problems",
     "question": "A mother is 32 years old and her son is 4 years old. In how many years will the mother be 3 times as old as her son?",
     "choices": [
@@ -338,7 +338,7 @@
     "explanation": "32 + x = 3(4 + x). 32 + x = 12 + 3x. 20 = 2x. x = 10."
   },
   {
-    "id": "424",
+    "id": "9027",
     "category": "Numerical Ability – Age Problems",
     "question": "The ratio of Ben's age to Carl's age is 5:3. If the sum of their ages is 40, how old is Ben?",
     "choices": [
@@ -351,7 +351,7 @@
     "explanation": "Total parts = 8. Ben = 5/8 × 40 = 25 years."
   },
   {
-    "id": "425",
+    "id": "9028",
     "category": "Numerical Ability – Age Problems",
     "question": "Four years ago, Grace was 3 times as old as Hannah. Today, Grace is twice as old as Hannah. How old is Hannah today?",
     "choices": [
@@ -364,7 +364,7 @@
     "explanation": "Let Hannah = x, Grace = 2x. 4 yrs ago: 2x - 4 = 3(x - 4). 2x - 4 = 3x - 12. x = 8."
   },
   {
-    "id": "426",
+    "id": "9029",
     "category": "Numerical Ability – Age Problems",
     "question": "A man is 35 years old and his daughter is 7. In how many years will he be 3 times as old as his daughter?",
     "choices": [
@@ -377,7 +377,7 @@
     "explanation": "35 + x = 3(7 + x). 35 + x = 21 + 3x. 14 = 2x. x = 7."
   },
   {
-    "id": "427",
+    "id": "9030",
     "category": "Numerical Ability – Age Problems",
     "question": "The sum of the present ages of two cousins is 33. Six years ago, one cousin was twice as old as the other. How old is the older cousin now?",
     "choices": [
@@ -388,5 +388,590 @@
     ],
     "correct_answer": "20 years old",
     "explanation": "6 years ago sum of ages = 33 - 12 = 21. Younger = 7, Older = 14. Present older = 14 + 6 = 20."
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Juan is currently 3 times as old as his nephew Carlo. In 10 years, Juan will be twice as old as Carlo. How old is Juan today?",
+    "choices": [
+      "27 years old",
+      "30 years old",
+      "24 years old",
+      "36 years old"
+    ],
+    "correct_answer": "30 years old",
+    "explanation": "Let Carlo = x, Juan = 3x. In 10 years: 3x + 10 = 2(x + 10) -> 3x + 10 = 2x + 20 -> x = 10. Juan is 3(10) = 30 years old.",
+    "id": "9031"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Maria is 4 years older than Elena. Five years ago, the sum of their ages was 28. How old is Maria now?",
+    "choices": [
+      "17 years old",
+      "19 years old",
+      "21 years old",
+      "23 years old"
+    ],
+    "correct_answer": "21 years old",
+    "explanation": "Let Elena = x, Maria = x + 4. 5 years ago: (x - 5) + (x + 4 - 5) = 28 -> 2x - 6 = 28 -> 2x = 34 -> x = 17 (Elena). Maria is 17 + 4 = 21.",
+    "id": "9032"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "A father is 32 years older than his son. In 4 years, the father will be 3 times as old as his son. How old is the son now?",
+    "choices": [
+      "14 years old",
+      "12 years old",
+      "10 years old",
+      "15 years old"
+    ],
+    "correct_answer": "12 years old",
+    "explanation": "Son = x, Father = x + 32. In 4 years: x + 32 + 4 = 3(x + 4) -> x + 36 = 3x + 12 -> 2x = 24 -> x = 12 years old.",
+    "id": "9033"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The ratio of the ages of Paolo and Liza is 4:5. If the sum of their present ages is 36, how old is Liza?",
+    "choices": [
+      "20 years old",
+      "24 years old",
+      "18 years old",
+      "16 years old"
+    ],
+    "correct_answer": "20 years old",
+    "explanation": "Total parts = 4 + 5 = 9. 1 part = 36 / 9 = 4. Liza's age = 5 × 4 = 20 years old.",
+    "id": "9034"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Ten years ago, Mrs. Santos was 4 times as old as her daughter. Today, she is twice as old as her daughter. How old is Mrs. Santos now?",
+    "choices": [
+      "30 years old",
+      "45 years old",
+      "36 years old",
+      "40 years old"
+    ],
+    "correct_answer": "30 years old",
+    "explanation": "Let daughter now = d, Mrs. Santos = 2d. 10 years ago: 2d - 10 = 4(d - 10) -> 2d - 10 = 4d - 40 -> 2d = 30 -> d = 15. Mrs. Santos = 2(15) = 30.",
+    "id": "9035"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Mark is twice as old as Dan. Eight years ago, Mark was 3 times as old as Dan. How old is Dan now?",
+    "choices": [
+      "14 years old",
+      "12 years old",
+      "20 years old",
+      "16 years old"
+    ],
+    "correct_answer": "16 years old",
+    "explanation": "Dan = x, Mark = 2x. 8 years ago: 2x - 8 = 3(x - 8) -> 2x - 8 = 3x - 24 -> x = 16.",
+    "id": "9036"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The sum of the ages of a mother and her daughter is 50 years. Five years from now, the mother will be 3 times as old as the daughter. How old is the daughter now?",
+    "choices": [
+      "8 years old",
+      "15 years old",
+      "10 years old",
+      "12 years old"
+    ],
+    "correct_answer": "10 years old",
+    "explanation": "Daughter = d, Mother = 50 - d. In 5 years: 50 - d + 5 = 3(d + 5) -> 55 - d = 3d + 15 -> 4d = 40 -> d = 10.",
+    "id": "9037"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "A mother is currently 28 years older than her child. If the child will be half the mother's age in 4 years, how old is the child now?",
+    "choices": [
+      "26 years old",
+      "24 years old",
+      "22 years old",
+      "20 years old"
+    ],
+    "correct_answer": "24 years old",
+    "explanation": "Child = x, Mother = x + 28. In 4 years: x + 4 = 0.5(x + 28 + 4) -> x + 4 = 0.5x + 16 -> 0.5x = 12 -> x = 24.",
+    "id": "9038"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "In 6 years, Gabriel will be twice as old as he was 8 years ago. How old is Gabriel now?",
+    "choices": [
+      "22 years old",
+      "20 years old",
+      "18 years old",
+      "24 years old"
+    ],
+    "correct_answer": "22 years old",
+    "explanation": "x + 6 = 2(x - 8) -> x + 6 = 2x - 16 -> x = 22.",
+    "id": "9039"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The ratio of the present ages of A and B is 3:2. Four years ago, the ratio of their ages was 5:3. What is A's present age?",
+    "choices": [
+      "28 years old",
+      "24 years old",
+      "20 years old",
+      "18 years old"
+    ],
+    "correct_answer": "24 years old",
+    "explanation": "A = 3x, B = 2x. (3x - 4)/(2x - 4) = 5/3 -> 3(3x - 4) = 5(2x - 4) -> 9x - 12 = 10x - 20 -> x = 8. A = 3(8) = 24.",
+    "id": "9040"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Ana is 5 years younger than her sister Bea. In 3 years, the sum of their ages will be 39. How old is Ana now?",
+    "choices": [
+      "15 years old",
+      "19 years old",
+      "12 years old",
+      "14 years old"
+    ],
+    "correct_answer": "14 years old",
+    "explanation": "Ana = x, Bea = x + 5. In 3 years: (x + 3) + (x + 5 + 3) = 39 -> 2x + 11 = 39 -> 2x = 28 -> x = 14.",
+    "id": "9041"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "A father is 4 times as old as his son. Twenty years later, the father will be only twice as old as his son. How old is the father now?",
+    "choices": [
+      "48 years old",
+      "40 years old",
+      "44 years old",
+      "36 years old"
+    ],
+    "correct_answer": "40 years old",
+    "explanation": "Son = x, Father = 4x. In 20 years: 4x + 20 = 2(x + 20) -> 4x + 20 = 2x + 40 -> 2x = 20 -> x = 10. Father = 4(10) = 40.",
+    "id": "9042"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Three years ago, the average age of a family of 4 members was 18 years. With a baby born recently, the average age of the family remains 18 years today. How old is the baby?",
+    "choices": [
+      "1 year old",
+      "2 years old",
+      "3 years old",
+      "0.5 years old"
+    ],
+    "correct_answer": "3 years old",
+    "explanation": "Sum of 4 members 3 years ago = 4 × 18 = 72. Sum of same 4 today = 72 + 4(3) = 84. Total 5 members today average 18 -> sum = 5 × 18 = 90. Baby's age = 90 - 84 = 3.",
+    "id": "9043"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Reyes is 6 years older than Cruz. If the product of their ages is 160, how old is Cruz?",
+    "choices": [
+      "12 years old",
+      "10 years old",
+      "8 years old",
+      "14 years old"
+    ],
+    "correct_answer": "10 years old",
+    "explanation": "Cruz = x, Reyes = x + 6. x(x + 6) = 160 -> x^2 + 6x - 160 = 0 -> (x + 16)(x - 10) = 0 -> x = 10.",
+    "id": "9044"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Six years ago, Maria was 3 times as old as her cousin. If Maria is now 24 years old, how old is her cousin now?",
+    "choices": [
+      "12 years old",
+      "10 years old",
+      "14 years old",
+      "8 years old"
+    ],
+    "correct_answer": "12 years old",
+    "explanation": "Maria 6 years ago = 24 - 6 = 18. Cousin 6 years ago = 18 / 3 = 6. Cousin now = 6 + 6 = 12.",
+    "id": "9045"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The sum of the present ages of a father and son is 60. Six years ago, the father was 5 times as old as the son. How old is the son now?",
+    "choices": [
+      "14 years old",
+      "12 years old",
+      "10 years old",
+      "16 years old"
+    ],
+    "correct_answer": "14 years old",
+    "explanation": "Son = x, Father = 60 - x. 6 years ago: 60 - x - 6 = 5(x - 6) -> 54 - x = 5x - 30 -> 6x = 84 -> x = 14.",
+    "id": "9046"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Juan is 15 years older than Pedro. In 5 years, Juan will be twice as old as Pedro. How old is Pedro now?",
+    "choices": [
+      "10 years old",
+      "8 years old",
+      "12 years old",
+      "15 years old"
+    ],
+    "correct_answer": "10 years old",
+    "explanation": "Pedro = x, Juan = x + 15. In 5 years: x + 15 + 5 = 2(x + 5) -> x + 20 = 2x + 10 -> x = 10.",
+    "id": "9047"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "A grandmother is 60 years older than her granddaughter. If the grandmother is 6 times as old as her granddaughter, how old is the granddaughter?",
+    "choices": [
+      "12 years old",
+      "10 years old",
+      "15 years old",
+      "14 years old"
+    ],
+    "correct_answer": "12 years old",
+    "explanation": "Granddaughter = x, Grandmother = 6x. 6x - x = 60 -> 5x = 60 -> x = 12.",
+    "id": "9048"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The ratio of ages of two friends is 5:7. Five years from now, the sum of their ages will be 46. How old is the younger friend now?",
+    "choices": [
+      "21 years old",
+      "15 years old",
+      "12 years old",
+      "18 years old"
+    ],
+    "correct_answer": "15 years old",
+    "explanation": "Ages = 5x and 7x. In 5 years: (5x + 5) + (7x + 5) = 46 -> 12x + 10 = 46 -> 12x = 36 -> x = 3. Younger friend = 5(3) = 15.",
+    "id": "9049"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "In 12 years, Kevin will be 3 times his present age. How old is Kevin today?",
+    "choices": [
+      "8 years old",
+      "5 years old",
+      "6 years old",
+      "4 years old"
+    ],
+    "correct_answer": "6 years old",
+    "explanation": "x + 12 = 3x -> 2x = 12 -> x = 6.",
+    "id": "9050"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Four years ago, Sara was half as old as she will be in 10 years. How old is Sara now?",
+    "choices": [
+      "16 years old",
+      "14 years old",
+      "18 years old",
+      "20 years old"
+    ],
+    "correct_answer": "18 years old",
+    "explanation": "x - 4 = 0.5(x + 10) -> x - 4 = 0.5x + 5 -> 0.5x = 9 -> x = 18.",
+    "id": "9051"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The average age of a husband and wife is 27 years. When their child was born, the average age of the family was 19 years. How old is the child now?",
+    "choices": [
+      "4 years old",
+      "5 years old",
+      "3 years old",
+      "2 years old"
+    ],
+    "correct_answer": "3 years old",
+    "explanation": "Sum of husband and wife now = 27 × 2 = 54. Let child age = c. Sum of 3 family members now = 54 + c. Sum when child was born = 54 - 2c. At birth, average of 3 = 19 -> (54 - 2c + 0)/3 = 19 -> 54 - 2c = 57 (Wait: 3 members at birth = 19 -> sum = 57. 54 + 3 = 57 -> 3 years).",
+    "id": "9052"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Ben is 4 years older than Tim. If the sum of their ages 2 years ago was 20, how old is Tim now?",
+    "choices": [
+      "8 years old",
+      "12 years old",
+      "14 years old",
+      "10 years old"
+    ],
+    "correct_answer": "10 years old",
+    "explanation": "Tim = x, Ben = x + 4. 2 years ago: (x - 2) + (x + 4 - 2) = 20 -> 2x = 20 -> x = 10.",
+    "id": "9053"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "A mother is 3 times as old as her son. If the difference in their ages is 26 years, how old is the mother?",
+    "choices": [
+      "39 years old",
+      "36 years old",
+      "42 years old",
+      "45 years old"
+    ],
+    "correct_answer": "39 years old",
+    "explanation": "Son = x, Mother = 3x. 3x - x = 26 -> 2x = 26 -> x = 13. Mother = 3(13) = 39.",
+    "id": "9054"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Five years ago, a man was 7 times as old as his son. In 5 years, he will be 3 times as old as his son. How old is the son now?",
+    "choices": [
+      "15 years old",
+      "8 years old",
+      "10 years old",
+      "12 years old"
+    ],
+    "correct_answer": "10 years old",
+    "explanation": "5 years ago: Son = s, Father = 7s. Now: Son = s + 5, Father = 7s + 5. In 5 years: 7s + 10 = 3(s + 10) -> 7s + 10 = 3s + 30 -> 4s = 20 -> s = 5. Son now = 5 + 5 = 10.",
+    "id": "9055"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The sum of the ages of Tom and Jerry is 42. If Tom is 6 years older than Jerry, how old is Jerry?",
+    "choices": [
+      "16 years old",
+      "24 years old",
+      "20 years old",
+      "18 years old"
+    ],
+    "correct_answer": "18 years old",
+    "explanation": "Jerry = x, Tom = x + 6. x + x + 6 = 42 -> 2x = 36 -> x = 18.",
+    "id": "9056"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "In 8 years, Liza will be twice as old as she was 4 years ago. How old is Liza now?",
+    "choices": [
+      "12 years old",
+      "14 years old",
+      "18 years old",
+      "16 years old"
+    ],
+    "correct_answer": "16 years old",
+    "explanation": "x + 8 = 2(x - 4) -> x + 8 = 2x - 8 -> x = 16.",
+    "id": "9057"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "A man is 24 years older than his son. In two years, his age will be twice the age of his son. How old is the son now?",
+    "choices": [
+      "22 years old",
+      "18 years old",
+      "24 years old",
+      "20 years old"
+    ],
+    "correct_answer": "22 years old",
+    "explanation": "Son = x, Man = x + 24. In 2 years: x + 24 + 2 = 2(x + 2) -> x + 26 = 2x + 4 -> x = 22.",
+    "id": "9058"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The present ages of three friends are in the ratio 4:7:9. Eight years ago, the sum of their ages was 56. What is the age of the eldest friend now?",
+    "choices": [
+      "36 years old",
+      "40 years old",
+      "28 years old",
+      "32 years old"
+    ],
+    "correct_answer": "36 years old",
+    "explanation": "Sum of ages now = 56 + 3(8) = 80. Total parts = 4 + 7 + 9 = 20 parts. 1 part = 80 / 20 = 4. Eldest = 9 × 4 = 36.",
+    "id": "9059"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Ten years from now, Mark will be 4 times as old as he was 20 years ago. How old is Mark now?",
+    "choices": [
+      "35 years old",
+      "28 years old",
+      "30 years old",
+      "32 years old"
+    ],
+    "correct_answer": "30 years old",
+    "explanation": "x + 10 = 4(x - 20) -> x + 10 = 4x - 80 -> 3x = 90 -> x = 30.",
+    "id": "9060"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "A mother is 30 years old and her daughter is 6 years old. In how many years will the mother be double her daughter's age?",
+    "choices": [
+      "18 years",
+      "15 years",
+      "24 years",
+      "20 years"
+    ],
+    "correct_answer": "18 years",
+    "explanation": "30 + x = 2(6 + x) -> 30 + x = 12 + 2x -> x = 18 years.",
+    "id": "9061"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "If 4 times the age of a boy 3 years ago is subtracted from 3 times his age 2 years hence, the result is his present age. How old is the boy?",
+    "choices": [
+      "9 years old",
+      "8 years old",
+      "10 years old",
+      "12 years old"
+    ],
+    "correct_answer": "9 years old",
+    "explanation": "3(x + 2) - 4(x - 3) = x -> 3x + 6 - 4x + 12 = x -> 18 - x = x -> 2x = 18 -> x = 9.",
+    "id": "9062"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The sum of the ages of 5 children born at intervals of 3 years each is 50 years. What is the age of the youngest child?",
+    "choices": [
+      "2 years old",
+      "5 years old",
+      "4 years old",
+      "3 years old"
+    ],
+    "correct_answer": "4 years old",
+    "explanation": "x + (x+3) + (x+6) + (x+9) + (x+12) = 50 -> 5x + 30 = 50 -> 5x = 20 -> x = 4.",
+    "id": "9063"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "A father said to his son, 'I was as old as you are at present at the time of your birth.' If the father's age is 38 years now, how old was the son 5 years ago?",
+    "choices": [
+      "19 years old",
+      "12 years old",
+      "14 years old",
+      "15 years old"
+    ],
+    "correct_answer": "14 years old",
+    "explanation": "Father's age at son's birth = Son's current age (x). Father now = x + x = 2x = 38 -> x = 19. 5 years ago son was 19 - 5 = 14.",
+    "id": "9064"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The ratio of the age of a man to his wife is 4:3. After 4 years, this ratio will be 9:7. If at the time of marriage, the ratio was 5:3, how many years ago were they married?",
+    "choices": [
+      "12 years ago",
+      "8 years ago",
+      "15 years ago",
+      "10 years ago"
+    ],
+    "correct_answer": "12 years ago",
+    "explanation": "Man = 4x, Wife = 3x. (4x + 4)/(3x + 4) = 9/7 -> 28x + 28 = 27x + 36 -> x = 8. Ages now: Man = 32, Wife = 24. Let y = years ago married. (32 - y)/(24 - y) = 5/3 -> 96 - 3y = 120 - 5y -> 2y = 24 -> y = 12.",
+    "id": "9065"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "A man is 5 years older than his wife who is 5 times as old as her daughter. If the daughter turns 10 in 2 years, how old is the man now?",
+    "choices": [
+      "45 years old",
+      "40 years old",
+      "42 years old",
+      "50 years old"
+    ],
+    "correct_answer": "45 years old",
+    "explanation": "Daughter now = 10 - 2 = 8. Wife = 5 × 8 = 40. Man = 40 + 5 = 45.",
+    "id": "9066"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The sum of the ages of a father and his son is 45 years. Five years ago, the product of their ages was 34. How old is the father now?",
+    "choices": [
+      "40 years old",
+      "39 years old",
+      "38 years old",
+      "35 years old"
+    ],
+    "correct_answer": "39 years old",
+    "explanation": "5 years ago, sum of ages = 45 - 10 = 35. Product = 34. So their ages 5 years ago were 34 and 1. Father now = 34 + 5 = 39. Son now = 1 + 5 = 6.",
+    "id": "9067"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "In 10 years, a mother will be twice as old as her daughter. Ten years ago, the mother was 6 times as old as her daughter. How old is the mother now?",
+    "choices": [
+      "40 years old",
+      "35 years old",
+      "30 years old",
+      "45 years old"
+    ],
+    "correct_answer": "35 years old",
+    "explanation": "Let 10 yrs ago daughter = d, mother = 6d. Now: d+10, 6d+10. In 10 yrs: 6d+20 = 2(d+20) -> 6d+20 = 2d+40 -> 4d = 20 -> d = 5. Mother now = 6(5) + 10 = 35.",
+    "id": "9068"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "A person's present age is two-fifths of the age of his mother. After 8 years, he will be one-half of the age of his mother. How old is the mother now?",
+    "choices": [
+      "50 years old",
+      "35 years old",
+      "45 years old",
+      "40 years old"
+    ],
+    "correct_answer": "40 years old",
+    "explanation": "Person = 2x, Mother = 5x. In 8 years: 2x + 8 = 0.5(5x + 8) -> 2x + 8 = 2.5x + 4 -> 0.5x = 4 -> x = 8. Mother = 5(8) = 40.",
+    "id": "9069"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Q is as much younger than R as he is older than T. If the sum of the ages of R and T is 50 years, what is definitely the age of Q?",
+    "choices": [
+      "24 years old",
+      "20 years old",
+      "25 years old",
+      "30 years old"
+    ],
+    "correct_answer": "25 years old",
+    "explanation": "R - Q = Q - T -> R + T = 2Q. Since R + T = 50, 2Q = 50 -> Q = 25.",
+    "id": "9070"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The total age of A and B is 12 years more than the total age of B and C. How many years is C younger than A?",
+    "choices": [
+      "12 years",
+      "10 years",
+      "14 years",
+      "6 years"
+    ],
+    "correct_answer": "12 years",
+    "explanation": "(A + B) = (B + C) + 12 -> A = C + 12 -> C is 12 years younger than A.",
+    "id": "9071"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The ratio of the present age of Manoj to Wasim is 3:11. Wasim is 12 years younger than Rehana. Rehana's age after 7 years will be 85 years. What is Manoj's present age?",
+    "choices": [
+      "18 years old",
+      "15 years old",
+      "21 years old",
+      "24 years old"
+    ],
+    "correct_answer": "18 years old",
+    "explanation": "Rehana now = 85 - 7 = 78. Wasim = 78 - 12 = 66. Wasim's ratio part = 11 -> 1 part = 66 / 11 = 6. Manoj = 3 × 6 = 18.",
+    "id": "9072"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "The age of a man is three times the sum of the ages of his two children. After 5 years, his age will be double the sum of their ages. How old is the father now?",
+    "choices": [
+      "40 years old",
+      "50 years old",
+      "45 years old",
+      "35 years old"
+    ],
+    "correct_answer": "45 years old",
+    "explanation": "Let sum of children's ages = x. Father = 3x. In 5 years: Father = 3x + 5. Sum of children = x + 10 (since 2 children). 3x + 5 = 2(x + 10) -> 3x + 5 = 2x + 20 -> x = 15. Father = 3(15) = 45.",
+    "id": "9073"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "A father is twice as old as his daughter. If 20 years ago, the father was 10 times as old as his daughter, how old is the father today?",
+    "choices": [
+      "40 years old",
+      "36 years old",
+      "50 years old",
+      "45 years old"
+    ],
+    "correct_answer": "45 years old",
+    "explanation": "Daughter = x, Father = 2x. 20 yrs ago: 2x - 20 = 10(x - 20) -> 2x - 20 = 10x - 200 -> 8x = 180 -> x = 22.5. Father = 2(22.5) = 45.",
+    "id": "9074"
+  },
+  {
+    "category": "Numerical Ability – Age Problems",
+    "question": "Six years ago, the ratio of the ages of Kunal and Sagar was 6:5. Four years hence, the ratio of their ages will be 11:10. What is Sagar's age at present?",
+    "choices": [
+      "20 years old",
+      "14 years old",
+      "18 years old",
+      "16 years old"
+    ],
+    "correct_answer": "16 years old",
+    "explanation": "6 years ago: 6x and 5x. Now: 6x+6 and 5x+6. In 4 yrs: (6x+10)/(5x+10) = 11/10 -> 60x + 100 = 55x + 110 -> 5x = 10 -> x = 2. Sagar now = 5(2) + 6 = 16.",
+    "id": "9075"
   }
 ]

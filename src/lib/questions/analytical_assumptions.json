@@ -1,6 +1,6 @@
 [
   {
-    "id": "141",
+    "id": "2001",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Six government officers (A, B, C, D, E, and F) are seated in a row facing north during a seminar. The seating arrangement follows these conditions:\n- E is at the extreme left end of the row.\n- F is seated immediately to the right of E.\n- D is seated exactly between C and F.\n- A is seated adjacent to B but is not adjacent to C.\n\nWho is seated at the extreme right end of the row?",
     "choices": [
@@ -13,7 +13,7 @@
     "explanation": "E is at Position 1, F at Position 2. D is between C and F, so D is at Position 3 and C at Position 4. A is adjacent to B but not C, so A is at Position 6 and B at Position 5: [E, F, D, C, B, A]."
   },
   {
-    "id": "142",
+    "id": "2002",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Five colleagues (Manny, Nilo, Oscar, Pia, and Queenie) compare their monthly savings. The following facts are established:\n- Manny saves more than Nilo but less than Pia.\n- Oscar saves more than Queenie but less than Nilo.\n\nWho among the colleagues saves the second highest amount?",
     "choices": [
@@ -26,7 +26,7 @@
     "explanation": "Combining the inequalities: Pia > Manny > Nilo > Oscar > Queenie. Manny saves the second highest."
   },
   {
-    "id": "143",
+    "id": "2003",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "A municipal department operates under the following project implementation rules:\n- If the department implements Project A, it must also implement Project B.\n- If it implements Project B, it cannot implement Project C.\n- If it does not implement Project C, it must implement Project D.\n\nIf the department has officially implemented Project A, which of the following statements must be true?",
     "choices": [
@@ -39,7 +39,7 @@
     "explanation": "A → B → not C → D. Since A is implemented, B must be implemented, which means C cannot be, which means D must be."
   },
   {
-    "id": "144",
+    "id": "2004",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Five directors (Ramon, Susan, Teresa, Victor, and Wendy) are sitting around a circular table facing the center for a board meeting. Their positions are determined by these rules:\n- Teresa is sitting immediately to the left of Ramon.\n- Wendy is sitting between Susan and Teresa.\n\nWho is sitting immediately to the right of Victor?",
     "choices": [
@@ -52,7 +52,7 @@
     "explanation": "Placing Ramon at seat 1, Teresa at seat 2 (left of Ramon), Wendy at seat 3 (between Teresa and Susan), Susan at seat 4, and Victor at seat 5. To Victor's right is Susan."
   },
   {
-    "id": "145",
+    "id": "2005",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Six employees (Al, Bea, Cal, Dan, Eve, and Fay) are scheduled for their annual physical exams, one each day from Monday to Saturday. The constraints are:\n- Eve must be scheduled on Thursday.\n- Dan is scheduled on Monday.\n- Cal must be scheduled on the day immediately after Al's day.\n- Bea must be scheduled on the day immediately after Fay's day.\n- Fay must be scheduled on a day after Eve's day.\n\nOn which day is Al scheduled?",
     "choices": [
@@ -65,7 +65,7 @@
     "explanation": "Monday: Dan, Thursday: Eve. Fay must be after Eve, so Friday. Bea follows Fay, so Saturday. Al and Cal occupy the remaining consecutive days: Tuesday and Wednesday."
   },
   {
-    "id": "146",
+    "id": "2006",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "An HR manager is selecting a 3-member committee from 5 applicants: F, G, H, I, and J. The selection is governed by these rules:\n- If F is selected, G must also be selected.\n- H and I cannot both be selected.\n- If J is selected, H must also be selected.\n\nIf applicant I is selected, who else must be in the committee?",
     "choices": [
@@ -78,7 +78,7 @@
     "explanation": "I is selected → H cannot be selected → J cannot be selected (contrapositive of Rule 3). Only F and G remain to fill the 3 seats, and Rule 1 is satisfied."
   },
   {
-    "id": "147",
+    "id": "2007",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "During an office evaluation, 5 employees (V, W, X, Y, and Z) were ranked 1st to 5th. The evaluation results are as follows:\n- V ranked higher than W.\n- Y ranked lower than Z.\n- X ranked exactly between V and W.\n- Z did not rank in the top two.\n\nIf Y ranked 5th, what was Z's rank?",
     "choices": [
@@ -91,7 +91,7 @@
     "explanation": "V > X > W must occupy consecutive ranks. If they take ranks 2-3-4, Z would be 1st (violating 'not top two'). So V=1st, X=2nd, W=3rd, Z=4th, Y=5th."
   },
   {
-    "id": "148",
+    "id": "2008",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Five cars (Red, Blue, Green, Yellow, and Silver) are parked in a straight row of five spaces numbered 1 to 5. The conditions are:\n- The Red car is in Space 1.\n- The Blue car is in Space 5.\n- The Yellow car is next to the Silver car.\n- The Green car is not next to the Blue car.\n\nIn which space is the Green car parked?",
     "choices": [
@@ -104,7 +104,7 @@
     "explanation": "Red=1, Blue=5. Green cannot be next to Blue, so Green ≠ 4. Yellow and Silver need adjacent spots: they must be in 3-4. Green goes to Space 2."
   },
   {
-    "id": "149",
+    "id": "2009",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Three officers (Santos, Reyes, and Cruz) work in three different departments: Finance, HR, and IT. They each have a different hobby: Hiking, Photography, and Reading. The following is known:\n- The officer in IT likes Reading.\n- Cruz works in Finance.\n- Santos does not like Photography.\n- Reyes does not work in IT.\n\nWhat is Santos's hobby?",
     "choices": [
@@ -117,7 +117,7 @@
     "explanation": "Cruz is in Finance, Reyes is not in IT, so Reyes is in HR and Santos is in IT. The IT officer likes Reading, so Santos's hobby is Reading."
   },
   {
-    "id": "150",
+    "id": "2010",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "A state regulatory framework establishes the following criteria:\n- If a citizen is registered, they are eligible to vote.\n- If a citizen is eligible to vote, they receive a voter's card.\n\nIf Juan did not receive a voter's card, which of the following statements must be true?",
     "choices": [
@@ -130,7 +130,7 @@
     "explanation": "By contrapositive: Registered → Eligible → Voter's Card. No card → Not eligible → Not registered."
   },
   {
-    "id": "151",
+    "id": "2011",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Four boxes (A, B, C, and D) have different weights:\n- Box A is heavier than Box B.\n- Box C is lighter than Box D.\n- Box B is heavier than Box D.\n\nWhich is the correct order from heaviest to lightest?",
     "choices": [
@@ -143,7 +143,7 @@
     "explanation": "A > B, B > D, D > C. Combined: A > B > D > C."
   },
   {
-    "id": "152",
+    "id": "2012",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "In a relay race, five runners (P, Q, R, S, and T) ran in a specific order from first to fifth:\n- P ran immediately before Q.\n- S ran at some point after T.\n- R ran third.\n- T ran first.\n\nWho ran fifth?",
     "choices": [
@@ -156,7 +156,7 @@
     "explanation": "T=1st, R=3rd. P must be immediately before Q. Available consecutive slots: 4th-5th. So P=4th, Q=5th, S=2nd."
   },
   {
-    "id": "153",
+    "id": "2013",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Six cubicles are arranged in two rows facing each other. Row 1: cubicles 1, 2, 3. Row 2: cubicles 4, 5, 6 (4 opposite 1, 5 opposite 2, 6 opposite 3). The assignments are:\n- Officer P is in cubicle 2.\n- Officer Q is in a cubicle opposite Officer R.\n- Officer S is adjacent to P but not opposite R.\n- Officer T is in cubicle 6.\n- Officer R is in Row 2.\n\nWhich cubicle does Officer R occupy?",
     "choices": [
@@ -169,7 +169,7 @@
     "explanation": "P=2, T=6. Q and R are opposite each other. Available opposite pairs: (1,4). R is in Row 2, so R=4 and Q=1. S is adjacent to P(2) but not opposite R(4), so S=3. U=5."
   },
   {
-    "id": "154",
+    "id": "2014",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "What is the age of Maria?\n\nStatements:\n(1) Maria is twice as old as her brother Juan.\n(2) Juan is 15 years younger than Maria.",
     "choices": [
@@ -182,7 +182,7 @@
     "explanation": "Statement 1: M = 2J (two unknowns, one equation — not sufficient). Statement 2: J = M - 15 (not sufficient alone). Together: M = 2(M - 15) → M = 30."
   },
   {
-    "id": "155",
+    "id": "2015",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "A rectangular garden has a perimeter of 60 meters. What is the area of the garden?\n\nStatements:\n(1) The length of the garden is twice its width.\n(2) The garden is planted with tomatoes.",
     "choices": [
@@ -195,7 +195,7 @@
     "explanation": "Perimeter: L + W = 30. Statement 1: L = 2W → 3W = 30 → W = 10, L = 20, Area = 200 sq m. Statement 2 is irrelevant."
   },
   {
-    "id": "156",
+    "id": "2016",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "If all managers attend the seminar, and the seminar is cancelled, what can we conclude?",
     "choices": [
@@ -208,7 +208,7 @@
     "explanation": "If the seminar was cancelled, it did not take place. Therefore, no one could have attended it, including managers."
   },
   {
-    "id": "157",
+    "id": "2017",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "In a department of 5 employees, each one speaks a different language: English, Filipino, Japanese, Korean, and Mandarin.\n- Ana does not speak Korean or Japanese.\n- Ben speaks Filipino.\n- Cara speaks Mandarin.\n- Dan does not speak English.\n\nWhat language does Ana speak?",
     "choices": [
@@ -221,7 +221,7 @@
     "explanation": "Ben=Filipino, Cara=Mandarin. Ana doesn't speak Korean or Japanese. The remaining options for Ana are English. Dan doesn't speak English, so Dan gets the remaining (Korean or Japanese)."
   },
   {
-    "id": "158",
+    "id": "2018",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "A university requires students to take exactly 3 courses from the following: Art, Biology, Chemistry, Drama, and Economics. The rules are:\n- If Art is chosen, Drama must also be chosen.\n- Biology and Chemistry cannot both be chosen.\n\nIf a student chooses Economics and Biology, which other course must be chosen?",
     "choices": [
@@ -234,7 +234,7 @@
     "explanation": "Economics and Biology are chosen. Chemistry can't be chosen (Biology already chosen). If Art is chosen, Drama must be chosen too — but that's 4 courses. So Art is out, and Drama must fill the third slot."
   },
   {
-    "id": "159",
+    "id": "2019",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Seven friends (A, B, C, D, E, F, G) are ranked by height from tallest to shortest:\n- B is taller than D but shorter than A.\n- E is shorter than C but taller than F.\n- G is the shortest.\n- C is shorter than D.\n\nWho is the tallest?",
     "choices": [
@@ -247,7 +247,7 @@
     "explanation": "A > B > D and C > E > F > G, with D > C. Combined: A > B > D > C > E > F > G. A is tallest."
   },
   {
-    "id": "160",
+    "id": "2020",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "A company policy states:\n- All senior employees receive health insurance.\n- All employees with health insurance receive dental coverage.\n- Pedro is a senior employee.\n\nWhich of the following must be true?",
     "choices": [
@@ -260,7 +260,7 @@
     "explanation": "Senior → Health Insurance → Dental Coverage. Pedro is senior, so he gets health insurance, and therefore also dental coverage."
   },
   {
-    "id": "161",
+    "id": "2021",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: 'Buy our anti-virus software to protect your computer from cyber threats.'\n\nAssumptions:\n- I. Computers are vulnerable to cyber threats.\n- II. People want to protect their computers.\n\nWhich assumption(s) is/are implicit in the statement?",
     "choices": [
@@ -273,7 +273,7 @@
     "explanation": "The advertisement assumes computers face threats (I) and that computer owners desire protection against those threats (II)."
   },
   {
-    "id": "162",
+    "id": "2022",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Five speakers (P, Q, R, S, T) are scheduled to present in a one-day seminar:\n- Q presents immediately after P.\n- R must present before S.\n- T presents last (5th).\n\nIf P presents 2nd, who must present 1st?",
     "choices": [
@@ -286,7 +286,7 @@
     "explanation": "P is 2nd, so Q is 3rd (immediately after P). T is 5th. Slots remaining: 1st and 4th. Since R must precede S, R must be 1st and S 4th."
   },
   {
-    "id": "163",
+    "id": "2023",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: 'The government will provide cash subsidies to small farmers affected by the drought.'\n\nAssumptions:\n- I. The government has sufficient funds for cash subsidies.\n- II. The drought affected small farmers financially.\n\nWhich assumption(s) is/are implicit?",
     "choices": [
@@ -299,7 +299,7 @@
     "explanation": "An official subsidy announcement implicitly assumes funds exist to pay it (I) and that the targeted group suffered financial impact needing relief (II)."
   },
   {
-    "id": "164",
+    "id": "2024",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Six people (A, B, C, D, E, F) sit around a circular table facing the center:\n- A sits opposite D.\n- B sits immediately to the right of A.\n- C sits between D and B.\n\nWho sits immediately to the left of A?",
     "choices": [
@@ -312,7 +312,7 @@
     "explanation": "In a 6-seat circle: A at 12 o'clock, D opposite at 6 o'clock. B to A's right (2 o'clock). C between D (6) and B (2) sits at 4 o'clock? Wait, clockwise: A (12), B (2), C (4), D (6). To A's left is 10 o'clock. Since C sits between D and B? Wait, clockwise: D (6), C (4), B (2), A (12). Facing center: Right of A is 10 o'clock. Thus left of A is 2 o'clock (B) or 10 o'clock. Let's trace: A (top). Facing center: right is counter-clockwise (10), left is clockwise (2). B is at 10. C is between D(6) and B(10) -> at 8. Thus left of A (2 o'clock) is E/F. Wait, C between D and B means C is at 8 o'clock. Then position 2 o'clock is E or F. Wait, if C is between D and A, C is at 10. Let's make the setup clear: A is at top. B is right of A. C is between D and A. Who sits to the left of A? C."
   },
   {
-    "id": "165",
+    "id": "2025",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "A project manager must select 3 members from a pool of 5 (V, W, X, Y, Z):\n- If V is selected, W must also be selected.\n- X and Y cannot both be selected.\n\nIf Y and Z are selected, who must be the third member?",
     "choices": [
@@ -325,7 +325,7 @@
     "explanation": "Y is selected, so X cannot be selected. If V were selected, W would also need to be selected (making 4 members total, which violates 3). Thus V cannot be selected. The remaining member must be W."
   },
   {
-    "id": "166",
+    "id": "2026",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Five candidates (A, B, C, D, E) scored in an exam:\n- A scored higher than B.\n- C scored lower than D.\n- E scored higher than A.\n- B scored higher than D.\n\nWho scored the second highest?",
     "choices": [
@@ -338,7 +338,7 @@
     "explanation": "Order from highest to lowest: E > A > B > D > C. The second highest score belongs to A."
   },
   {
-    "id": "167",
+    "id": "2027",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: 'Please turn off lights when leaving the office to conserve electricity.'\n\nAssumptions:\n- I. Turning off lights conserves electricity.\n- II. People sometimes forget to turn off lights when leaving.\n\nWhich assumption(s) is/are implicit?",
     "choices": [
@@ -351,7 +351,7 @@
     "explanation": "The notice assumes turning off lights saves power (I) and that employees need a reminder because they might forget (II)."
   },
   {
-    "id": "168",
+    "id": "2028",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Four task force teams (Alpha, Beta, Gamma, Delta) operate under rules:\n- Alpha operates only when Beta operates.\n- Gamma and Delta cannot operate at the same time.\n- Beta operates today.\n\nWhich team MUST operate today?",
     "choices": [
@@ -364,7 +364,7 @@
     "explanation": "Alpha operates *only when* Beta operates (Beta is necessary for Alpha, but Beta's presence doesn't force Alpha to operate). Gamma and Delta are unrestricted by Beta."
   },
   {
-    "id": "169",
+    "id": "2029",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Four employees (M, N, O, P) live in a 4-story building, one on each floor:\n- M lives above N.\n- O lives on the 1st floor.\n- P lives below M but above N.\n\nWho lives on the 4th (top) floor?",
     "choices": [
@@ -377,7 +377,7 @@
     "explanation": "O is on floor 1. P is below M but above N -> M > P > N. Floors 2, 3, 4 are N, P, M respectively. M is on floor 4."
   },
   {
-    "id": "170",
+    "id": "2030",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: 'Enroll in our Civil Service Review course to guarantee passing the exam.'\n\nAssumptions:\n- I. Review courses can help students pass exams.\n- II. The Civil Service Exam can be passed through preparation.\n\nWhich assumption(s) is/are implicit?",
     "choices": [
@@ -390,7 +390,7 @@
     "explanation": "An offer to help students pass assumes prep courses work (I) and that the exam is passable through preparation (II)."
   },
   {
-    "id": "171",
+    "id": "2031",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Five files (1, 2, 3, 4, 5) are arranged on a shelf left to right:\n- File 3 is in the middle.\n- File 1 is to the immediate left of File 3.\n- File 5 is at the extreme right.\n- File 2 is to the left of File 4.\n\nWhich file is at the extreme left (1st position)?",
     "choices": [
@@ -403,7 +403,7 @@
     "explanation": "Middle (3rd) is File 3. File 1 is 2nd (left of File 3). File 5 is 5th (right). Slots remaining: 1st and 4th. Since 2 is left of 4, File 2 is 1st and File 4 is 4th."
   },
   {
-    "id": "172",
+    "id": "2032",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: 'Use organic fertilizer to increase crop yields without chemical contamination.'\n\nAssumptions:\n- I. Farmers want to avoid chemical contamination.\n- II. Organic fertilizer is effective in increasing crop yields.\n\nWhich assumption(s) is/are implicit?",
     "choices": [
@@ -416,7 +416,7 @@
     "explanation": "The advice assumes chemical avoidance is desirable (I) and organic fertilizer actually increases yield (II)."
   },
   {
-    "id": "173",
+    "id": "2033",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "A committee of 4 must be chosen from 6 people (A, B, C, D, E, F):\n- A and B must be chosen together.\n- C and D cannot be chosen together.\n- E and F must both be chosen.\n\nIf C is chosen, who else MUST be chosen?",
     "choices": [
@@ -429,7 +429,7 @@
     "explanation": "E and F are mandatory. That's 2 seats. If C is chosen, that's 3 seats (C, E, F). The 4th seat cannot be D (C and D can't be together). A and B must be together (requiring 2 seats), but only 1 seat remains. So A and B cannot be chosen. The committee is C, E, F and either A or B? No, A and B can't be split. So who MUST be chosen? E and F."
   },
   {
-    "id": "174",
+    "id": "2034",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Six friends (J, K, L, M, N, O) sit in a row facing north:\n- K is at the extreme left end.\n- M sits next to K.\n- O sits at the extreme right end.\n- L sits between N and O.\n\nWho sits third from the left?",
     "choices": [
@@ -442,7 +442,7 @@
     "explanation": "From left (1) to right (6): Position 1 is K. Position 2 is M. Position 6 is O. Position 5 is L (between N and O). Position 4 is N. Position 3 must be J."
   },
   {
-    "id": "175",
+    "id": "2035",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: 'The city mayor ordered the closure of non-compliant establishments.'\n\nAssumptions:\n- I. Some establishments in the city were non-compliant.\n- II. The mayor has legal authority to close non-compliant establishments.\n\nWhich assumption(s) is/are implicit?",
     "choices": [
@@ -455,7 +455,7 @@
     "explanation": "Ordering closure assumes non-compliant businesses exist (I) and that the mayor possesses executive authority to order closures (II)."
   },
   {
-    "id": "176",
+    "id": "2036",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Five cars (P, Q, R, S, T) finish a race:\n- P finishes before Q but after R.\n- S finishes before R.\n- T finishes last.\n\nWhich car won the race (finished 1st)?",
     "choices": [
@@ -468,7 +468,7 @@
     "explanation": "Finishing order: S > R > P > Q > T. S finished 1st."
   },
   {
-    "id": "177",
+    "id": "2037",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: 'Implement strict attendance logging to prevent tardiness among office personnel.'\n\nAssumptions:\n- I. Attendance logging deters tardiness.\n- II. Tardiness is currently an issue among office personnel.\n\nWhich assumption(s) is/are implicit?",
     "choices": [
@@ -481,7 +481,7 @@
     "explanation": "Proposing attendance logging to prevent tardiness assumes logging works as a deterrent (I) and tardiness exists as a problem (II)."
   },
   {
-    "id": "178",
+    "id": "2038",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Four departments (HR, IT, Finance, Marketing) submit budget proposals:\n- IT submits after HR.\n- Finance submits before HR.\n- Marketing submits after IT.\n\nWhich department submitted its budget proposal FIRST?",
     "choices": [
@@ -494,7 +494,7 @@
     "explanation": "Order of submission: Finance -> HR -> IT -> Marketing. Finance submitted first."
   },
   {
-    "id": "179",
+    "id": "2039",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: 'Switch to LED lighting to reduce corporate electricity bills by 30%.'\n\nAssumptions:\n- I. LED lights consume less electricity than current lighting.\n- II. Reducing electricity bills is desirable for the corporation.\n\nWhich assumption(s) is/are implicit?",
     "choices": [
@@ -507,7 +507,7 @@
     "explanation": "The proposal assumes LEDs use less power (I) and cost reduction is a corporate goal (II)."
   },
   {
-    "id": "180",
+    "id": "2040",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Five students (A, B, C, D, E) take a test:\n- A scored higher than B.\n- B scored higher than C.\n- D scored higher than A.\n- E scored lower than C.\n\nWho scored the lowest?",
     "choices": [
@@ -520,7 +520,7 @@
     "explanation": "Scores: D > A > B > C > E. E scored the lowest."
   },
   {
-    "id": "181",
+    "id": "2041",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: 'Install CCTV cameras in all public markets to curb theft.'\n\nAssumptions:\n- I. Theft occurs in public markets.\n- II. CCTV cameras deter individuals from stealing.\n\nWhich assumption(s) is/are implicit?",
     "choices": [
@@ -533,7 +533,7 @@
     "explanation": "Installing cameras to curb theft assumes theft occurs (I) and cameras act as a deterrent (II)."
   },
   {
-    "id": "182",
+    "id": "2042",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Four colleagues (W, X, Y, Z) take lunch at different times (11:30 AM, 12:00 PM, 12:30 PM, 1:00 PM):\n- W takes lunch at 12:00 PM.\n- X takes lunch after Y.\n- Z takes lunch at 1:00 PM.\n\nWhat time does Y take lunch?",
     "choices": [
@@ -546,7 +546,7 @@
     "explanation": "Times: 11:30 AM, 12:00 PM (W), 12:30 PM, 1:00 PM (Z). Remaining slots for X and Y: 11:30 AM and 12:30 PM. Since X is after Y, Y is at 11:30 AM and X is at 12:30 PM."
   },
   {
-    "id": "183",
+    "id": "2043",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: 'Vaccinate all poultry to prevent the spread of avian flu.'\n\nAssumptions:\n- I. Avian flu affects poultry.\n- II. Vaccination effectively prevents avian flu spread.\n\nWhich assumption(s) is/are implicit?",
     "choices": [
@@ -559,7 +559,7 @@
     "explanation": "The order assumes poultry can contract avian flu (I) and vaccines work against its spread (II)."
   },
   {
-    "id": "184",
+    "id": "2044",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Five boxes (1, 2, 3, 4, 5) are stacked vertically:\n- Box 5 is at the top.\n- Box 2 is immediately below Box 5.\n- Box 1 is at the bottom.\n- Box 3 is above Box 4.\n\nWhich box is 3rd from the bottom?",
     "choices": [
@@ -572,7 +572,7 @@
     "explanation": "Stack from top (5) to bottom (1): Top (5th) is 5. 4th is 2. Bottom (1st) is 1. Slots 2nd and 3rd are 4 and 3 respectively (since Box 3 is above Box 4). So 3rd from bottom is Box 4."
   },
   {
-    "id": "185",
+    "id": "2045",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: 'Construct a bypass road to relieve traffic congestion on Main Street.'\n\nAssumptions:\n- I. Main Street suffers from traffic congestion.\n- II. Drivers will use the bypass road.\n\nWhich assumption(s) is/are implicit?",
     "choices": [
@@ -585,7 +585,7 @@
     "explanation": "Building a bypass assumes Main Street is congested (I) and drivers will actually divert to the new road (II)."
   },
   {
-    "id": "186",
+    "id": "2046",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Four applicants (A, B, C, D) interviewed sequentially:\n- A was interviewed before B.\n- C was interviewed after D.\n- D was interviewed after B.\n\nWho was interviewed LAST?",
     "choices": [
@@ -598,7 +598,7 @@
     "explanation": "Interview order: A -> B -> D -> C. C was interviewed last."
   },
   {
-    "id": "187",
+    "id": "2047",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: 'Provide free computer literacy classes for senior citizens.'\n\nAssumptions:\n- I. Senior citizens can learn computer skills.\n- II. Some senior citizens lack computer literacy.\n\nWhich assumption(s) is/are implicit?",
     "choices": [
@@ -611,7 +611,7 @@
     "explanation": "Offering classes assumes seniors are capable of learning (I) and that a literacy gap exists among them (II)."
   },
   {
-    "id": "188",
+    "id": "2048",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Five employees (V, W, X, Y, Z) earned performance bonuses:\n- X earned more than V.\n- W earned more than X.\n- Y earned less than V.\n- Z earned the most.\n\nWho earned the SECOND LEAST bonus?",
     "choices": [
@@ -624,7 +624,7 @@
     "explanation": "Earnings ranking: Z > W > X > V > Y. Least is Y; second least is V."
   },
   {
-    "id": "189",
+    "id": "2049",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: 'Store perishable food in the refrigerator to prevent spoilage.'\n\nAssumptions:\n- I. Perishable food spoils at room temperature.\n- II. Refrigeration slows down food spoilage.\n\nWhich assumption(s) is/are implicit?",
     "choices": [
@@ -637,7 +637,7 @@
     "explanation": "The instruction assumes food spoils without cooling (I) and cold temperatures preserve food (II)."
   },
   {
-    "id": "190",
+    "id": "2050",
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Four projects (P1, P2, P3, P4) are scheduled across 4 quarters (Q1, Q2, Q3, Q4):\n- P1 is scheduled in Q2.\n- P3 is scheduled after P1.\n- P4 is scheduled before P1.\n\nIn which quarter is P3 scheduled if P2 is scheduled in Q4?",
     "choices": [
@@ -648,5 +648,655 @@
     ],
     "correct_answer": "Q3",
     "explanation": "Q1: P4 (before P1). Q2: P1. Q4: P2. Q3: P3 (after P1)."
+  },
+  {
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "During a meeting at a local barangay hall, five councilors (A, B, C, D, and E) are seated around a circular table facing the center.\n- A is sitting immediately to the right of B.\n- C is sitting exactly between A and D.\n- E is not adjacent to D.\n\nWho is sitting immediately to the left of B?",
+    "choices": [
+      "D",
+      "E",
+      "A",
+      "C"
+    ],
+    "correct_answer": "E",
+    "explanation": "Based on the clues: A is to the right of B (so B, A). C is between A and D (so B, A, C, D). Since it's a circle of 5, E must be in the remaining seat between D and B. So the counter-clockwise order is B, A, C, D, E. To the left of B (clockwise) is E.",
+    "id": "2051"
+  },
+  {
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "A company requires applicants to possess all of the following to qualify for an interview:\n1. A bachelor's degree in IT or related fields.\n2. At least 3 years of work experience.\n3. A passing score of at least 80% on the assessment test.\n\nApplicant Juan has a degree in Computer Science, scored 85% on the assessment, and worked as a Junior Developer for 2.5 years. What is the most logical conclusion regarding Juan's application?",
+    "choices": [
+      "He is highly qualified.",
+      "He will be scheduled for an interview.",
+      "He will not be interviewed.",
+      "He must retake the assessment."
+    ],
+    "correct_answer": "He will not be interviewed.",
+    "explanation": "Juan falls short of the 3-year work experience requirement (he only has 2.5 years). Because he must meet ALL requirements, he does not qualify for an interview.",
+    "id": "2052"
+  },
+  {
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Five cars are parked in a straight row facing north: a Toyota, a Honda, a Mitsubishi, a Ford, and a Nissan.\n- The Ford is parked exactly in the middle.\n- The Toyota is parked at the extreme left end.\n- The Honda is parked immediately to the right of the Ford.\n\nWhich car is parked between the Toyota and the Ford?",
+    "choices": [
+      "Cannot be determined",
+      "Mitsubishi",
+      "Nissan",
+      "Honda"
+    ],
+    "correct_answer": "Cannot be determined",
+    "explanation": "Ford is at position 3 (middle). Toyota is at position 1 (left). Honda is at position 4. This leaves position 2 and 5 for Nissan and Mitsubishi. Since there's no clue for them, position 2 (between Toyota and Ford) could be either Nissan or Mitsubishi.",
+    "id": "2053"
+  },
+  {
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "The Local Government Unit (LGU) announced that starting next month, a strict \"No Segregation, No Collection\" policy for garbage will be implemented to address the growing landfill problem.\n\nWhich of the following is an implicit assumption in the LGU's announcement?",
+    "choices": [
+      "Landfills will immediately be emptied next month.",
+      "All garbage collectors will receive a salary increase.",
+      "Refusing to collect unsegregated waste will force residents to segregate.",
+      "Residents currently segregate their waste perfectly."
+    ],
+    "correct_answer": "Refusing to collect unsegregated waste will force residents to segregate.",
+    "explanation": "The policy assumes that the consequence (uncollected garbage) will successfully compel the residents to change their behavior (start segregating), thus addressing the landfill problem.",
+    "id": "2054"
+  },
+  {
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Seven friends (P, Q, R, S, T, U, V) are standing in a queue for cinema tickets.\n- Q is standing right behind P.\n- S is standing exactly between R and T.\n- T is standing immediately in front of U.\n- P is the first person in the queue.\n- V is standing exactly between Q and R.\n\nWho is standing at the very end of the queue?",
+    "choices": [
+      "V",
+      "U",
+      "T",
+      "S"
+    ],
+    "correct_answer": "U",
+    "explanation": "Order: 1=P, 2=Q. V is between Q and R (so Q, V, R -> 2=Q, 3=V, 4=R). S is between R and T (so R, S, T -> 4=R, 5=S, 6=T). T is immediately in front of U (so 6=T, 7=U). The order is P, Q, V, R, S, T, U. U is last.",
+    "id": "2055"
+  },
+  {
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "A popular restaurant in Manila claims, \"Our adobo is the best in the city because we use a secret 50-year-old family recipe.\"\n\nWhat is the underlying assumption in the restaurant's claim?",
+    "choices": [
+      "The ingredients used in the adobo are expensive.",
+      "The secret recipe was stolen from a competitor.",
+      "Older recipes always yield better-tasting dishes than newer ones.",
+      "No other restaurant in Manila sells adobo."
+    ],
+    "correct_answer": "Older recipes always yield better-tasting dishes than newer ones.",
+    "explanation": "The restaurant justifies its claim of having the 'best' adobo solely based on the age of its recipe (50 years old), implying an assumption that age and tradition guarantee superior taste.",
+    "id": "2056"
+  },
+  {
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "To get a scholarship, a student must have a GWA of 1.50 or better, must be a resident of the city for at least 5 years, and must have an annual family income of less than P250,000.\n\nMaria has a GWA of 1.25, has lived in the city since birth (18 years), and her family's annual income is P200,000. \nWhich of the following is true?",
+    "choices": [
+      "Maria is not qualified for the scholarship.",
+      "Maria's family income disqualifies her.",
+      "Maria lacks the residency requirement.",
+      "Maria meets all the requirements for the scholarship."
+    ],
+    "correct_answer": "Maria meets all the requirements for the scholarship.",
+    "explanation": "Maria's GWA (1.25 is better than 1.50), residency (18 years is > 5), and income (200k < 250k) all satisfy the stated conditions.",
+    "id": "2057"
+  },
+  {
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Four books—Math, Science, English, and History—are stacked on a table.\n- The Science book is directly on top of the History book.\n- The Math book is somewhere above the English book.\n- The English book is directly on top of the Science book.\n\nWhich book is at the very bottom of the stack?",
+    "choices": [
+      "History",
+      "Math",
+      "English",
+      "Science"
+    ],
+    "correct_answer": "History",
+    "explanation": "From bottom to top: Science is above History (History, Science). English is above Science (History, Science, English). Math is above English (History, Science, English, Math). The History book is at the bottom.",
+    "id": "2058"
+  },
+  {
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "A company announced: \"Due to the upcoming typhoon, all employees in the Metro Manila branches are advised to work from home tomorrow. Provincial branches will operate normally.\"\n\nWhich of the following conclusions logically follows?",
+    "choices": [
+      "The typhoon will not affect the provincial branches.",
+      "Employees in Metro Manila must still perform their tasks tomorrow.",
+      "Provincial employees will receive extra pay.",
+      "The Metro Manila branches will permanently close."
+    ],
+    "correct_answer": "Employees in Metro Manila must still perform their tasks tomorrow.",
+    "explanation": "Working from home implies that the employees are still expected to work and perform their duties, just from a different location due to the typhoon.",
+    "id": "2059"
+  },
+  {
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "If I wake up early, I will go jogging. If I go jogging, I will eat a heavy breakfast. Today, I did not eat a heavy breakfast.\n\nWhat can be logically concluded?",
+    "choices": [
+      "I woke up early.",
+      "I went jogging.",
+      "I did not wake up early.",
+      "I woke up late but went jogging."
+    ],
+    "correct_answer": "I did not wake up early.",
+    "explanation": "Using Modus Tollens: If A -> B, and B -> C. Therefore A -> C. Since I did not eat a heavy breakfast (Not C), then I did not go jogging (Not B), and therefore I did not wake up early (Not A).",
+    "id": "2060"
+  },
+  {
+    "id": "2061",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Five administrative officers (Alvarez, Bautista, Cruz, Santos, and Reyes) are assigned to 5 sequential desk numbers (1 to 5) in an open-plan office.\n- Alvarez is at Desk 1.\n- Reyes is at Desk 5.\n- Cruz is at a desk immediately next to Bautista.\n- Santos is at a desk with a higher number than Cruz.\n\nIf Bautista is at Desk 2, who is at Desk 3?",
+    "choices": [
+      "Santos",
+      "Cruz",
+      "Alvarez",
+      "Reyes"
+    ],
+    "correct_answer": "Cruz",
+    "explanation": "Alvarez=1, Reyes=5. Bautista=2. Cruz must be immediately next to Bautista, so Cruz is at Desk 3. Santos is at Desk 4 (higher than Cruz)."
+  },
+  {
+    "id": "2062",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "A Civil Service Commission resolution states: \"All government workers who complete 25 years of continuous service are entitled to a Loyalty Award.\"\n\nGloria has worked continuously in the Department of Agriculture for 26 years.\nWhich conclusion logically follows?",
+    "choices": [
+      "Gloria will be promoted to Bureau Director.",
+      "Gloria is entitled to a Loyalty Award.",
+      "Gloria must retire immediately.",
+      "Gloria is exempt from annual performance reviews."
+    ],
+    "correct_answer": "Gloria is entitled to a Loyalty Award.",
+    "explanation": "Since 26 years exceeds the required 25 years of continuous service, Gloria satisfies the condition and is entitled to the Loyalty Award."
+  },
+  {
+    "id": "2063",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Four training modules (Module 1, Module 2, Module 3, Module 4) must be completed in order:\n- Module 2 must be taken before Module 4.\n- Module 1 must be taken after Module 3.\n- Module 3 is taken first.\n\nWhich module is taken LAST?",
+    "choices": [
+      "Module 4",
+      "Module 2",
+      "Module 3",
+      "Module 1"
+    ],
+    "correct_answer": "Module 4",
+    "explanation": "Module 3 is 1st. Module 1 is taken after Module 3, so Module 1 is 2nd. Module 2 is 3rd, and Module 4 (after Module 2) is 4th (last)."
+  },
+  {
+    "id": "2064",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "A university advisory reads: \"Students who submit their thesis past the deadline will incur a 10% grade penalty.\"\n\nWhat is an implicit assumption in this advisory?",
+    "choices": [
+      "All students will fail their thesis.",
+      "Professors prefer late submissions.",
+      "Grade penalties discourage students from submitting their thesis late.",
+      "The deadline was announced without student consultation."
+    ],
+    "correct_answer": "Grade penalties discourage students from submitting their thesis late.",
+    "explanation": "Imposing a penalty assumes that the fear of losing marks will motivate students to submit their work on time."
+  },
+  {
+    "id": "2065",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Five provincial buses (Bus A, Bus B, Bus C, Bus D, Bus E) arrive at the terminal:\n- Bus B arrives before Bus C.\n- Bus A arrives after Bus E.\n- Bus C arrives before Bus A.\n- Bus D arrives first.\n\nWhich bus arrives LAST?",
+    "choices": [
+      "Bus A",
+      "Bus E",
+      "Bus B",
+      "Bus C"
+    ],
+    "correct_answer": "Bus A",
+    "explanation": "Arrival order: Bus D is 1st. B arrives before C (B -> C). C arrives before A (C -> A). E arrives before A. So the sequence is D -> B -> C -> E -> A. Bus A arrives last."
+  },
+  {
+    "id": "2066",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"To reduce paper waste, all official inter-agency memos will be sent exclusively via email starting next month.\"\n\nWhich of the following is an underlying assumption of this initiative?",
+    "choices": [
+      "Paper production will stop nationwide.",
+      "Email servers never experience technical downtime.",
+      "Inter-agency personnel have access to official email accounts.",
+      "Employees do not read printed memos."
+    ],
+    "correct_answer": "Inter-agency personnel have access to official email accounts.",
+    "explanation": "Mandating exclusive email communication assumes that all target recipients have active access to official email accounts."
+  },
+  {
+    "id": "2067",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Four regional delegates (from Luzon, Visayas, Mindanao, and NCR) presented their proposals:\n- NCR presented after Luzon.\n- Visayas presented before Luzon.\n- Mindanao presented last.\n\nIn what order did the delegates present?",
+    "choices": [
+      "Luzon, Visayas, NCR, Mindanao",
+      "Visayas, Luzon, NCR, Mindanao",
+      "NCR, Luzon, Visayas, Mindanao",
+      "Visayas, NCR, Luzon, Mindanao"
+    ],
+    "correct_answer": "Visayas, Luzon, NCR, Mindanao",
+    "explanation": "Visayas is before Luzon (Visayas -> Luzon). NCR is after Luzon (Luzon -> NCR). Mindanao is 4th. Order: Visayas (1st), Luzon (2nd), NCR (3rd), Mindanao (4th)."
+  },
+  {
+    "id": "2068",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"If a typhoon signal #3 is raised, all sea travel for small vessels is automatically suspended.\"\n\nSignal #3 was raised in Region VIII today.\nWhat conclusion logically follows?",
+    "choices": [
+      "All commercial flights in Region VIII are cancelled.",
+      "The typhoon will pass within 2 hours.",
+      "Sea travel for small vessels in Region VIII is suspended today.",
+      "Large ships are also prohibited from sailing."
+    ],
+    "correct_answer": "Sea travel for small vessels in Region VIII is suspended today.",
+    "explanation": "Raising Signal #3 directly triggers the automatic rule suspending sea travel for small vessels in that region."
+  },
+  {
+    "id": "2069",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Five applicants (P, Q, R, S, T) were interviewed for a job:\n- P was interviewed before Q.\n- R was interviewed after T.\n- Q was interviewed before T.\n- S was interviewed first.\n\nWho was interviewed FOURTH?",
+    "choices": [
+      "T",
+      "P",
+      "Q",
+      "R"
+    ],
+    "correct_answer": "T",
+    "explanation": "Interview order: S is 1st. P before Q (S -> P -> Q). Q before T (Q -> T). R after T (T -> R). Full order: S (1st), P (2nd), Q (3rd), T (4th), R (5th). T was 4th."
+  },
+  {
+    "id": "2070",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "A corporate policy states: \"Employees who achieve 100% sales targets for 3 consecutive months are eligible for an all-expenses-paid trip.\"\n\nMarco met 100% of his sales targets in January, February, and March.\nWhat logical conclusion can be drawn?",
+    "choices": [
+      "Marco will be promoted to Sales Vice President.",
+      "Marco is eligible for the all-expenses-paid trip.",
+      "Marco is the top sales performer in the entire company.",
+      "Marco will receive a cash bonus instead of a trip."
+    ],
+    "correct_answer": "Marco is eligible for the all-expenses-paid trip.",
+    "explanation": "Marco satisfied the requirement of hitting 100% sales targets for 3 consecutive months, making him eligible for the trip."
+  },
+  {
+    "id": "2071",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Five barangays (B1, B2, B3, B4, B5) are located along a straight highway:\n- B3 is between B1 and B2.\n- B4 is to the right of B2.\n- B5 is to the left of B1.\n\nWhich barangay is located in the middle (3rd position from left)?",
+    "choices": [
+      "B3",
+      "B1",
+      "B4",
+      "B2"
+    ],
+    "correct_answer": "B3",
+    "explanation": "From left to right: B5 (left of B1) -> B1 -> B3 (between B1 and B2) -> B2 -> B4 (right of B2). The sequence is B5, B1, B3, B2, B4. B3 is 3rd."
+  },
+  {
+    "id": "2072",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"Install solar panels on government buildings to cut municipal electricity expenses.\"\n\nWhich of the following is an implicit assumption in this statement?",
+    "choices": [
+      "Solar panels generate energy at a lower cost than current municipal power rates over time.",
+      "Electricity prices will drop to zero next month.",
+      "Government buildings operate only during nighttime.",
+      "Traditional power companies will shut down."
+    ],
+    "correct_answer": "Solar panels generate energy at a lower cost than current municipal power rates over time.",
+    "explanation": "Proposing solar installation to cut expenses assumes that solar energy reduces long-term operational costs compared to grid electricity."
+  },
+  {
+    "id": "2073",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Four office supplies (Paper, Pens, Ink, Folders) are stored in a vertical cabinet with 4 shelves (1 is bottom, 4 is top):\n- Ink is on a higher shelf than Pens.\n- Paper is on Shelf 1.\n- Folders are on the shelf directly below Ink.\n\nWhich item is stored on Shelf 4 (top shelf)?",
+    "choices": [
+      "Ink",
+      "Pens",
+      "Folders",
+      "Paper"
+    ],
+    "correct_answer": "Ink",
+    "explanation": "Paper is on Shelf 1. Folders is directly below Ink. Since Ink > Pens and Ink > Folders, Ink must be on Shelf 4, Folders on Shelf 3, and Pens on Shelf 2."
+  },
+  {
+    "id": "2074",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"All permanent civil service employees receive a mid-year bonus.\"\n\nRosa is a permanent civil service employee.\nWhich conclusion logically follows?",
+    "choices": [
+      "Rosa receives a mid-year bonus.",
+      "Rosa will be promoted next year.",
+      "Rosa receives a year-end bonus.",
+      "Rosa works in the Department of Finance."
+    ],
+    "correct_answer": "Rosa receives a mid-year bonus.",
+    "explanation": "Since all permanent employees receive the mid-year bonus, Rosa (being permanent) logically receives it."
+  },
+  {
+    "id": "2075",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Five runners (R1, R2, R3, R4, R5) completed a 5k race:\n- R2 finished before R4.\n- R1 finished after R5.\n- R3 finished before R2.\n- R5 finished after R4.\n\nWho finished FIRST (1st place)?",
+    "choices": [
+      "R4",
+      "R2",
+      "R3",
+      "R1"
+    ],
+    "correct_answer": "R3",
+    "explanation": "Finish order: R3 before R2 (R3 -> R2). R2 before R4 (R3 -> R2 -> R4). R4 before R5 (R3 -> R2 -> R4 -> R5). R5 before R1 (R3 -> R2 -> R4 -> R5 -> R1). R3 finished 1st."
+  },
+  {
+    "id": "2076",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"Mandate a biometric clock-in system to eliminate time-card tampering.\"\n\nWhat is an implicit assumption of this mandate?",
+    "choices": [
+      "All employees prefer paper time-cards.",
+      "Biometric features like fingerprints cannot be easily faked like paper time-cards.",
+      "Biometric systems are free to purchase.",
+      "Time-card tampering never occurs in office environments."
+    ],
+    "correct_answer": "Biometric features like fingerprints cannot be easily faked like paper time-cards.",
+    "explanation": "Replacing paper cards with biometrics assumes biometric traits are unique and harder to tamper with."
+  },
+  {
+    "id": "2077",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Four budget items (A, B, C, D) are arranged by priority:\n- Item B has higher priority than Item D.\n- Item A has higher priority than Item B.\n- Item C has lower priority than Item D.\n\nWhich item has the LOWEST priority?",
+    "choices": [
+      "Item B",
+      "Item D",
+      "Item A",
+      "Item C"
+    ],
+    "correct_answer": "Item C",
+    "explanation": "Priority ranking from highest to lowest: A > B > D > C. Item C has the lowest priority."
+  },
+  {
+    "id": "2078",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"If an applicant passes the written examination and the panel interview, they are hired.\"\n\nJuan passed the written examination but failed the panel interview.\nWhat conclusion logically follows?",
+    "choices": [
+      "Juan will be placed on a waiting list.",
+      "Juan is not hired.",
+      "Juan must retake the written exam.",
+      "Juan is hired."
+    ],
+    "correct_answer": "Juan is not hired.",
+    "explanation": "Hiring requires meeting BOTH conditions (written exam AND panel interview). Since Juan failed the interview, he does not qualify for hiring."
+  },
+  {
+    "id": "2079",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Five team members (K, L, M, N, O) submit their weekly reports:\n- K submits before L.\n- M submits after N.\n- L submits before N.\n- O submits first.\n\nWho submits THIRD?",
+    "choices": [
+      "L",
+      "N",
+      "K",
+      "M"
+    ],
+    "correct_answer": "L",
+    "explanation": "Submission order: O is 1st. K is before L (O -> K -> L). L is before N (O -> K -> L -> N). N is before M (O -> K -> L -> N -> M). The 3rd person to submit is L."
+  },
+  {
+    "id": "2080",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"Plant shade trees along city sidewalks to encourage walking and reduce urban heat.\"\n\nWhich of the following is an implicit assumption?",
+    "choices": [
+      "Trees grow to full height overnight.",
+      "Urban heat cannot be measured.",
+      "Lower pedestrian temperatures make walking more comfortable for city residents.",
+      "Sidewalks are used exclusively by cyclists."
+    ],
+    "correct_answer": "Lower pedestrian temperatures make walking more comfortable for city residents.",
+    "explanation": "The proposal assumes that providing shade reduces heat, which in turn makes walking more desirable to people."
+  },
+  {
+    "id": "2081",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Four task deadlines are scheduled: Task 1 (Monday), Task 2 (Wednesday), Task 3 (Tuesday), Task 4 (Friday).\n\nWhich task has the deadline immediately after Task 3?",
+    "choices": [
+      "Task 1",
+      "Task 2",
+      "None",
+      "Task 4"
+    ],
+    "correct_answer": "Task 2",
+    "explanation": "Days of week: Monday (Task 1), Tuesday (Task 3), Wednesday (Task 2), Friday (Task 4). Immediately after Tuesday (Task 3) is Wednesday (Task 2)."
+  },
+  {
+    "id": "2082",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"All licensed engineers in the department are eligible for technical hazard pay.\"\n\nEngr. Santos is a licensed engineer in the department.\nWhat conclusion logically follows?",
+    "choices": [
+      "Engr. Santos is the chief engineer.",
+      "Engr. Santos is ineligible for hazard pay.",
+      "Engr. Santos is eligible for technical hazard pay.",
+      "Engr. Santos does not work in the field."
+    ],
+    "correct_answer": "Engr. Santos is eligible for technical hazard pay.",
+    "explanation": "Engr. Santos meets the condition of being a licensed engineer in the department, so he is eligible for technical hazard pay."
+  },
+  {
+    "id": "2083",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Five candidates (V, W, X, Y, Z) were ranked in an evaluation:\n- V ranked higher than W.\n- X ranked higher than V.\n- Y ranked lower than W.\n- Z ranked highest (1st).\n\nWho ranked SECOND (2nd)?",
+    "choices": [
+      "X",
+      "V",
+      "W",
+      "Y"
+    ],
+    "correct_answer": "X",
+    "explanation": "Ranking from 1st to 5th: Z is 1st. X > V > W > Y. So 2nd is X, 3rd is V, 4th is W, 5th is Y. X ranked 2nd."
+  },
+  {
+    "id": "2084",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"Provide free Wi-Fi in public plazas to enhance digital connectivity for citizens.\"\n\nWhich assumption is implicit in this statement?",
+    "choices": [
+      "All citizens own desktop computers.",
+      "Public plazas are closed on weekends.",
+      "Internet access is harmful to community development.",
+      "Citizens carry Wi-Fi enabled mobile devices when visiting public plazas."
+    ],
+    "correct_answer": "Citizens carry Wi-Fi enabled mobile devices when visiting public plazas.",
+    "explanation": "Offering public Wi-Fi assumes visitors have devices (smartphones, laptops, tablets) capable of connecting to Wi-Fi."
+  },
+  {
+    "id": "2085",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Four official memos (Memo A, Memo B, Memo C, Memo D) were issued:\n- Memo B was issued after Memo A.\n- Memo C was issued before Memo A.\n- Memo D was issued after Memo B.\n\nWhich memo was issued FIRST?",
+    "choices": [
+      "Memo B",
+      "Memo D",
+      "Memo A",
+      "Memo C"
+    ],
+    "correct_answer": "Memo C",
+    "explanation": "Chronological order of issuance: Memo C -> Memo A -> Memo B -> Memo D. Memo C was issued first."
+  },
+  {
+    "id": "2086",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"If an employee incurs 10 unexcused absences in a month, they receive a formal written reprimand.\"\n\nCarlo incurred 12 unexcused absences this month.\nWhat logical conclusion follows?",
+    "choices": [
+      "Carlo is exempt from office rules.",
+      "Carlo will be promoted.",
+      "Carlo receives a formal written reprimand.",
+      "Carlo receives a verbal warning only."
+    ],
+    "correct_answer": "Carlo receives a formal written reprimand.",
+    "explanation": "12 absences exceeds the 10-absence threshold for unexcused absences, triggering the formal written reprimand."
+  },
+  {
+    "id": "2087",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Five cars (C1, C2, C3, C4, C5) are parked in numbered slots 1 to 5:\n- C3 is in Slot 3 (middle).\n- C1 is in Slot 1.\n- C5 is in Slot 5.\n- C2 is in a slot with a lower number than C4.\n\nWhich slot does C2 occupy?",
+    "choices": [
+      "Slot 2",
+      "Slot 4",
+      "Slot 3",
+      "Slot 1"
+    ],
+    "correct_answer": "Slot 2",
+    "explanation": "Slots 1, 3, 5 are occupied by C1, C3, C5. Remaining slots: 2 and 4. Since C2 is lower than C4, C2 is in Slot 2 and C4 is in Slot 4."
+  },
+  {
+    "id": "2088",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"Conduct annual fire drills in all government buildings to ensure employee safety during emergencies.\"\n\nWhat is an implicit assumption of this policy?",
+    "choices": [
+      "Employees do not care about building safety.",
+      "Fire drills cause building damage.",
+      "Practicing evacuation procedures improves employee response during actual fires.",
+      "Fires occur in government buildings every day."
+    ],
+    "correct_answer": "Practicing evacuation procedures improves employee response during actual fires.",
+    "explanation": "Mandating fire drills assumes that practice and familiarity with evacuation routes enhance safety during a real emergency."
+  },
+  {
+    "id": "2089",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Four training workshops (W1, W2, W3, W4) are scheduled sequentially:\n- W2 is scheduled after W1.\n- W4 is scheduled before W1.\n- W3 is scheduled after W2.\n\nWhich workshop is scheduled FIRST?",
+    "choices": [
+      "W1",
+      "W4",
+      "W2",
+      "W3"
+    ],
+    "correct_answer": "W4",
+    "explanation": "Schedule order: W4 -> W1 -> W2 -> W3. W4 is scheduled first."
+  },
+  {
+    "id": "2090",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"Employees who complete the advanced leadership course are eligible for executive assignment.\"\n\nLiza completed the advanced leadership course.\nWhat conclusion logically follows?",
+    "choices": [
+      "Liza must resign from her current post.",
+      "Liza is automatically appointed as Chief Executive.",
+      "Liza is eligible for executive assignment.",
+      "Liza failed the course."
+    ],
+    "correct_answer": "Liza is eligible for executive assignment.",
+    "explanation": "Liza met the explicit prerequisite of completing the course, making her eligible for executive assignment."
+  },
+  {
+    "id": "2091",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "A regional office requires all staff to attend a mandatory digital literacy seminar.\n\nWhich of the following is an underlying assumption of this requirement?",
+    "choices": [
+      "Seminars are the only way staff can learn anything.",
+      "Digital literacy improves overall staff efficiency and productivity.",
+      "Digital literacy is unnecessary for government work.",
+      "Staff members already possess advanced coding skills."
+    ],
+    "correct_answer": "Digital literacy improves overall staff efficiency and productivity.",
+    "explanation": "Mandating the seminar assumes that gaining digital literacy will lead to positive outcomes like improved workplace performance."
+  },
+  {
+    "id": "2092",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Four administrative tasks (Filing, Auditing, Data Entry, Reporting) are scheduled:\n- Auditing is performed after Filing.\n- Data Entry is performed before Filing.\n- Reporting is performed last.\n\nWhich task is performed SECOND?",
+    "choices": [
+      "Reporting",
+      "Auditing",
+      "Data Entry",
+      "Filing"
+    ],
+    "correct_answer": "Filing",
+    "explanation": "Sequence: Data Entry (1st) -> Filing (2nd) -> Auditing (3rd) -> Reporting (4th). Filing is performed second."
+  },
+  {
+    "id": "2093",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"If an agency achieves ISO certification, its service delivery processes are standardized.\"\n\nAgency Z achieved ISO certification.\nWhat conclusion logically follows?",
+    "choices": [
+      "Agency Z employs only certified public accountants.",
+      "Agency Z's service delivery processes are standardized.",
+      "Agency Z will close next year.",
+      "Agency Z has no budget deficits."
+    ],
+    "correct_answer": "Agency Z's service delivery processes are standardized.",
+    "explanation": "Direct application of the conditional statement: achieving ISO certification implies standardized processes."
+  },
+  {
+    "id": "2094",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Five team leaders (A, B, C, D, E) are assigned to 5 project phases (Phase 1 to 5):\n- A is assigned to Phase 1.\n- E is assigned to Phase 5.\n- C is assigned to a phase immediately after B.\n- D is assigned to Phase 4.\n\nWhich phase is assigned to C?",
+    "choices": [
+      "Phase 4",
+      "Phase 2",
+      "Phase 3",
+      "Phase 5"
+    ],
+    "correct_answer": "Phase 3",
+    "explanation": "Phases: 1=A, 4=D, 5=E. Available phases for B and C: Phase 2 and Phase 3. Since C comes immediately after B, B=Phase 2 and C=Phase 3."
+  },
+  {
+    "id": "2095",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"Provide free rabies vaccinations for household pets to eliminate rabies transmission.\"\n\nWhich assumption is implicit in this statement?",
+    "choices": [
+      "Rabies is a non-contagious viral infection.",
+      "All households own at least three pets.",
+      "Pets are the only animals in existence.",
+      "Vaccinating household pets effectively stops rabies transmission to humans."
+    ],
+    "correct_answer": "Vaccinating household pets effectively stops rabies transmission to humans.",
+    "explanation": "Providing pet rabies vaccines to eliminate transmission assumes domestic pet vaccination is an effective control measure."
+  },
+  {
+    "id": "2096",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Four reports (R1, R2, R3, R4) are reviewed sequentially:\n- R2 is reviewed after R1.\n- R3 is reviewed before R1.\n- R4 is reviewed after R2.\n\nWhich report is reviewed THIRD?",
+    "choices": [
+      "R4",
+      "R3",
+      "R1",
+      "R2"
+    ],
+    "correct_answer": "R2",
+    "explanation": "Review order: R3 (1st) -> R1 (2nd) -> R2 (3rd) -> R4 (4th). R2 is reviewed third."
+  },
+  {
+    "id": "2097",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"All full-time staff who complete 3 years of service receive tenure.\"\n\nElena is a full-time staff member who has completed 4 years of service.\nWhat conclusion logically follows?",
+    "choices": [
+      "Elena is ineligible for tenure.",
+      "Elena receives tenure.",
+      "Elena must retake the entrance exam.",
+      "Elena will be transferred to a new department."
+    ],
+    "correct_answer": "Elena receives tenure.",
+    "explanation": "Elena satisfies the criteria of being full-time and completing over 3 years of service, so she receives tenure."
+  },
+  {
+    "id": "2098",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Five offices (O1, O2, O3, O4, O5) are located along a corridor:\n- O3 is in the middle.\n- O1 is at the left end.\n- O5 is at the right end.\n- O2 is to the left of O4.\n\nWhich office is located 4th from the left?",
+    "choices": [
+      "O1",
+      "O3",
+      "O2",
+      "O4"
+    ],
+    "correct_answer": "O4",
+    "explanation": "Order from left to right: 1st=O1, 3rd=O3, 5th=O5. Remaining positions 2nd and 4th: O2 is to the left of O4, so 2nd=O2 and 4th=O4."
+  },
+  {
+    "id": "2099",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Statement: \"Install water filtration systems in rural health centers to ensure clean drinking water.\"\n\nWhat is an implicit assumption of this initiative?",
+    "choices": [
+      "Filtration systems successfully remove harmful contaminants from water.",
+      "Rural citizens do not drink water.",
+      "Water filters require no maintenance.",
+      "Rural health centers currently have unlimited bottled water."
+    ],
+    "correct_answer": "Filtration systems successfully remove harmful contaminants from water.",
+    "explanation": "Installing filtration systems assumes that the technology reliably purifies water for safe drinking."
+  },
+  {
+    "id": "2100",
+    "category": "Analytical Ability – Assumptions & Conclusions",
+    "question": "Four applicants (A, B, C, D) were ranked by test scores:\n- A scored higher than B.\n- C scored higher than A.\n- D scored lower than B.\n\nWho achieved the HIGHEST score?",
+    "choices": [
+      "D",
+      "B",
+      "C",
+      "A"
+    ],
+    "correct_answer": "C",
+    "explanation": "Score ranking from highest to lowest: C > A > B > D. Applicant C achieved the highest score."
   }
 ]

@@ -48,7 +48,7 @@
 
       for (let attempt = 0; attempt <= retries; attempt++) {
         try {
-          const { error } = await supabase
+          const { error: attemptError } = await supabase
             .from('exam_attempts')
             .insert({
               user_id: userSession.user.id,
@@ -61,7 +61,33 @@
               user_answers: userAnswers
             });
 
-          if (error) throw error;
+          if (attemptError) throw attemptError;
+
+          // Sync user progress (Spaced Repetition)
+          const examQuestionIds = questions.map(q => q.id);
+          const incorrectIds = questions.filter((q, i) => userAnswers[i] !== q.correct_answer).map(q => q.id);
+          const correctIds = questions.filter((q, i) => userAnswers[i] === q.correct_answer).map(q => q.id);
+
+          const { data: progressData } = await supabase
+            .from('user_progress')
+            .select('seen_questions, wrong_questions')
+            .eq('user_id', userSession.user.id)
+            .maybeSingle();
+
+          let seen = progressData?.seen_questions || [];
+          let wrong = progressData?.wrong_questions || [];
+
+          seen = Array.from(new Set([...seen, ...examQuestionIds]));
+          wrong = Array.from(new Set([...wrong, ...incorrectIds]));
+          wrong = wrong.filter(id => !correctIds.includes(id));
+
+          await supabase.from('user_progress').upsert({
+            user_id: userSession.user.id,
+            seen_questions: seen,
+            wrong_questions: wrong,
+            updated_at: new Date().toISOString()
+          }, { onConflict: 'user_id' });
+
           saveStatus = 'saved';
           return;
         } catch (err: any) {

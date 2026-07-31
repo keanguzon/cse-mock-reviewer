@@ -1,652 +1,652 @@
 [
-    {
-        "id": "281",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "acomodate",
-            "accomodate",
-            "acommodate",
-            "accommodate"
-        ],
-        "correct_answer": "accommodate",
-        "explanation": "The correct spelling is 'accommodate' with double 'c' and double 'm'."
-    },
-    {
-        "id": "282",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "separate",
-            "necessary",
-            "occurrence",
-            "definately"
-        ],
-        "correct_answer": "definately",
-        "explanation": "The correct spelling is 'definitely,' not 'definately.' The root word is 'definite.'"
-    },
-    {
-        "id": "283",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "bereaucracy",
-            "burocracy",
-            "bureaucracy",
-            "beaurocracy"
-        ],
-        "correct_answer": "bureaucracy",
-        "explanation": "The correct spelling is 'bureaucracy,' derived from the French word 'bureau.'"
-    },
-    {
-        "id": "284",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "environment",
-            "achievement",
-            "arguement",
-            "acknowledgment"
-        ],
-        "correct_answer": "arguement",
-        "explanation": "The correct spelling is 'argument' — the 'e' in 'argue' is dropped when adding '-ment.'"
-    },
-    {
-        "id": "285",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "receeve",
-            "receve",
-            "recieve",
-            "receive"
-        ],
-        "correct_answer": "receive",
-        "explanation": "The correct spelling follows the rule 'i before e, except after c': receive."
-    },
-    {
-        "id": "286",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "maintenance",
-            "occurence",
-            "perseverance",
-            "grievance"
-        ],
-        "correct_answer": "occurence",
-        "explanation": "The correct spelling is 'occurrence' with double 'r' and ending in '-ence.'"
-    },
-    {
-        "id": "287",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "privelege",
-            "previlege",
-            "priviledge",
-            "privilege"
-        ],
-        "correct_answer": "privilege",
-        "explanation": "The correct spelling is 'privilege' — note there is no 'd' and the second vowel is 'i.'"
-    },
-    {
-        "id": "288",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "goverment",
-            "personnel",
-            "recommend",
-            "committee"
-        ],
-        "correct_answer": "goverment",
-        "explanation": "The correct spelling is 'government' — the 'n' before 'ment' is essential."
-    },
-    {
-        "id": "289",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "conciencious",
-            "conscientous",
-            "conscientious",
-            "conscentious"
-        ],
-        "correct_answer": "conscientious",
-        "explanation": "The correct spelling is 'conscientious,' meaning wishing to do what is right."
-    },
-    {
-        "id": "290",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "intercede",
-            "supersede",
-            "procede",
-            "precede"
-        ],
-        "correct_answer": "procede",
-        "explanation": "The correct spelling is 'proceed.' Note: 'supersede' is the only word in English ending in '-sede.'"
-    },
-    {
-        "id": "291",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "leizure",
-            "leasure",
-            "liesure",
-            "leisure"
-        ],
-        "correct_answer": "leisure",
-        "explanation": "The correct spelling is 'leisure' — an exception to the 'i before e' rule."
-    },
-    {
-        "id": "292",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "miscellaneous",
-            "questionnaire",
-            "independant",
-            "Philippines"
-        ],
-        "correct_answer": "independant",
-        "explanation": "The correct spelling is 'independent' — it ends in '-ent,' not '-ant.'"
-    },
-    {
-        "id": "293",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "millennium",
-            "milennium",
-            "milenium",
-            "millenium"
-        ],
-        "correct_answer": "millennium",
-        "explanation": "The correct spelling is 'millennium' with double 'l' and double 'n.'"
-    },
-    {
-        "id": "294",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "dilemma",
-            "assessment",
-            "harrassment",
-            "curriculum"
-        ],
-        "correct_answer": "harrassment",
-        "explanation": "The correct spelling is 'harassment' — only one 'r' after 'ha.'"
-    },
-    {
-        "id": "295",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "laiason",
-            "liason",
-            "liaison",
-            "liasion"
-        ],
-        "correct_answer": "liaison",
-        "explanation": "The correct spelling is 'liaison' — derived from French, with 'ai' followed by 'son.'"
-    },
-    {
-        "id": "296",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "innoculate",
-            "exaggerate",
-            "inoculate",
-            "abbreviate"
-        ],
-        "correct_answer": "innoculate",
-        "explanation": "The correct spelling is 'inoculate' — only one 'n.' This is a commonly misspelled word."
-    },
-    {
-        "id": "297",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "correspondense",
-            "corespondence",
-            "correspondence",
-            "correspondance"
-        ],
-        "correct_answer": "correspondence",
-        "explanation": "The correct spelling is 'correspondence' — ending in '-ence,' with double 'r.'"
-    },
-    {
-        "id": "298",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "itinerary",
-            "beneficiary",
-            "calender",
-            "auxiliary"
-        ],
-        "correct_answer": "calender",
-        "explanation": "The correct spelling is 'calendar' — with 'a' in the last syllable, not 'e.' A 'calender' is actually a machine used in manufacturing."
-    },
-    {
-        "id": "299",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "reccommendation",
-            "recommendation",
-            "reccomendation",
-            "recomendation"
-        ],
-        "correct_answer": "recommendation",
-        "explanation": "The correct spelling is 'recommendation' — one 'c,' double 'm.'"
-    },
-    {
-        "id": "300",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "entrepreneur",
-            "aquaintance",
-            "surveillance",
-            "mischievous"
-        ],
-        "correct_answer": "aquaintance",
-        "explanation": "The correct spelling is 'acquaintance' — note the 'c' before 'q' and the '-ance' ending."
-    },
-    {
-        "id": "301",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "embarassment",
-            "embarrassment",
-            "embarrasment",
-            "embarasment"
-        ],
-        "correct_answer": "embarrassment",
-        "explanation": "The correct spelling is 'embarrassment' with double 'r' and double 's'."
-    },
-    {
-        "id": "302",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "boundary",
-            "cemetery",
-            "cemetary",
-            "category"
-        ],
-        "correct_answer": "cemetary",
-        "explanation": "The correct spelling is 'cemetery' — all vowels in the endings are 'e' (c-e-m-e-t-e-r-y)."
-    },
-    {
-        "id": "303",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "indespensible",
-            "indispensable",
-            "indispensible",
-            "indespensable"
-        ],
-        "correct_answer": "indispensable",
-        "explanation": "The correct spelling is 'indispensable' — ending in '-able.'"
-    },
-    {
-        "id": "304",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "consent",
-            "concensus",
-            "census",
-            "consensus"
-        ],
-        "correct_answer": "concensus",
-        "explanation": "The correct spelling is 'consensus' — with an 's' after the 'n', not a 'c.'"
-    },
-    {
-        "id": "305",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "guage",
-            "gagee",
-            "gauje",
-            "gauge"
-        ],
-        "correct_answer": "gauge",
-        "explanation": "The correct spelling is 'gauge' (g-a-u-g-e)."
-    },
-    {
-        "id": "306",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "denunciation",
-            "pronunciation",
-            "renunciation",
-            "pronounciation"
-        ],
-        "correct_answer": "pronounciation",
-        "explanation": "The correct spelling is 'pronunciation' — note the root drops 'ou' from 'pronounce.'"
-    },
-    {
-        "id": "307",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "hierarchy",
-            "hierachy",
-            "heirarchy",
-            "hirarchy"
-        ],
-        "correct_answer": "hierarchy",
-        "explanation": "The correct spelling is 'hierarchy' (h-i-e-r-a-r-c-h-y)."
-    },
-    {
-        "id": "308",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "prerequisite",
-            "precedent",
-            "perogative",
-            "prerogative"
-        ],
-        "correct_answer": "perogative",
-        "explanation": "The correct spelling is 'prerogative' — starting with 'pre-.'"
-    },
-    {
-        "id": "309",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "rythm",
-            "rythim",
-            "rhythm",
-            "rhythim"
-        ],
-        "correct_answer": "rhythm",
-        "explanation": "The correct spelling is 'rhythm' (r-h-y-t-h-m)."
-    },
-    {
-        "id": "310",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "vaccuum",
-            "vacuum",
-            "volume",
-            "valuable"
-        ],
-        "correct_answer": "vaccuum",
-        "explanation": "The correct spelling is 'vacuum' — one 'c' and double 'u.'"
-    },
-    {
-        "id": "311",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "gaurantee",
-            "garantee",
-            "guarantee",
-            "guarenty"
-        ],
-        "correct_answer": "guarantee",
-        "explanation": "The correct spelling is 'guarantee' (g-u-a-r-a-n-t-e-e)."
-    },
-    {
-        "id": "312",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "florescent",
-            "luminescent",
-            "phosphorescent",
-            "fluorescent"
-        ],
-        "correct_answer": "florescent",
-        "explanation": "The correct spelling is 'fluorescent' — starting with 'fluo-.'"
-    },
-    {
-        "id": "313",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "miscelaneous",
-            "misscellaneous",
-            "miscelaneus",
-            "miscellaneous"
-        ],
-        "correct_answer": "miscellaneous",
-        "explanation": "The correct spelling is 'miscellaneous' — double 'l,' ending in '-aneous.'"
-    },
-    {
-        "id": "314",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "surveilance",
-            "vigilance",
-            "surveillance",
-            "observance"
-        ],
-        "correct_answer": "surveilance",
-        "explanation": "The correct spelling is 'surveillance' — double 'l.'"
-    },
-    {
-        "id": "315",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "enterpreneur",
-            "entrepreneur",
-            "entreperneur",
-            "entrepeneur"
-        ],
-        "correct_answer": "entrepreneur",
-        "explanation": "The correct spelling is 'entrepreneur' (e-n-t-r-e-p-r-e-n-e-u-r)."
-    },
-    {
-        "id": "316",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "persistent",
-            "insistent",
-            "persistant",
-            "consistent"
-        ],
-        "correct_answer": "persistant",
-        "explanation": "The correct spelling is 'persistent' — ending in '-ent.'"
-    },
-    {
-        "id": "317",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "superceed",
-            "supsede",
-            "supersede",
-            "supercede"
-        ],
-        "correct_answer": "supersede",
-        "explanation": "The correct spelling is 'supersede' — it is the only word in English ending in '-sede.'"
-    },
-    {
-        "id": "318",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "regulatory",
-            "statutory",
-            "mandatory",
-            "manditory"
-        ],
-        "correct_answer": "manditory",
-        "explanation": "The correct spelling is 'mandatory' — with an 'a' in the third syllable (m-a-n-d-a-t-o-r-y)."
-    },
-    {
-        "id": "319",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "axiliary",
-            "auxiliary",
-            "auxillary",
-            "auxilary"
-        ],
-        "correct_answer": "auxiliary",
-        "explanation": "The correct spelling is 'auxiliary' — single 'l' before '-iary.'"
-    },
-    {
-        "id": "320",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "millionaire",
-            "questionnaire",
-            "concessionaire",
-            "questionaire"
-        ],
-        "correct_answer": "questionaire",
-        "explanation": "The correct spelling is 'questionnaire' — double 'n.'"
-    },
-    {
-        "id": "321",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "souveneer",
-            "suvenir",
-            "suveneer",
-            "souvenir"
-        ],
-        "correct_answer": "souvenir",
-        "explanation": "The correct spelling is 'souvenir' (s-o-u-v-e-n-i-r)."
-    },
-    {
-        "id": "322",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "dysentery",
-            "diphtheria",
-            "diarrhea",
-            "diptheria"
-        ],
-        "correct_answer": "diptheria",
-        "explanation": "The correct spelling is 'diphtheria' — note the 'ph' (d-i-p-h-t-h-e-r-i-a)."
-    },
-    {
-        "id": "323",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "maintenance",
-            "maintenence",
-            "maintainance",
-            "maintenanse"
-        ],
-        "correct_answer": "maintenance",
-        "explanation": "The correct spelling is 'maintenance' — note 'ten' instead of 'tain.'"
-    },
-    {
-        "id": "324",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "personality",
-            "personnel",
-            "personal",
-            "personel"
-        ],
-        "correct_answer": "personel",
-        "explanation": "The correct spelling for staff/employees is 'personnel' with double 'n.'"
-    },
-    {
-        "id": "325",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "statutary",
-            "statutory",
-            "statutoary",
-            "statuatory"
-        ],
-        "correct_answer": "statutory",
-        "explanation": "The correct spelling is 'statutory' (s-t-a-t-u-t-o-r-y)."
-    },
-    {
-        "id": "326",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "prerequsite",
-            "acquisition",
-            "requisite",
-            "prerequisite"
-        ],
-        "correct_answer": "prerequsite",
-        "explanation": "The correct spelling is 'prerequisite' — with 'i' after 'quis.'"
-    },
-    {
-        "id": "327",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "ameteur",
-            "amature",
-            "amateur",
-            "amatuer"
-        ],
-        "correct_answer": "amateur",
-        "explanation": "The correct spelling is 'amateur' (a-m-a-t-e-u-r)."
-    },
-    {
-        "id": "328",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "maneuverable",
-            "maneuverability",
-            "maneuver",
-            "manoeuver"
-        ],
-        "correct_answer": "manoeuver",
-        "explanation": "The standard American English spelling is 'maneuver.'"
-    },
-    {
-        "id": "329",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled CORRECTLY?",
-        "choices": [
-            "harrasment",
-            "harassmentt",
-            "harasment",
-            "harassment"
-        ],
-        "correct_answer": "harassment",
-        "explanation": "The correct spelling is 'harassment' — single 'r', double 's'."
-    },
-    {
-        "id": "330",
-        "category": "Clerical Ability – Spelling",
-        "question": "Which of the following words is spelled INCORRECTLY?",
-        "choices": [
-            "parliamentarian",
-            "parliamentary",
-            "parliament",
-            "parliment"
-        ],
-        "correct_answer": "parliment",
-        "explanation": "The correct spelling is 'parliament' — with 'ia' in the middle (p-a-r-l-i-a-m-e-n-t)."
-    }
+  {
+    "id": "6001",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "acomodate",
+      "accomodate",
+      "acommodate",
+      "accommodate"
+    ],
+    "correct_answer": "accommodate",
+    "explanation": "The correct spelling is 'accommodate' with double 'c' and double 'm'."
+  },
+  {
+    "id": "6002",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "separate",
+      "necessary",
+      "occurrence",
+      "definately"
+    ],
+    "correct_answer": "definately",
+    "explanation": "The correct spelling is 'definitely,' not 'definately.' The root word is 'definite.'"
+  },
+  {
+    "id": "6003",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "bereaucracy",
+      "burocracy",
+      "bureaucracy",
+      "beaurocracy"
+    ],
+    "correct_answer": "bureaucracy",
+    "explanation": "The correct spelling is 'bureaucracy,' derived from the French word 'bureau.'"
+  },
+  {
+    "id": "6004",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "environment",
+      "achievement",
+      "arguement",
+      "acknowledgment"
+    ],
+    "correct_answer": "arguement",
+    "explanation": "The correct spelling is 'argument' — the 'e' in 'argue' is dropped when adding '-ment.'"
+  },
+  {
+    "id": "6005",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "receeve",
+      "receve",
+      "recieve",
+      "receive"
+    ],
+    "correct_answer": "receive",
+    "explanation": "The correct spelling follows the rule 'i before e, except after c': receive."
+  },
+  {
+    "id": "6006",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "maintenance",
+      "occurence",
+      "perseverance",
+      "grievance"
+    ],
+    "correct_answer": "occurence",
+    "explanation": "The correct spelling is 'occurrence' with double 'r' and ending in '-ence.'"
+  },
+  {
+    "id": "6007",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "privelege",
+      "previlege",
+      "priviledge",
+      "privilege"
+    ],
+    "correct_answer": "privilege",
+    "explanation": "The correct spelling is 'privilege' — note there is no 'd' and the second vowel is 'i.'"
+  },
+  {
+    "id": "6008",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "goverment",
+      "personnel",
+      "recommend",
+      "committee"
+    ],
+    "correct_answer": "goverment",
+    "explanation": "The correct spelling is 'government' — the 'n' before 'ment' is essential."
+  },
+  {
+    "id": "6009",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "conciencious",
+      "conscientous",
+      "conscientious",
+      "conscentious"
+    ],
+    "correct_answer": "conscientious",
+    "explanation": "The correct spelling is 'conscientious,' meaning wishing to do what is right."
+  },
+  {
+    "id": "6010",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "intercede",
+      "supersede",
+      "procede",
+      "precede"
+    ],
+    "correct_answer": "procede",
+    "explanation": "The correct spelling is 'proceed.' Note: 'supersede' is the only word in English ending in '-sede.'"
+  },
+  {
+    "id": "6011",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "leizure",
+      "leasure",
+      "liesure",
+      "leisure"
+    ],
+    "correct_answer": "leisure",
+    "explanation": "The correct spelling is 'leisure' — an exception to the 'i before e' rule."
+  },
+  {
+    "id": "6012",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "miscellaneous",
+      "questionnaire",
+      "independant",
+      "Philippines"
+    ],
+    "correct_answer": "independant",
+    "explanation": "The correct spelling is 'independent' — it ends in '-ent,' not '-ant.'"
+  },
+  {
+    "id": "6013",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "millennium",
+      "milennium",
+      "milenium",
+      "millenium"
+    ],
+    "correct_answer": "millennium",
+    "explanation": "The correct spelling is 'millennium' with double 'l' and double 'n.'"
+  },
+  {
+    "id": "6014",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "dilemma",
+      "assessment",
+      "harrassment",
+      "curriculum"
+    ],
+    "correct_answer": "harrassment",
+    "explanation": "The correct spelling is 'harassment' — only one 'r' after 'ha.'"
+  },
+  {
+    "id": "6015",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "laiason",
+      "liason",
+      "liaison",
+      "liasion"
+    ],
+    "correct_answer": "liaison",
+    "explanation": "The correct spelling is 'liaison' — derived from French, with 'ai' followed by 'son.'"
+  },
+  {
+    "id": "6016",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "innoculate",
+      "exaggerate",
+      "inoculate",
+      "abbreviate"
+    ],
+    "correct_answer": "innoculate",
+    "explanation": "The correct spelling is 'inoculate' — only one 'n.' This is a commonly misspelled word."
+  },
+  {
+    "id": "6017",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "correspondense",
+      "corespondence",
+      "correspondence",
+      "correspondance"
+    ],
+    "correct_answer": "correspondence",
+    "explanation": "The correct spelling is 'correspondence' — ending in '-ence,' with double 'r.'"
+  },
+  {
+    "id": "6018",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "itinerary",
+      "beneficiary",
+      "calender",
+      "auxiliary"
+    ],
+    "correct_answer": "calender",
+    "explanation": "The correct spelling is 'calendar' — with 'a' in the last syllable, not 'e.' A 'calender' is actually a machine used in manufacturing."
+  },
+  {
+    "id": "6019",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "reccommendation",
+      "recommendation",
+      "reccomendation",
+      "recomendation"
+    ],
+    "correct_answer": "recommendation",
+    "explanation": "The correct spelling is 'recommendation' — one 'c,' double 'm.'"
+  },
+  {
+    "id": "6020",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "entrepreneur",
+      "aquaintance",
+      "surveillance",
+      "mischievous"
+    ],
+    "correct_answer": "aquaintance",
+    "explanation": "The correct spelling is 'acquaintance' — note the 'c' before 'q' and the '-ance' ending."
+  },
+  {
+    "id": "6021",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "embarassment",
+      "embarrassment",
+      "embarrasment",
+      "embarasment"
+    ],
+    "correct_answer": "embarrassment",
+    "explanation": "The correct spelling is 'embarrassment' with double 'r' and double 's'."
+  },
+  {
+    "id": "6022",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "boundary",
+      "cemetery",
+      "cemetary",
+      "category"
+    ],
+    "correct_answer": "cemetary",
+    "explanation": "The correct spelling is 'cemetery' — all vowels in the endings are 'e' (c-e-m-e-t-e-r-y)."
+  },
+  {
+    "id": "6023",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "indespensible",
+      "indispensable",
+      "indispensible",
+      "indespensable"
+    ],
+    "correct_answer": "indispensable",
+    "explanation": "The correct spelling is 'indispensable' — ending in '-able.'"
+  },
+  {
+    "id": "6024",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "consent",
+      "concensus",
+      "census",
+      "consensus"
+    ],
+    "correct_answer": "concensus",
+    "explanation": "The correct spelling is 'consensus' — with an 's' after the 'n', not a 'c.'"
+  },
+  {
+    "id": "6025",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "guage",
+      "gagee",
+      "gauje",
+      "gauge"
+    ],
+    "correct_answer": "gauge",
+    "explanation": "The correct spelling is 'gauge' (g-a-u-g-e)."
+  },
+  {
+    "id": "6026",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "denunciation",
+      "pronunciation",
+      "renunciation",
+      "pronounciation"
+    ],
+    "correct_answer": "pronounciation",
+    "explanation": "The correct spelling is 'pronunciation' — note the root drops 'ou' from 'pronounce.'"
+  },
+  {
+    "id": "6027",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "hierarchy",
+      "hierachy",
+      "heirarchy",
+      "hirarchy"
+    ],
+    "correct_answer": "hierarchy",
+    "explanation": "The correct spelling is 'hierarchy' (h-i-e-r-a-r-c-h-y)."
+  },
+  {
+    "id": "6028",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "prerequisite",
+      "precedent",
+      "perogative",
+      "prerogative"
+    ],
+    "correct_answer": "perogative",
+    "explanation": "The correct spelling is 'prerogative' — starting with 'pre-.'"
+  },
+  {
+    "id": "6029",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "rythm",
+      "rythim",
+      "rhythm",
+      "rhythim"
+    ],
+    "correct_answer": "rhythm",
+    "explanation": "The correct spelling is 'rhythm' (r-h-y-t-h-m)."
+  },
+  {
+    "id": "6030",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "vaccuum",
+      "vacuum",
+      "volume",
+      "valuable"
+    ],
+    "correct_answer": "vaccuum",
+    "explanation": "The correct spelling is 'vacuum' — one 'c' and double 'u.'"
+  },
+  {
+    "id": "6031",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "gaurantee",
+      "garantee",
+      "guarantee",
+      "guarenty"
+    ],
+    "correct_answer": "guarantee",
+    "explanation": "The correct spelling is 'guarantee' (g-u-a-r-a-n-t-e-e)."
+  },
+  {
+    "id": "6032",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "florescent",
+      "luminescent",
+      "phosphorescent",
+      "fluorescent"
+    ],
+    "correct_answer": "florescent",
+    "explanation": "The correct spelling is 'fluorescent' — starting with 'fluo-.'"
+  },
+  {
+    "id": "6033",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "miscelaneous",
+      "misscellaneous",
+      "miscelaneus",
+      "miscellaneous"
+    ],
+    "correct_answer": "miscellaneous",
+    "explanation": "The correct spelling is 'miscellaneous' — double 'l,' ending in '-aneous.'"
+  },
+  {
+    "id": "6034",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "surveilance",
+      "vigilance",
+      "surveillance",
+      "observance"
+    ],
+    "correct_answer": "surveilance",
+    "explanation": "The correct spelling is 'surveillance' — double 'l.'"
+  },
+  {
+    "id": "6035",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "enterpreneur",
+      "entrepreneur",
+      "entreperneur",
+      "entrepeneur"
+    ],
+    "correct_answer": "entrepreneur",
+    "explanation": "The correct spelling is 'entrepreneur' (e-n-t-r-e-p-r-e-n-e-u-r)."
+  },
+  {
+    "id": "6036",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "persistent",
+      "insistent",
+      "persistant",
+      "consistent"
+    ],
+    "correct_answer": "persistant",
+    "explanation": "The correct spelling is 'persistent' — ending in '-ent.'"
+  },
+  {
+    "id": "6037",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "superceed",
+      "supsede",
+      "supersede",
+      "supercede"
+    ],
+    "correct_answer": "supersede",
+    "explanation": "The correct spelling is 'supersede' — it is the only word in English ending in '-sede.'"
+  },
+  {
+    "id": "6038",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "regulatory",
+      "statutory",
+      "mandatory",
+      "manditory"
+    ],
+    "correct_answer": "manditory",
+    "explanation": "The correct spelling is 'mandatory' — with an 'a' in the third syllable (m-a-n-d-a-t-o-r-y)."
+  },
+  {
+    "id": "6039",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "axiliary",
+      "auxiliary",
+      "auxillary",
+      "auxilary"
+    ],
+    "correct_answer": "auxiliary",
+    "explanation": "The correct spelling is 'auxiliary' — single 'l' before '-iary.'"
+  },
+  {
+    "id": "6040",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "millionaire",
+      "questionnaire",
+      "concessionaire",
+      "questionaire"
+    ],
+    "correct_answer": "questionaire",
+    "explanation": "The correct spelling is 'questionnaire' — double 'n.'"
+  },
+  {
+    "id": "6041",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "souveneer",
+      "suvenir",
+      "suveneer",
+      "souvenir"
+    ],
+    "correct_answer": "souvenir",
+    "explanation": "The correct spelling is 'souvenir' (s-o-u-v-e-n-i-r)."
+  },
+  {
+    "id": "6042",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "dysentery",
+      "diphtheria",
+      "diarrhea",
+      "diptheria"
+    ],
+    "correct_answer": "diptheria",
+    "explanation": "The correct spelling is 'diphtheria' — note the 'ph' (d-i-p-h-t-h-e-r-i-a)."
+  },
+  {
+    "id": "6043",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "maintenance",
+      "maintenence",
+      "maintainance",
+      "maintenanse"
+    ],
+    "correct_answer": "maintenance",
+    "explanation": "The correct spelling is 'maintenance' — note 'ten' instead of 'tain.'"
+  },
+  {
+    "id": "6044",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "personality",
+      "personnel",
+      "personal",
+      "personel"
+    ],
+    "correct_answer": "personel",
+    "explanation": "The correct spelling for staff/employees is 'personnel' with double 'n.'"
+  },
+  {
+    "id": "6045",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "statutary",
+      "statutory",
+      "statutoary",
+      "statuatory"
+    ],
+    "correct_answer": "statutory",
+    "explanation": "The correct spelling is 'statutory' (s-t-a-t-u-t-o-r-y)."
+  },
+  {
+    "id": "6046",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "prerequsite",
+      "acquisition",
+      "requisite",
+      "prerequisite"
+    ],
+    "correct_answer": "prerequsite",
+    "explanation": "The correct spelling is 'prerequisite' — with 'i' after 'quis.'"
+  },
+  {
+    "id": "6047",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "ameteur",
+      "amature",
+      "amateur",
+      "amatuer"
+    ],
+    "correct_answer": "amateur",
+    "explanation": "The correct spelling is 'amateur' (a-m-a-t-e-u-r)."
+  },
+  {
+    "id": "6048",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "maneuverable",
+      "maneuverability",
+      "maneuver",
+      "manoeuver"
+    ],
+    "correct_answer": "manoeuver",
+    "explanation": "The standard American English spelling is 'maneuver.'"
+  },
+  {
+    "id": "6049",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled CORRECTLY?",
+    "choices": [
+      "harrasment",
+      "harassmentt",
+      "harasment",
+      "harassment"
+    ],
+    "correct_answer": "harassment",
+    "explanation": "The correct spelling is 'harassment' — single 'r', double 's'."
+  },
+  {
+    "id": "6050",
+    "category": "Clerical Ability – Spelling",
+    "question": "Which of the following words is spelled INCORRECTLY?",
+    "choices": [
+      "parliamentarian",
+      "parliamentary",
+      "parliament",
+      "parliment"
+    ],
+    "correct_answer": "parliment",
+    "explanation": "The correct spelling is 'parliament' — with 'ia' in the middle (p-a-r-l-i-a-m-e-n-t)."
+  }
 ]

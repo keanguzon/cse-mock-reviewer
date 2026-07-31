@@ -1,6 +1,6 @@
 [
   {
-    "id": "241",
+    "id": "8001",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the capital city of the Philippines?",
     "choices": [
@@ -13,7 +13,7 @@
     "explanation": "Manila is the capital of the Philippines, while Quezon City is the most populous city in Metro Manila."
   },
   {
-    "id": "242",
+    "id": "8002",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Who is known as the 'Father of the Philippine Constitution'?",
     "choices": [
@@ -26,7 +26,7 @@
     "explanation": "Felipe Calderon is recognized as the Father of the Malolos Constitution (1899), the first Philippine Constitution."
   },
   {
-    "id": "243",
+    "id": "8003",
     "category": "General Information – Current Events & Basic Facts",
     "question": "How many regions does the Philippines currently have?",
     "choices": [
@@ -39,7 +39,7 @@
     "explanation": "The Philippines has 17 administrative regions, including the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)."
   },
   {
-    "id": "244",
+    "id": "8004",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the national flower of the Philippines?",
     "choices": [
@@ -52,7 +52,7 @@
     "explanation": "The Sampaguita (Jasminum sambac) was declared the national flower of the Philippines in 1934."
   },
   {
-    "id": "245",
+    "id": "8005",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine law is known as the 'Ease of Doing Business Act'?",
     "choices": [
@@ -65,7 +65,7 @@
     "explanation": "RA 11032 (Ease of Doing Business and Efficient Government Service Delivery Act of 2018) streamlines government transactions."
   },
   {
-    "id": "246",
+    "id": "8006",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the Philippine national hero's full name?",
     "choices": [
@@ -78,7 +78,7 @@
     "explanation": "Jose Rizal is the Philippines' national hero, known for his novels Noli Me Tangere and El Filibusterismo."
   },
   {
-    "id": "247",
+    "id": "8007",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which government agency administers the Civil Service Examination?",
     "choices": [
@@ -91,7 +91,7 @@
     "explanation": "The Civil Service Commission (CSC) is mandated to administer the Career Service Examination for government positions."
   },
   {
-    "id": "248",
+    "id": "8008",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the highest peak in the Philippines?",
     "choices": [
@@ -104,7 +104,7 @@
     "explanation": "Mt. Apo in Davao del Sur is the highest peak in the Philippines at 2,954 meters (9,692 feet)."
   },
   {
-    "id": "249",
+    "id": "8009",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is Republic Act No. 9003 about?",
     "choices": [
@@ -117,7 +117,7 @@
     "explanation": "RA 9003 is the Ecological Solid Waste Management Act of 2000, mandating proper waste management across the country."
   },
   {
-    "id": "250",
+    "id": "8010",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which body approves the national budget in the Philippines?",
     "choices": [
@@ -130,7 +130,7 @@
     "explanation": "The national budget is prepared by the Executive branch but must be approved by Congress (Senate and House of Representatives)."
   },
   {
-    "id": "251",
+    "id": "8011",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What does BARMM stand for?",
     "choices": [
@@ -143,7 +143,7 @@
     "explanation": "BARMM replaced the Autonomous Region in Muslim Mindanao (ARMM) through RA 11054 (Bangsamoro Organic Law)."
   },
   {
-    "id": "252",
+    "id": "8012",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the Philippine National Police (PNP) under?",
     "choices": [
@@ -156,7 +156,7 @@
     "explanation": "The PNP is under the Department of the Interior and Local Government (DILG) for administrative supervision."
   },
   {
-    "id": "253",
+    "id": "8013",
     "category": "General Information – Current Events & Basic Facts",
     "question": "How many years does a Philippine senator serve in office?",
     "choices": [
@@ -169,7 +169,7 @@
     "explanation": "Senators serve a term of 6 years and may be reelected for a maximum of two consecutive terms."
   },
   {
-    "id": "254",
+    "id": "8014",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the longest river in the Philippines?",
     "choices": [
@@ -182,7 +182,7 @@
     "explanation": "The Cagayan River (Rio Grande de Cagayan) in northern Luzon is the longest river in the Philippines at about 505 kilometers."
   },
   {
-    "id": "255",
+    "id": "8015",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What treaty ceded the Philippines from Spain to the United States in 1898?",
     "choices": [
@@ -195,7 +195,7 @@
     "explanation": "The Treaty of Paris (1898) ended the Spanish-American War and ceded the Philippines to the United States for $20 million."
   },
   {
-    "id": "256",
+    "id": "8016",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine law promotes environmental awareness and ecological balance?",
     "choices": [
@@ -208,7 +208,7 @@
     "explanation": "RA 9275 (Clean Water Act), RA 8749 (Clean Air Act), and RA 9003 (Solid Waste Management Act) all promote ecological balance."
   },
   {
-    "id": "257",
+    "id": "8017",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the role of the Commission on Audit (COA)?",
     "choices": [
@@ -221,7 +221,7 @@
     "explanation": "COA is the supreme audit institution mandated to examine, audit, and settle all accounts of the government."
   },
   {
-    "id": "258",
+    "id": "8018",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Who was the first female President of the Philippines?",
     "choices": [
@@ -234,7 +234,7 @@
     "explanation": "Corazon C. Aquino became the first female President of the Philippines in 1986 after the EDSA People Power Revolution."
   },
   {
-    "id": "259",
+    "id": "8019",
     "category": "General Information – Current Events & Basic Facts",
     "question": "When is Philippine Independence Day celebrated?",
     "choices": [
@@ -247,7 +247,7 @@
     "explanation": "Philippine Independence Day is celebrated on June 12, commemorating the declaration of independence from Spain in 1898."
   },
   {
-    "id": "260",
+    "id": "8020",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the Bangko Sentral ng Pilipinas (BSP) primarily responsible for?",
     "choices": [
@@ -260,7 +260,7 @@
     "explanation": "The BSP is the central bank of the Philippines, responsible for monetary policy, bank supervision, and maintaining price stability."
   },
   {
-    "id": "261",
+    "id": "8021",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What Philippine law mandates mandatory SIM card registration for all mobile subscribers?",
     "choices": [
@@ -273,7 +273,7 @@
     "explanation": "Republic Act No. 11934 (SIM Registration Act) requires all mobile phone SIM cards to be registered prior to activation."
   },
   {
-    "id": "262",
+    "id": "8022",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine volcano is famous for its near-perfect cone shape?",
     "choices": [
@@ -286,7 +286,7 @@
     "explanation": "Mt. Mayon in Albay, Bicol is globally renowned for its symmetrical, near-perfect volcanic cone shape."
   },
   {
-    "id": "263",
+    "id": "8023",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What law institutionalized the Pantawid Pamilyang Pilipino Program (4Ps) as the national conditional cash transfer program?",
     "choices": [
@@ -299,7 +299,7 @@
     "explanation": "Republic Act No. 11310 enacted in 2019 institutionalized 4Ps as the permanent national poverty reduction strategy."
   },
   {
-    "id": "264",
+    "id": "8024",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the national bird of the Philippines?",
     "choices": [
@@ -312,7 +312,7 @@
     "explanation": "The Philippine Eagle (Pithecophaga jefferyi) was declared the national bird of the Philippines in 1995 under Proclamation No. 615."
   },
   {
-    "id": "265",
+    "id": "8025",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which law provides free tuition and exemption from other fees in state universities and colleges (SUCs)?",
     "choices": [
@@ -325,7 +325,7 @@
     "explanation": "Republic Act No. 10931, or the Universal Access to Quality Tertiary Education Act, guarantees free tuition in SUCs and LUCs."
   },
   {
-    "id": "266",
+    "id": "8026",
     "category": "General Information – Current Events & Basic Facts",
     "question": "In which year was the Association of Southeast Asian Nations (ASEAN) founded?",
     "choices": [
@@ -338,7 +338,7 @@
     "explanation": "ASEAN was established on August 8, 1967 in Bangkok, Thailand by five founding countries, including the Philippines."
   },
   {
-    "id": "267",
+    "id": "8027",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Where is the ASEAN Secretariat headquartered?",
     "choices": [
@@ -351,7 +351,7 @@
     "explanation": "The ASEAN Secretariat is located in Jakarta, Indonesia."
   },
   {
-    "id": "268",
+    "id": "8028",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the national tree of the Philippines?",
     "choices": [
@@ -364,7 +364,7 @@
     "explanation": "The Narra (Pterocarpus indicus) was declared the national tree of the Philippines in 1934."
   },
   {
-    "id": "269",
+    "id": "8029",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine law established the Maharlika Investment Fund (MIF)?",
     "choices": [
@@ -377,7 +377,7 @@
     "explanation": "Republic Act No. 11954 created the Maharlika Investment Fund, the Philippines' first sovereign wealth fund."
   },
   {
-    "id": "270",
+    "id": "8030",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the largest island in the Philippine archipelago by land area?",
     "choices": [
@@ -390,7 +390,7 @@
     "explanation": "Luzon is the largest island in the Philippines, covering an area of approximately 109,965 square kilometers."
   },
   {
-    "id": "271",
+    "id": "8031",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What Philippine environmental law is known as the 'Clean Air Act of 1999'?",
     "choices": [
@@ -403,7 +403,7 @@
     "explanation": "Republic Act No. 8749 provides a comprehensive air pollution control policy for the country."
   },
   {
-    "id": "272",
+    "id": "8032",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What Philippine law is known as the 'Clean Water Act of 2004'?",
     "choices": [
@@ -416,7 +416,7 @@
     "explanation": "Republic Act No. 9275 aims to protect the country's water bodies from pollution from land-based sources."
   },
   {
-    "id": "273",
+    "id": "8033",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which agency is responsible for issuing weather forecasts, typhoon warnings, and flood advisories in the Philippines?",
     "choices": [
@@ -429,7 +429,7 @@
     "explanation": "PAGASA (Philippine Atmospheric, Geophysical and Astronomical Services Administration) provides weather and flood monitoring."
   },
   {
-    "id": "274",
+    "id": "8034",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which agency monitors and studies earthquakes, volcanic eruptions, and tsunamis in the Philippines?",
     "choices": [
@@ -442,7 +442,7 @@
     "explanation": "PHIVOLCS (Philippine Institute of Volcanology and Seismology) monitors seismic and volcanic activities."
   },
   {
-    "id": "275",
+    "id": "8035",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the expanded maternity leave duration for female workers under RA 11210?",
     "choices": [
@@ -455,7 +455,7 @@
     "explanation": "Republic Act No. 11210 (105-Day Expanded Maternity Leave Law) grants 105 days of paid maternity leave to female workers."
   },
   {
-    "id": "276",
+    "id": "8036",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Who was the first President of the Commonwealth of the Philippines?",
     "choices": [
@@ -468,7 +468,7 @@
     "explanation": "Manuel L. Quezon served as the first President of the Philippine Commonwealth from 1935 to 1944."
   },
   {
-    "id": "277",
+    "id": "8037",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What UNESCO World Heritage Site in the Philippines is an underground river located in Palawan?",
     "choices": [
@@ -481,7 +481,7 @@
     "explanation": "The Puerto Princesa Subterranean River in Palawan is a UNESCO World Heritage Site and one of the New 7 Wonders of Nature."
   },
   {
-    "id": "278",
+    "id": "8038",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What law established the National Disaster Risk Reduction and Management Council (NDRRMC)?",
     "choices": [
@@ -494,7 +494,7 @@
     "explanation": "Republic Act No. 10121 (Philippine Disaster Risk Reduction and Management Act of 2010) created the NDRRMC framework."
   },
   {
-    "id": "279",
+    "id": "8039",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which historical event on February 22–25, 1986 restored democracy in the Philippines?",
     "choices": [
@@ -507,7 +507,7 @@
     "explanation": "The EDSA People Power Revolution in February 1986 peacefully ended 20 years of authoritarian rule."
   },
   {
-    "id": "280",
+    "id": "8040",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the currency of the Philippines regulated by the Bangko Sentral ng Pilipinas?",
     "choices": [
@@ -520,7 +520,7 @@
     "explanation": "The Philippine Peso (PHP, ₱) is the official currency of the Republic of the Philippines."
   },
   {
-    "id": "281",
+    "id": "8041",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the title of the Philippine National Anthem composed by Julián Felipe?",
     "choices": [
@@ -533,7 +533,7 @@
     "explanation": "Lupang Hinirang is the official title of the Philippine National Anthem. Its lyrics were adapted from José Palma's poem 'Filipinas'."
   },
   {
-    "id": "282",
+    "id": "8042",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which agency collects internal revenue taxes and enforces tax laws in the Philippines?",
     "choices": [
@@ -546,7 +546,7 @@
     "explanation": "The BIR, under the Department of Finance, assesses and collects all internal revenue taxes."
   },
   {
-    "id": "283",
+    "id": "8043",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which agency collects import duties and customs tariffs at Philippine ports?",
     "choices": [
@@ -559,7 +559,7 @@
     "explanation": "The Bureau of Customs (BOC) handles border control, trade facilitation, and assessment of customs duties."
   },
   {
-    "id": "284",
+    "id": "8044",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What Philippine law mandates the integration of Enhanced Basic Education (K to 12 Program)?",
     "choices": [
@@ -572,7 +572,7 @@
     "explanation": "Republic Act No. 10533 (Enhanced Basic Education Act of 2013) established the K to 12 basic education system."
   },
   {
-    "id": "285",
+    "id": "8045",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the primary function of the Department of Foreign Affairs (DFA)?",
     "choices": [
@@ -585,7 +585,7 @@
     "explanation": "The DFA manages state diplomacy, foreign policy implementation, consular services, and passport issuance."
   },
   {
-    "id": "286",
+    "id": "8046",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What three major island groups comprise the Philippine archipelago?",
     "choices": [
@@ -598,7 +598,7 @@
     "explanation": "The Philippine archipelago is geographically divided into three major island groups: Luzon, Visayas, and Mindanao."
   },
   {
-    "id": "287",
+    "id": "8047",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the official seal motto found on the Coat of Arms of the Philippines?",
     "choices": [
@@ -611,7 +611,7 @@
     "explanation": "RA 8491 (Flag and Heraldic Code) designates 'Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa' as the National Motto."
   },
   {
-    "id": "288",
+    "id": "8048",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What Philippine law created the Department of Information and Communications Technology (DICT)?",
     "choices": [
@@ -624,7 +624,7 @@
     "explanation": "Republic Act No. 10844 established the DICT in 2016 to lead ICT policy and digital transformation."
   },
   {
-    "id": "289",
+    "id": "8049",
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which sea borders the Philippines to the west?",
     "choices": [
@@ -637,7 +637,7 @@
     "explanation": "The West Philippine Sea (South China Sea) borders the Philippines to the west, while the Philippine Sea borders to the east."
   },
   {
-    "id": "290",
+    "id": "8050",
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the official publication where laws, executive orders, and administrative regulations are officially promulgated?",
     "choices": [
@@ -648,5 +648,655 @@
     ],
     "correct_answer": "Official Gazette",
     "explanation": "The Official Gazette is the official publication of the Republic of the Philippines through which laws acquire binding effect after publication."
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which Philippine law is known as the 'Ecological Solid Waste Management Act of 2000'?",
+    "choices": [
+      "Republic Act No. 9275",
+      "Republic Act No. 8749",
+      "Republic Act No. 9729",
+      "Republic Act No. 9003"
+    ],
+    "correct_answer": "Republic Act No. 9003",
+    "explanation": "Republic Act No. 9003 provides the legal framework for the country's systematic, comprehensive, and ecological solid waste management program.",
+    "id": "8051"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Under RA 9003, open dumpsites for solid waste in the Philippines were mandated to be converted into sanitized landfills or:",
+    "choices": [
+      "Closed and rehabilitated",
+      "Shifted into ocean dumping sites",
+      "Converted into commercial malls",
+      "Expanded into industrial parks"
+    ],
+    "correct_answer": "Closed and rehabilitated",
+    "explanation": "RA 9003 strictly prohibited open dumpsites and mandated their closure and environmental rehabilitation.",
+    "id": "8052"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Republic Act No. 8749 is commonly known as the:",
+    "choices": [
+      "Philippine Clean Water Act of 2004",
+      "Renewable Energy Act",
+      "Philippine Clean Air Act of 1999",
+      "Toxic Substances Act"
+    ],
+    "correct_answer": "Philippine Clean Air Act of 1999",
+    "explanation": "RA 8749 is the Philippine Clean Air Act of 1999, which outlines a holistic national air pollution management program.",
+    "id": "8053"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which Philippine environmental law focuses on protecting the country's water bodies from pollution from land-based sources?",
+    "choices": [
+      "Republic Act No. 9275",
+      "Republic Act No. 9729",
+      "Republic Act No. 7586",
+      "Republic Act No. 9003"
+    ],
+    "correct_answer": "Republic Act No. 9275",
+    "explanation": "Republic Act No. 9275 is the 'Philippine Clean Water Act of 2004', designed to protect rivers, seas, and groundwater.",
+    "id": "8054"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Republic Act No. 9729 created the Climate Change Commission (CCC). What is the primary role of this commission?",
+    "choices": [
+      "To serve as the sole policy-making body of the government tasked to coordinate climate change programs",
+      "To issue business permits for mining companies",
+      "To build international airports in rural regions",
+      "To enforce traffic rules in major metropolitan areas"
+    ],
+    "correct_answer": "To serve as the sole policy-making body of the government tasked to coordinate climate change programs",
+    "explanation": "RA 9729 (Climate Change Act of 2009) established the Climate Change Commission as an independent policy-making body attached to the Office of the President.",
+    "id": "8055"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "How many official member states currently compose the Association of Southeast Asian Nations (ASEAN)?",
+    "choices": [
+      "8 member states",
+      "10 member states",
+      "12 member states",
+      "15 member states"
+    ],
+    "correct_answer": "10 member states",
+    "explanation": "ASEAN consists of 10 member states: Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Vietnam.",
+    "id": "8056"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Where is the permanent headquarters / Secretariat of the Association of Southeast Asian Nations (ASEAN) located?",
+    "choices": [
+      "Bangkok, Thailand",
+      "Manila, Philippines",
+      "Kuala Lumpur, Malaysia",
+      "Jakarta, Indonesia"
+    ],
+    "correct_answer": "Jakarta, Indonesia",
+    "explanation": "The ASEAN Secretariat is headquartered in Jakarta, Indonesia.",
+    "id": "8057"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "In what year was the Universal Declaration of Human Rights (UDHR) adopted by the United Nations General Assembly?",
+    "choices": [
+      "1950",
+      "1945",
+      "1948",
+      "1939"
+    ],
+    "correct_answer": "1948",
+    "explanation": "The Universal Declaration of Human Rights (UDHR) was proclaimed by the UN General Assembly in Paris on December 10, 1948.",
+    "id": "8058"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which Philippine law is known as the 'Disaster Risk Reduction and Management Act of 2010'?",
+    "choices": [
+      "Republic Act No. 9165",
+      "Republic Act No. 9710",
+      "Republic Act No. 10173",
+      "Republic Act No. 10121"
+    ],
+    "correct_answer": "Republic Act No. 10121",
+    "explanation": "RA 10121 established the Philippine National Disaster Risk Reduction and Management (NDRRM) framework.",
+    "id": "8059"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Under the Disaster Risk Reduction and Management framework, which agency serves as the executive arm of the National Disaster Risk Reduction and Management Council (NDRRMC)?",
+    "choices": [
+      "Department of Social Welfare and Development (DSWD)",
+      "Philippine National Police (PNP)",
+      "Office of Civil Defense (OCD)",
+      "Department of Health (DOH)"
+    ],
+    "correct_answer": "Office of Civil Defense (OCD)",
+    "explanation": "The Office of Civil Defense (OCD) serves as the executive arm and secretariat of the NDRRMC.",
+    "id": "8060"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "What international treaty signed in 2015 aims to limit global warming to well below 2 degrees Celsius above pre-industrial levels?",
+    "choices": [
+      "Kyoto Protocol",
+      "Montreal Protocol",
+      "Paris Agreement",
+      "Geneva Convention"
+    ],
+    "correct_answer": "Paris Agreement",
+    "explanation": "The Paris Agreement is a legally binding international treaty on climate change adopted at COP21 in Paris in December 2015.",
+    "id": "8061"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Republic Act No. 9165 is commonly known as the:",
+    "choices": [
+      "Comprehensive Agrarian Reform Law",
+      "Cybercrime Prevention Act",
+      "Comprehensive Dangerous Drugs Act of 2002",
+      "Anti-Terrorism Act of 2020"
+    ],
+    "correct_answer": "Comprehensive Dangerous Drugs Act of 2002",
+    "explanation": "RA 9165 created the Philippine Drug Enforcement Agency (PDEA) and established strict penalties for dangerous drug offenses.",
+    "id": "8062"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which government agency is the lead enforcement arm responsible for implementing Republic Act No. 9165 (Dangerous Drugs Act)?",
+    "choices": [
+      "National Bureau of Investigation (NBI)",
+      "Armed Forces of the Philippines (AFP)",
+      "Bureau of Customs (BOC)",
+      "Philippine Drug Enforcement Agency (PDEA)"
+    ],
+    "correct_answer": "Philippine Drug Enforcement Agency (PDEA)",
+    "explanation": "PDEA was created by RA 9165 to serve as the lead law enforcement agency on dangerous drugs.",
+    "id": "8063"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which law is known as the 'Renewable Energy Act of 2008' in the Philippines?",
+    "choices": [
+      "Republic Act No. 9275",
+      "Republic Act No. 9513",
+      "Republic Act No. 9003",
+      "Republic Act No. 8749"
+    ],
+    "correct_answer": "Republic Act No. 9513",
+    "explanation": "RA 9513 promotes the development, utilization, and commercialization of renewable energy resources like solar, wind, and hydro.",
+    "id": "8064"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "What is the motto of ASEAN displayed in its charter?",
+    "choices": [
+      "One Vision, One Identity, One Community",
+      "Unity in Diversity",
+      "Together for a Sustainable Future",
+      "Progress through Cooperation"
+    ],
+    "correct_answer": "One Vision, One Identity, One Community",
+    "explanation": "The ASEAN motto is 'One Vision, One Identity, One Community'.",
+    "id": "8065"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Republic Act No. 10175 is known as the:",
+    "choices": [
+      "Data Privacy Act of 2012",
+      "Anti-Red Tape Act",
+      "Cybercrime Prevention Act of 2012",
+      "E-Commerce Act of 2000"
+    ],
+    "correct_answer": "Cybercrime Prevention Act of 2012",
+    "explanation": "RA 10175 addresses legal issues concerning internet offenses such as illegal access, data interference, and computer-related fraud.",
+    "id": "8066"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which international treaty aimed to phase out substances responsible for ozone depletion, such as chlorofluorocarbons (CFCs)?",
+    "choices": [
+      "Kyoto Protocol",
+      "Basel Convention",
+      "Ramsar Convention",
+      "Montreal Protocol"
+    ],
+    "correct_answer": "Montreal Protocol",
+    "explanation": "The 1987 Montreal Protocol is an international treaty designed to protect the ozone layer by phasing out ozone-depleting substances.",
+    "id": "8067"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Republic Act No. 11032, which amended the Anti-Red Tape Act of 2007, is known as the:",
+    "choices": [
+      "Government Procurement Reform Act",
+      "Tax Reform for Acceleration and Inclusion (TRAIN) Law",
+      "Ease of Doing Business and Efficient Government Service Delivery Act of 2018",
+      "Consumer Act of the Philippines"
+    ],
+    "correct_answer": "Ease of Doing Business and Efficient Government Service Delivery Act of 2018",
+    "explanation": "RA 11032 promotes transparency and reduces bureaucratic red tape across government agencies.",
+    "id": "8068"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Under RA 11032, simple transactions in government offices must be processed within a maximum of how many working days?",
+    "choices": [
+      "3 working days",
+      "5 working days",
+      "1 working day",
+      "7 working days"
+    ],
+    "correct_answer": "3 working days",
+    "explanation": "RA 11032 sets standard processing times: 3 working days for simple transactions, 7 working days for complex transactions, and 20 working days for highly technical applications.",
+    "id": "8069"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which Philippine government agency is tasked with lead policy enforcement regarding environmental protection and natural resources management?",
+    "choices": [
+      "Department of Science and Technology (DOST)",
+      "Department of Agriculture (DA)",
+      "Department of Energy (DOE)",
+      "Department of Environment and Natural Resources (DENR)"
+    ],
+    "correct_answer": "Department of Environment and Natural Resources (DENR)",
+    "explanation": "DENR is the primary agency responsible for the conservation, management, and development of the country's environment and natural resources.",
+    "id": "8070"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "The Ramsar Convention is an international treaty specifically dedicated to the conservation and sustainable use of:",
+    "choices": [
+      "Alpine glaciers",
+      "Wetlands",
+      "Coral reefs",
+      "Rainforests"
+    ],
+    "correct_answer": "Wetlands",
+    "explanation": "The Ramsar Convention (signed in Ramsar, Iran in 1971) provides a framework for the conservation and wise use of wetlands.",
+    "id": "8071"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which law is known as the 'Wildlife Resources Conservation and Protection Act' of the Philippines?",
+    "choices": [
+      "Republic Act No. 8550",
+      "Republic Act No. 7586",
+      "Republic Act No. 9147",
+      "Republic Act No. 9003"
+    ],
+    "correct_answer": "Republic Act No. 9147",
+    "explanation": "RA 9147 provides for the conservation and protection of wildlife resources and their habitats in the Philippines.",
+    "id": "8072"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "What is the primary focus of the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes?",
+    "choices": [
+      "Preventing the transfer of hazardous waste from developed to developing nations",
+      "Protecting migratory bird species",
+      "Regulating deep sea mining",
+      "Reducing carbon dioxide emissions from shipping"
+    ],
+    "correct_answer": "Preventing the transfer of hazardous waste from developed to developing nations",
+    "explanation": "The Basel Convention reduces the movement of hazardous waste between nations, specifically to prevent transfer of hazardous waste from developed to less developed countries.",
+    "id": "8073"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which Philippine law established the Expanded National Integrated Protected Areas System (E-NIPAS)?",
+    "choices": [
+      "Republic Act No. 11038",
+      "Republic Act No. 7586",
+      "Republic Act No. 9275",
+      "Republic Act No. 9003"
+    ],
+    "correct_answer": "Republic Act No. 11038",
+    "explanation": "RA 11038 amended RA 7586 to expand protected land and marine sanctuaries across the Philippines.",
+    "id": "8074"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which global body under the United Nations synthesizes scientific findings on climate change to inform global policy?",
+    "choices": [
+      "United Nations Environment Programme (UNEP)",
+      "Intergovernmental Panel on Climate Change (IPCC)",
+      "International Maritime Organization (IMO)",
+      "World Meteorological Organization (WMO)"
+    ],
+    "correct_answer": "Intergovernmental Panel on Climate Change (IPCC)",
+    "explanation": "The IPCC is the UN body for assessing the science related to climate change.",
+    "id": "8075"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Republic Act No. 9184 is commonly known as the:",
+    "choices": [
+      "National Revenue Code",
+      "Civil Service Reform Act",
+      "Local Government Code",
+      "Government Procurement Reform Act"
+    ],
+    "correct_answer": "Government Procurement Reform Act",
+    "explanation": "RA 9184 mandates competitive bidding and transparent procurement practices across all government entities.",
+    "id": "8076"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which Philippine law is known as the 'Anti-Safe Mealing and Food Waste Reduction Act'?",
+    "choices": [
+      "Republic Act No. 10611",
+      "Republic Act No. 9003",
+      "Republic Act No. 10068",
+      "Republic Act No. 11032"
+    ],
+    "correct_answer": "Republic Act No. 10611",
+    "explanation": "RA 10611 is the Food Safety Act of 2013, establishing food safety regulatory systems in the Philippines.",
+    "id": "8077"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "What is the primary objective of the Sustainable Development Goals (SDGs) established by the United Nations in 2015?",
+    "choices": [
+      "To build space stations for lunar colonization",
+      "To abolish all national tariffs worldwide",
+      "To create a unified global currency system",
+      "To achieve a better and more sustainable future for all by 2030 through 17 global goals"
+    ],
+    "correct_answer": "To achieve a better and more sustainable future for all by 2030 through 17 global goals",
+    "explanation": "The 17 SDGs address global challenges including poverty, inequality, climate change, environmental degradation, peace, and justice by 2030.",
+    "id": "8078"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which Philippine constitutional body conducts human rights violation investigations independently?",
+    "choices": [
+      "Commission on Audit (COA)",
+      "Department of Justice (DOJ)",
+      "National Bureau of Investigation (NBI)",
+      "Commission on Human Rights (CHR)"
+    ],
+    "correct_answer": "Commission on Human Rights (CHR)",
+    "explanation": "The CHR is an independent office created under Article XIII of the 1987 Constitution to investigate human rights violations.",
+    "id": "8079"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Republic Act No. 10533 is commonly known as the:",
+    "choices": [
+      "Technical Education Act",
+      "Enhanced Basic Education Act of 2013 (K to 12 Program)",
+      "Magna Carta for Public School Teachers",
+      "Free Higher Education Act"
+    ],
+    "correct_answer": "Enhanced Basic Education Act of 2013 (K to 12 Program)",
+    "explanation": "RA 10533 expanded basic education in the Philippines to include kindergarten, 6 years of primary education, 4 years of Junior High School, and 2 years of Senior High School.",
+    "id": "8080"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Under the Universal Access to Quality Tertiary Education Act (RA 10931), tuition and other school fees are waived for Filipino students enrolled in:",
+    "choices": [
+      "Foreign exchange study programs only",
+      "State Universities and Colleges (SUCs) and Local Universities and Colleges (LUCs)",
+      "Post-graduate doctoral programs",
+      "All private universities nationwide"
+    ],
+    "correct_answer": "State Universities and Colleges (SUCs) and Local Universities and Colleges (LUCs)",
+    "explanation": "RA 10931 provides free tertiary education in SUCs and LUCs for qualified undergraduate students.",
+    "id": "8081"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which treaty prohibits the development, testing, production, stockpiling, and use of chemical weapons globally?",
+    "choices": [
+      "Non-Proliferation Treaty (NPT)",
+      "Geneva Protocol",
+      "Comprehensive Nuclear-Test-Ban Treaty (CTBT)",
+      "Chemical Weapons Convention (CWC)"
+    ],
+    "correct_answer": "Chemical Weapons Convention (CWC)",
+    "explanation": "The Chemical Weapons Convention (CWC) is an arms control treaty that outlaws the production, stockpiling, and use of chemical weapons.",
+    "id": "8082"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Republic Act No. 11479 is known as the:",
+    "choices": [
+      "National Defense Act",
+      "Cybercrime Prevention Act",
+      "Human Security Act of 2007",
+      "Anti-Terrorism Act of 2020"
+    ],
+    "correct_answer": "Anti-Terrorism Act of 2020",
+    "explanation": "RA 11479 replaced the Human Security Act of 2007 as the country's primary anti-terrorism law.",
+    "id": "8083"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which specialized UN agency is responsible for international public health oversight?",
+    "choices": [
+      "UNESCO",
+      "World Bank",
+      "World Health Organization (WHO)",
+      "UNICEF"
+    ],
+    "correct_answer": "World Health Organization (WHO)",
+    "explanation": "The World Health Organization (WHO) is the specialized UN agency responsible for international public health.",
+    "id": "8084"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Republic Act No. 7610 protects children against:",
+    "choices": [
+      "Excessive school homework",
+      "Child abuse, exploitation, and discrimination",
+      "Financial bankruptcy",
+      "Unregulated internet usage"
+    ],
+    "correct_answer": "Child abuse, exploitation, and discrimination",
+    "explanation": "RA 7610 is the 'Special Protection of Children Against Abuse, Exploitation and Discrimination Act'.",
+    "id": "8085"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "What is the primary function of the Bangko Sentral ng Pilipinas (BSP) as defined by RA 7653 (as amended by RA 11211)?",
+    "choices": [
+      "To collect income taxes from private employees",
+      "To maintain price stability conducive to a balanced and sustainable growth of the economy",
+      "To build public highways and bridges",
+      "To issue business licenses to retail shops"
+    ],
+    "correct_answer": "To maintain price stability conducive to a balanced and sustainable growth of the economy",
+    "explanation": "The primary objective of the BSP is to maintain price stability and monetary stability in the Philippines.",
+    "id": "8086"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which Philippine law is known as the 'Anti-Money Laundering Act of 2001'?",
+    "choices": [
+      "Republic Act No. 10173",
+      "Republic Act No. 8792",
+      "Republic Act No. 9184",
+      "Republic Act No. 9160"
+    ],
+    "correct_answer": "Republic Act No. 9160",
+    "explanation": "RA 9160 established the Anti-Money Laundering Council (AMLC) to prevent money laundering activities.",
+    "id": "8087"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "What international agreement entered into force in 2021 prohibiting nuclear weapons?",
+    "choices": [
+      "Strategic Arms Limitation Talk (SALT)",
+      "Treaty on the Prohibition of Nuclear Weapons (TPNW)",
+      "MARPOL Convention",
+      "Outer Space Treaty"
+    ],
+    "correct_answer": "Treaty on the Prohibition of Nuclear Weapons (TPNW)",
+    "explanation": "The TPNW is the first legally binding international agreement to comprehensively prohibit nuclear weapons.",
+    "id": "8088"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Republic Act No. 9262 provides protection against violence for which specific demographic group?",
+    "choices": [
+      "Civil service retirees",
+      "Senior citizens",
+      "Women and their children",
+      "Persons with disabilities"
+    ],
+    "correct_answer": "Women and their children",
+    "explanation": "RA 9262 is the 'Anti-Violence Against Women and Their Children Act of 2004'.",
+    "id": "8089"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which Philippine agency monitors weather forecasts, typhoon warnings, and astronomical observations?",
+    "choices": [
+      "PAGASA",
+      "NDRRMC",
+      "PHIVOLCS",
+      "DENR"
+    ],
+    "correct_answer": "PAGASA",
+    "explanation": "PAGASA (Philippine Atmospheric, Geophysical and Astronomical Services Administration) provides weather and flood advisories.",
+    "id": "8090"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which Philippine agency monitors volcanic eruptions, earthquakes, and tsunami occurrences?",
+    "choices": [
+      "PHIVOLCS",
+      "PAGASA",
+      "DOST",
+      "Mines and Geosciences Bureau"
+    ],
+    "correct_answer": "PHIVOLCS",
+    "explanation": "PHIVOLCS (Philippine Institute of Volcanology and Seismology) monitors earthquake and volcanic activities.",
+    "id": "8091"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Republic Act No. 7277 is commonly known as the:",
+    "choices": [
+      "Magna Carta for Disabled Persons",
+      "Senior Citizens Act",
+      "Indigenous Peoples' Rights Act",
+      "Consumer Act"
+    ],
+    "correct_answer": "Magna Carta for Disabled Persons",
+    "explanation": "RA 7277 provides for the rehabilitation, self-development, and self-reliance of persons with disabilities (PWDs).",
+    "id": "8092"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which Philippine law recognizes, protects, and promotes the rights of Indigenous Cultural Communities / Indigenous Peoples?",
+    "choices": [
+      "Republic Act No. 7160",
+      "Republic Act No. 8749",
+      "Republic Act No. 8371 (IPRA Law)",
+      "Republic Act No. 6657"
+    ],
+    "correct_answer": "Republic Act No. 8371 (IPRA Law)",
+    "explanation": "RA 8371 is the Indigenous Peoples' Rights Act of 1997.",
+    "id": "8093"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Under the Local Government Code of 1991 (RA 7160), what is the smallest political unit in the Philippines?",
+    "choices": [
+      "Municipality",
+      "Sitio",
+      "Barangay",
+      "Poblacion"
+    ],
+    "correct_answer": "Barangay",
+    "explanation": "The Barangay is the basic political unit of government in the Philippines.",
+    "id": "8094"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which Philippine law is known as the 'Electronic Commerce Act of 2000'?",
+    "choices": [
+      "Republic Act No. 9184",
+      "Republic Act No. 8792",
+      "Republic Act No. 10175",
+      "Republic Act No. 10173"
+    ],
+    "correct_answer": "Republic Act No. 8792",
+    "explanation": "RA 8792 gives legal recognition to electronic data messages, electronic documents, and digital signatures.",
+    "id": "8095"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "What is the primary function of the Securities and Exchange Commission (SEC) in the Philippines?",
+    "choices": [
+      "To audit government expenditure accounts",
+      "To print paper currency and mint coins",
+      "To collect customs duties on imported goods",
+      "To register and regulate corporations, partnerships, and securities markets"
+    ],
+    "correct_answer": "To register and regulate corporations, partnerships, and securities markets",
+    "explanation": "The SEC regulates the corporate sector and capital market in the Philippines.",
+    "id": "8096"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Republic Act No. 9994 is commonly known as the:",
+    "choices": [
+      "Universal Health Care Act",
+      "Magna Carta for Women",
+      "Expanded Senior Citizens Act of 2010",
+      "Social Security Act"
+    ],
+    "correct_answer": "Expanded Senior Citizens Act of 2010",
+    "explanation": "RA 9994 grants 20% discount and VAT exemption on medical and commercial goods for senior citizens aged 60 and above.",
+    "id": "8097"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Which international convention governs the law of the sea, maritime boundaries, and exclusive economic zones (EEZ)?",
+    "choices": [
+      "Paris Agreement",
+      "MARPOL 73/78",
+      "United Nations Convention on the Law of the Sea (UNCLOS)",
+      "Kyoto Protocol"
+    ],
+    "correct_answer": "United Nations Convention on the Law of the Sea (UNCLOS)",
+    "explanation": "UNCLOS establishes a comprehensive legal framework for all ocean space and maritime resources.",
+    "id": "8098"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Under UNCLOS, how many nautical miles from the baseline does a coastal state's Exclusive Economic Zone (EEZ) extend?",
+    "choices": [
+      "50 nautical miles",
+      "200 nautical miles",
+      "12 nautical miles",
+      "100 nautical miles"
+    ],
+    "correct_answer": "200 nautical miles",
+    "explanation": "Under UNCLOS Article 57, the EEZ extends up to 200 nautical miles from the baseline of the coastal state.",
+    "id": "8099"
+  },
+  {
+    "category": "General Information – Current Events & Environment",
+    "question": "Republic Act No. 6657 is known as the:",
+    "choices": [
+      "Agriculture and Fisheries Modernization Act",
+      "Urban Development and Housing Act",
+      "Comprehensive Agrarian Reform Law of 1988 (CARL)",
+      "Local Government Code"
+    ],
+    "correct_answer": "Comprehensive Agrarian Reform Law of 1988 (CARL)",
+    "explanation": "RA 6657 instituted the Comprehensive Agrarian Reform Program (CARP) to promote social justice and industrialization.",
+    "id": "8100"
   }
 ]

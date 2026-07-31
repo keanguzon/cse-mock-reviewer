@@ -1,6 +1,6 @@
 [
   {
-    "id": "181",
+    "id": "10001",
     "category": "Numerical Ability – Fractions & Decimals",
     "question": "A government office has 120 employees. If 3/5 of them are male, how many female employees are there?",
     "choices": [
@@ -13,7 +13,7 @@
     "explanation": "Male employees = 3/5 × 120 = 72. Female = 120 - 72 = 48."
   },
   {
-    "id": "369",
+    "id": "10002",
     "question": "What is 3/4 + 2/3?",
     "choices": [
       "17/12 or 1 and 5/12",
@@ -26,7 +26,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "370",
+    "id": "10003",
     "question": "Simplify the fraction 48/64 to its lowest terms.",
     "choices": [
       "6/8",
@@ -39,7 +39,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "371",
+    "id": "10004",
     "question": "What is 5/6 minus 1/4?",
     "choices": [
       "7/12",
@@ -52,7 +52,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "372",
+    "id": "10005",
     "question": "What is 2/5 multiplied by 3/8?",
     "choices": [
       "3/20",
@@ -65,7 +65,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "373",
+    "id": "10006",
     "question": "Divide 7/8 by 1/4. What is the result?",
     "choices": [
       "7/32",
@@ -78,7 +78,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "374",
+    "id": "10007",
     "question": "Convert 3/8 to a decimal number.",
     "choices": [
       "0.375",
@@ -91,7 +91,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "375",
+    "id": "10008",
     "question": "Convert 0.625 to a fraction in lowest terms.",
     "choices": [
       "5/8",
@@ -104,7 +104,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "376",
+    "id": "10009",
     "question": "What is 2 and 1/3 plus 1 and 2/5?",
     "choices": [
       "3 and 11/15 combined",
@@ -117,7 +117,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "377",
+    "id": "10010",
     "question": "Convert the fraction 5/6 to a decimal (rounded to 3 decimal places).",
     "choices": [
       "0.833 as the decimal",
@@ -130,7 +130,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "378",
+    "id": "10011",
     "question": "What fraction is equivalent to 0.4 in simplest form?",
     "choices": [
       "2/5",
@@ -143,7 +143,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "379",
+    "id": "10012",
     "question": "What is 3 and 1/2 minus 1 and 3/4?",
     "choices": [
       "1 and 3/4",
@@ -156,7 +156,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "380",
+    "id": "10013",
     "question": "Express 7/20 as a percentage.",
     "choices": [
       "35 percent of the whole",
@@ -169,7 +169,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "381",
+    "id": "10014",
     "question": "What is 4/9 multiplied by 3/2?",
     "choices": [
       "2/3",
@@ -182,7 +182,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "382",
+    "id": "10015",
     "question": "Which fraction is greater: 5/7 or 7/10?",
     "choices": [
       "5/7",
@@ -195,7 +195,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "383",
+    "id": "10016",
     "question": "Convert 0.125 to a fraction in lowest terms.",
     "choices": [
       "1/8",
@@ -208,7 +208,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "384",
+    "id": "10017",
     "question": "What is 1/2 + 1/3 + 1/6?",
     "choices": [
       "1",
@@ -221,7 +221,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "385",
+    "id": "10018",
     "question": "Express 45% as a fraction in simplest form.",
     "choices": [
       "9/20",
@@ -234,7 +234,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "386",
+    "id": "10019",
     "question": "What is 5/12 divided by 5/6?",
     "choices": [
       "1/2",
@@ -247,7 +247,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "387",
+    "id": "10020",
     "question": "Convert the repeating decimal 0.333... to a fraction.",
     "choices": [
       "1/3",
@@ -260,7 +260,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "388",
+    "id": "10021",
     "question": "What is 2/3 of 45?",
     "choices": [
       "30",
@@ -273,7 +273,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "389",
+    "id": "10022",
     "question": "Arrange these fractions from least to greatest: 2/5, 1/3, 3/10.",
     "choices": [
       "3/10, 1/3, 2/5",
@@ -286,7 +286,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "390",
+    "id": "10023",
     "question": "What is 7/8 expressed as a decimal?",
     "choices": [
       "0.875",
@@ -299,7 +299,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "391",
+    "id": "10024",
     "question": "Convert the mixed number 4 and 3/5 to an improper fraction.",
     "choices": [
       "23/5",
@@ -312,7 +312,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "392",
+    "id": "10025",
     "question": "What is 0.75 multiplied by 2/3 expressed as a fraction?",
     "choices": [
       "1/2",
@@ -325,7 +325,7 @@
     "category": "Numerical Ability – Fractions & Decimals"
   },
   {
-    "id": "433",
+    "id": "10026",
     "category": "Numerical Ability – Fractions & Decimals",
     "question": "What is 4/5 minus 2/3?",
     "choices": [
@@ -338,7 +338,7 @@
     "explanation": "4/5 - 2/3 = 12/15 - 10/15 = 2/15."
   },
   {
-    "id": "434",
+    "id": "10027",
     "category": "Numerical Ability – Fractions & Decimals",
     "question": "Convert 0.875 to a fraction in simplest form.",
     "choices": [
@@ -351,7 +351,7 @@
     "explanation": "0.875 = 875/1000 = 7/8."
   },
   {
-    "id": "435",
+    "id": "10028",
     "category": "Numerical Ability – Fractions & Decimals",
     "question": "What is 3 and 3/4 divided by 1 and 1/4?",
     "choices": [
@@ -364,7 +364,7 @@
     "explanation": "15/4 ÷ 5/4 = 15/4 × 4/5 = 3."
   },
   {
-    "id": "436",
+    "id": "10029",
     "category": "Numerical Ability – Fractions & Decimals",
     "question": "Express 3/25 as a decimal and as a percentage.",
     "choices": [
@@ -377,7 +377,7 @@
     "explanation": "3 / 25 = 0.12 = 12%."
   },
   {
-    "id": "437",
+    "id": "10030",
     "category": "Numerical Ability – Fractions & Decimals",
     "question": "What is 5/8 of 120?",
     "choices": [
@@ -388,5 +388,590 @@
     ],
     "correct_answer": "75",
     "explanation": "5/8 × 120 = 5 × 15 = 75."
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Simplify the fraction to its lowest terms: 36/48",
+    "choices": [
+      "5/6",
+      "2/3",
+      "3/4",
+      "4/5"
+    ],
+    "correct_answer": "3/4",
+    "explanation": "Divide both numerator and denominator by their greatest common divisor (12): 36 / 12 = 3, 48 / 12 = 4 -> 3/4.",
+    "id": "10031"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 2/5 + 3/10",
+    "choices": [
+      "7/10",
+      "1/2",
+      "4/5",
+      "3/5"
+    ],
+    "correct_answer": "7/10",
+    "explanation": "Find the common denominator (10): 2/5 = 4/10. 4/10 + 3/10 = 7/10.",
+    "id": "10032"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 5/6 - 1/4",
+    "choices": [
+      "2/3",
+      "5/12",
+      "1/2",
+      "7/12"
+    ],
+    "correct_answer": "7/12",
+    "explanation": "Common denominator is 12: 5/6 = 10/12, 1/4 = 3/12. 10/12 - 3/12 = 7/12.",
+    "id": "10033"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Multiply: (3/8) × (4/9)",
+    "choices": [
+      "1/3",
+      "2/9",
+      "1/4",
+      "1/6"
+    ],
+    "correct_answer": "1/6",
+    "explanation": "(3 × 4) / (8 × 9) = 12 / 72. Divide numerator and denominator by 12 = 1/6.",
+    "id": "10034"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Divide: (5/6) ÷ (2/3)",
+    "choices": [
+      "3/4",
+      "7/6",
+      "4/5",
+      "5/4"
+    ],
+    "correct_answer": "5/4",
+    "explanation": "(5/6) × (3/2) = 15 / 12. Simplify by dividing by 3 = 5/4 (or 1 1/4).",
+    "id": "10035"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Convert the improper fraction 29/6 into a mixed number.",
+    "choices": [
+      "4 5/6",
+      "4 3/6",
+      "5 1/6",
+      "4 1/6"
+    ],
+    "correct_answer": "4 5/6",
+    "explanation": "29 divided by 6 is 4 with a remainder of 5. So it is 4 5/6.",
+    "id": "10036"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Convert the mixed number 3 4/7 into an improper fraction.",
+    "choices": [
+      "25/7",
+      "21/7",
+      "23/7",
+      "27/7"
+    ],
+    "correct_answer": "25/7",
+    "explanation": "(3 × 7) + 4 = 21 + 4 = 25. Thus, 25/7.",
+    "id": "10037"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Which of the following fractions is the largest?",
+    "choices": [
+      "7/12",
+      "2/3",
+      "3/4",
+      "5/6"
+    ],
+    "correct_answer": "5/6",
+    "explanation": "Convert all to denominator 12: 5/6 = 10/12, 3/4 = 9/12, 7/12 = 7/12, 2/3 = 8/12. 10/12 (5/6) is the largest.",
+    "id": "10038"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 1 1/2 + 2 1/3",
+    "choices": [
+      "4 1/6",
+      "3 1/2",
+      "3 2/3",
+      "3 5/6"
+    ],
+    "correct_answer": "3 5/6",
+    "explanation": "Whole numbers: 1 + 2 = 3. Fractions: 1/2 + 1/3 = 3/6 + 2/6 = 5/6. Total = 3 5/6.",
+    "id": "10039"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 4 1/4 - 1 3/4",
+    "choices": [
+      "3 1/2",
+      "2 3/4",
+      "2 1/4",
+      "2 1/2"
+    ],
+    "correct_answer": "2 1/2",
+    "explanation": "4 1/4 = 17/4. 1 3/4 = 7/4. 17/4 - 7/4 = 10/4 = 5/2 = 2 1/2.",
+    "id": "10040"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "What is 3/5 of 150?",
+    "choices": [
+      "100",
+      "90",
+      "80",
+      "75"
+    ],
+    "correct_answer": "90",
+    "explanation": "(150 / 5) × 3 = 30 × 3 = 90.",
+    "id": "10041"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: (2/3 + 1/4) × 12",
+    "choices": [
+      "12",
+      "11",
+      "9",
+      "10"
+    ],
+    "correct_answer": "11",
+    "explanation": "2/3 + 1/4 = 8/12 + 3/12 = 11/12. (11/12) × 12 = 11.",
+    "id": "10042"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Express 0.375 as a fraction in lowest terms.",
+    "choices": [
+      "3/5",
+      "3/8",
+      "3/4",
+      "7/16"
+    ],
+    "correct_answer": "3/8",
+    "explanation": "0.375 = 375/1000. Divide numerator and denominator by 125 = 3/8.",
+    "id": "10043"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "What is the decimal equivalent of 7/20?",
+    "choices": [
+      "0.25",
+      "0.35",
+      "0.40",
+      "0.30"
+    ],
+    "correct_answer": "0.35",
+    "explanation": "7 divided by 20 = 0.35.",
+    "id": "10044"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 3/4 ÷ 5/8",
+    "choices": [
+      "5/6",
+      "3/5",
+      "6/5",
+      "4/5"
+    ],
+    "correct_answer": "6/5",
+    "explanation": "(3/4) × (8/5) = 24 / 20 = 6/5 (or 1 1/5).",
+    "id": "10045"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "A vessel contains 40 liters of liquid. If 3/8 of it is drained, how many liters remain in the vessel?",
+    "choices": [
+      "20 liters",
+      "30 liters",
+      "15 liters",
+      "25 liters"
+    ],
+    "correct_answer": "25 liters",
+    "explanation": "Drained = 40 × (3/8) = 15 liters. Remaining = 40 - 15 = 25 liters.",
+    "id": "10046"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 2/3 + 3/4 + 1/6",
+    "choices": [
+      "19/12",
+      "3/2",
+      "7/4",
+      "17/12"
+    ],
+    "correct_answer": "19/12",
+    "explanation": "Common denominator is 12: 8/12 + 9/12 + 2/12 = 19/12 (or 1 7/12).",
+    "id": "10047"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Simplify: (4/5) / (8/15)",
+    "choices": [
+      "4/3",
+      "2/3",
+      "5/4",
+      "3/2"
+    ],
+    "correct_answer": "3/2",
+    "explanation": "(4/5) × (15/8) = (4 × 15) / (5 × 8) = 60 / 40 = 3/2.",
+    "id": "10048"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "What fraction must be added to 3/7 to get 1?",
+    "choices": [
+      "4/7",
+      "3/7",
+      "1/7",
+      "5/7"
+    ],
+    "correct_answer": "4/7",
+    "explanation": "1 - 3/7 = 7/7 - 3/7 = 4/7.",
+    "id": "10049"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Find the value of (1/2)^3.",
+    "choices": [
+      "1/4",
+      "1/6",
+      "1/8",
+      "3/8"
+    ],
+    "correct_answer": "1/8",
+    "explanation": "(1/2) × (1/2) × (1/2) = 1/8.",
+    "id": "10050"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 5 1/3 - 2 5/6",
+    "choices": [
+      "2 1/3",
+      "2 2/3",
+      "3 1/6",
+      "2 1/2"
+    ],
+    "correct_answer": "2 1/2",
+    "explanation": "5 1/3 = 16/3 = 32/6. 2 5/6 = 17/6. 32/6 - 17/6 = 15/6 = 5/2 = 2 1/2.",
+    "id": "10051"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Which of the following is equivalent to 85%?",
+    "choices": [
+      "17/20",
+      "4/5",
+      "19/20",
+      "9/10"
+    ],
+    "correct_answer": "17/20",
+    "explanation": "85/100 = (85/5) / (100/5) = 17/20.",
+    "id": "10052"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "If 2/3 of a number is 24, what is 1/2 of that number?",
+    "choices": [
+      "12",
+      "16",
+      "18",
+      "20"
+    ],
+    "correct_answer": "18",
+    "explanation": "(2/3)x = 24 -> x = 24 × (3/2) = 36. 1/2 of 36 = 18.",
+    "id": "10053"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: (3/4 - 1/3) ÷ 5/12",
+    "choices": [
+      "1",
+      "4/5",
+      "1/2",
+      "2"
+    ],
+    "correct_answer": "1",
+    "explanation": "3/4 - 1/3 = 9/12 - 4/12 = 5/12. (5/12) ÷ (5/12) = 1.",
+    "id": "10054"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Simplify the complex fraction: (1/2 + 1/3) / (1/2 - 1/3)",
+    "choices": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "correct_answer": "5",
+    "explanation": "Numerator = 3/6 + 2/6 = 5/6. Denominator = 3/6 - 2/6 = 1/6. (5/6) / (1/6) = 5.",
+    "id": "10055"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 7/9 × 18/21",
+    "choices": [
+      "1/2",
+      "2/3",
+      "4/7",
+      "3/4"
+    ],
+    "correct_answer": "2/3",
+    "explanation": "(7/21) × (18/9) = (1/3) × 2 = 2/3.",
+    "id": "10056"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "What is 4/7 of 49?",
+    "choices": [
+      "35",
+      "28",
+      "21",
+      "24"
+    ],
+    "correct_answer": "28",
+    "explanation": "(49 / 7) × 4 = 7 × 4 = 28.",
+    "id": "10057"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 3 1/5 × 2 1/2",
+    "choices": [
+      "7 1/2",
+      "8 1/2",
+      "8",
+      "6 4/5"
+    ],
+    "correct_answer": "8",
+    "explanation": "3 1/5 = 16/5. 2 1/2 = 5/2. (16/5) × (5/2) = 80 / 10 = 8.",
+    "id": "10058"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Convert 0.625 into a fraction in lowest terms.",
+    "choices": [
+      "5/8",
+      "3/5",
+      "11/16",
+      "7/10"
+    ],
+    "correct_answer": "5/8",
+    "explanation": "0.625 = 625/1000. Divide numerator and denominator by 125 = 5/8.",
+    "id": "10059"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 9/10 - 2/5 - 1/4",
+    "choices": [
+      "7/20",
+      "1/5",
+      "3/10",
+      "1/4"
+    ],
+    "correct_answer": "1/4",
+    "explanation": "Common denominator is 20: 18/20 - 8/20 - 5/20 = 5/20 = 1/4.",
+    "id": "10060"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Which of the following fractions is less than 1/2?",
+    "choices": [
+      "7/13",
+      "5/9",
+      "4/9",
+      "6/11"
+    ],
+    "correct_answer": "4/9",
+    "explanation": "Half of 9 is 4.5. Since 4 is less than 4.5, 4/9 is less than 1/2.",
+    "id": "10061"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: (2/5) ÷ 4",
+    "choices": [
+      "2/15",
+      "8/5",
+      "1/5",
+      "1/10"
+    ],
+    "correct_answer": "1/10",
+    "explanation": "(2/5) × (1/4) = 2/20 = 1/10.",
+    "id": "10062"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Find the average of 1/2, 1/3, and 1/6.",
+    "choices": [
+      "1/4",
+      "1/3",
+      "2/9",
+      "1/2"
+    ],
+    "correct_answer": "1/3",
+    "explanation": "Sum = 3/6 + 2/6 + 1/6 = 6/6 = 1. Average = 1 / 3 = 1/3.",
+    "id": "10063"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 6 2/3 ÷ 1 1/9",
+    "choices": [
+      "6 1/3",
+      "5",
+      "5 1/2",
+      "6"
+    ],
+    "correct_answer": "6",
+    "explanation": "6 2/3 = 20/3. 1 1/9 = 10/9. (20/3) × (9/10) = 180 / 30 = 6.",
+    "id": "10064"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "What is 5/12 of 144?",
+    "choices": [
+      "48",
+      "60",
+      "50",
+      "72"
+    ],
+    "correct_answer": "60",
+    "explanation": "(144 / 12) × 5 = 12 × 5 = 60.",
+    "id": "10065"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Express 7/8 as a percentage.",
+    "choices": [
+      "87.5%",
+      "88%",
+      "85%",
+      "82.5%"
+    ],
+    "correct_answer": "87.5%",
+    "explanation": "7 / 8 = 0.875 = 87.5%.",
+    "id": "10066"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 3 - 1 4/7",
+    "choices": [
+      "1 2/7",
+      "1 3/7",
+      "2 3/7",
+      "1 4/7"
+    ],
+    "correct_answer": "1 3/7",
+    "explanation": "3 = 2 7/7. 2 7/7 - 1 4/7 = 1 3/7.",
+    "id": "10067"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "What fraction of an hour is 45 minutes?",
+    "choices": [
+      "2/3",
+      "4/5",
+      "3/4",
+      "5/6"
+    ],
+    "correct_answer": "3/4",
+    "explanation": "45 / 60 = 3/4.",
+    "id": "10068"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 4/9 + 5/18",
+    "choices": [
+      "7/9",
+      "13/18",
+      "3/4",
+      "2/3"
+    ],
+    "correct_answer": "13/18",
+    "explanation": "4/9 = 8/18. 8/18 + 5/18 = 13/18.",
+    "id": "10069"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "If 3/4 of a class of 32 students passed the exam, how many students failed?",
+    "choices": [
+      "24",
+      "8",
+      "12",
+      "6"
+    ],
+    "correct_answer": "8",
+    "explanation": "Passed = 32 × (3/4) = 24. Failed = 32 - 24 = 8.",
+    "id": "10070"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: (5/8) × (16/25)",
+    "choices": [
+      "3/8",
+      "4/5",
+      "2/5",
+      "1/2"
+    ],
+    "correct_answer": "2/5",
+    "explanation": "(5/25) × (16/8) = (1/5) × 2 = 2/5.",
+    "id": "10071"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Find the reciprocal of 3 3/4.",
+    "choices": [
+      "3/15",
+      "4/15",
+      "15/4",
+      "5/12"
+    ],
+    "correct_answer": "4/15",
+    "explanation": "3 3/4 = 15/4. Reciprocal is 4/15.",
+    "id": "10072"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 1/2 + 1/4 + 1/8",
+    "choices": [
+      "3/4",
+      "5/8",
+      "7/8",
+      "13/16"
+    ],
+    "correct_answer": "7/8",
+    "explanation": "4/8 + 2/8 + 1/8 = 7/8.",
+    "id": "10073"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "What is 2/9 of 81?",
+    "choices": [
+      "16",
+      "22",
+      "18",
+      "20"
+    ],
+    "correct_answer": "18",
+    "explanation": "(81 / 9) × 2 = 9 × 2 = 18.",
+    "id": "10074"
+  },
+  {
+    "category": "Numerical Ability – Fractions",
+    "question": "Solve: 2 1/2 × 1 3/5",
+    "choices": [
+      "4",
+      "3 1/2",
+      "3 4/5",
+      "4 1/2"
+    ],
+    "correct_answer": "4",
+    "explanation": "5/2 × 8/5 = 40 / 10 = 4.",
+    "id": "10075"
   }
 ]

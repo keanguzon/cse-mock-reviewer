@@ -2,11 +2,13 @@ import { json } from '@sveltejs/kit';
 import { supabase } from '$lib/supabaseClient';
 import { env } from '$env/dynamic/public';
 import { getQuestionsByLevel, type ExamLevel } from '$lib/questions';
+import { createClient } from '@supabase/supabase-js';
 
-export async function GET({ url }) {
+export async function GET({ url, request }) {
     const rawCategory = url.searchParams.get('category');
     const limitParam = url.searchParams.get('limit');
     const levelParam = url.searchParams.get('level');
+    const userId = url.searchParams.get('userId');
 
     // Bound limit strictly between 1 and 150.
     const limit = Math.min(Math.max(parseInt(limitParam || '20', 10) || 20, 1), 150);
@@ -26,56 +28,79 @@ export async function GET({ url }) {
                                  env.PUBLIC_SUPABASE_ANON_KEY &&
                                  env.PUBLIC_SUPABASE_ANON_KEY !== 'placeholder-key';
 
-    if (isSupabaseConfigured) {
+    let seen_questions: string[] = [];
+    let wrong_questions: string[] = [];
+
+    const authHeader = request.headers.get('authorization');
+
+    // Fetch user progress if user ID or auth header is provided and Supabase is configured
+    if (isSupabaseConfigured && (userId || authHeader)) {
         try {
-            const { data: rpcData, error: rpcError } = await supabase.rpc('get_random_questions', { 
-                p_limit: limit, 
-                p_category: category 
-            });
+            const dbClient = authHeader 
+                ? createClient(env.PUBLIC_SUPABASE_URL, env.PUBLIC_SUPABASE_ANON_KEY, {
+                    global: { headers: { Authorization: authHeader } }
+                  })
+                : supabase;
 
-            if (!rpcError && rpcData && rpcData.length > 0) {
-                return json(rpcData, { headers: responseHeaders });
+            let query = dbClient.from('user_progress').select('seen_questions, wrong_questions');
+            if (userId) {
+                query = query.eq('user_id', userId);
             }
-
-            let query = supabase.from('questions').select('*');
-            if (category) {
-                query = query.eq('category', category);
-            }
-            query = query.limit(limit * 5);
+            const { data: progressData, error: progressError } = await query.maybeSingle();
             
-            const { data, error } = await query;
-            if (!error && data && data.length > 0) {
-                let questions = [...data];
-                for (let i = questions.length - 1; i > 0; i--) {
-                    const j = Math.floor(Math.random() * (i + 1));
-                    [questions[i], questions[j]] = [questions[j], questions[i]];
-                }
-                return json(questions.slice(0, limit), { headers: responseHeaders });
+            if (!progressError && progressData) {
+                seen_questions = progressData.seen_questions || [];
+                wrong_questions = progressData.wrong_questions || [];
             }
-            
-            console.warn("Supabase fetch returned empty or error, falling back to local JSON...");
-        } catch (dbError) {
-            console.error("Supabase query failed, falling back to local JSON:", dbError);
+        } catch (e) {
+            console.error("Failed to fetch user_progress:", e);
         }
     }
 
-    // Graceful fallback to local JSON files.
     try {
-        let questions = getQuestionsByLevel(level);
+        let allValidQuestions = getQuestionsByLevel(level);
 
         // Optional filtering by category.
         if (category) {
-            questions = questions.filter(q => q.category === category);
+            allValidQuestions = allValidQuestions.filter(q => q.category === category);
         }
 
-        // Shuffle questions using Fisher-Yates algorithm.
-        let shuffled = [...questions];
-        for (let i = shuffled.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+        // Shuffle helper function using Fisher-Yates
+        const shuffle = (array: any[]) => {
+            let shuffled = [...array];
+            for (let i = shuffled.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+            }
+            return shuffled;
+        };
+
+        // Priority 1: Unseen questions
+        let unseen = allValidQuestions.filter(q => !seen_questions.includes(q.id));
+        unseen = shuffle(unseen);
+        
+        let selected = unseen.slice(0, limit);
+
+        // Priority 2: Fill remaining with wrong questions (Mastery)
+        if (selected.length < limit) {
+            let wrong = allValidQuestions.filter(q => wrong_questions.includes(q.id));
+            wrong = shuffle(wrong);
+            const needed = limit - selected.length;
+            selected = [...selected, ...wrong.slice(0, needed)];
         }
 
-        return json(shuffled.slice(0, limit), { headers: responseHeaders });
+        // Priority 3: Fill remaining with random previously correct questions (Refresh)
+        if (selected.length < limit) {
+            let correct = allValidQuestions.filter(q => seen_questions.includes(q.id) && !wrong_questions.includes(q.id));
+            correct = shuffle(correct);
+            const needed = limit - selected.length;
+            selected = [...selected, ...correct.slice(0, needed)];
+        }
+
+        // Final shuffle so the user doesn't know which is unseen vs wrong
+        selected = shuffle(selected);
+
+        return json(selected, { headers: responseHeaders });
     } catch (e) {
         console.error("Error with questions:", e);
         return json({ error: "Failed to load questions" }, { status: 500, headers: responseHeaders });

@@ -1,6 +1,6 @@
 [
   {
-    "id": "183",
+    "id": "13001",
     "category": "Numerical Ability – Word Problems",
     "question": "A government project costs PHP 2,400,000. If the cost increased by 15%, what is the new cost?",
     "choices": [
@@ -13,7 +13,7 @@
     "explanation": "Increase = 15% of 2,400,000 = 360,000. New cost = 2,400,000 + 360,000 = PHP 2,760,000."
   },
   {
-    "id": "185",
+    "id": "13002",
     "category": "Numerical Ability – Word Problems",
     "question": "A train travels 240 km in 3 hours. What is its average speed in km/hr?",
     "choices": [
@@ -26,7 +26,7 @@
     "explanation": "Speed = Distance / Time = 240 / 3 = 80 km/hr."
   },
   {
-    "id": "187",
+    "id": "13003",
     "category": "Numerical Ability – Word Problems",
     "question": "A store offers a 20% discount on an item originally priced at PHP 1,500. What is the discounted price?",
     "choices": [
@@ -39,7 +39,7 @@
     "explanation": "Discount = 20% of 1,500 = 300. Discounted price = 1,500 - 300 = PHP 1,200."
   },
   {
-    "id": "188",
+    "id": "13004",
     "category": "Numerical Ability – Word Problems",
     "question": "Pedro deposited PHP 50,000 in a bank with a simple interest rate of 5% per year. How much interest will he earn after 3 years?",
     "choices": [
@@ -52,7 +52,7 @@
     "explanation": "Simple Interest = P × r × t = 50,000 × 0.05 × 3 = PHP 7,500."
   },
   {
-    "id": "189",
+    "id": "13005",
     "category": "Numerical Ability – Word Problems",
     "question": "A rectangular lot is 40 meters long and 25 meters wide. What is its area in square meters?",
     "choices": [
@@ -65,7 +65,7 @@
     "explanation": "Area = Length × Width = 40 × 25 = 1,000 square meters."
   },
   {
-    "id": "190",
+    "id": "13006",
     "category": "Numerical Ability – Word Problems",
     "question": "If 3 kg of rice costs PHP 165, how much will 8 kg cost?",
     "choices": [
@@ -78,7 +78,7 @@
     "explanation": "Price per kg = 165/3 = PHP 55. Cost for 8 kg = 55 × 8 = PHP 440."
   },
   {
-    "id": "191",
+    "id": "13007",
     "category": "Numerical Ability – Word Problems",
     "question": "Maria scored 85, 92, 78, and 95 on her four exams. What score does she need on her fifth exam to get an average of 88?",
     "choices": [
@@ -91,7 +91,7 @@
     "explanation": "Total needed = 88 × 5 = 440. Current total = 85 + 92 + 78 + 95 = 350. Fifth score = 440 - 350 = 90."
   },
   {
-    "id": "192",
+    "id": "13008",
     "category": "Numerical Ability – Word Problems",
     "question": "A car consumes 8 liters of gasoline for every 100 km. How many liters are needed for a 350 km trip?",
     "choices": [
@@ -104,7 +104,7 @@
     "explanation": "Consumption = (8/100) × 350 = 28 liters."
   },
   {
-    "id": "194",
+    "id": "13009",
     "category": "Numerical Ability – Word Problems",
     "question": "A shirt costs PHP 800 after a 20% discount. What was the original price?",
     "choices": [
@@ -117,7 +117,7 @@
     "explanation": "After 20% off: 80% of original = 800. Original = 800 / 0.80 = PHP 1,000."
   },
   {
-    "id": "195",
+    "id": "13010",
     "category": "Numerical Ability – Word Problems",
     "question": "In a class of 50 students, 30 passed the math exam and 35 passed the English exam. If 20 passed both, how many students failed both exams?",
     "choices": [
@@ -130,7 +130,7 @@
     "explanation": "Passed at least one = 30 + 35 - 20 = 45. Failed both = 50 - 45 = 5 students."
   },
   {
-    "id": "197",
+    "id": "13011",
     "category": "Numerical Ability – Word Problems",
     "question": "A circular garden has a radius of 7 meters. What is its approximate area? (Use π = 22/7)",
     "choices": [
@@ -143,7 +143,7 @@
     "explanation": "Area = πr² = (22/7) × 7² = (22/7) × 49 = 22 × 7 = 154 square meters."
   },
   {
-    "id": "198",
+    "id": "13012",
     "category": "Numerical Ability – Word Problems",
     "question": "A mixture contains water and alcohol in the ratio 3:2. If there are 15 liters of water, how many liters of alcohol are there?",
     "choices": [
@@ -156,7 +156,7 @@
     "explanation": "Water:Alcohol = 3:2. If water = 15, then 15/3 = 5 (one part). Alcohol = 2 × 5 = 10 liters."
   },
   {
-    "id": "199",
+    "id": "13013",
     "category": "Numerical Ability – Word Problems",
     "question": "A government employee earns PHP 25,000 per month. If income tax is 10%, how much is his take-home pay?",
     "choices": [
@@ -169,7 +169,7 @@
     "explanation": "Tax = 10% of 25,000 = 2,500. Take-home = 25,000 - 2,500 = PHP 22,500."
   },
   {
-    "id": "200",
+    "id": "13014",
     "category": "Numerical Ability – Word Problems",
     "question": "If the sum of three consecutive even numbers is 78, what is the largest number?",
     "choices": [
@@ -182,7 +182,7 @@
     "explanation": "Let the numbers be x, x+2, x+4. Sum: 3x + 6 = 78 → 3x = 72 → x = 24. Largest = 24 + 4 = 28."
   },
   {
-    "id": "202",
+    "id": "13015",
     "category": "Numerical Ability – Word Problems",
     "question": "A car travels from City A to City B at 60 km/hr and returns at 40 km/hr. What is the average speed for the entire round trip?",
     "choices": [
@@ -195,7 +195,7 @@
     "explanation": "Harmonic mean of speeds = 2(60 × 40) / (60 + 40) = 4800 / 100 = 48 km/hr."
   },
   {
-    "id": "203",
+    "id": "13016",
     "category": "Numerical Ability – Word Problems",
     "question": "If 5 printers can print 500 pages in 10 minutes, how many pages can 8 printers print in 15 minutes?",
     "choices": [
@@ -208,7 +208,7 @@
     "explanation": "Rate per printer per minute = 500 / (5 × 10) = 10 pages/min. 8 printers in 15 minutes = 8 × 15 × 10 = 1,200 pages."
   },
   {
-    "id": "204",
+    "id": "13017",
     "category": "Numerical Ability – Word Problems",
     "question": "A merchant buys a item for PHP 4,000 and sells it for PHP 5,200. What is his profit percentage based on cost?",
     "choices": [
@@ -221,7 +221,7 @@
     "explanation": "Profit = 5,200 - 4,000 = PHP 1,200. Profit percentage = (1,200 / 4,000) × 100% = 30%."
   },
   {
-    "id": "205",
+    "id": "13018",
     "category": "Numerical Ability – Word Problems",
     "question": "The ratio of boys to girls in a school is 4:5. If there are 360 boys, how many total students are in the school?",
     "choices": [
@@ -234,7 +234,7 @@
     "explanation": "Boys = 4 parts = 360 → 1 part = 90. Girls = 5 parts = 450. Total = 360 + 450 = 810 students."
   },
   {
-    "id": "206",
+    "id": "13019",
     "category": "Numerical Ability – Word Problems",
     "question": "A bank offers a compound interest rate of 10% per annum compounded annually. If PHP 20,000 is invested for 2 years, what is the total compound amount?",
     "choices": [
@@ -247,7 +247,7 @@
     "explanation": "Amount = P(1 + r)² = 20,000 × (1.10)² = 20,000 × 1.21 = PHP 24,200."
   },
   {
-    "id": "208",
+    "id": "13020",
     "category": "Numerical Ability – Word Problems",
     "question": "How many liters of pure alcohol must be added to 10 liters of a 20% alcohol solution to make it a 50% solution?",
     "choices": [
@@ -260,7 +260,7 @@
     "explanation": "Current alcohol = 0.20 × 10 = 2 L. Let x = added pure alcohol: (2 + x)/(10 + x) = 0.50 → 2 + x = 5 + 0.5x → 0.5x = 3 → x = 6 L."
   },
   {
-    "id": "209",
+    "id": "13021",
     "category": "Numerical Ability – Word Problems",
     "question": "A square floor has a perimeter of 48 meters. What is its area in square meters?",
     "choices": [
@@ -273,7 +273,7 @@
     "explanation": "Side = Perimeter / 4 = 48 / 4 = 12 meters. Area = 12² = 144 square meters."
   },
   {
-    "id": "210",
+    "id": "13022",
     "category": "Numerical Ability – Word Problems",
     "question": "If the sum of two numbers is 45 and their difference is 9, what is the larger number?",
     "choices": [
@@ -286,7 +286,7 @@
     "explanation": "x + y = 45 and x - y = 9. Adding equations: 2x = 54 → x = 27."
   },
   {
-    "id": "212",
+    "id": "13023",
     "category": "Numerical Ability – Word Problems",
     "question": "A bag contains 5 red balls, 3 blue balls, and 2 green balls. If one ball is drawn at random, what is the probability that it is NOT red?",
     "choices": [
@@ -299,7 +299,7 @@
     "explanation": "Total balls = 10. Non-red balls = 3 + 2 = 5. Probability = 5/10 = 1/2."
   },
   {
-    "id": "213",
+    "id": "13024",
     "category": "Numerical Ability – Word Problems",
     "question": "A cyclist covers 15 km in 45 minutes. What is his speed in kilometers per hour?",
     "choices": [
@@ -312,7 +312,7 @@
     "explanation": "45 minutes = 3/4 hour. Speed = 15 / (3/4) = 15 × (4/3) = 20 km/hr."
   },
   {
-    "id": "214",
+    "id": "13025",
     "category": "Numerical Ability – Word Problems",
     "question": "An item is marked up by 25% over cost and sold for PHP 2,500. What was the cost price of the item?",
     "choices": [
@@ -325,7 +325,7 @@
     "explanation": "Selling price = 125% of Cost → Cost = 2,500 / 1.25 = PHP 2,000."
   },
   {
-    "id": "418",
+    "id": "13026",
     "category": "Numerical Ability – Word Problems",
     "question": "A vendor buys apples at PHP 15 each and sells them for PHP 22 each. What is his total profit from 50 apples?",
     "choices": [
@@ -338,7 +338,7 @@
     "explanation": "Profit per apple = 22 - 15 = 7. Total profit = 50 × 7 = 350."
   },
   {
-    "id": "419",
+    "id": "13027",
     "category": "Numerical Ability – Word Problems",
     "question": "The ratio of land to water in a town model is 3:7. If total area is 500 sq meters, what is the land area?",
     "choices": [
@@ -351,7 +351,7 @@
     "explanation": "Total parts = 10. Land = 3/10 × 500 = 150 sq meters."
   },
   {
-    "id": "420",
+    "id": "13028",
     "category": "Numerical Ability – Word Problems",
     "question": "A room is 8 meters long and 6 meters wide. How many square tiles of side 1 meter are needed to cover the floor?",
     "choices": [
@@ -364,7 +364,7 @@
     "explanation": "Area = 8 × 6 = 48 sq meters. 48 / 1 = 48 tiles."
   },
   {
-    "id": "421",
+    "id": "13029",
     "category": "Numerical Ability – Word Problems",
     "question": "An item originally priced at PHP 1,200 is increased by 10%, then discounted by 10%. What is the final price?",
     "choices": [
@@ -377,7 +377,7 @@
     "explanation": "Increase by 10%: 1200 + 120 = 1320. Discount by 10%: 1320 - 132 = 1188."
   },
   {
-    "id": "422",
+    "id": "13030",
     "category": "Numerical Ability – Word Problems",
     "question": "If 4 liters of paint cover 50 square meters, how many liters of paint are needed for 125 square meters?",
     "choices": [
@@ -388,5 +388,590 @@
     ],
     "correct_answer": "10 liters",
     "explanation": "Rate = 50 / 4 = 12.5 sq m/liter. 125 / 12.5 = 10 liters."
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A laptop originally priced at ₱35,000 is on sale at a 15% discount. If a 12% VAT is applied to the discounted price, what is the final amount to be paid?",
+    "choices": [
+      "₱35,700",
+      "₱31,250",
+      "₱33,320",
+      "₱34,500"
+    ],
+    "correct_answer": "₱33,320",
+    "explanation": "Discounted price = 35,000 × (1 - 0.15) = ₱29,750. Final price with 12% VAT = 29,750 × 1.12 = ₱33,320.",
+    "id": "13031"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "Juan invested ₱50,000 in a savings account that earns 4% simple interest per year. How much total interest will he earn after 3 years?",
+    "choices": [
+      "₱6,000",
+      "₱5,000",
+      "₱4,500",
+      "₱7,200"
+    ],
+    "correct_answer": "₱6,000",
+    "explanation": "Simple interest = Principal × Rate × Time = 50,000 × 0.04 × 3 = ₱6,000.",
+    "id": "13032"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "Maria bought 3 bags of rice weighing 25 kg, 50 kg, and 15 kg. What is the average weight per bag?",
+    "choices": [
+      "32 kg",
+      "30 kg",
+      "35 kg",
+      "28 kg"
+    ],
+    "correct_answer": "30 kg",
+    "explanation": "Total weight = 25 + 50 + 15 = 90 kg. Average = 90 / 3 = 30 kg.",
+    "id": "13033"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A car travels at a constant speed of 60 km/h. How many hours will it take to cover a distance of 270 kilometers?",
+    "choices": [
+      "4.2 hours",
+      "4 hours",
+      "5 hours",
+      "4.5 hours"
+    ],
+    "correct_answer": "4.5 hours",
+    "explanation": "Time = Distance / Speed = 270 / 60 = 4.5 hours.",
+    "id": "13034"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "In a class of 45 students, 60% are female. How many male students are in the class?",
+    "choices": [
+      "15",
+      "27",
+      "20",
+      "18"
+    ],
+    "correct_answer": "18",
+    "explanation": "Percentage of males = 100% - 60% = 40%. Number of male students = 45 × 0.40 = 18.",
+    "id": "13035"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A store owner buys an item for ₱800 and sells it for ₱1,000. What is the profit percentage based on the cost price?",
+    "choices": [
+      "15%",
+      "25%",
+      "30%",
+      "20%"
+    ],
+    "correct_answer": "25%",
+    "explanation": "Profit = 1,000 - 800 = ₱200. Profit percentage = (200 / 800) × 100% = 25%.",
+    "id": "13036"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "If 5 meters of cloth cost ₱350, how much will 12 meters of the same cloth cost?",
+    "choices": [
+      "₱840",
+      "₱900",
+      "₱750",
+      "₱700"
+    ],
+    "correct_answer": "₱840",
+    "explanation": "Cost per meter = 350 / 5 = ₱70. Cost for 12 meters = 70 × 12 = ₱840.",
+    "id": "13037"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A rectangular garden has a length of 18 meters and a perimeter of 56 meters. What is its width?",
+    "choices": [
+      "8 meters",
+      "14 meters",
+      "10 meters",
+      "12 meters"
+    ],
+    "correct_answer": "10 meters",
+    "explanation": "Perimeter = 2 × (Length + Width) -> 56 = 2 × (18 + W) -> 28 = 18 + W -> W = 10 meters.",
+    "id": "13038"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "Elena scores 85, 90, 88, and 93 on four subject exams. What score must she get on the fifth exam to achieve an overall average of 90?",
+    "choices": [
+      "95",
+      "94",
+      "96",
+      "92"
+    ],
+    "correct_answer": "94",
+    "explanation": "Total points needed for 90 average across 5 exams = 90 × 5 = 450. Sum of current 4 exams = 85 + 90 + 88 + 93 = 356. Required score = 450 - 356 = 94.",
+    "id": "13039"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A train 150 meters long passes a telegraph post in 10 seconds. What is the speed of the train in km/h?",
+    "choices": [
+      "54 km/h",
+      "45 km/h",
+      "60 km/h",
+      "50 km/h"
+    ],
+    "correct_answer": "54 km/h",
+    "explanation": "Speed in m/s = 150 / 10 = 15 m/s. Convert to km/h: 15 × (3600 / 1000) = 54 km/h.",
+    "id": "13040"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A bag contains 4 red marbles, 6 blue marbles, and 5 green marbles. What is the probability of drawing a blue marble at random?",
+    "choices": [
+      "1/3",
+      "2/5",
+      "1/2",
+      "4/15"
+    ],
+    "correct_answer": "2/5",
+    "explanation": "Total marbles = 4 + 6 + 5 = 15. Blue marbles = 6. Probability = 6/15 = 2/5.",
+    "id": "13041"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "The ratio of boys to girls in a school club is 3:4. If there are 28 girls, how many boys are in the club?",
+    "choices": [
+      "15",
+      "21",
+      "24",
+      "18"
+    ],
+    "correct_answer": "21",
+    "explanation": "3/4 = Boys/28 -> Boys = (3 × 28) / 4 = 21.",
+    "id": "13042"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A worker earns ₱600 per 8-hour workday. If he works 3 hours of overtime paid at 1.5 times his regular hourly rate, how much total money does he earn that day?",
+    "choices": [
+      "₱900.00",
+      "₱937.50",
+      "₱950.00",
+      "₱875.00"
+    ],
+    "correct_answer": "₱937.50",
+    "explanation": "Regular hourly rate = 600 / 8 = ₱75/hr. Overtime rate = 75 × 1.5 = ₱112.50/hr. Overtime pay for 3 hours = 112.50 × 3 = ₱337.50. Total pay = 600 + 337.50 = ₱937.50.",
+    "id": "13043"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "Three friends share a pizza. Paolo eats 1/3 of the pizza, Liza eats 1/4, and Mark eats the remaining portion. What fraction of the pizza did Mark eat?",
+    "choices": [
+      "5/12",
+      "1/3",
+      "1/2",
+      "7/12"
+    ],
+    "correct_answer": "5/12",
+    "explanation": "Paolo + Liza = 1/3 + 1/4 = 4/12 + 3/12 = 7/12. Mark's portion = 1 - 7/12 = 5/12.",
+    "id": "13044"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A tank can be filled by Pipe A in 4 hours and emptied by Pipe B in 6 hours. If both pipes are opened together, how many hours will it take to fill the tank?",
+    "choices": [
+      "8 hours",
+      "12 hours",
+      "14 hours",
+      "10 hours"
+    ],
+    "correct_answer": "12 hours",
+    "explanation": "Net rate per hour = 1/4 - 1/6 = 3/12 - 2/12 = 1/12. Time required = 12 hours.",
+    "id": "13045"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "What is the simple interest on a principal of ₱12,000 at an annual interest rate of 5% for 4 years?",
+    "choices": [
+      "₱3,000",
+      "₱2,800",
+      "₱2,400",
+      "₱2,000"
+    ],
+    "correct_answer": "₱2,400",
+    "explanation": "Interest = Principal × Rate × Time = 12,000 × 0.05 × 4 = ₱2,400.",
+    "id": "13046"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A printer prints 40 pages per minute. How many pages can it print in 1 hour and 15 minutes?",
+    "choices": [
+      "2,800",
+      "2,500",
+      "3,000",
+      "3,200"
+    ],
+    "correct_answer": "3,000",
+    "explanation": "1 hour 15 minutes = 75 minutes. Total pages = 40 × 75 = 3,000.",
+    "id": "13047"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "If a 20-meter wire is cut into two pieces such that one piece is 4 meters longer than the other, how long is the shorter piece?",
+    "choices": [
+      "6 meters",
+      "10 meters",
+      "8 meters",
+      "12 meters"
+    ],
+    "correct_answer": "8 meters",
+    "explanation": "Let shorter piece = x. Longer piece = x + 4. x + (x + 4) = 20 -> 2x + 4 = 20 -> 2x = 16 -> x = 8 meters.",
+    "id": "13048"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A salesman receives a base salary of ₱15,000 per month plus a 5% commission on all sales exceeding ₱100,000. If his total sales for the month were ₱250,000, what is his total earnings for the month?",
+    "choices": [
+      "₱20,000",
+      "₱27,500",
+      "₱22,500",
+      "₱25,000"
+    ],
+    "correct_answer": "₱22,500",
+    "explanation": "Eligible commission sales = 250,000 - 100,000 = ₱150,000. Commission = 150,000 × 0.05 = ₱7,500. Total earnings = 15,000 + 7,500 = ₱22,500.",
+    "id": "13049"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "The sum of three consecutive odd integers is 57. What is the value of the largest integer?",
+    "choices": [
+      "17",
+      "23",
+      "19",
+      "21"
+    ],
+    "correct_answer": "21",
+    "explanation": "Let the three odd integers be x, x+2, x+4. x + x+2 + x+4 = 57 -> 3x + 6 = 57 -> 3x = 51 -> x = 17. The integers are 17, 19, 21. The largest is 21.",
+    "id": "13050"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A company's revenue increased from ₱2.0 million in 2022 to ₱2.5 million in 2023. What was the percentage increase in revenue?",
+    "choices": [
+      "25%",
+      "30%",
+      "15%",
+      "20%"
+    ],
+    "correct_answer": "25%",
+    "explanation": "Increase = 2.5 - 2.0 = 0.5 million. Percentage increase = (0.5 / 2.0) × 100% = 25%.",
+    "id": "13051"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "How many liters of pure water must be added to 10 liters of a 30% acid solution to reduce it to a 20% acid solution?",
+    "choices": [
+      "4 liters",
+      "3 liters",
+      "6 liters",
+      "5 liters"
+    ],
+    "correct_answer": "5 liters",
+    "explanation": "Amount of pure acid = 10 × 0.30 = 3 liters. Let x = liters of water added. 3 / (10 + x) = 0.20 -> 3 = 2 + 0.2x -> 0.2x = 1 -> x = 5 liters.",
+    "id": "13052"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A square field has an area of 144 square meters. What is the length of its perimeter?",
+    "choices": [
+      "48 meters",
+      "36 meters",
+      "44 meters",
+      "52 meters"
+    ],
+    "correct_answer": "48 meters",
+    "explanation": "Side length = sqrt(144) = 12 meters. Perimeter = 4 × 12 = 48 meters.",
+    "id": "13053"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "If 8 men can build a wooden fence in 6 days, how many days will it take 12 men to build the same fence working at the same pace?",
+    "choices": [
+      "4 days",
+      "5 days",
+      "4.5 days",
+      "3 days"
+    ],
+    "correct_answer": "4 days",
+    "explanation": "Total man-days required = 8 × 6 = 48 man-days. Days for 12 men = 48 / 12 = 4 days.",
+    "id": "13054"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A merchant marks up an article by 40% above cost price and then gives a 10% discount on the marked price. What is his net profit percentage?",
+    "choices": [
+      "25%",
+      "28%",
+      "26%",
+      "30%"
+    ],
+    "correct_answer": "26%",
+    "explanation": "Let Cost = 100. Marked Price = 140. Discounted Price = 140 × 0.90 = 126. Net profit = 126 - 100 = 26%.",
+    "id": "13055"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "In a survey of 200 people, 120 like tea, 90 like coffee, and 40 like both. How many people like neither tea nor coffee?",
+    "choices": [
+      "30",
+      "20",
+      "40",
+      "50"
+    ],
+    "correct_answer": "30",
+    "explanation": "People liking at least one = 120 + 90 - 40 = 170. People liking neither = 200 - 170 = 30.",
+    "id": "13056"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A car travels 180 km in 3 hours and another 220 km in 2 hours. What is the average speed of the car for the entire journey?",
+    "choices": [
+      "85 km/h",
+      "80 km/h",
+      "75 km/h",
+      "70 km/h"
+    ],
+    "correct_answer": "80 km/h",
+    "explanation": "Total distance = 180 + 220 = 400 km. Total time = 3 + 2 = 5 hours. Average speed = 400 / 5 = 80 km/h.",
+    "id": "13057"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "The product of two positive numbers is 120. If one number is 2 more than the other, what is the smaller number?",
+    "choices": [
+      "14",
+      "12",
+      "8",
+      "10"
+    ],
+    "correct_answer": "10",
+    "explanation": "x(x + 2) = 120 -> x^2 + 2x - 120 = 0 -> (x + 12)(x - 10) = 0. Since positive, x = 10. The numbers are 10 and 12.",
+    "id": "13058"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A book was sold for ₱450 at a loss of 10%. What was the cost price of the book?",
+    "choices": [
+      "₱495",
+      "₱500",
+      "₱480",
+      "₱510"
+    ],
+    "correct_answer": "₱500",
+    "explanation": "Selling Price = Cost × (1 - 0.10) -> 450 = Cost × 0.90 -> Cost = 450 / 0.90 = ₱500.",
+    "id": "13059"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "If a wheel turns 120 times per minute, how many degrees does it turn in one second?",
+    "choices": [
+      "540 degrees",
+      "360 degrees",
+      "1080 degrees",
+      "720 degrees"
+    ],
+    "correct_answer": "720 degrees",
+    "explanation": "Rotations per second = 120 / 60 = 2 turns/sec. One turn = 360 degrees. Degrees per second = 2 × 360 = 720 degrees.",
+    "id": "13060"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A container is 3/4 full of water. When 5 liters are removed, it becomes 2/3 full. What is the total capacity of the container?",
+    "choices": [
+      "50 liters",
+      "60 liters",
+      "80 liters",
+      "40 liters"
+    ],
+    "correct_answer": "60 liters",
+    "explanation": "Let capacity = C. 3/4 C - 2/3 C = 5 -> (9/12 - 8/12) C = 5 -> 1/12 C = 5 -> C = 60 liters.",
+    "id": "13061"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "An employee receives a 10% salary increase in year 1 and another 10% increase in year 2. What is the cumulative percentage increase over the two years?",
+    "choices": [
+      "20%",
+      "21%",
+      "25%",
+      "22%"
+    ],
+    "correct_answer": "21%",
+    "explanation": "Let initial salary = 100. Year 1 = 110. Year 2 = 110 × 1.10 = 121. Total increase = 121 - 100 = 21%.",
+    "id": "13062"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "What is the compound interest on ₱10,000 compounded annually at 10% for 2 years?",
+    "choices": [
+      "₱2,000",
+      "₱2,200",
+      "₱1,900",
+      "₱2,100"
+    ],
+    "correct_answer": "₱2,100",
+    "explanation": "Amount = 10,000 × (1.10)^2 = 10,000 × 1.21 = ₱12,100. Compound interest = 12,100 - 10,000 = ₱2,100.",
+    "id": "13063"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "The ages of three siblings are in the ratio 2:3:5. If the sum of their ages is 40, how old is the eldest sibling?",
+    "choices": [
+      "20 years old",
+      "25 years old",
+      "18 years old",
+      "15 years old"
+    ],
+    "correct_answer": "20 years old",
+    "explanation": "Total parts = 2 + 3 + 5 = 10 parts. 1 part = 40 / 10 = 4 years. Eldest = 5 parts × 4 = 20 years old.",
+    "id": "13064"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A motorboat travels upstream at 12 km/h and downstream at 20 km/h. What is the speed of the current?",
+    "choices": [
+      "3 km/h",
+      "5 km/h",
+      "4 km/h",
+      "2 km/h"
+    ],
+    "correct_answer": "4 km/h",
+    "explanation": "Speed of current = (Downstream speed - Upstream speed) / 2 = (20 - 12) / 2 = 8 / 2 = 4 km/h.",
+    "id": "13065"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A typist can type 2,400 words in 40 minutes. How many words can she type in 1 hour at the same speed?",
+    "choices": [
+      "3,600 words",
+      "3,200 words",
+      "4,000 words",
+      "3,800 words"
+    ],
+    "correct_answer": "3,600 words",
+    "explanation": "Speed = 2400 / 40 = 60 words/min. 1 hour = 60 minutes. Words in 1 hour = 60 × 60 = 3,600 words.",
+    "id": "13066"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A store offers a 'Buy 2, Get 1 Free' promotion on shirts priced at ₱300 each. If Mark gets 6 shirts under this promo, how much total money does he pay?",
+    "choices": [
+      "₱1,200",
+      "₱900",
+      "₱1,800",
+      "₱1,500"
+    ],
+    "correct_answer": "₱1,200",
+    "explanation": "Under 'Buy 2, Get 1 Free', every set of 3 shirts costs the price of 2 shirts. For 6 shirts (2 sets), Mark pays for 4 shirts = 4 × 300 = ₱1,200.",
+    "id": "13067"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "What is the area of a right-angled triangle with a base of 10 cm and a hypotenuse of 26 cm?",
+    "choices": [
+      "100 cm²",
+      "240 cm²",
+      "130 cm²",
+      "120 cm²"
+    ],
+    "correct_answer": "120 cm²",
+    "explanation": "Height = sqrt(26^2 - 10^2) = sqrt(676 - 100) = sqrt(576) = 24 cm. Area = 0.5 × Base × Height = 0.5 × 10 × 24 = 120 cm².",
+    "id": "13068"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "If a number is increased by 20% and then decreased by 20%, what is the net change in the number?",
+    "choices": [
+      "2% decrease",
+      "4% increase",
+      "4% decrease",
+      "No change"
+    ],
+    "correct_answer": "4% decrease",
+    "explanation": "Let number = 100. Increase 20% -> 120. Decrease 20% -> 120 × 0.80 = 96. Net change = 96 - 100 = 4% decrease.",
+    "id": "13069"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A train leaves Manila at 8:00 AM traveling at 60 km/h. A second train leaves Manila at 9:00 AM along the same track at 80 km/h. At what time will the second train catch up with the first?",
+    "choices": [
+      "11:00 AM",
+      "11:30 AM",
+      "12:00 PM",
+      "1:00 PM"
+    ],
+    "correct_answer": "12:00 PM",
+    "explanation": "At 9:00 AM, the first train has traveled 60 km. Relative speed = 80 - 60 = 20 km/h. Time to catch up = 60 / 20 = 3 hours after 9:00 AM -> 12:00 PM.",
+    "id": "13070"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "The perimeter of an isosceles triangle is 32 cm. If the non-equal side is 10 cm, what is the length of one of the equal sides?",
+    "choices": [
+      "12 cm",
+      "11 cm",
+      "10 cm",
+      "9 cm"
+    ],
+    "correct_answer": "11 cm",
+    "explanation": "Perimeter = 2x + 10 = 32 -> 2x = 22 -> x = 11 cm.",
+    "id": "13071"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A man divides ₱45,000 among his three children in the ratio 1:2:3. What is the share of the child who receives the most?",
+    "choices": [
+      "₱20,000",
+      "₱15,000",
+      "₱18,000",
+      "₱22,500"
+    ],
+    "correct_answer": "₱22,500",
+    "explanation": "Total parts = 1 + 2 + 3 = 6 parts. 1 part = 45,000 / 6 = ₱7,500. Largest share = 3 parts × 7,500 = ₱22,500.",
+    "id": "13072"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "If 15 workers can build a road section in 12 days, how many workers are needed to finish the same road in 9 days?",
+    "choices": [
+      "20 workers",
+      "24 workers",
+      "18 workers",
+      "16 workers"
+    ],
+    "correct_answer": "20 workers",
+    "explanation": "Total worker-days = 15 × 12 = 180. Workers needed for 9 days = 180 / 9 = 20 workers.",
+    "id": "13073"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A clock gains 5 minutes every 3 hours. How many minutes will it gain in a full 24-hour day?",
+    "choices": [
+      "45 minutes",
+      "30 minutes",
+      "40 minutes",
+      "35 minutes"
+    ],
+    "correct_answer": "40 minutes",
+    "explanation": "Number of 3-hour intervals in 24 hours = 24 / 3 = 8. Total minutes gained = 8 × 5 = 40 minutes.",
+    "id": "13074"
+  },
+  {
+    "category": "Numerical Ability – Word Problems",
+    "question": "A sum of money doubles itself in 8 years at simple interest. What is the annual rate of interest?",
+    "choices": [
+      "12%",
+      "15%",
+      "12.5%",
+      "10%"
+    ],
+    "correct_answer": "12.5%",
+    "explanation": "For money to double, Interest = Principal. P = P × Rate × 8 -> Rate = 1/8 = 0.125 = 12.5%.",
+    "id": "13075"
   }
 ]

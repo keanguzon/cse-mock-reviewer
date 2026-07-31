@@ -640,7 +640,7 @@
 
         <div class="hero-stats-row">
           <div class="hero-stat">
-            <span class="hero-stat-num">800+</span>
+            <span class="hero-stat-num">1,500+</span>
             <span class="hero-stat-label">Questions</span>
           </div>
           <div class="hero-stat-divider"></div>
