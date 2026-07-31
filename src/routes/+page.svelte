@@ -764,7 +764,7 @@
         <!-- Floating category pill -->
         <div class="category-float">
           <span class="cf-dot"></span>
-          15 Categories Available
+          19 Categories Available
         </div>
       </div>
     </div>
