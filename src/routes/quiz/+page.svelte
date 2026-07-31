@@ -354,7 +354,7 @@
   <ResultScreen 
     {score} 
     total={questions.length} 
-    category={currentCategory || 'All Categories'}
+    category={(!currentCategory || currentCategory.toLowerCase() === "all" || currentCategory.toLowerCase() === "all categories") ? "Mixed Categories" : currentCategory}
     mode={currentMode}
     level={currentLevel}
     {questions}
@@ -400,7 +400,7 @@
               Save and Close
             {/if}
           </button>
-          <button class="btn-terminate hidden-mobile" onclick={handleTerminateSession}>
+          <button class="btn-terminate" onclick={handleTerminateSession}>
             Terminate Session
           </button>
         {:else}

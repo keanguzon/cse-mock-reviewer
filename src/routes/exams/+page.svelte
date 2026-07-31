@@ -207,7 +207,7 @@
             {@const level = getLevelLabel(attempt)}
             <div class="activity-item">
               <div class="activity-info">
-                <strong>{attempt.category === "all" || attempt.category === "" ? "Mixed Categories" : attempt.category}</strong>
+                <strong>{(!attempt.category || attempt.category.toLowerCase() === "all" || attempt.category.toLowerCase() === "all categories") ? "Mixed Categories" : attempt.category}</strong>
                 <div class="activity-meta-row">
                   <span class="level-badge {level.cls}">
                     {#if level.label.includes("Professional")}

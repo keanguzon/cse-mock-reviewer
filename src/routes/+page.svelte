@@ -512,7 +512,7 @@
                     : "Sub-Professional"}</span
                 >
                 •
-                <span>{savedSessionData?.category || "All Categories"}</span>
+                <span>{(!savedSessionData?.category || savedSessionData.category.toLowerCase() === "all" || savedSessionData.category.toLowerCase() === "all categories") ? "Mixed Categories" : savedSessionData.category}</span>
               </p>
               <p
                 style="font-size: 0.82rem; color: var(--cse-text-muted); margin-top: 0.4rem; font-weight: 500;"

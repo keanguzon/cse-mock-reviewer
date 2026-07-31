@@ -158,7 +158,7 @@
       {@const userAnswers = attempt.user_answers || {}}
 
       <div class="review-card slide-up">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
           <button class="btn-back" onclick={() => goto('/')} style="display: inline-flex; align-items: center; gap: 0.5rem; margin: 0;">
             <ArrowLeft size={18} />
             Back to Dashboard
@@ -174,7 +174,7 @@
         <header class="review-header" style="margin-top: 0;">
           <div class="review-meta-container">
             <div class="review-meta">
-              <h2 class="submission-title">{attempt.category === 'all' || attempt.category === '' ? 'Mixed Categories' : attempt.category}</h2>
+              <h2 class="submission-title">{(!attempt.category || attempt.category.toLowerCase() === "all" || attempt.category.toLowerCase() === "all categories") ? "Mixed Categories" : attempt.category}</h2>
               <div class="attempt-badges">
                 <span class="level-badge {level.cls}" style="display: inline-flex; align-items: center; gap: 0.3rem;">
                   {#if level.label.includes('Professional')}
