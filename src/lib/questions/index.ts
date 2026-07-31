@@ -74,11 +74,6 @@ export function getQuestionsByLevel(level: ExamLevel): Question[] {
     }
 }
 
-// Get categories available across all questions (19 categories)
-export function getAllCategories(): string[] {
-    return [...new Set(allQuestions.map(q => q.category))].sort((a, b) => a.localeCompare(b));
-}
-
 // Get categories available for a given exam level
 export function getCategoriesForLevel(level: ExamLevel): string[] {
     const questions = getQuestionsByLevel(level);
@@ -89,7 +84,7 @@ export function getCategoriesForLevel(level: ExamLevel): string[] {
 export function getCategoryCountsForLevel(level: ExamLevel): Record<string, number> {
     const questions = getQuestionsByLevel(level);
     const counts: Record<string, number> = { "": questions.length };
-    allQuestions.forEach(q => {
+    questions.forEach(q => {
         counts[q.category] = (counts[q.category] || 0) + 1;
     });
     return counts;
