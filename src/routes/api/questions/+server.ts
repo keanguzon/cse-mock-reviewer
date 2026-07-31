@@ -1,7 +1,7 @@
 import { json } from '@sveltejs/kit';
 import { supabase } from '$lib/supabaseClient';
 import { env } from '$env/dynamic/public';
-import { getQuestionsByLevel, type ExamLevel } from '$lib/questions';
+import { getQuestionsByLevel, allQuestions, type ExamLevel } from '$lib/questions';
 import { createClient } from '@supabase/supabase-js';
 
 export async function GET({ url, request }) {
@@ -59,12 +59,9 @@ export async function GET({ url, request }) {
     }
 
     try {
-        let allValidQuestions = getQuestionsByLevel(level);
-
-        // Optional filtering by category.
-        if (category) {
-            allValidQuestions = allValidQuestions.filter(q => q.category === category);
-        }
+        let allValidQuestions = category 
+            ? allQuestions.filter(q => q.category === category)
+            : getQuestionsByLevel(level);
 
         // Shuffle helper function using Fisher-Yates
         const shuffle = (array: any[]) => {

@@ -9,6 +9,7 @@
   import {
     getCategoryCountsForLevel,
     getCategoriesForLevel,
+    getAllCategories,
     allQuestions,
     type ExamLevel,
   } from "$lib/questions";
@@ -32,7 +33,7 @@
   let isGuestMode = $state(false);
 
   let categoryCounts = $derived(getCategoryCountsForLevel(selectedLevel));
-  let availableCategories = $derived(getCategoriesForLevel(selectedLevel));
+  let availableCategories = $derived(getAllCategories());
   let maxQuestions = $derived(
     categoryCounts[selectedCategory] || categoryCounts[""] || 0,
   );
