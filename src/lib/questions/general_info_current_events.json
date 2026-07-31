@@ -650,7 +650,7 @@
     "explanation": "The Official Gazette is the official publication of the Republic of the Philippines through which laws acquire binding effect after publication."
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine law is known as the 'Ecological Solid Waste Management Act of 2000'?",
     "choices": [
       "Republic Act No. 9275",
@@ -663,7 +663,7 @@
     "id": "8051"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Under RA 9003, open dumpsites for solid waste in the Philippines were mandated to be converted into sanitized landfills or:",
     "choices": [
       "Closed and rehabilitated",
@@ -676,7 +676,7 @@
     "id": "8052"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 8749 is commonly known as the:",
     "choices": [
       "Philippine Clean Water Act of 2004",
@@ -689,7 +689,7 @@
     "id": "8053"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine environmental law focuses on protecting the country's water bodies from pollution from land-based sources?",
     "choices": [
       "Republic Act No. 9275",
@@ -702,7 +702,7 @@
     "id": "8054"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 9729 created the Climate Change Commission (CCC). What is the primary role of this commission?",
     "choices": [
       "To serve as the sole policy-making body of the government tasked to coordinate climate change programs",
@@ -715,7 +715,7 @@
     "id": "8055"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "How many official member states currently compose the Association of Southeast Asian Nations (ASEAN)?",
     "choices": [
       "8 member states",
@@ -728,7 +728,7 @@
     "id": "8056"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Where is the permanent headquarters / Secretariat of the Association of Southeast Asian Nations (ASEAN) located?",
     "choices": [
       "Bangkok, Thailand",
@@ -741,7 +741,7 @@
     "id": "8057"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "In what year was the Universal Declaration of Human Rights (UDHR) adopted by the United Nations General Assembly?",
     "choices": [
       "1950",
@@ -754,7 +754,7 @@
     "id": "8058"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine law is known as the 'Disaster Risk Reduction and Management Act of 2010'?",
     "choices": [
       "Republic Act No. 9165",
@@ -767,7 +767,7 @@
     "id": "8059"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Under the Disaster Risk Reduction and Management framework, which agency serves as the executive arm of the National Disaster Risk Reduction and Management Council (NDRRMC)?",
     "choices": [
       "Department of Social Welfare and Development (DSWD)",
@@ -780,7 +780,7 @@
     "id": "8060"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "What international treaty signed in 2015 aims to limit global warming to well below 2 degrees Celsius above pre-industrial levels?",
     "choices": [
       "Kyoto Protocol",
@@ -793,7 +793,7 @@
     "id": "8061"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 9165 is commonly known as the:",
     "choices": [
       "Comprehensive Agrarian Reform Law",
@@ -806,7 +806,7 @@
     "id": "8062"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which government agency is the lead enforcement arm responsible for implementing Republic Act No. 9165 (Dangerous Drugs Act)?",
     "choices": [
       "National Bureau of Investigation (NBI)",
@@ -819,7 +819,7 @@
     "id": "8063"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which law is known as the 'Renewable Energy Act of 2008' in the Philippines?",
     "choices": [
       "Republic Act No. 9275",
@@ -832,7 +832,7 @@
     "id": "8064"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "What is the motto of ASEAN displayed in its charter?",
     "choices": [
       "One Vision, One Identity, One Community",
@@ -845,7 +845,7 @@
     "id": "8065"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 10175 is known as the:",
     "choices": [
       "Data Privacy Act of 2012",
@@ -858,7 +858,7 @@
     "id": "8066"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which international treaty aimed to phase out substances responsible for ozone depletion, such as chlorofluorocarbons (CFCs)?",
     "choices": [
       "Kyoto Protocol",
@@ -871,7 +871,7 @@
     "id": "8067"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 11032, which amended the Anti-Red Tape Act of 2007, is known as the:",
     "choices": [
       "Government Procurement Reform Act",
@@ -884,7 +884,7 @@
     "id": "8068"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Under RA 11032, simple transactions in government offices must be processed within a maximum of how many working days?",
     "choices": [
       "3 working days",
@@ -897,7 +897,7 @@
     "id": "8069"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine government agency is tasked with lead policy enforcement regarding environmental protection and natural resources management?",
     "choices": [
       "Department of Science and Technology (DOST)",
@@ -910,7 +910,7 @@
     "id": "8070"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "The Ramsar Convention is an international treaty specifically dedicated to the conservation and sustainable use of:",
     "choices": [
       "Alpine glaciers",
@@ -923,7 +923,7 @@
     "id": "8071"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which law is known as the 'Wildlife Resources Conservation and Protection Act' of the Philippines?",
     "choices": [
       "Republic Act No. 8550",
@@ -936,7 +936,7 @@
     "id": "8072"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "What is the primary focus of the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes?",
     "choices": [
       "Preventing the transfer of hazardous waste from developed to developing nations",
@@ -949,7 +949,7 @@
     "id": "8073"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine law established the Expanded National Integrated Protected Areas System (E-NIPAS)?",
     "choices": [
       "Republic Act No. 11038",
@@ -962,7 +962,7 @@
     "id": "8074"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which global body under the United Nations synthesizes scientific findings on climate change to inform global policy?",
     "choices": [
       "United Nations Environment Programme (UNEP)",
@@ -975,7 +975,7 @@
     "id": "8075"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 9184 is commonly known as the:",
     "choices": [
       "National Revenue Code",
@@ -988,7 +988,7 @@
     "id": "8076"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine law is known as the 'Anti-Safe Mealing and Food Waste Reduction Act'?",
     "choices": [
       "Republic Act No. 10611",
@@ -1001,7 +1001,7 @@
     "id": "8077"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "What is the primary objective of the Sustainable Development Goals (SDGs) established by the United Nations in 2015?",
     "choices": [
       "To build space stations for lunar colonization",
@@ -1014,7 +1014,7 @@
     "id": "8078"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine constitutional body conducts human rights violation investigations independently?",
     "choices": [
       "Commission on Audit (COA)",
@@ -1027,7 +1027,7 @@
     "id": "8079"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 10533 is commonly known as the:",
     "choices": [
       "Technical Education Act",
@@ -1040,7 +1040,7 @@
     "id": "8080"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Under the Universal Access to Quality Tertiary Education Act (RA 10931), tuition and other school fees are waived for Filipino students enrolled in:",
     "choices": [
       "Foreign exchange study programs only",
@@ -1053,7 +1053,7 @@
     "id": "8081"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which treaty prohibits the development, testing, production, stockpiling, and use of chemical weapons globally?",
     "choices": [
       "Non-Proliferation Treaty (NPT)",
@@ -1066,7 +1066,7 @@
     "id": "8082"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 11479 is known as the:",
     "choices": [
       "National Defense Act",
@@ -1079,7 +1079,7 @@
     "id": "8083"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which specialized UN agency is responsible for international public health oversight?",
     "choices": [
       "UNESCO",
@@ -1092,7 +1092,7 @@
     "id": "8084"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 7610 protects children against:",
     "choices": [
       "Excessive school homework",
@@ -1105,7 +1105,7 @@
     "id": "8085"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "What is the primary function of the Bangko Sentral ng Pilipinas (BSP) as defined by RA 7653 (as amended by RA 11211)?",
     "choices": [
       "To collect income taxes from private employees",
@@ -1118,7 +1118,7 @@
     "id": "8086"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine law is known as the 'Anti-Money Laundering Act of 2001'?",
     "choices": [
       "Republic Act No. 10173",
@@ -1131,7 +1131,7 @@
     "id": "8087"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "What international agreement entered into force in 2021 prohibiting nuclear weapons?",
     "choices": [
       "Strategic Arms Limitation Talk (SALT)",
@@ -1144,7 +1144,7 @@
     "id": "8088"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 9262 provides protection against violence for which specific demographic group?",
     "choices": [
       "Civil service retirees",
@@ -1157,7 +1157,7 @@
     "id": "8089"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine agency monitors weather forecasts, typhoon warnings, and astronomical observations?",
     "choices": [
       "PAGASA",
@@ -1170,7 +1170,7 @@
     "id": "8090"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine agency monitors volcanic eruptions, earthquakes, and tsunami occurrences?",
     "choices": [
       "PHIVOLCS",
@@ -1183,7 +1183,7 @@
     "id": "8091"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 7277 is commonly known as the:",
     "choices": [
       "Magna Carta for Disabled Persons",
@@ -1196,7 +1196,7 @@
     "id": "8092"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine law recognizes, protects, and promotes the rights of Indigenous Cultural Communities / Indigenous Peoples?",
     "choices": [
       "Republic Act No. 7160",
@@ -1209,7 +1209,7 @@
     "id": "8093"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Under the Local Government Code of 1991 (RA 7160), what is the smallest political unit in the Philippines?",
     "choices": [
       "Municipality",
@@ -1222,7 +1222,7 @@
     "id": "8094"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine law is known as the 'Electronic Commerce Act of 2000'?",
     "choices": [
       "Republic Act No. 9184",
@@ -1235,7 +1235,7 @@
     "id": "8095"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "What is the primary function of the Securities and Exchange Commission (SEC) in the Philippines?",
     "choices": [
       "To audit government expenditure accounts",
@@ -1248,7 +1248,7 @@
     "id": "8096"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 9994 is commonly known as the:",
     "choices": [
       "Universal Health Care Act",
@@ -1261,7 +1261,7 @@
     "id": "8097"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Which international convention governs the law of the sea, maritime boundaries, and exclusive economic zones (EEZ)?",
     "choices": [
       "Paris Agreement",
@@ -1274,7 +1274,7 @@
     "id": "8098"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Under UNCLOS, how many nautical miles from the baseline does a coastal state's Exclusive Economic Zone (EEZ) extend?",
     "choices": [
       "50 nautical miles",
@@ -1287,7 +1287,7 @@
     "id": "8099"
   },
   {
-    "category": "General Information – Current Events & Environment",
+    "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 6657 is known as the:",
     "choices": [
       "Agriculture and Fisheries Modernization Act",
