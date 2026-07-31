@@ -1,1302 +1,1302 @@
 [
-  {
-    "id": "15001",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word to complete the sentence: The new policy will ______ all departments starting next month.",
-    "choices": [
-      "affect",
-      "deflect",
-      "infect",
-      "effect"
-    ],
-    "correct_answer": "affect",
-    "explanation": "'Affect' is a verb meaning to influence or have an impact on. 'Effect' is typically a noun meaning result. Here, a verb is needed."
-  },
-  {
-    "id": "15002",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct word: The report is ______ to the one submitted last quarter.",
-    "choices": [
-      "complimentary",
-      "elementary",
-      "complementary",
-      "supplementary"
-    ],
-    "correct_answer": "complementary",
-    "explanation": "'Complementary' means combining in such a way as to enhance or complete. 'Complimentary' means expressing praise or given free of charge."
-  },
-  {
-    "id": "15003",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct sentence.",
-    "choices": [
-      "The datas support the researcher's conclusion.",
-      "The datas supports the researcher's conclusion.",
-      "The data support the researcher's conclusion.",
-      "The data supports the researcher's conclusion."
-    ],
-    "correct_answer": "The data support the researcher's conclusion.",
-    "explanation": "In formal usage, 'data' is the plural of 'datum' and takes a plural verb ('support'). 'Datas' is not a valid English word."
-  },
-  {
-    "id": "15004",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Fill in the blank: Neither the manager ______ the staff members were informed of the changes.",
-    "choices": [
-      "nor",
-      "or",
-      "but",
-      "and"
-    ],
-    "correct_answer": "nor",
-    "explanation": "'Neither' is always paired with 'nor' to form the correlative conjunction 'neither...nor.' 'Neither...or' is grammatically incorrect."
-  },
-  {
-    "id": "15005",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: She is ______ of the two candidates for the promotion.",
-    "choices": [
-      "the most qualified",
-      "more qualifier",
-      "the more qualified",
-      "the qualifier"
-    ],
-    "correct_answer": "the more qualified",
-    "explanation": "When comparing two items, the comparative form ('more qualified') is used. The superlative ('most qualified') is reserved for three or more."
-  },
-  {
-    "id": "15006",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct sentence.",
-    "choices": [
-      "Regardlessly of the outcome, the project must continue.",
-      "Regardless of the outcome, the project must continue.",
-      "Regard of the outcome, the project must continue.",
-      "Irregardless of the outcome, the project must continue."
-    ],
-    "correct_answer": "Regardless of the outcome, the project must continue.",
-    "explanation": "'Irregardless' is a nonstandard word. The correct form is 'regardless,' meaning 'without regard to.'"
-  },
-  {
-    "id": "15007",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word to complete the sentence: The organization will ______ a new policy on workplace conduct.",
-    "choices": [
-      "adopt",
-      "adept",
-      "advent",
-      "adapt"
-    ],
-    "correct_answer": "adopt",
-    "explanation": "'Adopt' means to officially accept or put into effect. 'Adapt' means to adjust to new conditions. 'Adept' means very skilled."
-  },
-  {
-    "id": "15008",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which sentence uses 'lay' and 'lie' correctly?",
-    "choices": [
-      "Please lie down on the couch and rest.",
-      "The documents have been laying on the desk all morning.",
-      "She lied the book on the table yesterday.",
-      "Please lay down on the couch and rest."
-    ],
-    "correct_answer": "Please lie down on the couch and rest.",
-    "explanation": "'Lie' means to recline (intransitive — no direct object). 'Lay' means to put something down (transitive — requires an object)."
-  },
-  {
-    "id": "15009",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The witness gave a ______ account of the events.",
-    "choices": [
-      "creditable",
-      "credible",
-      "credulous",
-      "incredible"
-    ],
-    "correct_answer": "credible",
-    "explanation": "'Credible' means believable or trustworthy. 'Credulous' means too willing to believe things. 'Creditable' means deserving acknowledgment."
-  },
-  {
-    "id": "15010",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct sentence.",
-    "choices": [
-      "A number of applicants this year has exceeded expectations.",
-      "The number of applicants this year exceeded expectations.",
-      "A amount of applicants this year exceeded expectations.",
-      "The amount of applicants this year exceeded expectations."
-    ],
-    "correct_answer": "The number of applicants this year exceeded expectations.",
-    "explanation": "'Number' is used with countable nouns (applicants). 'Amount' is used with uncountable nouns (water, money)."
-  },
-  {
-    "id": "15011",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word to complete the sentence: The employees were asked to ______ with the new safety regulations immediately.",
-    "choices": [
-      "apply",
-      "imply",
-      "comply",
-      "supply"
-    ],
-    "correct_answer": "comply",
-    "explanation": "'Comply with' means to act in accordance with a rule or regulation."
-  },
-  {
-    "id": "15012",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct sentence.",
-    "choices": [
-      "The memorandum was addressed to who is concerned.",
-      "The memorandum was addressed to whomever is concerned.",
-      "The memorandum was addressed to whom is concerned.",
-      "The memorandum was addressed to whoever is concerned."
-    ],
-    "correct_answer": "The memorandum was addressed to whoever is concerned.",
-    "explanation": "'Whoever' is correct because it serves as the subject of the clause 'whoever is concerned.'"
-  },
-  {
-    "id": "15013",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The new evidence was ______ to the case and could not be ignored.",
-    "choices": [
-      "imminent",
-      "pertinent",
-      "eminent",
-      "permanent"
-    ],
-    "correct_answer": "pertinent",
-    "explanation": "'Pertinent' means relevant or applicable to a particular matter. 'Imminent' means about to happen. 'Eminent' means famous or distinguished."
-  },
-  {
-    "id": "15014",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Fill in the blank: The government aims to ______ corruption in all levels of public service.",
-    "choices": [
-      "eradicate",
-      "exaggerate",
-      "elaborate",
-      "extricate"
-    ],
-    "correct_answer": "eradicate",
-    "explanation": "'Eradicate' means to completely destroy or remove. 'Extricate' means to free from a constraint. Context requires elimination of corruption."
-  },
-  {
-    "id": "15015",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The ______ between the two departments was resolved through mediation.",
-    "choices": [
-      "conflictual",
-      "confliction",
-      "conflicting",
-      "conflict"
-    ],
-    "correct_answer": "conflict",
-    "explanation": "'Conflict' is the correct noun form. 'Confliction' is not a standard English word. 'Conflicting' is an adjective."
-  },
-  {
-    "id": "15016",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct word: The supervisor ______ the employees for their outstanding performance.",
-    "choices": [
-      "commended",
-      "commenced",
-      "commented",
-      "commanded"
-    ],
-    "correct_answer": "commended",
-    "explanation": "'Commended' means to praise formally or officially. 'Commanded' means to give orders. 'Commenced' means to begin."
-  },
-  {
-    "id": "15017",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: He was ______ to the position of regional director last month.",
-    "choices": [
-      "appointed",
-      "disappointed",
-      "appointed to",
-      "anointed"
-    ],
-    "correct_answer": "appointed",
-    "explanation": "'Appointed' means to assign a job or role to someone officially. The correct usage is 'appointed to the position.'"
-  },
-  {
-    "id": "15018",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Fill in the blank: The ______ of the new building was delayed due to permit issues.",
-    "choices": [
-      "instruction",
-      "destruction",
-      "construction",
-      "obstruction"
-    ],
-    "correct_answer": "construction",
-    "explanation": "'Construction' means the building of something. The context describes a building project being delayed."
-  },
-  {
-    "id": "15019",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The agency will ______ a thorough investigation of the incident.",
-    "choices": [
-      "conduction",
-      "conducive",
-      "conductor",
-      "conduct"
-    ],
-    "correct_answer": "conduct",
-    "explanation": "'Conduct' is the verb meaning to carry out or organize. 'Conduction' refers to the transfer of heat or electricity."
-  },
-  {
-    "id": "15020",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct sentence.",
-    "choices": [
-      "The principle of the school addressed the students.",
-      "The prinsiple of the school addressed the students.",
-      "The princible of the school addressed the students.",
-      "The principal of the school addressed the students."
-    ],
-    "correct_answer": "The principal of the school addressed the students.",
-    "explanation": "'Principal' refers to the head of a school. 'Principle' refers to a fundamental truth or rule. Context requires the person, not the concept."
-  },
-  {
-    "id": "15021",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The government office ordered new personalized ______ for official letters.",
-    "choices": [
-      "stationery",
-      "stationarity",
-      "stationary",
-      "stationer"
-    ],
-    "correct_answer": "stationery",
-    "explanation": "'Stationery' (with an 'e') refers to writing materials like envelopes and paper. 'Stationary' (with an 'a') means standing still."
-  },
-  {
-    "id": "15022",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Fill in the blank: The legal ______ advised the board on compliance matters.",
-    "choices": [
-      "council",
-      "consul",
-      "console",
-      "counsel"
-    ],
-    "correct_answer": "counsel",
-    "explanation": "'Counsel' means advice or a lawyer/legal advisor. 'Council' refers to an administrative or advisory body."
-  },
-  {
-    "id": "15023",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct word: The officer tried to ______ information from the reluctant witness.",
-    "choices": [
-      "elicit",
-      "allude",
-      "illicit",
-      "elude"
-    ],
-    "correct_answer": "elicit",
-    "explanation": "'Elicit' is a verb meaning to evoke or draw out information. 'Illicit' is an adjective meaning illegal."
-  },
-  {
-    "id": "15024",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: We must ______ measures to guarantee public safety.",
-    "choices": [
-      "ensure",
-      "reassure",
-      "assure",
-      "insure"
-    ],
-    "correct_answer": "ensure",
-    "explanation": "'Ensure' means to make certain that something will happen. 'Insure' relates to financial insurance policies."
-  },
-  {
-    "id": "15025",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Fill in the blank: The speaker's remarks ______ that changes would be made soon.",
-    "choices": [
-      "inferred",
-      "concluded",
-      "deduced",
-      "implied"
-    ],
-    "correct_answer": "implied",
-    "explanation": "A speaker or writer 'implies' (suggests) something; a listener or reader 'infers' (deduces) meaning from it."
-  },
-  {
-    "id": "15026",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct word: Please ______ the document flat on the table before scanning.",
-    "choices": [
-      "lain",
-      "lay",
-      "lie",
-      "laid"
-    ],
-    "correct_answer": "lay",
-    "explanation": "'Lay' is a transitive verb requiring a direct object ('document'). 'Lie' is intransitive (to recline)."
-  },
-  {
-    "id": "15027",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The committee will ______ the neighborhood for feedback on the proposal.",
-    "choices": [
-      "canvaser",
-      "canvas",
-      "canvass",
-      "canvassed"
-    ],
-    "correct_answer": "canvass",
-    "explanation": "'Canvass' (with double 's') means to solicit opinions, votes, or feedback. 'Canvas' (single 's') is heavy cloth."
-  },
-  {
-    "id": "15028",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Fill in the blank: Manila is the political and economic ______ of the Philippines.",
-    "choices": [
-      "capitation",
-      "capitolium",
-      "capital",
-      "capitol"
-    ],
-    "correct_answer": "capital",
-    "explanation": "'Capital' refers to a seat of government or wealth. 'Capitol' refers specifically to the building where a legislature meets."
-  },
-  {
-    "id": "15029",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The auditor ______ several non-compliance issues in the report.",
-    "choices": [
-      "sighted",
-      "recited",
-      "sited",
-      "cited"
-    ],
-    "correct_answer": "cited",
-    "explanation": "'Cited' means quoted or referred to as an authority or proof. 'Sited' relates to location; 'sighted' relates to vision."
-  },
-  {
-    "id": "15030",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct sentence.",
-    "choices": [
-      "An imminent scientist gave the keynote address.",
-      "An eminent scientist gave the keynote address.",
-      "An emminent scientist gave the keynote address.",
-      "An immanent scientist gave the keynote address."
-    ],
-    "correct_answer": "An eminent scientist gave the keynote address.",
-    "explanation": "'Eminent' means famous or distinguished. 'Imminent' means about to happen. Context requires distinguished."
-  },
-  {
-    "id": "15031",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Fill in the blank: The two issues should be treated as ______ matters.",
-    "choices": [
-      "discreet",
-      "discretion",
-      "discreteness",
-      "discrete"
-    ],
-    "correct_answer": "discrete",
-    "explanation": "'Discrete' means individually separate and distinct. 'Discreet' means careful, prudent, or secretive."
-  },
-  {
-    "id": "15032",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: We need to investigate ______ before taking action.",
-    "choices": [
-      "furthest",
-      "further",
-      "farther",
-      "farthest"
-    ],
-    "correct_answer": "further",
-    "explanation": "'Further' refers to figurative distance or additional degree/extent. 'Farther' refers strictly to physical distance."
-  },
-  {
-    "id": "15033",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct word: Employee ______ remained high despite the reorganization.",
-    "choices": [
-      "moralist",
-      "moral",
-      "morality",
-      "morale"
-    ],
-    "correct_answer": "morale",
-    "explanation": "'Morale' refers to confidence, enthusiasm, and discipline of a group. 'Moral' relates to principles of right and wrong."
-  },
-  {
-    "id": "15034",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Fill in the blank: The doctor ______ a strict diet and exercise routine.",
-    "choices": [
-      "transcribed",
-      "prescribed",
-      "proscribed",
-      "described"
-    ],
-    "correct_answer": "prescribed",
-    "explanation": "'Prescribe' means to recommend or authorize a treatment. 'Proscribe' means to forbid or prohibit."
-  },
-  {
-    "id": "15035",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The government plans to ______ taxes to fund infrastructure.",
-    "choices": [
-      "rise",
-      "razed",
-      "arise",
-      "raise"
-    ],
-    "correct_answer": "raise",
-    "explanation": "'Raise' is transitive (requires an object like 'taxes'). 'Rise' is intransitive (to move upward)."
-  },
-  {
-    "id": "15036",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Fill in the blank: A judge must remain a ______ party during courtroom trials.",
-    "choices": [
-      "interesting",
-      "disinterest",
-      "disinterested",
-      "uninterested"
-    ],
-    "correct_answer": "disinterested",
-    "explanation": "'Disinterested' means impartial and unbiased. 'Uninterested' means bored or lacking interest."
-  },
-  {
-    "id": "15037",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The instructions provided ______ details regarding the application process.",
-    "choices": [
-      "complicit",
-      "duplicitous",
-      "implicit",
-      "explicit"
-    ],
-    "correct_answer": "explicit",
-    "explanation": "'Explicit' means stated clearly and in detail, leaving no room for confusion. 'Implicit' means implied."
-  },
-  {
-    "id": "15038",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct sentence.",
-    "choices": [
-      "The signing of the treaty was a historian event.",
-      "The signing of the treaty was a historical event.",
-      "The signing of the treaty was a historic event.",
-      "The signing of the treaty was an historical event."
-    ],
-    "correct_answer": "The signing of the treaty was a historic event.",
-    "explanation": "'Historic' refers to something famous or important in history. 'Historical' relates to anything in the past generally."
-  },
-  {
-    "id": "15039",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The new intern managed to ______ to the fast-paced environment quickly.",
-    "choices": [
-      "adopt",
-      "adept",
-      "addict",
-      "adapt"
-    ],
-    "correct_answer": "adapt",
-    "explanation": "'Adapt' means to adjust to new conditions. 'Adopt' means to take up or choose. 'Adept' means skilled."
-  },
-  {
-    "id": "15040",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Fill in the blank: The decision set a new ______ for future administrative cases.",
-    "choices": [
-      "precedence",
-      "president",
-      "presidency",
-      "precedent"
-    ],
-    "correct_answer": "precedent",
-    "explanation": "A 'precedent' is an earlier event or action regarded as an example or rule to be followed."
-  },
-  {
-    "id": "15041",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The manager gave valuable ______ on career advancement.",
-    "choices": [
-      "adviser",
-      "advice",
-      "advising",
-      "advise"
-    ],
-    "correct_answer": "advice",
-    "explanation": "'Advice' is the noun form meaning guidance. 'Advise' is the verb meaning to offer guidance."
-  },
-  {
-    "id": "15042",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct word: Make sure you do not ______ your entry permit before traveling.",
-    "choices": [
-      "loose",
-      "loosen",
-      "lose",
-      "loss"
-    ],
-    "correct_answer": "lose",
-    "explanation": "'Lose' (single 'o') is a verb meaning to misplace or be deprived of. 'Loose' (double 'o') means not tight."
-  },
-  {
-    "id": "15043",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Fill in the blank: The court ordered the immediate ______ of the illegal structure.",
-    "choices": [
-      "demolition",
-      "demarcation",
-      "demonstration",
-      "demotion"
-    ],
-    "correct_answer": "demolition",
-    "explanation": "'Demolition' means tearing down or destroying a building or structure."
-  },
-  {
-    "id": "15044",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The applicant demonstrated that he was highly ______ at computer programming.",
-    "choices": [
-      "adopt",
-      "adapt",
-      "adept",
-      "adaptable"
-    ],
-    "correct_answer": "adept",
-    "explanation": "'Adept' is an adjective meaning very skilled or proficient at something."
-  },
-  {
-    "id": "15045",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Fill in the blank: The road followed a ______ path through the mountain pass.",
-    "choices": [
-      "torturous",
-      "tortuous",
-      "torture",
-      "tortured"
-    ],
-    "correct_answer": "tortuous",
-    "explanation": "'Tortuous' means full of twists and turns. 'Torturous' means involving or causing painful torture."
-  },
-  {
-    "id": "15046",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct word: The agency strives to provide ______ quality service to the public.",
-    "choices": [
-      "continuation",
-      "continuous",
-      "continual",
-      "continuance"
-    ],
-    "correct_answer": "continuous",
-    "explanation": "'Continuous' means uninterrupted in time or sequence. 'Continual' means occurring frequently at intervals."
-  },
-  {
-    "id": "15047",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The new policy will ______ immediately upon publication.",
-    "choices": [
-      "take effect",
-      "take affect",
-      "bring affect",
-      "have affect"
-    ],
-    "correct_answer": "take effect",
-    "explanation": "The correct idiom is 'take effect' (meaning to become operational or binding)."
-  },
-  {
-    "id": "15048",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Fill in the blank: The project team worked in close ______ with local government officials.",
-    "choices": [
-      "cooperation",
-      "corporation",
-      "compilation",
-      "co-optation"
-    ],
-    "correct_answer": "cooperation",
-    "explanation": "'Cooperation' means working together toward a common goal. 'Corporation' is a business organization."
-  },
-  {
-    "id": "15049",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Select the correct word: She showed great ______ in handling the angry client.",
-    "choices": [
-      "tack",
-      "tactile",
-      "tact",
-      "tactics"
-    ],
-    "correct_answer": "tact",
-    "explanation": "'Tact' means skill and sensitivity in dealing with others or difficult issues."
-  },
-  {
-    "id": "15050",
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word: The law ______ discrimination in hiring based on age or gender.",
-    "choices": [
-      "prescribes",
-      "proscribes",
-      "ascribes",
-      "subscribes"
-    ],
-    "correct_answer": "proscribes",
-    "explanation": "'Proscribe' means to forbid, denounce, or condemn. 'Prescribe' means to direct or mandate."
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which sentence is correctly constructed?",
-    "choices": [
-      "The manager gave the report to me and Maria.",
-      "The manager gave the report to Maria and me.",
-      "The manager gave the report to Maria and I.",
-      "The manager gave the report to Maria and myself."
-    ],
-    "correct_answer": "The manager gave the report to Maria and me.",
-    "explanation": "The preposition 'to' requires an objective pronoun ('me', not 'I' or 'myself'). As a rule of politeness, put the other person's name first ('Maria and me').",
-    "id": "15051"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the best word to complete the sentence:\n\nThe heavy rain will definitely __________ the outcome of the outdoor festival.",
-    "choices": [
-      "effect",
-      "effects",
-      "affect",
-      "affects"
-    ],
-    "correct_answer": "affect",
-    "explanation": "'Affect' is usually a verb meaning to influence. 'Effect' is usually a noun meaning the result.",
-    "id": "15052"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Identify the sentence with the correct usage of the apostrophe:",
-    "choices": [
-      "The childrens toy's were left outside.",
-      "The childrens toys were left outside.",
-      "The children's toys were left outside.",
-      "The childrens' toys were left outside."
-    ],
-    "correct_answer": "The children's toys were left outside.",
-    "explanation": "'Children' is already plural. To make it possessive, add an apostrophe and an 's' ('s).",
-    "id": "15053"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct phrase:\n\nShe is the one __________ I believe should be promoted.",
-    "choices": [
-      "whom",
-      "who",
-      "whose",
-      "which"
-    ],
-    "correct_answer": "who",
-    "explanation": "Remove the interrupter 'I believe'. The remaining clause is 'who should be promoted'. 'Who' acts as the subject.",
-    "id": "15054"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which sentence is correct?",
-    "choices": [
-      "Juan feels bad about missing the deadline.",
-      "Juan feels badly about missing the deadline.",
-      "Juan feels worst about missing the deadline.",
-      "Juan feels worse about missing the deadline."
-    ],
-    "correct_answer": "Juan feels bad about missing the deadline.",
-    "explanation": "'Feels' is a linking verb and requires an adjective ('bad'), not an adverb ('badly').",
-    "id": "15055"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Complete the sentence:\n\nI prefer drinking brewed coffee __________ drinking instant coffee.",
-    "choices": [
-      "than",
-      "to",
-      "more than",
-      "over"
-    ],
-    "correct_answer": "to",
-    "explanation": "The correct idiom is 'prefer [something] to [something else]'.",
-    "id": "15056"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correctly constructed sentence:",
-    "choices": [
-      "Regardless of the weather, we will proceed.",
-      "Irregardless to the weather, we will proceed.",
-      "Irregardless of the weather, we will proceed.",
-      "Regardless to the weather, we will proceed."
-    ],
-    "correct_answer": "Regardless of the weather, we will proceed.",
-    "explanation": "'Irregardless' is non-standard and considered incorrect in formal English. The correct term is 'Regardless'.",
-    "id": "15057"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which of the following is correct?",
-    "choices": [
-      "Please laid down and rest.",
-      "Please lay down and rest.",
-      "Please lain down and rest.",
-      "Please lie down and rest."
-    ],
-    "correct_answer": "Please lie down and rest.",
-    "explanation": "'Lie' means to recline or rest (intransitive). 'Lay' means to place something down (transitive).",
-    "id": "15058"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word:\n\nShe has a large __________ of books in her library.",
-    "choices": [
-      "quantity",
-      "volume",
-      "number",
-      "amount"
-    ],
-    "correct_answer": "number",
-    "explanation": "'Number' is used for countable items like books. 'Amount' is used for uncountable items.",
-    "id": "15059"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Identify the sentence with the correct usage:",
-    "choices": [
-      "The jury have reached their verdict.",
-      "The jury has reached its verdict.",
-      "The jury have reached its verdict.",
-      "The jury has reached their verdict."
-    ],
-    "correct_answer": "The jury has reached its verdict.",
-    "explanation": "'Jury' acting as a single unit takes a singular verb (has) and singular pronoun (its).",
-    "id": "15060"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which sentence is correct?",
-    "choices": [
-      "There going to the mall after school.",
-      "They going to the mall after school.",
-      "Their going to the mall after school.",
-      "They're going to the mall after school."
-    ],
-    "correct_answer": "They're going to the mall after school.",
-    "explanation": "'They're' is the contraction for 'they are'.",
-    "id": "15061"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word to complete the sentence:\n\nThe applicant is confident that she will __________ the licensure examination.",
-    "choices": [
-      "past",
-      "passing",
-      "passed",
-      "pass"
-    ],
-    "correct_answer": "pass",
-    "explanation": "The auxiliary verb 'will' must be followed by the base form of the main verb ('pass').",
-    "id": "15062"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Identify the sentence with correct parallel structure:",
-    "choices": [
-      "He likes hiking, swimming, and to ride a bicycle.",
-      "He likes to hike, to swim, and riding a bicycle.",
-      "He likes to hike, swimming, and riding a bicycle.",
-      "He likes hiking, swimming, and riding a bicycle."
-    ],
-    "correct_answer": "He likes hiking, swimming, and riding a bicycle.",
-    "explanation": "All items in the series must have the same grammatical form (gerunds: hiking, swimming, riding).",
-    "id": "15063"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which of the following is correct?",
-    "choices": [
-      "I should have known better.",
-      "I should have knew better.",
-      "I should of known better.",
-      "I should of knew better."
-    ],
-    "correct_answer": "I should have known better.",
-    "explanation": "'Should of' is a common phonetic error for 'should have'. The verb must be in the past participle form ('known').",
-    "id": "15064"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correctly constructed sentence:",
-    "choices": [
-      "She is different with her sister.",
-      "She is different from her sister.",
-      "She is different to her sister.",
-      "She is different than her sister."
-    ],
-    "correct_answer": "She is different from her sister.",
-    "explanation": "'Different from' is the standard, grammatically preferred phrase.",
-    "id": "15065"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which sentence is correctly punctuated?",
-    "choices": [
-      "Let' go to the store.",
-      "Let's go to the store.",
-      "Lets' go to the store.",
-      "Lets go to the store."
-    ],
-    "correct_answer": "Let's go to the store.",
-    "explanation": "'Let's' is a contraction of 'let us', so it requires an apostrophe.",
-    "id": "15066"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct phrase:\n\n__________ your help, we would have failed.",
-    "choices": [
-      "Unless",
-      "Without for",
-      "Except for",
-      "But for"
-    ],
-    "correct_answer": "But for",
-    "explanation": "'But for' is an idiom meaning 'if it were not for'.",
-    "id": "15067"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Identify the correct sentence:",
-    "choices": [
-      "Each of the students has his or her own laptop.",
-      "Each of the students has their own laptop.",
-      "Each of the students have their own laptop.",
-      "Each of the students have his or her own laptop."
-    ],
-    "correct_answer": "Each of the students has his or her own laptop.",
-    "explanation": "'Each' is singular, so it takes a singular verb (has) and singular pronouns (his or her).",
-    "id": "15068"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which of the following is correct?",
-    "choices": [
-      "Its' a beautiful day today.",
-      "Its a beautiful day today.",
-      "It's a beautiful day today.",
-      "It is' beautiful day today."
-    ],
-    "correct_answer": "It's a beautiful day today.",
-    "explanation": "'It's' is the contraction for 'It is'.",
-    "id": "15069"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word:\n\nHe is the __________ candidate among the three.",
-    "choices": [
-      "best",
-      "good",
-      "better",
-      "more better"
-    ],
-    "correct_answer": "best",
-    "explanation": "When comparing three or more things/people, use the superlative degree ('best').",
-    "id": "15070"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Identify the sentence with correct usage:",
-    "choices": [
-      "The datum are ready for analysis.",
-      "The data is ready for analysis.",
-      "The datas are ready for analysis.",
-      "The data are ready for analysis."
-    ],
-    "correct_answer": "The data are ready for analysis.",
-    "explanation": "In strict formal English, 'data' is the plural form of 'datum' and takes a plural verb ('are').",
-    "id": "15071"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which sentence is correct?",
-    "choices": [
-      "I am used to wake up early.",
-      "I am used to waking up early.",
-      "I use to wake up early.",
-      "I used to waking up early."
-    ],
-    "correct_answer": "I am used to waking up early.",
-    "explanation": "The phrase 'be used to' is followed by a noun or gerund (verb-ing). Thus, 'waking' is correct.",
-    "id": "15072"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correctly constructed sentence:",
-    "choices": [
-      "Have I seldom seen such a beautiful sunset.",
-      "Seldom have I seen such a beautiful sunset.",
-      "I seldom have saw such a beautiful sunset.",
-      "Seldom I have seen such a beautiful sunset."
-    ],
-    "correct_answer": "Seldom have I seen such a beautiful sunset.",
-    "explanation": "When a negative or restrictive adverb like 'Seldom' starts a sentence, subject-auxiliary inversion is required.",
-    "id": "15073"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which of the following is correct?",
-    "choices": [
-      "He divided the cake into the five children.",
-      "He divided the cake among the five children.",
-      "He divided the cake between the five children.",
-      "He divided the cake within the five children."
-    ],
-    "correct_answer": "He divided the cake among the five children.",
-    "explanation": "'Among' is used for three or more entities, while 'between' is typically for two.",
-    "id": "15074"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct phrase:\n\nThe newly elected mayor is focused on __________ the city's infrastructure.",
-    "choices": [
-      "improved",
-      "improves",
-      "improving",
-      "improve"
-    ],
-    "correct_answer": "improving",
-    "explanation": "Prepositions (like 'on') are followed by objects, which must be nouns or gerunds (verb-ing). 'Improving' is the gerund form.",
-    "id": "15075"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which of the following sentences uses the correct preposition?",
-    "choices": [
-      "She is good with mathematics.",
-      "She is good on mathematics.",
-      "She is good in mathematics.",
-      "She is good at mathematics."
-    ],
-    "correct_answer": "She is good at mathematics.",
-    "explanation": "The standard idiom for expressing ability or skill in a subject or activity is 'good at'.",
-    "id": "15076"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Identify the correct sentence:",
-    "choices": [
-      "He could have pass the exam if he studied.",
-      "He could have passed the exam if he studied.",
-      "He could of pass the exam if he studied.",
-      "He could of passed the exam if he studied."
-    ],
-    "correct_answer": "He could have passed the exam if he studied.",
-    "explanation": "'Could of' is a common mistake for 'could have'. The auxiliary 'have' is followed by the past participle 'passed'.",
-    "id": "15077"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the best word to complete the sentence:\n\nThe committee will __________ the new policies tomorrow.",
-    "choices": [
-      "adapt",
-      "adept",
-      "adopts",
-      "adopt"
-    ],
-    "correct_answer": "adopt",
-    "explanation": "'Adopt' means to choose to take up or follow (an idea, method, or course of action). 'Adapt' means to modify.",
-    "id": "15078"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which sentence is correctly punctuated?",
-    "choices": [
-      "My brother who lives in Cebu is a doctor.",
-      "My brother who lives in Cebu, is a doctor.",
-      "My brother, who lives in Cebu, is a doctor.",
-      "My brother, who lives in Cebu is a doctor."
-    ],
-    "correct_answer": "My brother, who lives in Cebu, is a doctor.",
-    "explanation": "Assuming the speaker has only one brother, the clause 'who lives in Cebu' is non-restrictive and must be set off by commas.",
-    "id": "15079"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct phrase:\n\nShe was tired, __________ she continued to work.",
-    "choices": [
-      "however",
-      "since",
-      "therefore",
-      "yet"
-    ],
-    "correct_answer": "yet",
-    "explanation": "'Yet' acts as a coordinating conjunction joining two independent clauses with contrasting ideas. 'However' would require a semicolon or period.",
-    "id": "15080"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which sentence is correct?",
-    "choices": [
-      "I have fewer problems than you do.",
-      "I have least problems than you do.",
-      "I have less problems than you do.",
-      "I have lesser problems than you do."
-    ],
-    "correct_answer": "I have fewer problems than you do.",
-    "explanation": "'Fewer' is used with countable nouns (problems). 'Less' is used with uncountable nouns.",
-    "id": "15081"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Complete the sentence:\n\nThe new regulations will take __________ next week.",
-    "choices": [
-      "effects",
-      "affects",
-      "effect",
-      "affect"
-    ],
-    "correct_answer": "effect",
-    "explanation": "The idiom is 'take effect', meaning to come into force or operation.",
-    "id": "15082"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Identify the sentence with correct parallel structure:",
-    "choices": [
-      "The speech was informative, entertaining, and inspiring.",
-      "The speech was informative, it was entertaining, and inspiring.",
-      "The speech informed, was entertaining, and inspiring.",
-      "The speech was informative, entertaining, and it inspired the audience."
-    ],
-    "correct_answer": "The speech was informative, entertaining, and inspiring.",
-    "explanation": "All elements in the series are presented as parallel adjectives.",
-    "id": "15083"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word:\n\nThe witness was asked to __________ his story in court.",
-    "choices": [
-      "collaborate",
-      "calculate",
-      "corroborate",
-      "cooperate"
-    ],
-    "correct_answer": "corroborate",
-    "explanation": "'Corroborate' means to confirm or give support to (a statement, theory, or finding). 'Collaborate' means to work together.",
-    "id": "15084"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which of the following is correct?",
-    "choices": [
-      "Whom did you address the letter to?",
-      "To who did you address the letter?",
-      "To whom did you address the letter?",
-      "Who did you address the letter to?"
-    ],
-    "correct_answer": "To whom did you address the letter?",
-    "explanation": "Standard formal English prefers 'To whom did you address the letter?' because 'whom' is the object of the preposition 'to'.",
-    "id": "15085"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct phrase:\n\nThe manager objected to __________ leaving early.",
-    "choices": [
-      "he",
-      "himself",
-      "his",
-      "him"
-    ],
-    "correct_answer": "his",
-    "explanation": "A gerund ('leaving') should be modified by a possessive pronoun ('his'), not an objective pronoun ('him').",
-    "id": "15086"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Identify the correct sentence:",
-    "choices": [
-      "I differ about you on that issue.",
-      "I differ with you on that issue.",
-      "I differ to you on that issue.",
-      "I differ from you on that issue."
-    ],
-    "correct_answer": "I differ with you on that issue.",
-    "explanation": "When expressing disagreement of opinion, 'differ with' is the correct idiom. When discussing physical differences, use 'differ from'.",
-    "id": "15087"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which sentence is correctly constructed?",
-    "choices": [
-      "She asked me what the time was.",
-      "She asked me what the time is.",
-      "She asked me what was the time.",
-      "She asked me what is the time."
-    ],
-    "correct_answer": "She asked me what the time was.",
-    "explanation": "In indirect questions, the subject comes before the verb ('the time was'), and the tense shifts back (from 'is' to 'was') following the past tense verb 'asked'.",
-    "id": "15088"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Complete the sentence:\n\nShe is one of the employees who __________ always willing to help.",
-    "choices": [
-      "is",
-      "were",
-      "was",
-      "are"
-    ],
-    "correct_answer": "are",
-    "explanation": "The relative pronoun 'who' refers to the plural antecedent 'employees', so it takes the plural verb 'are'.",
-    "id": "15089"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word:\n\nThe medicine had no __________ on the patient's fever.",
-    "choices": [
-      "effect",
-      "affect",
-      "affects",
-      "effects"
-    ],
-    "correct_answer": "effect",
-    "explanation": "Here, a noun is needed. 'Effect' is a noun meaning a result or influence.",
-    "id": "15090"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which sentence is correct?",
-    "choices": [
-      "He divided his property across his four children.",
-      "He divided his property between his four children.",
-      "He divided his property among his four children.",
-      "He divided his property to his four children."
-    ],
-    "correct_answer": "He divided his property among his four children.",
-    "explanation": "'Among' is the correct preposition to use when distributing something to three or more people.",
-    "id": "15091"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct phrase:\n\nThe project was a success, __________ of the initial delays.",
-    "choices": [
-      "in spite",
-      "despite of",
-      "in spite of",
-      "regardless"
-    ],
-    "correct_answer": "in spite of",
-    "explanation": "The correct phrase is 'in spite of'. 'Despite' is used without 'of'.",
-    "id": "15092"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Identify the sentence with correct usage:",
-    "choices": [
-      "Where are you going to?",
-      "Where to are you going?",
-      "Where are you going at?",
-      "Where are you going?"
-    ],
-    "correct_answer": "Where are you going?",
-    "explanation": "The prepositions 'to' or 'at' are redundant when 'where' is used as an adverb of place.",
-    "id": "15093"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which of the following is correct?",
-    "choices": [
-      "I am not entirely convinced to his argument.",
-      "I am not entirely convinced by his argument.",
-      "I am not entirely convinced about his argument.",
-      "I am not entirely convinced with his argument."
-    ],
-    "correct_answer": "I am not entirely convinced by his argument.",
-    "explanation": "The idiom is to be convinced 'by' an argument or 'of' a fact.",
-    "id": "15094"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct word:\n\nThe suspect decided to __________ his right to remain silent.",
-    "choices": [
-      "wive",
-      "wave",
-      "weave",
-      "waive"
-    ],
-    "correct_answer": "waive",
-    "explanation": "'Waive' means to refrain from insisting on or using a right or claim.",
-    "id": "15095"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Identify the correct sentence:",
-    "choices": [
-      "She likes him more then I do.",
-      "She likes him more than I.",
-      "She likes him more than me.",
-      "All of the above"
-    ],
-    "correct_answer": "She likes him more than me.",
-    "explanation": "Depending on the intended meaning, 'more than me' implies 'more than she likes me'.",
-    "id": "15096"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which sentence is correctly constructed?",
-    "choices": [
-      "The reason I am late is because of the traffic.",
-      "The reason I am late is that there was heavy traffic.",
-      "The reason I am late is due to the traffic.",
-      "The reason I am late was because of traffic."
-    ],
-    "correct_answer": "The reason I am late is that there was heavy traffic.",
-    "explanation": "'The reason... is because' is redundant. Use 'The reason... is that'.",
-    "id": "15097"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Choose the correct phrase:\n\nThe committee will consist __________ five members.",
-    "choices": [
-      "from",
-      "with",
-      "in",
-      "of"
-    ],
-    "correct_answer": "of",
-    "explanation": "The verb 'consist' is always followed by the preposition 'of'.",
-    "id": "15098"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Which of the following is correct?",
-    "choices": [
-      "He is angry with me.",
-      "He is angry to me.",
-      "He is angry at me.",
-      "He is angry about me."
-    ],
-    "correct_answer": "He is angry with me.",
-    "explanation": "You get angry 'with' a person, but angry 'at' a situation or thing.",
-    "id": "15099"
-  },
-  {
-    "category": "Verbal Ability – Correct Usage",
-    "question": "Complete the sentence:\n\nShe was totally oblivious __________ the chaos around her.",
-    "choices": [
-      "to",
-      "of",
-      "with",
-      "about"
-    ],
-    "correct_answer": "of",
-    "explanation": "The adjective 'oblivious' is traditionally and most correctly followed by the preposition 'of', although 'to' is also widely accepted today.",
-    "id": "15100"
-  }
+    {
+        "id": "15001",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word to complete the sentence: The new policy will ______ all departments starting next month.",
+        "choices": [
+            "affect",
+            "deflect",
+            "infect",
+            "effect"
+        ],
+        "correct_answer": "affect",
+        "explanation": "'Affect' is a verb meaning to influence or have an impact on. 'Effect' is typically a noun meaning result. Here, a verb is needed."
+    },
+    {
+        "id": "15002",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: The report is ______ to the one submitted last quarter.",
+        "choices": [
+            "complimentary",
+            "elementary",
+            "complementary",
+            "supplementary"
+        ],
+        "correct_answer": "complementary",
+        "explanation": "'Complementary' means combining in such a way as to enhance or complete. 'Complimentary' means expressing praise or given free of charge."
+    },
+    {
+        "id": "15003",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct sentence.",
+        "choices": [
+            "The datas support the researcher's conclusion.",
+            "The datas supports the researcher's conclusion.",
+            "The data support the researcher's conclusion.",
+            "The data supports the researcher's conclusion."
+        ],
+        "correct_answer": "The data support the researcher's conclusion.",
+        "explanation": "In formal usage, 'data' is the plural of 'datum' and takes a plural verb ('support'). 'Datas' is not a valid English word."
+    },
+    {
+        "id": "15004",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: Neither the manager ______ the staff members were informed of the changes.",
+        "choices": [
+            "nor",
+            "or",
+            "but",
+            "and"
+        ],
+        "correct_answer": "nor",
+        "explanation": "'Neither' is always paired with 'nor' to form the correlative conjunction 'neither...nor.' 'Neither...or' is grammatically incorrect."
+    },
+    {
+        "id": "15005",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: She is ______ of the two candidates for the promotion.",
+        "choices": [
+            "the most qualified",
+            "more qualifier",
+            "the more qualified",
+            "the qualifier"
+        ],
+        "correct_answer": "the more qualified",
+        "explanation": "When comparing two items, the comparative form ('more qualified') is used. The superlative ('most qualified') is reserved for three or more."
+    },
+    {
+        "id": "15006",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": [
+            "Regardlessly of the outcome, the project must continue.",
+            "Regardless of the outcome, the project must continue.",
+            "Regard of the outcome, the project must continue.",
+            "Irregardless of the outcome, the project must continue."
+        ],
+        "correct_answer": "Regardless of the outcome, the project must continue.",
+        "explanation": "'Irregardless' is a nonstandard word. The correct form is 'regardless,' meaning 'without regard to.'"
+    },
+    {
+        "id": "15007",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word to complete the sentence: The organization will ______ a new policy on workplace conduct.",
+        "choices": [
+            "adopt",
+            "adept",
+            "advent",
+            "adapt"
+        ],
+        "correct_answer": "adopt",
+        "explanation": "'Adopt' means to officially accept or put into effect. 'Adapt' means to adjust to new conditions. 'Adept' means very skilled."
+    },
+    {
+        "id": "15008",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which sentence uses 'lay' and 'lie' correctly?",
+        "choices": [
+            "Please lie down on the couch and rest.",
+            "The documents have been laying on the desk all morning.",
+            "She lied the book on the table yesterday.",
+            "Please lay down on the couch and rest."
+        ],
+        "correct_answer": "Please lie down on the couch and rest.",
+        "explanation": "'Lie' means to recline (intransitive — no direct object). 'Lay' means to put something down (transitive — requires an object)."
+    },
+    {
+        "id": "15009",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The witness gave a ______ account of the events.",
+        "choices": [
+            "creditable",
+            "credible",
+            "credulous",
+            "incredible"
+        ],
+        "correct_answer": "credible",
+        "explanation": "'Credible' means believable or trustworthy. 'Credulous' means too willing to believe things. 'Creditable' means deserving acknowledgment."
+    },
+    {
+        "id": "15010",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": [
+            "A number of applicants this year has exceeded expectations.",
+            "The number of applicants this year exceeded expectations.",
+            "A amount of applicants this year exceeded expectations.",
+            "The amount of applicants this year exceeded expectations."
+        ],
+        "correct_answer": "The number of applicants this year exceeded expectations.",
+        "explanation": "'Number' is used with countable nouns (applicants). 'Amount' is used with uncountable nouns (water, money)."
+    },
+    {
+        "id": "15011",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word to complete the sentence: The employees were asked to ______ with the new safety regulations immediately.",
+        "choices": [
+            "apply",
+            "imply",
+            "comply",
+            "supply"
+        ],
+        "correct_answer": "comply",
+        "explanation": "'Comply with' means to act in accordance with a rule or regulation."
+    },
+    {
+        "id": "15012",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": [
+            "The memorandum was addressed to who is concerned.",
+            "The memorandum was addressed to whomever is concerned.",
+            "The memorandum was addressed to whom is concerned.",
+            "The memorandum was addressed to whoever is concerned."
+        ],
+        "correct_answer": "The memorandum was addressed to whoever is concerned.",
+        "explanation": "'Whoever' is correct because it serves as the subject of the clause 'whoever is concerned.'"
+    },
+    {
+        "id": "15013",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The new evidence was ______ to the case and could not be ignored.",
+        "choices": [
+            "imminent",
+            "pertinent",
+            "eminent",
+            "permanent"
+        ],
+        "correct_answer": "pertinent",
+        "explanation": "'Pertinent' means relevant or applicable to a particular matter. 'Imminent' means about to happen. 'Eminent' means famous or distinguished."
+    },
+    {
+        "id": "15014",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The government aims to ______ corruption in all levels of public service.",
+        "choices": [
+            "eradicate",
+            "exaggerate",
+            "elaborate",
+            "extricate"
+        ],
+        "correct_answer": "eradicate",
+        "explanation": "'Eradicate' means to completely destroy or remove. 'Extricate' means to free from a constraint. Context requires elimination of corruption."
+    },
+    {
+        "id": "15015",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The ______ between the two departments was resolved through mediation.",
+        "choices": [
+            "conflictual",
+            "confliction",
+            "conflicting",
+            "conflict"
+        ],
+        "correct_answer": "conflict",
+        "explanation": "'Conflict' is the correct noun form. 'Confliction' is not a standard English word. 'Conflicting' is an adjective."
+    },
+    {
+        "id": "15016",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: The supervisor ______ the employees for their outstanding performance.",
+        "choices": [
+            "commended",
+            "commenced",
+            "commented",
+            "commanded"
+        ],
+        "correct_answer": "commended",
+        "explanation": "'Commended' means to praise formally or officially. 'Commanded' means to give orders. 'Commenced' means to begin."
+    },
+    {
+        "id": "15017",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: He was ______ to the position of regional director last month.",
+        "choices": [
+            "appointed",
+            "disappointed",
+            "assigned",
+            "anointed"
+        ],
+        "correct_answer": "appointed",
+        "explanation": "'Appointed' means to assign a job or role to someone officially. The correct usage is 'appointed to the position.'"
+    },
+    {
+        "id": "15018",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The ______ of the new building was delayed due to permit issues.",
+        "choices": [
+            "instruction",
+            "destruction",
+            "construction",
+            "obstruction"
+        ],
+        "correct_answer": "construction",
+        "explanation": "'Construction' means the building of something. The context describes a building project being delayed."
+    },
+    {
+        "id": "15019",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The agency will ______ a thorough investigation of the incident.",
+        "choices": [
+            "conduction",
+            "conducive",
+            "conductor",
+            "conduct"
+        ],
+        "correct_answer": "conduct",
+        "explanation": "'Conduct' is the verb meaning to carry out or organize. 'Conduction' refers to the transfer of heat or electricity."
+    },
+    {
+        "id": "15020",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": [
+            "The principle of the school addressed the students.",
+            "The prinsiple of the school addressed the students.",
+            "The princible of the school addressed the students.",
+            "The principal of the school addressed the students."
+        ],
+        "correct_answer": "The principal of the school addressed the students.",
+        "explanation": "'Principal' refers to the head of a school. 'Principle' refers to a fundamental truth or rule. Context requires the person, not the concept."
+    },
+    {
+        "id": "15021",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The government office ordered new personalized ______ for official letters.",
+        "choices": [
+            "stationery",
+            "stationarity",
+            "stationary",
+            "stationer"
+        ],
+        "correct_answer": "stationery",
+        "explanation": "'Stationery' (with an 'e') refers to writing materials like envelopes and paper. 'Stationary' (with an 'a') means standing still."
+    },
+    {
+        "id": "15022",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The legal ______ advised the board on compliance matters.",
+        "choices": [
+            "council",
+            "consul",
+            "console",
+            "counsel"
+        ],
+        "correct_answer": "counsel",
+        "explanation": "'Counsel' means advice or a lawyer/legal advisor. 'Council' refers to an administrative or advisory body."
+    },
+    {
+        "id": "15023",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: The officer tried to ______ information from the reluctant witness.",
+        "choices": [
+            "elicit",
+            "allude",
+            "illicit",
+            "elude"
+        ],
+        "correct_answer": "elicit",
+        "explanation": "'Elicit' is a verb meaning to evoke or draw out information. 'Illicit' is an adjective meaning illegal."
+    },
+    {
+        "id": "15024",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: We must ______ measures to guarantee public safety.",
+        "choices": [
+            "ensure",
+            "reassure",
+            "assure",
+            "insure"
+        ],
+        "correct_answer": "ensure",
+        "explanation": "'Ensure' means to make certain that something will happen. 'Insure' relates to financial insurance policies."
+    },
+    {
+        "id": "15025",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The speaker's remarks ______ that changes would be made soon.",
+        "choices": [
+            "inferred",
+            "concluded",
+            "deduced",
+            "implied"
+        ],
+        "correct_answer": "implied",
+        "explanation": "A speaker or writer 'implies' (suggests) something; a listener or reader 'infers' (deduces) meaning from it."
+    },
+    {
+        "id": "15026",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: Please ______ the document flat on the table before scanning.",
+        "choices": [
+            "lain",
+            "lay",
+            "lie",
+            "laid"
+        ],
+        "correct_answer": "lay",
+        "explanation": "'Lay' is a transitive verb requiring a direct object ('document'). 'Lie' is intransitive (to recline)."
+    },
+    {
+        "id": "15027",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The committee will ______ the neighborhood for feedback on the proposal.",
+        "choices": [
+            "canvaser",
+            "canvas",
+            "canvass",
+            "canvassed"
+        ],
+        "correct_answer": "canvass",
+        "explanation": "'Canvass' (with double 's') means to solicit opinions, votes, or feedback. 'Canvas' (single 's') is heavy cloth."
+    },
+    {
+        "id": "15028",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: Manila is the political and economic ______ of the Philippines.",
+        "choices": [
+            "capitation",
+            "capitolium",
+            "capital",
+            "capitol"
+        ],
+        "correct_answer": "capital",
+        "explanation": "'Capital' refers to a seat of government or wealth. 'Capitol' refers specifically to the building where a legislature meets."
+    },
+    {
+        "id": "15029",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The auditor ______ several non-compliance issues in the report.",
+        "choices": [
+            "sighted",
+            "recited",
+            "sited",
+            "cited"
+        ],
+        "correct_answer": "cited",
+        "explanation": "'Cited' means quoted or referred to as an authority or proof. 'Sited' relates to location; 'sighted' relates to vision."
+    },
+    {
+        "id": "15030",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": [
+            "An imminent scientist gave the keynote address.",
+            "An eminent scientist gave the keynote address.",
+            "An emminent scientist gave the keynote address.",
+            "An immanent scientist gave the keynote address."
+        ],
+        "correct_answer": "An eminent scientist gave the keynote address.",
+        "explanation": "'Eminent' means famous or distinguished. 'Imminent' means about to happen. Context requires distinguished."
+    },
+    {
+        "id": "15031",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The two issues should be treated as ______ matters.",
+        "choices": [
+            "discreet",
+            "discretion",
+            "discreteness",
+            "discrete"
+        ],
+        "correct_answer": "discrete",
+        "explanation": "'Discrete' means individually separate and distinct. 'Discreet' means careful, prudent, or secretive."
+    },
+    {
+        "id": "15032",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: We need to investigate ______ before taking action.",
+        "choices": [
+            "furthest",
+            "further",
+            "farther",
+            "farthest"
+        ],
+        "correct_answer": "further",
+        "explanation": "'Further' refers to figurative distance or additional degree/extent. 'Farther' refers strictly to physical distance."
+    },
+    {
+        "id": "15033",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: Employee ______ remained high despite the reorganization.",
+        "choices": [
+            "moralist",
+            "moral",
+            "morality",
+            "morale"
+        ],
+        "correct_answer": "morale",
+        "explanation": "'Morale' refers to confidence, enthusiasm, and discipline of a group. 'Moral' relates to principles of right and wrong."
+    },
+    {
+        "id": "15034",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The doctor ______ a strict diet and exercise routine.",
+        "choices": [
+            "transcribed",
+            "prescribed",
+            "proscribed",
+            "described"
+        ],
+        "correct_answer": "prescribed",
+        "explanation": "'Prescribe' means to recommend or authorize a treatment. 'Proscribe' means to forbid or prohibit."
+    },
+    {
+        "id": "15035",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The government plans to ______ taxes to fund infrastructure.",
+        "choices": [
+            "rise",
+            "razed",
+            "arise",
+            "raise"
+        ],
+        "correct_answer": "raise",
+        "explanation": "'Raise' is transitive (requires an object like 'taxes'). 'Rise' is intransitive (to move upward)."
+    },
+    {
+        "id": "15036",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: A judge must remain a ______ party during courtroom trials.",
+        "choices": [
+            "interesting",
+            "disinterest",
+            "disinterested",
+            "uninterested"
+        ],
+        "correct_answer": "disinterested",
+        "explanation": "'Disinterested' means impartial and unbiased. 'Uninterested' means bored or lacking interest."
+    },
+    {
+        "id": "15037",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The instructions provided ______ details regarding the application process.",
+        "choices": [
+            "complicit",
+            "duplicitous",
+            "implicit",
+            "explicit"
+        ],
+        "correct_answer": "explicit",
+        "explanation": "'Explicit' means stated clearly and in detail, leaving no room for confusion. 'Implicit' means implied."
+    },
+    {
+        "id": "15038",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct sentence.",
+        "choices": [
+            "The signing of the treaty was a historian event.",
+            "The signing of the treaty was a historical event.",
+            "The signing of the treaty was a historic event.",
+            "The signing of the treaty was an historical event."
+        ],
+        "correct_answer": "The signing of the treaty was a historic event.",
+        "explanation": "'Historic' refers to something famous or important in history. 'Historical' relates to anything in the past generally."
+    },
+    {
+        "id": "15039",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The new intern managed to ______ to the fast-paced environment quickly.",
+        "choices": [
+            "adopt",
+            "adept",
+            "addict",
+            "adapt"
+        ],
+        "correct_answer": "adapt",
+        "explanation": "'Adapt' means to adjust to new conditions. 'Adopt' means to take up or choose. 'Adept' means skilled."
+    },
+    {
+        "id": "15040",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The decision set a new ______ for future administrative cases.",
+        "choices": [
+            "precedence",
+            "president",
+            "presidency",
+            "precedent"
+        ],
+        "correct_answer": "precedent",
+        "explanation": "A 'precedent' is an earlier event or action regarded as an example or rule to be followed."
+    },
+    {
+        "id": "15041",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The manager gave valuable ______ on career advancement.",
+        "choices": [
+            "adviser",
+            "advice",
+            "advising",
+            "advise"
+        ],
+        "correct_answer": "advice",
+        "explanation": "'Advice' is the noun form meaning guidance. 'Advise' is the verb meaning to offer guidance."
+    },
+    {
+        "id": "15042",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: Make sure you do not ______ your entry permit before traveling.",
+        "choices": [
+            "loose",
+            "loosen",
+            "lose",
+            "loss"
+        ],
+        "correct_answer": "lose",
+        "explanation": "'Lose' (single 'o') is a verb meaning to misplace or be deprived of. 'Loose' (double 'o') means not tight."
+    },
+    {
+        "id": "15043",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The court ordered the immediate ______ of the illegal structure.",
+        "choices": [
+            "demolition",
+            "demarcation",
+            "demonstration",
+            "demotion"
+        ],
+        "correct_answer": "demolition",
+        "explanation": "'Demolition' means tearing down or destroying a building or structure."
+    },
+    {
+        "id": "15044",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The applicant demonstrated that he was highly ______ at computer programming.",
+        "choices": [
+            "adopt",
+            "adapt",
+            "adept",
+            "adaptable"
+        ],
+        "correct_answer": "adept",
+        "explanation": "'Adept' is an adjective meaning very skilled or proficient at something."
+    },
+    {
+        "id": "15045",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The road followed a ______ path through the mountain pass.",
+        "choices": [
+            "torturous",
+            "tortuous",
+            "torture",
+            "tortured"
+        ],
+        "correct_answer": "tortuous",
+        "explanation": "'Tortuous' means full of twists and turns. 'Torturous' means involving or causing painful torture."
+    },
+    {
+        "id": "15046",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: The agency strives to provide ______ quality service to the public.",
+        "choices": [
+            "continuation",
+            "continuous",
+            "continual",
+            "continuance"
+        ],
+        "correct_answer": "continuous",
+        "explanation": "'Continuous' means uninterrupted in time or sequence. 'Continual' means occurring frequently at intervals."
+    },
+    {
+        "id": "15047",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The new policy will ______ immediately upon publication.",
+        "choices": [
+            "take effect",
+            "take affect",
+            "bring affect",
+            "have affect"
+        ],
+        "correct_answer": "take effect",
+        "explanation": "The correct idiom is 'take effect' (meaning to become operational or binding)."
+    },
+    {
+        "id": "15048",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Fill in the blank: The project team worked in close ______ with local government officials.",
+        "choices": [
+            "cooperation",
+            "corporation",
+            "compilation",
+            "co-optation"
+        ],
+        "correct_answer": "cooperation",
+        "explanation": "'Cooperation' means working together toward a common goal. 'Corporation' is a business organization."
+    },
+    {
+        "id": "15049",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Select the correct word: She showed great ______ in handling the angry client.",
+        "choices": [
+            "tack",
+            "tactile",
+            "tact",
+            "tactics"
+        ],
+        "correct_answer": "tact",
+        "explanation": "'Tact' means skill and sensitivity in dealing with others or difficult issues."
+    },
+    {
+        "id": "15050",
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word: The law ______ discrimination in hiring based on age or gender.",
+        "choices": [
+            "prescribes",
+            "proscribes",
+            "ascribes",
+            "subscribes"
+        ],
+        "correct_answer": "proscribes",
+        "explanation": "'Proscribe' means to forbid, denounce, or condemn. 'Prescribe' means to direct or mandate."
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which sentence is correctly constructed?",
+        "choices": [
+            "The manager gave the report to me and Maria.",
+            "The manager gave the report to Maria and me.",
+            "The manager gave the report to Maria and I.",
+            "The manager gave the report to Maria and myself."
+        ],
+        "correct_answer": "The manager gave the report to Maria and me.",
+        "explanation": "The preposition 'to' requires an objective pronoun ('me', not 'I' or 'myself'). As a rule of politeness, put the other person's name first ('Maria and me').",
+        "id": "15051"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the best word to complete the sentence:\n\nThe heavy rain will definitely __________ the outcome of the outdoor festival.",
+        "choices": [
+            "effect",
+            "effects",
+            "affect",
+            "affects"
+        ],
+        "correct_answer": "affect",
+        "explanation": "'Affect' is usually a verb meaning to influence. 'Effect' is usually a noun meaning the result.",
+        "id": "15052"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Identify the sentence with the correct usage of the apostrophe:",
+        "choices": [
+            "The childrens toy's were left outside.",
+            "The childrens toys were left outside.",
+            "The children's toys were left outside.",
+            "The childrens' toys were left outside."
+        ],
+        "correct_answer": "The children's toys were left outside.",
+        "explanation": "'Children' is already plural. To make it possessive, add an apostrophe and an 's' ('s).",
+        "id": "15053"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct phrase:\n\nShe is the one __________ I believe should be promoted.",
+        "choices": [
+            "whom",
+            "who",
+            "whose",
+            "which"
+        ],
+        "correct_answer": "who",
+        "explanation": "Remove the interrupter 'I believe'. The remaining clause is 'who should be promoted'. 'Who' acts as the subject.",
+        "id": "15054"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which sentence is correct?",
+        "choices": [
+            "Juan feels bad about missing the deadline.",
+            "Juan feels badly about missing the deadline.",
+            "Juan feels worst about missing the deadline.",
+            "Juan feels worse about missing the deadline."
+        ],
+        "correct_answer": "Juan feels bad about missing the deadline.",
+        "explanation": "'Feels' is a linking verb and requires an adjective ('bad'), not an adverb ('badly').",
+        "id": "15055"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Complete the sentence:\n\nI prefer drinking brewed coffee __________ drinking instant coffee.",
+        "choices": [
+            "than",
+            "to",
+            "more than",
+            "over"
+        ],
+        "correct_answer": "to",
+        "explanation": "The correct idiom is 'prefer [something] to [something else]'.",
+        "id": "15056"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correctly constructed sentence:",
+        "choices": [
+            "Regardless of the weather, we will proceed.",
+            "Irregardless to the weather, we will proceed.",
+            "Irregardless of the weather, we will proceed.",
+            "Regardless to the weather, we will proceed."
+        ],
+        "correct_answer": "Regardless of the weather, we will proceed.",
+        "explanation": "'Irregardless' is non-standard and considered incorrect in formal English. The correct term is 'Regardless'.",
+        "id": "15057"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which of the following is correct?",
+        "choices": [
+            "Please laid down and rest.",
+            "Please lay down and rest.",
+            "Please lain down and rest.",
+            "Please lie down and rest."
+        ],
+        "correct_answer": "Please lie down and rest.",
+        "explanation": "'Lie' means to recline or rest (intransitive). 'Lay' means to place something down (transitive).",
+        "id": "15058"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word:\n\nShe has a large __________ of books in her library.",
+        "choices": [
+            "quantity",
+            "volume",
+            "number",
+            "amount"
+        ],
+        "correct_answer": "number",
+        "explanation": "'Number' is used for countable items like books. 'Amount' is used for uncountable items.",
+        "id": "15059"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Identify the sentence with the correct usage:",
+        "choices": [
+            "The jury have reached their verdict.",
+            "The jury has reached its verdict.",
+            "The jury have reached its verdict.",
+            "The jury has reached their verdict."
+        ],
+        "correct_answer": "The jury has reached its verdict.",
+        "explanation": "'Jury' acting as a single unit takes a singular verb (has) and singular pronoun (its).",
+        "id": "15060"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which sentence is correct?",
+        "choices": [
+            "There going to the mall after school.",
+            "They going to the mall after school.",
+            "Their going to the mall after school.",
+            "They're going to the mall after school."
+        ],
+        "correct_answer": "They're going to the mall after school.",
+        "explanation": "'They're' is the contraction for 'they are'.",
+        "id": "15061"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word to complete the sentence:\n\nThe applicant is confident that she will __________ the licensure examination.",
+        "choices": [
+            "past",
+            "passing",
+            "passed",
+            "pass"
+        ],
+        "correct_answer": "pass",
+        "explanation": "The auxiliary verb 'will' must be followed by the base form of the main verb ('pass').",
+        "id": "15062"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Identify the sentence with correct parallel structure:",
+        "choices": [
+            "He likes hiking, swimming, and to ride a bicycle.",
+            "He likes to hike, to swim, and riding a bicycle.",
+            "He likes to hike, swimming, and riding a bicycle.",
+            "He likes hiking, swimming, and riding a bicycle."
+        ],
+        "correct_answer": "He likes hiking, swimming, and riding a bicycle.",
+        "explanation": "All items in the series must have the same grammatical form (gerunds: hiking, swimming, riding).",
+        "id": "15063"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which of the following is correct?",
+        "choices": [
+            "I should have known better.",
+            "I should have knew better.",
+            "I should of known better.",
+            "I should of knew better."
+        ],
+        "correct_answer": "I should have known better.",
+        "explanation": "'Should of' is a common phonetic error for 'should have'. The verb must be in the past participle form ('known').",
+        "id": "15064"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correctly constructed sentence:",
+        "choices": [
+            "She is different with her sister.",
+            "She is different from her sister.",
+            "She is different to her sister.",
+            "She is different than her sister."
+        ],
+        "correct_answer": "She is different from her sister.",
+        "explanation": "'Different from' is the standard, grammatically preferred phrase.",
+        "id": "15065"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which sentence is correctly punctuated?",
+        "choices": [
+            "Let' go to the store.",
+            "Let's go to the store.",
+            "Lets' go to the store.",
+            "Lets go to the store."
+        ],
+        "correct_answer": "Let's go to the store.",
+        "explanation": "'Let's' is a contraction of 'let us', so it requires an apostrophe.",
+        "id": "15066"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct phrase:\n\n__________ your help, we would have failed.",
+        "choices": [
+            "Unless",
+            "Without for",
+            "Except for",
+            "But for"
+        ],
+        "correct_answer": "But for",
+        "explanation": "'But for' is an idiom meaning 'if it were not for'.",
+        "id": "15067"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Identify the correct sentence:",
+        "choices": [
+            "Each of the students has his or her own laptop.",
+            "Each of the students has their own laptop.",
+            "Each of the students have their own laptop.",
+            "Each of the students have his or her own laptop."
+        ],
+        "correct_answer": "Each of the students has his or her own laptop.",
+        "explanation": "'Each' is singular, so it takes a singular verb (has) and singular pronouns (his or her).",
+        "id": "15068"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which of the following is correct?",
+        "choices": [
+            "Its' a beautiful day today.",
+            "Its a beautiful day today.",
+            "It's a beautiful day today.",
+            "It is' beautiful day today."
+        ],
+        "correct_answer": "It's a beautiful day today.",
+        "explanation": "'It's' is the contraction for 'It is'.",
+        "id": "15069"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word:\n\nHe is the __________ candidate among the three.",
+        "choices": [
+            "best",
+            "good",
+            "better",
+            "more better"
+        ],
+        "correct_answer": "best",
+        "explanation": "When comparing three or more things/people, use the superlative degree ('best').",
+        "id": "15070"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Identify the sentence with correct usage:",
+        "choices": [
+            "The datum are ready for analysis.",
+            "The data is ready for analysis.",
+            "The datas are ready for analysis.",
+            "The data are ready for analysis."
+        ],
+        "correct_answer": "The data are ready for analysis.",
+        "explanation": "In strict formal English, 'data' is the plural form of 'datum' and takes a plural verb ('are').",
+        "id": "15071"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which sentence is correct?",
+        "choices": [
+            "I am used to wake up early.",
+            "I am used to waking up early.",
+            "I use to wake up early.",
+            "I used to waking up early."
+        ],
+        "correct_answer": "I am used to waking up early.",
+        "explanation": "The phrase 'be used to' is followed by a noun or gerund (verb-ing). Thus, 'waking' is correct.",
+        "id": "15072"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correctly constructed sentence:",
+        "choices": [
+            "Have I seldom seen such a beautiful sunset.",
+            "Seldom have I seen such a beautiful sunset.",
+            "I seldom have saw such a beautiful sunset.",
+            "Seldom I have seen such a beautiful sunset."
+        ],
+        "correct_answer": "Seldom have I seen such a beautiful sunset.",
+        "explanation": "When a negative or restrictive adverb like 'Seldom' starts a sentence, subject-auxiliary inversion is required.",
+        "id": "15073"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which of the following is correct?",
+        "choices": [
+            "He divided the cake into the five children.",
+            "He divided the cake among the five children.",
+            "He divided the cake between the five children.",
+            "He divided the cake within the five children."
+        ],
+        "correct_answer": "He divided the cake among the five children.",
+        "explanation": "'Among' is used for three or more entities, while 'between' is typically for two.",
+        "id": "15074"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct phrase:\n\nThe newly elected mayor is focused on __________ the city's infrastructure.",
+        "choices": [
+            "improved",
+            "improves",
+            "improving",
+            "improve"
+        ],
+        "correct_answer": "improving",
+        "explanation": "Prepositions (like 'on') are followed by objects, which must be nouns or gerunds (verb-ing). 'Improving' is the gerund form.",
+        "id": "15075"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which of the following sentences uses the correct preposition?",
+        "choices": [
+            "She is good with mathematics.",
+            "She is good on mathematics.",
+            "She is good in mathematics.",
+            "She is good at mathematics."
+        ],
+        "correct_answer": "She is good at mathematics.",
+        "explanation": "The standard idiom for expressing ability or skill in a subject or activity is 'good at'.",
+        "id": "15076"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Identify the correct sentence:",
+        "choices": [
+            "He could have pass the exam if he studied.",
+            "He could have passed the exam if he studied.",
+            "He could of pass the exam if he studied.",
+            "He could of passed the exam if he studied."
+        ],
+        "correct_answer": "He could have passed the exam if he studied.",
+        "explanation": "'Could of' is a common mistake for 'could have'. The auxiliary 'have' is followed by the past participle 'passed'.",
+        "id": "15077"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the best word to complete the sentence:\n\nThe committee will __________ the new policies tomorrow.",
+        "choices": [
+            "adapt",
+            "adept",
+            "adopts",
+            "adopt"
+        ],
+        "correct_answer": "adopt",
+        "explanation": "'Adopt' means to choose to take up or follow (an idea, method, or course of action). 'Adapt' means to modify.",
+        "id": "15078"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which sentence is correctly punctuated?",
+        "choices": [
+            "My brother who lives in Cebu is a doctor.",
+            "My brother who lives in Cebu, is a doctor.",
+            "My brother, who lives in Cebu, is a doctor.",
+            "My brother, who lives in Cebu is a doctor."
+        ],
+        "correct_answer": "My brother, who lives in Cebu, is a doctor.",
+        "explanation": "Assuming the speaker has only one brother, the clause 'who lives in Cebu' is non-restrictive and must be set off by commas.",
+        "id": "15079"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct phrase:\n\nShe was tired, __________ she continued to work.",
+        "choices": [
+            "however",
+            "since",
+            "therefore",
+            "yet"
+        ],
+        "correct_answer": "yet",
+        "explanation": "'Yet' acts as a coordinating conjunction joining two independent clauses with contrasting ideas. 'However' would require a semicolon or period.",
+        "id": "15080"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which sentence is correct?",
+        "choices": [
+            "I have fewer problems than you do.",
+            "I have least problems than you do.",
+            "I have less problems than you do.",
+            "I have lesser problems than you do."
+        ],
+        "correct_answer": "I have fewer problems than you do.",
+        "explanation": "'Fewer' is used with countable nouns (problems). 'Less' is used with uncountable nouns.",
+        "id": "15081"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Complete the sentence:\n\nThe new regulations will take __________ next week.",
+        "choices": [
+            "effects",
+            "affects",
+            "effect",
+            "affect"
+        ],
+        "correct_answer": "effect",
+        "explanation": "The idiom is 'take effect', meaning to come into force or operation.",
+        "id": "15082"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Identify the sentence with correct parallel structure:",
+        "choices": [
+            "The speech was informative, entertaining, and inspiring.",
+            "The speech was informative, it was entertaining, and inspiring.",
+            "The speech informed, was entertaining, and inspiring.",
+            "The speech was informative, entertaining, and it inspired the audience."
+        ],
+        "correct_answer": "The speech was informative, entertaining, and inspiring.",
+        "explanation": "All elements in the series are presented as parallel adjectives.",
+        "id": "15083"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word:\n\nThe witness was asked to __________ his story in court.",
+        "choices": [
+            "collaborate",
+            "calculate",
+            "corroborate",
+            "cooperate"
+        ],
+        "correct_answer": "corroborate",
+        "explanation": "'Corroborate' means to confirm or give support to (a statement, theory, or finding). 'Collaborate' means to work together.",
+        "id": "15084"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which of the following is correct?",
+        "choices": [
+            "Whom did you address the letter to?",
+            "To who did you address the letter?",
+            "To whom did you address the letter?",
+            "Who did you address the letter to?"
+        ],
+        "correct_answer": "To whom did you address the letter?",
+        "explanation": "Standard formal English prefers 'To whom did you address the letter?' because 'whom' is the object of the preposition 'to'.",
+        "id": "15085"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct phrase:\n\nThe manager objected to __________ leaving early.",
+        "choices": [
+            "he",
+            "himself",
+            "his",
+            "him"
+        ],
+        "correct_answer": "his",
+        "explanation": "A gerund ('leaving') should be modified by a possessive pronoun ('his'), not an objective pronoun ('him').",
+        "id": "15086"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Identify the correct sentence:",
+        "choices": [
+            "I differ about you on that issue.",
+            "I differ with you on that issue.",
+            "I differ to you on that issue.",
+            "I differ from you on that issue."
+        ],
+        "correct_answer": "I differ with you on that issue.",
+        "explanation": "When expressing disagreement of opinion, 'differ with' is the correct idiom. When discussing physical differences, use 'differ from'.",
+        "id": "15087"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which sentence is correctly constructed?",
+        "choices": [
+            "She asked me what the time was.",
+            "She asked me what the time is.",
+            "She asked me what was the time.",
+            "She asked me what is the time."
+        ],
+        "correct_answer": "She asked me what the time was.",
+        "explanation": "In indirect questions, the subject comes before the verb ('the time was'), and the tense shifts back (from 'is' to 'was') following the past tense verb 'asked'.",
+        "id": "15088"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Complete the sentence:\n\nShe is one of the employees who __________ always willing to help.",
+        "choices": [
+            "is",
+            "were",
+            "was",
+            "are"
+        ],
+        "correct_answer": "are",
+        "explanation": "The relative pronoun 'who' refers to the plural antecedent 'employees', so it takes the plural verb 'are'.",
+        "id": "15089"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word:\n\nThe medicine had no __________ on the patient's fever.",
+        "choices": [
+            "effect",
+            "affect",
+            "affects",
+            "effects"
+        ],
+        "correct_answer": "effect",
+        "explanation": "Here, a noun is needed. 'Effect' is a noun meaning a result or influence.",
+        "id": "15090"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which sentence is correct?",
+        "choices": [
+            "He divided his property across his four children.",
+            "He divided his property between his four children.",
+            "He divided his property among his four children.",
+            "He divided his property to his four children."
+        ],
+        "correct_answer": "He divided his property among his four children.",
+        "explanation": "'Among' is the correct preposition to use when distributing something to three or more people.",
+        "id": "15091"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct phrase:\n\nThe project was a success, __________ the initial delays.",
+        "choices": [
+            "in spite",
+            "despite of",
+            "in spite of",
+            "regardless"
+        ],
+        "correct_answer": "in spite of",
+        "explanation": "The correct phrase is 'in spite of'. 'Despite' is used without 'of'.",
+        "id": "15092"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Identify the sentence with correct usage:",
+        "choices": [
+            "Where are you going to?",
+            "Where to are you going?",
+            "Where are you going at?",
+            "Where are you going?"
+        ],
+        "correct_answer": "Where are you going?",
+        "explanation": "The prepositions 'to' or 'at' are redundant when 'where' is used as an adverb of place.",
+        "id": "15093"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which of the following is correct?",
+        "choices": [
+            "I am not entirely convinced to his argument.",
+            "I am not entirely convinced by his argument.",
+            "I am not entirely convinced about his argument.",
+            "I am not entirely convinced with his argument."
+        ],
+        "correct_answer": "I am not entirely convinced by his argument.",
+        "explanation": "The idiom is to be convinced 'by' an argument or 'of' a fact.",
+        "id": "15094"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct word:\n\nThe suspect decided to __________ his right to remain silent.",
+        "choices": [
+            "wive",
+            "wave",
+            "weave",
+            "waive"
+        ],
+        "correct_answer": "waive",
+        "explanation": "'Waive' means to refrain from insisting on or using a right or claim.",
+        "id": "15095"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Identify the correct sentence:",
+        "choices": [
+            "She likes him more then I do.",
+            "She likes him more than I.",
+            "She likes him more than me.",
+            "All of the above"
+        ],
+        "correct_answer": "She likes him more than me.",
+        "explanation": "Depending on the intended meaning, 'more than me' implies 'more than she likes me'.",
+        "id": "15096"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which sentence is correctly constructed?",
+        "choices": [
+            "The reason I am late is because of the traffic.",
+            "The reason I am late is that there was heavy traffic.",
+            "The reason I am late is due to the traffic.",
+            "The reason I am late was because of traffic."
+        ],
+        "correct_answer": "The reason I am late is that there was heavy traffic.",
+        "explanation": "'The reason... is because' is redundant. Use 'The reason... is that'.",
+        "id": "15097"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Choose the correct phrase:\n\nThe committee will consist __________ five members.",
+        "choices": [
+            "from",
+            "with",
+            "in",
+            "of"
+        ],
+        "correct_answer": "of",
+        "explanation": "The verb 'consist' is always followed by the preposition 'of'.",
+        "id": "15098"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Which of the following is correct?",
+        "choices": [
+            "He is angry with me.",
+            "He is angry to me.",
+            "He is angry at me.",
+            "He is angry about me."
+        ],
+        "correct_answer": "He is angry with me.",
+        "explanation": "You get angry 'with' a person, but angry 'at' a situation or thing.",
+        "id": "15099"
+    },
+    {
+        "category": "Verbal Ability – Correct Usage",
+        "question": "Complete the sentence:\n\nShe was totally oblivious __________ the chaos around her.",
+        "choices": [
+            "to",
+            "of",
+            "with",
+            "about"
+        ],
+        "correct_answer": "of",
+        "explanation": "The adjective 'oblivious' is traditionally and most correctly followed by the preposition 'of', although 'to' is also widely accepted today.",
+        "id": "15100"
+    }
 ]

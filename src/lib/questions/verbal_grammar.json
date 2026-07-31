@@ -1,1302 +1,1302 @@
 [
-  {
-    "id": "16001",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence that is grammatically correct.",
-    "choices": [
-      "Each of the employees is required to submit his or her report.",
-      "Each of the employees are required to submit his or her report.",
-      "Each of the employees is required to submit their reports.",
-      "Each of the employees are required to submit their reports."
-    ],
-    "correct_answer": "Each of the employees is required to submit his or her report.",
-    "explanation": "'Each' is a singular indefinite pronoun and requires the singular verb 'is.' The pronoun reference should also be singular: 'his or her report.'"
-  },
-  {
-    "id": "16002",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the sentence with the correct subject-verb agreement.",
-    "choices": [
-      "The committee have reached an unanimous decision.",
-      "The committee has reached an unanimous decision.",
-      "The committee has reached a unanimous decision.",
-      "The committee have reached a unanimous decision."
-    ],
-    "correct_answer": "The committee has reached a unanimous decision.",
-    "explanation": "'Committee' is a collective noun treated as singular when acting as a unit, requiring 'has.' Also, 'unanimous' begins with a consonant sound, so 'a' is correct, not 'an.'"
-  },
-  {
-    "id": "16003",
-    "category": "Verbal Ability – Grammar",
-    "question": "Which sentence correctly uses the past perfect tense?",
-    "choices": [
-      "She had already finished the report when the supervisor arrived.",
-      "She already finished the report when the supervisor arrived.",
-      "She has already finished the report when the supervisor arrived.",
-      "She already had finish the report when the supervisor arrived."
-    ],
-    "correct_answer": "She had already finished the report when the supervisor arrived.",
-    "explanation": "The past perfect ('had finished') correctly indicates an action completed before another past event ('arrived')."
-  },
-  {
-    "id": "16004",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence with the correct pronoun usage.",
-    "choices": [
-      "Between I and you, the project needs more funding.",
-      "Between you and I, the project needs more funding.",
-      "Between you and me, the project needs more funding.",
-      "Between you and myself, the project needs more funding."
-    ],
-    "correct_answer": "Between you and me, the project needs more funding.",
-    "explanation": "'Between' is a preposition, and prepositions take object pronouns. 'Me' is the object form of 'I.'"
-  },
-  {
-    "id": "16005",
-    "category": "Verbal Ability – Grammar",
-    "question": "Which sentence is free of dangling modifiers?",
-    "choices": [
-      "Walking through the park, it was noticed that the flowers were beautiful.",
-      "Walking through the park, the flowers were beautiful.",
-      "Walking through the park, the beauty of the flowers was noticed.",
-      "Walking through the park, she noticed the beautiful flowers."
-    ],
-    "correct_answer": "Walking through the park, she noticed the beautiful flowers.",
-    "explanation": "The participial phrase 'Walking through the park' must logically modify the subject. Only in this sentence does a person ('she') serve as the subject."
-  },
-  {
-    "id": "16006",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the sentence with the correct use of the comparative form.",
-    "choices": [
-      "This procedure is more simple than the previous one.",
-      "This procedure is more simpler than the previous one.",
-      "This procedure is simpler than the previous one.",
-      "This procedure is most simpler than the previous one."
-    ],
-    "correct_answer": "This procedure is simpler than the previous one.",
-    "explanation": "One- and two-syllable adjectives like 'simple' form the comparative with '-er,' not 'more.' 'More simpler' is a double comparative and is incorrect."
-  },
-  {
-    "id": "16007",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence that correctly uses parallel structure.",
-    "choices": [
-      "The training program focuses on to write, speaking effectively, and leadership.",
-      "The training program focuses on writing, speaking effectively, and to be a leader.",
-      "The training program focuses on writing, speaking effectively, and leading.",
-      "The training program focuses on writing, to speak effectively, and leadership."
-    ],
-    "correct_answer": "The training program focuses on writing, speaking effectively, and leading.",
-    "explanation": "Parallel structure requires that items in a series share the same grammatical form. All three items should be gerunds: 'writing,' 'speaking,' and 'leading.'"
-  },
-  {
-    "id": "16008",
-    "category": "Verbal Ability – Grammar",
-    "question": "Which of the following sentences uses the subjunctive mood correctly?",
-    "choices": [
-      "The director requested that the employee submits the form today.",
-      "The director requested that the employee submit the form today.",
-      "The director requested that the employee will submit the form today.",
-      "The director requested that the employee submitted the form today."
-    ],
-    "correct_answer": "The director requested that the employee submit the form today.",
-    "explanation": "After verbs of request, demand, or recommendation, the subjunctive mood uses the base form of the verb ('submit') without conjugation."
-  },
-  {
-    "id": "16009",
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the sentence with a misplaced modifier.",
-    "choices": [
-      "On the desk, the documents were carefully reviewed by the officer.",
-      "The documents on the desk were carefully reviewed by the officer.",
-      "The officer carefully reviewed the documents on the desk.",
-      "The officer on the desk carefully reviewed the documents."
-    ],
-    "correct_answer": "The officer on the desk carefully reviewed the documents.",
-    "explanation": "'On the desk' is misplaced because it modifies 'officer' instead of 'documents,' absurdly suggesting the officer is sitting on the desk."
-  },
-  {
-    "id": "16010",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence with the correct use of the semicolon.",
-    "choices": [
-      "The meeting was postponed; the chairperson was absent.",
-      "The meeting was postponed; because the chairperson was absent.",
-      "The meeting; was postponed the chairperson was absent.",
-      "The meeting was postponed, the chairperson was absent."
-    ],
-    "correct_answer": "The meeting was postponed; the chairperson was absent.",
-    "explanation": "A semicolon joins two closely related independent clauses. Adding 'because' after a semicolon is incorrect since it creates a dependent clause."
-  },
-  {
-    "id": "16011",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence that is grammatically correct.",
-    "choices": [
-      "The report, along with the attachments, have been submitted on time.",
-      "The report, along with the attachments, were submitted on time.",
-      "The report, along with the attachments, are submitted on time.",
-      "The report, along with the attachments, was submitted on time."
-    ],
-    "correct_answer": "The report, along with the attachments, was submitted on time.",
-    "explanation": "The subject is 'report' (singular). The phrase 'along with the attachments' is parenthetical and does not change the number of the subject. Therefore, the singular verb 'was' is correct."
-  },
-  {
-    "id": "16012",
-    "category": "Verbal Ability – Grammar",
-    "question": "Which sentence correctly uses the colon?",
-    "choices": [
-      "The office: needs the following supplies folders, pens, and bond paper.",
-      "The office needs the following: supplies folders pens and bond paper.",
-      "The office needs: the following supplies folders, pens, and bond paper.",
-      "The office needs the following supplies: folders, pens, and bond paper."
-    ],
-    "correct_answer": "The office needs the following supplies: folders, pens, and bond paper.",
-    "explanation": "A colon is used after a complete introductory statement to introduce a list. 'The office needs the following supplies' is a complete clause, making the colon placement correct."
-  },
-  {
-    "id": "16013",
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the correct sentence.",
-    "choices": [
-      "If I was the department head, I would approve the request.",
-      "If I am the department head, I would approve the request.",
-      "If I be the department head, I would approve the request.",
-      "If I were the department head, I would approve the request."
-    ],
-    "correct_answer": "If I were the department head, I would approve the request.",
-    "explanation": "This is a hypothetical (contrary-to-fact) conditional, which requires the subjunctive mood. In the subjunctive, 'were' is used for all persons, including 'I.'"
-  },
-  {
-    "id": "16014",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence with the correct use of the apostrophe.",
-    "choices": [
-      "The employees' lounge is on the second floor.",
-      "The employees's lounge is on the second floor.",
-      "The employee's lounge is on the second floor.",
-      "The employees lounge is on the second floor."
-    ],
-    "correct_answer": "The employees' lounge is on the second floor.",
-    "explanation": "When a plural noun already ends in 's,' the possessive is formed by adding only an apostrophe after the 's.' Since 'employees' is plural, 'employees'' is correct."
-  },
-  {
-    "id": "16015",
-    "category": "Verbal Ability – Grammar",
-    "question": "Which sentence uses the correct verb tense?",
-    "choices": [
-      "By the time the auditor arrives, we will have finished all the reports.",
-      "By the time the auditor arrives, we will finish all the reports.",
-      "By the time the auditor arrives, we finished all the reports.",
-      "By the time the auditor arrives, we are finishing all the reports."
-    ],
-    "correct_answer": "By the time the auditor arrives, we will have finished all the reports.",
-    "explanation": "The future perfect tense ('will have finished') correctly describes an action that will be completed before another future event."
-  },
-  {
-    "id": "16016",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the sentence with correct subject-verb agreement.",
-    "choices": [
-      "Neither the supervisor nor the employees was informed.",
-      "Neither the supervisor nor the employees is informed.",
-      "Neither the supervisor nor the employees were informed.",
-      "Neither the supervisor nor the employees has been informed."
-    ],
-    "correct_answer": "Neither the supervisor nor the employees were informed.",
-    "explanation": "With 'neither...nor,' the verb agrees with the subject closest to it. 'Employees' is plural, so the verb should be 'were.'"
-  },
-  {
-    "id": "16017",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence that avoids redundancy.",
-    "choices": [
-      "The reason is due to the fact that the budget was insufficient.",
-      "The reason is that the budget was insufficient.",
-      "The reason is because the budget was insufficient.",
-      "The reason why is because the budget was insufficient."
-    ],
-    "correct_answer": "The reason is that the budget was insufficient.",
-    "explanation": "'The reason is because' is redundant since 'reason' already implies 'because.' The correct construction is 'The reason is that...'"
-  },
-  {
-    "id": "16018",
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the grammatically correct sentence.",
-    "choices": [
-      "The number of applicants have increased this year.",
-      "A number of applicants has increased this year.",
-      "The number of applicants has increased this year.",
-      "The numbers of applicants have increased this year."
-    ],
-    "correct_answer": "The number of applicants has increased this year.",
-    "explanation": "'The number of' is treated as a singular expression and takes a singular verb ('has'). In contrast, 'a number of' is treated as plural."
-  },
-  {
-    "id": "16019",
-    "category": "Verbal Ability – Grammar",
-    "question": "Which sentence correctly uses 'who' and 'whom'?",
-    "choices": [
-      "The employee whom was promoted deserved the recognition.",
-      "The employee who was promoted deserved the recognition.",
-      "The employee whom deserved the recognition was promoted.",
-      "The employee who the manager promoted deserved the recognition."
-    ],
-    "correct_answer": "The employee who was promoted deserved the recognition.",
-    "explanation": "'Who' is used as the subject of a clause. In this sentence, 'who' is the subject of 'was promoted,' making it the correct choice."
-  },
-  {
-    "id": "16020",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the sentence with the correct use of articles.",
-    "choices": [
-      "She is honest a public servant.",
-      "She is a honest public servant.",
-      "She is an honest public servant.",
-      "She is the honest public servant."
-    ],
-    "correct_answer": "She is an honest public servant.",
-    "explanation": "'Honest' begins with a silent 'h,' so the vowel sound that follows requires the article 'an' instead of 'a.'"
-  },
-  {
-    "id": "16021",
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the sentence with correct subject-verb agreement.",
-    "choices": [
-      "The committee have reach a decision.",
-      "The committee have reached a unanimous decision.",
-      "The committee has reached a unanimous decision.",
-      "The committee are reaching a decision."
-    ],
-    "correct_answer": "The committee has reached a unanimous decision.",
-    "explanation": "Collective nouns like 'committee' take a singular verb when acting as a single unit."
-  },
-  {
-    "id": "16022",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence that correctly uses the subjunctive mood.",
-    "choices": [
-      "If I be the department head, I would revise the policy.",
-      "If I was the department head, I would revise the policy.",
-      "If I am the department head, I will revise the policy.",
-      "If I were the department head, I would revise the policy."
-    ],
-    "correct_answer": "If I were the department head, I would revise the policy.",
-    "explanation": "The subjunctive mood uses 'were' instead of 'was' for hypothetical or contrary-to-fact statements."
-  },
-  {
-    "id": "16023",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the sentence with proper parallel structure.",
-    "choices": [
-      "The job requires to type, filing, and answering phones.",
-      "The job requires typing, filing, and answering phones.",
-      "The job requires typing, to file, and answer phones.",
-      "The job requires typing, filing, and to answer phones."
-    ],
-    "correct_answer": "The job requires typing, filing, and answering phones.",
-    "explanation": "Items in a list must maintain parallel grammatical form (all gerunds: typing, filing, answering)."
-  },
-  {
-    "id": "16024",
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the sentence that avoids a dangling modifier.",
-    "choices": [
-      "While walking to the office, rain soaked Maria.",
-      "Having walked to the office, the rain stopped.",
-      "Walking to the office, Maria was soaked by the rain.",
-      "Walking to the office, the rain soaked Maria."
-    ],
-    "correct_answer": "Walking to the office, Maria was soaked by the rain.",
-    "explanation": "The introductory modifier 'Walking to the office' must clearly modify the subject 'Maria,' not 'the rain.'"
-  },
-  {
-    "id": "16025",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence with the correct pronoun case.",
-    "choices": [
-      "Between you and I, the decision is final.",
-      "Between you and myself, the decision is final.",
-      "Between you and me, the decision is final.",
-      "Between yourself and I, the decision is final."
-    ],
-    "correct_answer": "Between you and me, the decision is final.",
-    "explanation": "'Between' is a preposition requiring object pronouns. 'Me' is the objective pronoun, not 'I.'"
-  },
-  {
-    "id": "16026",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the sentence that avoids a double negative.",
-    "choices": [
-      "He couldn't hardly finish the report on time.",
-      "She scarcely has no time for lunch.",
-      "He didn't do nothing to resolve the dispute.",
-      "He didn't do anything to resolve the dispute."
-    ],
-    "correct_answer": "He didn't do anything to resolve the dispute.",
-    "explanation": "Combining 'didn't' and 'nothing' creates a double negative. 'Didn't do anything' is standard English."
-  },
-  {
-    "id": "16027",
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the correct comparative form.",
-    "choices": [
-      "This project is more easy than the last one.",
-      "This project is easier than the last one.",
-      "This project is more easier than the last one.",
-      "This project is most easy than the last one."
-    ],
-    "correct_answer": "This project is easier than the last one.",
-    "explanation": "Double comparatives like 'more easier' are incorrect. Use 'easier' for short adjectives."
-  },
-  {
-    "id": "16028",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence with correct subject-verb agreement.",
-    "choices": [
-      "The director, along with his assistants, were attending the conference.",
-      "The director, along with his assistants, are attending the conference.",
-      "The director, along with his assistants, have attended the conference.",
-      "The director, along with his assistants, is attending the conference."
-    ],
-    "correct_answer": "The director, along with his assistants, is attending the conference.",
-    "explanation": "Intervening phrases like 'along with...' do not change the singular subject 'director,' which requires 'is.'"
-  },
-  {
-    "id": "16029",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the sentence with proper punctuation for a compound sentence.",
-    "choices": [
-      "The deadline was extended; however, the team still felt rushed.",
-      "The deadline was extended, however, the team still felt rushed.",
-      "The deadline was extended; however the team still felt rushed.",
-      "The deadline was extended however the team still felt rushed."
-    ],
-    "correct_answer": "The deadline was extended; however, the team still felt rushed.",
-    "explanation": "Conjunctive adverbs like 'however' connecting two independent clauses require a semicolon before and a comma after."
-  },
-  {
-    "id": "16030",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence that correctly uses 'less' and 'fewer'.",
-    "choices": [
-      "We need less personnel for this task.",
-      "There are fewer employees in the office today.",
-      "He has fewer patience than his predecessor.",
-      "There are less employees in the office today."
-    ],
-    "correct_answer": "There are fewer employees in the office today.",
-    "explanation": "'Fewer' is used with countable nouns like 'employees.' 'Less' is used with uncountable nouns."
-  },
-  {
-    "id": "16031",
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the sentence with correct subject-verb agreement in an inverted sentence.",
-    "choices": [
-      "Here is the files you requested.",
-      "There is several errors in the report.",
-      "Here comes the official documents.",
-      "Here are the files you requested."
-    ],
-    "correct_answer": "Here are the files you requested.",
-    "explanation": "In sentences starting with 'here' or 'there,' the subject follows the verb. 'Files' is plural, requiring 'are.'"
-  },
-  {
-    "id": "16032",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the sentence that avoids wordiness and redundancy.",
-    "choices": [
-      "The main reason he resigned was on account of illness.",
-      "He resigned due to the fact that he was ill.",
-      "He resigned because he was ill.",
-      "The reason why he resigned is because he was ill."
-    ],
-    "correct_answer": "He resigned because he was ill.",
-    "explanation": "'The reason why... is because' is redundant. 'He resigned because...' is concise and clear."
-  },
-  {
-    "id": "16033",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence with the correct possessive form.",
-    "choices": [
-      "The woman's auxiliary met on Tuesday.",
-      "The women's auxiliary met on Tuesday.",
-      "The womens' auxiliary met on Tuesday.",
-      "The womens auxiliary met on Tuesday."
-    ],
-    "correct_answer": "The women's auxiliary met on Tuesday.",
-    "explanation": "Plural nouns that do not end in 's' (like 'women') form the possessive by adding an apostrophe and 's' ('women's')."
-  },
-  {
-    "id": "16034",
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the sentence with the correct tense sequence.",
-    "choices": [
-      "She said that she will submit the report tomorrow.",
-      "She said that she would submit the report tomorrow.",
-      "She had said that she will submit the report tomorrow.",
-      "She says that she would submit the report tomorrow."
-    ],
-    "correct_answer": "She said that she would submit the report tomorrow.",
-    "explanation": "When reporting past speech ('said'), future intentions shift from 'will' to 'would' in reported speech."
-  },
-  {
-    "id": "16035",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the sentence with correct capitalization.",
-    "choices": [
-      "The President visited the department of Health.",
-      "President Marcos visited the department of health.",
-      "President Marcos visited the Department of Health.",
-      "president Marcos visited the Department Of Health."
-    ],
-    "correct_answer": "President Marcos visited the Department of Health.",
-    "explanation": "Official titles before names ('President Marcos') and proper names of government departments ('Department of Health') are capitalized."
-  },
-  {
-    "id": "16036",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence with correct subject-verb agreement.",
-    "choices": [
-      "Neither the chief nor the deputies has approved the plan.",
-      "Neither the chief nor the deputies is approving the plan.",
-      "Neither the chief nor the deputies have approved the plan.",
-      "Neither the chief nor the deputies was approving the plan."
-    ],
-    "correct_answer": "Neither the chief nor the deputies have approved the plan.",
-    "explanation": "With 'neither... nor,' the verb agrees with the closer subject ('deputies' - plural, taking 'have')."
-  },
-  {
-    "id": "16037",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the sentence that avoids a comma splice.",
-    "choices": [
-      "The meeting ended early; we went back to our desks.",
-      "The meeting ended early, we went back to our desks.",
-      "The meeting ended early, so, we went back to our desks.",
-      "The meeting ended early we went back to our desks."
-    ],
-    "correct_answer": "The meeting ended early; we went back to our desks.",
-    "explanation": "Joining two independent clauses with only a comma creates a comma splice. Use a semicolon or conjunction."
-  },
-  {
-    "id": "16038",
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the sentence with correct modifier placement.",
-    "choices": [
-      "She almost worked for ten hours yesterday.",
-      "Almost she worked for ten hours yesterday.",
-      "She worked for almost ten hours yesterday.",
-      "She worked almost for ten hours yesterday."
-    ],
-    "correct_answer": "She worked for almost ten hours yesterday.",
-    "explanation": "Modifiers like 'almost' should be placed directly before the word they modify ('almost ten hours')."
-  },
-  {
-    "id": "16039",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence with the correct pronoun reference.",
-    "choices": [
-      "The car was damaged when it hit the tree.",
-      "When the car hit the tree, it was damaged.",
-      "The car hit the tree and it was destroyed.",
-      "When the car hit the tree, it broke the windshield."
-    ],
-    "correct_answer": "The car was damaged when it hit the tree.",
-    "explanation": "Ambiguous pronouns ('it') must be avoided; the antecedent ('car') should be clear."
-  },
-  {
-    "id": "16040",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the correct use of reflexive pronouns.",
-    "choices": [
-      "John and myself prepared the presentation.",
-      "John and himself prepared the presentation.",
-      "John and I prepared the presentation.",
-      "John and me prepared the presentation."
-    ],
-    "correct_answer": "John and I prepared the presentation.",
-    "explanation": "Reflexive pronouns ('myself') are used when subject and object are the same person. For subject role, use 'I.'"
-  },
-  {
-    "id": "16041",
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the sentence with correct subject-verb agreement.",
-    "choices": [
-      "Mathematics are his favorite subject in school.",
-      "Mathematics is his favorite subject in school.",
-      "Mathematics have been his favorite subject.",
-      "Mathematics were his favorite subject."
-    ],
-    "correct_answer": "Mathematics is his favorite subject in school.",
-    "explanation": "Nouns ending in '-s' that represent single academic disciplines (like Mathematics, Physics) take singular verbs."
-  },
-  {
-    "id": "16042",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence that correctly uses an idiom.",
-    "choices": [
-      "He is responsible of managing the office.",
-      "He is responsible on managing the office.",
-      "He is responsible with managing the office.",
-      "He is responsible for managing the office."
-    ],
-    "correct_answer": "He is responsible for managing the office.",
-    "explanation": "The standard prepositional idiom is 'responsible for,' not 'responsible of' or 'responsible with.'"
-  },
-  {
-    "id": "16043",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the sentence with proper hyphenation.",
-    "choices": [
-      "He is a well known-civil servant.",
-      "He is a well known civil servant.",
-      "He is a well-known-civil servant.",
-      "He is a well-known civil servant."
-    ],
-    "correct_answer": "He is a well-known civil servant.",
-    "explanation": "Compound adjectives preceding a noun ('well-known') require a hyphen."
-  },
-  {
-    "id": "16044",
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the sentence with the correct tense in a conditional statement.",
-    "choices": [
-      "If he studied harder, he had passed the exam.",
-      "If he studied harder, he will pass the exam.",
-      "If he studies harder, he would pass the exam.",
-      "If he had studied harder, he would have passed the exam."
-    ],
-    "correct_answer": "If he had studied harder, he would have passed the exam.",
-    "explanation": "Third conditional (past unfulfilled action) requires past perfect in the 'if' clause ('had studied') and 'would have' + past participle."
-  },
-  {
-    "id": "16045",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence with correct prepositional usage.",
-    "choices": [
-      "She complied to all the audit requirements.",
-      "She complied with all the audit requirements.",
-      "She complied on all the audit requirements.",
-      "She complied for all the audit requirements."
-    ],
-    "correct_answer": "She complied with all the audit requirements.",
-    "explanation": "The verb 'comply' takes the preposition 'with' ('comply with rules')."
-  },
-  {
-    "id": "16046",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the sentence with the correct use of 'its' vs. 'it's'.",
-    "choices": [
-      "Its important to update agency charters.",
-      "The agency lost it's records in the fire.",
-      "The agency updated it's charter last month.",
-      "The agency updated its charter last month."
-    ],
-    "correct_answer": "The agency updated its charter last month.",
-    "explanation": "'Its' is the possessive pronoun; 'it's' is the contraction for 'it is' or 'it has.'"
-  },
-  {
-    "id": "16047",
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the sentence with correct subject-verb agreement.",
-    "choices": [
-      "Every one of the applicants are submitting forms.",
-      "Every one of the applicants have submitted their forms.",
-      "Every one of the applicants has submitted their forms.",
-      "Every one of the applicants were present."
-    ],
-    "correct_answer": "Every one of the applicants has submitted their forms.",
-    "explanation": "'Every one' is singular and takes a singular verb ('has')."
-  },
-  {
-    "id": "16048",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence with correct word order.",
-    "choices": [
-      "Seldom we see such dedication in public service.",
-      "Seldom do we see such dedication in public service.",
-      "Seldom we do see such dedication in public service.",
-      "Seldom see we such dedication in public service."
-    ],
-    "correct_answer": "Seldom do we see such dedication in public service.",
-    "explanation": "Negative adverbs like 'seldom' at the start of a sentence require subject-auxiliary inversion ('do we see')."
-  },
-  {
-    "id": "16049",
-    "category": "Verbal Ability – Grammar",
-    "question": "Select the sentence that avoids a fragment.",
-    "choices": [
-      "Which was approved by Congress last week.",
-      "The budget was approved by Congress.",
-      "Because the budget was approved by Congress.",
-      "Having been approved by Congress without delay."
-    ],
-    "correct_answer": "The budget was approved by Congress.",
-    "explanation": "Options A, C, and D are dependent clauses or participial phrases (fragments). Option B is a complete sentence."
-  },
-  {
-    "id": "16050",
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the sentence with proper use of 'different from' vs. 'different than'.",
-    "choices": [
-      "His approach is more different than mine.",
-      "His approach is different than mine.",
-      "His approach is different to mine.",
-      "His approach is different from mine."
-    ],
-    "correct_answer": "His approach is different from mine.",
-    "explanation": "In standard formal English, 'different from' is preferred over 'different than.'"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the correct verb to complete the sentence:\n\nNeither the manager nor the employees __________ informed about the abrupt changes in the company policy.",
-    "choices": [
-      "is",
-      "has been",
-      "were",
-      "was"
-    ],
-    "correct_answer": "were",
-    "explanation": "In 'neither/nor' constructions, the verb agrees with the subject closest to it. 'Employees' is plural, so the plural verb 'were' is correct.",
-    "id": "16051"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the grammatically correct sentence:",
-    "choices": [
-      "The committee has submitted its report.",
-      "The committee has submitted their report.",
-      "The committee have submitted their report.",
-      "The committee have submitted its report."
-    ],
-    "correct_answer": "The committee has submitted its report.",
-    "explanation": "A collective noun (committee) acting as a single unit takes a singular verb (has) and a singular pronoun (its).",
-    "id": "16052"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the error in the sentence:\n\nOne of the applicants are perfectly qualified for the highly demanding position.",
-    "choices": [
-      "are perfectly",
-      "highly demanding",
-      "applicants",
-      "One of the"
-    ],
-    "correct_answer": "are perfectly",
-    "explanation": "The subject is 'One', which is singular. The verb should be 'is', not 'are'. 'Applicants' is the object of the preposition.",
-    "id": "16053"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nIf Maria __________ about the heavy traffic, she would have left the house an hour earlier.",
-    "choices": [
-      "knew",
-      "have known",
-      "had known",
-      "knows"
-    ],
-    "correct_answer": "had known",
-    "explanation": "This is a third conditional sentence describing an unreal past situation. It requires the past perfect tense 'had known' in the if-clause.",
-    "id": "16054"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the best completion:\n\nThe mayor, together with the city councilors, __________ attending the ribbon-cutting ceremony tomorrow.",
-    "choices": [
-      "have been",
-      "is",
-      "were",
-      "are"
-    ],
-    "correct_answer": "is",
-    "explanation": "Phrases like 'together with', 'along with', or 'as well as' do not make the subject plural. The main subject is 'The mayor' (singular), so the verb is 'is'.",
-    "id": "16055"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nBy the time we arrive at the provincial bus terminal, the bus __________.",
-    "choices": [
-      "left",
-      "has left",
-      "will leave",
-      "will have left"
-    ],
-    "correct_answer": "will have left",
-    "explanation": "The sentence indicates an action that will be completed before a certain point in the future ('By the time we arrive'). This requires the future perfect tense 'will have left'.",
-    "id": "16056"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Which of the following is correct?",
-    "choices": [
-      "Between we and them, the proposed budget is unrealistic.",
-      "Between you and me, the proposed budget is unrealistic.",
-      "Between I and you, the proposed budget is unrealistic.",
-      "Between you and I, the proposed budget is unrealistic."
-    ],
-    "correct_answer": "Between you and me, the proposed budget is unrealistic.",
-    "explanation": "The preposition 'between' must be followed by objective pronouns. 'Me' is the objective case of 'I'.",
-    "id": "16057"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the correct word:\n\nThe newly appointed director is __________ than his predecessor.",
-    "choices": [
-      "strict",
-      "more stricter",
-      "most strict",
-      "stricter"
-    ],
-    "correct_answer": "stricter",
-    "explanation": "To form the comparative of a one-syllable adjective like 'strict', add '-er' to get 'stricter'. 'More stricter' is a double comparative and is grammatically incorrect.",
-    "id": "16058"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nHardly had I stepped out of the office __________ the torrential rain started pouring.",
-    "choices": [
-      "than",
-      "then",
-      "and",
-      "when"
-    ],
-    "correct_answer": "when",
-    "explanation": "The correct correlative conjunction pairing is 'hardly...when' or 'scarcely...when'.",
-    "id": "16059"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the correctly punctuated sentence:",
-    "choices": [
-      "The secretary needs the following: paper, ink, and folders.",
-      "The secretary needs: paper, ink, and folders.",
-      "The secretary needs the following; paper, ink, and folders.",
-      "The secretary needs the following paper, ink, and folders."
-    ],
-    "correct_answer": "The secretary needs the following: paper, ink, and folders.",
-    "explanation": "A colon is used correctly after a complete independent clause ('The secretary needs the following') to introduce a list.",
-    "id": "16060"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the best completion:\n\nLiza is looking forward to __________ the regional director next week.",
-    "choices": [
-      "meeting",
-      "met",
-      "meet",
-      "have met"
-    ],
-    "correct_answer": "meeting",
-    "explanation": "The phrase 'look forward to' ends with the preposition 'to'. Prepositions are followed by gerunds (verb-ing forms). Hence, 'meeting' is correct.",
-    "id": "16061"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nEvery student and teacher __________ required to present a valid ID at the entrance.",
-    "choices": [
-      "are",
-      "is",
-      "were",
-      "have been"
-    ],
-    "correct_answer": "is",
-    "explanation": "When subjects are joined by 'and' but preceded by 'every', the verb must be singular.",
-    "id": "16062"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the error in the sentence:\n\nAlthough he studied all night, but he still failed the licensure exam.",
-    "choices": [
-      "failed the licensure exam",
-      "but he still",
-      "studied all night",
-      "Although he"
-    ],
-    "correct_answer": "but he still",
-    "explanation": "The subordinating conjunction 'Although' already establishes the contrast. Adding the coordinating conjunction 'but' makes the sentence redundant.",
-    "id": "16063"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the correct word:\n\nThe document is laying on the desk right where you __________ it yesterday.",
-    "choices": [
-      "laid",
-      "lie",
-      "lain",
-      "lay"
-    ],
-    "correct_answer": "laid",
-    "explanation": "'To lay' means to place something. The past tense of 'lay' is 'laid'. You placed (laid) the document there yesterday.",
-    "id": "16064"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Which of the following is correct?",
-    "choices": [
-      "Whomever do you think will win the upcoming election?",
-      "Whom do you think will win the upcoming election?",
-      "To who do you think will win the upcoming election?",
-      "Who do you think will win the upcoming election?"
-    ],
-    "correct_answer": "Who do you think will win the upcoming election?",
-    "explanation": "Remove the interrupter 'do you think'. The remaining clause is '___ will win'. Since a subjective pronoun is needed as the subject of 'will win', 'Who' is correct.",
-    "id": "16065"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nThe number of applicants for the scholarship __________ steadily increasing every year.",
-    "choices": [
-      "are",
-      "has",
-      "were",
-      "is"
-    ],
-    "correct_answer": "is",
-    "explanation": "The phrase 'the number of' takes a singular verb, unlike 'a number of' which takes a plural verb. Therefore, 'is' is the correct choice.",
-    "id": "16066"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the best completion:\n\nI wish I __________ the answer to the complex algebraic equation.",
-    "choices": [
-      "have known",
-      "knows",
-      "know",
-      "knew"
-    ],
-    "correct_answer": "knew",
-    "explanation": "Statements starting with 'I wish' referring to a present desire or contrary-to-fact situation require the past tense verb form, thus 'knew'.",
-    "id": "16067"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nPaolo is the only one of those employees who __________ always punctual.",
-    "choices": [
-      "are",
-      "has been",
-      "were",
-      "is"
-    ],
-    "correct_answer": "is",
-    "explanation": "The phrase 'the only one of' is always singular. The relative pronoun 'who' refers back to 'the only one', so it takes the singular verb 'is'.",
-    "id": "16068"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the error in the sentence:\n\nHaving finished the report, the computer was turned off by the tired secretary.",
-    "choices": [
-      "Having finished",
-      "the computer was",
-      "the report",
-      "turned off by"
-    ],
-    "correct_answer": "the computer was",
-    "explanation": "This is a dangling modifier. The phrase 'Having finished the report' must modify the subject immediately following it. The computer didn't finish the report; the secretary did.",
-    "id": "16069"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the correct word:\n\nThe committee members debated __________ themselves regarding the allocation of funds.",
-    "choices": [
-      "among",
-      "between",
-      "with",
-      "along"
-    ],
-    "correct_answer": "among",
-    "explanation": "'Among' is used for relationships involving three or more entities (the committee members), while 'between' is typically used for two.",
-    "id": "16070"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nIf the alarm had rung, we __________ the building immediately.",
-    "choices": [
-      "would vacate",
-      "vacated",
-      "will vacate",
-      "would have vacated"
-    ],
-    "correct_answer": "would have vacated",
-    "explanation": "This is a third conditional indicating an unreal past event. The if-clause uses past perfect ('had rung'), so the main clause requires 'would have + past participle' ('would have vacated').",
-    "id": "16071"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the best completion:\n\nNeither of the two proposals __________ acceptable to the board of directors.",
-    "choices": [
-      "has",
-      "were",
-      "are",
-      "is"
-    ],
-    "correct_answer": "is",
-    "explanation": "The pronouns 'neither', 'either', 'each', and 'everyone' are singular and take singular verbs. Thus, 'is' is correct.",
-    "id": "16072"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the grammatically correct sentence:",
-    "choices": [
-      "She sings good.",
-      "She sing well.",
-      "She sings well.",
-      "She sing good."
-    ],
-    "correct_answer": "She sings well.",
-    "explanation": "'Good' is an adjective, while 'well' is an adverb. An adverb is needed to modify the verb 'sings'. Thus, 'sings well' is correct.",
-    "id": "16073"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nNot only the supervisor but also the rank-and-file employees __________ concerned about the impending lay-offs.",
-    "choices": [
-      "are",
-      "was",
-      "is",
-      "has been"
-    ],
-    "correct_answer": "are",
-    "explanation": "In 'not only... but also' correlative constructions, the verb agrees with the subject closest to it. 'Employees' is plural, so 'are' is correct.",
-    "id": "16074"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the correct word:\n\nJuan's performance is completely __________ from what we expected.",
-    "choices": [
-      "different to",
-      "different than",
-      "different with",
-      "different from"
-    ],
-    "correct_answer": "different from",
-    "explanation": "The standard and universally accepted preposition to use after the adjective 'different' is 'from'.",
-    "id": "16075"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the best completion:\n\nThere __________ a massive protest organized by various transport groups yesterday.",
-    "choices": [
-      "were",
-      "have been",
-      "was",
-      "is"
-    ],
-    "correct_answer": "was",
-    "explanation": "The word 'There' is a dummy subject. The real subject is 'a massive protest' (singular). The time marker 'yesterday' requires past tense, so 'was' is correct.",
-    "id": "16076"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the error in the sentence:\n\nEach of the applicants were asked to submit a photocopy of their birth certificate.",
-    "choices": [
-      "applicants",
-      "Each of the",
-      "were asked",
-      "their birth certificate"
-    ],
-    "correct_answer": "were asked",
-    "explanation": "The subject is 'Each', which is strictly singular. The verb should be 'was asked', not 'were asked'.",
-    "id": "16077"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nIf I __________ you, I would accept the job offer immediately.",
-    "choices": [
-      "am",
-      "were",
-      "have been",
-      "was"
-    ],
-    "correct_answer": "were",
-    "explanation": "This is a second conditional indicating an unreal, hypothetical present/future situation. The subjunctive mood requires 'were' for all subjects (If I were, If he were).",
-    "id": "16078"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the correct word:\n\nThe entire team feels __________ about losing the championship game.",
-    "choices": [
-      "worst",
-      "bad",
-      "worser",
-      "badly"
-    ],
-    "correct_answer": "bad",
-    "explanation": "'Feels' is a linking verb here, describing the state of the subject. Linking verbs are followed by adjectives, not adverbs. 'Bad' is the adjective.",
-    "id": "16079"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the grammatically correct sentence:",
-    "choices": [
-      "Her and I went to the shopping mall.",
-      "Me and her went to the shopping mall.",
-      "She and I went to the shopping mall.",
-      "She and me went to the shopping mall."
-    ],
-    "correct_answer": "She and I went to the shopping mall.",
-    "explanation": "Both pronouns act as the compound subject of the sentence, so they must both be in the subjective case ('She' and 'I').",
-    "id": "16080"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nScarcely had the president finished his speech __________ the audience erupted in applause.",
-    "choices": [
-      "then",
-      "and",
-      "than",
-      "when"
-    ],
-    "correct_answer": "when",
-    "explanation": "The proper correlative conjunction pair is 'scarcely...when'. 'Than' is used with 'no sooner'.",
-    "id": "16081"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the correct word:\n\nMaria is the __________ of the two applicants interviewed today.",
-    "choices": [
-      "most qualified",
-      "highly qualified",
-      "qualified",
-      "more qualified"
-    ],
-    "correct_answer": "more qualified",
-    "explanation": "When comparing exactly two items or persons, use the comparative degree ('more qualified'), not the superlative ('most qualified').",
-    "id": "16082"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the error in the sentence:\n\nWalking down the street, the towering monument was seen by the tourists.",
-    "choices": [
-      "by the tourists",
-      "the street",
-      "the towering monument was seen",
-      "Walking down"
-    ],
-    "correct_answer": "the towering monument was seen",
-    "explanation": "This is a dangling modifier. 'Walking down the street' must modify the subject that follows. The monument wasn't walking; the tourists were.",
-    "id": "16083"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nThe CEO, along with the board members, __________ expected to arrive at 9:00 AM.",
-    "choices": [
-      "are",
-      "were",
-      "is",
-      "have been"
-    ],
-    "correct_answer": "is",
-    "explanation": "Phrases like 'along with' do not make the subject plural. The main subject is 'The CEO' (singular), so the verb is 'is'.",
-    "id": "16084"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Which sentence uses the correct verb tense?",
-    "choices": [
-      "I have been living in Manila since five years.",
-      "I was living in Manila since 2018.",
-      "I have lived in Manila for 2018.",
-      "I have been living in Manila since 2018."
-    ],
-    "correct_answer": "I have been living in Manila since 2018.",
-    "explanation": "'Since' is used with a specific point in time (2018). 'For' is used with a duration of time (five years). The present perfect continuous fits perfectly.",
-    "id": "16085"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nMany a student __________ struggled with the complexities of advanced calculus.",
-    "choices": [
-      "are",
-      "has",
-      "have",
-      "were"
-    ],
-    "correct_answer": "has",
-    "explanation": "The idiom 'Many a [singular noun]' takes a singular verb. Thus, 'has' is correct, not 'have'.",
-    "id": "16086"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the best completion:\n\nBy next month, I __________ at this firm for exactly ten years.",
-    "choices": [
-      "have worked",
-      "will have worked",
-      "will have been working",
-      "will work"
-    ],
-    "correct_answer": "will have been working",
-    "explanation": "The future perfect continuous tense ('will have been working') emphasizes the ongoing duration of an action up to a specific time in the future.",
-    "id": "16087"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the error in the sentence:\n\nThe team is confident that they will win the tournament despite of the strong opponents.",
-    "choices": [
-      "they will win",
-      "despite of",
-      "the tournament",
-      "is confident"
-    ],
-    "correct_answer": "despite of",
-    "explanation": "'Despite' takes no preposition. You can say 'despite the opponents' or 'in spite of the opponents', but 'despite of' is grammatically incorrect.",
-    "id": "16088"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nJuan would rather read a book than __________ television all night.",
-    "choices": [
-      "watch",
-      "watching",
-      "to watch",
-      "watched"
-    ],
-    "correct_answer": "watch",
-    "explanation": "The phrase 'would rather' is followed by a base form verb (read). To maintain parallel structure, the verb after 'than' must also be in the base form (watch).",
-    "id": "16089"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Which of the following is correct?",
-    "choices": [
-      "He is one of those managers who never listens to his subordinates.",
-      "He is one of those managers who never listen to their subordinates.",
-      "He is one of those managers that never listens to their subordinates.",
-      "He is one of those manager who never listens to his subordinates."
-    ],
-    "correct_answer": "He is one of those managers who never listen to their subordinates.",
-    "explanation": "The phrase 'one of those managers who' takes a plural verb because 'who' refers to 'managers' (plural), so 'listen' and 'their' are correct.",
-    "id": "16090"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nNeither the passengers nor the driver __________ injured in the minor collision.",
-    "choices": [
-      "was",
-      "have been",
-      "were",
-      "are"
-    ],
-    "correct_answer": "was",
-    "explanation": "In 'neither/nor' sentences, the verb agrees with the subject closest to it. 'Driver' is singular, so the singular verb 'was' is required.",
-    "id": "16091"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the error in the sentence:\n\nThe amount of tourists visiting the island has doubled since last year.",
-    "choices": [
-      "has doubled",
-      "of tourists",
-      "The amount",
-      "since last year"
-    ],
-    "correct_answer": "The amount",
-    "explanation": "'Amount' is used for uncountable nouns (water, money). 'Number' is used for countable nouns (tourists). It should be 'The number of tourists'.",
-    "id": "16092"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nI recommend that she __________ an official complaint to the HR department.",
-    "choices": [
-      "has filed",
-      "files",
-      "filed",
-      "file"
-    ],
-    "correct_answer": "file",
-    "explanation": "Verbs like recommend, suggest, demand, and insist require the subjunctive mood in a 'that' clause, meaning the base form of the verb ('file') is used regardless of the subject.",
-    "id": "16093"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the best completion:\n\nIt is imperative that every citizen __________ the law.",
-    "choices": [
-      "obeyed",
-      "obey",
-      "obeys",
-      "obeying"
-    ],
-    "correct_answer": "obey",
-    "explanation": "Similar to the previous question, adjectives like imperative, crucial, and essential trigger the subjunctive mood in a 'that' clause, requiring the base verb 'obey'.",
-    "id": "16094"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the grammatically correct sentence:",
-    "choices": [
-      "The dog wagged its' tail happily.",
-      "The dog wagged it's tail happily.",
-      "The dog wagged its tail happily.",
-      "The dog wagged it tail happily."
-    ],
-    "correct_answer": "The dog wagged its tail happily.",
-    "explanation": "'Its' without an apostrophe is the possessive pronoun. 'It's' is a contraction of 'it is' or 'it has'.",
-    "id": "16095"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nNo sooner had I locked the door __________ the phone started ringing.",
-    "choices": [
-      "then",
-      "than",
-      "and",
-      "when"
-    ],
-    "correct_answer": "than",
-    "explanation": "The proper correlative conjunction pair is 'no sooner...than'.",
-    "id": "16096"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the correct word:\n\nThe principal gave the award to __________ had the highest grades.",
-    "choices": [
-      "whoever",
-      "whomever",
-      "who",
-      "whom"
-    ],
-    "correct_answer": "whoever",
-    "explanation": "The pronoun acts as the subject of the dependent clause '___ had the highest grades'. Therefore, the subjective form 'whoever' is required.",
-    "id": "16097"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Complete the sentence:\n\nNot one of the fifty computers __________ working properly after the power surge.",
-    "choices": [
-      "was",
-      "have been",
-      "are",
-      "were"
-    ],
-    "correct_answer": "was",
-    "explanation": "The subject is 'one' (singular). The prepositional phrase 'of the fifty computers' does not change the singular subject, so 'was' is correct.",
-    "id": "16098"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Identify the error in the sentence:\n\nThe reason he missed the flight is because he overslept.",
-    "choices": [
-      "missed the flight",
-      "is because",
-      "he overslept",
-      "The reason"
-    ],
-    "correct_answer": "is because",
-    "explanation": "The phrase 'the reason is because' is redundant. It should be 'the reason is that' or simply 'He missed the flight because he overslept'.",
-    "id": "16099"
-  },
-  {
-    "category": "Verbal Ability – Grammar",
-    "question": "Choose the best completion:\n\nIf you need assistance, please feel free to contact __________ the manager or me.",
-    "choices": [
-      "either",
-      "neither",
-      "none",
-      "both"
-    ],
-    "correct_answer": "either",
-    "explanation": "The conjunction 'or' pairs with 'either' to form 'either...or'. 'Neither' pairs with 'nor', and 'both' pairs with 'and'.",
-    "id": "16100"
-  }
+    {
+        "id": "16001",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that is grammatically correct.",
+        "choices": [
+            "Each of the employees is required to submit his or her report.",
+            "Each of the employees are required to submit his or her report.",
+            "Each of the employees is required to submit their reports.",
+            "Each of the employees are required to submit their reports."
+        ],
+        "correct_answer": "Each of the employees is required to submit his or her report.",
+        "explanation": "'Each' is a singular indefinite pronoun and requires the singular verb 'is.' The pronoun reference should also be singular: 'his or her report.'"
+    },
+    {
+        "id": "16002",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with the correct subject-verb agreement.",
+        "choices": [
+            "The committee have reached an unanimous decision.",
+            "The committee has reached an unanimous decision.",
+            "The committee has reached a unanimous decision.",
+            "The committee have reached a unanimous decision."
+        ],
+        "correct_answer": "The committee has reached a unanimous decision.",
+        "explanation": "'Committee' is a collective noun treated as singular when acting as a unit, requiring 'has.' Also, 'unanimous' begins with a consonant sound, so 'a' is correct, not 'an.'"
+    },
+    {
+        "id": "16003",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence correctly uses the past perfect tense?",
+        "choices": [
+            "She had already finished the report when the supervisor arrived.",
+            "She already finished the report when the supervisor arrived.",
+            "She has already finished the report when the supervisor arrived.",
+            "She already had finish the report when the supervisor arrived."
+        ],
+        "correct_answer": "She had already finished the report when the supervisor arrived.",
+        "explanation": "The past perfect ('had finished') correctly indicates an action completed before another past event ('arrived')."
+    },
+    {
+        "id": "16004",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with the correct pronoun usage.",
+        "choices": [
+            "Between I and you, the project needs more funding.",
+            "Between you and I, the project needs more funding.",
+            "Between you and me, the project needs more funding.",
+            "Between you and myself, the project needs more funding."
+        ],
+        "correct_answer": "Between you and me, the project needs more funding.",
+        "explanation": "'Between' is a preposition, and prepositions take object pronouns. 'Me' is the object form of 'I.'"
+    },
+    {
+        "id": "16005",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence is free of dangling modifiers?",
+        "choices": [
+            "Walking through the park, it was noticed that the flowers were beautiful.",
+            "Walking through the park, the flowers were beautiful.",
+            "Walking through the park, the beauty of the flowers was noticed.",
+            "Walking through the park, she noticed the beautiful flowers."
+        ],
+        "correct_answer": "Walking through the park, she noticed the beautiful flowers.",
+        "explanation": "The participial phrase 'Walking through the park' must logically modify the subject. Only in this sentence does a person ('she') serve as the subject."
+    },
+    {
+        "id": "16006",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with the correct use of the comparative form.",
+        "choices": [
+            "This procedure is more simple than the previous one.",
+            "This procedure is more simpler than the previous one.",
+            "This procedure is simpler than the previous one.",
+            "This procedure is most simpler than the previous one."
+        ],
+        "correct_answer": "This procedure is simpler than the previous one.",
+        "explanation": "One- and two-syllable adjectives like 'simple' form the comparative with '-er,' not 'more.' 'More simpler' is a double comparative and is incorrect."
+    },
+    {
+        "id": "16007",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that correctly uses parallel structure.",
+        "choices": [
+            "The training program focuses on to write, speaking effectively, and leadership.",
+            "The training program focuses on writing, speaking effectively, and to be a leader.",
+            "The training program focuses on writing, speaking effectively, and leading.",
+            "The training program focuses on writing, to speak effectively, and leadership."
+        ],
+        "correct_answer": "The training program focuses on writing, speaking effectively, and leading.",
+        "explanation": "Parallel structure requires that items in a series share the same grammatical form. All three items should be gerunds: 'writing,' 'speaking,' and 'leading.'"
+    },
+    {
+        "id": "16008",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which of the following sentences uses the subjunctive mood correctly?",
+        "choices": [
+            "The director requested that the employee submits the form today.",
+            "The director requested that the employee submit the form today.",
+            "The director requested that the employee will submit the form today.",
+            "The director requested that the employee submitted the form today."
+        ],
+        "correct_answer": "The director requested that the employee submit the form today.",
+        "explanation": "After verbs of request, demand, or recommendation, the subjunctive mood uses the base form of the verb ('submit') without conjugation."
+    },
+    {
+        "id": "16009",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the sentence with a misplaced modifier.",
+        "choices": [
+            "On the desk, the documents were carefully reviewed by the officer.",
+            "The documents on the desk were carefully reviewed by the officer.",
+            "The officer carefully reviewed the documents on the desk.",
+            "The officer on the desk carefully reviewed the documents."
+        ],
+        "correct_answer": "The officer on the desk carefully reviewed the documents.",
+        "explanation": "'On the desk' is misplaced because it modifies 'officer' instead of 'documents,' absurdly suggesting the officer is sitting on the desk."
+    },
+    {
+        "id": "16010",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with the correct use of the semicolon.",
+        "choices": [
+            "The meeting was postponed; the chairperson was absent.",
+            "The meeting was postponed; because the chairperson was absent.",
+            "The meeting; was postponed the chairperson was absent.",
+            "The meeting was postponed, the chairperson was absent."
+        ],
+        "correct_answer": "The meeting was postponed; the chairperson was absent.",
+        "explanation": "A semicolon joins two closely related independent clauses. Adding 'because' after a semicolon is incorrect since it creates a dependent clause."
+    },
+    {
+        "id": "16011",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that is grammatically correct.",
+        "choices": [
+            "The report, along with the attachments, have been submitted on time.",
+            "The report, along with the attachments, were submitted on time.",
+            "The report, along with the attachments, are submitted on time.",
+            "The report, along with the attachments, was submitted on time."
+        ],
+        "correct_answer": "The report, along with the attachments, was submitted on time.",
+        "explanation": "The subject is 'report' (singular). The phrase 'along with the attachments' is parenthetical and does not change the number of the subject. Therefore, the singular verb 'was' is correct."
+    },
+    {
+        "id": "16012",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence correctly uses the colon?",
+        "choices": [
+            "The office: needs the following supplies folders, pens, and bond paper.",
+            "The office needs the following: supplies folders pens and bond paper.",
+            "The office needs: the following supplies folders, pens, and bond paper.",
+            "The office needs the following supplies: folders, pens, and bond paper."
+        ],
+        "correct_answer": "The office needs the following supplies: folders, pens, and bond paper.",
+        "explanation": "A colon is used after a complete introductory statement to introduce a list. 'The office needs the following supplies' is a complete clause, making the colon placement correct."
+    },
+    {
+        "id": "16013",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the correct sentence.",
+        "choices": [
+            "If I was the department head, I would approve the request.",
+            "If I am the department head, I would approve the request.",
+            "If I be the department head, I would approve the request.",
+            "If I were the department head, I would approve the request."
+        ],
+        "correct_answer": "If I were the department head, I would approve the request.",
+        "explanation": "This is a hypothetical (contrary-to-fact) conditional, which requires the subjunctive mood. In the subjunctive, 'were' is used for all persons, including 'I.'"
+    },
+    {
+        "id": "16014",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with the correct use of the apostrophe.",
+        "choices": [
+            "The employees' lounge is on the second floor.",
+            "The employees's lounge is on the second floor.",
+            "The employee's lounge is on the second floor.",
+            "The employees lounge is on the second floor."
+        ],
+        "correct_answer": "The employees' lounge is on the second floor.",
+        "explanation": "When a plural noun already ends in 's,' the possessive is formed by adding only an apostrophe after the 's.' Since 'employees' is plural, 'employees'' is correct."
+    },
+    {
+        "id": "16015",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence uses the correct verb tense?",
+        "choices": [
+            "By the time the auditor arrives, we will have finished all the reports.",
+            "By the time the auditor arrives, we will finish all the reports.",
+            "By the time the auditor arrives, we finished all the reports.",
+            "By the time the auditor arrives, we are finishing all the reports."
+        ],
+        "correct_answer": "By the time the auditor arrives, we will have finished all the reports.",
+        "explanation": "The future perfect tense ('will have finished') correctly describes an action that will be completed before another future event."
+    },
+    {
+        "id": "16016",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with correct subject-verb agreement.",
+        "choices": [
+            "Neither the supervisor nor the employees was informed.",
+            "Neither the supervisor nor the employees is informed.",
+            "Neither the supervisor nor the employees were informed.",
+            "Neither the supervisor nor the employees has been informed."
+        ],
+        "correct_answer": "Neither the supervisor nor the employees were informed.",
+        "explanation": "With 'neither...nor,' the verb agrees with the subject closest to it. 'Employees' is plural, so the verb should be 'were.'"
+    },
+    {
+        "id": "16017",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that avoids redundancy.",
+        "choices": [
+            "The reason is due to the fact that the budget was insufficient.",
+            "The reason is that the budget was insufficient.",
+            "The reason is because the budget was insufficient.",
+            "The reason why is because the budget was insufficient."
+        ],
+        "correct_answer": "The reason is that the budget was insufficient.",
+        "explanation": "'The reason is because' is redundant since 'reason' already implies 'because.' The correct construction is 'The reason is that...'"
+    },
+    {
+        "id": "16018",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the grammatically correct sentence.",
+        "choices": [
+            "The number of applicants have increased this year.",
+            "A number of applicants has increased this year.",
+            "The number of applicants has increased this year.",
+            "The numbers of applicants have increased this year."
+        ],
+        "correct_answer": "The number of applicants has increased this year.",
+        "explanation": "'The number of' is treated as a singular expression and takes a singular verb ('has'). In contrast, 'a number of' is treated as plural."
+    },
+    {
+        "id": "16019",
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence correctly uses 'who' and 'whom'?",
+        "choices": [
+            "The employee whom was promoted deserved the recognition.",
+            "The employee who was promoted deserved the recognition.",
+            "The employee whom deserved the recognition was promoted.",
+            "The employee who the manager promoted deserved the recognition."
+        ],
+        "correct_answer": "The employee who was promoted deserved the recognition.",
+        "explanation": "'Who' is used as the subject of a clause. In this sentence, 'who' is the subject of 'was promoted,' making it the correct choice."
+    },
+    {
+        "id": "16020",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with the correct use of articles.",
+        "choices": [
+            "She is honest a public servant.",
+            "She is a honest public servant.",
+            "She is an honest public servant.",
+            "She is the honest public servant."
+        ],
+        "correct_answer": "She is an honest public servant.",
+        "explanation": "'Honest' begins with a silent 'h,' so the vowel sound that follows requires the article 'an' instead of 'a.'"
+    },
+    {
+        "id": "16021",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the sentence with correct subject-verb agreement.",
+        "choices": [
+            "The committee have reach a decision.",
+            "The committee have reached a unanimous decision.",
+            "The committee has reached a unanimous decision.",
+            "The committee are reaching a decision."
+        ],
+        "correct_answer": "The committee has reached a unanimous decision.",
+        "explanation": "Collective nouns like 'committee' take a singular verb when acting as a single unit."
+    },
+    {
+        "id": "16022",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that correctly uses the subjunctive mood.",
+        "choices": [
+            "If I be the department head, I would revise the policy.",
+            "If I was the department head, I would revise the policy.",
+            "If I am the department head, I will revise the policy.",
+            "If I were the department head, I would revise the policy."
+        ],
+        "correct_answer": "If I were the department head, I would revise the policy.",
+        "explanation": "The subjunctive mood uses 'were' instead of 'was' for hypothetical or contrary-to-fact statements."
+    },
+    {
+        "id": "16023",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with proper parallel structure.",
+        "choices": [
+            "The job requires to type, filing, and answering phones.",
+            "The job requires typing, filing, and answering phones.",
+            "The job requires typing, to file, and answer phones.",
+            "The job requires typing, filing, and to answer phones."
+        ],
+        "correct_answer": "The job requires typing, filing, and answering phones.",
+        "explanation": "Items in a list must maintain parallel grammatical form (all gerunds: typing, filing, answering)."
+    },
+    {
+        "id": "16024",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the sentence that avoids a dangling modifier.",
+        "choices": [
+            "While walking to the office, rain soaked Maria.",
+            "Having walked to the office, the rain stopped.",
+            "Walking to the office, Maria was soaked by the rain.",
+            "Walking to the office, the rain soaked Maria."
+        ],
+        "correct_answer": "Walking to the office, Maria was soaked by the rain.",
+        "explanation": "The introductory modifier 'Walking to the office' must clearly modify the subject 'Maria,' not 'the rain.'"
+    },
+    {
+        "id": "16025",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with the correct pronoun case.",
+        "choices": [
+            "Between you and I, the decision is final.",
+            "Between you and myself, the decision is final.",
+            "Between you and me, the decision is final.",
+            "Between yourself and I, the decision is final."
+        ],
+        "correct_answer": "Between you and me, the decision is final.",
+        "explanation": "'Between' is a preposition requiring object pronouns. 'Me' is the objective pronoun, not 'I.'"
+    },
+    {
+        "id": "16026",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence that avoids a double negative.",
+        "choices": [
+            "He couldn't hardly finish the report on time.",
+            "She scarcely has no time for lunch.",
+            "He didn't do nothing to resolve the dispute.",
+            "He didn't do anything to resolve the dispute."
+        ],
+        "correct_answer": "He didn't do anything to resolve the dispute.",
+        "explanation": "Combining 'didn't' and 'nothing' creates a double negative. 'Didn't do anything' is standard English."
+    },
+    {
+        "id": "16027",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the correct comparative form.",
+        "choices": [
+            "This project is more easy than the last one.",
+            "This project is easier than the last one.",
+            "This project is more easier than the last one.",
+            "This project is most easy than the last one."
+        ],
+        "correct_answer": "This project is easier than the last one.",
+        "explanation": "Double comparatives like 'more easier' are incorrect. Use 'easier' for short adjectives."
+    },
+    {
+        "id": "16028",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with correct subject-verb agreement.",
+        "choices": [
+            "The director, along with his assistants, were attending the conference.",
+            "The director, along with his assistants, are attending the conference.",
+            "The director, along with his assistants, have attended the conference.",
+            "The director, along with his assistants, is attending the conference."
+        ],
+        "correct_answer": "The director, along with his assistants, is attending the conference.",
+        "explanation": "Intervening phrases like 'along with...' do not change the singular subject 'director,' which requires 'is.'"
+    },
+    {
+        "id": "16029",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with proper punctuation for a compound sentence.",
+        "choices": [
+            "The deadline was extended; however, the team still felt rushed.",
+            "The deadline was extended, however, the team still felt rushed.",
+            "The deadline was extended; however the team still felt rushed.",
+            "The deadline was extended however the team still felt rushed."
+        ],
+        "correct_answer": "The deadline was extended; however, the team still felt rushed.",
+        "explanation": "Conjunctive adverbs like 'however' connecting two independent clauses require a semicolon before and a comma after."
+    },
+    {
+        "id": "16030",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that correctly uses 'less' and 'fewer'.",
+        "choices": [
+            "We need less personnel for this task.",
+            "There are fewer employees in the office today.",
+            "He has fewer patience than his predecessor.",
+            "There are less employees in the office today."
+        ],
+        "correct_answer": "There are fewer employees in the office today.",
+        "explanation": "'Fewer' is used with countable nouns like 'employees.' 'Less' is used with uncountable nouns."
+    },
+    {
+        "id": "16031",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the sentence with correct subject-verb agreement in an inverted sentence.",
+        "choices": [
+            "Here is the files you requested.",
+            "There is several errors in the report.",
+            "Here comes the official documents.",
+            "Here are the files you requested."
+        ],
+        "correct_answer": "Here are the files you requested.",
+        "explanation": "In sentences starting with 'here' or 'there,' the subject follows the verb. 'Files' is plural, requiring 'are.'"
+    },
+    {
+        "id": "16032",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence that avoids wordiness and redundancy.",
+        "choices": [
+            "The main reason he resigned was on account of illness.",
+            "He resigned due to the fact that he was ill.",
+            "He resigned because he was ill.",
+            "The reason why he resigned is because he was ill."
+        ],
+        "correct_answer": "He resigned because he was ill.",
+        "explanation": "'The reason why... is because' is redundant. 'He resigned because...' is concise and clear."
+    },
+    {
+        "id": "16033",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with the correct possessive form.",
+        "choices": [
+            "The woman's auxiliary met on Tuesday.",
+            "The women's auxiliary met on Tuesday.",
+            "The womens' auxiliary met on Tuesday.",
+            "The womens auxiliary met on Tuesday."
+        ],
+        "correct_answer": "The women's auxiliary met on Tuesday.",
+        "explanation": "Plural nouns that do not end in 's' (like 'women') form the possessive by adding an apostrophe and 's' ('women's')."
+    },
+    {
+        "id": "16034",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the sentence with the correct tense sequence.",
+        "choices": [
+            "She said that she will submit the report tomorrow.",
+            "She said that she would submit the report tomorrow.",
+            "She had said that she will submit the report tomorrow.",
+            "She says that she would submit the report tomorrow."
+        ],
+        "correct_answer": "She said that she would submit the report tomorrow.",
+        "explanation": "When reporting past speech ('said'), future intentions shift from 'will' to 'would' in reported speech."
+    },
+    {
+        "id": "16035",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with correct capitalization.",
+        "choices": [
+            "The President visited the department of Health.",
+            "President Marcos visited the department of health.",
+            "President Marcos visited the Department of Health.",
+            "president Marcos visited the Department Of Health."
+        ],
+        "correct_answer": "President Marcos visited the Department of Health.",
+        "explanation": "Official titles before names ('President Marcos') and proper names of government departments ('Department of Health') are capitalized."
+    },
+    {
+        "id": "16036",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with correct subject-verb agreement.",
+        "choices": [
+            "Neither the chief nor the deputies has approved the plan.",
+            "Neither the chief nor the deputies is approving the plan.",
+            "Neither the chief nor the deputies have approved the plan.",
+            "Neither the chief nor the deputies was approving the plan."
+        ],
+        "correct_answer": "Neither the chief nor the deputies have approved the plan.",
+        "explanation": "With 'neither... nor,' the verb agrees with the closer subject ('deputies' - plural, taking 'have')."
+    },
+    {
+        "id": "16037",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence that avoids a comma splice.",
+        "choices": [
+            "The meeting ended early; we went back to our desks.",
+            "The meeting ended early, we went back to our desks.",
+            "The meeting ended early, so, we went back to our desks.",
+            "The meeting ended early we went back to our desks."
+        ],
+        "correct_answer": "The meeting ended early; we went back to our desks.",
+        "explanation": "Joining two independent clauses with only a comma creates a comma splice. Use a semicolon or conjunction."
+    },
+    {
+        "id": "16038",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the sentence with correct modifier placement.",
+        "choices": [
+            "She almost worked for ten hours yesterday.",
+            "Almost she worked for ten hours yesterday.",
+            "She worked for almost ten hours yesterday.",
+            "She worked almost for ten hours yesterday."
+        ],
+        "correct_answer": "She worked for almost ten hours yesterday.",
+        "explanation": "Modifiers like 'almost' should be placed directly before the word they modify ('almost ten hours')."
+    },
+    {
+        "id": "16039",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with the correct pronoun reference.",
+        "choices": [
+            "The car was damaged when it hit the tree.",
+            "When the car hit the tree, it was damaged.",
+            "The car hit the tree and it was destroyed.",
+            "When the car hit the tree, it broke the windshield."
+        ],
+        "correct_answer": "The car was damaged when it hit the tree.",
+        "explanation": "Ambiguous pronouns ('it') must be avoided; the antecedent ('car') should be clear."
+    },
+    {
+        "id": "16040",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the correct use of reflexive pronouns.",
+        "choices": [
+            "John and myself prepared the presentation.",
+            "John and himself prepared the presentation.",
+            "John and I prepared the presentation.",
+            "John and me prepared the presentation."
+        ],
+        "correct_answer": "John and I prepared the presentation.",
+        "explanation": "Reflexive pronouns ('myself') are used when subject and object are the same person. For subject role, use 'I.'"
+    },
+    {
+        "id": "16041",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the sentence with correct subject-verb agreement.",
+        "choices": [
+            "Mathematics are his favorite subject in school.",
+            "Mathematics is his favorite subject in school.",
+            "Mathematics have been his favorite subject.",
+            "Mathematics were his favorite subject."
+        ],
+        "correct_answer": "Mathematics is his favorite subject in school.",
+        "explanation": "Nouns ending in '-s' that represent single academic disciplines (like Mathematics, Physics) take singular verbs."
+    },
+    {
+        "id": "16042",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence that correctly uses an idiom.",
+        "choices": [
+            "He is responsible of managing the office.",
+            "He is responsible on managing the office.",
+            "He is responsible with managing the office.",
+            "He is responsible for managing the office."
+        ],
+        "correct_answer": "He is responsible for managing the office.",
+        "explanation": "The standard prepositional idiom is 'responsible for,' not 'responsible of' or 'responsible with.'"
+    },
+    {
+        "id": "16043",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with proper hyphenation.",
+        "choices": [
+            "He is a well known-civil servant.",
+            "He is a well known civil servant.",
+            "He is a well-known-civil servant.",
+            "He is a well-known civil servant."
+        ],
+        "correct_answer": "He is a well-known civil servant.",
+        "explanation": "Compound adjectives preceding a noun ('well-known') require a hyphen."
+    },
+    {
+        "id": "16044",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the sentence with the correct tense in a conditional statement.",
+        "choices": [
+            "If he studied harder, he had passed the exam.",
+            "If he studied harder, he will pass the exam.",
+            "If he studies harder, he would pass the exam.",
+            "If he had studied harder, he would have passed the exam."
+        ],
+        "correct_answer": "If he had studied harder, he would have passed the exam.",
+        "explanation": "Third conditional (past unfulfilled action) requires past perfect in the 'if' clause ('had studied') and 'would have' + past participle."
+    },
+    {
+        "id": "16045",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with correct prepositional usage.",
+        "choices": [
+            "She complied to all the audit requirements.",
+            "She complied with all the audit requirements.",
+            "She complied on all the audit requirements.",
+            "She complied for all the audit requirements."
+        ],
+        "correct_answer": "She complied with all the audit requirements.",
+        "explanation": "The verb 'comply' takes the preposition 'with' ('comply with rules')."
+    },
+    {
+        "id": "16046",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence with the correct use of 'its' vs. 'it's'.",
+        "choices": [
+            "Its important to update agency charters.",
+            "The agency lost it's records in the fire.",
+            "The agency updated it's charter last month.",
+            "The agency updated its charter last month."
+        ],
+        "correct_answer": "The agency updated its charter last month.",
+        "explanation": "'Its' is the possessive pronoun; 'it's' is the contraction for 'it is' or 'it has.'"
+    },
+    {
+        "id": "16047",
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the sentence with correct subject-verb agreement.",
+        "choices": [
+            "Every one of the applicants are submitting forms.",
+            "Every one of the applicants have submitted their forms.",
+            "Every one of the applicants has submitted their forms.",
+            "Every one of the applicants were present."
+        ],
+        "correct_answer": "Every one of the applicants has submitted their forms.",
+        "explanation": "'Every one' is singular and takes a singular verb ('has')."
+    },
+    {
+        "id": "16048",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with correct word order.",
+        "choices": [
+            "Seldom we see such dedication in public service.",
+            "Seldom do we see such dedication in public service.",
+            "Seldom we do see such dedication in public service.",
+            "Seldom see we such dedication in public service."
+        ],
+        "correct_answer": "Seldom do we see such dedication in public service.",
+        "explanation": "Negative adverbs like 'seldom' at the start of a sentence require subject-auxiliary inversion ('do we see')."
+    },
+    {
+        "id": "16049",
+        "category": "Verbal Ability – Grammar",
+        "question": "Select the sentence that avoids a fragment.",
+        "choices": [
+            "Which was approved by Congress last week.",
+            "The budget was approved by Congress.",
+            "Because the budget was approved by Congress.",
+            "Having been approved by Congress without delay."
+        ],
+        "correct_answer": "The budget was approved by Congress.",
+        "explanation": "Options A, C, and D are dependent clauses or participial phrases (fragments). Option B is a complete sentence."
+    },
+    {
+        "id": "16050",
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the sentence with proper use of 'different from' vs. 'different than'.",
+        "choices": [
+            "His approach is more different than mine.",
+            "His approach is different than mine.",
+            "His approach is different to mine.",
+            "His approach is different from mine."
+        ],
+        "correct_answer": "His approach is different from mine.",
+        "explanation": "In standard formal English, 'different from' is preferred over 'different than.'"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the correct verb to complete the sentence:\n\nNeither the manager nor the employees __________ informed about the abrupt changes in the company policy.",
+        "choices": [
+            "is",
+            "has been",
+            "were",
+            "was"
+        ],
+        "correct_answer": "were",
+        "explanation": "In 'neither/nor' constructions, the verb agrees with the subject closest to it. 'Employees' is plural, so the plural verb 'were' is correct.",
+        "id": "16051"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the grammatically correct sentence:",
+        "choices": [
+            "The committee has submitted its report.",
+            "The committee has submitted their report.",
+            "The committee have submitted their report.",
+            "The committee have submitted its report."
+        ],
+        "correct_answer": "The committee has submitted its report.",
+        "explanation": "A collective noun (committee) acting as a single unit takes a singular verb (has) and a singular pronoun (its).",
+        "id": "16052"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the error in the sentence:\n\nOne of the applicants are perfectly qualified for the highly demanding position.",
+        "choices": [
+            "are perfectly",
+            "highly demanding",
+            "applicants",
+            "One of the"
+        ],
+        "correct_answer": "are perfectly",
+        "explanation": "The subject is 'One', which is singular. The verb should be 'is', not 'are'. 'Applicants' is the object of the preposition.",
+        "id": "16053"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nIf Maria __________ about the heavy traffic, she would have left the house an hour earlier.",
+        "choices": [
+            "knew",
+            "have known",
+            "had known",
+            "knows"
+        ],
+        "correct_answer": "had known",
+        "explanation": "This is a third conditional sentence describing an unreal past situation. It requires the past perfect tense 'had known' in the if-clause.",
+        "id": "16054"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the best completion:\n\nThe mayor, together with the city councilors, __________ attending the ribbon-cutting ceremony tomorrow.",
+        "choices": [
+            "have been",
+            "is",
+            "were",
+            "are"
+        ],
+        "correct_answer": "is",
+        "explanation": "Phrases like 'together with', 'along with', or 'as well as' do not make the subject plural. The main subject is 'The mayor' (singular), so the verb is 'is'.",
+        "id": "16055"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nBy the time we arrive at the provincial bus terminal, the bus __________.",
+        "choices": [
+            "left",
+            "has left",
+            "will leave",
+            "will have left"
+        ],
+        "correct_answer": "will have left",
+        "explanation": "The sentence indicates an action that will be completed before a certain point in the future ('By the time we arrive'). This requires the future perfect tense 'will have left'.",
+        "id": "16056"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Which of the following is correct?",
+        "choices": [
+            "Between we and them, the proposed budget is unrealistic.",
+            "Between you and me, the proposed budget is unrealistic.",
+            "Between I and you, the proposed budget is unrealistic.",
+            "Between you and I, the proposed budget is unrealistic."
+        ],
+        "correct_answer": "Between you and me, the proposed budget is unrealistic.",
+        "explanation": "The preposition 'between' must be followed by objective pronouns. 'Me' is the objective case of 'I'.",
+        "id": "16057"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the correct word:\n\nThe newly appointed director is __________ than his predecessor.",
+        "choices": [
+            "strict",
+            "more stricter",
+            "most strict",
+            "stricter"
+        ],
+        "correct_answer": "stricter",
+        "explanation": "To form the comparative of a one-syllable adjective like 'strict', add '-er' to get 'stricter'. 'More stricter' is a double comparative and is grammatically incorrect.",
+        "id": "16058"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nHardly had I stepped out of the office __________ the torrential rain started pouring.",
+        "choices": [
+            "than",
+            "then",
+            "and",
+            "when"
+        ],
+        "correct_answer": "when",
+        "explanation": "The correct correlative conjunction pairing is 'hardly...when' or 'scarcely...when'.",
+        "id": "16059"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the correctly punctuated sentence:",
+        "choices": [
+            "The secretary needs the following: paper, ink, and folders.",
+            "The secretary needs: paper, ink, and folders.",
+            "The secretary needs the following; paper, ink, and folders.",
+            "The secretary needs the following paper, ink, and folders."
+        ],
+        "correct_answer": "The secretary needs the following: paper, ink, and folders.",
+        "explanation": "A colon is used correctly after a complete independent clause ('The secretary needs the following') to introduce a list.",
+        "id": "16060"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the best completion:\n\nLiza is looking forward to __________ the regional director next week.",
+        "choices": [
+            "meeting",
+            "met",
+            "meet",
+            "have met"
+        ],
+        "correct_answer": "meeting",
+        "explanation": "The phrase 'look forward to' ends with the preposition 'to'. Prepositions are followed by gerunds (verb-ing forms). Hence, 'meeting' is correct.",
+        "id": "16061"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nEvery student and teacher __________ required to present a valid ID at the entrance.",
+        "choices": [
+            "are",
+            "is",
+            "were",
+            "have been"
+        ],
+        "correct_answer": "is",
+        "explanation": "When subjects are joined by 'and' but preceded by 'every', the verb must be singular.",
+        "id": "16062"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the error in the sentence:\n\nAlthough he studied all night, but he still failed the licensure exam.",
+        "choices": [
+            "failed the licensure exam",
+            "but he still",
+            "studied all night",
+            "Although he"
+        ],
+        "correct_answer": "but he still",
+        "explanation": "The subordinating conjunction 'Although' already establishes the contrast. Adding the coordinating conjunction 'but' makes the sentence redundant.",
+        "id": "16063"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the correct word:\n\nThe document is laying on the desk right where you __________ it yesterday.",
+        "choices": [
+            "laid",
+            "lie",
+            "lain",
+            "lay"
+        ],
+        "correct_answer": "laid",
+        "explanation": "'To lay' means to place something. The past tense of 'lay' is 'laid'. You placed (laid) the document there yesterday.",
+        "id": "16064"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Which of the following is correct?",
+        "choices": [
+            "Whomever do you think will win the upcoming election?",
+            "Whom do you think will win the upcoming election?",
+            "To who do you think will win the upcoming election?",
+            "Who do you think will win the upcoming election?"
+        ],
+        "correct_answer": "Who do you think will win the upcoming election?",
+        "explanation": "Remove the interrupter 'do you think'. The remaining clause is '___ will win'. Since a subjective pronoun is needed as the subject of 'will win', 'Who' is correct.",
+        "id": "16065"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nThe number of applicants for the scholarship __________ steadily increasing every year.",
+        "choices": [
+            "are",
+            "has",
+            "were",
+            "is"
+        ],
+        "correct_answer": "is",
+        "explanation": "The phrase 'the number of' takes a singular verb, unlike 'a number of' which takes a plural verb. Therefore, 'is' is the correct choice.",
+        "id": "16066"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the best completion:\n\nI wish I __________ the answer to the complex algebraic equation.",
+        "choices": [
+            "have known",
+            "knows",
+            "know",
+            "knew"
+        ],
+        "correct_answer": "knew",
+        "explanation": "Statements starting with 'I wish' referring to a present desire or contrary-to-fact situation require the past tense verb form, thus 'knew'.",
+        "id": "16067"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nPaolo is the only one of those employees who __________ always punctual.",
+        "choices": [
+            "are",
+            "has been",
+            "were",
+            "is"
+        ],
+        "correct_answer": "is",
+        "explanation": "The phrase 'the only one of' is always singular. The relative pronoun 'who' refers back to 'the only one', so it takes the singular verb 'is'.",
+        "id": "16068"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the error in the sentence:\n\nHaving finished the report, the computer was turned off by the tired secretary.",
+        "choices": [
+            "Having finished",
+            "the computer was",
+            "the report",
+            "turned off by"
+        ],
+        "correct_answer": "the computer was",
+        "explanation": "This is a dangling modifier. The phrase 'Having finished the report' must modify the subject immediately following it. The computer didn't finish the report; the secretary did.",
+        "id": "16069"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the correct word:\n\nThe committee members debated __________ themselves regarding the allocation of funds.",
+        "choices": [
+            "among",
+            "between",
+            "with",
+            "along"
+        ],
+        "correct_answer": "among",
+        "explanation": "'Among' is used for relationships involving three or more entities (the committee members), while 'between' is typically used for two.",
+        "id": "16070"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nIf the alarm had rung, we __________ the building immediately.",
+        "choices": [
+            "would vacate",
+            "vacated",
+            "will vacate",
+            "would have vacated"
+        ],
+        "correct_answer": "would have vacated",
+        "explanation": "This is a third conditional indicating an unreal past event. The if-clause uses past perfect ('had rung'), so the main clause requires 'would have + past participle' ('would have vacated').",
+        "id": "16071"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the best completion:\n\nNeither of the two proposals __________ acceptable to the board of directors.",
+        "choices": [
+            "has",
+            "were",
+            "are",
+            "is"
+        ],
+        "correct_answer": "is",
+        "explanation": "The pronouns 'neither', 'either', 'each', and 'everyone' are singular and take singular verbs. Thus, 'is' is correct.",
+        "id": "16072"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the grammatically correct sentence:",
+        "choices": [
+            "She sings good.",
+            "She sing well.",
+            "She sings well.",
+            "She sing good."
+        ],
+        "correct_answer": "She sings well.",
+        "explanation": "'Good' is an adjective, while 'well' is an adverb. An adverb is needed to modify the verb 'sings'. Thus, 'sings well' is correct.",
+        "id": "16073"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nNot only the supervisor but also the rank-and-file employees __________ concerned about the impending lay-offs.",
+        "choices": [
+            "are",
+            "was",
+            "is",
+            "has been"
+        ],
+        "correct_answer": "are",
+        "explanation": "In 'not only... but also' correlative constructions, the verb agrees with the subject closest to it. 'Employees' is plural, so 'are' is correct.",
+        "id": "16074"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the correct word:\n\nJuan's performance is completely __________ what we expected.",
+        "choices": [
+            "different to",
+            "different than",
+            "different with",
+            "different from"
+        ],
+        "correct_answer": "different from",
+        "explanation": "The standard and universally accepted preposition to use after the adjective 'different' is 'from'.",
+        "id": "16075"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the best completion:\n\nThere __________ a massive protest organized by various transport groups yesterday.",
+        "choices": [
+            "were",
+            "have been",
+            "was",
+            "is"
+        ],
+        "correct_answer": "was",
+        "explanation": "The word 'There' is a dummy subject. The real subject is 'a massive protest' (singular). The time marker 'yesterday' requires past tense, so 'was' is correct.",
+        "id": "16076"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the error in the sentence:\n\nEach of the applicants were asked to submit a photocopy of their birth certificate.",
+        "choices": [
+            "applicants",
+            "Each of the",
+            "were asked",
+            "their birth certificate"
+        ],
+        "correct_answer": "were asked",
+        "explanation": "The subject is 'Each', which is strictly singular. The verb should be 'was asked', not 'were asked'.",
+        "id": "16077"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nIf I __________ you, I would accept the job offer immediately.",
+        "choices": [
+            "am",
+            "were",
+            "have been",
+            "was"
+        ],
+        "correct_answer": "were",
+        "explanation": "This is a second conditional indicating an unreal, hypothetical present/future situation. The subjunctive mood requires 'were' for all subjects (If I were, If he were).",
+        "id": "16078"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the correct word:\n\nThe entire team feels __________ about losing the championship game.",
+        "choices": [
+            "worst",
+            "bad",
+            "worser",
+            "badly"
+        ],
+        "correct_answer": "bad",
+        "explanation": "'Feels' is a linking verb here, describing the state of the subject. Linking verbs are followed by adjectives, not adverbs. 'Bad' is the adjective.",
+        "id": "16079"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the grammatically correct sentence:",
+        "choices": [
+            "Her and I went to the shopping mall.",
+            "Me and her went to the shopping mall.",
+            "She and I went to the shopping mall.",
+            "She and me went to the shopping mall."
+        ],
+        "correct_answer": "She and I went to the shopping mall.",
+        "explanation": "Both pronouns act as the compound subject of the sentence, so they must both be in the subjective case ('She' and 'I').",
+        "id": "16080"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nScarcely had the president finished his speech __________ the audience erupted in applause.",
+        "choices": [
+            "then",
+            "and",
+            "than",
+            "when"
+        ],
+        "correct_answer": "when",
+        "explanation": "The proper correlative conjunction pair is 'scarcely...when'. 'Than' is used with 'no sooner'.",
+        "id": "16081"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the correct word:\n\nMaria is the __________ of the two applicants interviewed today.",
+        "choices": [
+            "most qualified",
+            "highly qualified",
+            "qualified",
+            "more qualified"
+        ],
+        "correct_answer": "more qualified",
+        "explanation": "When comparing exactly two items or persons, use the comparative degree ('more qualified'), not the superlative ('most qualified').",
+        "id": "16082"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the error in the sentence:\n\nWalking down the street, the towering monument was seen by the tourists.",
+        "choices": [
+            "by the tourists",
+            "the street",
+            "the towering monument was seen",
+            "Walking down"
+        ],
+        "correct_answer": "the towering monument was seen",
+        "explanation": "This is a dangling modifier. 'Walking down the street' must modify the subject that follows. The monument wasn't walking; the tourists were.",
+        "id": "16083"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nThe CEO, along with the board members, __________ expected to arrive at 9:00 AM.",
+        "choices": [
+            "are",
+            "were",
+            "is",
+            "have been"
+        ],
+        "correct_answer": "is",
+        "explanation": "Phrases like 'along with' do not make the subject plural. The main subject is 'The CEO' (singular), so the verb is 'is'.",
+        "id": "16084"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Which sentence uses the correct verb tense?",
+        "choices": [
+            "I have been living in Manila since five years.",
+            "I was living in Manila since 2018.",
+            "I have lived in Manila for 2018.",
+            "I have been living in Manila since 2018."
+        ],
+        "correct_answer": "I have been living in Manila since 2018.",
+        "explanation": "'Since' is used with a specific point in time (2018). 'For' is used with a duration of time (five years). The present perfect continuous fits perfectly.",
+        "id": "16085"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nMany a student __________ struggled with the complexities of advanced calculus.",
+        "choices": [
+            "are",
+            "has",
+            "have",
+            "were"
+        ],
+        "correct_answer": "has",
+        "explanation": "The idiom 'Many a [singular noun]' takes a singular verb. Thus, 'has' is correct, not 'have'.",
+        "id": "16086"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the best completion:\n\nBy next month, I __________ at this firm for exactly ten years.",
+        "choices": [
+            "have worked",
+            "will have worked",
+            "will have been working",
+            "will work"
+        ],
+        "correct_answer": "will have been working",
+        "explanation": "The future perfect continuous tense ('will have been working') emphasizes the ongoing duration of an action up to a specific time in the future.",
+        "id": "16087"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the error in the sentence:\n\nThe team is confident that they will win the tournament despite of the strong opponents.",
+        "choices": [
+            "they will win",
+            "despite of",
+            "the tournament",
+            "is confident"
+        ],
+        "correct_answer": "despite of",
+        "explanation": "'Despite' takes no preposition. You can say 'despite the opponents' or 'in spite of the opponents', but 'despite of' is grammatically incorrect.",
+        "id": "16088"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nJuan would rather read a book than __________ television all night.",
+        "choices": [
+            "watch",
+            "watching",
+            "to watch",
+            "watched"
+        ],
+        "correct_answer": "watch",
+        "explanation": "The phrase 'would rather' is followed by a base form verb (read). To maintain parallel structure, the verb after 'than' must also be in the base form (watch).",
+        "id": "16089"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Which of the following is correct?",
+        "choices": [
+            "He is one of those managers who never listens to his subordinates.",
+            "He is one of those managers who never listen to their subordinates.",
+            "He is one of those managers that never listens to their subordinates.",
+            "He is one of those manager who never listens to his subordinates."
+        ],
+        "correct_answer": "He is one of those managers who never listen to their subordinates.",
+        "explanation": "The phrase 'one of those managers who' takes a plural verb because 'who' refers to 'managers' (plural), so 'listen' and 'their' are correct.",
+        "id": "16090"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nNeither the passengers nor the driver __________ injured in the minor collision.",
+        "choices": [
+            "was",
+            "have been",
+            "were",
+            "are"
+        ],
+        "correct_answer": "was",
+        "explanation": "In 'neither/nor' sentences, the verb agrees with the subject closest to it. 'Driver' is singular, so the singular verb 'was' is required.",
+        "id": "16091"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the error in the sentence:\n\nThe amount of tourists visiting the island has doubled since last year.",
+        "choices": [
+            "has doubled",
+            "of tourists",
+            "The amount",
+            "since last year"
+        ],
+        "correct_answer": "The amount",
+        "explanation": "'Amount' is used for uncountable nouns (water, money). 'Number' is used for countable nouns (tourists). It should be 'The number of tourists'.",
+        "id": "16092"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nI recommend that she __________ an official complaint to the HR department.",
+        "choices": [
+            "has filed",
+            "files",
+            "filed",
+            "file"
+        ],
+        "correct_answer": "file",
+        "explanation": "Verbs like recommend, suggest, demand, and insist require the subjunctive mood in a 'that' clause, meaning the base form of the verb ('file') is used regardless of the subject.",
+        "id": "16093"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the best completion:\n\nIt is imperative that every citizen __________ the law.",
+        "choices": [
+            "obeyed",
+            "obey",
+            "obeys",
+            "obeying"
+        ],
+        "correct_answer": "obey",
+        "explanation": "Similar to the previous question, adjectives like imperative, crucial, and essential trigger the subjunctive mood in a 'that' clause, requiring the base verb 'obey'.",
+        "id": "16094"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the grammatically correct sentence:",
+        "choices": [
+            "The dog wagged its' tail happily.",
+            "The dog wagged it's tail happily.",
+            "The dog wagged its tail happily.",
+            "The dog wagged it tail happily."
+        ],
+        "correct_answer": "The dog wagged its tail happily.",
+        "explanation": "'Its' without an apostrophe is the possessive pronoun. 'It's' is a contraction of 'it is' or 'it has'.",
+        "id": "16095"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nNo sooner had I locked the door __________ the phone started ringing.",
+        "choices": [
+            "then",
+            "than",
+            "and",
+            "when"
+        ],
+        "correct_answer": "than",
+        "explanation": "The proper correlative conjunction pair is 'no sooner...than'.",
+        "id": "16096"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the correct word:\n\nThe principal gave the award to __________ had the highest grades.",
+        "choices": [
+            "whoever",
+            "whomever",
+            "who",
+            "whom"
+        ],
+        "correct_answer": "whoever",
+        "explanation": "The pronoun acts as the subject of the dependent clause '___ had the highest grades'. Therefore, the subjective form 'whoever' is required.",
+        "id": "16097"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Complete the sentence:\n\nNot one of the fifty computers __________ working properly after the power surge.",
+        "choices": [
+            "was",
+            "have been",
+            "are",
+            "were"
+        ],
+        "correct_answer": "was",
+        "explanation": "The subject is 'one' (singular). The prepositional phrase 'of the fifty computers' does not change the singular subject, so 'was' is correct.",
+        "id": "16098"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Identify the error in the sentence:\n\nThe reason he missed the flight is because he overslept.",
+        "choices": [
+            "missed the flight",
+            "is because",
+            "he overslept",
+            "The reason"
+        ],
+        "correct_answer": "is because",
+        "explanation": "The phrase 'the reason is because' is redundant. It should be 'the reason is that' or simply 'He missed the flight because he overslept'.",
+        "id": "16099"
+    },
+    {
+        "category": "Verbal Ability – Grammar",
+        "question": "Choose the best completion:\n\nIf you need assistance, please feel free to contact __________ the manager or me.",
+        "choices": [
+            "either",
+            "neither",
+            "none",
+            "both"
+        ],
+        "correct_answer": "either",
+        "explanation": "The conjunction 'or' pairs with 'either' to form 'either...or'. 'Neither' pairs with 'nor', and 'both' pairs with 'and'.",
+        "id": "16100"
+    }
 ]
