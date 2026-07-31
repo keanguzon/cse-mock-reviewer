@@ -276,15 +276,15 @@
 
 {#if showAnalyticsModal && attempt}
   <div class="modal-overlay fade-in" onclick={() => showAnalyticsModal = false} onkeydown={(e) => e.key === 'Escape' && (showAnalyticsModal = false)} tabindex="0" role="button">
-    <div class="modal-content slide-up" onclick={(e) => e.stopPropagation()} role="dialog" style="max-width: 600px; padding: 1.5rem;">
-      <div class="modal-header" style="margin-bottom: 1.25rem; padding-bottom: 0.75rem; border-bottom: 1px solid rgba(255,255,255,0.08);">
+    <div class="modal-content slide-up" onclick={(e) => e.stopPropagation()} role="dialog" style="max-width: 600px;">
+      <div class="modal-header">
         <h3 style="margin: 0; font-family: var(--font-display); font-size: 1.25rem; color: white;">Analytics Overview</h3>
         <button class="btn-icon" onclick={() => showAnalyticsModal = false} aria-label="Close modal">
           <X size={20} />
         </button>
       </div>
       
-      <div class="modal-body" style="padding: 0;">
+      <div class="modal-body">
         <AnalyticsCard
           score={attempt.score}
           total={attempt.total}
