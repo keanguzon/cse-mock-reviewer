@@ -92,8 +92,8 @@ export async function GET({ url, request }) {
                 selectedChunk = [...selectedChunk, ...correct.slice(0, targetLimit - selectedChunk.length)];
             }
             
-            // Final shuffle inside the chunk to mask unseen vs wrong
-            return shuffle(selectedChunk);
+            // Do NOT shuffle the final chunk so that unseen questions strictly appear first
+            return selectedChunk;
         };
 
         let selected: any[] = [];

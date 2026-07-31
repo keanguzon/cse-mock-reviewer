@@ -46,60 +46,7 @@
         user_answers: userAnswers
       });
 
-      for (let attempt = 0; attempt <= retries; attempt++) {
-        try {
-          const { error: attemptError } = await supabase
-            .from('exam_attempts')
-            .insert({
-              user_id: userSession.user.id,
-              score,
-              total,
-              category,
-              mode,
-              level,
-              questions: questions,
-              user_answers: userAnswers
-            });
-
-          if (attemptError) throw attemptError;
-
-          // Sync user progress (Spaced Repetition)
-          const examQuestionIds = questions.map(q => q.id);
-          const incorrectIds = questions.filter((q, i) => userAnswers[i] !== q.correct_answer).map(q => q.id);
-          const correctIds = questions.filter((q, i) => userAnswers[i] === q.correct_answer).map(q => q.id);
-
-          const { data: progressData } = await supabase
-            .from('user_progress')
-            .select('seen_questions, wrong_questions')
-            .eq('user_id', userSession.user.id)
-            .maybeSingle();
-
-          let seen = progressData?.seen_questions || [];
-          let wrong = progressData?.wrong_questions || [];
-
-          seen = Array.from(new Set([...seen, ...examQuestionIds]));
-          wrong = Array.from(new Set([...wrong, ...incorrectIds]));
-          wrong = wrong.filter(id => !correctIds.includes(id));
-
-          await supabase.from('user_progress').upsert({
-            user_id: userSession.user.id,
-            seen_questions: seen,
-            wrong_questions: wrong,
-            updated_at: new Date().toISOString()
-          }, { onConflict: 'user_id' });
-
-          saveStatus = 'saved';
-          return;
-        } catch (err: any) {
-          console.error(`Save attempt ${attempt + 1} failed:`, err.message);
-          if (attempt < retries) {
-            await new Promise(r => setTimeout(r, 1500));
-          } else {
-            // Keep status saved if syncStore queued it, otherwise show error
-            saveStatus = 'saved';
-          }
-        }
-      }
+      saveStatus = 'saved';
     } else {
       guestStore.save({
         score,

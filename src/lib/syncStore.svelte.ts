@@ -77,6 +77,38 @@ export const syncStore = {
         if (error) {
           console.error('Failed sync item, keeping in queue:', error.message);
           remaining.push(item);
+          continue; // Skip progress sync if attempt insert failed
+        }
+
+        // Sync user progress (Spaced Repetition)
+        const questions = item.questions || [];
+        const userAnswers = item.user_answers || {};
+        const examQuestionIds = questions.map((q: any) => q.id);
+        const incorrectIds = questions.filter((q: any, i: number) => userAnswers[i] !== q.correct_answer).map((q: any) => q.id);
+        const correctIds = questions.filter((q: any, i: number) => userAnswers[i] === q.correct_answer).map((q: any) => q.id);
+
+        const { data: progressData } = await supabase
+          .from('user_progress')
+          .select('seen_questions, wrong_questions')
+          .eq('user_id', item.user_id)
+          .maybeSingle();
+
+        let seen = progressData?.seen_questions || [];
+        let wrong = progressData?.wrong_questions || [];
+
+        seen = Array.from(new Set([...seen, ...examQuestionIds]));
+        wrong = Array.from(new Set([...wrong, ...incorrectIds]));
+        wrong = wrong.filter((id: string) => !correctIds.includes(id));
+
+        const { error: progressError } = await supabase.from('user_progress').upsert({
+          user_id: item.user_id,
+          seen_questions: seen,
+          wrong_questions: wrong,
+          updated_at: new Date().toISOString()
+        }, { onConflict: 'user_id' });
+
+        if (progressError) {
+          console.error('Failed to sync progress:', progressError.message);
         }
       } catch (err) {
         console.error('Network error during sync, keeping in queue:', err);
