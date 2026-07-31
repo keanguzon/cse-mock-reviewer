@@ -5,11 +5,15 @@ export const load = async ({ url, fetch }) => {
     const category = url.searchParams.get('category') || '';
     const limit = url.searchParams.get('limit') || '20';
     const level = url.searchParams.get('level') || 'professional';
+    const realistic = url.searchParams.get('realistic');
 
     // Fetch from our local mocked API route
     let apiUrl = `/api/questions?limit=${limit}&level=${level}`;
     if (category) {
         apiUrl += `&category=${encodeURIComponent(category)}`;
+    }
+    if (realistic) {
+        apiUrl += `&realistic=${realistic}`;
     }
 
     const headers: Record<string, string> = {};

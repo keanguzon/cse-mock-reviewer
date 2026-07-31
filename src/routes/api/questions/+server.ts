@@ -9,9 +9,10 @@ export async function GET({ url, request }) {
     const limitParam = url.searchParams.get('limit');
     const levelParam = url.searchParams.get('level');
     const userId = url.searchParams.get('userId');
+    const isRealistic = url.searchParams.get('realistic') === 'true';
 
-    // Bound limit strictly between 1 and 150.
-    const limit = Math.min(Math.max(parseInt(limitParam || '20', 10) || 20, 1), 150);
+    // Bound limit strictly between 1 and 200.
+    const limit = Math.min(Math.max(parseInt(limitParam || '20', 10) || 20, 1), 200);
 
     // Sanitize level and category inputs.
     const level: ExamLevel = levelParam === 'subprofessional' ? 'subprofessional' : 'professional';
@@ -75,30 +76,47 @@ export async function GET({ url, request }) {
             return shuffled;
         };
 
-        // Priority 1: Unseen questions
-        let unseen = allValidQuestions.filter(q => !seen_questions.includes(q.id));
-        unseen = shuffle(unseen);
-        
-        let selected = unseen.slice(0, limit);
+        // Helper to pull N questions given a filter condition
+        const pullQuestions = (pool: any[], targetLimit: number, condition?: (q: any) => boolean) => {
+            let candidates = condition ? pool.filter(condition) : pool;
+            // Priorities: Unseen -> Wrong -> Correct
+            let unseen = shuffle(candidates.filter(q => !seen_questions.includes(q.id)));
+            let selectedChunk = unseen.slice(0, targetLimit);
 
-        // Priority 2: Fill remaining with wrong questions (Mastery)
-        if (selected.length < limit) {
-            let wrong = allValidQuestions.filter(q => wrong_questions.includes(q.id));
-            wrong = shuffle(wrong);
-            const needed = limit - selected.length;
-            selected = [...selected, ...wrong.slice(0, needed)];
+            if (selectedChunk.length < targetLimit) {
+                let wrong = shuffle(candidates.filter(q => wrong_questions.includes(q.id)));
+                selectedChunk = [...selectedChunk, ...wrong.slice(0, targetLimit - selectedChunk.length)];
+            }
+            if (selectedChunk.length < targetLimit) {
+                let correct = shuffle(candidates.filter(q => seen_questions.includes(q.id) && !wrong_questions.includes(q.id)));
+                selectedChunk = [...selectedChunk, ...correct.slice(0, targetLimit - selectedChunk.length)];
+            }
+            
+            // Final shuffle inside the chunk to mask unseen vs wrong
+            return shuffle(selectedChunk);
+        };
+
+        let selected: any[] = [];
+
+        if (isRealistic) {
+            // Realistic Exam Mode sequentially blocks categories
+            if (level === 'professional') {
+                // Professional: 50 Verbal, 50 Analytical, 50 Numerical, 20 Gen Info
+                selected.push(...pullQuestions(allValidQuestions, 50, q => q.category.includes('Verbal')));
+                selected.push(...pullQuestions(allValidQuestions, 50, q => q.category.includes('Analytical')));
+                selected.push(...pullQuestions(allValidQuestions, 50, q => q.category.includes('Numerical')));
+                selected.push(...pullQuestions(allValidQuestions, 20, q => q.category.includes('General Information')));
+            } else {
+                // Sub-Professional: 50 Verbal, 50 Clerical, 45 Numerical, 20 Gen Info
+                selected.push(...pullQuestions(allValidQuestions, 50, q => q.category.includes('Verbal')));
+                selected.push(...pullQuestions(allValidQuestions, 50, q => q.category.includes('Clerical')));
+                selected.push(...pullQuestions(allValidQuestions, 45, q => q.category.includes('Numerical')));
+                selected.push(...pullQuestions(allValidQuestions, 20, q => q.category.includes('General Information')));
+            }
+        } else {
+            // Standard Random Exam Mode
+            selected = pullQuestions(allValidQuestions, limit);
         }
-
-        // Priority 3: Fill remaining with random previously correct questions (Refresh)
-        if (selected.length < limit) {
-            let correct = allValidQuestions.filter(q => seen_questions.includes(q.id) && !wrong_questions.includes(q.id));
-            correct = shuffle(correct);
-            const needed = limit - selected.length;
-            selected = [...selected, ...correct.slice(0, needed)];
-        }
-
-        // Final shuffle so the user doesn't know which is unseen vs wrong
-        selected = shuffle(selected);
 
         return json(selected, { headers: responseHeaders });
     } catch (e) {

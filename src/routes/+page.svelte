@@ -172,8 +172,15 @@
       localStorage.setItem("cse_last_limit", selectedLimit);
     }
     let url = `/quiz?mode=${selectedMode}&level=${selectedLevel}`;
-    if (selectedCategory)
+    if (selectedCategory) {
       url += `&category=${encodeURIComponent(selectedCategory)}`;
+    } else {
+      if (selectedLevel === "professional" && selectedLimit === "170") {
+        url += `&realistic=true`;
+      } else if (selectedLevel === "subprofessional" && selectedLimit === "165") {
+        url += `&realistic=true`;
+      }
+    }
     url += `&limit=${selectedLimit}`;
     goto(url);
   }
@@ -404,13 +411,13 @@
             {#if maxQuestions >= 50}
               <option value="50">50 Questions (Deep Dive)</option>
             {/if}
-            {#if selectedCategory === "" && selectedLevel === "subprofessional" && maxQuestions >= 80}
-              <option value="80">80 Questions (Realistic CSC Exam)</option>
+            {#if selectedCategory === "" && selectedLevel === "subprofessional" && maxQuestions >= 165}
+              <option value="165">165 Questions (Realistic CSC Exam)</option>
             {/if}
             {#if selectedCategory === "" && selectedLevel === "professional" && maxQuestions >= 170}
               <option value="170">170 Questions (Realistic CSC Exam)</option>
             {/if}
-            {#if ![10, 20, 50, 80, 170].includes(maxQuestions)}
+            {#if ![10, 20, 50, 165, 170].includes(maxQuestions)}
               <option value={maxQuestions.toString()}
                 >All {maxQuestions} Questions (Full)</option
               >
