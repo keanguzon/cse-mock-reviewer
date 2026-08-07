@@ -455,14 +455,14 @@
           {/each}
         </div>
       </div>
-      
-      <div class="overview-btn-container slide-up" style="animation-delay: 0.15s">
-        <button class="btn-overview-cat glass-card" onclick={toggleOverview}>
-          <LayoutGrid size={16} />
-          <span>Questions ({localTotal - localUnanswered}/{localTotal})</span>
-        </button>
-      </div>
     {/if}
+    
+    <div class="overview-btn-container slide-up" style="animation-delay: 0.15s">
+      <button class="btn-overview-cat glass-card" onclick={toggleOverview}>
+        <LayoutGrid size={16} />
+        <span>Questions ({localTotal - localUnanswered}/{localTotal})</span>
+      </button>
+    </div>
 
     <QuestionCard 
       question={currentQuestion}

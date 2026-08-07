@@ -11,8 +11,8 @@ export async function GET({ url, request }) {
     const userId = url.searchParams.get('userId');
     const isRealistic = url.searchParams.get('realistic') === 'true';
 
-    // Bound limit strictly between 1 and 200.
-    const limit = Math.min(Math.max(parseInt(limitParam || '20', 10) || 20, 1), 200);
+    // Bound limit strictly between 1 and 2000.
+    const limit = Math.min(Math.max(parseInt(limitParam || '20', 10) || 20, 1), 2000);
 
     // Sanitize level and category inputs.
     const level: ExamLevel = levelParam === 'subprofessional' ? 'subprofessional' : 'professional';
@@ -115,17 +115,27 @@ export async function GET({ url, request }) {
 
         if (isRealistic) {
             if (level === 'professional') {
-                // Professional: 50 Verbal, 50 Analytical, 50 Numerical, 20 Gen Info
-                selected.push(...pullProportional(allValidQuestions, 50, q => q.category.includes('Verbal')));
-                selected.push(...pullProportional(allValidQuestions, 50, q => q.category.includes('Analytical')));
-                selected.push(...pullProportional(allValidQuestions, 50, q => q.category.includes('Numerical')));
-                selected.push(...pullProportional(allValidQuestions, 20, q => q.category.includes('General Information')));
+                // Professional: 29.41% Verbal, 29.41% Analytical, 29.41% Numerical, 11.76% Gen Info
+                const v = Math.round(limit * (50 / 170));
+                const a = Math.round(limit * (50 / 170));
+                const n = Math.round(limit * (50 / 170));
+                const g = limit - (v + a + n); // Ensure exact total match
+
+                selected.push(...pullProportional(allValidQuestions, v, q => q.category.includes('Verbal')));
+                selected.push(...pullProportional(allValidQuestions, a, q => q.category.includes('Analytical')));
+                selected.push(...pullProportional(allValidQuestions, n, q => q.category.includes('Numerical')));
+                selected.push(...pullProportional(allValidQuestions, g, q => q.category.includes('General Information')));
             } else {
-                // Sub-Professional: 50 Verbal, 50 Clerical, 45 Numerical, 20 Gen Info
-                selected.push(...pullProportional(allValidQuestions, 50, q => q.category.includes('Verbal')));
-                selected.push(...pullProportional(allValidQuestions, 50, q => q.category.includes('Clerical')));
-                selected.push(...pullProportional(allValidQuestions, 45, q => q.category.includes('Numerical')));
-                selected.push(...pullProportional(allValidQuestions, 20, q => q.category.includes('General Information')));
+                // Sub-Professional: 30.3% Verbal, 30.3% Clerical, 27.27% Numerical, 12.12% Gen Info
+                const v = Math.round(limit * (50 / 165));
+                const c = Math.round(limit * (50 / 165));
+                const n = Math.round(limit * (45 / 165));
+                const g = limit - (v + c + n); // Ensure exact total match
+
+                selected.push(...pullProportional(allValidQuestions, v, q => q.category.includes('Verbal')));
+                selected.push(...pullProportional(allValidQuestions, c, q => q.category.includes('Clerical')));
+                selected.push(...pullProportional(allValidQuestions, n, q => q.category.includes('Numerical')));
+                selected.push(...pullProportional(allValidQuestions, g, q => q.category.includes('General Information')));
             }
         } else {
             // Standard Random Exam Mode

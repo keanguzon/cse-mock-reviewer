@@ -58,14 +58,7 @@
 <article class="glass-card slide-up">
   <header class="q-header">
     <span class="category-badge">{question.category}</span>
-    {#if !isMixedExam && onToggleOverview}
-      <button class="btn-overview-small" onclick={onToggleOverview}>
-        <LayoutGrid size={16} />
-        <span>Questions ({total - unansweredCount}/{total})</span>
-      </button>
-    {:else}
-      <span class="page-number">Question {currentIndex + 1} of {total}</span>
-    {/if}
+    <span class="page-number">Question {currentIndex + 1} of {total}</span>
   </header>
   
   <h2 class="q-text">{@html question.question.replace(/_+/g, '<span class="blank-line"></span>')}</h2>
