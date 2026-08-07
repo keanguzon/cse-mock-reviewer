@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { RotateCcw } from 'lucide-svelte';
+  import { RotateCcw, LayoutGrid } from 'lucide-svelte';
 
   type Question = {
     id: string;
@@ -17,8 +17,12 @@
     isPractice,
     currentIndex,
     total,
+    categoryCounts = [],
+    isMixedExam = false,
+    unansweredCount = 0,
     onSelect,
-    onClear
+    onClear,
+    onToggleOverview
   } = $props<{
     question: Question;
     hasAnswered: boolean;
@@ -26,8 +30,12 @@
     isPractice: boolean;
     currentIndex: number;
     total: number;
+    categoryCounts?: { name: string; total: number; answered: number }[];
+    isMixedExam?: boolean;
+    unansweredCount?: number;
     onSelect: (choice: string) => void;
     onClear?: () => void;
+    onToggleOverview?: () => void;
   }>();
 
   const getChoiceClass = (choice: string) => {
@@ -50,7 +58,14 @@
 <article class="glass-card slide-up">
   <header class="q-header">
     <span class="category-badge">{question.category}</span>
-    <span class="page-number">Question {currentIndex + 1} of {total}</span>
+    {#if !isMixedExam && onToggleOverview}
+      <button class="btn-overview-small" onclick={onToggleOverview}>
+        <LayoutGrid size={16} />
+        <span>Questions ({total - unansweredCount}/{total})</span>
+      </button>
+    {:else}
+      <span class="page-number">Question {currentIndex + 1} of {total}</span>
+    {/if}
   </header>
   
   <h2 class="q-text">{@html question.question.replace(/_+/g, '<span class="blank-line"></span>')}</h2>
@@ -136,7 +151,7 @@
   .q-text {
     font-family: var(--font-body);
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.5;
     margin-bottom: 2rem;
     color: white;

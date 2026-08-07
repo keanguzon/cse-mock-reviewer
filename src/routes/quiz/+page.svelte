@@ -100,6 +100,65 @@
     return total + (userAnswers[idx] === q.correct_answer ? 1 : 0);
   }, 0));
 
+  let categoryCounts = $derived.by(() => {
+    const counts: Record<string, { total: number, answered: number }> = {};
+    if (!questions) return [];
+    
+    questions.forEach((q: any, i: number) => {
+      let broadCat = '';
+      if (q.category.includes('Numerical')) broadCat = 'Numerical Ability';
+      else if (q.category.includes('Analytical')) broadCat = 'Analytical Ability';
+      else if (q.category.includes('Verbal')) broadCat = 'Verbal Ability';
+      else if (q.category.includes('General')) broadCat = 'General Information';
+      else if (q.category.includes('Clerical')) broadCat = 'Clerical Ability';
+      
+      if (broadCat) {
+        if (!counts[broadCat]) counts[broadCat] = { total: 0, answered: 0 };
+        counts[broadCat].total++;
+        if (userAnswers[i] !== undefined) {
+          counts[broadCat].answered++;
+        }
+      }
+    });
+    
+    return Object.entries(counts).map(([name, data]) => ({ name, ...data }));
+  });
+
+  let categoryGroups = $derived.by(() => {
+    const groups: Record<string, number[]> = {};
+    if (!questions) return groups;
+    questions.forEach((q: any, i: number) => {
+      let broadCat = '';
+      if (q.category.includes('Numerical')) broadCat = 'Numerical Ability';
+      else if (q.category.includes('Analytical')) broadCat = 'Analytical Ability';
+      else if (q.category.includes('Verbal')) broadCat = 'Verbal Ability';
+      else if (q.category.includes('General')) broadCat = 'General Information';
+      else if (q.category.includes('Clerical')) broadCat = 'Clerical Ability';
+
+      if (broadCat) {
+        if (!groups[broadCat]) groups[broadCat] = [];
+        groups[broadCat].push(i);
+      }
+    });
+    return groups;
+  });
+
+  let isMixedExam = $derived(categoryCounts.length > 1);
+
+  let activeCategoryTab = $state('');
+
+  $effect(() => {
+    if (isMixedExam && !activeCategoryTab && categoryCounts.length > 0) {
+      activeCategoryTab = categoryCounts[0].name;
+    }
+  });
+
+  let currentTabIndices = $derived(
+    isMixedExam && activeCategoryTab && categoryGroups[activeCategoryTab]
+      ? categoryGroups[activeCategoryTab]
+      : (questions ? questions.map((_, i) => i) : [])
+  );
+
   async function clearActiveSession() {
     if (userSession.user) {
       try {
@@ -172,23 +231,19 @@
   });
 
   let unansweredIndices = $derived(
-    questions
-      ? questions
-          .map((_: any, i: number) => i)
-          .filter((i: number) => userAnswers[i] === undefined)
-      : []
+    currentTabIndices.filter((i: number) => userAnswers[i] === undefined)
   );
 
   let hasPreviousNav = $derived(
     filterUnanswered
       ? unansweredIndices.some((i: number) => i < currentIndex)
-      : currentIndex > 0
+      : currentTabIndices.indexOf(currentIndex) > 0
   );
 
   let hasNextNav = $derived(
     filterUnanswered
       ? unansweredIndices.some((i: number) => i > currentIndex)
-      : currentIndex < questions.length - 1
+      : currentTabIndices.indexOf(currentIndex) < currentTabIndices.length - 1
   );
 
   function handleSelect(choice: string) {
@@ -219,8 +274,9 @@
         pendingAnswer = userAnswers[currentIndex] || null;
       }
     } else {
-      if (currentIndex < questions.length - 1) {
-        currentIndex += 1;
+      const localIdx = currentTabIndices.indexOf(currentIndex);
+      if (localIdx >= 0 && localIdx < currentTabIndices.length - 1) {
+        currentIndex = currentTabIndices[localIdx + 1];
         pendingAnswer = userAnswers[currentIndex] || null;
       }
     }
@@ -233,9 +289,12 @@
         currentIndex = prev;
         pendingAnswer = userAnswers[currentIndex] || null;
       }
-    } else if (currentIndex > 0) {
-      currentIndex -= 1;
-      pendingAnswer = userAnswers[currentIndex] || null;
+    } else {
+      const localIdx = currentTabIndices.indexOf(currentIndex);
+      if (localIdx > 0) {
+        currentIndex = currentTabIndices[localIdx - 1];
+        pendingAnswer = userAnswers[currentIndex] || null;
+      }
     }
   }
 
@@ -342,6 +401,9 @@
       }
     });
   }
+  let localIndex = $derived(currentTabIndices.indexOf(currentIndex));
+  let localTotal = $derived(currentTabIndices.length);
+  let localUnanswered = $derived(currentTabIndices.filter(i => userAnswers[i] === undefined).length);
 </script>
 
 {#if questions.length === 0}
@@ -373,15 +435,47 @@
       isMock={currentMode === 'mock'}
     />
 
+    {#if isMixedExam && categoryCounts.length > 0}
+      <div class="mixed-category-bar slide-up glass-card" style="animation-delay: 0.1s">
+        <div class="category-breakdown">
+          {#each categoryCounts as cat}
+            <button 
+              class="cat-stat-btn {activeCategoryTab === cat.name ? 'active' : ''}"
+              onclick={() => {
+                activeCategoryTab = cat.name;
+                if (categoryGroups[cat.name] && categoryGroups[cat.name].length > 0) {
+                  currentIndex = categoryGroups[cat.name][0];
+                  pendingAnswer = userAnswers[currentIndex] || null;
+                }
+              }}
+            >
+              <span class="cat-name">{cat.name}</span>
+              <span class="cat-count">{cat.answered}/{cat.total}</span>
+            </button>
+          {/each}
+        </div>
+      </div>
+      
+      <div class="overview-btn-container slide-up" style="animation-delay: 0.15s">
+        <button class="btn-overview-cat glass-card" onclick={toggleOverview}>
+          <LayoutGrid size={16} />
+          <span>Questions ({localTotal - localUnanswered}/{localTotal})</span>
+        </button>
+      </div>
+    {/if}
+
     <QuestionCard 
       question={currentQuestion}
       {hasAnswered}
       {selectedAnswer}
       {isPractice}
-      {currentIndex}
-      total={questions.length}
+      currentIndex={localIndex}
+      total={localTotal}
+      {isMixedExam}
+      unansweredCount={localUnanswered}
       onSelect={handleSelect}
       onClear={handleClearSelection}
+      onToggleOverview={isMixedExam ? undefined : toggleOverview}
     />
 
     <footer class="quiz-actions slide-up" style="animation-delay: 0.2s">
@@ -437,9 +531,11 @@
       </div>
 
       <div class="action-buttons">
-        <button class="btn-icon" onclick={toggleOverview} title="Question Overview" aria-label="Question Overview">
-          <LayoutGrid size={20} />
-        </button>
+        {#if !isMixedExam}
+          <button class="btn-icon" onclick={toggleOverview} title="Question Overview" aria-label="Question Overview">
+            <LayoutGrid size={20} />
+          </button>
+        {/if}
 
         {#if hasPreviousNav}
           <button class="btn-icon btn-nav-step" onclick={handlePrevious} title="Previous Question" aria-label="Previous">
@@ -489,20 +585,20 @@
       </div>
 
       <div class="overview-grid">
-        {#each questions as _, i}
-          {#if !filterUnanswered || !userAnswers[i]}
+        {#each currentTabIndices as globalIdx, localIdx}
+          {#if !filterUnanswered || !userAnswers[globalIdx]}
             <button 
-              class="grid-item {userAnswers[i] ? 'answered' : 'unanswered'} {currentIndex === i ? 'current' : ''}"
-              onclick={() => jumpToQuestion(i)}
+              class="grid-item {userAnswers[globalIdx] ? 'answered' : 'unanswered'} {currentIndex === globalIdx ? 'current' : ''}"
+              onclick={() => jumpToQuestion(globalIdx)}
             >
-              {i + 1}
+              {localIdx + 1}
             </button>
           {/if}
         {/each}
       </div>
       <div class="overview-footer">
-        {#if unansweredCount > 0}
-          <p class="unanswered-warning">You have <strong>{unansweredCount}</strong> unanswered questions.</p>
+        {#if localUnanswered > 0}
+          <p class="unanswered-warning">You have <strong>{localUnanswered}</strong> unanswered questions in this category.</p>
         {:else}
           <p class="all-answered-text text-emerald">All questions answered! Ready to submit.</p>
         {/if}
@@ -596,6 +692,101 @@
     letter-spacing: 0.5px;
     text-transform: uppercase;
     transition: var(--cse-transition);
+  }
+
+  .mixed-category-bar {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  
+  .overview-btn-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1.5rem;
+  }
+  
+  .category-breakdown {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: stretch;
+    gap: 0.5rem;
+    width: 100%;
+  }
+  
+  .cat-stat-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex: 1 1 45%; /* 2x2 layout globally */
+    font-size: 0.85rem;
+    color: var(--cse-text-muted);
+    background: transparent;
+    border: 1px solid transparent;
+    padding: 0.6rem 0.75rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+  
+  .cat-stat-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  
+  .cat-stat-btn.active {
+    background: rgba(124, 58, 237, 0.15);
+    border-color: rgba(124, 58, 237, 0.3);
+    color: var(--cse-primary-light);
+  }
+
+  .cat-stat-btn.active .cat-count {
+    background: rgba(124, 58, 237, 0.4);
+    color: white;
+  }
+  
+  .cat-name {
+    font-weight: 500;
+  }
+  
+  .cat-count {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 0.1rem 0.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    color: var(--cse-text);
+  }
+
+  .btn-overview-cat {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: white;
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  .btn-overview-cat:hover {
+    border-color: rgba(255, 255, 255, 0.25);
+  }
+
+  @media (max-width: 640px) {
+    .mixed-category-bar {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 1rem;
+    }
+    
+    .btn-overview-cat {
+      width: 100%;
+      justify-content: center;
+    }
   }
 
   .btn-dark:hover {
