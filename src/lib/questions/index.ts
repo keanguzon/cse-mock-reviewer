@@ -3,6 +3,10 @@ import verbalGrammar from './verbal_grammar.json';
 import verbalCorrectUsage from './verbal_correct_usage.json';
 import verbalParagraphOrg from './verbal_paragraph_org.json';
 import verbalReadingComp from './verbal_reading_comprehension.json';
+import verbalVocabularyFilipino from './verbal_vocabulary_filipino.json';
+import verbalIdyomaFilipino from './verbal_idyoma_filipino.json';
+import verbalBalarilaFilipino from './verbal_balarila_filipino.json';
+import verbalPagaunawaFilipino from './verbal_pagaunawa_filipino.json';
 import analyticalAnalogy from './analytical_analogy.json';
 import analyticalLogic from './analytical_logic.json';
 import analyticalAssumptions from './analytical_assumptions.json';
@@ -49,6 +53,10 @@ export const allQuestions: Question[] = [
     ...verbalCorrectUsage,
     ...verbalParagraphOrg,
     ...verbalReadingComp,
+    ...verbalVocabularyFilipino,
+    ...verbalIdyomaFilipino,
+    ...verbalBalarilaFilipino,
+    ...verbalPagaunawaFilipino,
     ...analyticalAnalogy,
     ...analyticalLogic,
     ...analyticalAssumptions,

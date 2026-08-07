@@ -1,0 +1,402 @@
+[
+    {
+        "id": "20101",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang pangungusap na gumagamit ng tamang \"ng\" at \"nang\".\n\nAng bata __________ mabilis tumakbo ay nanalo sa paligsahan.",
+        "choices": ["ng", "nang", "sa", "kung"],
+        "correct_answer": "nang",
+        "explanation": "Ginagamit ang 'nang' kapag sinusundan ito ng pang-uri o pang-abay (mabilis). Ang 'nang' ay nagsisilbing pang-ugnay sa pang-abay at pandiwa."
+    },
+    {
+        "id": "20102",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang gamit ng \"ng\" sa pangungusap?\n\nBinasa __________ guro ang mga ulat ng mga estudyante.",
+        "choices": ["nang", "ng", "sa", "ni"],
+        "correct_answer": "ng",
+        "explanation": "Ginagamit ang 'ng' bilang pantukoy ng tagaganap (guro). Sa pangungusap, ang guro ang gumaganap ng kilos na 'binasa'."
+    },
+    {
+        "id": "20103",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang tamang pangungusap.\n\nAno ang tamang gamit ng \"may\" at \"mayroon\"?",
+        "choices": ["May mayroon siyang dalang pagkain.", "Mayroon siyang dalang pagkain para sa lahat.", "May roon siyang dalang pagkain sa lahat.", "Mayroon may siyang dalang pagkain sa bag."],
+        "correct_answer": "Mayroon siyang dalang pagkain para sa lahat.",
+        "explanation": "Ginagamit ang 'mayroon' kapag sinusundan ito ng panghalip (siyang). Ang 'may' ay ginagamit kapag sinusundan ng pangngalan."
+    },
+    {
+        "id": "20104",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang pangungusap?\n\nPiliin ang wastong gamit ng pandiwa.",
+        "choices": ["Kumain ang mga bata ng kanilang tanghalian.", "Kumakain ang mga bata ng kanilang tanghalian.", "Kakain pa lang ang mga bata ng kanilang tanghalian.", "Lahat ng nabanggit ay maaaring tama depende sa konteksto."],
+        "correct_answer": "Lahat ng nabanggit ay maaaring tama depende sa konteksto.",
+        "explanation": "Ang tatlong pangungusap ay gumagamit ng iba't ibang aspekto ng pandiwa: naganap na (kumain), nagaganap pa (kumakain), at gaganapin pa (kakain). Lahat ay tama ayon sa kanilang konteksto."
+    },
+    {
+        "id": "20105",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang pangungusap na may tamang bantas.\n\nAlin ang wastong pagkakabantas?",
+        "choices": ["Saan ka pupunta, Maria.", "Saan ka pupunta Maria?", "Saan ka pupunta, Maria?", "Saan ka pupunta Maria."],
+        "correct_answer": "Saan ka pupunta, Maria?",
+        "explanation": "Ang pangungusap ay patanong kaya kailangan ng pananong (?). Kailangan din ng kuwit (,) bago ang pangalan na ginamit bilang pagtawag (vocative)."
+    },
+    {
+        "id": "20106",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang paggamit ng \"nang\" sa pangungusap?",
+        "choices": ["Umalis siya ng bahay nang alas-siyete.", "Umalis siya nang bahay ng alas-siyete.", "Umalis siya ng bahay ng alas-siyete.", "Umalis siya nang bahay nang alas-siyete."],
+        "correct_answer": "Umalis siya ng bahay nang alas-siyete.",
+        "explanation": "Ang 'ng' ay ginagamit bilang pantukoy ng lugar (bahay). Ang 'nang' ay ginagamit bago ang oras (alas-siyete) bilang pang-ugnay na nagsasaad ng panahon."
+    },
+    {
+        "id": "20107",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang pangungusap na may tamang kayarian.\n\nAlin ang wastong pangungusap?",
+        "choices": ["Ang libro ay binasa ko kagabi.", "Binasa ko kagabi ang libro.", "Ang libro binasa ko kagabi ay.", "Binasa ang libro kagabi ko."],
+        "correct_answer": "Binasa ko kagabi ang libro.",
+        "explanation": "Sa Filipino, ang natural na kayarian ng pangungusap ay Pandiwa + Tagaganap + Panahon + Layon. Ang 'Binasa ko kagabi ang libro' ang pinakatamang ayos."
+    },
+    {
+        "id": "20108",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang gamit ng pang-angkop (-ng/-na) sa pangungusap?",
+        "choices": ["Malaki na bahay ang binili nila.", "Malaking bahay ang binili nila.", "Malaki ang na bahay binili nila.", "Malaking ang bahay binili nila."],
+        "correct_answer": "Malaking bahay ang binili nila.",
+        "explanation": "Ginagamit ang pang-angkop na '-ng' kapag ang naunang salita ay nagtatapos sa patinig. Ang 'malaki' ay nagtatapos sa 'i' (patinig), kaya ang tamang anyo ay 'malaking'."
+    },
+    {
+        "id": "20109",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang pangungusap na may tamang paggamit ng \"kung\" at \"kapag\".",
+        "choices": ["Kapag dumating siya kahapon, nagulat ako.", "Kung dumating siya kahapon, nagulat sana ako.", "Kung dumating siya kahapon, nagulat ako.", "Kapag dumating siya kahapon, nagulat sana ako."],
+        "correct_answer": "Kung dumating siya kahapon, nagulat sana ako.",
+        "explanation": "Ginagamit ang 'kung' para sa hindi tiyak o hypothetical na sitwasyon. Ang 'kapag' ay para sa tiyak o paulit-ulit na pangyayari. Dahil hindi tiyak kung dumating siya, 'kung' ang tama."
+    },
+    {
+        "id": "20110",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang pangungusap na gumagamit ng aspektong pangnagdaan?",
+        "choices": ["Kumakain na sila ng tanghalian.", "Kakain pa sila ng tanghalian.", "Kumain na sila ng tanghalian.", "Kakainin pa nila ang tanghalian."],
+        "correct_answer": "Kumain na sila ng tanghalian.",
+        "explanation": "Ang aspektong pangnagdaan (naganap na) ng pandiwa ay 'kumain' (mula sa 'kain'). Ang unlaping 'um' na nakasingit ay nagpapahiwatig na tapos na ang kilos."
+    },
+    {
+        "id": "20111",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang wastong anyo ng pangngalan.\n\nAng __________ ng mga guro ay nakatutulong sa mga estudyante.",
+        "choices": ["pagtuturo", "magtuturo", "nagtuturo", "ituturo"],
+        "correct_answer": "pagtuturo",
+        "explanation": "Ang 'pagtuturo' ay pangngalang-diwa (gerund) na nagmula sa pandiwang 'turo'. Ito ang tamang anyo bilang simuno ng pangungusap."
+    },
+    {
+        "id": "20112",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang paggamit ng panghalip na pamatlig?",
+        "choices": ["Ito ang bahay ng mga Lopez na malapit sa iyo.", "Iyon ang bahay ng mga Lopez na malapit sa atin.", "Iyan ang bahay ng mga Lopez na malapit sa iyo.", "Ito ang bahay ng mga Lopez na malayo sa atin."],
+        "correct_answer": "Iyan ang bahay ng mga Lopez na malapit sa iyo.",
+        "explanation": "Ang 'iyan' ay ginagamit kapag ang tinutukoy ay malapit sa kausap. Ang 'ito' ay malapit sa nagsasalita, at 'iyon' ay malayo sa dalawa."
+    },
+    {
+        "id": "20113",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang pangungusap na may tamang pagkakasunod-sunod ng mga salita.",
+        "choices": ["Ng prutas bumili siya sa palengke.", "Bumili siya ng prutas sa palengke.", "Sa palengke siya bumili prutas ng.", "Siya bumili sa palengke ng prutas."],
+        "correct_answer": "Bumili siya ng prutas sa palengke.",
+        "explanation": "Ang tamang ayos ng Filipino na pangungusap ay: Pandiwa (bumili) + Simuno (siya) + Layon (ng prutas) + Pook (sa palengke)."
+    },
+    {
+        "id": "20114",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang gamit ng panlaping \"mag-\" sa pangungusap?",
+        "choices": ["Mag-aral ka nang mabuti para pumasa sa eksamen.", "Nag-aral ka nang mabuti para pumasa sa eksamen.", "Magaral ka nang mabuti para pumasa sa eksamen.", "Mag aral ka nang mabuti para pumasa sa eksamen."],
+        "correct_answer": "Mag-aral ka nang mabuti para pumasa sa eksamen.",
+        "explanation": "Ang 'mag-aral' ay nasa aspektong pautos (imperative). Ginagamit ang gitling (-) sa pagitan ng unlaping 'mag-' at salitang-ugat na nagsisimula sa patinig."
+    },
+    {
+        "id": "20115",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang tamang pangungusap.\n\nAlin ang wastong gamit ng \"daw\" at \"raw\"?",
+        "choices": ["Pupunta raw siya bukas sa opisina.", "Pupunta daw siya bukas sa opisina.", "Pupunta siya daw bukas sa opisina.", "Pupunta siya raw bukas sa opisina."],
+        "correct_answer": "Pupunta raw siya bukas sa opisina.",
+        "explanation": "Ginagamit ang 'raw' kapag ang naunang salita ay nagtatapos sa patinig (pupunta). Ang 'daw' ay ginagamit kapag nagtatapos sa katinig."
+    },
+    {
+        "id": "20116",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang paggamit ng \"din\" at \"rin\"?",
+        "choices": ["Pupunta din ako sa Maynila bukas.", "Pupunta rin ako sa Maynila bukas.", "Pupunta ako din sa Maynila bukas.", "Pupunta ako rin sa Maynila bukas."],
+        "correct_answer": "Pupunta rin ako sa Maynila bukas.",
+        "explanation": "Ginagamit ang 'rin' kapag ang naunang salita ay nagtatapos sa patinig (pupunta). Ang 'din' ay ginagamit kapag nagtatapos sa katinig."
+    },
+    {
+        "id": "20117",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang pangungusap na may tamang gamit ng pang-ukol.",
+        "choices": ["Pumunta siya sa para ospital.", "Pumunta siya sa ospital para magpatingin.", "Pumunta para siya sa ospital magpatingin.", "Para pumunta siya ospital sa magpatingin."],
+        "correct_answer": "Pumunta siya sa ospital para magpatingin.",
+        "explanation": "Ang 'sa' ay pang-ukol na nagsasaad ng direksyon, at 'para' ay pang-ukol na nagsasaad ng layunin. Ang tamang ayos ay 'sa ospital para magpatingin'."
+    },
+    {
+        "id": "20118",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang pangungusap na gumagamit ng aspektong pangkasalukuyan?",
+        "choices": ["Nagluluto siya ng adobo ngayon.", "Nagluto siya ng adobo ngayon.", "Magluluto siya ng adobo ngayon.", "Niluto niya ang adobo ngayon."],
+        "correct_answer": "Nagluluto siya ng adobo ngayon.",
+        "explanation": "Ang aspektong pangkasalukuyan (nagaganap pa) ay ipinapakita sa pamamagitan ng pag-uulit ng unang pantig ng salitang-ugat: 'nagluluto' (mula sa luto)."
+    },
+    {
+        "id": "20119",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang tamang pangungusap.\n\nAlin ang wastong gamit ng \"mga\"?",
+        "choices": ["Ang mga bata ay masaya sa kanilang paglalaro.", "Ang bata mga ay masaya sa kanilang paglalaro.", "Mga ang bata ay masaya sa paglalaro kanilang.", "Ang bata ay mga masaya sa kanilang paglalaro."],
+        "correct_answer": "Ang mga bata ay masaya sa kanilang paglalaro.",
+        "explanation": "Ang 'mga' ay inilalagay bago ang pangngalan upang ipahiwatig ang maramihan. Ang tamang ayos ay 'ang mga bata'."
+    },
+    {
+        "id": "20120",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang pangungusap na may wastong paggamit ng pangatnig?",
+        "choices": ["Gusto kong pumunta ngunit wala akong pera.", "Gusto kong pumunta at wala akong pera.", "Gusto kong pumunta o wala akong pera.", "Gusto kong pumunta kaya wala akong pera."],
+        "correct_answer": "Gusto kong pumunta ngunit wala akong pera.",
+        "explanation": "Ang 'ngunit' ay pangatnig na nagpapahiwatig ng pagsalungat. Tamang gamitin ito kapag magkasalungat ang dalawang ideya sa pangungusap."
+    },
+    {
+        "id": "20121",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang tamang anyo ng pandiwa.\n\nKahapon, __________ siya sa paaralan nang maaga.",
+        "choices": ["pumupunta", "pumunta", "pupunta", "papunta"],
+        "correct_answer": "pumunta",
+        "explanation": "Dahil ang pangyayari ay naganap kahapon (nakaraan), ang tamang aspekto ay pangnagdaan: 'pumunta'."
+    },
+    {
+        "id": "20122",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang gamit ng pang-angkop sa pangungusap?",
+        "choices": ["Mabait na bata ang aking kaibigan.", "Mabait ng bata ang aking kaibigan.", "Mabait sa bata ang aking kaibigan.", "Mabait at bata ang aking kaibigan."],
+        "correct_answer": "Mabait na bata ang aking kaibigan.",
+        "explanation": "Ginagamit ang pang-angkop na 'na' kapag ang naunang salita ay nagtatapos sa katinig. Ang 'mabait' ay nagtatapos sa 't' (katinig), kaya 'na' ang tama."
+    },
+    {
+        "id": "20123",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang pangungusap na walang maling gamit ng pandiwa.",
+        "choices": ["Ang mga estudyante ay pumupunta sa eskwela araw-araw.", "Ang mga estudyante ay pumunta sa eskwela araw-araw.", "Ang mga estudyante ay pupunta sa eskwela araw-araw.", "Ang mga estudyante ay pinupuntahan sa eskwela araw-araw."],
+        "correct_answer": "Ang mga estudyante ay pumupunta sa eskwela araw-araw.",
+        "explanation": "Dahil 'araw-araw' ay nagpapahiwatig ng paulit-ulit na gawain, ang tamang aspekto ay pangkasalukuyan o panlagian: 'pumupunta'."
+    },
+    {
+        "id": "20124",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang pangungusap?\n\nPiliin ang wastong gamit ng \"sina\" at \"ni\".",
+        "choices": ["Ni Maria at Pedro ay pumunta sa palengke.", "Sina Maria at Pedro ay pumunta sa palengke.", "Si Maria at ni Pedro ay pumunta sa palengke.", "Ni Maria at si Pedro ay pumunta sa palengke."],
+        "correct_answer": "Sina Maria at Pedro ay pumunta sa palengke.",
+        "explanation": "Ginagamit ang 'sina' bilang pantukoy para sa dalawa o higit pang tao. Ang 'ni' ay ginagamit bilang pantukoy ng tagaganap sa passive voice."
+    },
+    {
+        "id": "20125",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang tamang paggamit ng \"hindi\" at \"huwag\".\n\nAlin ang wastong pangungusap?",
+        "choices": ["Hindi ka tumakbo sa koridor.", "Huwag kang tumakbo sa koridor.", "Hindi kang huwag tumakbo sa koridor.", "Huwag hindi ka tumakbo sa koridor."],
+        "correct_answer": "Huwag kang tumakbo sa koridor.",
+        "explanation": "Ang 'huwag' ay ginagamit sa pangungusap na pautos (prohibitive). Ang 'hindi' ay ginagamit sa pagsasabi ng katotohanan. Sa kontekstong pagbabawal, 'huwag' ang tama."
+    },
+    {
+        "id": "20126",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang pagkakasulat ng salita?",
+        "choices": ["Silid-aralan", "Silid aralan", "Silidaralan", "Silid Aralan"],
+        "correct_answer": "Silid-aralan",
+        "explanation": "Ang tambalang salita na may magkaibang kahulugan ay pinagsasama gamit ang gitling (-). Ang 'silid' at 'aralan' ay pinag-uugnay bilang isang tambalang salita."
+    },
+    {
+        "id": "20127",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang pangungusap na may tamang gamit ng pang-abay.\n\nAlin ang wastong pangungusap?",
+        "choices": ["Mabilis tumakbo siya nang patungo sa paaralan.", "Tumakbo siya nang mabilis patungo sa paaralan.", "Tumakbo siya ng mabilis sa patungo paaralan.", "Mabilis siya nang tumakbo sa patungo paaralan."],
+        "correct_answer": "Tumakbo siya nang mabilis patungo sa paaralan.",
+        "explanation": "Ang tamang ayos ay Pandiwa + Simuno + Pang-abay. Ginagamit ang 'nang' bago ang pang-abay na 'mabilis' upang iugnay ito sa pandiwa."
+    },
+    {
+        "id": "20128",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang gamit ng pangatnig na \"dahil\" sa pangungusap?",
+        "choices": ["Hindi siya pumasok dahil sa may sakit siya.", "Hindi siya pumasok dahil may sakit siya.", "Dahil sa hindi siya pumasok may sakit siya.", "Hindi dahil siya pumasok may sakit siya."],
+        "correct_answer": "Hindi siya pumasok dahil may sakit siya.",
+        "explanation": "Ang 'dahil' ay pangatnig na nagsasaad ng sanhi. Ang tamang ayos ay 'dahil' + sugnay na nagsasaad ng dahilan. Hindi na kailangan ng 'sa' pagkatapos ng 'dahil' kung sinusundan ito ng buong sugnay."
+    },
+    {
+        "id": "20129",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang tamang pangungusap na may wastong pagtukoy sa oras.",
+        "choices": ["Dumating siya sa alas-dos nang hapon.", "Dumating siya ng alas-dos sa hapon.", "Dumating siya nang alas-dos ng hapon.", "Dumating siya sa nang alas-dos hapon."],
+        "correct_answer": "Dumating siya nang alas-dos ng hapon.",
+        "explanation": "Ginagamit ang 'nang' bago ang oras na nagsasaad kung kailan naganap ang pangyayari. Ang 'ng hapon' ay nagsasaad ng partikular na bahagi ng araw."
+    },
+    {
+        "id": "20130",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang pangungusap?\n\nPiliin ang wastong paggamit ng \"may\" at \"mayroon\".",
+        "choices": ["May siya ay dalang pagkain.", "Mayroon siyang dalang pagkain.", "May roon siyang pagkain na dala.", "May mayroon dalang pagkain siya."],
+        "correct_answer": "Mayroon siyang dalang pagkain.",
+        "explanation": "Ginagamit ang 'mayroon' kapag sinusundan ng panghalip (siyang). Ang 'may' ay ginagamit kapag direktang sinusundan ng pangngalan."
+    },
+    {
+        "id": "20131",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang tamang pangungusap.\n\nAlin ang wastong anyo ng pang-uring pampanahon?",
+        "choices": ["Ang kahapon ay masaya araw.", "Ang kahapon ay masayang araw.", "Ang kahapon ay masaya na araw.", "Ang kahapon ay masaya ng araw."],
+        "correct_answer": "Ang kahapon ay masayang araw.",
+        "explanation": "Ginagamit ang pang-angkop na '-ng' sa 'masaya' dahil ito ay nagtatapos sa patinig 'a'. Ang 'masayang araw' ang tamang anyo."
+    },
+    {
+        "id": "20132",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang pagsulat ng numero sa Filipino?",
+        "choices": ["Sampung-dalawa", "Labindalawa", "Labing-dalawa", "Labin dalawa"],
+        "correct_answer": "Labindalawa",
+        "explanation": "Ang bilang na 12 sa Filipino ay 'labindalawa'. Ito ay isang salita lang at hindi kinakailangan ng gitling."
+    },
+    {
+        "id": "20133",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang pangungusap na may tamang gamit ng pandiwang balintiyak.",
+        "choices": ["Binasa ng estudyante ang aklat.", "Nagbasa ang aklat ng estudyante.", "Bumasa ang estudyante ng aklat.", "Binabasa ang aklat ang estudyante."],
+        "correct_answer": "Binasa ng estudyante ang aklat.",
+        "explanation": "Sa balintiyak (passive voice), ang pokus ay nasa layon (aklat). Ang tamang ayos ay: Pandiwa (binasa) + Tagaganap (ng estudyante) + Layon (ang aklat)."
+    },
+    {
+        "id": "20134",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang pangungusap na gumagamit ng pang-uri sa tamang posisyon?",
+        "choices": ["Matangkad na lalaki ang pumasok sa opisina.", "Lalaki matangkad na ang pumasok sa opisina.", "Na matangkad lalaki ang pumasok sa opisina.", "Ang pumasok na matangkad sa lalaki opisina."],
+        "correct_answer": "Matangkad na lalaki ang pumasok sa opisina.",
+        "explanation": "Sa Filipino, ang pang-uri ay inilalagay bago ang pangngalan na tinutukoy nito. Ang 'matangkad na lalaki' ang tamang ayos."
+    },
+    {
+        "id": "20135",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang pangungusap na may tamang paggamit ng pantukoy.\n\nAlin ang wastong pangungusap?",
+        "choices": ["Si mga estudyante ay masipag.", "Ang mga estudyante ay masipag.", "Sina mga estudyante ay masipag.", "Ni mga estudyante ay masipag."],
+        "correct_answer": "Ang mga estudyante ay masipag.",
+        "explanation": "Ang 'ang' ay pantukoy para sa pangkaraniwang pangngalan. Ang 'si' at 'sina' ay para sa mga pangngalang pantangi (proper nouns)."
+    },
+    {
+        "id": "20136",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang paggamit ng panlaping \"naka-\" sa pangungusap?",
+        "choices": ["Naka-upo siya sa silya nang dumating ako.", "Nakaupo siya sa silya nang dumating ako.", "Naka upo siya sa silya nang dumating ako.", "Nakaupo sa siya silya nang dumating ako."],
+        "correct_answer": "Nakaupo siya sa silya nang dumating ako.",
+        "explanation": "Ang unlaping 'naka-' ay sumasanib sa salitang-ugat nang walang gitling kapag ang salitang-ugat ay nagsisimula sa katinig: 'nakaupo'."
+    },
+    {
+        "id": "20137",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang pangungusap na may tamang anyo ng pang-abay na pamanahon.",
+        "choices": ["Darating siya sa susunod na linggo.", "Darating siya sa linggo susunod na.", "Sa susunod darating na linggo siya.", "Linggo na susunod darating sa siya."],
+        "correct_answer": "Darating siya sa susunod na linggo.",
+        "explanation": "Ang 'sa susunod na linggo' ay tamang paraan ng pagsasabi ng panahon sa hinaharap. Ang pang-angkop na 'na' ay nag-uugnay sa 'susunod' at 'linggo'."
+    },
+    {
+        "id": "20138",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang gamit ng \"subalit\" sa pangungusap?",
+        "choices": ["Gusto niyang pumasa, subalit hindi siya nag-aral.", "Gusto niyang pumasa, subalit siya ay nag-aral.", "Subalit gusto niyang pumasa, nag-aral siya.", "Subalit nag-aral siya, gusto pumasa niyang."],
+        "correct_answer": "Gusto niyang pumasa, subalit hindi siya nag-aral.",
+        "explanation": "Ang 'subalit' ay pangatnig na nagsasaad ng pagsalungat (tulad ng 'ngunit'). Tamang gamitin ito kapag ang pangalawang sugnay ay sumasalungat sa una."
+    },
+    {
+        "id": "20139",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang tamang pangungusap na may wastong pagkakabantas.",
+        "choices": ["Oo, pupunta ako sa palatuntunan bukas.", "Oo pupunta ako, sa palatuntunan bukas.", "Oo pupunta, ako sa palatuntunan bukas.", "Oo pupunta ako sa, palatuntunan bukas."],
+        "correct_answer": "Oo, pupunta ako sa palatuntunan bukas.",
+        "explanation": "Kailangan ng kuwit pagkatapos ng pagsang-ayon na 'Oo' upang ihiwalay ito sa natitirang bahagi ng pangungusap."
+    },
+    {
+        "id": "20140",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang pangungusap?\n\nPiliin ang wastong anyo ng pandiwang katransitibo.",
+        "choices": ["Nagsulat siya ng liham para sa kanyang ina.", "Nagsulat siya sa liham para ng kanyang ina.", "Nagsulat ng siya liham para sa kanyang ina.", "Siya nagsulat liham ng para sa kanyang ina."],
+        "correct_answer": "Nagsulat siya ng liham para sa kanyang ina.",
+        "explanation": "Sa pandiwang katransitibo, ang tamang ayos ay: Pandiwa (nagsulat) + Simuno (siya) + Layon (ng liham) + Pang-ukol (para sa kanyang ina)."
+    },
+    {
+        "id": "20141",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang tamang pangungusap na may wastong gamit ng panghalip na panao.",
+        "choices": ["Ikaw ang pumunta sa kanila.", "Ikaw ang pumunta sa kanila kahapon.", "Ikaw kanila ang pumunta sa kahapon.", "Pumunta sa ikaw kanila ang kahapon."],
+        "correct_answer": "Ikaw ang pumunta sa kanila kahapon.",
+        "explanation": "Ang tamang ayos ay: Panghalip na panao (Ikaw) + pandiwa (pumunta) + pang-ukol at panghalip (sa kanila) + pang-abay na pamanahon (kahapon)."
+    },
+    {
+        "id": "20142",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang paggamit ng unlaping \"i-\" sa pandiwa?",
+        "choices": ["Isauli mo ang aklat sa silid-aklatan.", "I-sauli mo ang aklat sa silid-aklatan.", "Isuli mo ang aklat sa silid-aklatan.", "Ibauli mo ang aklat sa silid-aklatan."],
+        "correct_answer": "Isauli mo ang aklat sa silid-aklatan.",
+        "explanation": "Ang unlaping 'i-' ay sumasanib nang walang gitling kapag ang salitang-ugat ay nagsisimula sa katinig: 'isauli' mula sa 'sauli'."
+    },
+    {
+        "id": "20143",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang pangungusap na may tamang paggamit ng pang-abay na panlunan.",
+        "choices": ["Doon siya tumira sa probinsya.", "Tumira siya doon sa probinsya.", "Sa probinsya siya doon tumira.", "Tumira doon sa siya probinsya."],
+        "correct_answer": "Doon siya tumira sa probinsya.",
+        "explanation": "Ang 'doon' ay pang-abay na panlunan na nagsasaad ng malayong lugar. Maaari itong ilagay sa simula ng pangungusap bilang pokus."
+    },
+    {
+        "id": "20144",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang pangungusap na gumagamit ng tambalang pandiwa?",
+        "choices": ["Gustong kumain siya ng meryenda.", "Gusto niyang kumain ng meryenda.", "Gusto kumain siya niyang meryenda.", "Kumain gusto niyang siya ng meryenda."],
+        "correct_answer": "Gusto niyang kumain ng meryenda.",
+        "explanation": "Sa tambalang pandiwa, ang 'gusto' ay sinusundan ng panghalip na may pang-angkop (niyang) at pandiwa (kumain). Ang 'niyang' ay tamang anyo dahil 'niya' + '-ng'."
+    },
+    {
+        "id": "20145",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang tamang pangungusap.\n\nAlin ang wastong gamit ng \"upang\" sa pangungusap?",
+        "choices": ["Nag-aral siya upang pumasa sa eksamen.", "Upang nag-aral siya pumasa sa eksamen.", "Nag-aral upang siya pumasa sa eksamen.", "Nag-aral siya sa upang pumasa eksamen."],
+        "correct_answer": "Nag-aral siya upang pumasa sa eksamen.",
+        "explanation": "Ang 'upang' ay pangatnig na nagsasaad ng layunin (purpose). Ang tamang ayos ay: pangunahing sugnay + 'upang' + sugnay ng layunin."
+    },
+    {
+        "id": "20146",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang anyo ng salita?\n\nAng salitang \"sulat\" sa aspektong panghinaharap ay:",
+        "choices": ["sumulat", "sumusulat", "susulat", "sinulat"],
+        "correct_answer": "susulat",
+        "explanation": "Ang aspektong panghinaharap (contemplated) ay isinasaad sa pamamagitan ng pag-uulit ng unang pantig ng salitang-ugat nang walang unlapi: 'susulat' (su- + sulat)."
+    },
+    {
+        "id": "20147",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang pangungusap na may tamang paggamit ng pang-ukol na \"tungkol sa\".",
+        "choices": ["Nagsulat siya tungkol sa kasaysayan ng Pilipinas.", "Nagsulat tungkol siya sa sa kasaysayan ng Pilipinas.", "Tungkol nagsulat siya sa sa kasaysayan ng Pilipinas.", "Nagsulat siya sa tungkol kasaysayan ng Pilipinas."],
+        "correct_answer": "Nagsulat siya tungkol sa kasaysayan ng Pilipinas.",
+        "explanation": "Ang 'tungkol sa' ay isang pang-ukol na nagsasaad ng paksa. Inilalagay ito bago ang paksang tinutukoy: 'tungkol sa kasaysayan'."
+    },
+    {
+        "id": "20148",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang pangungusap na may wastong gamit ng pang-angkop?",
+        "choices": ["Maliit ng bahay ang binili niya.", "Maliit na bahay ang binili niya.", "Maliit ang na bahay binili niya.", "Maliit bahay na ang binili niya."],
+        "correct_answer": "Maliit na bahay ang binili niya.",
+        "explanation": "Ginagamit ang pang-angkop na 'na' kapag ang naunang salita ay nagtatapos sa katinig. Ang 'maliit' ay nagtatapos sa 't' (katinig), kaya 'na' ang tama."
+    },
+    {
+        "id": "20149",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Piliin ang tamang pangungusap na may wastong paggamit ng panandang \"ay\".",
+        "choices": ["Ang mga mag-aaral ay pumunta sa aklatan.", "Ay ang mga mag-aaral pumunta sa aklatan.", "Ang mga mag-aaral pumunta ay sa aklatan.", "Pumunta ang ay mga mag-aaral sa aklatan."],
+        "correct_answer": "Ang mga mag-aaral ay pumunta sa aklatan.",
+        "explanation": "Ang 'ay' ay panandang paniyak na ginagamit sa kabaligtarang ayos (inverted order). Inilalagay ito pagkatapos ng simuno at bago ang panaguri."
+    },
+    {
+        "id": "20150",
+        "category": "Verbal Ability – Grammar (Filipino)",
+        "question": "Alin ang tamang pagbaybay ng salita sa Filipino?",
+        "choices": ["Komunikasyon", "Komunikasion", "Komyunikasyon", "Komunikeysyon"],
+        "correct_answer": "Komunikasyon",
+        "explanation": "Ang tamang pagbaybay sa Filipino ay 'komunikasyon'. Sinusunod nito ang alituntuning Filipino sa pagbabagong-anyo ng mga hiram na salita."
+    }
+]

@@ -1,0 +1,402 @@
+[
+    {
+        "id": "20001",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kasingkahulugan ng salitang \"masipag\"?",
+        "choices": ["matipid", "matiyaga", "matalino", "matapang"],
+        "correct_answer": "matiyaga",
+        "explanation": "Ang 'masipag' ay nangangahulugang palaging nagsusumikap at hindi tinatamad. Ang 'matiyaga' ang pinakamalapit na kasingkahulugan nito."
+    },
+    {
+        "id": "20002",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang salitang kasalungat ng \"matapat\".",
+        "choices": ["tapat", "mapagkakatiwalaan", "mapanlinlang", "maaasahan"],
+        "correct_answer": "mapanlinlang",
+        "explanation": "Ang 'matapat' ay nangangahulugang tapat at totoo. Ang kasalungat nito ay 'mapanlinlang' na nangangahulugang mandaraya."
+    },
+    {
+        "id": "20003",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"dalisay\"?",
+        "choices": ["malinis at walang halo", "mabaho at marumi", "malamig at madilim", "mainit at maaraw"],
+        "correct_answer": "malinis at walang halo",
+        "explanation": "Ang 'dalisay' ay nangangahulugang puro, walang halong ibang bagay, o malinis."
+    },
+    {
+        "id": "20004",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasingkahulugan ng salitang \"marangal\".",
+        "choices": ["malupit", "magalang", "kagalang-galang", "masungit"],
+        "correct_answer": "kagalang-galang",
+        "explanation": "Ang 'marangal' ay nangangahulugang may dangal at karangalan. Ang 'kagalang-galang' ang pinakamalapit na kasingkahulugan."
+    },
+    {
+        "id": "20005",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kasalungat ng salitang \"masaya\"?",
+        "choices": ["malungkot", "maganda", "mabilis", "maingay"],
+        "correct_answer": "malungkot",
+        "explanation": "Ang 'masaya' ay nangangahulugang maligaya o kontento. Ang direktang kasalungat nito ay 'malungkot'."
+    },
+    {
+        "id": "20006",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"sigasig\"?",
+        "choices": ["katamaran", "kasipagan", "kalungkutan", "kamalasan"],
+        "correct_answer": "kasipagan",
+        "explanation": "Ang 'sigasig' ay tumutukoy sa masidhing pagnanais na magsumikap o maging produktibo. Katulad ito ng 'kasipagan'."
+    },
+    {
+        "id": "20007",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang salitang kasalungat ng \"matapang\".",
+        "choices": ["magiting", "duwag", "malakas", "matibay"],
+        "correct_answer": "duwag",
+        "explanation": "Ang 'matapang' ay nangangahulugang walang takot. Ang direktang kasalungat nito ay 'duwag' na nangangahulugang madaling matakot."
+    },
+    {
+        "id": "20008",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kasingkahulugan ng salitang \"mahusay\"?",
+        "choices": ["pangit", "magaling", "mabagal", "mahina"],
+        "correct_answer": "magaling",
+        "explanation": "Ang 'mahusay' ay nangangahulugang may kahanga-hangang kakayahan. Ang 'magaling' ang pinakamalapit na kasingkahulugan."
+    },
+    {
+        "id": "20009",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Alin ang pinakamalapit na kahulugan ng salitang \"payapa\"?",
+        "choices": ["magulo", "maingay", "matahimik", "mabilis"],
+        "correct_answer": "matahimik",
+        "explanation": "Ang 'payapa' ay tumutukoy sa kalagayang walang kaguluhan. Ang 'matahimik' ang pinakamalapit na kasingkahulugan."
+    },
+    {
+        "id": "20010",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasalungat ng salitang \"mabait\".",
+        "choices": ["mahinahon", "masunurin", "malupit", "magalang"],
+        "correct_answer": "malupit",
+        "explanation": "Ang 'mabait' ay nangangahulugang mabuti ang ugali. Ang kasalungat nito ay 'malupit' na nangangahulugang walang habag."
+    },
+    {
+        "id": "20011",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"kakaiba\" sa pangungusap na: \"May kakaibang galing ang batang ito sa pagsulat.\"?",
+        "choices": ["karaniwan", "hindi pangkaraniwan", "kapareho", "karaniwang makikita"],
+        "correct_answer": "hindi pangkaraniwan",
+        "explanation": "Sa konteksto ng pangungusap, ang 'kakaiba' ay nangangahulugang natatangi o hindi pangkaraniwang uri ng galing."
+    },
+    {
+        "id": "20012",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasingkahulugan ng salitang \"mapagbigay\".",
+        "choices": ["matipid", "kuripot", "bukas-palad", "maramot"],
+        "correct_answer": "bukas-palad",
+        "explanation": "Ang 'mapagbigay' ay nangangahulugang handang magbigay ng tulong o bagay. Ang 'bukas-palad' ang pinakamalapit na kasingkahulugan."
+    },
+    {
+        "id": "20013",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kasalungat ng salitang \"matibay\"?",
+        "choices": ["matipuno", "matatag", "marupok", "matiyaga"],
+        "correct_answer": "marupok",
+        "explanation": "Ang 'matibay' ay nangangahulugang hindi madaling masira. Ang kasalungat nito ay 'marupok' na nangangahulugang madaling masira."
+    },
+    {
+        "id": "20014",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"taimtim\"?",
+        "choices": ["pabalat-bunga", "taos-puso", "pabaya", "padalos-dalos"],
+        "correct_answer": "taos-puso",
+        "explanation": "Ang 'taimtim' ay nangangahulugang taos-puso, buong puso, o seryoso sa isang bagay."
+    },
+    {
+        "id": "20015",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasingkahulugan ng salitang \"masigla\".",
+        "choices": ["matamlay", "maliksi", "malungkot", "mahinahon"],
+        "correct_answer": "maliksi",
+        "explanation": "Ang 'masigla' ay nangangahulugang puno ng buhay at lakas. Ang 'maliksi' ang pinakamalapit na kasingkahulugan."
+    },
+    {
+        "id": "20016",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kasalungat ng salitang \"marami\"?",
+        "choices": ["masagana", "kakaunti", "sobra", "labis"],
+        "correct_answer": "kakaunti",
+        "explanation": "Ang 'marami' ay nangangahulugang malaking bilang. Ang direktang kasalungat nito ay 'kakaunti'."
+    },
+    {
+        "id": "20017",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Alin ang pinakamalapit na kahulugan ng salitang \"masinop\"?",
+        "choices": ["pabaya sa gamit", "maayos at maingat", "mapaglarong tao", "tamad sa trabaho"],
+        "correct_answer": "maayos at maingat",
+        "explanation": "Ang 'masinop' ay nangangahulugang maayos, maingat, at may kaayusan sa pag-iimpok o pagtitipid."
+    },
+    {
+        "id": "20018",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"pighati\" sa pangungusap na: \"Labis ang pighati ng ina sa pagkawala ng kanyang anak.\"?",
+        "choices": ["kagalakan", "kalungkutan", "pagkagulat", "pagkatuwa"],
+        "correct_answer": "kalungkutan",
+        "explanation": "Ang 'pighati' ay nangangahulugang matinding kalungkutan o pagdurusa ng loob."
+    },
+    {
+        "id": "20019",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasalungat ng salitang \"maliwanag\".",
+        "choices": ["makulimlim", "maaliwalas", "mainit", "malinaw"],
+        "correct_answer": "makulimlim",
+        "explanation": "Ang 'maliwanag' ay nangangahulugang may liwanag o malinaw. Ang kasalungat nito ay 'makulimlim' na nangangahulugang madilim."
+    },
+    {
+        "id": "20020",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kasingkahulugan ng salitang \"maginhawa\"?",
+        "choices": ["mahirap", "komportable", "malungkot", "mahina"],
+        "correct_answer": "komportable",
+        "explanation": "Ang 'maginhawa' ay nangangahulugang nasa magandang kalagayan o walang hirap. Ang 'komportable' ang pinakamalapit na kasingkahulugan."
+    },
+    {
+        "id": "20021",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"mapagkumbaba\"?",
+        "choices": ["mayabang at mapagmataas", "mababang-loob at magalang", "mahiyain at tahimik", "masungit at masama ang loob"],
+        "correct_answer": "mababang-loob at magalang",
+        "explanation": "Ang 'mapagkumbaba' ay nangangahulugang mababang-loob, hindi nagmamalaki, at magalang sa pakikitungo."
+    },
+    {
+        "id": "20022",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasalungat ng salitang \"masunurin\".",
+        "choices": ["mabait", "magalang", "mapaghimagsik", "matiisin"],
+        "correct_answer": "mapaghimagsik",
+        "explanation": "Ang 'masunurin' ay nangangahulugang sumusunod sa utos. Ang kasalungat nito ay 'mapaghimagsik' na tumatanggi sa awtoridad."
+    },
+    {
+        "id": "20023",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kasingkahulugan ng salitang \"malawak\"?",
+        "choices": ["makitid", "maliit", "malaki ang sakop", "masikip"],
+        "correct_answer": "malaki ang sakop",
+        "explanation": "Ang 'malawak' ay nangangahulugang may malaking espasyo o sakop. Ang 'malaki ang sakop' ang pinakamalapit na kasingkahulugan."
+    },
+    {
+        "id": "20024",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"dungis\" sa pangungusap na: \"Walang dungis ang kanyang rekord sa serbisyo.\"?",
+        "choices": ["mantsa o bahid", "karangalan", "katapatan", "papuri"],
+        "correct_answer": "mantsa o bahid",
+        "explanation": "Ang 'dungis' ay nangangahulugang mantsa, bahid, o kapintasan na sumisira sa kalinisan ng isang bagay."
+    },
+    {
+        "id": "20025",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasalungat ng salitang \"maingay\".",
+        "choices": ["magulo", "magulong-gulo", "tahimik", "makulit"],
+        "correct_answer": "tahimik",
+        "explanation": "Ang 'maingay' ay nangangahulugang may malakas na tunog. Ang direktang kasalungat nito ay 'tahimik'."
+    },
+    {
+        "id": "20026",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kasingkahulugan ng salitang \"matalino\"?",
+        "choices": ["mangmang", "mataba", "may katalinuhan", "mabagal"],
+        "correct_answer": "may katalinuhan",
+        "explanation": "Ang 'matalino' ay nangangahulugang may mataas na kakayahan sa pag-iisip. Ang 'may katalinuhan' ang pinakamalapit na kasingkahulugan."
+    },
+    {
+        "id": "20027",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang salitang kasalungat ng \"masaganang ani\".",
+        "choices": ["masaganang buhay", "kakapusan sa ani", "sagana sa pagkain", "masayang pamilya"],
+        "correct_answer": "kakapusan sa ani",
+        "explanation": "Ang 'masagana' ay nangangahulugang labis o marami. Ang kasalungat nito ay 'kakapusan' na nangangahulugang kakulangan."
+    },
+    {
+        "id": "20028",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"tiyaga\"?",
+        "choices": ["pagpapabaya", "pagtitiis at pagsisikap", "pagkawalang-bahala", "pagmamadali"],
+        "correct_answer": "pagtitiis at pagsisikap",
+        "explanation": "Ang 'tiyaga' ay nangangahulugang mahabang pasensya at tuloy-tuloy na pagsisikap sa kabila ng mga hamon."
+    },
+    {
+        "id": "20029",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Alin ang pinakamalapit na kahulugan ng salitang \"galak\"?",
+        "choices": ["galit", "takot", "tuwa", "hinanakit"],
+        "correct_answer": "tuwa",
+        "explanation": "Ang 'galak' ay nangangahulugang labis na kasiyahan o kaligayahan. Ang 'tuwa' ang pinakamalapit na kasingkahulugan."
+    },
+    {
+        "id": "20030",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasalungat ng salitang \"mahinahon\".",
+        "choices": ["kalmado", "magulatin", "mapusok", "mapanatag"],
+        "correct_answer": "mapusok",
+        "explanation": "Ang 'mahinahon' ay nangangahulugang kalmado at hindi nagmamadali. Ang kasalungat nito ay 'mapusok' na nangangahulugang padalos-dalos."
+    },
+    {
+        "id": "20031",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"panatag\" sa pangungusap na: \"Panatag ang kalooban niya matapos malaman ang resulta.\"?",
+        "choices": ["balisa", "ligalig", "natatahimik", "nababahala"],
+        "correct_answer": "natatahimik",
+        "explanation": "Ang 'panatag' ay nangangahulugang walang alalahanin, kalmado, at natatahimik ang isip."
+    },
+    {
+        "id": "20032",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasingkahulugan ng salitang \"mahalaga\".",
+        "choices": ["walang kuwenta", "importante", "pangit", "mura"],
+        "correct_answer": "importante",
+        "explanation": "Ang 'mahalaga' ay nangangahulugang may malaking kahalagahan o importansya."
+    },
+    {
+        "id": "20033",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kasalungat ng salitang \"matulungin\"?",
+        "choices": ["mabait", "mapagmalasakit", "makasarili", "mapagmahal"],
+        "correct_answer": "makasarili",
+        "explanation": "Ang 'matulungin' ay nangangahulugang handang tumulong. Ang kasalungat nito ay 'makasarili' na nag-uuna ng sarili."
+    },
+    {
+        "id": "20034",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"malimit\"?",
+        "choices": ["bihira", "palagi", "minsan lang", "isang beses"],
+        "correct_answer": "palagi",
+        "explanation": "Ang 'malimit' ay nangangahulugang madalas o palaging nangyayari."
+    },
+    {
+        "id": "20035",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasalungat ng salitang \"matanda\".",
+        "choices": ["bata", "malakas", "matangkad", "maputi"],
+        "correct_answer": "bata",
+        "explanation": "Ang 'matanda' ay tumutukoy sa may edad na tao. Ang direktang kasalungat nito ay 'bata'."
+    },
+    {
+        "id": "20036",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kasingkahulugan ng salitang \"matindi\"?",
+        "choices": ["mahina", "malakas o matapang", "maluwag", "malambot"],
+        "correct_answer": "malakas o matapang",
+        "explanation": "Ang 'matindi' ay nangangahulugang malakas, matapang, o sobrang lakas ng epekto."
+    },
+    {
+        "id": "20037",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"salat\" sa pangungusap na: \"Salat sila sa buhay pero masaya pa rin ang kanilang pamilya.\"?",
+        "choices": ["mayaman", "kapos o mahirap", "masagana", "marangya"],
+        "correct_answer": "kapos o mahirap",
+        "explanation": "Ang 'salat' ay nangangahulugang kapos, kulang, o nasa mahirap na kalagayan."
+    },
+    {
+        "id": "20038",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasingkahulugan ng salitang \"maunlad\".",
+        "choices": ["umuunlad", "bumababa", "progresibo", "atrasado"],
+        "correct_answer": "progresibo",
+        "explanation": "Ang 'maunlad' ay nangangahulugang sumusulong o may pag-unlad. Ang 'progresibo' ang pinakamalapit na kasingkahulugan."
+    },
+    {
+        "id": "20039",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasalungat ng salitang \"mabango\".",
+        "choices": ["mahalimuyak", "mabaho", "masarap", "malamig"],
+        "correct_answer": "mabaho",
+        "explanation": "Ang 'mabango' ay tumutukoy sa magandang amoy. Ang direktang kasalungat nito ay 'mabaho'."
+    },
+    {
+        "id": "20040",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"kapahamakan\"?",
+        "choices": ["kaligtasan", "panganib o sakuna", "kagalakan", "kasayahan"],
+        "correct_answer": "panganib o sakuna",
+        "explanation": "Ang 'kapahamakan' ay nangangahulugang panganib, sakuna, o masamang mangyayari."
+    },
+    {
+        "id": "20041",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasingkahulugan ng salitang \"matiisin\".",
+        "choices": ["mainip", "pasensyoso", "bastos", "padalos-dalos"],
+        "correct_answer": "pasensyoso",
+        "explanation": "Ang 'matiisin' ay nangangahulugang may pasensya at hindi madaling sumuko. Ang 'pasensyoso' ang pinakamalapit na kasingkahulugan."
+    },
+    {
+        "id": "20042",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kasalungat ng salitang \"maganda\"?",
+        "choices": ["kaakit-akit", "maaliwalas", "pangit", "kaibig-ibig"],
+        "correct_answer": "pangit",
+        "explanation": "Ang 'maganda' ay tumutukoy sa may ganda o kagandahan. Ang direktang kasalungat nito ay 'pangit'."
+    },
+    {
+        "id": "20043",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"lihim\" sa pangungusap na: \"May lihim siyang tinatago sa lahat.\"?",
+        "choices": ["hayag na impormasyon", "tinatagong bagay o kaalaman", "pampublikong balita", "hayagang pahayag"],
+        "correct_answer": "tinatagong bagay o kaalaman",
+        "explanation": "Ang 'lihim' ay nangangahulugang isang bagay na itinago at hindi ibinunyag sa iba."
+    },
+    {
+        "id": "20044",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasingkahulugan ng salitang \"malikot\".",
+        "choices": ["tahimik", "mahinahon", "pilyo", "matulungin"],
+        "correct_answer": "pilyo",
+        "explanation": "Ang 'malikot' ay nangangahulugang hindi mapakali at palaging gumagalaw. Ang 'pilyo' ang pinakamalapit na kasingkahulugan."
+    },
+    {
+        "id": "20045",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kasalungat ng salitang \"mainit\"?",
+        "choices": ["malamig", "maalinsangan", "maaraw", "maalat"],
+        "correct_answer": "malamig",
+        "explanation": "Ang 'mainit' ay tumutukoy sa mataas na temperatura. Ang direktang kasalungat nito ay 'malamig'."
+    },
+    {
+        "id": "20046",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"dangal\"?",
+        "choices": ["kahihiyan", "karangalan at paggalang", "katamaran", "kalungkutan"],
+        "correct_answer": "karangalan at paggalang",
+        "explanation": "Ang 'dangal' ay nangangahulugang karangalan, reputasyon, at mataas na paggalang sa isang tao."
+    },
+    {
+        "id": "20047",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasalungat ng salitang \"mataas\".",
+        "choices": ["malayo", "mababa", "matangkad", "malapad"],
+        "correct_answer": "mababa",
+        "explanation": "Ang 'mataas' ay nangangahulugang may mataas na posisyon o elebasyon. Ang direktang kasalungat nito ay 'mababa'."
+    },
+    {
+        "id": "20048",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Alin ang pinakamalapit na kahulugan ng salitang \"himagsik\"?",
+        "choices": ["pagsunod sa batas", "paglaban sa namumuno", "pakikipagtulungan", "pagsang-ayon sa desisyon"],
+        "correct_answer": "paglaban sa namumuno",
+        "explanation": "Ang 'himagsik' ay nangangahulugang paghihimagsik o paglaban sa isang awtoridad o pamahalaang umuuri."
+    },
+    {
+        "id": "20049",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Piliin ang kasingkahulugan ng salitang \"sakuna\".",
+        "choices": ["tagumpay", "kalamidad", "kagalakan", "kasaganaan"],
+        "correct_answer": "kalamidad",
+        "explanation": "Ang 'sakuna' ay nangangahulugang malaking kapahamakan o trahedya. Ang 'kalamidad' ang pinakamalapit na kasingkahulugan."
+    },
+    {
+        "id": "20050",
+        "category": "Verbal Ability – Vocabulary (Filipino)",
+        "question": "Ano ang kahulugan ng salitang \"pananampalataya\"?",
+        "choices": ["kawalan ng tiwala", "malalim na paniniwala", "pagdududa", "pagtatanong"],
+        "correct_answer": "malalim na paniniwala",
+        "explanation": "Ang 'pananampalataya' ay nangangahulugang malalim na paniniwala o tiwala, lalo na sa relihiyon o espiritwal na bagay."
+    }
+]

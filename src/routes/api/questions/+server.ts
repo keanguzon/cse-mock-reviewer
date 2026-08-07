@@ -96,22 +96,36 @@ export async function GET({ url, request }) {
             return selectedChunk;
         };
 
+        // Pull questions proportionally across all sub-categories within a parent group
+        const pullProportional = (pool: any[], totalQuota: number, condition: (q: any) => boolean) => {
+            const filtered = pool.filter(condition);
+            const subCats = [...new Set(filtered.map(q => q.category))];
+            if (subCats.length === 0) return [];
+            const perSubCat = Math.floor(totalQuota / subCats.length);
+            const remainder = totalQuota % subCats.length;
+            let result: any[] = [];
+            subCats.forEach((cat, i) => {
+                const quota = perSubCat + (i < remainder ? 1 : 0);
+                result.push(...pullQuestions(pool, quota, q => q.category === cat));
+            });
+            return result;
+        };
+
         let selected: any[] = [];
 
         if (isRealistic) {
-            // Realistic Exam Mode sequentially blocks categories
             if (level === 'professional') {
                 // Professional: 50 Verbal, 50 Analytical, 50 Numerical, 20 Gen Info
-                selected.push(...pullQuestions(allValidQuestions, 50, q => q.category.includes('Verbal')));
-                selected.push(...pullQuestions(allValidQuestions, 50, q => q.category.includes('Analytical')));
-                selected.push(...pullQuestions(allValidQuestions, 50, q => q.category.includes('Numerical')));
-                selected.push(...pullQuestions(allValidQuestions, 20, q => q.category.includes('General Information')));
+                selected.push(...pullProportional(allValidQuestions, 50, q => q.category.includes('Verbal')));
+                selected.push(...pullProportional(allValidQuestions, 50, q => q.category.includes('Analytical')));
+                selected.push(...pullProportional(allValidQuestions, 50, q => q.category.includes('Numerical')));
+                selected.push(...pullProportional(allValidQuestions, 20, q => q.category.includes('General Information')));
             } else {
                 // Sub-Professional: 50 Verbal, 50 Clerical, 45 Numerical, 20 Gen Info
-                selected.push(...pullQuestions(allValidQuestions, 50, q => q.category.includes('Verbal')));
-                selected.push(...pullQuestions(allValidQuestions, 50, q => q.category.includes('Clerical')));
-                selected.push(...pullQuestions(allValidQuestions, 45, q => q.category.includes('Numerical')));
-                selected.push(...pullQuestions(allValidQuestions, 20, q => q.category.includes('General Information')));
+                selected.push(...pullProportional(allValidQuestions, 50, q => q.category.includes('Verbal')));
+                selected.push(...pullProportional(allValidQuestions, 50, q => q.category.includes('Clerical')));
+                selected.push(...pullProportional(allValidQuestions, 45, q => q.category.includes('Numerical')));
+                selected.push(...pullProportional(allValidQuestions, 20, q => q.category.includes('General Information')));
             }
         } else {
             // Standard Random Exam Mode
