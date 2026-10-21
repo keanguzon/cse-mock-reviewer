@@ -1,14 +1,25 @@
 <script lang="ts">
-  import { page } from '$app/state';
+  import { page, navigating } from '$app/state';
+  import { onMount } from 'svelte';
+  import { adminLoading, hasAdminPageCache, setAdminCacheScope } from '$lib/admin/client';
+  import LoadingScreen from '$lib/components/admin/LoadingScreen.svelte';
   let { children, data } = $props();
+  let coldNavigation = $derived(Boolean(navigating.to?.url.pathname.startsWith('/admin') && navigating.to.url.pathname !== '/admin/login' && !hasAdminPageCache(navigating.to.url.pathname)));
+  $effect.pre(() => { setAdminCacheScope(page.url.pathname === '/admin/login' ? '' : data.cacheScope ?? ''); });
+  onMount(() => {
+    const restore = (event: PageTransitionEvent) => { if (event.persisted) { setAdminCacheScope(''); window.location.reload(); } };
+    window.addEventListener('pageshow', restore);
+    return () => { window.removeEventListener('pageshow', restore); setAdminCacheScope(''); };
+  });
 </script>
 <svelte:head><title>Administration | CSE Reviewer</title><meta name="robots" content="noindex,nofollow" /></svelte:head>
 <div class="admin-shell">
   <header class="admin-header"><a href="/admin" class="admin-brand"><span class="navbar-brand-text">CSE Reviewer</span><span class="admin-brand-label">Administration</span></a>
-    {#if page.url.pathname !== '/admin/login'}<nav aria-label="Administration"><a href="/admin" aria-current={page.url.pathname === '/admin' ? 'page' : undefined}>Overview</a><a href="/admin/users" aria-current={page.url.pathname.startsWith('/admin/users') ? 'page' : undefined}>Users</a><a href="/admin/audit" aria-current={page.url.pathname === '/admin/audit' ? 'page' : undefined}>Audit</a><form method="POST" action="/admin/logout"><input type="hidden" name="csrf" value={data.csrf ?? ''}/><button class="btn-ghost" type="submit">Log out</button></form></nav>{/if}
+    {#if page.url.pathname !== '/admin/login'}<nav aria-label="Administration"><a href="/admin" aria-current={page.url.pathname === '/admin' ? 'page' : undefined}>Overview</a><a href="/admin/users" aria-current={page.url.pathname.startsWith('/admin/users') ? 'page' : undefined}>Users</a><a href="/admin/audit" aria-current={page.url.pathname === '/admin/audit' ? 'page' : undefined}>Audit</a><form method="POST" action="/admin/logout" onsubmit={()=>setAdminCacheScope('')}><input type="hidden" name="csrf" value={data.csrf ?? ''}/><button class="btn-ghost" type="submit">Log out</button></form></nav>{/if}
   </header>
   {@render children()}
 </div>
+{#if $adminLoading > 0 || coldNavigation}<LoadingScreen />{/if}
 <style>
   .admin-shell { max-width:1200px;min-width:0;margin:auto;padding:1.5rem;color:var(--cse-text);font-family:var(--font-body); }
   .admin-header { display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;margin-bottom:2rem; }
