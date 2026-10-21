@@ -67,15 +67,15 @@
   {
     "id": "8006",
     "category": "General Information – Current Events & Basic Facts",
-    "question": "Which choice gives Jose Rizal's complete name?",
+    "question": "Who wrote the novels Noli Me Tangere and El Filibusterismo?",
     "choices": [
-      "Andres Bonifacio y de Castro",
-      "Emilio Aguinaldo y Famy",
-      "Manuel Luis Quezon y Molina",
-      "Jose Protasio Rizal Mercado y Alonso Realonda"
+      "Marcelo H. del Pilar",
+      "Graciano Lopez Jaena",
+      "Mariano Ponce",
+      "Jose Rizal"
     ],
-    "correct_answer": "Jose Protasio Rizal Mercado y Alonso Realonda",
-    "explanation": "Jose Rizal is the Philippines' national hero, known for his novels Noli Me Tangere and El Filibusterismo."
+    "correct_answer": "Jose Rizal",
+    "explanation": "Jose Rizal authored Noli Me Tangere (1887) and El Filibusterismo (1891)."
   },
   {
     "id": "8007",
@@ -706,9 +706,9 @@
     "question": "Republic Act No. 9729 created the Climate Change Commission (CCC). What is the primary role of this commission?",
     "choices": [
       "To serve as the sole policy-making body of the government tasked to coordinate climate change programs",
-      "To issue business permits for mining companies",
-      "To build international airports in rural regions",
-      "To enforce traffic rules in major metropolitan areas"
+      "To serve as the permitting body of the government tasked to approve all environmental impact assessments",
+      "To serve as the scientific research body of the government tasked to issue daily weather forecasts",
+      "To serve as the regulatory body of the government tasked to set electricity rates for renewable energy"
     ],
     "correct_answer": "To serve as the sole policy-making body of the government tasked to coordinate climate change programs",
     "explanation": "RA 9729 (Climate Change Act of 2009) established the Climate Change Commission as an independent policy-making body attached to the Office of the President.",
@@ -836,9 +836,9 @@
     "question": "What is the motto of ASEAN displayed in its charter?",
     "choices": [
       "One Vision, One Identity, One Community",
-      "Unity in Diversity",
-      "Together for a Sustainable Future",
-      "Progress through Cooperation"
+      "One Region, One Economy, One Government",
+      "Shared Vision, Shared Progress, Shared Prosperity",
+      "Common Goals, Common Values, Common Future"
     ],
     "correct_answer": "One Vision, One Identity, One Community",
     "explanation": "The ASEAN motto is 'One Vision, One Identity, One Community'.",
@@ -874,10 +874,10 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 11032, which amended the Anti-Red Tape Act of 2007, is known as the:",
     "choices": [
-      "Government Procurement Reform Act",
-      "Tax Reform for Acceleration and Inclusion (TRAIN) Law",
+      "Government Procurement Reform Act of 2003",
+      "Tax Reform for Acceleration and Inclusion (TRAIN) Act of 2017",
       "Ease of Doing Business and Efficient Government Service Delivery Act of 2018",
-      "Consumer Act of the Philippines"
+      "Consumer Act of the Philippines of 1992"
     ],
     "correct_answer": "Ease of Doing Business and Efficient Government Service Delivery Act of 2018",
     "explanation": "RA 11032 promotes transparency and reduces bureaucratic red tape across government agencies.",
@@ -939,13 +939,13 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the primary focus of the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes?",
     "choices": [
-      "Preventing the transfer of hazardous waste from developed to developing nations",
-      "Protecting migratory bird species",
-      "Regulating deep sea mining",
-      "Reducing carbon dioxide emissions from shipping"
+      "Controlling and minimizing transboundary movements of hazardous wastes and ensuring environmentally sound management",
+      "Setting worldwide limits on greenhouse gas emissions from industrial sources and power plants",
+      "Establishing uniform standards for maritime boundaries and offshore mineral exploration",
+      "Regulating international trade in endangered wildlife species and products derived from them"
     ],
-    "correct_answer": "Preventing the transfer of hazardous waste from developed to developing nations",
-    "explanation": "The Basel Convention reduces the movement of hazardous waste between nations, specifically to prevent transfer of hazardous waste from developed to less developed countries.",
+    "correct_answer": "Controlling and minimizing transboundary movements of hazardous wastes and ensuring environmentally sound management",
+    "explanation": "The Basel Convention controls transboundary movements of hazardous wastes and other wastes, seeks to minimize those movements, and requires environmentally sound management. It does not impose a blanket ban on all transfers from developed to developing countries.",
     "id": "8073"
   },
   {
@@ -1004,9 +1004,9 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the primary objective of the Sustainable Development Goals (SDGs) established by the United Nations in 2015?",
     "choices": [
-      "To build space stations for lunar colonization",
-      "To abolish all national tariffs worldwide",
-      "To create a unified global currency system",
+      "To expand international trade by 2030 through a common set of tariff and customs rules",
+      "To coordinate disaster relief by 2030 through a single global emergency response agency",
+      "To harmonize national economic policies by 2030 through a shared currency and central bank",
       "To achieve a better and more sustainable future for all by 2030 through 17 global goals"
     ],
     "correct_answer": "To achieve a better and more sustainable future for all by 2030 through 17 global goals",
@@ -1030,10 +1030,10 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 10533 is commonly known as the:",
     "choices": [
-      "Technical Education Act",
+      "Technical Education and Skills Development Act of 1994 (TESDA Law)",
       "Enhanced Basic Education Act of 2013 (K to 12 Program)",
-      "Magna Carta for Public School Teachers",
-      "Free Higher Education Act"
+      "Governance of Basic Education Act of 2001 (Basic Education Governance)",
+      "Universal Access to Quality Tertiary Education Act of 2017 (Free Tertiary Education)"
     ],
     "correct_answer": "Enhanced Basic Education Act of 2013 (K to 12 Program)",
     "explanation": "RA 10533 expanded basic education in the Philippines to include kindergarten, 6 years of primary education, 4 years of Junior High School, and 2 years of Senior High School.",
@@ -1043,10 +1043,10 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "Under the Universal Access to Quality Tertiary Education Act (RA 10931), tuition and other school fees are waived for Filipino students enrolled in:",
     "choices": [
-      "Foreign exchange study programs only",
+      "Private Universities and Colleges offering government-accredited degree programs",
       "State Universities and Colleges (SUCs) and Local Universities and Colleges (LUCs)",
-      "Post-graduate doctoral programs",
-      "All private universities nationwide"
+      "Foreign Universities and Colleges accepting Filipino exchange students",
+      "Private Technical and Vocational Schools offering postgraduate degree programs"
     ],
     "correct_answer": "State Universities and Colleges (SUCs) and Local Universities and Colleges (LUCs)",
     "explanation": "RA 10931 provides free tertiary education in SUCs and LUCs for qualified undergraduate students.",
@@ -1082,10 +1082,10 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which specialized UN agency is responsible for international public health oversight?",
     "choices": [
-      "UNESCO",
-      "World Bank",
+      "United Nations Educational, Scientific and Cultural Organization (UNESCO)",
+      "Food and Agriculture Organization of the United Nations (FAO)",
       "World Health Organization (WHO)",
-      "UNICEF"
+      "International Labour Organization (ILO)"
     ],
     "correct_answer": "World Health Organization (WHO)",
     "explanation": "The World Health Organization (WHO) is the specialized UN agency responsible for international public health.",
@@ -1095,10 +1095,10 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 7610 protects children against:",
     "choices": [
-      "Excessive school homework",
+      "Unfair grading, excessive homework, and school suspension",
       "Child abuse, exploitation, and discrimination",
-      "Financial bankruptcy",
-      "Unregulated internet usage"
+      "Unsafe toys, product defects, and misleading advertisements",
+      "Unauthorized data collection, identity theft, and online fraud"
     ],
     "correct_answer": "Child abuse, exploitation, and discrimination",
     "explanation": "RA 7610 is the 'Special Protection of Children Against Abuse, Exploitation and Discrimination Act'.",
@@ -1108,10 +1108,10 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the primary function of the Bangko Sentral ng Pilipinas (BSP) as defined by RA 7653 (as amended by RA 11211)?",
     "choices": [
-      "To collect income taxes from private employees",
+      "To determine national spending priorities and prepare the annual government budget",
       "To maintain price stability conducive to a balanced and sustainable growth of the economy",
-      "To build public highways and bridges",
-      "To issue business licenses to retail shops"
+      "To regulate the sale of corporate securities and supervise public stock exchanges",
+      "To assess national income taxes and collect revenues from individual taxpayers"
     ],
     "correct_answer": "To maintain price stability conducive to a balanced and sustainable growth of the economy",
     "explanation": "The primary objective of the BSP is to maintain price stability and monetary stability in the Philippines.",
@@ -1134,10 +1134,10 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "What international agreement entered into force in 2021 prohibiting nuclear weapons?",
     "choices": [
-      "Strategic Arms Limitation Talk (SALT)",
+      "Treaty on the Non-Proliferation of Nuclear Weapons (NPT)",
       "Treaty on the Prohibition of Nuclear Weapons (TPNW)",
-      "MARPOL Convention",
-      "Outer Space Treaty"
+      "Comprehensive Nuclear-Test-Ban Treaty (CTBT)",
+      "Treaty Banning Nuclear Weapon Tests in the Atmosphere, in Outer Space and Under Water (PTBT)"
     ],
     "correct_answer": "Treaty on the Prohibition of Nuclear Weapons (TPNW)",
     "explanation": "The TPNW is the first legally binding international agreement to comprehensively prohibit nuclear weapons.",
@@ -1187,9 +1187,9 @@
     "question": "Republic Act No. 7277 is commonly known as the:",
     "choices": [
       "Magna Carta for Disabled Persons",
-      "Senior Citizens Act",
-      "Indigenous Peoples' Rights Act",
-      "Consumer Act"
+      "Magna Carta of Public Health Workers",
+      "Magna Carta for Public School Teachers",
+      "Magna Carta of Women"
     ],
     "correct_answer": "Magna Carta for Disabled Persons",
     "explanation": "RA 7277 provides for the rehabilitation, self-development, and self-reliance of persons with disabilities (PWDs).",
@@ -1199,10 +1199,10 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which Philippine law recognizes, protects, and promotes the rights of Indigenous Cultural Communities / Indigenous Peoples?",
     "choices": [
-      "Republic Act No. 7160",
-      "Republic Act No. 8749",
+      "Republic Act No. 7160 (Local Government Code)",
+      "Republic Act No. 8749 (Clean Air Act)",
       "Republic Act No. 8371 (IPRA Law)",
-      "Republic Act No. 6657"
+      "Republic Act No. 6657 (Agrarian Reform Law)"
     ],
     "correct_answer": "Republic Act No. 8371 (IPRA Law)",
     "explanation": "RA 8371 is the Indigenous Peoples' Rights Act of 1997.",
@@ -1238,9 +1238,9 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "What is the primary function of the Securities and Exchange Commission (SEC) in the Philippines?",
     "choices": [
-      "To audit government expenditure accounts",
-      "To print paper currency and mint coins",
-      "To collect customs duties on imported goods",
+      "To supervise banks and set monetary policy to maintain stable prices",
+      "To examine public accounts and audit the use of government funds",
+      "To assess and collect taxes on income, property transfers, and business transactions",
       "To register and regulate corporations, partnerships, and securities markets"
     ],
     "correct_answer": "To register and regulate corporations, partnerships, and securities markets",
@@ -1264,10 +1264,10 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which international convention governs the law of the sea, maritime boundaries, and exclusive economic zones (EEZ)?",
     "choices": [
-      "Paris Agreement",
-      "MARPOL 73/78",
+      "United Nations Framework Convention on Climate Change (UNFCCC)",
+      "International Convention for the Prevention of Pollution from Ships (MARPOL)",
       "United Nations Convention on the Law of the Sea (UNCLOS)",
-      "Kyoto Protocol"
+      "Convention on Biological Diversity (CBD)"
     ],
     "correct_answer": "United Nations Convention on the Law of the Sea (UNCLOS)",
     "explanation": "UNCLOS establishes a comprehensive legal framework for all ocean space and maritime resources.",
@@ -1290,10 +1290,10 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "Republic Act No. 6657 is known as the:",
     "choices": [
-      "Agriculture and Fisheries Modernization Act",
-      "Urban Development and Housing Act",
+      "Agriculture and Fisheries Modernization Act of 1997 (AFMA)",
+      "Urban Development and Housing Act of 1992 (UDHA)",
       "Comprehensive Agrarian Reform Law of 1988 (CARL)",
-      "Local Government Code"
+      "Local Government Code of 1991 (LGC)"
     ],
     "correct_answer": "Comprehensive Agrarian Reform Law of 1988 (CARL)",
     "explanation": "RA 6657 instituted the Comprehensive Agrarian Reform Program (CARP) to promote social justice and industrialization.",

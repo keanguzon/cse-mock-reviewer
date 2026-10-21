@@ -278,9 +278,9 @@
     "question": "Read the passage and answer the question.\n\nRepublic Act No. 9485, known as the Anti-Red Tape Act of 2007, mandates all government agencies to improve efficiency in delivering public services. Under this law, agencies must publish a Citizen's Charter detailing step-by-step procedures, requirements, fees, and standard processing times for each transaction. Furthermore, the law penalizes public officers who fail to comply with posted processing times without valid cause.\n\nWhat is a primary goal of RA 9485?",
     "choices": [
       "To improve efficiency in delivering public services",
-      "To increase tax collection",
-      "To digitize all government records",
-      "To reduce the number of government employees"
+      "To standardize the salaries of public service employees",
+      "To transfer public service transactions to private firms",
+      "To replace public service fees with a single annual tax"
     ],
     "correct_answer": "To improve efficiency in delivering public services",
     "explanation": "The passage notes that RA 9485 'mandates all government agencies to improve efficiency in delivering public services.'"
@@ -446,9 +446,9 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage and answer the question.\n\nRepublic Act No. 10173, the Data Privacy Act of 2012, protects individual personal information in information and communications systems. It established the National Privacy Commission (NPC) to administer and implement the law. Data controllers and processors are required to implement reasonable organizational, physical, and technical measures to secure personal data against unauthorized processing and accidental loss.\n\nWhat is the primary scope of protection under RA 10173?",
     "choices": [
-      "Intellectual property copyrights",
-      "Government classified defense documents",
-      "Corporate trade secrets",
+      "Creative works published through digital information systems",
+      "Official records containing classified national defense information",
+      "Commercial information documenting confidential corporate inventions",
       "Individual personal information in ICT systems"
     ],
     "correct_answer": "Individual personal information in ICT systems",
@@ -666,10 +666,10 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"The Philippine jeepney, often called the 'King of the Road', has long been a symbol of Filipino culture and ingenuity. Originally fashioned from leftover American military jeeps after World War II, these colorful vehicles provided affordable mass transportation for millions. However, concerns regarding carbon emissions, traffic congestion, and commuter safety have prompted the government to push for the Public Utility Vehicle Modernization Program (PUVMP). While proponents argue that modernized mini-buses will offer cleaner energy and safer rides, opponents express fears over the financial burden placed on small jeepney operators and drivers.\"\n\nBased on the passage, why do opponents resist the PUVMP?",
     "choices": [
-      "They want to replace jeepneys with trains instead.",
-      "They dislike cleaner energy and safer rides.",
+      "They worry that modern vehicles will reduce the number of routes serving rural areas.",
+      "They believe the program prioritizes traffic reduction over improving vehicle safety.",
       "They worry about the financial hardship it creates for drivers and small operators.",
-      "They believe jeepneys cause zero carbon emissions."
+      "They believe the program will prevent commuters from using affordable public transport."
     ],
     "correct_answer": "They worry about the financial hardship it creates for drivers and small operators.",
     "explanation": "The passage explicitly states: 'opponents express fears over the financial burden placed on small jeepney operators and drivers.'",
@@ -692,9 +692,9 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"Coral reefs are among the most biodiverse ecosystems on Earth, supporting over 25 percent of all marine life despite covering less than 0.1 percent of the ocean floor. In the Philippines, local coastal communities depend heavily on coral reefs for food security and coastal protection against storm surges. Unfortunately, rising sea temperatures caused by global climate change have led to widespread coral bleaching. When corals bleach, they expel the symbiotic algae living in their tissues, turning completely white and becoming vulnerable to disease and death.\"\n\nWhat can be inferred about the loss of coral reefs in coastal communities?",
     "choices": [
-      "Coral reefs will shift to freshwater rivers.",
-      "Coastal communities will experience increased fish populations.",
-      "Tourism will immediately double in bleached coral zones.",
+      "Coastal residents will need less storm protection because bleached reefs grow more quickly.",
+      "Coastal fisheries will become more productive as reefs release their symbiotic algae.",
+      "Food supplies will remain stable because reef loss affects only offshore tourism.",
       "Food security and storm surge defense for coastal residents will be severely compromised."
     ],
     "correct_answer": "Food security and storm surge defense for coastal residents will be severely compromised.",
@@ -719,9 +719,9 @@
     "question": "Read the passage carefully and answer the question:\n\n\"Banaue Rice Terraces, carved into the mountains of Ifugao by ancestors of the indigenous people over 2,000 years ago, are frequently referred to as the 'Eighth Wonder of the World'. These hand-hewn terraces rely on an intricate ancient irrigation system that channels water from rainforests above the mountains. Today, however, the terraces face serious threats from youth migration to urban areas, leading to a shortage of traditional farmers needed for maintenance.\"\n\nWhat major challenge threatens the preservation of the Banaue Rice Terraces according to the text?",
     "choices": [
       "The migration of younger generations to cities, resulting in fewer traditional farmers.",
-      "The destruction of rainforests by volcanic eruptions.",
-      "The lack of modern machinery to harvest rice.",
-      "A sudden drought that dried up the mountain streams 2,000 years ago."
+      "The replacement of the ancient irrigation system with poorly maintained modern pumps.",
+      "The conversion of the upper rainforests into new commercial rice-growing terraces.",
+      "The abandonment of rice cultivation because farmers can no longer use rainwater."
     ],
     "correct_answer": "The migration of younger generations to cities, resulting in fewer traditional farmers.",
     "explanation": "The text explicitly points to 'youth migration to urban areas, leading to a shortage of traditional farmers needed for maintenance.'",
@@ -744,10 +744,10 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"Mangroves serve as vital ecological buffers along tropical coastlines. Their dense root networks trap sediments, preventing coastal erosion and filtering pollutants before they reach deep ocean waters. Furthermore, mangroves act as natural nurseries for various species of fish and shellfish. Despite their immense ecological value, thousands of hectares of mangrove forests have been cleared to make way for commercial fishponds and coastal resort developments.\"\n\nWhat is the author's primary attitude towards mangrove destruction?",
     "choices": [
-      "Enthusiastic about economic expansion.",
-      "Indifferent and neutral.",
+      "Supportive of replacing mangroves with fishponds to improve coastal food supplies.",
+      "Neutral about clearing mangroves because their ecological benefits are uncertain.",
       "Concerned about ecological loss caused by commercial development.",
-      "Optimistic that fishponds will replace mangrove benefits."
+      "Confident that coastal resorts will preserve the functions of mangrove roots."
     ],
     "correct_answer": "Concerned about ecological loss caused by commercial development.",
     "explanation": "The author highlights the 'immense ecological value' of mangroves and contrasts it with their tragic clearing for commercial gain ('Despite their immense ecological value... cleared').",
@@ -848,10 +848,10 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"The Magna Carta for Women (Republic Act No. 9710) is a comprehensive human rights law that seeks to eliminate discrimination against women in the Philippines. It guarantees equal rights in marriage, employment, education, and political participation. Furthermore, it mandates special protection for marginalized women, including rural workers, indigenous women, and victims of violence.\"\n\nWhich group is specifically mentioned as receiving special protection under RA 9710?",
     "choices": [
-      "Corporate executives in foreign firms.",
-      "Male civil service employees.",
+      "Women employed in senior management roles at international corporations.",
+      "Women who own large businesses and employ workers in urban centers.",
       "Marginalized women, such as rural workers and victims of violence.",
-      "Foreign tourists visiting provincial landmarks."
+      "Women visiting the Philippines temporarily for business or tourism."
     ],
     "correct_answer": "Marginalized women, such as rural workers and victims of violence.",
     "explanation": "The text explicitly states that RA 9710 'mandates special protection for marginalized women, including rural workers, indigenous women, and victims of violence.'",
@@ -874,10 +874,10 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"Microplastics—tiny plastic particles smaller than five millimeters—have been detected in marine life, bottled water, and even human bloodstream samples. Scientists warn that these particles can absorb toxic environmental chemicals and transfer them up the food chain. Because microplastics do not readily biodegrade, long-term exposure poses unknown health risks to human metabolic and immune systems.\"\n\nWhy are scientists concerned about microplastics in the food chain?",
     "choices": [
-      "They dissolve into harmless water droplets.",
-      "They make seafood taste salty.",
+      "They prevent marine animals from absorbing nutrients by removing chemicals from seawater.",
+      "They biodegrade into chemicals that are restricted to the lowest levels of the food chain.",
       "They absorb toxic chemicals and can transfer them to organisms higher in the food chain.",
-      "They cause fish to grow twice their normal size."
+      "They increase natural carbonate levels and change the mineral content of marine food."
     ],
     "correct_answer": "They absorb toxic chemicals and can transfer them to organisms higher in the food chain.",
     "explanation": "The text explains: 'these particles can absorb toxic environmental chemicals and transfer them up the food chain.'",
@@ -900,9 +900,9 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"The Philippine Civil Service Commission (CSC) serves as the central personnel agency of the Philippine government. Established to uphold the merit system, the CSC ensures that appointments to civil service positions are based on fitness and ability rather than political patronage. By conducting competitive examinations, the agency aims to maintain an efficient, honest, and professional bureaucracy.\"\n\nWhat is the primary role of the Civil Service Commission according to the passage?",
     "choices": [
-      "To manage private corporate mergers.",
-      "To oversee foreign diplomatic missions.",
-      "To collect national revenue and taxes.",
+      "To approve agency budgets and distribute funding for government recruitment.",
+      "To assign government positions according to each agency head's political priorities.",
+      "To train newly elected officials and certify the results of national elections.",
       "To ensure government appointments are based on merit and fitness."
     ],
     "correct_answer": "To ensure government appointments are based on merit and fitness.",
@@ -926,10 +926,10 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"Organic farming avoids the use of synthetic fertilizers and chemical pesticides, relying instead on crop rotation, green manure, and biological pest control. Proponents argue that organic methods preserve soil health, protect groundwater from chemical runoff, and yield safer food products. Critics, however, point out that organic farming generally yields fewer crops per hectare, requiring more land to produce the same quantity of food as conventional farming.\"\n\nWhat limitation of organic farming is identified by critics?",
     "choices": [
-      "It causes immediate pollution of groundwater.",
+      "It requires more synthetic fertilizer to maintain the same level of soil nutrients.",
       "It produces lower crop yields per hectare compared to conventional farming.",
-      "It requires chemical runoff to succeed.",
-      "It damages soil health permanently."
+      "It reduces the amount of farmland needed but increases the cost of pest control.",
+      "It protects groundwater only by replacing crop rotation with chemical pesticides."
     ],
     "correct_answer": "It produces lower crop yields per hectare compared to conventional farming.",
     "explanation": "The passage states: 'organic farming generally yields fewer crops per hectare, requiring more land to produce the same quantity of food as conventional farming.'",
@@ -978,10 +978,10 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"Urban agriculture, such as vertical farming and rooftop gardens, is gaining popularity in congested cities like Manila. By growing produce locally, cities can reduce the carbon emissions associated with transporting food from rural provinces. Additionally, urban farms provide fresh, pesticide-free vegetables directly to urban consumers. However, high real estate costs and limited water access present ongoing challenges for large-scale urban farming projects.\"\n\nWhat is a primary environmental benefit of urban farming mentioned in the text?",
     "choices": [
-      "It completely replaces rural farms.",
-      "It eliminates the need for water in agriculture.",
+      "It reduces the price of urban land by moving farms onto unused rooftops.",
+      "It reduces water consumption by replacing irrigation with vertical planting.",
       "It reduces transportation-related carbon emissions by growing food locally.",
-      "It lowers real estate prices in Manila."
+      "It reduces rural emissions by moving all agricultural production into cities."
     ],
     "correct_answer": "It reduces transportation-related carbon emissions by growing food locally.",
     "explanation": "The text states: 'By growing produce locally, cities can reduce the carbon emissions associated with transporting food from rural provinces.'",
@@ -1017,10 +1017,10 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"The process of ocean acidification occurs when seawater absorbs excess carbon dioxide (CO2) from the atmosphere, forming carbonic acid. This subtle drop in pH levels reduces the availability of carbonate ions, which marine organisms such as oysters, clams, and corals require to build their protective shells and skeletons. Consequently, shellfish populations face severe decline, threatening marine biodiversity and commercial fisheries.\"\n\nHow does ocean acidification affect organisms like oysters and corals?",
     "choices": [
-      "It accelerates their shell growth rate.",
+      "It increases carbonate availability, allowing organisms to build thicker shells.",
       "It reduces carbonate ions needed to build shells and skeletons.",
-      "It forces shellfish to migrate onto land.",
-      "It turns seawater into freshwater."
+      "It reduces carbonic acid formation, weakening organisms' protective tissues.",
+      "It increases seawater pH, preventing corals from attaching to the seafloor."
     ],
     "correct_answer": "It reduces carbonate ions needed to build shells and skeletons.",
     "explanation": "The text explains that acidification 'reduces the availability of carbonate ions, which marine organisms such as oysters, clams, and corals require to build their protective shells and skeletons.'",
@@ -1043,9 +1043,9 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"Cognitive flexibility is the mental ability to switch between thinking about two different concepts or to think about multiple concepts simultaneously. Individuals with high cognitive flexibility adapt more effectively to unexpected workplace changes and display superior problem-solving skills under pressure. Psychologists suggest that learning new skills, such as playing a musical instrument or studying a new language, enhances this cognitive trait.\"\n\nHow can a person enhance their cognitive flexibility according to the text?",
     "choices": [
-      "By focusing strictly on a single routine task forever.",
-      "By avoiding any unexpected workplace changes.",
-      "By reducing daily sleep hours.",
+      "By repeating familiar work tasks until they can be completed without conscious effort.",
+      "By arranging work so that they encounter fewer changes in routine or responsibilities.",
+      "By concentrating on one existing skill and avoiding activities outside that specialty.",
       "By learning new complex skills like musical instruments or languages."
     ],
     "correct_answer": "By learning new complex skills like musical instruments or languages.",
@@ -1121,10 +1121,10 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"Universal Health Care Act (Republic Act No. 11223) automatically enrolls all Philippine citizens in the National Health Insurance Program (PhilHealth). The law seeks to ensure that every Filipino has access to a comprehensive set of health services without facing financial hardship. Under this system, population-based health services are financed by the national government, while individual-based services are covered by PhilHealth and private insurers.\"\n\nWhat does RA 11223 automatically do for all Filipino citizens?",
     "choices": [
-      "Issues them international passports.",
+      "Guarantees them free treatment for every illness at any private hospital.",
       "Enrolls them in the National Health Insurance Program (PhilHealth).",
-      "Provides free college education.",
-      "Grants them tax-exempt status."
+      "Exempts them from paying premiums for any form of private health insurance.",
+      "Assigns them a personal physician employed by the national government."
     ],
     "correct_answer": "Enrolls them in the National Health Insurance Program (PhilHealth).",
     "explanation": "The text explicitly says that RA 11223 'automatically enrolls all Philippine citizens in the National Health Insurance Program (PhilHealth).'",
@@ -1134,9 +1134,9 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"Workplace burnout is a state of physical and emotional exhaustion caused by prolonged chronic stress. Symptoms include chronic fatigue, cynicism towards work duties, and a reduced sense of personal accomplishment. Organizational psychologists emphasize that preventing burnout requires management to establish realistic workloads, promote work-life balance, and foster a supportive workplace environment.\"\n\nWhich symptom of workplace burnout is mentioned in the passage?",
     "choices": [
-      "Improved physical agility.",
-      "Increased enthusiasm for new assignments.",
-      "Rapid promotion to executive leadership.",
+      "Persistent worry, sleep disturbance, and an increased need for reassurance.",
+      "Frequent headaches, muscle tension, and difficulty relaxing after work.",
+      "Difficulty concentrating, irritability, and withdrawal from social activities.",
       "Chronic fatigue, cynicism, and reduced sense of accomplishment."
     ],
     "correct_answer": "Chronic fatigue, cynicism, and reduced sense of accomplishment.",
@@ -1160,10 +1160,10 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"Preserving oral traditions and indigenous languages is critical to maintaining cultural heritage in the Philippines. Many indigenous languages face extinction as younger generations shift toward speaking regional lingua francas or English. Educational programs that incorporate Mother Tongue-Based Multilingual Education (MTB-MLE) seek to preserve these native languages by teaching young learners in their primary mother tongue during early schooling.\"\n\nWhat is the goal of Mother Tongue-Based Multilingual Education (MTB-MLE)?",
     "choices": [
-      "To replace written textbooks with audio recordings.",
+      "To document indigenous languages through recordings while teaching all lessons in English.",
       "To preserve native languages by educating young students in their mother tongue during early schooling.",
-      "To require all adults to learn Latin.",
-      "To eliminate all local dialects in favor of foreign languages."
+      "To prepare young learners for urban migration by teaching only a regional lingua franca.",
+      "To preserve oral traditions by replacing classroom instruction with community performances."
     ],
     "correct_answer": "To preserve native languages by educating young students in their mother tongue during early schooling.",
     "explanation": "The text states that MTB-MLE programs 'seek to preserve these native languages by teaching young learners in their primary mother tongue during early schooling.'",
@@ -1187,9 +1187,9 @@
     "question": "Read the passage carefully and answer the question:\n\n\"Artificial reef structures, made from concrete blocks or decommissioned ships, are deployed on barren seafloors to promote marine growth. These man-made structures provide hard surfaces for algae and corals to attach to, creating shelter and feeding grounds for juvenile fish. Over time, artificial reefs help restore degraded marine habitats and support local artisanal fisheries.\"\n\nWhy are artificial reefs deployed on barren seafloors?",
     "choices": [
       "To provide hard surfaces for corals/algae and restore degraded fish habitats.",
-      "To dump industrial waste out of sight.",
-      "To raise ocean water levels.",
-      "To block commercial shipping lanes."
+      "To create offshore barriers that redirect currents away from commercial fishing grounds.",
+      "To relocate mature coral colonies into deeper waters beyond the reach of coastal fishers.",
+      "To cover natural reefs with concrete so that fishing boats can anchor without damage."
     ],
     "correct_answer": "To provide hard surfaces for corals/algae and restore degraded fish habitats.",
     "explanation": "The text states artificial reefs 'provide hard surfaces for algae and corals to attach to, creating shelter and feeding grounds for juvenile fish... help restore degraded marine habitats.'",
@@ -1212,9 +1212,9 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"Greenwashing refers to the deceptive marketing practice where a company exaggerates or fabricates its environmental credentials to appeal to eco-conscious consumers. For example, a business might highlight recyclable packaging while concealing toxic manufacturing processes. Consumer protection advocates urge buyers to scrutinize third-party certifications rather than relying solely on vague 'green' claims.\"\n\nWhat is 'greenwashing' according to the passage?",
     "choices": [
-      "Planting trees along urban highways.",
-      "Cleaning solar panels with environmentally safe soap.",
-      "Washing clothing using cold water instead of hot water.",
+      "Promoting verified environmental improvements through independent third-party certifications.",
+      "Reporting environmental harms while clearly explaining a company's plans to address them.",
+      "Advertising recyclable packaging while fully disclosing the impacts of manufacturing.",
       "Deceptively marketing a company as eco-friendly while hiding harmful practices."
     ],
     "correct_answer": "Deceptively marketing a company as eco-friendly while hiding harmful practices.",
@@ -1239,9 +1239,9 @@
     "question": "Read the passage carefully and answer the question:\n\n\"Geothermal energy harnesses heat generated beneath the Earth's crust to produce clean electricity. The Philippines is one of the world's top producers of geothermal power, utilizing its volcanic geography along the Pacific Ring of Fire. Because geothermal plants operate continuously regardless of weather conditions, they provide a reliable baseload power supply compared to intermittent solar or wind sources.\"\n\nWhy is geothermal power considered a reliable baseload power supply in the Philippines?",
     "choices": [
       "It operates continuously regardless of weather conditions using sub-surface Earth heat.",
-      "It only produces electricity during daytime hours.",
-      "It requires imported coal to maintain turbine heat.",
-      "It relies heavily on seasonal typhoon winds."
+      "It stores daytime solar energy underground and releases that energy after sunset.",
+      "It adjusts its heat source to seasonal winds and increases output during typhoons.",
+      "It draws heat from imported fuels whenever volcanic activity becomes too weak."
     ],
     "correct_answer": "It operates continuously regardless of weather conditions using sub-surface Earth heat.",
     "explanation": "The text states: 'Because geothermal plants operate continuously regardless of weather conditions, they provide a reliable baseload power supply...'",
@@ -1264,10 +1264,10 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"The urban heat island effect describes metropolitan areas that experience significantly warmer temperatures than surrounding rural regions. This temperature discrepancy is primarily caused by human activities, dense concentrations of heat-trapping buildings, and the replacement of natural vegetation with paved surfaces. Mitigating this effect requires urban planners to incorporate cool roofs, green spaces, and permeable pavements.\"\n\nWhat causes the urban heat island effect according to the passage?",
     "choices": [
-      "Industrial ocean currents flowing through city streets.",
-      "The presence of too many urban parks.",
+      "Reduced rainfall, cooler building surfaces, and stronger winds between city streets.",
+      "Expanded parks, increased tree cover, and greater evaporation from urban vegetation.",
       "Human activities, heat-trapping buildings, and loss of natural vegetation.",
-      "The complete lack of sunshine in rural areas."
+      "Ocean temperatures, rural soil erosion, and seasonal changes in agricultural land use."
     ],
     "correct_answer": "Human activities, heat-trapping buildings, and loss of natural vegetation.",
     "explanation": "The text states the temperature difference is 'primarily caused by human activities, dense concentrations of heat-trapping buildings, and the replacement of natural vegetation with paved surfaces.'",
@@ -1290,10 +1290,10 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"Financial inclusion aims to ensure that individuals and businesses have access to useful and affordable financial products and services, such as transactions, payments, savings, credit, and insurance. In recent years, digital financial services like mobile e-wallets have dramatically expanded financial inclusion in the Philippines, enabling unbanked rural populations to participate in the digital economy.\"\n\nHow have mobile e-wallets contributed to financial inclusion in the Philippines?",
     "choices": [
-      "By requiring users to maintain high minimum bank balances.",
-      "By eliminating the need for any electronic payments.",
+      "By extending branch banking hours and requiring rural users to open savings accounts.",
+      "By replacing digital payments with cash transfers delivered through rural bank branches.",
       "By allowing unbanked rural populations to access digital transactions and financial services.",
-      "By banning online shopping transactions."
+      "By providing rural users with credit only after they meet high bank balance requirements."
     ],
     "correct_answer": "By allowing unbanked rural populations to access digital transactions and financial services.",
     "explanation": "The text notes: 'digital financial services like mobile e-wallets have dramatically expanded financial inclusion... enabling unbanked rural populations to participate in the digital economy.'",

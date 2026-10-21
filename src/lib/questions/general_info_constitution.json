@@ -95,10 +95,10 @@
         "category": "General Information – Philippine Constitution & RA 6713",
         "question": "The Philippines is a:",
         "choices": [
-            "Constitutional monarchy",
+            "Constitutional and hereditary monarchy",
             "Democratic and republican state",
-            "Federal state",
-            "Parliamentary state"
+            "Federal and parliamentary republic",
+            "Socialist and one-party state"
         ],
         "correct_answer": "Democratic and republican state",
         "explanation": "Article II, Section 1 declares: 'The Philippines is a democratic and republican State.'"
@@ -563,9 +563,9 @@
         "category": "General Information – Philippine Constitution & RA 6713",
         "question": "What is the required vote of all the members of Congress to propose amendments to the Constitution through a Constituent Assembly?",
         "choices": [
-            "Simple majority of both Houses",
+            "One-half of all its Members",
             "Two-thirds of all its Members",
-            "Unanimous vote",
+            "All of its Members unanimously",
             "Three-fourths of all its Members"
         ],
         "correct_answer": "Three-fourths of all its Members",
@@ -613,12 +613,12 @@
     {
         "id": "7048",
         "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What concept guarantees that local government units receive a just share in national taxes (NTA/IRA)?",
+        "question": "Under Article X, Section 6 of the Constitution, which mechanism governs the release of local government units' just share in national taxes?",
         "choices": [
-            "Revenue Sharing Charter",
+            "Annual Approval of Local Share",
             "Automatic Release of Local Share",
-            "Devolution Bond",
-            "Local Fiscal Autonomy"
+            "Presidential Allocation of Local Share",
+            "Congressional Certification of Local Share"
         ],
         "correct_answer": "Automatic Release of Local Share",
         "explanation": "Article X, Section 6 states local government units shall have a just share in national taxes which shall be automatically released to them."
@@ -822,10 +822,10 @@
         "category": "General Information – Philippine Constitution & RA 6713",
         "question": "What is the primary role of the Ombudsman under Article XI of the Constitution?",
         "choices": [
-            "To supervise local election results",
+            "To review election disputes and certify the winners of national contests",
             "To act as the protector of the people against government corruption and abuse",
-            "To prosecute private corporate crimes",
-            "To draft national economic development budgets"
+            "To audit government accounts and settle claims involving public expenditures",
+            "To advise the President on appointments and the organization of executive offices"
         ],
         "correct_answer": "To act as the protector of the people against government corruption and abuse",
         "explanation": "Article XI, Section 12 states: 'The Ombudsman and his Deputies, as protectors of the people, shall act promptly on complaints filed in any form or manner against public officials or employees.'",
@@ -875,9 +875,9 @@
         "question": "Under RA 6713, public officials are prohibited from engaging in the private practice of their profession unless:",
         "choices": [
             "Authorized by constitution or law, and no conflict of interest exists",
-            "It is done during weekend hours only",
-            "They receive written permission from their family",
-            "They donate 50% of their private earnings"
+            "Approved by an immediate supervisor, even when official duties conflict",
+            "Performed outside office hours, even without express legal authorization",
+            "Disclosed in an annual report, even when the practice involves official clients"
         ],
         "correct_answer": "Authorized by constitution or law, and no conflict of interest exists",
         "explanation": "RA 6713 Section 7(b) prohibits private practice unless expressly allowed by law and provided it does not conflict with official duties.",
@@ -1004,10 +1004,10 @@
         "category": "General Information – Philippine Constitution & RA 6713",
         "question": "What is the term limit for the President of the Philippines under Article VII, Section 4?",
         "choices": [
-            "No limit on re-election",
-            "Two 6-year terms",
+            "One single 4-year term without re-election",
+            "Two consecutive 6-year terms with re-election",
             "One single 6-year term without re-election",
-            "Two 4-year terms with re-election"
+            "Two consecutive 4-year terms with re-election"
         ],
         "correct_answer": "One single 6-year term without re-election",
         "explanation": "Article VII, Section 4 provides that the President shall serve a term of six years and 'shall not be eligible for any re-election.'",

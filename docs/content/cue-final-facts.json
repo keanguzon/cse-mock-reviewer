@@ -1,0 +1,306 @@
+{
+  "review_date": "2026-10-21",
+  "scope": "Final editorial disposition of all 48 historical factual-bank cue candidates, plus the strong 8006 leak. Editorial review is not independent factual certification of the whole bank. Distractors are deliberately incorrect alternatives, not factual assertions.",
+  "dispositions": [
+    {
+      "id": "7008",
+      "status": "revised",
+      "reason": "Parallel two-part state descriptions remove the uniquely qualified key.",
+      "correct_answer": "Democratic and republican state"
+    },
+    {
+      "id": "7044",
+      "status": "revised",
+      "reason": "Every option now states a vote of the full membership.",
+      "correct_answer": "Three-fourths of all its Members"
+    },
+    {
+      "id": "7048",
+      "status": "revised",
+      "reason": "Narrowed the stem to the release mechanism rather than conflating it with fiscal autonomy.",
+      "correct_answer": "Automatic Release of Local Share"
+    },
+    {
+      "id": "7071",
+      "status": "revised",
+      "reason": "Replaced unrelated functions with comparable governmental oversight functions.",
+      "correct_answer": "To act as the protector of the people against government corruption and abuse"
+    },
+    {
+      "id": "7072",
+      "status": "retained_after_review",
+      "reason": "Both Latin principles have English glosses; the competing ancestry and birthplace rules are credible. Other options test different citizenship concepts. No answer-only annotation.",
+      "correct_answer": "Jus sanguinis (right of blood)"
+    },
+    {
+      "id": "7075",
+      "status": "revised",
+      "reason": "Replaced implausible family/donation conditions with competing authorization and conflict conditions.",
+      "correct_answer": "Authorized by constitution or law, and no conflict of interest exists"
+    },
+    {
+      "id": "7087",
+      "status": "revised",
+      "reason": "All options now specify duration and re-election rules.",
+      "correct_answer": "One single 6-year term without re-election"
+    },
+    {
+      "id": "7108",
+      "status": "retained_after_review",
+      "reason": "All four alternatives are named national institutions with similar wording; the modest name-length difference is inherent.",
+      "correct_answer": "The Congress of the Philippines"
+    },
+    {
+      "id": "8055",
+      "status": "revised",
+      "reason": "Replaced mining, airport, and traffic alternatives with comparable environmental permitting, research, and energy-regulation responsibilities.",
+      "correct_answer": "To serve as the sole policy-making body of the government tasked to coordinate climate change programs"
+    },
+    {
+      "id": "8065",
+      "status": "revised",
+      "reason": "All options now use comparable three-part institutional motto wording.",
+      "correct_answer": "One Vision, One Identity, One Community"
+    },
+    {
+      "id": "8066",
+      "status": "retained_after_review",
+      "reason": "All alternatives are plausible Philippine statute titles; two already carry dates. The correct title is not uniquely expanded or annotated.",
+      "correct_answer": "Cybercrime Prevention Act of 2012"
+    },
+    {
+      "id": "8068",
+      "status": "revised",
+      "reason": "All choices now use real Philippine statute titles with enactment dates; necessary precision of the longer correct title is retained.",
+      "correct_answer": "Ease of Doing Business and Efficient Government Service Delivery Act of 2018"
+    },
+    {
+      "id": "8070",
+      "status": "retained_after_review",
+      "reason": "All alternatives already use full department names and acronyms. DENR's longer official name is necessary identification.",
+      "correct_answer": "Department of Environment and Natural Resources (DENR)"
+    },
+    {
+      "id": "8073",
+      "status": "revised",
+      "reason": "Corrected the overbroad developed-to-developing transfer claim to control, minimization, and environmentally sound management; all choices now describe comparable treaty objectives.",
+      "correct_answer": "Controlling and minimizing transboundary movements of hazardous wastes and ensuring environmentally sound management",
+      "sources": [
+        "https://www.basel.int/Implementation/Controllingtransboundarymovements/Overview/tabid/4325/ItemId/5461/Default.aspx"
+      ]
+    },
+    {
+      "id": "8078",
+      "status": "revised",
+      "reason": "Replaced lunar stations and other unrelated goals with competing international policy programs sharing the 2030 horizon.",
+      "correct_answer": "To achieve a better and more sustainable future for all by 2030 through 17 global goals"
+    },
+    {
+      "id": "8080",
+      "status": "revised",
+      "reason": "All choices now have formal education-law titles, dates, and parenthetical program descriptions.",
+      "correct_answer": "Enhanced Basic Education Act of 2013 (K to 12 Program)"
+    },
+    {
+      "id": "8081",
+      "status": "revised",
+      "reason": "All choices now name classes of tertiary institutions, rather than mixing institution types with degree levels or exchanges alone.",
+      "correct_answer": "State Universities and Colleges (SUCs) and Local Universities and Colleges (LUCs)"
+    },
+    {
+      "id": "8084",
+      "status": "revised",
+      "reason": "All options now identify UN specialized agencies with expanded names and acronyms.",
+      "correct_answer": "World Health Organization (WHO)"
+    },
+    {
+      "id": "8085",
+      "status": "revised",
+      "reason": "Replaced homework and bankruptcy with competing three-part child-protection issue lists.",
+      "correct_answer": "Child abuse, exploitation, and discrimination"
+    },
+    {
+      "id": "8086",
+      "status": "revised",
+      "reason": "All choices now describe a substantial national fiscal or financial regulatory responsibility rather than unrelated construction or licensing tasks.",
+      "correct_answer": "To maintain price stability conducive to a balanced and sustainable growth of the economy"
+    },
+    {
+      "id": "8088",
+      "status": "revised",
+      "reason": "All choices now name nuclear arms-control treaties with expanded names and acronyms.",
+      "correct_answer": "Treaty on the Prohibition of Nuclear Weapons (TPNW)"
+    },
+    {
+      "id": "8092",
+      "status": "revised",
+      "reason": "All choices now use the Magna Carta statutory-title form rather than mixing unrelated short law names.",
+      "correct_answer": "Magna Carta for Disabled Persons"
+    },
+    {
+      "id": "8093",
+      "status": "revised",
+      "reason": "All options now pair statute numbers with a descriptive law name.",
+      "correct_answer": "Republic Act No. 8371 (IPRA Law)"
+    },
+    {
+      "id": "8096",
+      "status": "revised",
+      "reason": "All choices now describe financial-sector or public-finance responsibilities with comparable detail.",
+      "correct_answer": "To register and regulate corporations, partnerships, and securities markets"
+    },
+    {
+      "id": "8098",
+      "status": "revised",
+      "reason": "All options now use expanded convention names and acronyms.",
+      "correct_answer": "United Nations Convention on the Law of the Sea (UNCLOS)"
+    },
+    {
+      "id": "8100",
+      "status": "revised",
+      "reason": "All choices now pair formal statute names with enactment years and acronyms.",
+      "correct_answer": "Comprehensive Agrarian Reform Law of 1988 (CARL)"
+    },
+    {
+      "id": "18022",
+      "status": "revised",
+      "reason": "All distractors now describe plausible administrative reforms; removed unrelated tax collection as an obvious elimination cue.",
+      "correct_answer": "To improve efficiency in delivering public services"
+    },
+    {
+      "id": "18035",
+      "status": "revised",
+      "reason": "All choices now describe types of information protected in an information-system context.",
+      "correct_answer": "Individual personal information in ICT systems"
+    },
+    {
+      "id": "18052",
+      "status": "revised",
+      "reason": "All distractors now represent possible transport-policy concerns rather than rejecting safety or claiming zero emissions.",
+      "correct_answer": "They worry about the financial hardship it creates for drivers and small operators."
+    },
+    {
+      "id": "18054",
+      "status": "revised",
+      "reason": "All distractors now make explicit but unsupported claims about reef loss and coastal benefits rather than rivers or doubled tourism.",
+      "correct_answer": "Food security and storm surge defense for coastal residents will be severely compromised."
+    },
+    {
+      "id": "18056",
+      "status": "revised",
+      "reason": "All distractors now concern terrace cultivation, irrigation, or forest management rather than an ancient sudden drought.",
+      "correct_answer": "The migration of younger generations to cities, resulting in fewer traditional farmers."
+    },
+    {
+      "id": "18058",
+      "status": "revised",
+      "reason": "All choices now express an interpretation of the tradeoff between ecological functions and coastal development.",
+      "correct_answer": "Concerned about ecological loss caused by commercial development."
+    },
+    {
+      "id": "18066",
+      "status": "revised",
+      "reason": "All alternatives now describe groups of women; the passage specifically identifies marginalized women.",
+      "correct_answer": "Marginalized women, such as rural workers and victims of violence."
+    },
+    {
+      "id": "18068",
+      "status": "revised",
+      "reason": "All distractors now concern chemicals, biodegradation, and the marine food chain rather than taste or doubled fish size.",
+      "correct_answer": "They absorb toxic chemicals and can transfer them to organisms higher in the food chain."
+    },
+    {
+      "id": "18070",
+      "status": "revised",
+      "reason": "All distractors now describe plausible government personnel or administrative functions, with only the key matching the merit-system passage.",
+      "correct_answer": "To ensure government appointments are based on merit and fitness."
+    },
+    {
+      "id": "18072",
+      "status": "revised",
+      "reason": "All distractors now discuss yields, inputs, soil, or groundwater using terms from the passage rather than absolute permanent harm.",
+      "correct_answer": "It produces lower crop yields per hectare compared to conventional farming."
+    },
+    {
+      "id": "18076",
+      "status": "revised",
+      "reason": "All distractors now concern urban agriculture costs or environmental mechanisms rather than eliminating water or replacing all rural farms.",
+      "correct_answer": "It reduces transportation-related carbon emissions by growing food locally."
+    },
+    {
+      "id": "18079",
+      "status": "revised",
+      "reason": "All alternatives now concern the acidification mechanism and shell construction rather than land migration or freshwater.",
+      "correct_answer": "It reduces carbonate ions needed to build shells and skeletons."
+    },
+    {
+      "id": "18081",
+      "status": "revised",
+      "reason": "All distractors now concern plausible work and learning strategies rather than sleep reduction or doing one task forever.",
+      "correct_answer": "By learning new complex skills like musical instruments or languages."
+    },
+    {
+      "id": "18083",
+      "status": "retained_after_review",
+      "reason": "All alternatives describe conduct explicitly mentioned in the passage. The three positive norms are credible contrasts for a question asking which conduct is forbidden; their shorter phrasing does not require artificial padding.",
+      "correct_answer": "Soliciting gifts or engaging in financial conflicts of interest."
+    },
+    {
+      "id": "18087",
+      "status": "revised",
+      "reason": "All distractors now describe plausible health-service or insurance entitlements rather than passports, college, or tax exemptions.",
+      "correct_answer": "Enrolls them in the National Health Insurance Program (PhilHealth)."
+    },
+    {
+      "id": "18088",
+      "status": "revised",
+      "reason": "All alternatives now list plausible stress-related symptom clusters; only the key is listed in the passage.",
+      "correct_answer": "Chronic fatigue, cynicism, and reduced sense of accomplishment."
+    },
+    {
+      "id": "18090",
+      "status": "revised",
+      "reason": "All distractors now describe language education or cultural preservation approaches rather than Latin or erasing every dialect.",
+      "correct_answer": "To preserve native languages by educating young students in their mother tongue during early schooling."
+    },
+    {
+      "id": "18092",
+      "status": "revised",
+      "reason": "All distractors now concern marine structures, reefs, currents, or fisheries rather than raising ocean levels or blocking ships.",
+      "correct_answer": "To provide hard surfaces for corals/algae and restore degraded fish habitats."
+    },
+    {
+      "id": "18094",
+      "status": "revised",
+      "reason": "All alternatives now describe environmental marketing practices; only the key includes deceptive claims and hidden harms.",
+      "correct_answer": "Deceptively marketing a company as eco-friendly while hiding harmful practices."
+    },
+    {
+      "id": "18096",
+      "status": "revised",
+      "reason": "All alternatives now give proposed energy-supply mechanisms rather than isolated implausible statements.",
+      "correct_answer": "It operates continuously regardless of weather conditions using sub-surface Earth heat."
+    },
+    {
+      "id": "18098",
+      "status": "revised",
+      "reason": "All alternatives now list proposed physical causes using environmental and built-environment terms rather than impossible city-street ocean currents.",
+      "correct_answer": "Human activities, heat-trapping buildings, and loss of natural vegetation."
+    },
+    {
+      "id": "18100",
+      "status": "revised",
+      "reason": "All distractors now describe financial-access mechanisms rather than banning shopping or eliminating electronic payments.",
+      "correct_answer": "By allowing unbanked rural populations to access digital transactions and financial services."
+    },
+    {
+      "id": "8006",
+      "status": "revised",
+      "reason": "Replaced self-revealing full-name recognition with verified novel authorship and parallel historical author names; avoids uncertain full-name spelling trivia.",
+      "correct_answer": "Jose Rizal",
+      "sources": [
+        "https://philhistoricsites.nhcp.gov.ph/registry_database/jose-rizal-1861-1896-5/"
+      ]
+    }
+  ]
+}
