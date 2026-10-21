@@ -212,7 +212,6 @@ describe('TanStack administrator query cache', () => {
     expect(f.busy).not.toHaveBeenCalled();
   });
 });
-
 describe('targeted admin invalidation', () => {
   it('preserves page caches and avoids blocking through selection previews and reauthentication', async () => {
     const f = fixture();

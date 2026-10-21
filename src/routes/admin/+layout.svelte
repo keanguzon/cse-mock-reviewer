@@ -1,7 +1,8 @@
 <script lang="ts">
   import { page, navigating } from '$app/state';
   import { onMount } from 'svelte';
-  import { adminLoading, adminRefreshError, getAdminCsrfToken, hasAdminPageCache, revalidateAdminQueries, setAdminCacheScope } from '$lib/admin/client';
+  import { adminLoading, adminQueryClient, adminRefreshError, getAdminCsrfToken, hasAdminPageCache, revalidateAdminQueries, setAdminCacheScope } from '$lib/admin/client';
+  import { QueryClientProvider } from '@tanstack/svelte-query';
   import LoadingScreen from '$lib/components/admin/LoadingScreen.svelte';
   let { children, data } = $props();
   function prepareLogout(event: SubmitEvent) {
@@ -26,7 +27,7 @@
     {#if page.url.pathname !== '/admin/login'}<nav aria-label="Administration"><a href="/admin" aria-current={page.url.pathname === '/admin' ? 'page' : undefined}>Overview</a><a href="/admin/users" aria-current={page.url.pathname.startsWith('/admin/users') ? 'page' : undefined}>Users</a><a href="/admin/audit" aria-current={page.url.pathname === '/admin/audit' ? 'page' : undefined}>Audit</a><form method="POST" action="/admin/logout" onsubmit={prepareLogout}><input type="hidden" name="csrf" value={data.csrf ?? ''}/><button class="btn-ghost" type="submit">Log out</button></form></nav>{/if}
   </header>
   {#if $adminRefreshError}<div class="refresh-notice" role="alert"><span>{$adminRefreshError}</span><button class="btn-ghost" onclick={()=>revalidateAdminQueries()}>Retry refresh</button></div>{/if}
-  {@render children()}
+  <QueryClientProvider client={adminQueryClient}>{@render children()}</QueryClientProvider>
 </div>
 {#if $adminLoading > 0 || coldNavigation}<LoadingScreen />{/if}
 <style>

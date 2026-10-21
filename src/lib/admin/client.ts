@@ -174,4 +174,3 @@ export const watchAdminQuery = client.subscribe;
 export const revalidateAdminQueries = client.revalidateQueries;
 
 export const adminQueryClient = client.queryClient;
-
