@@ -1,9 +1,11 @@
 <script lang="ts">
-  import { invalidateAdminCache } from '$lib/admin/client';
+  import { invalidateAdminCache, watchAdminQuery } from '$lib/admin/client';
  import { onMount } from 'svelte';import { adminRequest } from '$lib/admin/client';import ConfirmDialog from '$lib/components/admin/ConfirmDialog.svelte';
  let result=$state<any>({items:[],total:0}),page=$state(1),action=$state(''),status=$state(''),targetId=$state(''),busy=$state(false),problem=$state(''),retryId=$state(''),password=$state('');
  let sequence=0;
- async function load(reset=false){if(reset)page=1;const request=++sequence;busy=true;problem='';try{const response=await adminRequest(`api/audit?${new URLSearchParams({page:String(page),pageSize:'20',action:action==='login'?'login_success':action,status,targetId})}`);if(request===sequence)result=response;}catch(e){if(request===sequence)problem=(e as Error).message;}finally{if(request===sequence)busy=false;}}
+ let activeQuery=$state('');
+ $effect(()=>activeQuery ? watchAdminQuery<any>(activeQuery,next=>{result=next;}) : undefined);
+ async function load(reset=false){if(reset)page=1;const request=++sequence;busy=true;problem='';try{activeQuery=`api/audit?${new URLSearchParams({page:String(page),pageSize:'20',action:action==='login'?'login_success':action,status,targetId})}`;const response=await adminRequest(activeQuery);if(request===sequence)result=response;}catch(e){if(request===sequence)problem=(e as Error).message;}finally{if(request===sequence)busy=false;}}
  async function retry(){busy=true;try{await adminRequest('reauth',{password});password='';await adminRequest(`api/operations/${retryId}/retry`,{});retryId='';await load();}catch(e){problem=(e as Error).message;retryId='';}finally{busy=false;password='';}}
  onMount(()=>load());
 </script>

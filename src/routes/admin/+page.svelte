@@ -1,10 +1,11 @@
 <script lang="ts">
-  import { invalidateAdminCache } from '$lib/admin/client';
+  import { invalidateAdminCache, watchAdminQuery } from '$lib/admin/client';
   import { onMount } from 'svelte';
   import { adminRequest } from '$lib/admin/client';
   let overview = $state<any>(null);let problem = $state('');let busy = $state(false);
   async function refresh(){busy=true;problem='';try{overview=await adminRequest('api/overview');}catch(e){problem=(e as Error).message;}finally{busy=false;}}
   onMount(refresh);
+  $effect(() => watchAdminQuery('api/overview', value => { overview = value; }));
 </script>
 <h1>Admin overview</h1>
 <div class="toolbar"><a class="btn-primary" href="/admin/users">Manage users</a><button class="btn-ghost" onclick={()=>{invalidateAdminCache();refresh();}} disabled={busy}>Refresh</button></div>

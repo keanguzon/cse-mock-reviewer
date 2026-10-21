@@ -1,9 +1,11 @@
 <script lang="ts">
-  import { invalidateAdminCache } from '$lib/admin/client';
+  import { invalidateAdminCache, watchAdminQuery } from '$lib/admin/client';
  import { onMount } from 'svelte';import { adminRequest } from '$lib/admin/client';import type { Page,UserSummary } from '$lib/admin/types';
  let search=$state(''),status=$state('all'),sort=$state('created_at'),direction=$state('desc'),page=$state(1),pageSize=$state(20),busy=$state(false),problem=$state('');
  let result=$state<Page<UserSummary>>({items:[],total:0,page:1,pageSize:20});let sequence=0;
- async function load(reset=false){if(reset)page=1;const request=++sequence;busy=true;problem='';try{const next=await adminRequest(`api/users?${new URLSearchParams({search,status,sort,direction,page:String(page),pageSize:String(pageSize)})}`);if(request===sequence)result=next;}catch(e){if(request===sequence)problem=(e as Error).message;}finally{if(request===sequence)busy=false;}}
+ let activeQuery=$state('');
+ $effect(()=>activeQuery ? watchAdminQuery<Page<UserSummary>>(activeQuery,next=>{result=next;}) : undefined);
+ async function load(reset=false){if(reset)page=1;const request=++sequence;busy=true;problem='';try{activeQuery=`api/users?${new URLSearchParams({search,status,sort,direction,page:String(page),pageSize:String(pageSize)})}`;const next=await adminRequest(activeQuery);if(request===sequence)result=next;}catch(e){if(request===sequence)problem=(e as Error).message;}finally{if(request===sequence)busy=false;}}
  onMount(()=>load());
 </script>
 <h1>Users</h1>

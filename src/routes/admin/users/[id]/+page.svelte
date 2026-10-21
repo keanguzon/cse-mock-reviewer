@@ -1,14 +1,23 @@
 <script lang="ts">
-  import { invalidateAdminCache } from '$lib/admin/client';
+  import { invalidateAdminCache, watchAdminQuery } from '$lib/admin/client';
   import { untrack } from 'svelte';import { page } from '$app/state';import { goto } from '$app/navigation';
   import { adminRequest } from '$lib/admin/client';import { emptySelection, toggleRow, togglePage } from '$lib/admin/selection';import type { SelectionPreview } from '$lib/admin/types';import ConfirmDialog from '$lib/components/admin/ConfirmDialog.svelte';
   let userId=$derived(page.params.id!);let detail=$state<any>(null),rows=$state<any[]>([]),total=$state(0),busy=$state(false),problem=$state(''),notice=$state('');
   let search=$state(''),mode=$state('all'),level=$state('all'),category=$state(''),from=$state(''),to=$state(''),sort=$state('completed_at'),direction=$state('desc'),currentPage=$state(1),pageSize=$state(20);
   let selection=$state(emptySelection()),preview=$state<SelectionPreview|null>(null),modal=$state<'delete'|'reset'|'account'|null>(null),accountStep=$state(1),typedEmail=$state(''),password=$state(''),expanded=$state(''),operationId=$state('');let sequence=0;
   let modalTrigger=$state<HTMLElement|null>(null);
+  let activeHistoryQuery=$state('');
+  $effect(()=>watchAdminQuery<any>(`api/users/${userId}`,next=>{detail=next;}));
+  $effect(()=>{
+    const path=activeHistoryQuery;
+    return path ? untrack(()=>watchAdminQuery<any>(path,next=>{
+      if(rows.map(row=>row.id).join()!==next.items.map((row:any)=>row.id).join())selection=emptySelection();
+      rows=next.items;total=next.total;
+    })) : undefined;
+  });
   let allPage=$derived(rows.length>0&&rows.every(row=>selection.ids.includes(row.id)));let somePage=$derived(rows.some(row=>selection.ids.includes(row.id))&&!allPage);
   const filter=()=>Object.fromEntries(Object.entries({search,mode,level,category,from,to,sort,direction,page:currentPage,pageSize}).filter(([,value])=>value!==''));
-  async function load(reset=false,clear=true){if(reset)currentPage=1;if(clear)selection=emptySelection();const request=++sequence;busy=true;problem='';try{const [u,history]=await Promise.all([adminRequest(`api/users/${userId}`),adminRequest(`api/users/${userId}/attempts?${new URLSearchParams(Object.entries(filter()).map(([k,v])=>[k,String(v)]))}`)]);if(request!==sequence)return;detail=u;rows=history.items;total=history.total;}catch(e){if(request===sequence)problem=(e as Error).message;}finally{if(request===sequence)busy=false;}}
+  async function load(reset=false,clear=true){if(reset)currentPage=1;if(clear)selection=emptySelection();const request=++sequence;busy=true;problem='';try{activeHistoryQuery=`api/users/${userId}/attempts?${new URLSearchParams(Object.entries(filter()).map(([k,v])=>[k,String(v)]))}`;const [u,history]=await Promise.all([adminRequest(`api/users/${userId}`),adminRequest(activeHistoryQuery)]);if(request!==sequence)return;detail=u;rows=history.items;total=history.total;}catch(e){if(request===sequence)problem=(e as Error).message;}finally{if(request===sequence)busy=false;}}
   $effect(()=>{userId;untrack(()=>{load(true);});return()=>{sequence++;};});
   $effect(()=>{search;mode;level;category;from;to;sort;direction;selection=emptySelection();});
   async function rowToggle(id:string){problem='';if(selection.selectionId&&selection.ids.includes(id)){busy=true;try{const p=await adminRequest<SelectionPreview>(`api/users/${userId}/selections/${selection.selectionId}/exclude`,{ids:[id]});selection={ids:p.ids,selectionId:p.selectionId};}catch(e){problem=(e as Error).message;selection=emptySelection();}finally{busy=false;}}else selection=toggleRow(selection,id);}
