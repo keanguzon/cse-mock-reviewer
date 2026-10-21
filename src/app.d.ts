@@ -3,7 +3,9 @@
 declare global {
 	namespace App {
 		// interface Error {}
-		// interface Locals {}
+		interface Locals {
+			admin?: import('./lib/server/admin/session').AdminContext;
+		}
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}
