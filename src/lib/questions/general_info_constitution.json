@@ -1030,10 +1030,10 @@
         "category": "General Information – Philippine Constitution & RA 6713",
         "question": "Who has the authority to declare the existence of a state of war under Article VI, Section 23?",
         "choices": [
-            "The Department of National Defense",
+            "The Department of National Defense, upon approval of a majority of its senior officials",
             "Congress, by a two-thirds vote of both Houses in joint session, voting separately",
-            "The President alone",
-            "The Supreme Court"
+            "The President, upon approval of a majority of the members of the Cabinet",
+            "The Supreme Court, by a two-thirds vote of its members sitting en banc"
         ],
         "correct_answer": "Congress, by a two-thirds vote of both Houses in joint session, voting separately",
         "explanation": "Article VI, Section 23(1) mandates that Congress, by a vote of two-thirds of both Houses in joint session voting separately, has the sole power to declare the existence of a state of war.",
@@ -1224,14 +1224,14 @@
     {
         "id": "7105",
         "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under Section 8 of RA 6713, which financial declaration must covered public officials and employees file under oath?",
+        "question": "Under Section 8 of RA 6713, which declaration must covered public officials and employees file under oath? Choose its standard abbreviation.",
         "choices": [
-            "Statement of Income and Expenses",
-            "Personal Data Sheet",
-            "Statement of Assets, Liabilities and Net Worth (SALN)",
-            "Bureau of Internal Revenue Form"
+            "ITR",
+            "PDS",
+            "SALN",
+            "DTR"
         ],
-        "correct_answer": "Statement of Assets, Liabilities and Net Worth (SALN)",
+        "correct_answer": "SALN",
         "explanation": "Section 8 requires covered public officials and employees to file a Statement of Assets, Liabilities and Net Worth and disclose business interests and financial connections. It expressly excepts honorary officials, laborers, and casual or temporary workers."
     },
     {

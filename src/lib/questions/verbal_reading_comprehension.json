@@ -952,9 +952,9 @@
     "category": "Verbal Ability – Reading Comprehension",
     "question": "Read the passage carefully and answer the question:\n\n\"The Philippine Clean Air Act of 1999 (Republic Act No. 8749) outlines a comprehensive air pollution control policy for the nation. It sets emission standards for industrial plants and motor vehicles while prohibiting incineration of municipal, biomedical and hazardous wastes when the burning process emits poisonous and toxic fumes. Local government units are tasked with monitoring ambient air quality and promoting clean alternative fuels within their jurisdictions.\"\n\nAccording to the passage, which waste disposal process does Section 20 prohibit?",
     "choices": [
-      "Recycling plastic containers.",
-      "Landfill burial.",
-      "Composting organic waste.",
+      "Recycling municipal waste by sorting containers and processing them into reusable materials.",
+      "Landfill disposal of municipal waste using compacted layers and a final covering of soil.",
+      "Composting organic waste through controlled decomposition to produce a soil amendment.",
       "Incineration of municipal, biomedical and hazardous wastes that emits poisonous and toxic fumes."
     ],
     "correct_answer": "Incineration of municipal, biomedical and hazardous wastes that emits poisonous and toxic fumes.",
