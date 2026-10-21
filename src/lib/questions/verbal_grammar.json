@@ -3,14 +3,9 @@
         "id": "16001",
         "category": "Verbal Ability – Grammar",
         "question": "Choose the sentence that is grammatically correct.",
-        "choices": [
-            "Each of the employees is required to submit his or her report.",
-            "Each of the employees are required to submit his or her report.",
-            "Each of the employees is required to submit their reports.",
-            "Each of the employees are required to submit their reports."
-        ],
+        "choices": ["Each of the employees is required to submit his or her report.","Each of the employees are required to submit his or her report.","Each of the employees is require to submit their reports.","Each of the employees are required to submit their reports."],
         "correct_answer": "Each of the employees is required to submit his or her report.",
-        "explanation": "'Each' is a singular indefinite pronoun and requires the singular verb 'is.' The pronoun reference should also be singular: 'his or her report.'"
+        "explanation": "'Each' takes the singular verb 'is'; 'is required' uses the past participle. Singular 'their' is also standard, but it does not repair the verb errors in the other choices."
     },
     {
         "id": "16002",
@@ -68,14 +63,9 @@
         "id": "16006",
         "category": "Verbal Ability – Grammar",
         "question": "Select the sentence with the correct use of the comparative form.",
-        "choices": [
-            "This procedure is more simple than the previous one.",
-            "This procedure is more simpler than the previous one.",
-            "This procedure is simpler than the previous one.",
-            "This procedure is most simpler than the previous one."
-        ],
+        "choices": ["This procedure is simplest than the previous one.","This procedure is more simpler than the previous one.","This procedure is simpler than the previous one.","This procedure is most simpler than the previous one."],
         "correct_answer": "This procedure is simpler than the previous one.",
-        "explanation": "One- and two-syllable adjectives like 'simple' form the comparative with '-er,' not 'more.' 'More simpler' is a double comparative and is incorrect."
+        "explanation": "'Simpler' is the comparative used here. 'More simpler' and 'most simpler' improperly combine comparative markers; 'simplest' is a superlative. 'More simple' can also occur in standard English."
     },
     {
         "id": "16007",
@@ -171,7 +161,7 @@
     {
         "id": "16014",
         "category": "Verbal Ability – Grammar",
-        "question": "Choose the sentence with the correct use of the apostrophe.",
+        "question": "The lounge belongs to several employees. Choose the sentence that correctly shows this plural possession.",
         "choices": [
             "The employees' lounge is on the second floor.",
             "The employees's lounge is on the second floor.",
@@ -179,7 +169,7 @@
             "The employees lounge is on the second floor."
         ],
         "correct_answer": "The employees' lounge is on the second floor.",
-        "explanation": "When a plural noun already ends in 's,' the possessive is formed by adding only an apostrophe after the 's.' Since 'employees' is plural, 'employees'' is correct."
+        "explanation": "The plural noun 'employees' ends in s, so its possessive adds an apostrophe after s: employees'. The singular employee's would refer to one employee."
     },
     {
         "id": "16015",
@@ -249,7 +239,7 @@
     {
         "id": "16020",
         "category": "Verbal Ability – Grammar",
-        "question": "Select the sentence with the correct use of articles.",
+        "question": "Choose the sentence that uses the correct indefinite article before \"honest public servant\".",
         "choices": [
             "She is honest a public servant.",
             "She is a honest public servant.",
@@ -418,7 +408,7 @@
     {
         "id": "16033",
         "category": "Verbal Ability – Grammar",
-        "question": "Choose the sentence with the correct possessive form.",
+        "question": "Choose the sentence that correctly uses the plural possessive of \"woman\".",
         "choices": [
             "The woman's auxiliary met on Tuesday.",
             "The women's auxiliary met on Tuesday.",
@@ -639,15 +629,15 @@
     {
         "id": "16050",
         "category": "Verbal Ability – Grammar",
-        "question": "Choose the sentence with proper use of 'different from' vs. 'different than'.",
+        "question": "Choose the sentence with correct subject-verb agreement and a complete comparison.",
         "choices": [
-            "His approach is more different than mine.",
-            "His approach is different than mine.",
-            "His approach is different to mine.",
+            "His approach are different from mine.",
+            "His approach is differ from mine.",
+            "His approach different from mine.",
             "His approach is different from mine."
         ],
         "correct_answer": "His approach is different from mine.",
-        "explanation": "In standard formal English, 'different from' is preferred over 'different than.'"
+        "explanation": "The singular subject \"approach\" takes \"is\", followed by the adjective \"different\" and the comparison \"from mine\". The other choices use the wrong verb agreement, use \"differ\" after \"is\", or omit the finite verb. \"Different to\" and \"different than\" can also be accepted constructions, so they are not treated as incorrect distractors."
     },
     {
         "category": "Verbal Ability – Grammar",
@@ -820,7 +810,7 @@
     },
     {
         "category": "Verbal Ability – Grammar",
-        "question": "Choose the correct word:\n\nThe document is laying on the desk right where you __________ it yesterday.",
+        "question": "Choose the correct word:\n\nThe document is lying on the desk right where you __________ it yesterday.",
         "choices": [
             "laid",
             "lie",

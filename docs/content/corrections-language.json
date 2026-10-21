@@ -1,0 +1,590 @@
+{
+  "date": "2026-10-21",
+  "scope": "Seven assigned language banks; targeted corrections, not full certification",
+  "changes": [
+    {
+      "id": "16001",
+      "file": "src/lib/questions/verbal_grammar.json",
+      "issue": "Singular they made a second option defensible",
+      "change": "choices, explanation",
+      "evidence": "Test agreement and participle form without rejecting singular they.",
+      "primary_sources": [
+        "https://apastyle.apa.org/style-grammar-guidelines/grammar/singular-they"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "choices": [
+          "Each of the employees is required to submit his or her report.",
+          "Each of the employees are required to submit his or her report.",
+          "Each of the employees is require to submit their reports.",
+          "Each of the employees are required to submit their reports."
+        ],
+        "explanation": "'Each' takes the singular verb 'is'; 'is required' uses the past participle. Singular 'their' is also standard, but it does not repair the verb errors in the other choices."
+      }
+    },
+    {
+      "id": "16006",
+      "file": "src/lib/questions/verbal_grammar.json",
+      "issue": "More simple is not universally incorrect",
+      "change": "choices, explanation",
+      "evidence": "Merriam-Webster lists simpler/simplest. Removed the competing more simple option and the false universal one-/two-syllable rule; this is a focused rewrite rather than a claim that all analytic comparatives are invalid.",
+      "primary_sources": [
+        "https://www.merriam-webster.com/dictionary/simple"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "choices": [
+          "This procedure is simplest than the previous one.",
+          "This procedure is more simpler than the previous one.",
+          "This procedure is simpler than the previous one.",
+          "This procedure is most simpler than the previous one."
+        ],
+        "explanation": "'Simpler' is the comparative used here. 'More simpler' and 'most simpler' improperly combine comparative markers; 'simplest' is a superlative. 'More simple' can also occur in standard English."
+      }
+    },
+    {
+      "id": "16014",
+      "file": "src/lib/questions/verbal_grammar.json",
+      "issue": "Possessor count unspecified",
+      "change": "question, explanation",
+      "evidence": "Several employees explicitly requires plural possession.",
+      "primary_sources": [],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "The lounge belongs to several employees. Choose the sentence that correctly shows this plural possession.",
+        "explanation": "The plural noun 'employees' ends in s, so its possessive adds an apostrophe after s: employees'. The singular employee's would refer to one employee."
+      }
+    },
+    {
+      "id": "16020",
+      "file": "src/lib/questions/verbal_grammar.json",
+      "issue": "Definite article was also grammatical",
+      "change": "question",
+      "evidence": "Indefinite article requirement excludes the grammatical definite alternative.",
+      "primary_sources": [],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Choose the sentence that uses the correct indefinite article before \"honest public servant\"."
+      }
+    },
+    {
+      "id": "16033",
+      "file": "src/lib/questions/verbal_grammar.json",
+      "issue": "Singular and plural possessives both grammatical",
+      "change": "question",
+      "evidence": "Plural possessive requirement selects women’s.",
+      "primary_sources": [],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Choose the sentence that correctly uses the plural possessive of \"woman\"."
+      }
+    },
+    {
+      "id": "16050",
+      "file": "src/lib/questions/verbal_grammar.json",
+      "issue": "Dialect variation treated as error",
+      "change": "question, choices, explanation",
+      "evidence": "Use agreement/complete-sentence distractors without falsely rejecting accepted dialect variants or revealing the requested preposition in the stem.",
+      "primary_sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/different-from-different-to-or-different-than"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Choose the sentence with correct subject-verb agreement and a complete comparison.",
+        "choices": [
+          "His approach are different from mine.",
+          "His approach is differ from mine.",
+          "His approach different from mine.",
+          "His approach is different from mine."
+        ],
+        "explanation": "The singular subject \"approach\" takes \"is\", followed by the adjective \"different\" and the comparison \"from mine\". The other choices use the wrong verb agreement, use \"differ\" after \"is\", or omit the finite verb. \"Different to\" and \"different than\" can also be accepted constructions, so they are not treated as incorrect distractors."
+      }
+    },
+    {
+      "id": "16064",
+      "file": "src/lib/questions/verbal_grammar.json",
+      "issue": "Laying error outside blank",
+      "change": "question",
+      "evidence": "Intransitive lying describes position; laid is past transitive lay.",
+      "primary_sources": [],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Choose the correct word:\n\nThe document is lying on the desk right where you __________ it yesterday."
+      }
+    },
+    {
+      "id": "15002",
+      "file": "src/lib/questions/verbal_correct_usage.json",
+      "issue": "Complementary and supplementary overlap",
+      "change": "question, choices",
+      "evidence": "Dictionary also lists supplementary as a synonym, so replace that competitor as well as clarifying the intended definition.",
+      "primary_sources": [
+        "https://www.merriam-webster.com/dictionary/complementary"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Select the word meaning \"combining with something else to enhance or complete it\": The report is ______ to the one submitted last quarter.",
+        "choices": [
+          "complimentary",
+          "elementary",
+          "complementary",
+          "contradictory"
+        ]
+      }
+    },
+    {
+      "id": "15038",
+      "file": "src/lib/questions/verbal_correct_usage.json",
+      "issue": "Historic and historical both grammatical",
+      "change": "question",
+      "evidence": "Definition explicitly selects historic rather than any past event.",
+      "primary_sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/historic-or-historical"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Choose the sentence using the adjective that specifically means \"important in history\"."
+      }
+    },
+    {
+      "id": "15051",
+      "file": "src/lib/questions/verbal_correct_usage.json",
+      "issue": "Courtesy treated as grammar",
+      "change": "question, explanation",
+      "evidence": "Stem now explicitly requests courtesy convention.",
+      "primary_sources": [],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Which sentence uses an objective pronoun and the conventional courteous ordering that places the other person first?",
+        "explanation": "Both \"to me and Maria\" and \"to Maria and me\" use the objective pronoun correctly. This question also requests the conventional courteous ordering, which places Maria first."
+      }
+    },
+    {
+      "id": "15059",
+      "file": "src/lib/questions/verbal_correct_usage.json",
+      "issue": "Quantity is valid with count nouns",
+      "change": "choices, explanation",
+      "evidence": "Remove valid alternative.",
+      "primary_sources": [
+        "https://dictionary.cambridge.org/grammar/british-grammar/amount-of-number-of-or-quantity-of."
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "choices": [
+          "numeral",
+          "numerous",
+          "number",
+          "numbered"
+        ],
+        "explanation": "The noun \"number\" fits \"a large number of books\". The other options do not form the required noun phrase. \"Quantity of books\" is also grammatical, so it is not used as a distractor."
+      }
+    },
+    {
+      "id": "15068",
+      "file": "src/lib/questions/verbal_correct_usage.json",
+      "issue": "Singular their is standard",
+      "change": "choices, explanation",
+      "evidence": "Test verb agreement without rejecting singular their.",
+      "primary_sources": [
+        "https://apastyle.apa.org/style-grammar-guidelines/grammar/singular-they"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "choices": [
+          "Each of the students has his or her own laptop.",
+          "Each of the students having their own laptop.",
+          "Each of the students have their own laptop.",
+          "Each of the students have his or her own laptop."
+        ],
+        "explanation": "\"Each\" takes the singular verb \"has\". Singular \"their\" is also standard; the other choices fail because they lack a finite verb or use \"have\" with \"each\"."
+      }
+    },
+    {
+      "id": "15096",
+      "file": "src/lib/questions/verbal_correct_usage.json",
+      "issue": "Comparison meaning unspecified",
+      "change": "question, explanation",
+      "evidence": "Requested object comparison excludes valid subject comparison.",
+      "primary_sources": [],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Which sentence correctly means \"She likes him more than she likes me\"?",
+        "explanation": "\"Than me\" expresses the requested comparison between two people she likes. \"Than I\" can mean \"than I do\", comparing how much two people like him, which is a different meaning. \"Then\" is not the comparison word."
+      }
+    },
+    {
+      "id": "15100",
+      "file": "src/lib/questions/verbal_correct_usage.json",
+      "issue": "Both of and to valid",
+      "change": "choices, explanation",
+      "evidence": "Remove valid competing preposition.",
+      "primary_sources": [
+        "https://www.merriam-webster.com/dictionary/oblivious"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "choices": [
+          "at",
+          "of",
+          "with",
+          "by"
+        ],
+        "explanation": "\"Oblivious of\" means unaware of. \"Oblivious to\" is also standard, so it is not offered as a competing answer."
+      }
+    },
+    {
+      "id": "20062",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "issue": "Malformed keyed expression",
+      "change": "choices, correct_answer, explanation",
+      "evidence": "Replaced kapalmurahanan with clear Filipino meaning.",
+      "primary_sources": [],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "choices": [
+          "maganda ang kutis",
+          "maganda ang asal",
+          "walang kahihiyan",
+          "may kagandahang-asal"
+        ],
+        "correct_answer": "walang kahihiyan",
+        "explanation": "Ang \"makapal ang mukha\" ay tumutukoy sa taong walang kahihiyan."
+      }
+    },
+    {
+      "id": "20072",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "issue": "Split headword and imprecise meaning",
+      "change": "question, choices, correct_answer, explanation",
+      "evidence": "Dictionary lists balatkayo and figurative pretense.",
+      "primary_sources": [
+        "https://diksiyonaryo.ph/search/balatkayo"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"balatkayo\" sa pahayag na \"Balatkayo lamang ang kaniyang kabaitan\"?",
+        "choices": [
+          "kalusugan",
+          "pagkukunwari",
+          "pagkakasakit",
+          "katapangan"
+        ],
+        "correct_answer": "pagkukunwari",
+        "explanation": "Sa pangungusap, ang \"balatkayo\" ay pagkukunwari: hindi tunay ang ipinakikitang kabaitan."
+      }
+    },
+    {
+      "id": "20098",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "issue": "Unsupported speed/news definition",
+      "change": "question, choices, correct_answer, explanation",
+      "evidence": "Literal odor context matches dictionary sense.",
+      "primary_sources": [
+        "https://diksiyonaryo.ph/search/alingasaw"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Ano ang ibig sabihin ng \"umaalingasaw\" sa pangungusap na \"Umaalingasaw ang basurang hindi nakolekta\"?",
+        "choices": [
+          "naglalabas ng mahinang tunog",
+          "naglalabas ng mabahong amoy",
+          "naglalabas ng malamig na hangin",
+          "naglalabas ng malinaw na tubig"
+        ],
+        "correct_answer": "naglalabas ng mabahong amoy",
+        "explanation": "Sa pangungusap, ang \"umaalingasaw\" ay naglalabas ng malakas at mabahong amoy. Hindi nito awtomatikong ipinahihiwatig ang mabilis na pagkalat ng balita."
+      }
+    },
+    {
+      "id": "20038",
+      "file": "src/lib/questions/verbal_vocabulary_filipino.json",
+      "issue": "Overlapping umuunlad and progresibo",
+      "change": "choices",
+      "evidence": "Editorial ambiguity removal: replaced the overlapping umuunlad distractor with pabaya; retained the existing progresibo key. KWF lookup was attempted but returned a database connection error, so no independent dictionary certification is claimed.",
+      "primary_sources": [],
+      "remaining_uncertainty": "KWF headword definition could not be retrieved in this pass.",
+      "revised_fields": {
+        "choices": [
+          "pabaya",
+          "bumababa",
+          "progresibo",
+          "atrasado"
+        ]
+      }
+    },
+    {
+      "id": "20123",
+      "file": "src/lib/questions/verbal_balarila_filipino.json",
+      "issue": "Future repeated action also valid",
+      "change": "question, explanation",
+      "evidence": "Present habitual context distinguishes aspect.",
+      "primary_sources": [],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Aling pangungusap ang nagpapahayag na ang mga estudyante ay kasalukuyang may nakagawiang pagpunta sa eskwela araw-araw?",
+        "explanation": "Ang \"pumupunta\" ay ang anyong nagaganap na angkop sa kasalukuyang nakagawian sa tanong. Maaari ring gamitin ang \"pupunta araw-araw\" para sa isang planong gagawin sa hinaharap, ngunit hindi iyon ang hinihinging konteksto."
+      }
+    },
+    {
+      "id": "20136",
+      "file": "src/lib/questions/verbal_balarila_filipino.json",
+      "issue": "Upo falsely said to start with consonant",
+      "change": "explanation",
+      "evidence": "Correct observable letter classification without inventing a general hyphenation rule.",
+      "primary_sources": [],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "explanation": "Ang wastong baybay ay \"nakaupo\": magkadugtong ang panlaping \"naka-\" at salitang-ugat na \"upo\". Nagsisimula sa patinig na u ang \"upo\"; hindi ito katinig."
+      }
+    },
+    {
+      "id": "20160",
+      "file": "src/lib/questions/verbal_pagaunawa_filipino.json",
+      "issue": "Overbroad burning prohibition",
+      "change": "question, choices, correct_answer, explanation",
+      "evidence": "RA 9003 section 48(3) prohibits open burning of solid waste.",
+      "primary_sources": [
+        "https://lawphil.net/statutes/repacts/ra2001/ra_9003_2001.html"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng Republic Act No. 9003 o ang Ecological Solid Waste Management Act of 2000 ay isang batas na naglalayong itaguyod ang wastong pamamahala ng basura sa Pilipinas. Inaatasan nito ang mga lokal na pamahalaan na magpatupad ng mga programa sa pag-segregate, pagkolekta, at wastong pagtatapon ng basura. Ipinagbabawal din ng batas ang hayagang pagsusunog ng solid waste (open burning). Layunin ng batas na ito na mabawasan ang mga basurang napupunta sa mga landfill at maprotektahan ang kapaligiran.\n\nAno ang ipinagbabawal ng RA 9003 ayon sa talata?",
+        "choices": [
+          "Pagtatapon ng basura sa tamang lugar",
+          "Pag-segregate ng basura",
+          "Hayagang pagsusunog ng solid waste",
+          "Pagkolekta ng basura ng lokal na pamahalaan"
+        ],
+        "correct_answer": "Hayagang pagsusunog ng solid waste",
+        "explanation": "Ipinagbabawal ng Seksyon 48(3) ng RA 9003 ang open burning ng solid waste, na siyang binanggit sa talata."
+      }
+    },
+    {
+      "id": "20161",
+      "file": "src/lib/questions/verbal_pagaunawa_filipino.json",
+      "issue": "Overbroad burning prohibition",
+      "change": "question",
+      "evidence": "RA 9003 section 48(3) prohibits open burning of solid waste.",
+      "primary_sources": [
+        "https://lawphil.net/statutes/repacts/ra2001/ra_9003_2001.html"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng Republic Act No. 9003 o ang Ecological Solid Waste Management Act of 2000 ay isang batas na naglalayong itaguyod ang wastong pamamahala ng basura sa Pilipinas. Inaatasan nito ang mga lokal na pamahalaan na magpatupad ng mga programa sa pag-segregate, pagkolekta, at wastong pagtatapon ng basura. Ipinagbabawal din ng batas ang hayagang pagsusunog ng solid waste (open burning). Layunin ng batas na ito na mabawasan ang mga basurang napupunta sa mga landfill at maprotektahan ang kapaligiran.\n\nSino ang inaatasan ng RA 9003 na magpatupad ng mga programa sa pamamahala ng basura?"
+      }
+    },
+    {
+      "id": "20176",
+      "file": "src/lib/questions/verbal_pagaunawa_filipino.json",
+      "issue": "Incorrect verb construction",
+      "change": "question, choices, correct_answer, explanation",
+      "evidence": "Maharap sa expresses facing a case; harapin requires an actor who confronts an object.",
+      "primary_sources": [],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng paggalang sa karapatang pantao ay isang pangunahing prinsipyo ng isang demokratikong lipunan. Ang bawat tao ay may karapatang mabuhay nang malaya, magpahayag ng kanilang opinyon, at maging ligtas mula sa anumang uri ng diskriminasyon. Iginagalang ng Saligang Batas ng Pilipinas ang mga karapatang ito at pinoprotektahan ang mga mamamayan laban sa pang-aabuso ng kapangyarihan. Ang mga lumalabag sa karapatang pantao ay maaaring maharap sa mga kaso sa korte.\n\nAno ang maaaring mangyari sa mga lumalabag sa karapatang pantao ayon sa talata?",
+        "choices": [
+          "Mabibigyan sila ng parangal",
+          "Maaari silang maharap sa mga kaso sa korte",
+          "Magiging lider sila ng komunidad",
+          "Walang parusa para sa kanila"
+        ],
+        "correct_answer": "Maaari silang maharap sa mga kaso sa korte",
+        "explanation": "Ayon sa talata, ang mga lumalabag sa karapatang pantao ay maaaring maharap sa mga kaso sa korte."
+      }
+    },
+    {
+      "id": "20191",
+      "file": "src/lib/questions/verbal_pagaunawa_filipino.json",
+      "issue": "Universal examination requirement false",
+      "change": "question, explanation",
+      "evidence": "CSC lists special eligibility routes including bar/board and honor graduates.",
+      "primary_sources": [
+        "https://www.csc.gov.ph/special-eligibilities?cat=&view=article"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng serbisyo sibil sa Pilipinas ay binubuo ng mga empleyado ng pamahalaan na nagsisilbi sa bayan. Ang pagpasa sa Civil Service Examination na ibinibigay ng CSC ay isang paraan upang makamit ang career service eligibility. May iba pang paraan ng pagkamit ng eligibility, gaya ng mga kinikilala ng CSC para sa mga honor graduate at mga nakapasa sa bar o board examination. Ang eksamen ay sumusubok sa mga kakayahan sa verbal, numerical, at analytical reasoning, pati na rin sa kaalaman sa Saligang Batas at mga batas na may kaugnayan sa serbisyo publiko. Ang angkop na eligibility ay isa lamang sa mga kuwalipikasyon para sa mga posisyong nangangailangan nito.\n\nAling paraan ng pagkamit ng career service eligibility ang inilalarawan sa talata?",
+        "explanation": "Inilalarawan ng talata ang pagpasa sa Civil Service Examination bilang isang paraan ng pagkamit ng eligibility, at kinikilala rin nito ang ibang paraan."
+      }
+    },
+    {
+      "id": "20192",
+      "file": "src/lib/questions/verbal_pagaunawa_filipino.json",
+      "issue": "Universal examination requirement false",
+      "change": "question",
+      "evidence": "CSC lists special eligibility routes including bar/board and honor graduates.",
+      "primary_sources": [
+        "https://www.csc.gov.ph/special-eligibilities?cat=&view=article"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng serbisyo sibil sa Pilipinas ay binubuo ng mga empleyado ng pamahalaan na nagsisilbi sa bayan. Ang pagpasa sa Civil Service Examination na ibinibigay ng CSC ay isang paraan upang makamit ang career service eligibility. May iba pang paraan ng pagkamit ng eligibility, gaya ng mga kinikilala ng CSC para sa mga honor graduate at mga nakapasa sa bar o board examination. Ang eksamen ay sumusubok sa mga kakayahan sa verbal, numerical, at analytical reasoning, pati na rin sa kaalaman sa Saligang Batas at mga batas na may kaugnayan sa serbisyo publiko. Ang angkop na eligibility ay isa lamang sa mga kuwalipikasyon para sa mga posisyong nangangailangan nito.\n\nAno-ano ang sinusubok ng Civil Service Examination ayon sa talata?"
+      }
+    },
+    {
+      "id": "20196",
+      "file": "src/lib/questions/verbal_pagaunawa_filipino.json",
+      "issue": "Blanket hate-speech exclusion unsupported",
+      "change": "question, choices, correct_answer, explanation",
+      "evidence": "Focused comprehension rewrite retains constitutional guarantee under Article III section 4 without asserting an unsupported categorical exclusion.",
+      "primary_sources": [
+        "https://lawphil.net/consti/cons1987.html"
+      ],
+      "remaining_uncertainty": null,
+      "revised_fields": {
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nGinagarantiya ng Saligang Batas ng Pilipinas ang kalayaan sa pagsasalita, pagpapahayag, at pamamahayag. Sa responsableng paggamit ng kalayaang ito, sinusuri ng isang manunulat ang katotohanan ng kaniyang impormasyon bago maglathala. Itinatama niya ang mga pagkakamali at malinaw niyang ibinubukod ang opinyon sa napatunayang impormasyon.\n\nAlin ang halimbawa ng responsableng pagpapahayag ayon sa talata?",
+        "choices": [
+          "Paglalathala nang walang pagsusuri",
+          "Pagsusuri ng impormasyon bago maglathala",
+          "Pagpapanggap na katotohanan ang opinyon",
+          "Pagtatago ng natukoy na pagkakamali"
+        ],
+        "correct_answer": "Pagsusuri ng impormasyon bago maglathala",
+        "explanation": "Binanggit ng talata ang pagsusuri ng katotohanan ng impormasyon bago ito ilathala bilang responsableng paggamit ng kalayaan sa pagpapahayag."
+      }
+    }
+  ],
+  "pending": [
+    {
+      "id": "20058",
+      "status": "pending_authoritative_idiom_source",
+      "reason": "Uncertain idiom sense remains unchanged; no sufficiently authoritative source established in this pass."
+    },
+    {
+      "id": "20059",
+      "status": "pending_authoritative_idiom_source",
+      "reason": "Uncertain idiom sense remains unchanged; no sufficiently authoritative source established in this pass."
+    },
+    {
+      "id": "20064",
+      "status": "pending_authoritative_idiom_source",
+      "reason": "Uncertain idiom sense remains unchanged; no sufficiently authoritative source established in this pass."
+    },
+    {
+      "id": "20079",
+      "status": "pending_authoritative_idiom_source",
+      "reason": "Uncertain idiom sense remains unchanged; no sufficiently authoritative source established in this pass."
+    },
+    {
+      "id": "20092",
+      "status": "pending_authoritative_idiom_source",
+      "reason": "Uncertain idiom sense remains unchanged; no sufficiently authoritative source established in this pass."
+    }
+  ],
+  "cue_review": [
+    {
+      "id": "16083",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20055",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20061",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20066",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20068",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20070",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20075",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20080",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20087",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20089",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20093",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20096",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20097",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20098",
+      "status": "revised_for_semantic_accuracy",
+      "reason": "Odor definition corrected and choices made parallel."
+    },
+    {
+      "id": "20100",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20167",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20172",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20183",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20198",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20199",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    },
+    {
+      "id": "20200",
+      "status": "retained_after_manual_review",
+      "reason": "Length alone does not establish answer leakage; no sole-parenthesis cue or explicit answer label was present. Precise definitions/passages retained."
+    }
+  ],
+  "position_bias": "Filipino comprehension answer-position bias confirmed; runtime shuffle is owned by root. No static answer reordering.",
+  "verification": {
+    "command": "npm run test:bank",
+    "tests": 187,
+    "passed": 187,
+    "failed": 0,
+    "limitations": "Targeted semantic regressions and bank invariants do not certify all 500 assigned records. Five uncertain idiom records remain unchanged."
+  }
+}

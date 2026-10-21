@@ -15,13 +15,8 @@
     {
         "id": "15002",
         "category": "Verbal Ability – Correct Usage",
-        "question": "Select the correct word: The report is ______ to the one submitted last quarter.",
-        "choices": [
-            "complimentary",
-            "elementary",
-            "complementary",
-            "supplementary"
-        ],
+        "question": "Select the word meaning \"combining with something else to enhance or complete it\": The report is ______ to the one submitted last quarter.",
+        "choices": ["complimentary","elementary","complementary","contradictory"],
         "correct_answer": "complementary",
         "explanation": "'Complementary' means combining in such a way as to enhance or complete. 'Complimentary' means expressing praise or given free of charge."
     },
@@ -483,7 +478,7 @@
     {
         "id": "15038",
         "category": "Verbal Ability – Correct Usage",
-        "question": "Select the correct sentence.",
+        "question": "Choose the sentence using the adjective that specifically means \"important in history\".",
         "choices": [
             "The signing of the treaty was a historian event.",
             "The signing of the treaty was a historical event.",
@@ -651,7 +646,7 @@
     },
     {
         "category": "Verbal Ability – Correct Usage",
-        "question": "Which sentence is correctly constructed?",
+        "question": "Which sentence uses an objective pronoun and the conventional courteous ordering that places the other person first?",
         "choices": [
             "The manager gave the report to me and Maria.",
             "The manager gave the report to Maria and me.",
@@ -659,7 +654,7 @@
             "The manager gave the report to Maria and myself."
         ],
         "correct_answer": "The manager gave the report to Maria and me.",
-        "explanation": "The preposition 'to' requires an objective pronoun ('me', not 'I' or 'myself'). As a rule of politeness, put the other person's name first ('Maria and me').",
+        "explanation": "Both \"to me and Maria\" and \"to Maria and me\" use the objective pronoun correctly. This question also requests the conventional courteous ordering, which places Maria first.",
         "id": "15051"
     },
     {
@@ -756,14 +751,9 @@
     {
         "category": "Verbal Ability – Correct Usage",
         "question": "Choose the correct word:\n\nShe has a large __________ of books in her library.",
-        "choices": [
-            "quantity",
-            "volume",
-            "number",
-            "amount"
-        ],
+        "choices": ["numeral","numerous","number","numbered"],
         "correct_answer": "number",
-        "explanation": "'Number' is used for countable items like books. 'Amount' is used for uncountable items.",
+        "explanation": "The noun \"number\" fits \"a large number of books\". The other options do not form the required noun phrase. \"Quantity of books\" is also grammatical, so it is not used as a distractor.",
         "id": "15059"
     },
     {
@@ -873,14 +863,9 @@
     {
         "category": "Verbal Ability – Correct Usage",
         "question": "Identify the correct sentence:",
-        "choices": [
-            "Each of the students has his or her own laptop.",
-            "Each of the students has their own laptop.",
-            "Each of the students have their own laptop.",
-            "Each of the students have his or her own laptop."
-        ],
+        "choices": ["Each of the students has his or her own laptop.","Each of the students having their own laptop.","Each of the students have their own laptop.","Each of the students have his or her own laptop."],
         "correct_answer": "Each of the students has his or her own laptop.",
-        "explanation": "'Each' is singular, so it takes a singular verb (has) and singular pronouns (his or her).",
+        "explanation": "\"Each\" takes the singular verb \"has\". Singular \"their\" is also standard; the other choices fail because they lack a finite verb or use \"have\" with \"each\".",
         "id": "15068"
     },
     {
@@ -1236,7 +1221,7 @@
     },
     {
         "category": "Verbal Ability – Correct Usage",
-        "question": "Identify the correct sentence:",
+        "question": "Which sentence correctly means \"She likes him more than she likes me\"?",
         "choices": [
             "She likes him more then I do.",
             "She likes him more than I.",
@@ -1244,7 +1229,7 @@
             "All of the above"
         ],
         "correct_answer": "She likes him more than me.",
-        "explanation": "Depending on the intended meaning, 'more than me' implies 'more than she likes me'.",
+        "explanation": "\"Than me\" expresses the requested comparison between two people she likes. \"Than I\" can mean \"than I do\", comparing how much two people like him, which is a different meaning. \"Then\" is not the comparison word.",
         "id": "15096"
     },
     {
@@ -1289,14 +1274,9 @@
     {
         "category": "Verbal Ability – Correct Usage",
         "question": "Complete the sentence:\n\nShe was totally oblivious __________ the chaos around her.",
-        "choices": [
-            "to",
-            "of",
-            "with",
-            "about"
-        ],
+        "choices": ["at","of","with","by"],
         "correct_answer": "of",
-        "explanation": "The adjective 'oblivious' is traditionally and most correctly followed by the preposition 'of', although 'to' is also widely accepted today.",
+        "explanation": "\"Oblivious of\" means unaware of. \"Oblivious to\" is also standard, so it is not offered as a competing answer.",
         "id": "15100"
     }
 ]

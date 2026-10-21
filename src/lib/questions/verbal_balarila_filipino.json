@@ -288,7 +288,7 @@
     {
         "id": "20123",
         "category": "Verbal Ability – Grammar (Filipino)",
-        "question": "Piliin ang pangungusap na walang maling gamit ng pandiwa.",
+        "question": "Aling pangungusap ang nagpapahayag na ang mga estudyante ay kasalukuyang may nakagawiang pagpunta sa eskwela araw-araw?",
         "choices": [
             "Ang mga estudyante ay pumupunta sa eskwela araw-araw.",
             "Ang mga estudyante ay pumunta sa eskwela araw-araw.",
@@ -296,7 +296,7 @@
             "Ang mga estudyante ay pinupuntahan sa eskwela araw-araw."
         ],
         "correct_answer": "Ang mga estudyante ay pumupunta sa eskwela araw-araw.",
-        "explanation": "Dahil 'araw-araw' ay nagpapahiwatig ng paulit-ulit na gawain, ang tamang aspekto ay pangkasalukuyan o panlagian: 'pumupunta'."
+        "explanation": "Ang \"pumupunta\" ay ang anyong nagaganap na angkop sa kasalukuyang nakagawian sa tanong. Maaari ring gamitin ang \"pupunta araw-araw\" para sa isang planong gagawin sa hinaharap, ngunit hindi iyon ang hinihinging konteksto."
     },
     {
         "id": "20124",
@@ -465,7 +465,7 @@
             "Nakaupo sa siya silya nang dumating ako."
         ],
         "correct_answer": "Nakaupo siya sa silya nang dumating ako.",
-        "explanation": "Ang unlaping 'naka-' ay sumasanib sa salitang-ugat nang walang gitling kapag ang salitang-ugat ay nagsisimula sa katinig: 'nakaupo'."
+        "explanation": "Ang wastong baybay ay \"nakaupo\": magkadugtong ang panlaping \"naka-\" at salitang-ugat na \"upo\". Nagsisimula sa patinig na u ang \"upo\"; hindi ito katinig."
     },
     {
         "id": "20137",

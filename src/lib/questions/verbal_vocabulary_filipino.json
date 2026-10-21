@@ -299,7 +299,7 @@
         "id": "20038",
         "category": "Verbal Ability – Vocabulary (Filipino)",
         "question": "Piliin ang kasingkahulugan ng salitang \"maunlad\".",
-        "choices": ["umuunlad", "bumababa", "progresibo", "atrasado"],
+        "choices": ["pabaya","bumababa","progresibo","atrasado"],
         "correct_answer": "progresibo",
         "explanation": "Ang 'maunlad' ay nangangahulugang sumusulong o may pag-unlad. Ang 'progresibo' ang pinakamalapit na kasingkahulugan."
     },

@@ -91,9 +91,9 @@
         "id": "20062",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
         "question": "Ano ang kahulugan ng \"makapal ang mukha\"?",
-        "choices": ["maganda ang kutis", "maganda ang asal", "labis na kapalmurahanan", "may kagandahang-asal"],
-        "correct_answer": "labis na kapalmurahanan",
-        "explanation": "Ang 'makapal ang mukha' ay nangangahulugang walang hiya, kapal-muks, at walang pakialam sa sasabihin ng iba."
+        "choices": ["maganda ang kutis","maganda ang asal","walang kahihiyan","may kagandahang-asal"],
+        "correct_answer": "walang kahihiyan",
+        "explanation": "Ang \"makapal ang mukha\" ay tumutukoy sa taong walang kahihiyan."
     },
     {
         "id": "20063",
@@ -170,10 +170,10 @@
     {
         "id": "20072",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
-        "question": "Ano ang kahulugan ng \"balat kayo\"?",
-        "choices": ["malusog na tao", "pabalat-bunga o plastic", "may sakit sa balat", "matipuno ang katawan"],
-        "correct_answer": "pabalat-bunga o plastic",
-        "explanation": "Ang 'balat kayo' ay nangangahulugang pabalat-bunga, hindi totoo ang ipinakikita, o hindi tapat sa totoong damdamin."
+        "question": "Ano ang kahulugan ng \"balatkayo\" sa pahayag na \"Balatkayo lamang ang kaniyang kabaitan\"?",
+        "choices": ["kalusugan","pagkukunwari","pagkakasakit","katapangan"],
+        "correct_answer": "pagkukunwari",
+        "explanation": "Sa pangungusap, ang \"balatkayo\" ay pagkukunwari: hindi tunay ang ipinakikitang kabaitan."
     },
     {
         "id": "20073",
@@ -378,10 +378,10 @@
     {
         "id": "20098",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
-        "question": "Ano ang kahulugan ng \"umaalingasaw\"?",
-        "choices": ["tahimik na kumakalat", "kumakalat nang mabilis ang balita o amoy", "mahinang hangin", "mabagal na kilos"],
-        "correct_answer": "kumakalat nang mabilis ang balita o amoy",
-        "explanation": "Ang 'umaalingasaw' ay nangangahulugang mabilis na kumakalat, madalas ginagamit para sa amoy o balita."
+        "question": "Ano ang ibig sabihin ng \"umaalingasaw\" sa pangungusap na \"Umaalingasaw ang basurang hindi nakolekta\"?",
+        "choices": ["naglalabas ng mahinang tunog","naglalabas ng mabahong amoy","naglalabas ng malamig na hangin","naglalabas ng malinaw na tubig"],
+        "correct_answer": "naglalabas ng mabahong amoy",
+        "explanation": "Sa pangungusap, ang \"umaalingasaw\" ay naglalabas ng malakas at mabahong amoy. Hindi nito awtomatikong ipinahihiwatig ang mabilis na pagkalat ng balita."
     },
     {
         "id": "20099",

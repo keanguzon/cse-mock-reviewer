@@ -74,15 +74,15 @@
     {
         "id": "20160",
         "category": "Verbal Ability – Reading Comprehension (Filipino)",
-        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng Republic Act No. 9003 o ang Ecological Solid Waste Management Act of 2000 ay isang batas na naglalayong itaguyod ang wastong pamamahala ng basura sa Pilipinas. Inaatasan nito ang mga lokal na pamahalaan na magpatupad ng mga programa sa pag-segregate, pagkolekta, at wastong pagtatapon ng basura. Ipinagbabawal din ng batas ang pagsusunog ng basura sa lahat ng lugar. Layunin ng batas na ito na mabawasan ang mga basurang napupunta sa mga landfill at maprotektahan ang kapaligiran.\n\nAno ang ipinagbabawal ng RA 9003 ayon sa talata?",
-        "choices": ["Pagtatapon ng basura sa tamang lugar", "Pag-segregate ng basura", "Pagsusunog ng basura sa lahat ng lugar", "Pagkolekta ng basura ng lokal na pamahalaan"],
-        "correct_answer": "Pagsusunog ng basura sa lahat ng lugar",
-        "explanation": "Malinaw na sinabi sa talata na 'Ipinagbabawal din ng batas ang pagsusunog ng basura sa lahat ng lugar.'"
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng Republic Act No. 9003 o ang Ecological Solid Waste Management Act of 2000 ay isang batas na naglalayong itaguyod ang wastong pamamahala ng basura sa Pilipinas. Inaatasan nito ang mga lokal na pamahalaan na magpatupad ng mga programa sa pag-segregate, pagkolekta, at wastong pagtatapon ng basura. Ipinagbabawal din ng batas ang hayagang pagsusunog ng solid waste (open burning). Layunin ng batas na ito na mabawasan ang mga basurang napupunta sa mga landfill at maprotektahan ang kapaligiran.\n\nAno ang ipinagbabawal ng RA 9003 ayon sa talata?",
+        "choices": ["Pagtatapon ng basura sa tamang lugar","Pag-segregate ng basura","Hayagang pagsusunog ng solid waste","Pagkolekta ng basura ng lokal na pamahalaan"],
+        "correct_answer": "Hayagang pagsusunog ng solid waste",
+        "explanation": "Ipinagbabawal ng Seksyon 48(3) ng RA 9003 ang open burning ng solid waste, na siyang binanggit sa talata."
     },
     {
         "id": "20161",
         "category": "Verbal Ability – Reading Comprehension (Filipino)",
-        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng Republic Act No. 9003 o ang Ecological Solid Waste Management Act of 2000 ay isang batas na naglalayong itaguyod ang wastong pamamahala ng basura sa Pilipinas. Inaatasan nito ang mga lokal na pamahalaan na magpatupad ng mga programa sa pag-segregate, pagkolekta, at wastong pagtatapon ng basura. Ipinagbabawal din ng batas ang pagsusunog ng basura sa lahat ng lugar. Layunin ng batas na ito na mabawasan ang mga basurang napupunta sa mga landfill at maprotektahan ang kapaligiran.\n\nSino ang inaatasan ng RA 9003 na magpatupad ng mga programa sa pamamahala ng basura?",
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng Republic Act No. 9003 o ang Ecological Solid Waste Management Act of 2000 ay isang batas na naglalayong itaguyod ang wastong pamamahala ng basura sa Pilipinas. Inaatasan nito ang mga lokal na pamahalaan na magpatupad ng mga programa sa pag-segregate, pagkolekta, at wastong pagtatapon ng basura. Ipinagbabawal din ng batas ang hayagang pagsusunog ng solid waste (open burning). Layunin ng batas na ito na mabawasan ang mga basurang napupunta sa mga landfill at maprotektahan ang kapaligiran.\n\nSino ang inaatasan ng RA 9003 na magpatupad ng mga programa sa pamamahala ng basura?",
         "choices": ["Ang mga pribadong kumpanya", "Ang mga lokal na pamahalaan", "Ang mga dayuhang organisasyon", "Ang mga paaralan lamang"],
         "correct_answer": "Ang mga lokal na pamahalaan",
         "explanation": "Ayon sa talata, 'Inaatasan nito ang mga lokal na pamahalaan na magpatupad ng mga programa sa pag-segregate, pagkolekta, at wastong pagtatapon ng basura.'"
@@ -202,10 +202,10 @@
     {
         "id": "20176",
         "category": "Verbal Ability – Reading Comprehension (Filipino)",
-        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng paggalang sa karapatang pantao ay isang pangunahing prinsipyo ng isang demokratikong lipunan. Ang bawat tao ay may karapatang mabuhay nang malaya, magpahayag ng kanilang opinyon, at maging ligtas mula sa anumang uri ng diskriminasyon. Iginagalang ng Saligang Batas ng Pilipinas ang mga karapatang ito at pinoprotektahan ang mga mamamayan laban sa pang-aabuso ng kapangyarihan. Ang mga lumalabag sa karapatang pantao ay maaaring harapin ang mga kaso sa korte.\n\nAno ang maaaring mangyari sa mga lumalabag sa karapatang pantao ayon sa talata?",
-        "choices": ["Mabibigyan sila ng parangal", "Maaari silang harapin ang mga kaso sa korte", "Magiging lider sila ng komunidad", "Walang parusa para sa kanila"],
-        "correct_answer": "Maaari silang harapin ang mga kaso sa korte",
-        "explanation": "Sinabi sa talata na 'Ang mga lumalabag sa karapatang pantao ay maaaring harapin ang mga kaso sa korte.'"
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng paggalang sa karapatang pantao ay isang pangunahing prinsipyo ng isang demokratikong lipunan. Ang bawat tao ay may karapatang mabuhay nang malaya, magpahayag ng kanilang opinyon, at maging ligtas mula sa anumang uri ng diskriminasyon. Iginagalang ng Saligang Batas ng Pilipinas ang mga karapatang ito at pinoprotektahan ang mga mamamayan laban sa pang-aabuso ng kapangyarihan. Ang mga lumalabag sa karapatang pantao ay maaaring maharap sa mga kaso sa korte.\n\nAno ang maaaring mangyari sa mga lumalabag sa karapatang pantao ayon sa talata?",
+        "choices": ["Mabibigyan sila ng parangal","Maaari silang maharap sa mga kaso sa korte","Magiging lider sila ng komunidad","Walang parusa para sa kanila"],
+        "correct_answer": "Maaari silang maharap sa mga kaso sa korte",
+        "explanation": "Ayon sa talata, ang mga lumalabag sa karapatang pantao ay maaaring maharap sa mga kaso sa korte."
     },
     {
         "id": "20177",
@@ -322,15 +322,15 @@
     {
         "id": "20191",
         "category": "Verbal Ability – Reading Comprehension (Filipino)",
-        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng serbisyo sibil sa Pilipinas ay binubuo ng mga empleyado ng pamahalaan na nagsisilbi sa bayan. Upang makapasok sa serbisyo sibil, kailangan ng isang tao na pumasa sa Civil Service Examination na ibinibigay ng CSC. Ang eksamen ay sumusubok sa mga kakayahan sa verbal, numerical, at analytical reasoning, pati na rin sa kaalaman sa Saligang Batas at mga batas na may kaugnayan sa serbisyo publiko. Ang pagpasa sa eksamen ay isa sa mga pangunahing kuwalipikasyon upang maging permanenteng empleyado ng gobyerno.\n\nAno ang kailangan gawin upang makapasok sa serbisyo sibil?",
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng serbisyo sibil sa Pilipinas ay binubuo ng mga empleyado ng pamahalaan na nagsisilbi sa bayan. Ang pagpasa sa Civil Service Examination na ibinibigay ng CSC ay isang paraan upang makamit ang career service eligibility. May iba pang paraan ng pagkamit ng eligibility, gaya ng mga kinikilala ng CSC para sa mga honor graduate at mga nakapasa sa bar o board examination. Ang eksamen ay sumusubok sa mga kakayahan sa verbal, numerical, at analytical reasoning, pati na rin sa kaalaman sa Saligang Batas at mga batas na may kaugnayan sa serbisyo publiko. Ang angkop na eligibility ay isa lamang sa mga kuwalipikasyon para sa mga posisyong nangangailangan nito.\n\nAling paraan ng pagkamit ng career service eligibility ang inilalarawan sa talata?",
         "choices": ["Magkaroon ng koneksyon sa politiko", "Pumasa sa Civil Service Examination", "Maging miyembro ng isang partido politikal", "Mag-aral sa labas ng bansa"],
         "correct_answer": "Pumasa sa Civil Service Examination",
-        "explanation": "Ayon sa talata, 'kailangan ng isang tao na pumasa sa Civil Service Examination na ibinibigay ng CSC'."
+        "explanation": "Inilalarawan ng talata ang pagpasa sa Civil Service Examination bilang isang paraan ng pagkamit ng eligibility, at kinikilala rin nito ang ibang paraan."
     },
     {
         "id": "20192",
         "category": "Verbal Ability – Reading Comprehension (Filipino)",
-        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng serbisyo sibil sa Pilipinas ay binubuo ng mga empleyado ng pamahalaan na nagsisilbi sa bayan. Upang makapasok sa serbisyo sibil, kailangan ng isang tao na pumasa sa Civil Service Examination na ibinibigay ng CSC. Ang eksamen ay sumusubok sa mga kakayahan sa verbal, numerical, at analytical reasoning, pati na rin sa kaalaman sa Saligang Batas at mga batas na may kaugnayan sa serbisyo publiko. Ang pagpasa sa eksamen ay isa sa mga pangunahing kuwalipikasyon upang maging permanenteng empleyado ng gobyerno.\n\nAno-ano ang sinusubok ng Civil Service Examination ayon sa talata?",
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng serbisyo sibil sa Pilipinas ay binubuo ng mga empleyado ng pamahalaan na nagsisilbi sa bayan. Ang pagpasa sa Civil Service Examination na ibinibigay ng CSC ay isang paraan upang makamit ang career service eligibility. May iba pang paraan ng pagkamit ng eligibility, gaya ng mga kinikilala ng CSC para sa mga honor graduate at mga nakapasa sa bar o board examination. Ang eksamen ay sumusubok sa mga kakayahan sa verbal, numerical, at analytical reasoning, pati na rin sa kaalaman sa Saligang Batas at mga batas na may kaugnayan sa serbisyo publiko. Ang angkop na eligibility ay isa lamang sa mga kuwalipikasyon para sa mga posisyong nangangailangan nito.\n\nAno-ano ang sinusubok ng Civil Service Examination ayon sa talata?",
         "choices": ["Kasanayan sa pagluluto at pananahi", "Verbal, numerical, at analytical reasoning", "Kakayahan sa musika at sining", "Kasanayan sa sports at physical fitness"],
         "correct_answer": "Verbal, numerical, at analytical reasoning",
         "explanation": "Sinabi sa talata na ang eksamen ay 'sumusubok sa mga kakayahan sa verbal, numerical, at analytical reasoning'."
@@ -362,10 +362,10 @@
     {
         "id": "20196",
         "category": "Verbal Ability – Reading Comprehension (Filipino)",
-        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng kalayaan sa pamamahayag ay isa sa mga karapatang ginagarantiya ng Saligang Batas ng Pilipinas. Ito ay nagbibigay-daan sa mga mamamayan na malayang makapagpahayag ng kanilang mga opinyon at saloobin nang walang takot na parusahan. Gayunpaman, ang kalayaang ito ay may limitasyon. Hindi saklaw ng kalayaan sa pamamahayag ang mga pahayag na nakakapinsala sa kapwa tulad ng libel, paninirang-puri, at hate speech.\n\nAno ang limitasyon ng kalayaan sa pamamahayag na binanggit sa talata?",
-        "choices": ["Hindi maaaring pumuna sa gobyerno", "Hindi saklaw ang libel, paninirang-puri, at hate speech", "Hindi maaaring magsulat sa social media", "Hindi maaaring magprotesta sa lansangan"],
-        "correct_answer": "Hindi saklaw ang libel, paninirang-puri, at hate speech",
-        "explanation": "Sinabi sa talata na 'Hindi saklaw ng kalayaan sa pamamahayag ang mga pahayag na nakakapinsala sa kapwa tulad ng libel, paninirang-puri, at hate speech.'"
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nGinagarantiya ng Saligang Batas ng Pilipinas ang kalayaan sa pagsasalita, pagpapahayag, at pamamahayag. Sa responsableng paggamit ng kalayaang ito, sinusuri ng isang manunulat ang katotohanan ng kaniyang impormasyon bago maglathala. Itinatama niya ang mga pagkakamali at malinaw niyang ibinubukod ang opinyon sa napatunayang impormasyon.\n\nAlin ang halimbawa ng responsableng pagpapahayag ayon sa talata?",
+        "choices": ["Paglalathala nang walang pagsusuri","Pagsusuri ng impormasyon bago maglathala","Pagpapanggap na katotohanan ang opinyon","Pagtatago ng natukoy na pagkakamali"],
+        "correct_answer": "Pagsusuri ng impormasyon bago maglathala",
+        "explanation": "Binanggit ng talata ang pagsusuri ng katotohanan ng impormasyon bago ito ilathala bilang responsableng paggamit ng kalayaan sa pagpapahayag."
     },
     {
         "id": "20197",
