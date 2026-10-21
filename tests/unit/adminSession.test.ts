@@ -27,8 +27,11 @@ function fixture() {
   let authStatus = 401;
   let tokenExpiry = now / 1000 + 7200;
   let passwordCalls = 0;
+  let userCalls = 0;
+  const rpcCalls = new Map<string, number>();
   const failures = new Map<string, number>();
   const rpc = async (action: string, args: any) => {
+    rpcCalls.set(action, (rpcCalls.get(action) ?? 0) + 1);
     if (outage) throw new Error('database unavailable');
     if (action === 'auth_member') return { active: member, email: 'admin@example.com' };
     if (action === 'auth_session_put') { sessions.set(args.id, { ...args }); return null; }
@@ -49,9 +52,9 @@ function fixture() {
       signInWithPassword: async ({ password }: any) => { passwordCalls++; return passwordValid && password === 'correct-password'
         ? { data: { user: { id: adminId }, session: { access_token: 'supabase-secret-access', refresh_token: 'must-not-store', expires_at: tokenExpiry } }, error: null }
         : { data: { user: null, session: null }, error: { status: 400 } }; },
-      getUser: async () => userValid
+      getUser: async () => { userCalls++; return userValid
         ? { data: { user: { id: adminId } }, error: null }
-        : { data: { user: null }, error: { status: authStatus } }
+        : { data: { user: null }, error: { status: authStatus } }; }
     } } as any),
     now: () => clock
   });
@@ -68,10 +71,32 @@ function fixture() {
     const nonce = auth.issueLoginNonce(event());
     await auth.loginAdmin(event('POST', { csrf: nonce }), 'admin@example.com', 'correct-password');
   }
-  return { auth, event, login, sessions, cookies, options, passwordCalls: () => passwordCalls, setMember: (value: boolean) => { member = value; }, setPassword: (value: boolean) => { passwordValid = value; }, setUser: (value: boolean) => { userValid = value; }, setOutage: (value: boolean) => { outage = value; }, setConfigured: (value: boolean) => { configured = value; }, setClock: (value: number) => { clock = value; }, setExpiry: (value: number) => { tokenExpiry = value; }, setAuthStatus: (value: number) => { userValid = false; authStatus = value; } };
+  const calls = () => ({ user: userCalls, session: rpcCalls.get('auth_session_get') ?? 0, member: rpcCalls.get('auth_member') ?? 0 });
+  return { calls, auth, event, login, sessions, cookies, options, passwordCalls: () => passwordCalls, setMember: (value: boolean) => { member = value; }, setPassword: (value: boolean) => { passwordValid = value; }, setUser: (value: boolean) => { userValid = value; }, setOutage: (value: boolean) => { outage = value; }, setConfigured: (value: boolean) => { configured = value; }, setClock: (value: number) => { clock = value; }, setExpiry: (value: number) => { tokenExpiry = value; }, setAuthStatus: (value: number) => { userValid = false; authStatus = value; } };
 }
 
 describe('admin sessions', () => {
+  it('replaces request-local session data after reauthentication rotates the CSRF token', async () => {
+    const f = fixture(); await f.login();
+    const old = f.cookies.get('cse_admin_csrf')!;
+    const request = f.event('POST', { csrf: old });
+    const ctx = await f.auth.reauthenticateAdmin(request, 'correct-password');
+    expect(await f.auth.getCsrf(request)).toBe(f.cookies.get('cse_admin_csrf'));
+    expect(f.cookies.get('cse_admin_csrf')).not.toBe(old);
+    await expect(f.auth.requireAdminMutation(request, ctx)).rejects.toMatchObject({ status: 403 });
+  });
+  it('shares verified auth reads within one request, but checks a new request again', async () => {
+    const f = fixture(); await f.login();
+    const initial = f.calls();
+    const request = f.event('POST', { csrf: f.cookies.get('cse_admin_csrf')! });
+    const ctx = await f.auth.requireAdmin(request);
+    await f.auth.requireAdminMutation(request, ctx);
+    expect(await f.auth.requireAdmin(request)).toEqual(ctx);
+    await f.auth.requireAdminMutation(request, ctx);
+    expect(f.calls()).toEqual({ user: initial.user + 1, session: initial.session + 1, member: initial.member + 1 });
+    f.setMember(false);
+    await expect(f.auth.requireAdmin(f.event())).rejects.toMatchObject({ status: 403 });
+  });
   it('admits at most five simultaneous password checks across separate preauth browsers', async () => {
     const f = fixture(); f.setPassword(false);
     const nonce = f.auth.issueLoginNonce(f.event());

@@ -25,6 +25,8 @@ const UNAVAILABLE = 'Administrator sign-in is unavailable.';
 const authUnavailable = (failure: { status?: number } | null) => failure !== null && (failure.status === undefined || failure.status === 0 || failure.status === 429 || failure.status >= 500);
 
 export function createAdminAuth(deps: Dependencies) {
+  const requestSessions = new WeakMap<object, SessionRow>();
+  const requestAdmins = new WeakMap<object, AdminContext>();
   function config() {
     try { return deps.config(); } catch { error(503, UNAVAILABLE); }
   }
@@ -42,6 +44,9 @@ export function createAdminAuth(deps: Dependencies) {
     return result && typeof result.active === 'boolean' ? result : { active: false };
   }
   function clearCookies(event: RequestEvent) {
+    requestSessions.delete(event.locals);
+    requestAdmins.delete(event.locals);
+    delete event.locals.admin;
     for (const name of [SESSION, CSRF, NONCE]) event.cookies.delete(name, { path: '/admin' });
   }
   function issueLoginNonce(event: RequestEvent) {
@@ -97,6 +102,8 @@ export function createAdminAuth(deps: Dependencies) {
     event.cookies.set(SESSION, token, cookieOptions(true, expires));
     event.cookies.set(CSRF, csrf, cookieOptions(false, expires));
     const ctx: AdminContext = { adminId, sessionId: id, reauthenticatedAt };
+    requestSessions.set(event.locals, row);
+    requestAdmins.set(event.locals, ctx);
     event.locals.admin = ctx;
     return ctx;
   }
@@ -127,13 +134,18 @@ export function createAdminAuth(deps: Dependencies) {
     config();
     const token = event.cookies.get(SESSION);
     if (!token || !/^[A-Za-z0-9_-]{43}$/.test(token)) error(401, 'Administrator sign-in required.');
-    const row: SessionRow | null = await rpc('auth_session_get', { hash: hashToken(token) });
+    const hash = hashToken(token);
+    const cached = requestSessions.get(event.locals);
+    const row: SessionRow | null = cached?.hash === hash ? cached : await rpc('auth_session_get', { hash });
     if (!row || !Number.isFinite(Date.parse(row.expiresAt)) || Date.parse(row.expiresAt) <= deps.now()) {
       clearCookies(event); error(401, 'Administrator sign-in required.');
     }
+    requestSessions.set(event.locals, row);
     return row;
   }
   async function requireAdmin(event: RequestEvent): Promise<AdminContext> {
+    const verified = requestAdmins.get(event.locals);
+    if (verified) return verified;
     const row = await sessionRow(event);
     let access: string;
     try { access = decryptToken(row.accessTokenEncrypted, config().encryptionKey); } catch { error(503, UNAVAILABLE); }
@@ -142,7 +154,9 @@ export function createAdminAuth(deps: Dependencies) {
     if (authUnavailable(result.error)) error(503, UNAVAILABLE);
     if (result.error || !result.data.user || result.data.user.id !== row.adminId) error(401, 'Administrator sign-in required.');
     if (!(await member(row.adminId)).active) error(403, 'Administrator access denied.');
-    return { adminId: row.adminId, sessionId: row.id, reauthenticatedAt: row.reauthenticatedAt };
+    const ctx = { adminId: row.adminId, sessionId: row.id, reauthenticatedAt: row.reauthenticatedAt };
+    requestAdmins.set(event.locals, ctx);
+    return ctx;
   }
   async function requireAdminMutation(event: RequestEvent, ctx: AdminContext) {
     const token = await mutationToken(event, config().origin);
