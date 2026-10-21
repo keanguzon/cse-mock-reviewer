@@ -30,6 +30,8 @@
 	},
 	"dependencies": {
 		"@supabase/supabase-js": "^2.106.2",
+		"@tanstack/query-core": "^5.104.5",
+		"@tanstack/svelte-query": "^6.3.5",
 		"bulma": "^1.0.4",
 		"lucide-svelte": "^1.0.1"
 	}
