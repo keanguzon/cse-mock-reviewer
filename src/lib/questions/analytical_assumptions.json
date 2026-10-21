@@ -1107,7 +1107,7 @@
   {
     "id": "2086",
     "category": "Analytical Ability – Assumptions & Conclusions",
-    "question": "Statement: \"If an employee incurs 10 unexcused absences in a month, they receive a formal written reprimand.\"\n\nCarlo incurred 12 unexcused absences this month.\nWhat logical conclusion follows?",
+    "question": "Statement: \"If an employee incurs at least 10 unexcused absences in a month, they receive a formal written reprimand.\"\n\nCarlo incurred 12 unexcused absences this month.\nWhat logical conclusion follows?",
     "choices": [
       "Carlo is exempt from office rules.",
       "Carlo will be promoted.",

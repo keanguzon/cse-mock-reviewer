@@ -201,8 +201,8 @@
     "choices": [
       "Cement",
       "Wall",
-      "House",
-      "Foundation"
+      "Kiln",
+      "Trowel"
     ],
     "correct_answer": "Wall",
     "explanation": "A page is a component part of a book. A brick is a component part of a wall."
@@ -304,12 +304,12 @@
     "question": "Select the pair that expresses the same relationship:\n\nSCALPEL : SURGEON",
     "choices": [
       "Chisel : Sculptor",
-      "Hammer : Carpenter",
-      "Pen : Author",
-      "Needle : Tailor"
+      "Hammer : Nail",
+      "Author : Pen",
+      "Needle : Thread"
     ],
     "correct_answer": "Chisel : Sculptor",
-    "explanation": "A scalpel is the specialized cutting tool of a surgeon. A chisel is the specialized carving tool of a sculptor."
+    "explanation": "A scalpel is a tool used by a surgeon, just as a chisel is a tool used by a sculptor. The other pairs give a tool and its target or material, or reverse the user-tool order."
   },
   {
     "id": "1025",
@@ -420,13 +420,13 @@
     "category": "Analytical Ability – Word Association / Analogy",
     "question": "Select the pair that expresses the same relationship:\n\nCOMPENDIUM : KNOWLEDGE",
     "choices": [
-      "Atlas : Maps",
+      "Atlas : Cartographer",
       "Anthology : Literature",
-      "Encyclopedia : Facts",
-      "Dictionary : Words"
+      "Encyclopedia : Editor",
+      "Dictionary : Publisher"
     ],
     "correct_answer": "Anthology : Literature",
-    "explanation": "A compendium is a concise collection of knowledge. An anthology is a published collection of literary works."
+    "explanation": "A compendium contains a collection of knowledge, just as an anthology contains a collection of literary works. The other pairs associate a reference work with a person who creates or publishes it."
   },
   {
     "id": "1034",
@@ -550,13 +550,13 @@
     "category": "Analytical Ability – Word Association / Analogy",
     "question": "Select the pair that expresses the same relationship:\n\nCANVAS : PAINTER",
     "choices": [
-      "Paper : Writer",
-      "Stage : Actor",
-      "Fabric : Tailor",
+      "Paper : Book",
+      "Stage : Theater",
+      "Fabric : Garment",
       "Marble : Sculptor"
     ],
     "correct_answer": "Marble : Sculptor",
-    "explanation": "Canvas is the medium worked on by a painter. Marble is the medium worked on by a sculptor."
+    "explanation": "A painter works on canvas, just as a sculptor works on marble. The other pairs associate material with a product, or a part with a larger place, rather than material with its artist."
   },
   {
     "id": "1044",
@@ -641,13 +641,13 @@
     "category": "Analytical Ability – Word Association / Analogy",
     "question": "Select the pair that expresses the same relationship:\n\nCOMPASS : DIRECTION",
     "choices": [
-      "Scale : Weight",
+      "Scale : Balance",
       "Clock : Time",
-      "Ruler : Length",
-      "Thermometer : Heat"
+      "Ruler : Carpenter",
+      "Thermometer : Mercury"
     ],
     "correct_answer": "Clock : Time",
-    "explanation": "A compass indicates direction. A clock indicates time."
+    "explanation": "A compass indicates direction, just as a clock indicates time. The other pairs associate instruments with a mechanism, user, or material rather than the quantity indicated."
   },
   {
     "category": "Analytical Ability – Word Association / Analogy",
@@ -1067,15 +1067,15 @@
   },
   {
     "category": "Analytical Ability – Word Association / Analogy",
-    "question": "Select the word that completes the analogy:\n\nEXONERATE : BLAME :: ENFRANCHISE : ________",
+    "question": "Select the word that completes the analogy. Use ENFRANCHISE in the sense of granting voting rights:\n\nEXONERATE : BLAME :: ENFRANCHISE : ________",
     "choices": [
       "Support",
-      "Subjugate",
+      "Register",
       "Empower",
       "Disenfranchise"
     ],
-    "correct_answer": "Subjugate",
-    "explanation": "Exonerate (to free from blame) and blame are antonyms. Enfranchise (to give the right to vote or free) is the antonym of subjugate (to bring under domination).",
+    "correct_answer": "Disenfranchise",
+    "explanation": "Exonerate and blame express opposite actions. In the stated voting-rights sense, enfranchise means to grant voting rights, while disenfranchise means to deprive someone of those rights.",
     "id": "1083"
   },
   {

@@ -1,0 +1,476 @@
+{
+  "reviewDate": "2026-10-21",
+  "scope": "Targeted reasoning correction, not full-bank certification",
+  "corrections": [
+    {
+      "id": "1016",
+      "file": "src/lib/questions/analytical_analogy.json",
+      "before": {
+        "id": "1016",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nPAGE : BOOK :: BRICK : ________",
+        "choices": [
+          "Cement",
+          "Wall",
+          "House",
+          "Foundation"
+        ],
+        "correct_answer": "Wall",
+        "explanation": "A page is a component part of a book. A brick is a component part of a wall."
+      },
+      "after": {
+        "id": "1016",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nPAGE : BOOK :: BRICK : ________",
+        "choices": [
+          "Cement",
+          "Wall",
+          "Kiln",
+          "Trowel"
+        ],
+        "correct_answer": "Wall",
+        "explanation": "A page is a component part of a book. A brick is a component part of a wall."
+      },
+      "issue": "House and foundation also allowed a part-whole reading",
+      "change": "See before/after record.",
+      "evidence": "Replaced overlapping analogies with distractors expressing a different relationship; 1083 explicitly uses the voting-rights sense.",
+      "calculation": null,
+      "sourceURLs": [],
+      "remainingUncertainty": null
+    },
+    {
+      "id": "1024",
+      "file": "src/lib/questions/analytical_analogy.json",
+      "before": {
+        "id": "1024",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nSCALPEL : SURGEON",
+        "choices": [
+          "Chisel : Sculptor",
+          "Hammer : Carpenter",
+          "Pen : Author",
+          "Needle : Tailor"
+        ],
+        "correct_answer": "Chisel : Sculptor",
+        "explanation": "A scalpel is the specialized cutting tool of a surgeon. A chisel is the specialized carving tool of a sculptor."
+      },
+      "after": {
+        "id": "1024",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nSCALPEL : SURGEON",
+        "choices": [
+          "Chisel : Sculptor",
+          "Hammer : Nail",
+          "Author : Pen",
+          "Needle : Thread"
+        ],
+        "correct_answer": "Chisel : Sculptor",
+        "explanation": "A scalpel is a tool used by a surgeon, just as a chisel is a tool used by a sculptor. The other pairs give a tool and its target or material, or reverse the user-tool order."
+      },
+      "issue": "All four original options expressed tool-user relationships",
+      "change": "See before/after record.",
+      "evidence": "Replaced overlapping analogies with distractors expressing a different relationship; 1083 explicitly uses the voting-rights sense.",
+      "calculation": null,
+      "sourceURLs": [],
+      "remainingUncertainty": null
+    },
+    {
+      "id": "1033",
+      "file": "src/lib/questions/analytical_analogy.json",
+      "before": {
+        "id": "1033",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nCOMPENDIUM : KNOWLEDGE",
+        "choices": [
+          "Atlas : Maps",
+          "Anthology : Literature",
+          "Encyclopedia : Facts",
+          "Dictionary : Words"
+        ],
+        "correct_answer": "Anthology : Literature",
+        "explanation": "A compendium is a concise collection of knowledge. An anthology is a published collection of literary works."
+      },
+      "after": {
+        "id": "1033",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nCOMPENDIUM : KNOWLEDGE",
+        "choices": [
+          "Atlas : Cartographer",
+          "Anthology : Literature",
+          "Encyclopedia : Editor",
+          "Dictionary : Publisher"
+        ],
+        "correct_answer": "Anthology : Literature",
+        "explanation": "A compendium contains a collection of knowledge, just as an anthology contains a collection of literary works. The other pairs associate a reference work with a person who creates or publishes it."
+      },
+      "issue": "All original options expressed collection-content relationships",
+      "change": "See before/after record.",
+      "evidence": "Replaced overlapping analogies with distractors expressing a different relationship; 1083 explicitly uses the voting-rights sense.",
+      "calculation": null,
+      "sourceURLs": [],
+      "remainingUncertainty": null
+    },
+    {
+      "id": "1043",
+      "file": "src/lib/questions/analytical_analogy.json",
+      "before": {
+        "id": "1043",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nCANVAS : PAINTER",
+        "choices": [
+          "Paper : Writer",
+          "Stage : Actor",
+          "Fabric : Tailor",
+          "Marble : Sculptor"
+        ],
+        "correct_answer": "Marble : Sculptor",
+        "explanation": "Canvas is the medium worked on by a painter. Marble is the medium worked on by a sculptor."
+      },
+      "after": {
+        "id": "1043",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nCANVAS : PAINTER",
+        "choices": [
+          "Paper : Book",
+          "Stage : Theater",
+          "Fabric : Garment",
+          "Marble : Sculptor"
+        ],
+        "correct_answer": "Marble : Sculptor",
+        "explanation": "A painter works on canvas, just as a sculptor works on marble. The other pairs associate material with a product, or a part with a larger place, rather than material with its artist."
+      },
+      "issue": "Several original choices expressed material-user relationships",
+      "change": "See before/after record.",
+      "evidence": "Replaced overlapping analogies with distractors expressing a different relationship; 1083 explicitly uses the voting-rights sense.",
+      "calculation": null,
+      "sourceURLs": [],
+      "remainingUncertainty": null
+    },
+    {
+      "id": "1050",
+      "file": "src/lib/questions/analytical_analogy.json",
+      "before": {
+        "id": "1050",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nCOMPASS : DIRECTION",
+        "choices": [
+          "Scale : Weight",
+          "Clock : Time",
+          "Ruler : Length",
+          "Thermometer : Heat"
+        ],
+        "correct_answer": "Clock : Time",
+        "explanation": "A compass indicates direction. A clock indicates time."
+      },
+      "after": {
+        "id": "1050",
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the pair that expresses the same relationship:\n\nCOMPASS : DIRECTION",
+        "choices": [
+          "Scale : Balance",
+          "Clock : Time",
+          "Ruler : Carpenter",
+          "Thermometer : Mercury"
+        ],
+        "correct_answer": "Clock : Time",
+        "explanation": "A compass indicates direction, just as a clock indicates time. The other pairs associate instruments with a mechanism, user, or material rather than the quantity indicated."
+      },
+      "issue": "Several original choices expressed instrument-reading relationships",
+      "change": "See before/after record.",
+      "evidence": "Replaced overlapping analogies with distractors expressing a different relationship; 1083 explicitly uses the voting-rights sense.",
+      "calculation": null,
+      "sourceURLs": [],
+      "remainingUncertainty": null
+    },
+    {
+      "id": "1083",
+      "file": "src/lib/questions/analytical_analogy.json",
+      "before": {
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy:\n\nEXONERATE : BLAME :: ENFRANCHISE : ________",
+        "choices": [
+          "Support",
+          "Subjugate",
+          "Empower",
+          "Disenfranchise"
+        ],
+        "correct_answer": "Subjugate",
+        "explanation": "Exonerate (to free from blame) and blame are antonyms. Enfranchise (to give the right to vote or free) is the antonym of subjugate (to bring under domination).",
+        "id": "1083"
+      },
+      "after": {
+        "category": "Analytical Ability – Word Association / Analogy",
+        "question": "Select the word that completes the analogy. Use ENFRANCHISE in the sense of granting voting rights:\n\nEXONERATE : BLAME :: ENFRANCHISE : ________",
+        "choices": [
+          "Support",
+          "Register",
+          "Empower",
+          "Disenfranchise"
+        ],
+        "correct_answer": "Disenfranchise",
+        "explanation": "Exonerate and blame express opposite actions. In the stated voting-rights sense, enfranchise means to grant voting rights, while disenfranchise means to deprive someone of those rights.",
+        "id": "1083"
+      },
+      "issue": "Disenfranchise was a direct voting-rights antonym but was marked wrong",
+      "change": "See before/after record.",
+      "evidence": "Replaced overlapping analogies with distractors expressing a different relationship; 1083 explicitly uses the voting-rights sense.",
+      "calculation": null,
+      "sourceURLs": [
+        "https://www.merriam-webster.com/dictionary/enfranchise",
+        "https://www.merriam-webster.com/dictionary/disenfranchise"
+      ],
+      "remainingUncertainty": null
+    },
+    {
+      "id": "2086",
+      "file": "src/lib/questions/analytical_assumptions.json",
+      "before": {
+        "id": "2086",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: \"If an employee incurs 10 unexcused absences in a month, they receive a formal written reprimand.\"\n\nCarlo incurred 12 unexcused absences this month.\nWhat logical conclusion follows?",
+        "choices": [
+          "Carlo is exempt from office rules.",
+          "Carlo will be promoted.",
+          "Carlo receives a formal written reprimand.",
+          "Carlo receives a verbal warning only."
+        ],
+        "correct_answer": "Carlo receives a formal written reprimand.",
+        "explanation": "12 absences exceeds the 10-absence threshold for unexcused absences, triggering the formal written reprimand."
+      },
+      "after": {
+        "id": "2086",
+        "category": "Analytical Ability – Assumptions & Conclusions",
+        "question": "Statement: \"If an employee incurs at least 10 unexcused absences in a month, they receive a formal written reprimand.\"\n\nCarlo incurred 12 unexcused absences this month.\nWhat logical conclusion follows?",
+        "choices": [
+          "Carlo is exempt from office rules.",
+          "Carlo will be promoted.",
+          "Carlo receives a formal written reprimand.",
+          "Carlo receives a verbal warning only."
+        ],
+        "correct_answer": "Carlo receives a formal written reprimand.",
+        "explanation": "12 absences exceeds the 10-absence threshold for unexcused absences, triggering the formal written reprimand."
+      },
+      "issue": "Exact ten absences did not explicitly establish an at-least-ten threshold",
+      "change": "See before/after record.",
+      "evidence": "12 >= 10",
+      "calculation": "12 >= 10",
+      "sourceURLs": [],
+      "remainingUncertainty": null
+    },
+    {
+      "id": "3024",
+      "file": "src/lib/questions/analytical_data_interpretation.json",
+      "before": {
+        "id": "3024",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table lists quarterly passenger volume (in thousands) for an LRT line:\n- Q1: 45,000\n- Q2: 48,000\n- Q3: 42,000\n- Q4: 55,000\n\nWhat is the average quarterly passenger volume for the year?",
+        "choices": [
+          "50,000",
+          "48,000",
+          "47,500",
+          "45,000"
+        ],
+        "correct_answer": "47,500",
+        "explanation": "Total = 45,000 + 48,000 + 42,000 + 55,000 = 190,000. Average = 190,000 / 4 = 47,500."
+      },
+      "after": {
+        "id": "3024",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table lists quarterly passenger volume (in thousands) for an LRT line:\n- Q1: 45,000\n- Q2: 48,000\n- Q3: 42,000\n- Q4: 55,000\n\nWhat is the average quarterly passenger volume for the year?",
+        "choices": [
+          "50,000 thousand passengers",
+          "48,000 thousand passengers",
+          "47,500 thousand passengers",
+          "45,000 thousand passengers"
+        ],
+        "correct_answer": "47,500 thousand passengers",
+        "explanation": "The figures are in thousands of passengers. Total = 190,000 thousand passengers. Average = 190,000 / 4 = 47,500 thousand passengers (47,500,000 passengers)."
+      },
+      "issue": "Choices and explanation omitted the table unit of thousands",
+      "change": "See before/after record.",
+      "evidence": "(45000+48000+42000+55000)/4 = 47500 thousand passengers",
+      "calculation": "(45000+48000+42000+55000)/4 = 47500 thousand passengers",
+      "sourceURLs": [],
+      "remainingUncertainty": null
+    },
+    {
+      "id": "3042",
+      "file": "src/lib/questions/analytical_data_interpretation.json",
+      "before": {
+        "id": "3042",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table shows monthly rainfall (in mm) recorded in a city:\n- Jan: 50 | Feb: 30 | Mar: 40 | Apr: 60 | May: 180 | Jun: 320\n\nWhat is the ratio of total rainfall in the dry period (Jan-Apr) to the wet period (May-Jun)?",
+        "choices": [
+          "1:3",
+          "9:25",
+          "18:50",
+          "9:50"
+        ],
+        "correct_answer": "9:25",
+        "explanation": "Dry period (Jan-Apr) total = 50+30+40+60 = 180 mm. Wet period (May-Jun) total = 180+320 = 500 mm. Ratio = 180:500 = 9:25."
+      },
+      "after": {
+        "id": "3042",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A table shows monthly rainfall (in mm) recorded in a city:\n- Jan: 50 | Feb: 30 | Mar: 40 | Apr: 60 | May: 180 | Jun: 320\n\nWhat is the ratio, in lowest terms, of total rainfall in the dry period (Jan-Apr) to the wet period (May-Jun)?",
+        "choices": [
+          "1:3",
+          "9:25",
+          "18:50",
+          "9:50"
+        ],
+        "correct_answer": "9:25",
+        "explanation": "Dry period (Jan-Apr) total = 50+30+40+60 = 180 mm. Wet period (May-Jun) total = 180+320 = 500 mm. Ratio = 180:500 = 9:25."
+      },
+      "issue": "Two choices represented the same ratio without a lowest-terms instruction",
+      "change": "See before/after record.",
+      "evidence": "180:500 reduces by gcd 20 to 9:25",
+      "calculation": "180:500 reduces by gcd 20 to 9:25",
+      "sourceURLs": [],
+      "remainingUncertainty": null
+    },
+    {
+      "id": "3065",
+      "file": "src/lib/questions/analytical_data_interpretation.json",
+      "before": {
+        "id": "3065",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A pie chart represents the annual budget distribution of a school:\n- Teachers' Salaries: 50%\n- Facilities & Maintenance: 20%\n- Instructional Materials: 15%\n- Administration: 10%\n- Student Activities: 5%\n\nHow much more is allocated to Teachers' Salaries than Facilities & Maintenance combined with Administration?",
+        "choices": [
+          "P1.0 million",
+          "P2.0 million",
+          "P3.0 million",
+          "P1.5 million"
+        ],
+        "correct_answer": "P2.0 million",
+        "explanation": "Salaries = 50%. Facilities (20%) + Admin (10%) = 30%. Difference = 50% - 30% = 20%. 20% of P10 million = P2.0 million."
+      },
+      "after": {
+        "id": "3065",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A pie chart represents the distribution of a school's P10 million annual budget:\n- Teachers' Salaries: 50%\n- Facilities & Maintenance: 20%\n- Instructional Materials: 15%\n- Administration: 10%\n- Student Activities: 5%\n\nHow much more is allocated to Teachers' Salaries than Facilities & Maintenance combined with Administration?",
+        "choices": [
+          "P1.0 million",
+          "P2.0 million",
+          "P3.0 million",
+          "P1.5 million"
+        ],
+        "correct_answer": "P2.0 million",
+        "explanation": "Salaries = 50%. Facilities (20%) + Admin (10%) = 30%. Difference = 50% - 30% = 20%. 20% of P10 million = P2.0 million."
+      },
+      "issue": "Standalone question omitted the total budget needed for a peso answer",
+      "change": "See before/after record.",
+      "evidence": "(50%-20%-10%)*P10 million = P2 million",
+      "calculation": "(50%-20%-10%)*P10 million = P2 million",
+      "sourceURLs": [],
+      "remainingUncertainty": null
+    },
+    {
+      "id": "3086",
+      "file": "src/lib/questions/analytical_data_interpretation.json",
+      "before": {
+        "id": "3086",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "An IT department monitored ticket resolution times across 4 teams (in hours):\n- Team A: 4.5 hours\n- Team B: 3.0 hours\n- Team C: 6.0 hours\n- Team D: 2.5 hours\n\nWhat is the average resolution time across all 4 teams combined?",
+        "choices": [
+          "4.5 hours",
+          "4.25 hours",
+          "3.5 hours",
+          "4.0 hours"
+        ],
+        "correct_answer": "4.0 hours",
+        "explanation": "Total = 4.5 + 3.0 + 6.0 + 2.5 = 16.0. Average = 16.0 / 4 = 4.0 hours."
+      },
+      "after": {
+        "id": "3086",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "An IT department reported average ticket resolution times across 4 teams (in hours):\n- Team A: 4.5 hours\n- Team B: 3.0 hours\n- Team C: 6.0 hours\n- Team D: 2.5 hours\n\nWhat is the unweighted mean of the four team averages?",
+        "choices": [
+          "4.5 hours",
+          "4.25 hours",
+          "3.5 hours",
+          "4.0 hours"
+        ],
+        "correct_answer": "4.0 hours",
+        "explanation": "Give each team equal weight: (4.5 + 3.0 + 6.0 + 2.5) / 4 = 4.0 hours. An overall mean across all tickets would require ticket counts for each team."
+      },
+      "issue": "Combined ticket average would require ticket-volume weights",
+      "change": "See before/after record.",
+      "evidence": "(4.5+3+6+2.5)/4 = 4 hours",
+      "calculation": "(4.5+3+6+2.5)/4 = 4 hours",
+      "sourceURLs": [],
+      "remainingUncertainty": null
+    },
+    {
+      "id": "3093",
+      "file": "src/lib/questions/analytical_data_interpretation.json",
+      "before": {
+        "id": "3093",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A disaster management unit logged emergency calls during a typhoon:\n- Day 1: 120 calls\n- Day 2: 340 calls\n- Day 3: 200 calls\n- Day 4: 80 calls\n\nWhat percentage of the total calls occurred on Day 2?",
+        "choices": [
+          "40%",
+          "45%",
+          "55%",
+          "50%"
+        ],
+        "correct_answer": "45%",
+        "explanation": "Total calls = 120 + 340 + 200 + 80 = 740 calls. Percentage Day 2 = (340 / 740) * 100% ≈ 45.95% (nearest choice 45%)."
+      },
+      "after": {
+        "id": "3093",
+        "category": "Analytical Ability – Data Interpretation",
+        "question": "A disaster management unit logged emergency calls during a typhoon:\n- Day 1: 120 calls\n- Day 2: 340 calls\n- Day 3: 200 calls\n- Day 4: 80 calls\n\nWhat percentage of the total calls occurred on Day 2, rounded to the nearest whole percent?",
+        "choices": [
+          "40%",
+          "46%",
+          "55%",
+          "50%"
+        ],
+        "correct_answer": "46%",
+        "explanation": "Total calls = 120 + 340 + 200 + 80 = 740. Day 2 accounts for (340 / 740) × 100% = 45.9459...%, which rounds to 46% to the nearest whole percent."
+      },
+      "issue": "No listed choice equaled the correctly rounded calculated percentage",
+      "change": "See before/after record.",
+      "evidence": "round(340/740*100) = 46%",
+      "calculation": "round(340/740*100) = 46%",
+      "sourceURLs": [],
+      "remainingUncertainty": null
+    }
+  ],
+  "remainingUnresolved": [
+    {
+      "id": "4007",
+      "reason": "Retained pending explicit project convention: neither conclusion follows individually, while their disjunction is exhaustive. Changing the option convention requires a broader editorial decision."
+    },
+    {
+      "id": "4011",
+      "reason": "Retained pending explicit project convention: neither conclusion follows individually, while their disjunction is exhaustive. Changing the option convention requires a broader editorial decision."
+    },
+    {
+      "id": "4020",
+      "reason": "Retained pending explicit project convention: neither conclusion follows individually, while their disjunction is exhaustive. Changing the option convention requires a broader editorial decision."
+    },
+    {
+      "id": "4037",
+      "reason": "Retained pending explicit project convention: neither conclusion follows individually, while their disjunction is exhaustive. Changing the option convention requires a broader editorial decision."
+    }
+  ],
+  "cueReview": {
+    "ids": [
+      "2064",
+      "2072",
+      "2076",
+      "2080",
+      "2084",
+      "2086",
+      "2088",
+      "2093",
+      "2095",
+      "2099",
+      "5023"
+    ],
+    "disposition": "All inspected. 2086 threshold clarified. Others retained: length and parentheses alone do not prove leakage. No padding performed.",
+    "remainingUncertainty": "Distractor-quality candidates remain for later editorial review; no factual certification of real-world policy assumptions."
+  }
+}
