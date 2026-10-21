@@ -1,5 +1,19 @@
 import type { ExamLevel, Question } from './questions';
 
+export function shuffleQuestionChoices(question: Question, rng: () => number = Math.random): Question {
+  const wording = [question.question, question.explanation ?? '', ...question.choices].join('\n');
+  const positionDependent = /\b(?:all|none|both)\b[^\n.]*\b(?:above|below)\b|\b(?:choice|option|answer)\s+[A-D]\b|\b[A-D]\s+(?:and|or|&|at|o)\s+[A-D]\b|\b(?:lahat|wala)[^\n.]*\b(?:nabanggit|itaas)\b/i.test(wording) ||
+    question.choices.some(choice => /^\s*[A-D][.)]\s/.test(choice));
+  const choices = [...question.choices];
+  if (!positionDependent) {
+    for (let i = choices.length - 1; i > 0; i--) {
+      const j = Math.floor(rng() * (i + 1));
+      [choices[i], choices[j]] = [choices[j], choices[i]];
+    }
+  }
+  return { ...question, choices };
+}
+
 export function allocateQuotas(limit: number, weights: readonly number[]): number[] {
   if (!Number.isInteger(limit) || limit < 0 || weights.some(w => !Number.isFinite(w) || w < 0)) {
     throw new RangeError('Invalid quota inputs.');
@@ -43,7 +57,7 @@ export function selectQuestions(
     ...shuffle(qs.filter(q => wrong.has(q.id))),
     ...shuffle(qs.filter(q => seen.has(q.id) && !wrong.has(q.id)))
   ];
-  if (!request.weighted || request.category) return ordered(eligible).slice(0, target);
+  if (!request.weighted || request.category) return ordered(eligible).slice(0, target).map(q => shuffleQuestionChoices(q, rng));
   const names = request.level === 'professional'
     ? ['Verbal', 'Analytical', 'Numerical', 'General Information']
     : ['Verbal', 'Clerical', 'Numerical', 'General Information'];
@@ -66,5 +80,5 @@ export function selectQuestions(
     take(group, quotas[i] - (selected.length - start));
   });
   take(eligible, target - selected.length);
-  return selected;
+  return selected.map(q => shuffleQuestionChoices(q, rng));
 }
