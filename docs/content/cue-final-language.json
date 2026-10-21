@@ -1,0 +1,943 @@
+{
+  "date": "2026-10-21",
+  "scope": "Five previously unresolved idioms and all 21 language cue candidates. Editorial judgments are not full-bank certification or claims about actual CSE content.",
+  "idiom_resolutions": [
+    {
+      "id": "20058",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Replaced an unresolved polysemous expression with a dictionary-attested idiom in context.",
+      "primary_sources": [
+        "https://diksiyonaryo.ph/search/kamay"
+      ],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"mahaba ang kamay\" sa pangungusap na \"Binalaan nila ang mga mamimili tungkol sa lalaking mahaba ang kamay sa palengke.\"?",
+        "choices": [
+          "mapagbigay sa kapwa",
+          "mapagmataas sa kapwa",
+          "magnanakaw ng gamit",
+          "mapagtanggol ng api"
+        ],
+        "correct_answer": "magnanakaw ng gamit",
+        "explanation": "Ang \"mahaba ang kamay\" ay idyoma para sa magnanakaw. Sa pangungusap, binabalaan ang mga mamimili laban sa pagnanakaw."
+      },
+      "previous_fields": {
+        "question": "Ano ang kahulugan ng \"mabigat ang kamay\"?",
+        "choices": [
+          "matapang at magiting",
+          "tamad o mahina sa trabaho",
+          "malupit sa kapwa",
+          "mahilig pumalo"
+        ],
+        "correct_answer": "tamad o mahina sa trabaho",
+        "explanation": "Ang 'mabigat ang kamay' ay nangangahulugang tamad, mabagal kumilos, o walang sigla sa paggawa."
+      }
+    },
+    {
+      "id": "20059",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "KWF lists gentle handling and quickness to hit; context selects one sense rather than an unsupported productivity definition.",
+      "primary_sources": [
+        "https://www.dfe.kwfdiksiyonaryo.ph/?letter=G"
+      ],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"magaan ang kamay\" sa pangungusap na \"Magaan ang kamay ng tagapag-alaga sa paghawak sa sanggol.\"?",
+        "choices": [
+          "marahas humawak",
+          "banayad humawak",
+          "mabilis magalit",
+          "mabagal kumilos"
+        ],
+        "correct_answer": "banayad humawak",
+        "explanation": "Dito, ang \"magaan ang kamay\" ay banayad sa paghawak. May iba rin itong gamit, gaya ng pagiging madaling manakit; ang konteksto ng pag-aalaga ang pumipili sa banayad na kahulugan."
+      },
+      "previous_fields": {
+        "question": "Ano ang ibig sabihin ng \"magaan ang kamay\"?",
+        "choices": [
+          "mahinang-mahina ang katawan",
+          "mahusay at mabilis gumawa",
+          "walang lakas",
+          "madaling mapagod"
+        ],
+        "correct_answer": "mahusay at mabilis gumawa",
+        "explanation": "Ang 'magaan ang kamay' ay nangangahulugang masipag, mahusay, at mabilis sa paggawa ng isang bagay."
+      }
+    },
+    {
+      "id": "20064",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Replaced unsupported naglalagay ng bunga sa bibig with the dictionary figurative sense of buwaya.",
+      "primary_sources": [
+        "https://diksiyonaryo.ph/search/buwaya"
+      ],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"buwaya\" sa pangungusap na \"Tinawag na buwaya ang kasosyong inangkin ang buong kita at wala man lang ibinahagi.\"?",
+        "choices": [
+          "taong mahiyain",
+          "taong matipid",
+          "taong mapagtiis",
+          "taong gahaman"
+        ],
+        "correct_answer": "taong gahaman",
+        "explanation": "Sa matalinghagang gamit, ang \"buwaya\" ay taong gahaman o manlilinlang. Ang pag-angkin sa buong kita ang batayan ng gamit dito."
+      },
+      "previous_fields": {
+        "question": "Ano ang kahulugan ng \"naglalagay ng bunga sa bibig\"?",
+        "choices": [
+          "nagpapakain sa bata",
+          "nagpaparinig o nagpaparamdam",
+          "nagdadala ng prutas",
+          "nagbibiro ng malakas"
+        ],
+        "correct_answer": "nagpaparinig o nagpaparamdam",
+        "explanation": "Ang 'naglalagay ng bunga sa bibig' ay nangangahulugang hindi direktang nagsasabi kundi nagpaparinig o nagpaparamdam."
+      }
+    },
+    {
+      "id": "20079",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Replaced unsupported mahabang dulang process sense with dictionary-attested figurative anakpawis.",
+      "primary_sources": [
+        "https://diksiyonaryo.ph/search/anakpawis"
+      ],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"anakpawis\" sa pangungusap na \"Inilarawan ng kuwento ang buhay ng mga anakpawis na nagtatrabaho sa bukid at pagawaan.\"?",
+        "choices": [
+          "mga kabilang sa uring manggagawa",
+          "mga kabilang sa uring maylupa",
+          "mga kabilang sa uring negosyante",
+          "mga kabilang sa uring maharlika"
+        ],
+        "correct_answer": "mga kabilang sa uring manggagawa",
+        "explanation": "Ang \"anakpawis\" ay tumutukoy rito sa uring manggagawa, kabilang ang mga magsasaka at manggagawa sa pagawaan."
+      },
+      "previous_fields": {
+        "question": "Ano ang ibig sabihin ng \"mahabang dulang\"?",
+        "choices": [
+          "malaking hapag-kainan",
+          "pesta ng mga hari",
+          "mahabang proseso o seremonya",
+          "maraming pagkain"
+        ],
+        "correct_answer": "mahabang proseso o seremonya",
+        "explanation": "Ang 'mahabang dulang' ay nangangahulugang mahabang proseso, madalas na ginagamit para sa korte o pagdinig."
+      }
+    },
+    {
+      "id": "20092",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Replaced unsupported mystical mahaba ang buhok sense with dictionary-attested buto’t balat, whose entry points to dayupay.",
+      "primary_sources": [
+        "https://diksiyonaryo.ph/search/balat-sibuyas",
+        "https://diksiyonaryo.ph/search/dayupay"
+      ],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"buto’t balat\" sa pangungusap na \"Pagbalik niya mula sa mahabang pagkakasakit, buto’t balat na si Tomas.\"?",
+        "choices": [
+          "lubhang mataba",
+          "lubhang matangkad",
+          "lubhang payat",
+          "lubhang malakas"
+        ],
+        "correct_answer": "lubhang payat",
+        "explanation": "Ang \"buto’t balat\" ay nangangahulugang lubhang payat; hindi ito literal na kawalan ng ibang bahagi ng katawan."
+      },
+      "previous_fields": {
+        "question": "Ano ang kahulugan ng \"mahaba ang buhok\"?",
+        "choices": [
+          "lalaking may mahabang buhok",
+          "taong madaling malungkot",
+          "taong may koneksyon sa langit",
+          "sinaunang babaylan"
+        ],
+        "correct_answer": "taong may koneksyon sa langit",
+        "explanation": "Sa tradisyonal na konteksto, ang 'mahaba ang buhok' ay tumutukoy sa taong may kaalaman sa espiritwal o may koneksyon sa kalikasan."
+      }
+    }
+  ],
+  "cue_review": [
+    {
+      "id": "16083",
+      "status": "retained",
+      "reason": "Choices are quoted sentence spans; the dangling passive clause is longer because it is the actual erroneous span. Shortening it would misidentify the error. All alternatives are real spans, without answer labels."
+    },
+    {
+      "id": "20055",
+      "status": "rewritten",
+      "reason": "Replaced literal chicken distractor and compressed definition without losing subsistence meaning."
+    },
+    {
+      "id": "20061",
+      "status": "rewritten",
+      "reason": "Removed an overabsolute no-remedy definition and literal/irrelevant distractors."
+    },
+    {
+      "id": "20066",
+      "status": "rewritten",
+      "reason": "Made distractors parallel emotional states rather than literal blood symptoms."
+    },
+    {
+      "id": "20068",
+      "status": "rewritten",
+      "reason": "Added explicit ambition context and removed literal aviation distractors; does not assert that wealth is the only sense."
+    },
+    {
+      "id": "20070",
+      "status": "rewritten",
+      "reason": "Removed nonsensical literal distractors and narrowed the conflicting speech/feeling sense."
+    },
+    {
+      "id": "20075",
+      "status": "rewritten",
+      "reason": "All choices now describe social communication, not literal illumination."
+    },
+    {
+      "id": "20080",
+      "status": "rewritten",
+      "reason": "Replaced the uniquely elaborated key with a precise parallel noun phrase."
+    },
+    {
+      "id": "20087",
+      "status": "rewritten",
+      "reason": "Specified the figurative danger context and replaced literal nonsensical distractors."
+    },
+    {
+      "id": "20089",
+      "status": "rewritten",
+      "reason": "Parallel difficult-person claims require interpreting deliberate refusal to listen."
+    },
+    {
+      "id": "20093",
+      "status": "rewritten",
+      "reason": "Removed literal torn-pocket cue and matched financial outcomes."
+    },
+    {
+      "id": "20096",
+      "status": "rewritten",
+      "reason": "Parallel speech descriptions avoid the literal sweets distractor."
+    },
+    {
+      "id": "20097",
+      "status": "rewritten",
+      "reason": "Supplied corruption context instead of asserting every system is bad; replaced literal bodily distractors."
+    },
+    {
+      "id": "20098",
+      "status": "retained",
+      "reason": "Prior correction already supplies an odor context and four parallel naglalabas ng phrases; no further edit needed."
+    },
+    {
+      "id": "20100",
+      "status": "rewritten",
+      "reason": "Removed invalid inference that being offended proves an accusation true, and replaced literal distractors."
+    },
+    {
+      "id": "20167",
+      "status": "rewritten",
+      "reason": "Parallel proposals contrast shared responsibility with sector-only approaches."
+    },
+    {
+      "id": "20172",
+      "status": "rewritten",
+      "reason": "Replaced absolutes and irrelevant household beautification with environmental/economic outcomes."
+    },
+    {
+      "id": "20183",
+      "status": "rewritten",
+      "reason": "All choices now express a beneficiary principle; retained precision about marginalized people."
+    },
+    {
+      "id": "20198",
+      "status": "rewritten",
+      "reason": "All alternatives are plausible tourism proposals; passage supports only environmental protection."
+    },
+    {
+      "id": "20199",
+      "status": "rewritten",
+      "reason": "Parallel health-policy aims remove absurd anti-treatment distractors. States statutory objective rather than claiming universal service delivery has already been achieved."
+    },
+    {
+      "id": "20200",
+      "status": "rewritten",
+      "reason": "Retained the four health-condition choice groups after manual review: three named mental-health complaints reproduce the passage list, while each other group contains physical complaints. Revised only the shared passage to state a statutory objective rather than achieved universal coverage."
+    }
+  ],
+  "changes": [
+    {
+      "id": "20058",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Replaced an unresolved polysemous expression with a dictionary-attested idiom in context.",
+      "primary_sources": [
+        "https://diksiyonaryo.ph/search/kamay"
+      ],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"mahaba ang kamay\" sa pangungusap na \"Binalaan nila ang mga mamimili tungkol sa lalaking mahaba ang kamay sa palengke.\"?",
+        "choices": [
+          "mapagbigay sa kapwa",
+          "mapagmataas sa kapwa",
+          "magnanakaw ng gamit",
+          "mapagtanggol ng api"
+        ],
+        "correct_answer": "magnanakaw ng gamit",
+        "explanation": "Ang \"mahaba ang kamay\" ay idyoma para sa magnanakaw. Sa pangungusap, binabalaan ang mga mamimili laban sa pagnanakaw."
+      },
+      "previous_fields": {
+        "question": "Ano ang kahulugan ng \"mabigat ang kamay\"?",
+        "choices": [
+          "matapang at magiting",
+          "tamad o mahina sa trabaho",
+          "malupit sa kapwa",
+          "mahilig pumalo"
+        ],
+        "correct_answer": "tamad o mahina sa trabaho",
+        "explanation": "Ang 'mabigat ang kamay' ay nangangahulugang tamad, mabagal kumilos, o walang sigla sa paggawa."
+      }
+    },
+    {
+      "id": "20059",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "KWF lists gentle handling and quickness to hit; context selects one sense rather than an unsupported productivity definition.",
+      "primary_sources": [
+        "https://www.dfe.kwfdiksiyonaryo.ph/?letter=G"
+      ],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"magaan ang kamay\" sa pangungusap na \"Magaan ang kamay ng tagapag-alaga sa paghawak sa sanggol.\"?",
+        "choices": [
+          "marahas humawak",
+          "banayad humawak",
+          "mabilis magalit",
+          "mabagal kumilos"
+        ],
+        "correct_answer": "banayad humawak",
+        "explanation": "Dito, ang \"magaan ang kamay\" ay banayad sa paghawak. May iba rin itong gamit, gaya ng pagiging madaling manakit; ang konteksto ng pag-aalaga ang pumipili sa banayad na kahulugan."
+      },
+      "previous_fields": {
+        "question": "Ano ang ibig sabihin ng \"magaan ang kamay\"?",
+        "choices": [
+          "mahinang-mahina ang katawan",
+          "mahusay at mabilis gumawa",
+          "walang lakas",
+          "madaling mapagod"
+        ],
+        "correct_answer": "mahusay at mabilis gumawa",
+        "explanation": "Ang 'magaan ang kamay' ay nangangahulugang masipag, mahusay, at mabilis sa paggawa ng isang bagay."
+      }
+    },
+    {
+      "id": "20064",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Replaced unsupported naglalagay ng bunga sa bibig with the dictionary figurative sense of buwaya.",
+      "primary_sources": [
+        "https://diksiyonaryo.ph/search/buwaya"
+      ],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"buwaya\" sa pangungusap na \"Tinawag na buwaya ang kasosyong inangkin ang buong kita at wala man lang ibinahagi.\"?",
+        "choices": [
+          "taong mahiyain",
+          "taong matipid",
+          "taong mapagtiis",
+          "taong gahaman"
+        ],
+        "correct_answer": "taong gahaman",
+        "explanation": "Sa matalinghagang gamit, ang \"buwaya\" ay taong gahaman o manlilinlang. Ang pag-angkin sa buong kita ang batayan ng gamit dito."
+      },
+      "previous_fields": {
+        "question": "Ano ang kahulugan ng \"naglalagay ng bunga sa bibig\"?",
+        "choices": [
+          "nagpapakain sa bata",
+          "nagpaparinig o nagpaparamdam",
+          "nagdadala ng prutas",
+          "nagbibiro ng malakas"
+        ],
+        "correct_answer": "nagpaparinig o nagpaparamdam",
+        "explanation": "Ang 'naglalagay ng bunga sa bibig' ay nangangahulugang hindi direktang nagsasabi kundi nagpaparinig o nagpaparamdam."
+      }
+    },
+    {
+      "id": "20079",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Replaced unsupported mahabang dulang process sense with dictionary-attested figurative anakpawis.",
+      "primary_sources": [
+        "https://diksiyonaryo.ph/search/anakpawis"
+      ],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"anakpawis\" sa pangungusap na \"Inilarawan ng kuwento ang buhay ng mga anakpawis na nagtatrabaho sa bukid at pagawaan.\"?",
+        "choices": [
+          "mga kabilang sa uring manggagawa",
+          "mga kabilang sa uring maylupa",
+          "mga kabilang sa uring negosyante",
+          "mga kabilang sa uring maharlika"
+        ],
+        "correct_answer": "mga kabilang sa uring manggagawa",
+        "explanation": "Ang \"anakpawis\" ay tumutukoy rito sa uring manggagawa, kabilang ang mga magsasaka at manggagawa sa pagawaan."
+      },
+      "previous_fields": {
+        "question": "Ano ang ibig sabihin ng \"mahabang dulang\"?",
+        "choices": [
+          "malaking hapag-kainan",
+          "pesta ng mga hari",
+          "mahabang proseso o seremonya",
+          "maraming pagkain"
+        ],
+        "correct_answer": "mahabang proseso o seremonya",
+        "explanation": "Ang 'mahabang dulang' ay nangangahulugang mahabang proseso, madalas na ginagamit para sa korte o pagdinig."
+      }
+    },
+    {
+      "id": "20092",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Replaced unsupported mystical mahaba ang buhok sense with dictionary-attested buto’t balat, whose entry points to dayupay.",
+      "primary_sources": [
+        "https://diksiyonaryo.ph/search/balat-sibuyas",
+        "https://diksiyonaryo.ph/search/dayupay"
+      ],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"buto’t balat\" sa pangungusap na \"Pagbalik niya mula sa mahabang pagkakasakit, buto’t balat na si Tomas.\"?",
+        "choices": [
+          "lubhang mataba",
+          "lubhang matangkad",
+          "lubhang payat",
+          "lubhang malakas"
+        ],
+        "correct_answer": "lubhang payat",
+        "explanation": "Ang \"buto’t balat\" ay nangangahulugang lubhang payat; hindi ito literal na kawalan ng ibang bahagi ng katawan."
+      },
+      "previous_fields": {
+        "question": "Ano ang kahulugan ng \"mahaba ang buhok\"?",
+        "choices": [
+          "lalaking may mahabang buhok",
+          "taong madaling malungkot",
+          "taong may koneksyon sa langit",
+          "sinaunang babaylan"
+        ],
+        "correct_answer": "taong may koneksyon sa langit",
+        "explanation": "Sa tradisyonal na konteksto, ang 'mahaba ang buhok' ay tumutukoy sa taong may kaalaman sa espiritwal o may koneksyon sa kalikasan."
+      }
+    },
+    {
+      "id": "20055",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Replaced literal chicken distractor and compressed definition without losing subsistence meaning.",
+      "primary_sources": [],
+      "revised_fields": {
+        "choices": [
+          "namumuhay nang marangya",
+          "namumuhay nang panatag",
+          "kinikita ay pang-araw lamang",
+          "gumagastos nang walang hanggan"
+        ],
+        "correct_answer": "kinikita ay pang-araw lamang"
+      },
+      "previous_fields": {
+        "choices": [
+          "masaganang buhay",
+          "katamtamang pamumuhay",
+          "ang kinita sa isang araw ay siya ring gastos",
+          "mahilig sa manok"
+        ],
+        "correct_answer": "ang kinita sa isang araw ay siya ring gastos"
+      }
+    },
+    {
+      "id": "20061",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Removed an overabsolute no-remedy definition and literal/irrelevant distractors.",
+      "primary_sources": [],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"nasa huli ang pagsisisi\" sa pangungusap na \"Hindi sinuri ni Lito ang kontrata bago pumirma; nang makita ang mabigat na obligasyon, nasabi niyang nasa huli ang pagsisisi.\"?",
+        "choices": [
+          "mas mabuti ang magpasiyang huli",
+          "laging mali ang unang pasiya",
+          "pagsisisi ay dumarating matapos ang ginawa",
+          "pagsisisi ay pumipigil sa lahat ng panganib"
+        ],
+        "correct_answer": "pagsisisi ay dumarating matapos ang ginawa",
+        "explanation": "Ipinahihiwatig ng kasabihan na ang pagsisisi ay dumarating matapos ang ginawa. Kaya dapat pag-isipan muna ang pasiya; hindi nito sinasabing wala nang anumang paraan para makabawi."
+      },
+      "previous_fields": {
+        "question": "Ano ang ibig sabihin ng \"nasa huli ang pagsisisi\"?",
+        "choices": [
+          "magandang maging huli",
+          "dapat pagsisihan ang lahat",
+          "kapag dumating na ang masama ay wala nang magagawa pa",
+          "palaging magpahuli"
+        ],
+        "correct_answer": "kapag dumating na ang masama ay wala nang magagawa pa",
+        "explanation": "Ang 'nasa huli ang pagsisisi' ay nangangahulugang kapag naganap na ang masama, huli na ang lahat para magsisi."
+      }
+    },
+    {
+      "id": "20066",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Made distractors parallel emotional states rather than literal blood symptoms.",
+      "primary_sources": [],
+      "revised_fields": {
+        "choices": [
+          "nangangamba sa isang tao",
+          "naiinggit sa isang tao",
+          "nagkakagusto sa isang tao",
+          "naghihinala sa isang tao"
+        ],
+        "correct_answer": "nagkakagusto sa isang tao"
+      },
+      "previous_fields": {
+        "choices": [
+          "may sakit sa dugo",
+          "namumula ang katawan",
+          "nagkakagusto o naakit sa isang tao",
+          "nagagalit nang husto"
+        ],
+        "correct_answer": "nagkakagusto o naakit sa isang tao"
+      }
+    },
+    {
+      "id": "20068",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Added explicit ambition context and removed literal aviation distractors; does not assert that wealth is the only sense.",
+      "primary_sources": [
+        "https://www.leksyon.com/filipino/mata%C3%A1s%20ang%20lip%C3%A1d/592"
+      ],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"mataas ang lipad\" sa pangungusap na \"Mataas ang lipad ni Rosa: sa murang edad ay hangad na niyang mamuno sa isang pandaigdigang kompanya.\"?",
+        "choices": [
+          "maliit ang tiwala sa sarili",
+          "mataas ang pangarap sa buhay",
+          "malaki ang takot sa hamon",
+          "mababa ang tingin sa kapwa"
+        ],
+        "correct_answer": "mataas ang pangarap sa buhay",
+        "explanation": "Sa pangungusap, ang \"mataas ang lipad\" ay tumutukoy sa mataas o malaking pangarap. Ang hangaring mamuno sa pandaigdigang kompanya ang nagbibigay ng konteksto."
+      },
+      "previous_fields": {
+        "question": "Ano ang kahulugan ng \"mataas ang lipad\"?",
+        "choices": [
+          "piloto ng eroplano",
+          "mayaman o may mataas na katayuan",
+          "matangkad na tao",
+          "mahilig lumipad"
+        ],
+        "correct_answer": "mayaman o may mataas na katayuan",
+        "explanation": "Ang 'mataas ang lipad' ay nangangahulugang mayaman, may mataas na posisyon sa lipunan, o may malaking impluwensiya."
+      }
+    },
+    {
+      "id": "20070",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Removed nonsensical literal distractors and narrowed the conflicting speech/feeling sense.",
+      "primary_sources": [],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"tulak ng bibig, kabig ng dibdib\" sa pangungusap na \"Tinatanggihan niya ang alok na regalo ngunit umaasa siyang ibibigay pa rin ito: tulak ng bibig, kabig ng dibdib.\"?",
+        "choices": [
+          "tumatanggi ngunit nais tanggapin",
+          "tumatanggap ngunit walang pag-asa",
+          "nangangako ngunit walang balak",
+          "nagtatanong ngunit alam ang sagot"
+        ],
+        "correct_answer": "tumatanggi ngunit nais tanggapin",
+        "explanation": "Tinatanggihan sa salita ang regalong nais naman niyang tanggapin. Ito ang kahulugang pinipili ng konteksto."
+      },
+      "previous_fields": {
+        "question": "Ano ang kahulugan ng idyomang \"tulak ng bibig, kabig ng dibdib\"?",
+        "choices": [
+          "sinasabi ang gusto ngunit iba ang tunay na nararamdaman",
+          "palaging nagsisinungaling",
+          "mahilig kumain",
+          "madaldal na tao"
+        ],
+        "correct_answer": "sinasabi ang gusto ngunit iba ang tunay na nararamdaman",
+        "explanation": "Ang 'tulak ng bibig, kabig ng dibdib' ay nangangahulugang iba ang sinasabi sa tunay na nararamdaman."
+      }
+    },
+    {
+      "id": "20075",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "All choices now describe social communication, not literal illumination.",
+      "primary_sources": [],
+      "revised_fields": {
+        "choices": [
+          "nagpapahayag ng pagtutol",
+          "nagpapakitang-gilas sa iba",
+          "nagpapakita ng pag-aalala",
+          "nagpapaliwanag ng tuntunin"
+        ],
+        "correct_answer": "nagpapakitang-gilas sa iba"
+      },
+      "previous_fields": {
+        "choices": [
+          "nagbibigay ng liwanag",
+          "nagpapakitang-gilas o nagyayabang",
+          "nagtuturo sa gabi",
+          "nagpapaganda ng bahay"
+        ],
+        "correct_answer": "nagpapakitang-gilas o nagyayabang"
+      }
+    },
+    {
+      "id": "20080",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Replaced the uniquely elaborated key with a precise parallel noun phrase.",
+      "primary_sources": [],
+      "revised_fields": {
+        "choices": [
+          "ulat ng nasaksihan",
+          "likha ng imahinasyon",
+          "alaala ng karanasan",
+          "bunga ng pagsasaliksik"
+        ],
+        "correct_answer": "likha ng imahinasyon"
+      },
+      "previous_fields": {
+        "choices": [
+          "tunay na pangyayari",
+          "gawa-gawa lang ng isip o imahinasyon",
+          "magandang alaala",
+          "masamang panaginip"
+        ],
+        "correct_answer": "gawa-gawa lang ng isip o imahinasyon"
+      }
+    },
+    {
+      "id": "20087",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Specified the figurative danger context and replaced literal nonsensical distractors.",
+      "primary_sources": [],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"naglalakad sa apoy\" sa pangungusap na \"Naglalakad sa apoy si Elena sa lihim niyang pagkuha ng ebidensiya laban sa armadong sindikato.\"?",
+        "choices": [
+          "nagsasaya sa paglalakbay",
+          "nalalagay sa panganib",
+          "nagtitiis sa kahirapan",
+          "nagmamadali sa gawain"
+        ],
+        "correct_answer": "nalalagay sa panganib",
+        "explanation": "Sa kontekstong ito, ang \"naglalakad sa apoy\" ay nalalagay sa panganib dahil sa pagkuha ng ebidensiya laban sa armadong sindikato."
+      },
+      "previous_fields": {
+        "question": "Ano ang ibig sabihin ng \"naglalakad sa apoy\"?",
+        "choices": [
+          "nagpapaligo sa init",
+          "namamasyal sa mainit na panahon",
+          "nalagay sa panganib o delikadong sitwasyon",
+          "nagtatrabaho sa planta"
+        ],
+        "correct_answer": "nalagay sa panganib o delikadong sitwasyon",
+        "explanation": "Ang 'naglalakad sa apoy' ay nangangahulugang nasa napakadelikadong sitwasyon o panganib."
+      }
+    },
+    {
+      "id": "20089",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Parallel difficult-person claims require interpreting deliberate refusal to listen.",
+      "primary_sources": [],
+      "revised_fields": {
+        "choices": [
+          "mahirap turuan ang ayaw makinig",
+          "mahirap kausapin ang walang boses",
+          "mahirap tulungan ang walang pera",
+          "mahirap hanapin ang malayo sa bahay"
+        ],
+        "correct_answer": "mahirap turuan ang ayaw makinig"
+      },
+      "previous_fields": {
+        "choices": [
+          "mahirap gisingin ang tulog",
+          "ang taong nagkukunwaring walang alam ay mahirap kausapin",
+          "masarap matulog ng mahimbing",
+          "dapat magising nang maaga"
+        ],
+        "correct_answer": "ang taong nagkukunwaring walang alam ay mahirap kausapin"
+      }
+    },
+    {
+      "id": "20093",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Removed literal torn-pocket cue and matched financial outcomes.",
+      "primary_sources": [],
+      "revised_fields": {
+        "choices": [
+          "nasasayang ang pagkakataon",
+          "nadaragdagan ang kinikita",
+          "nauubos ang salapi",
+          "napapabuti ang kabuhayan"
+        ],
+        "correct_answer": "nauubos ang salapi"
+      },
+      "previous_fields": {
+        "choices": [
+          "may sira ang pantalon",
+          "madaming gastos at nauubusan ng pera",
+          "malakas kumita",
+          "maliit ang sweldo"
+        ],
+        "correct_answer": "madaming gastos at nauubusan ng pera"
+      }
+    },
+    {
+      "id": "20096",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Parallel speech descriptions avoid the literal sweets distractor.",
+      "primary_sources": [],
+      "revised_fields": {
+        "choices": [
+          "mapanakit magsalita",
+          "mapanghikayat magsalita",
+          "paligoy magsalita",
+          "pabigla-biglang magsalita"
+        ],
+        "correct_answer": "mapanghikayat magsalita"
+      },
+      "previous_fields": {
+        "choices": [
+          "mahilig sa matamis na pagkain",
+          "magaling magsalita at manghikayat",
+          "palaging nagsisinungaling",
+          "mahiyain sa tao"
+        ],
+        "correct_answer": "magaling magsalita at manghikayat"
+      }
+    },
+    {
+      "id": "20097",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Supplied corruption context instead of asserting every system is bad; replaced literal bodily distractors.",
+      "primary_sources": [],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"kinakain ng sistema\" sa pangungusap na \"Dati ay tumututol si Ben sa pandaraya sa opisina, ngunit ngayon ay nakikilahok na siya rito; kinakain na siya ng sistema.\"?",
+        "choices": [
+          "lumalaban sa nakagawiang pandaraya",
+          "nakikisunod sa nakagawiang pandaraya",
+          "nagsisiwalat ng nakagawiang pandaraya",
+          "umuutos na imbestigahan ang pandaraya"
+        ],
+        "correct_answer": "nakikisunod sa nakagawiang pandaraya",
+        "explanation": "Dito, ang \"kinakain ng sistema\" ay pag-angkop at pakikilahok sa masamang gawi ng kapaligiran. Hindi ito pahayag na masama ang lahat ng sistema."
+      },
+      "previous_fields": {
+        "question": "Ano ang ibig sabihin ng \"kinakain ng sistema\"?",
+        "choices": [
+          "may sakit sa tiyan",
+          "nasanay na sa masamang gawain ng sistema",
+          "nagugutom ang tao",
+          "bumabait ang tao"
+        ],
+        "correct_answer": "nasanay na sa masamang gawain ng sistema",
+        "explanation": "Ang 'kinakain ng sistema' ay nangangahulugang naging parte na ng masamang sistema at hindi na nakikita ang problema nito."
+      }
+    },
+    {
+      "id": "20100",
+      "file": "src/lib/questions/verbal_idyoma_filipino.json",
+      "status": "rewritten",
+      "reason": "Removed invalid inference that being offended proves an accusation true, and replaced literal distractors.",
+      "primary_sources": [],
+      "revised_fields": {
+        "question": "Ano ang kahulugan ng \"bato-bato sa langit, ang matamaan huwag magalit\" sa pangungusap na \"Bago punahin ang mga nakaugalian sa opisina nang walang pinapangalanan, sinabi niya: Bato-bato sa langit, ang matamaan huwag magalit.\"?",
+        "choices": [
+          "paanyayang pangalanan ang lahat ng may kasalanan",
+          "pakiusap na huwag personalin ang pangkalahatang puna",
+          "patunay na totoo ang puna kapag may nagalit",
+          "pangakong walang sinumang masasaktan sa puna"
+        ],
+        "correct_answer": "pakiusap na huwag personalin ang pangkalahatang puna",
+        "explanation": "Pakiusap ito na huwag personalin ang pangkalahatang puna. Ang pagkagalit ng isang tao ay hindi patunay na totoo ang puna sa kaniya."
+      },
+      "previous_fields": {
+        "question": "Ano ang kahulugan ng \"bato-bato sa langit, ang matamaan huwag magalit\"?",
+        "choices": [
+          "huwag pumunta kung saan may bagyo",
+          "ang masaktan sa katotohanan ay huwag magagalit dahil totoo naman",
+          "huwag magtapon ng bato sa itaas",
+          "magdasal lagi"
+        ],
+        "correct_answer": "ang masaktan sa katotohanan ay huwag magagalit dahil totoo naman",
+        "explanation": "Ang kasabihang ito ay nangangahulugang kung nasaktan ka sa sinabi, ibig sabihin totoo sa iyo ang bagay na iyon."
+      }
+    },
+    {
+      "id": "20167",
+      "file": "src/lib/questions/verbal_pagaunawa_filipino.json",
+      "status": "rewritten",
+      "reason": "Parallel proposals contrast shared responsibility with sector-only approaches.",
+      "primary_sources": [],
+      "revised_fields": {
+        "choices": [
+          "Pamahalaan lamang ang gumawa ng programa",
+          "Pamahalaan, negosyo, at mamamayan ang magtulungan",
+          "Pribadong sektor lamang ang magbigay ng trabaho",
+          "Mamamayan lamang ang umako sa lahat ng gastos"
+        ],
+        "correct_answer": "Pamahalaan, negosyo, at mamamayan ang magtulungan"
+      },
+      "previous_fields": {
+        "choices": [
+          "Dagdagan ang buwis sa mamamayan",
+          "Sama-samang pagsisikap ng gobyerno, pribadong sektor, at mamamayan",
+          "Humingi ng tulong sa ibang bansa",
+          "Bawasan ang populasyon ng bansa"
+        ],
+        "correct_answer": "Sama-samang pagsisikap ng gobyerno, pribadong sektor, at mamamayan"
+      }
+    },
+    {
+      "id": "20172",
+      "file": "src/lib/questions/verbal_pagaunawa_filipino.json",
+      "status": "rewritten",
+      "reason": "Replaced absolutes and irrelevant household beautification with environmental/economic outcomes.",
+      "primary_sources": [],
+      "revised_fields": {
+        "choices": [
+          "Nagpapababa ng presyo ng mga pagkain",
+          "Pinipigilan ang pagguho ng lupa at pagbaha",
+          "Nagpapabilis ng paglago ng lahat ng pananim",
+          "Nagpapalawak ng lupang maaaring pagtayuan"
+        ],
+        "correct_answer": "Pinipigilan ang pagguho ng lupa at pagbaha"
+      },
+      "previous_fields": {
+        "choices": [
+          "Nagpapaganda ng bahay",
+          "Pinipigilan ang pagguho ng lupa at pagbaha",
+          "Nagpapababa ng presyo ng pagkain",
+          "Nagbibigay ng trabaho sa lahat"
+        ],
+        "correct_answer": "Pinipigilan ang pagguho ng lupa at pagbaha"
+      }
+    },
+    {
+      "id": "20183",
+      "file": "src/lib/questions/verbal_pagaunawa_filipino.json",
+      "status": "rewritten",
+      "reason": "All choices now express a beneficiary principle; retained precision about marginalized people.",
+      "primary_sources": [],
+      "revised_fields": {
+        "choices": [
+          "Mga may-ari ng negosyo ang pangunahing dapat makinabang",
+          "Lahat ng mamamayan, lalo na ang mga nasa laylayan",
+          "Mga opisyal na namamahala ang pangunahing dapat makinabang",
+          "Mga mamamayang may matatag nang kita ang dapat unahin"
+        ],
+        "correct_answer": "Lahat ng mamamayan, lalo na ang mga nasa laylayan"
+      },
+      "previous_fields": {
+        "choices": [
+          "Ang mga politiko lamang",
+          "Ang lahat ng mamamayan, lalo na ang mga nasa laylayan",
+          "Ang mga dayuhan na naninirahan sa Pilipinas",
+          "Ang mga negosyante at malalaking kumpanya"
+        ],
+        "correct_answer": "Ang lahat ng mamamayan, lalo na ang mga nasa laylayan"
+      }
+    },
+    {
+      "id": "20198",
+      "file": "src/lib/questions/verbal_pagaunawa_filipino.json",
+      "status": "rewritten",
+      "reason": "All alternatives are plausible tourism proposals; passage supports only environmental protection.",
+      "primary_sources": [],
+      "revised_fields": {
+        "choices": [
+          "Pagpaparami ng hotel at pagluluwag ng patakaran",
+          "Pangangalaga sa kalikasan at pagpapanatili ng kalinisan",
+          "Pagpapalawak ng biyahe at pagpapababa ng pamasahe",
+          "Pagpaparami ng patalastas at pagdaragdag ng pista"
+        ],
+        "correct_answer": "Pangangalaga sa kalikasan at pagpapanatili ng kalinisan"
+      },
+      "previous_fields": {
+        "choices": [
+          "Pagtatayo ng maraming pabrika malapit sa dagat",
+          "Pangangalaga sa kalikasan at pagpapanatili ng kalinisan",
+          "Pagbabawal sa mga turista na bumisita",
+          "Pagtaas ng presyo ng mga hotel"
+        ],
+        "correct_answer": "Pangangalaga sa kalikasan at pagpapanatili ng kalinisan"
+      }
+    },
+    {
+      "id": "20199",
+      "file": "src/lib/questions/verbal_pagaunawa_filipino.json",
+      "status": "rewritten",
+      "reason": "Parallel health-policy aims remove absurd anti-treatment distractors. States statutory objective rather than claiming universal service delivery has already been achieved.",
+      "primary_sources": [
+        "https://lawphil.net/statutes/repacts/ra2018/ra_11036_2018.html"
+      ],
+      "revised_fields": {
+        "choices": [
+          "Palawakin ang serbisyong pangkalusugang pisikal",
+          "Palawakin ang pag-abot ng serbisyong pangkaisipan",
+          "Palawakin ang pagsasanay sa kaligtasan sa trabaho",
+          "Palawakin ang programang pangnutrisyon sa paaralan"
+        ],
+        "correct_answer": "Palawakin ang pag-abot ng serbisyong pangkaisipan",
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng mental health o kalusugang pangkaisipan ay kasing-halaga ng pisikal na kalusugan. Ang stress, anxiety, at depression ay mga karaniwang problemang pangkaisipan na maaaring maranasan ng sinuman. Mahalaga na humingi ng tulong sa mga propesyonal tulad ng psychiatrist o psychologist kapag naramdaman na hindi na kayang mag-isa. Layunin ng Republic Act No. 11036 o Mental Health Act na palawakin ang pag-abot ng mga serbisyo para sa kalusugang pangkaisipan sa publiko.\n\nAno ang layunin ng RA 11036 ayon sa talata?",
+        "explanation": "Ayon sa talata, layunin ng Mental Health Act na palawakin ang pag-abot ng mga serbisyo para sa kalusugang pangkaisipan sa publiko."
+      },
+      "previous_fields": {
+        "choices": [
+          "Bawasan ang bilang ng mga doktor sa Pilipinas",
+          "Tiyakin na ang serbisyo sa mental health ay naabot ng lahat",
+          "Ipagbawal ang pagpapagamot sa mga psychologist",
+          "Dagdagan ang trabaho ng mga nars"
+        ],
+        "correct_answer": "Tiyakin na ang serbisyo sa mental health ay naabot ng lahat",
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng mental health o kalusugang pangkaisipan ay kasing-halaga ng pisikal na kalusugan. Ang stress, anxiety, at depression ay mga karaniwang problemang pangkaisipan na maaaring maranasan ng sinuman. Mahalaga na humingi ng tulong sa mga propesyonal tulad ng psychiatrist o psychologist kapag naramdaman na hindi na kayang mag-isa. Ang Republic Act No. 11036 o Mental Health Act ay nagtitiyak na ang mga serbisyo para sa mental health ay naabot ng lahat ng Pilipino.\n\nAno ang layunin ng RA 11036 ayon sa talata?",
+        "explanation": "Sinabi sa talata na ang RA 11036 ay 'nagtitiyak na ang mga serbisyo para sa mental health ay naabot ng lahat ng Pilipino'."
+      }
+    },
+    {
+      "id": "20200",
+      "file": "src/lib/questions/verbal_pagaunawa_filipino.json",
+      "status": "rewritten",
+      "reason": "States statutory objective rather than claiming universal service delivery has already been achieved.",
+      "primary_sources": [
+        "https://lawphil.net/statutes/repacts/ra2018/ra_11036_2018.html"
+      ],
+      "revised_fields": {
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng mental health o kalusugang pangkaisipan ay kasing-halaga ng pisikal na kalusugan. Ang stress, anxiety, at depression ay mga karaniwang problemang pangkaisipan na maaaring maranasan ng sinuman. Mahalaga na humingi ng tulong sa mga propesyonal tulad ng psychiatrist o psychologist kapag naramdaman na hindi na kayang mag-isa. Layunin ng Republic Act No. 11036 o Mental Health Act na palawakin ang pag-abot ng mga serbisyo para sa kalusugang pangkaisipan sa publiko.\n\nAlin sa mga sumusunod ang binanggit bilang karaniwang problema sa mental health?"
+      },
+      "previous_fields": {
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng mental health o kalusugang pangkaisipan ay kasing-halaga ng pisikal na kalusugan. Ang stress, anxiety, at depression ay mga karaniwang problemang pangkaisipan na maaaring maranasan ng sinuman. Mahalaga na humingi ng tulong sa mga propesyonal tulad ng psychiatrist o psychologist kapag naramdaman na hindi na kayang mag-isa. Ang Republic Act No. 11036 o Mental Health Act ay nagtitiyak na ang mga serbisyo para sa mental health ay naabot ng lahat ng Pilipino.\n\nAlin sa mga sumusunod ang binanggit bilang karaniwang problema sa mental health?"
+      }
+    }
+  ],
+  "pending": [],
+  "verification": {
+    "command": "npm run test:bank",
+    "tests": 201,
+    "passed": 201,
+    "failed": 0,
+    "diff_check": "git diff --check passed; only CRLF conversion warnings from concurrently edited facts files",
+    "limitations": "Automated regressions and structural invariants support these targeted edits; editorial plausibility remains a human judgment."
+  },
+  "summary": {
+    "resolved_idioms": 5,
+    "reviewed_cues": 21,
+    "rewritten_cue_records": 19,
+    "retained_cue_records": 2,
+    "cue_records_with_rewritten_choices_or_stem": 18,
+    "shared_passage_only": 1,
+    "unique_changed_records": 24,
+    "limitation": "Targeted editorial resolution. Contextual interpretations and reasoned retains do not certify every question in the banks."
+  }
+}

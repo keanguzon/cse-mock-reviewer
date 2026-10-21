@@ -131,8 +131,8 @@
         "id": "20167",
         "category": "Verbal Ability – Reading Comprehension (Filipino)",
         "question": "Basahin ang talata at sagutin ang tanong.\n\nAng kahirapan ay isa sa mga pangunahing suliranin sa Pilipinas. Ayon sa mga datos ng Philippine Statistics Authority, milyon-milyong Pilipino ang nabubuhay sa ilalim ng poverty line. Ang kakulangan sa edukasyon, kawalan ng trabaho, at mababang sahod ay ilan lamang sa mga sanhi ng kahirapan. Upang malutas ang problemang ito, kinakailangan ang sama-samang pagsisikap ng pamahalaan, pribadong sektor, at mga mamamayan.\n\nAno ang iminumungkahi ng talata upang malutas ang kahirapan?",
-        "choices": ["Dagdagan ang buwis sa mamamayan", "Sama-samang pagsisikap ng gobyerno, pribadong sektor, at mamamayan", "Humingi ng tulong sa ibang bansa", "Bawasan ang populasyon ng bansa"],
-        "correct_answer": "Sama-samang pagsisikap ng gobyerno, pribadong sektor, at mamamayan",
+        "choices": ["Pamahalaan lamang ang gumawa ng programa","Pamahalaan, negosyo, at mamamayan ang magtulungan","Pribadong sektor lamang ang magbigay ng trabaho","Mamamayan lamang ang umako sa lahat ng gastos"],
+        "correct_answer": "Pamahalaan, negosyo, at mamamayan ang magtulungan",
         "explanation": "Ayon sa talata, 'kinakailangan ang sama-samang pagsisikap ng pamahalaan, pribadong sektor, at mga mamamayan' upang malutas ang kahirapan."
     },
     {
@@ -171,7 +171,7 @@
         "id": "20172",
         "category": "Verbal Ability – Reading Comprehension (Filipino)",
         "question": "Basahin ang talata at sagutin ang tanong.\n\nAng pagtatanim ng puno ay isang mahalagang hakbang sa pagprotekta ng kapaligiran. Ang mga puno ay tumutulong sa pagpapababa ng carbon dioxide sa atmospera at nagbibigay ng sariwang hangin. Bukod dito, pinipigilan ng mga ugat ng puno ang pagguho ng lupa at pagbaha. Ang reforestation program ng pamahalaan ay naglalayong magtanim ng milyun-milyong puno bawat taon upang maibalik ang nasirang mga kagubatan.\n\nAno ang isang pakinabang ng pagtatanim ng puno na binanggit sa talata?",
-        "choices": ["Nagpapaganda ng bahay", "Pinipigilan ang pagguho ng lupa at pagbaha", "Nagpapababa ng presyo ng pagkain", "Nagbibigay ng trabaho sa lahat"],
+        "choices": ["Nagpapababa ng presyo ng mga pagkain","Pinipigilan ang pagguho ng lupa at pagbaha","Nagpapabilis ng paglago ng lahat ng pananim","Nagpapalawak ng lupang maaaring pagtayuan"],
         "correct_answer": "Pinipigilan ang pagguho ng lupa at pagbaha",
         "explanation": "Ayon sa talata, 'pinipigilan ng mga ugat ng puno ang pagguho ng lupa at pagbaha'."
     },
@@ -259,8 +259,8 @@
         "id": "20183",
         "category": "Verbal Ability – Reading Comprehension (Filipino)",
         "question": "Basahin ang talata at sagutin ang tanong.\n\nAng good governance o mabuting pamamahala ay tumutukoy sa pagpapatakbo ng gobyerno nang may transparency, accountability, at pagsunod sa batas. Ang mabuting pamamahala ay nagsisiguro na ang mga serbisyo ng gobyerno ay nakakarating sa lahat ng mamamayan, lalo na sa mga nasa laylayan. Ang paglaban sa korupsiyon at ang pagpapalakas ng mga institusyon ay mga mahahalagang hakbang upang makamit ang mabuting pamamahala.\n\nSino ang dapat pangunahing makinabang sa mga serbisyo ng gobyerno ayon sa talata?",
-        "choices": ["Ang mga politiko lamang", "Ang lahat ng mamamayan, lalo na ang mga nasa laylayan", "Ang mga dayuhan na naninirahan sa Pilipinas", "Ang mga negosyante at malalaking kumpanya"],
-        "correct_answer": "Ang lahat ng mamamayan, lalo na ang mga nasa laylayan",
+        "choices": ["Mga may-ari ng negosyo ang pangunahing dapat makinabang","Lahat ng mamamayan, lalo na ang mga nasa laylayan","Mga opisyal na namamahala ang pangunahing dapat makinabang","Mga mamamayang may matatag nang kita ang dapat unahin"],
+        "correct_answer": "Lahat ng mamamayan, lalo na ang mga nasa laylayan",
         "explanation": "Sinabi sa talata na ang mabuting pamamahala ay 'nagsisiguro na ang mga serbisyo ng gobyerno ay nakakarating sa lahat ng mamamayan, lalo na sa mga nasa laylayan'."
     },
     {
@@ -379,23 +379,23 @@
         "id": "20198",
         "category": "Verbal Ability – Reading Comprehension (Filipino)",
         "question": "Basahin ang talata at sagutin ang tanong.\n\nAng turismo ay isang mahalagang industriya sa Pilipinas. Ang magagandang dagat, bundok, at kulturang pamana ng bansa ay nag-aanyaya sa milyon-milyong turista bawat taon. Ang industriya ng turismo ay nagbibigay ng trabaho sa maraming Pilipino sa mga sektor ng hotel, restaurant, transportasyon, at tour guiding. Upang mapanatili ang industriyang ito, mahalaga ang pangangalaga sa kalikasan at pagpapanatili ng kalinisan sa mga turistang destinasyon.\n\nAno ang kinakailangan upang mapanatili ang industriya ng turismo ayon sa talata?",
-        "choices": ["Pagtatayo ng maraming pabrika malapit sa dagat", "Pangangalaga sa kalikasan at pagpapanatili ng kalinisan", "Pagbabawal sa mga turista na bumisita", "Pagtaas ng presyo ng mga hotel"],
+        "choices": ["Pagpaparami ng hotel at pagluluwag ng patakaran","Pangangalaga sa kalikasan at pagpapanatili ng kalinisan","Pagpapalawak ng biyahe at pagpapababa ng pamasahe","Pagpaparami ng patalastas at pagdaragdag ng pista"],
         "correct_answer": "Pangangalaga sa kalikasan at pagpapanatili ng kalinisan",
         "explanation": "Sinabi sa talata na 'mahalaga ang pangangalaga sa kalikasan at pagpapanatili ng kalinisan sa mga turistang destinasyon'."
     },
     {
         "id": "20199",
         "category": "Verbal Ability – Reading Comprehension (Filipino)",
-        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng mental health o kalusugang pangkaisipan ay kasing-halaga ng pisikal na kalusugan. Ang stress, anxiety, at depression ay mga karaniwang problemang pangkaisipan na maaaring maranasan ng sinuman. Mahalaga na humingi ng tulong sa mga propesyonal tulad ng psychiatrist o psychologist kapag naramdaman na hindi na kayang mag-isa. Ang Republic Act No. 11036 o Mental Health Act ay nagtitiyak na ang mga serbisyo para sa mental health ay naabot ng lahat ng Pilipino.\n\nAno ang layunin ng RA 11036 ayon sa talata?",
-        "choices": ["Bawasan ang bilang ng mga doktor sa Pilipinas", "Tiyakin na ang serbisyo sa mental health ay naabot ng lahat", "Ipagbawal ang pagpapagamot sa mga psychologist", "Dagdagan ang trabaho ng mga nars"],
-        "correct_answer": "Tiyakin na ang serbisyo sa mental health ay naabot ng lahat",
-        "explanation": "Sinabi sa talata na ang RA 11036 ay 'nagtitiyak na ang mga serbisyo para sa mental health ay naabot ng lahat ng Pilipino'."
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng mental health o kalusugang pangkaisipan ay kasing-halaga ng pisikal na kalusugan. Ang stress, anxiety, at depression ay mga karaniwang problemang pangkaisipan na maaaring maranasan ng sinuman. Mahalaga na humingi ng tulong sa mga propesyonal tulad ng psychiatrist o psychologist kapag naramdaman na hindi na kayang mag-isa. Layunin ng Republic Act No. 11036 o Mental Health Act na palawakin ang pag-abot ng mga serbisyo para sa kalusugang pangkaisipan sa publiko.\n\nAno ang layunin ng RA 11036 ayon sa talata?",
+        "choices": ["Palawakin ang serbisyong pangkalusugang pisikal","Palawakin ang pag-abot ng serbisyong pangkaisipan","Palawakin ang pagsasanay sa kaligtasan sa trabaho","Palawakin ang programang pangnutrisyon sa paaralan"],
+        "correct_answer": "Palawakin ang pag-abot ng serbisyong pangkaisipan",
+        "explanation": "Ayon sa talata, layunin ng Mental Health Act na palawakin ang pag-abot ng mga serbisyo para sa kalusugang pangkaisipan sa publiko."
     },
     {
         "id": "20200",
         "category": "Verbal Ability – Reading Comprehension (Filipino)",
-        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng mental health o kalusugang pangkaisipan ay kasing-halaga ng pisikal na kalusugan. Ang stress, anxiety, at depression ay mga karaniwang problemang pangkaisipan na maaaring maranasan ng sinuman. Mahalaga na humingi ng tulong sa mga propesyonal tulad ng psychiatrist o psychologist kapag naramdaman na hindi na kayang mag-isa. Ang Republic Act No. 11036 o Mental Health Act ay nagtitiyak na ang mga serbisyo para sa mental health ay naabot ng lahat ng Pilipino.\n\nAlin sa mga sumusunod ang binanggit bilang karaniwang problema sa mental health?",
-        "choices": ["Lagnat at ubo", "Stress, anxiety, at depression", "Sakit sa puso at diabetes", "Dengue at malaria"],
+        "question": "Basahin ang talata at sagutin ang tanong.\n\nAng mental health o kalusugang pangkaisipan ay kasing-halaga ng pisikal na kalusugan. Ang stress, anxiety, at depression ay mga karaniwang problemang pangkaisipan na maaaring maranasan ng sinuman. Mahalaga na humingi ng tulong sa mga propesyonal tulad ng psychiatrist o psychologist kapag naramdaman na hindi na kayang mag-isa. Layunin ng Republic Act No. 11036 o Mental Health Act na palawakin ang pag-abot ng mga serbisyo para sa kalusugang pangkaisipan sa publiko.\n\nAlin sa mga sumusunod ang binanggit bilang karaniwang problema sa mental health?",
+        "choices": ["Lagnat at ubo","Stress, anxiety, at depression","Sakit sa puso at diabetes","Dengue at malaria"],
         "correct_answer": "Stress, anxiety, at depression",
         "explanation": "Binanggit sa talata na 'Ang stress, anxiety, at depression ay mga karaniwang problemang pangkaisipan.'"
     }

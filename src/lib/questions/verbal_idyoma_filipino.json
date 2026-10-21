@@ -35,8 +35,8 @@
         "id": "20055",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
         "question": "Ano ang ibig sabihin ng \"isang kahig, isang tuka\"?",
-        "choices": ["masaganang buhay", "katamtamang pamumuhay", "ang kinita sa isang araw ay siya ring gastos", "mahilig sa manok"],
-        "correct_answer": "ang kinita sa isang araw ay siya ring gastos",
+        "choices": ["namumuhay nang marangya","namumuhay nang panatag","kinikita ay pang-araw lamang","gumagastos nang walang hanggan"],
+        "correct_answer": "kinikita ay pang-araw lamang",
         "explanation": "Ang 'isang kahig, isang tuka' ay tumutukoy sa mahirap na pamumuhay kung saan ang kinikita ay sapat lang sa pangangailangan sa isang araw."
     },
     {
@@ -58,18 +58,18 @@
     {
         "id": "20058",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
-        "question": "Ano ang kahulugan ng \"mabigat ang kamay\"?",
-        "choices": ["matapang at magiting", "tamad o mahina sa trabaho", "malupit sa kapwa", "mahilig pumalo"],
-        "correct_answer": "tamad o mahina sa trabaho",
-        "explanation": "Ang 'mabigat ang kamay' ay nangangahulugang tamad, mabagal kumilos, o walang sigla sa paggawa."
+        "question": "Ano ang kahulugan ng \"mahaba ang kamay\" sa pangungusap na \"Binalaan nila ang mga mamimili tungkol sa lalaking mahaba ang kamay sa palengke.\"?",
+        "choices": ["mapagbigay sa kapwa","mapagmataas sa kapwa","magnanakaw ng gamit","mapagtanggol ng api"],
+        "correct_answer": "magnanakaw ng gamit",
+        "explanation": "Ang \"mahaba ang kamay\" ay idyoma para sa magnanakaw. Sa pangungusap, binabalaan ang mga mamimili laban sa pagnanakaw."
     },
     {
         "id": "20059",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
-        "question": "Ano ang ibig sabihin ng \"magaan ang kamay\"?",
-        "choices": ["mahinang-mahina ang katawan", "mahusay at mabilis gumawa", "walang lakas", "madaling mapagod"],
-        "correct_answer": "mahusay at mabilis gumawa",
-        "explanation": "Ang 'magaan ang kamay' ay nangangahulugang masipag, mahusay, at mabilis sa paggawa ng isang bagay."
+        "question": "Ano ang kahulugan ng \"magaan ang kamay\" sa pangungusap na \"Magaan ang kamay ng tagapag-alaga sa paghawak sa sanggol.\"?",
+        "choices": ["marahas humawak","banayad humawak","mabilis magalit","mabagal kumilos"],
+        "correct_answer": "banayad humawak",
+        "explanation": "Dito, ang \"magaan ang kamay\" ay banayad sa paghawak. May iba rin itong gamit, gaya ng pagiging madaling manakit; ang konteksto ng pag-aalaga ang pumipili sa banayad na kahulugan."
     },
     {
         "id": "20060",
@@ -82,10 +82,10 @@
     {
         "id": "20061",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
-        "question": "Ano ang ibig sabihin ng \"nasa huli ang pagsisisi\"?",
-        "choices": ["magandang maging huli", "dapat pagsisihan ang lahat", "kapag dumating na ang masama ay wala nang magagawa pa", "palaging magpahuli"],
-        "correct_answer": "kapag dumating na ang masama ay wala nang magagawa pa",
-        "explanation": "Ang 'nasa huli ang pagsisisi' ay nangangahulugang kapag naganap na ang masama, huli na ang lahat para magsisi."
+        "question": "Ano ang kahulugan ng \"nasa huli ang pagsisisi\" sa pangungusap na \"Hindi sinuri ni Lito ang kontrata bago pumirma; nang makita ang mabigat na obligasyon, nasabi niyang nasa huli ang pagsisisi.\"?",
+        "choices": ["mas mabuti ang magpasiyang huli","laging mali ang unang pasiya","pagsisisi ay dumarating matapos ang ginawa","pagsisisi ay pumipigil sa lahat ng panganib"],
+        "correct_answer": "pagsisisi ay dumarating matapos ang ginawa",
+        "explanation": "Ipinahihiwatig ng kasabihan na ang pagsisisi ay dumarating matapos ang ginawa. Kaya dapat pag-isipan muna ang pasiya; hindi nito sinasabing wala nang anumang paraan para makabawi."
     },
     {
         "id": "20062",
@@ -106,10 +106,10 @@
     {
         "id": "20064",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
-        "question": "Ano ang kahulugan ng \"naglalagay ng bunga sa bibig\"?",
-        "choices": ["nagpapakain sa bata", "nagpaparinig o nagpaparamdam", "nagdadala ng prutas", "nagbibiro ng malakas"],
-        "correct_answer": "nagpaparinig o nagpaparamdam",
-        "explanation": "Ang 'naglalagay ng bunga sa bibig' ay nangangahulugang hindi direktang nagsasabi kundi nagpaparinig o nagpaparamdam."
+        "question": "Ano ang kahulugan ng \"buwaya\" sa pangungusap na \"Tinawag na buwaya ang kasosyong inangkin ang buong kita at wala man lang ibinahagi.\"?",
+        "choices": ["taong mahiyain","taong matipid","taong mapagtiis","taong gahaman"],
+        "correct_answer": "taong gahaman",
+        "explanation": "Sa matalinghagang gamit, ang \"buwaya\" ay taong gahaman o manlilinlang. Ang pag-angkin sa buong kita ang batayan ng gamit dito."
     },
     {
         "id": "20065",
@@ -123,8 +123,8 @@
         "id": "20066",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
         "question": "Ano ang kahulugan ng idyomang \"naglalaro ang dugo\"?",
-        "choices": ["may sakit sa dugo", "namumula ang katawan", "nagkakagusto o naakit sa isang tao", "nagagalit nang husto"],
-        "correct_answer": "nagkakagusto o naakit sa isang tao",
+        "choices": ["nangangamba sa isang tao","naiinggit sa isang tao","nagkakagusto sa isang tao","naghihinala sa isang tao"],
+        "correct_answer": "nagkakagusto sa isang tao",
         "explanation": "Ang 'naglalaro ang dugo' ay nangangahulugang naakit o nagkakagusto sa isang tao, lalo na sa romantikong aspeto."
     },
     {
@@ -138,10 +138,10 @@
     {
         "id": "20068",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
-        "question": "Ano ang kahulugan ng \"mataas ang lipad\"?",
-        "choices": ["piloto ng eroplano", "mayaman o may mataas na katayuan", "matangkad na tao", "mahilig lumipad"],
-        "correct_answer": "mayaman o may mataas na katayuan",
-        "explanation": "Ang 'mataas ang lipad' ay nangangahulugang mayaman, may mataas na posisyon sa lipunan, o may malaking impluwensiya."
+        "question": "Ano ang kahulugan ng \"mataas ang lipad\" sa pangungusap na \"Mataas ang lipad ni Rosa: sa murang edad ay hangad na niyang mamuno sa isang pandaigdigang kompanya.\"?",
+        "choices": ["maliit ang tiwala sa sarili","mataas ang pangarap sa buhay","malaki ang takot sa hamon","mababa ang tingin sa kapwa"],
+        "correct_answer": "mataas ang pangarap sa buhay",
+        "explanation": "Sa pangungusap, ang \"mataas ang lipad\" ay tumutukoy sa mataas o malaking pangarap. Ang hangaring mamuno sa pandaigdigang kompanya ang nagbibigay ng konteksto."
     },
     {
         "id": "20069",
@@ -154,10 +154,10 @@
     {
         "id": "20070",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
-        "question": "Ano ang kahulugan ng idyomang \"tulak ng bibig, kabig ng dibdib\"?",
-        "choices": ["sinasabi ang gusto ngunit iba ang tunay na nararamdaman", "palaging nagsisinungaling", "mahilig kumain", "madaldal na tao"],
-        "correct_answer": "sinasabi ang gusto ngunit iba ang tunay na nararamdaman",
-        "explanation": "Ang 'tulak ng bibig, kabig ng dibdib' ay nangangahulugang iba ang sinasabi sa tunay na nararamdaman."
+        "question": "Ano ang kahulugan ng \"tulak ng bibig, kabig ng dibdib\" sa pangungusap na \"Tinatanggihan niya ang alok na regalo ngunit umaasa siyang ibibigay pa rin ito: tulak ng bibig, kabig ng dibdib.\"?",
+        "choices": ["tumatanggi ngunit nais tanggapin","tumatanggap ngunit walang pag-asa","nangangako ngunit walang balak","nagtatanong ngunit alam ang sagot"],
+        "correct_answer": "tumatanggi ngunit nais tanggapin",
+        "explanation": "Tinatanggihan sa salita ang regalong nais naman niyang tanggapin. Ito ang kahulugang pinipili ng konteksto."
     },
     {
         "id": "20071",
@@ -195,8 +195,8 @@
         "id": "20075",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
         "question": "Ano ang ibig sabihin ng \"nagpapasikat\"?",
-        "choices": ["nagbibigay ng liwanag", "nagpapakitang-gilas o nagyayabang", "nagtuturo sa gabi", "nagpapaganda ng bahay"],
-        "correct_answer": "nagpapakitang-gilas o nagyayabang",
+        "choices": ["nagpapahayag ng pagtutol","nagpapakitang-gilas sa iba","nagpapakita ng pag-aalala","nagpapaliwanag ng tuntunin"],
+        "correct_answer": "nagpapakitang-gilas sa iba",
         "explanation": "Ang 'nagpapasikat' ay nangangahulugang nagpapakitang-gilas o gustong mapansin ng iba."
     },
     {
@@ -226,17 +226,17 @@
     {
         "id": "20079",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
-        "question": "Ano ang ibig sabihin ng \"mahabang dulang\"?",
-        "choices": ["malaking hapag-kainan", "pesta ng mga hari", "mahabang proseso o seremonya", "maraming pagkain"],
-        "correct_answer": "mahabang proseso o seremonya",
-        "explanation": "Ang 'mahabang dulang' ay nangangahulugang mahabang proseso, madalas na ginagamit para sa korte o pagdinig."
+        "question": "Ano ang kahulugan ng \"anakpawis\" sa pangungusap na \"Inilarawan ng kuwento ang buhay ng mga anakpawis na nagtatrabaho sa bukid at pagawaan.\"?",
+        "choices": ["mga kabilang sa uring manggagawa","mga kabilang sa uring maylupa","mga kabilang sa uring negosyante","mga kabilang sa uring maharlika"],
+        "correct_answer": "mga kabilang sa uring manggagawa",
+        "explanation": "Ang \"anakpawis\" ay tumutukoy rito sa uring manggagawa, kabilang ang mga magsasaka at manggagawa sa pagawaan."
     },
     {
         "id": "20080",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
         "question": "Ano ang kahulugan ng \"bungang-isip\"?",
-        "choices": ["tunay na pangyayari", "gawa-gawa lang ng isip o imahinasyon", "magandang alaala", "masamang panaginip"],
-        "correct_answer": "gawa-gawa lang ng isip o imahinasyon",
+        "choices": ["ulat ng nasaksihan","likha ng imahinasyon","alaala ng karanasan","bunga ng pagsasaliksik"],
+        "correct_answer": "likha ng imahinasyon",
         "explanation": "Ang 'bungang-isip' ay nangangahulugang gawa-gawa lang ng isip, hindi totoo, o produkto ng imahinasyon."
     },
     {
@@ -290,10 +290,10 @@
     {
         "id": "20087",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
-        "question": "Ano ang ibig sabihin ng \"naglalakad sa apoy\"?",
-        "choices": ["nagpapaligo sa init", "namamasyal sa mainit na panahon", "nalagay sa panganib o delikadong sitwasyon", "nagtatrabaho sa planta"],
-        "correct_answer": "nalagay sa panganib o delikadong sitwasyon",
-        "explanation": "Ang 'naglalakad sa apoy' ay nangangahulugang nasa napakadelikadong sitwasyon o panganib."
+        "question": "Ano ang kahulugan ng \"naglalakad sa apoy\" sa pangungusap na \"Naglalakad sa apoy si Elena sa lihim niyang pagkuha ng ebidensiya laban sa armadong sindikato.\"?",
+        "choices": ["nagsasaya sa paglalakbay","nalalagay sa panganib","nagtitiis sa kahirapan","nagmamadali sa gawain"],
+        "correct_answer": "nalalagay sa panganib",
+        "explanation": "Sa kontekstong ito, ang \"naglalakad sa apoy\" ay nalalagay sa panganib dahil sa pagkuha ng ebidensiya laban sa armadong sindikato."
     },
     {
         "id": "20088",
@@ -307,8 +307,8 @@
         "id": "20089",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
         "question": "Ano ang ibig sabihin ng \"mahirap gisingin ang nagtutulug-tulugan\"?",
-        "choices": ["mahirap gisingin ang tulog", "ang taong nagkukunwaring walang alam ay mahirap kausapin", "masarap matulog ng mahimbing", "dapat magising nang maaga"],
-        "correct_answer": "ang taong nagkukunwaring walang alam ay mahirap kausapin",
+        "choices": ["mahirap turuan ang ayaw makinig","mahirap kausapin ang walang boses","mahirap tulungan ang walang pera","mahirap hanapin ang malayo sa bahay"],
+        "correct_answer": "mahirap turuan ang ayaw makinig",
         "explanation": "Ang kasabihang ito ay nangangahulugang ang taong sinadyang hindi makinig o magkunwari ay mas mahirap kausapin kaysa sa taong talagang walang alam."
     },
     {
@@ -330,17 +330,17 @@
     {
         "id": "20092",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
-        "question": "Ano ang kahulugan ng \"mahaba ang buhok\"?",
-        "choices": ["lalaking may mahabang buhok", "taong madaling malungkot", "taong may koneksyon sa langit", "sinaunang babaylan"],
-        "correct_answer": "taong may koneksyon sa langit",
-        "explanation": "Sa tradisyonal na konteksto, ang 'mahaba ang buhok' ay tumutukoy sa taong may kaalaman sa espiritwal o may koneksyon sa kalikasan."
+        "question": "Ano ang kahulugan ng \"buto’t balat\" sa pangungusap na \"Pagbalik niya mula sa mahabang pagkakasakit, buto’t balat na si Tomas.\"?",
+        "choices": ["lubhang mataba","lubhang matangkad","lubhang payat","lubhang malakas"],
+        "correct_answer": "lubhang payat",
+        "explanation": "Ang \"buto’t balat\" ay nangangahulugang lubhang payat; hindi ito literal na kawalan ng ibang bahagi ng katawan."
     },
     {
         "id": "20093",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
         "question": "Ano ang ibig sabihin ng \"nabubutas ang bulsa\"?",
-        "choices": ["may sira ang pantalon", "madaming gastos at nauubusan ng pera", "malakas kumita", "maliit ang sweldo"],
-        "correct_answer": "madaming gastos at nauubusan ng pera",
+        "choices": ["nasasayang ang pagkakataon","nadaragdagan ang kinikita","nauubos ang salapi","napapabuti ang kabuhayan"],
+        "correct_answer": "nauubos ang salapi",
         "explanation": "Ang 'nabubutas ang bulsa' ay nangangahulugang patuloy ang paggastos hanggang sa maubos ang pera."
     },
     {
@@ -363,17 +363,17 @@
         "id": "20096",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
         "question": "Ano ang kahulugan ng \"matamis ang dila\"?",
-        "choices": ["mahilig sa matamis na pagkain", "magaling magsalita at manghikayat", "palaging nagsisinungaling", "mahiyain sa tao"],
-        "correct_answer": "magaling magsalita at manghikayat",
+        "choices": ["mapanakit magsalita","mapanghikayat magsalita","paligoy magsalita","pabigla-biglang magsalita"],
+        "correct_answer": "mapanghikayat magsalita",
         "explanation": "Ang 'matamis ang dila' ay nangangahulugang magaling magsalita ng magagandang salita upang mahikayat ang iba."
     },
     {
         "id": "20097",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
-        "question": "Ano ang ibig sabihin ng \"kinakain ng sistema\"?",
-        "choices": ["may sakit sa tiyan", "nasanay na sa masamang gawain ng sistema", "nagugutom ang tao", "bumabait ang tao"],
-        "correct_answer": "nasanay na sa masamang gawain ng sistema",
-        "explanation": "Ang 'kinakain ng sistema' ay nangangahulugang naging parte na ng masamang sistema at hindi na nakikita ang problema nito."
+        "question": "Ano ang kahulugan ng \"kinakain ng sistema\" sa pangungusap na \"Dati ay tumututol si Ben sa pandaraya sa opisina, ngunit ngayon ay nakikilahok na siya rito; kinakain na siya ng sistema.\"?",
+        "choices": ["lumalaban sa nakagawiang pandaraya","nakikisunod sa nakagawiang pandaraya","nagsisiwalat ng nakagawiang pandaraya","umuutos na imbestigahan ang pandaraya"],
+        "correct_answer": "nakikisunod sa nakagawiang pandaraya",
+        "explanation": "Dito, ang \"kinakain ng sistema\" ay pag-angkop at pakikilahok sa masamang gawi ng kapaligiran. Hindi ito pahayag na masama ang lahat ng sistema."
     },
     {
         "id": "20098",
@@ -394,9 +394,9 @@
     {
         "id": "20100",
         "category": "Verbal Ability – Idiomatic Expressions (Filipino)",
-        "question": "Ano ang kahulugan ng \"bato-bato sa langit, ang matamaan huwag magalit\"?",
-        "choices": ["huwag pumunta kung saan may bagyo", "ang masaktan sa katotohanan ay huwag magagalit dahil totoo naman", "huwag magtapon ng bato sa itaas", "magdasal lagi"],
-        "correct_answer": "ang masaktan sa katotohanan ay huwag magagalit dahil totoo naman",
-        "explanation": "Ang kasabihang ito ay nangangahulugang kung nasaktan ka sa sinabi, ibig sabihin totoo sa iyo ang bagay na iyon."
+        "question": "Ano ang kahulugan ng \"bato-bato sa langit, ang matamaan huwag magalit\" sa pangungusap na \"Bago punahin ang mga nakaugalian sa opisina nang walang pinapangalanan, sinabi niya: Bato-bato sa langit, ang matamaan huwag magalit.\"?",
+        "choices": ["paanyayang pangalanan ang lahat ng may kasalanan","pakiusap na huwag personalin ang pangkalahatang puna","patunay na totoo ang puna kapag may nagalit","pangakong walang sinumang masasaktan sa puna"],
+        "correct_answer": "pakiusap na huwag personalin ang pangkalahatang puna",
+        "explanation": "Pakiusap ito na huwag personalin ang pangkalahatang puna. Ang pagkagalit ng isang tao ay hindi patunay na totoo ang puna sa kaniya."
     }
 ]
