@@ -1314,11 +1314,11 @@
   },
   "2064": {
     "file": "analytical_assumptions.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Partial logical screening; independent enumeration and ambiguity review of this item remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "2065": {
     "file": "analytical_assumptions.json",
@@ -1378,11 +1378,11 @@
   },
   "2072": {
     "file": "analytical_assumptions.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Partial logical screening; independent enumeration and ambiguity review of this item remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "2073": {
     "file": "analytical_assumptions.json",
@@ -1410,11 +1410,11 @@
   },
   "2076": {
     "file": "analytical_assumptions.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Partial logical screening; independent enumeration and ambiguity review of this item remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "2077": {
     "file": "analytical_assumptions.json",
@@ -1442,11 +1442,11 @@
   },
   "2080": {
     "file": "analytical_assumptions.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Partial logical screening; independent enumeration and ambiguity review of this item remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "2081": {
     "file": "analytical_assumptions.json",
@@ -1474,11 +1474,11 @@
   },
   "2084": {
     "file": "analytical_assumptions.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Partial logical screening; independent enumeration and ambiguity review of this item remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "2085": {
     "file": "analytical_assumptions.json",
@@ -1492,9 +1492,9 @@
     "file": "analytical_assumptions.json",
     "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "targeted reasoning correction and regression verification",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Exact ten absences did not explicitly establish an at-least-ten threshold",
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification.",
     "correction_record": "docs/content/corrections-reasoning.json"
   },
   "2087": {
@@ -1507,11 +1507,11 @@
   },
   "2088": {
     "file": "analytical_assumptions.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Partial logical screening; independent enumeration and ambiguity review of this item remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "2089": {
     "file": "analytical_assumptions.json",
@@ -1547,11 +1547,11 @@
   },
   "2093": {
     "file": "analytical_assumptions.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Partial logical screening; independent enumeration and ambiguity review of this item remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "2094": {
     "file": "analytical_assumptions.json",
@@ -1563,11 +1563,11 @@
   },
   "2095": {
     "file": "analytical_assumptions.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Partial logical screening; independent enumeration and ambiguity review of this item remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "2096": {
     "file": "analytical_assumptions.json",
@@ -1595,11 +1595,11 @@
   },
   "2099": {
     "file": "analytical_assumptions.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Partial logical screening; independent enumeration and ambiguity review of this item remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "2100": {
     "file": "analytical_assumptions.json",
@@ -2465,11 +2465,11 @@
   },
   "4007": {
     "file": "analytical_logic.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Read in the file-level logic screen; a complete independent entailment/countermodel review is still outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "4008": {
     "file": "analytical_logic.json",
@@ -2497,11 +2497,11 @@
   },
   "4011": {
     "file": "analytical_logic.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Read in the file-level logic screen; a complete independent entailment/countermodel review is still outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "4012": {
     "file": "analytical_logic.json",
@@ -2569,11 +2569,11 @@
   },
   "4020": {
     "file": "analytical_logic.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Read in the file-level logic screen; a complete independent entailment/countermodel review is still outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "4021": {
     "file": "analytical_logic.json",
@@ -2705,11 +2705,11 @@
   },
   "4037": {
     "file": "analytical_logic.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Read in the file-level logic screen; a complete independent entailment/countermodel review is still outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "4038": {
     "file": "analytical_logic.json",
@@ -3393,11 +3393,11 @@
   },
   "5023": {
     "file": "clerical_filing.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Read in the alphabetical-order screen; convention/source verification remains outstanding where the stem does not define its indexing convention."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "5024": {
     "file": "clerical_filing.json",
@@ -4078,11 +4078,11 @@
   },
   "7008": {
     "file": "general_info_constitution.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; provision-by-provision primary-source review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "7009": {
     "file": "general_info_constitution.json",
@@ -4376,11 +4376,11 @@
   },
   "7044": {
     "file": "general_info_constitution.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; provision-by-provision primary-source review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "7045": {
     "file": "general_info_constitution.json",
@@ -4408,11 +4408,11 @@
   },
   "7048": {
     "file": "general_info_constitution.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; provision-by-provision primary-source review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "7049": {
     "file": "general_info_constitution.json",
@@ -4536,11 +4536,11 @@
   },
   "7071": {
     "file": "general_info_constitution.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; provision-by-provision primary-source review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "7072": {
     "file": "general_info_constitution.json",
@@ -4568,11 +4568,11 @@
   },
   "7075": {
     "file": "general_info_constitution.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; provision-by-provision primary-source review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "7076": {
     "file": "general_info_constitution.json",
@@ -4651,11 +4651,11 @@
   },
   "7087": {
     "file": "general_info_constitution.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; provision-by-provision primary-source review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "7088": {
     "file": "general_info_constitution.json",
@@ -4669,11 +4669,11 @@
     "file": "general_info_constitution.json",
     "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "targeted facts correction and regression verification",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [
       "https://lawphil.net/consti/cons1987.html"
     ],
-    "reason": "Key omitted separate voting.",
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification.",
     "correction_record": "docs/content/corrections-facts.json"
   },
   "7090": {
@@ -4797,11 +4797,11 @@
     "file": "general_info_constitution.json",
     "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "targeted facts correction and regression verification",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [
       "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
     ],
-    "reason": "SALN obligation falsely universal.",
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification.",
     "correction_record": "docs/content/corrections-facts.json"
   },
   "7106": {
@@ -4893,9 +4893,11 @@
     "file": "general_info_current_events.json",
     "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "targeted facts correction and regression verification",
-    "source_urls": [],
-    "reason": "Correct choice labeled itself national hero.",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
+    "source_urls": [
+      "https://philhistoricsites.nhcp.gov.ph/registry_database/jose-rizal-1861-1896-5/"
+    ],
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification.",
     "correction_record": "docs/content/corrections-facts.json"
   },
   "8007": {
@@ -5288,11 +5290,11 @@
   },
   "8055": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8056": {
     "file": "general_info_current_events.json",
@@ -5374,11 +5376,11 @@
   },
   "8065": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8066": {
     "file": "general_info_current_events.json",
@@ -5398,11 +5400,11 @@
   },
   "8068": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8069": {
     "file": "general_info_current_events.json",
@@ -5438,11 +5440,13 @@
   },
   "8073": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
+    "source_urls": [
+      "https://www.basel.int/Implementation/Controllingtransboundarymovements/Overview/tabid/4325/ItemId/5461/Default.aspx"
+    ],
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8074": {
     "file": "general_info_current_events.json",
@@ -5480,11 +5484,11 @@
   },
   "8078": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8079": {
     "file": "general_info_current_events.json",
@@ -5496,19 +5500,19 @@
   },
   "8080": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8081": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8082": {
     "file": "general_info_current_events.json",
@@ -5528,27 +5532,27 @@
   },
   "8084": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8085": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8086": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8087": {
     "file": "general_info_current_events.json",
@@ -5560,11 +5564,11 @@
   },
   "8088": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8089": {
     "file": "general_info_current_events.json",
@@ -5592,19 +5596,19 @@
   },
   "8092": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8093": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8094": {
     "file": "general_info_current_events.json",
@@ -5624,30 +5628,30 @@
   },
   "8096": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8097": {
     "file": "general_info_current_events.json",
     "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "targeted facts correction and regression verification",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [
       "https://lawphil.net/statutes/repacts/ra2010/ra_9994_2010.html"
     ],
-    "reason": "Senior discount implied all commercial goods.",
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification.",
     "correction_record": "docs/content/corrections-facts.json"
   },
   "8098": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "8099": {
     "file": "general_info_current_events.json",
@@ -5659,11 +5663,11 @@
   },
   "8100": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "9001": {
     "file": "numerical_age_problems.json",
@@ -11943,11 +11947,11 @@
   },
   "18022": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18023": {
     "file": "verbal_reading_comprehension.json",
@@ -12047,11 +12051,11 @@
   },
   "18035": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18036": {
     "file": "verbal_reading_comprehension.json",
@@ -12183,11 +12187,11 @@
   },
   "18052": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18053": {
     "file": "verbal_reading_comprehension.json",
@@ -12199,11 +12203,11 @@
   },
   "18054": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18055": {
     "file": "verbal_reading_comprehension.json",
@@ -12215,11 +12219,11 @@
   },
   "18056": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18057": {
     "file": "verbal_reading_comprehension.json",
@@ -12231,11 +12235,11 @@
   },
   "18058": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18059": {
     "file": "verbal_reading_comprehension.json",
@@ -12307,11 +12311,11 @@
   },
   "18066": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18067": {
     "file": "verbal_reading_comprehension.json",
@@ -12323,11 +12327,11 @@
   },
   "18068": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18069": {
     "file": "verbal_reading_comprehension.json",
@@ -12339,11 +12343,11 @@
   },
   "18070": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18071": {
     "file": "verbal_reading_comprehension.json",
@@ -12355,11 +12359,11 @@
   },
   "18072": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18073": {
     "file": "verbal_reading_comprehension.json",
@@ -12374,11 +12378,11 @@
     "file": "verbal_reading_comprehension.json",
     "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "targeted facts correction and regression verification",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [
       "https://lawphil.net/statutes/repacts/ra1999/ra_8749_1999.html"
     ],
-    "reason": "Incineration prohibition omitted emission qualification.",
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification.",
     "correction_record": "docs/content/corrections-facts.json"
   },
   "18075": {
@@ -12391,11 +12395,11 @@
   },
   "18076": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18077": {
     "file": "verbal_reading_comprehension.json",
@@ -12415,11 +12419,11 @@
   },
   "18079": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18080": {
     "file": "verbal_reading_comprehension.json",
@@ -12431,11 +12435,11 @@
   },
   "18081": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18082": {
     "file": "verbal_reading_comprehension.json",
@@ -12479,19 +12483,19 @@
   },
   "18087": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18088": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18089": {
     "file": "verbal_reading_comprehension.json",
@@ -12503,11 +12507,11 @@
   },
   "18090": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18091": {
     "file": "verbal_reading_comprehension.json",
@@ -12519,11 +12523,11 @@
   },
   "18092": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18093": {
     "file": "verbal_reading_comprehension.json",
@@ -12535,11 +12539,11 @@
   },
   "18094": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18095": {
     "file": "verbal_reading_comprehension.json",
@@ -12551,11 +12555,11 @@
   },
   "18096": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18097": {
     "file": "verbal_reading_comprehension.json",
@@ -12567,11 +12571,11 @@
   },
   "18098": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "18099": {
     "file": "verbal_reading_comprehension.json",
@@ -12583,11 +12587,11 @@
   },
   "18100": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "19001": {
     "file": "verbal_vocabulary.json",
@@ -13824,11 +13828,11 @@
   },
   "20055": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20056": {
     "file": "verbal_idyoma_filipino.json",
@@ -13848,19 +13852,23 @@
   },
   "20058": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
+    "source_urls": [
+      "https://diksiyonaryo.ph/search/kamay"
+    ],
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20059": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
+    "source_urls": [
+      "https://www.dfe.kwfdiksiyonaryo.ph/?letter=G"
+    ],
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20060": {
     "file": "verbal_idyoma_filipino.json",
@@ -13872,11 +13880,11 @@
   },
   "20061": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20062": {
     "file": "verbal_idyoma_filipino.json",
@@ -13897,11 +13905,13 @@
   },
   "20064": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
+    "source_urls": [
+      "https://diksiyonaryo.ph/search/buwaya"
+    ],
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20065": {
     "file": "verbal_idyoma_filipino.json",
@@ -13913,11 +13923,11 @@
   },
   "20066": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20067": {
     "file": "verbal_idyoma_filipino.json",
@@ -13929,11 +13939,11 @@
   },
   "20068": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20069": {
     "file": "verbal_idyoma_filipino.json",
@@ -13945,11 +13955,11 @@
   },
   "20070": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20071": {
     "file": "verbal_idyoma_filipino.json",
@@ -13988,11 +13998,11 @@
   },
   "20075": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20076": {
     "file": "verbal_idyoma_filipino.json",
@@ -14020,19 +14030,21 @@
   },
   "20079": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
+    "source_urls": [
+      "https://diksiyonaryo.ph/search/anakpawis"
+    ],
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20080": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20081": {
     "file": "verbal_idyoma_filipino.json",
@@ -14084,11 +14096,11 @@
   },
   "20087": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20088": {
     "file": "verbal_idyoma_filipino.json",
@@ -14100,11 +14112,11 @@
   },
   "20089": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20090": {
     "file": "verbal_idyoma_filipino.json",
@@ -14124,19 +14136,22 @@
   },
   "20092": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
+    "source_urls": [
+      "https://diksiyonaryo.ph/search/balat-sibuyas",
+      "https://diksiyonaryo.ph/search/dayupay"
+    ],
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20093": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20094": {
     "file": "verbal_idyoma_filipino.json",
@@ -14156,19 +14171,19 @@
   },
   "20096": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20097": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20098": {
     "file": "verbal_idyoma_filipino.json",
@@ -14191,11 +14206,11 @@
   },
   "20100": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20101": {
     "file": "verbal_balarila_filipino.json",
@@ -14741,11 +14756,11 @@
   },
   "20167": {
     "file": "verbal_pagaunawa_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20168": {
     "file": "verbal_pagaunawa_filipino.json",
@@ -14781,11 +14796,11 @@
   },
   "20172": {
     "file": "verbal_pagaunawa_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20173": {
     "file": "verbal_pagaunawa_filipino.json",
@@ -14870,11 +14885,11 @@
   },
   "20183": {
     "file": "verbal_pagaunawa_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20184": {
     "file": "verbal_pagaunawa_filipino.json",
@@ -14999,26 +15014,26 @@
   },
   "20198": {
     "file": "verbal_pagaunawa_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20199": {
     "file": "verbal_pagaunawa_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   },
   "20200": {
     "file": "verbal_pagaunawa_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "Targeted final editorial correction; see cue-final-reasoning/facts/language/followup ledgers.",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Resolved an ambiguous conclusion/idiom, unsupported assertion, or answer giveaway; not whole-bank factual certification."
   }
 }
