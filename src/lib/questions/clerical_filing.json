@@ -119,15 +119,15 @@
   {
     "id": "5010",
     "category": "Clerical Ability – Filing & Alphabetizing",
-    "question": "Arrange alphabetically:\n1. St. Luke's Medical Center\n2. San Miguel Corporation\n3. SM Investments\n4. Santiago, Clara",
+    "question": "Arrange alphabetically, expanding St. to Saint:\n1. St. Luke's Medical Center\n2. San Miguel Corporation\n3. SM Investments\n4. Santiago, Clara",
     "choices": [
       "4-2-1-3",
       "1-2-3-4",
       "2-4-3-1",
-      "2-4-1-3"
+      "1-2-4-3"
     ],
-    "correct_answer": "2-4-1-3",
-    "explanation": "'St.' is filed as 'Saint'. Order: San Miguel, Santiago, Saint Luke's, SM Investments."
+    "correct_answer": "1-2-4-3",
+    "explanation": "Expand St. to Saint. Compare Saint Luke's, San Miguel, Santiago, and SM Investments alphabetically. Their order is 1-2-4-3."
   },
   {
     "id": "5011",
@@ -217,8 +217,8 @@
       "D-B-C-A",
       "B-D-C-A"
     ],
-    "correct_answer": "D-B-C-A",
-    "explanation": "Alphabetically: Ang, Angel, Angara, Angeles. So D, B, C, A."
+    "correct_answer": "D-C-B-A",
+    "explanation": "The order is Ang, Angara, Angel, Angeles: D-C-B-A. A shorter complete surname comes before its extension; after Ang, the next distinguishing letters put Angara before Angel."
   },
   {
     "id": "5018",
@@ -275,7 +275,7 @@
   {
     "id": "5022",
     "category": "Clerical Ability – Filing & Alphabetizing",
-    "question": "Where should '3M Philippines Corporation' be filed in an alphabetical index?",
+    "question": "For this question, digits in names are indexed as spelled-out words. Where should '3M Philippines Corporation' be filed in an alphabetical index?",
     "choices": [
       "Under 3 (Three M Philippines)",
       "Under M (M Philippines 3)",
@@ -283,7 +283,7 @@
       "Under P (Philippines 3M Corporation)"
     ],
     "correct_answer": "Under T (Three M Philippines Corporation)",
-    "explanation": "Numbers written as digits (3M) are filed in a numerical section preceding the letter 'A' or filed by the digit value."
+    "explanation": "Under the stated convention, 3M is indexed as Three M. Three begins with T, so file it under T (Three M Philippines Corporation)."
   },
   {
     "id": "5023",
@@ -301,15 +301,15 @@
   {
     "id": "5024",
     "category": "Clerical Ability – Filing & Alphabetizing",
-    "question": "Which of the following corporate names should be filed SECOND?\n1. St. Martin's Clinic\n2. Saint Benedict Academy\n3. San Juan Hospital\n4. Santa Rosa Printing",
+    "question": "Expanding St. to Saint, which of the following corporate names should be filed SECOND?\n1. St. Martin's Clinic\n2. Saint Benedict Academy\n3. San Juan Hospital\n4. Santa Rosa Printing",
     "choices": [
       "Saint Benedict Academy",
       "San Juan Hospital",
       "St. Martin's Clinic",
       "Santa Rosa Printing"
     ],
-    "correct_answer": "Saint Benedict Academy",
-    "explanation": "'St.' is spelled out as 'Saint'. Alphabetical order: Saint Benedict Academy, Saint Martin's Clinic, San Juan Hospital, Santa Rosa Printing. 'Saint Benedict' comes second after Saint Martin's? Wait: Saint Benedict comes FIRST, Saint Martin SECOND!"
+    "correct_answer": "St. Martin's Clinic",
+    "explanation": "Expanding St. to Saint gives: Saint Benedict Academy, Saint Martin's Clinic, San Juan Hospital, Santa Rosa Printing. The second name is St. Martin's Clinic."
   },
   {
     "id": "5025",
@@ -321,8 +321,8 @@
       "4-1-3-2",
       "1-4-3-2"
     ],
-    "correct_answer": "4-1-3-2",
-    "explanation": "Sub-folders under Personnel: Appointments, Applications, Appraisals, Attendance. Alphabetical by second word: Appo, Appli, Appra, Atte."
+    "correct_answer": "1-4-3-2",
+    "explanation": "The second words compare as Appli, Appo, Appra, Atte. Therefore the order is Applications, Appointments, Appraisals, Attendance: 1-4-3-2."
   },
   {
     "id": "5026",
@@ -418,15 +418,15 @@
   {
     "id": "5033",
     "category": "Clerical Ability – Filing & Alphabetizing",
-    "question": "Arrange the following in proper filing sequence:\n1. Villanueva, Juan A.\n2. Villanueva, Juan\n3. Villanueva, Juan Antonio\n4. Villanueva, J. A.",
+    "question": "Arrange the following using initials before full names within the same surname, and a shorter complete name before its extension:\n1. Villanueva, Juan A.\n2. Villanueva, Juan\n3. Villanueva, Juan Antonio\n4. Villanueva, J. A.",
     "choices": [
       "2-1-4-3",
       "4-2-1-3",
       "2-4-1-3",
       "1-2-3-4"
     ],
-    "correct_answer": "2-4-1-3",
-    "explanation": "'Nothing before something': Juan (no middle) first, then J. A. (initials), then Juan A., then Juan Antonio."
+    "correct_answer": "4-2-1-3",
+    "explanation": "For the shared surname Villanueva, J. A. precedes the full first name Juan under the stated rule. Juan without a middle name precedes Juan A., which precedes Juan Antonio. The order is 4-2-1-3."
   },
   {
     "id": "5034",
@@ -470,15 +470,15 @@
   {
     "id": "5037",
     "category": "Clerical Ability – Filing & Alphabetizing",
-    "question": "Arrange in alphabetical filing order:\n1. De la Rosa, Carlos\n2. Del Rosario, Carlos\n3. De Los Reyes, Carlos\n4. Dela Torre, Carlos",
+    "question": "Arrange in letter-by-letter alphabetical filing order, ignoring spaces:\n1. De la Rosa, Carlos\n2. Del Rosario, Carlos\n3. De Los Reyes, Carlos\n4. Dela Torre, Carlos",
     "choices": [
-      "1-3-2-4",
+      "1-4-3-2",
       "1-2-3-4",
       "2-4-1-3",
       "3-1-2-4"
     ],
-    "correct_answer": "1-3-2-4",
-    "explanation": "Letter-by-letter indexing: De la Rosa (D-e-l-a-R-o-s-a), De Los Reyes (D-e-l-o-s-R-e-y-e-s), Del Rosario (D-e-l-R-o-s-a-r-i-o), Dela Torre (D-e-l-a-T-o-r-r-e)."
+    "correct_answer": "1-4-3-2",
+    "explanation": "Ignoring spaces gives DeLaRosa, DelaTorre, DeLosReyes, DelRosario. After Del, a comes before o and r; within Dela, r comes before t. The order is 1-4-3-2."
   },
   {
     "id": "5038",

@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const filePath = path.join(__dirname, '../src/lib/questions/general_info_constitution.json');
-let data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+
 
 // 10 Brand new, unique questions carefully crafted to have balanced choices (no obvious "long" answers).
 const newQuestions = [
@@ -60,7 +60,7 @@ const newQuestions = [
     "question": "Which RA 6713 norm requires providing service to everyone regardless of their party affiliation?",
     "choices": ["Justness and Sincerity", "Professionalism", "Political Neutrality", "Commitment to Democracy"],
     "correct_answer": "Political Neutrality",
-    "explanation": "Under Section 4(b), 'Political Neutrality' means providing service to everyone without unfair discrimination and regardless of party affiliation."
+    "explanation": "Under Section 4(d), 'Political Neutrality' means providing service to everyone without unfair discrimination and regardless of party affiliation."
   },
   {
     "id": "7108",
@@ -88,8 +88,22 @@ const newQuestions = [
   }
 ];
 
-// Append and save
-const updatedData = [...data, ...newQuestions];
-fs.writeFileSync(filePath, JSON.stringify(updatedData, null, 4));
+function appendUniqueQuestions(existing, incoming) {
+  const ids = new Set(existing.map(question => question.id));
+  const result = [...existing];
+  for (const question of incoming) {
+    if (ids.has(question.id)) continue;
+    ids.add(question.id);
+    result.push(question);
+  }
+  return result;
+}
 
-console.log(`Successfully added 10 new questions. File now has ${updatedData.length} questions.`);
+module.exports = { appendUniqueQuestions, newQuestions };
+if (require.main === module) {
+  const target = process.argv[2] || filePath;
+  const data = JSON.parse(fs.readFileSync(target, 'utf8'));
+  const updatedData = appendUniqueQuestions(data, newQuestions);
+  fs.writeFileSync(target, JSON.stringify(updatedData, null, 4));
+  console.log(`Added ${updatedData.length - data.length} questions. File now has ${updatedData.length} questions.`);
+}

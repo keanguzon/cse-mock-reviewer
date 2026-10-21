@@ -1119,7 +1119,7 @@
     },
     {
         "category": "Verbal Ability – Grammar",
-        "question": "Choose the best completion:\n\nBy next month, I __________ at this firm for exactly ten years.",
+        "question": "Choose the future perfect continuous form to complete the sentence:\n\nBy next month, I __________ at this firm for exactly ten years.",
         "choices": [
             "have worked",
             "will have worked",
@@ -1127,7 +1127,7 @@
             "will work"
         ],
         "correct_answer": "will have been working",
-        "explanation": "The future perfect continuous tense ('will have been working') emphasizes the ongoing duration of an action up to a specific time in the future.",
+        "explanation": "The requested future perfect continuous form is will + have + been + -ing: 'will have been working.' It emphasizes the duration of work up to a future point. 'Will have worked' is future perfect simple, which is grammatical but is not the requested tense.",
         "id": "16087"
     },
     {

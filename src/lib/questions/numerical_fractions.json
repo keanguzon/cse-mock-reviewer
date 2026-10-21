@@ -170,7 +170,7 @@
   },
   {
     "id": "10014",
-    "question": "What is 4/9 multiplied by 3/2?",
+    "question": "What is 4/9 multiplied by 3/2, expressed in simplest form?",
     "choices": [
       "2/3",
       "12/18",
@@ -235,7 +235,7 @@
   },
   {
     "id": "10019",
-    "question": "What is 5/12 divided by 5/6?",
+    "question": "Divide 5/12 by 5/6 and express the result in simplest form.",
     "choices": [
       "1/2",
       "25/72",

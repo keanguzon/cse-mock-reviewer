@@ -1,0 +1,441 @@
+{
+  "2024": {
+    "answer": "E",
+    "questionIncludes": [
+      "E sits immediately to the left of A."
+    ],
+    "excludes": [
+      "Wait"
+    ]
+  },
+  "2033": {
+    "answer": "E and F",
+    "questionIncludes": [
+      "A and B cannot both be chosen."
+    ],
+    "excludes": [
+      "Wait"
+    ]
+  },
+  "2034": {
+    "answer": "J",
+    "questionIncludes": [
+      "L sits immediately between N and O."
+    ]
+  },
+  "2044": {
+    "answer": "Box 3",
+    "explanationIncludes": [
+      "1, 4, 3, 2, 5"
+    ]
+  },
+  "2051": {
+    "answer": "E",
+    "questionIncludes": [
+      "E is adjacent to D."
+    ]
+  },
+  "2056": {
+    "answer": "The family recipe makes its adobo taste better than competing adobo dishes.",
+    "excludes": [
+      "Older recipes always"
+    ]
+  },
+  "2063": {
+    "answer": "Module 4",
+    "questionIncludes": [
+      "immediately after Module 3"
+    ]
+  },
+  "2071": {
+    "answer": "B3",
+    "questionIncludes": [
+      "B1 is to the left of B2."
+    ]
+  },
+  "2078": {
+    "answer": "Juan is not hired.",
+    "questionIncludes": [
+      "only if"
+    ]
+  },
+  "3025": {
+    "answer": "Center C",
+    "questionIncludes": [
+      "Center C: 300 examinees, 120 passed"
+    ],
+    "explanationIncludes": [
+      "40%"
+    ],
+    "excludes": [
+      "Wait"
+    ]
+  },
+  "4001": {
+    "answer": "Only conclusion II follows",
+    "explanationIncludes": [
+      "Conclusion II follows",
+      "Conclusion I does not follow"
+    ]
+  },
+  "4002": {
+    "answer": "Only conclusion II follows",
+    "explanationIncludes": [
+      "Conclusion II follows",
+      "Conclusion I does not follow"
+    ]
+  },
+  "4003": {
+    "answer": "Only conclusion II follows",
+    "explanationIncludes": [
+      "Conclusion II follows",
+      "Conclusion I does not follow"
+    ]
+  },
+  "4004": {
+    "answer": "Only conclusion II follows",
+    "explanationIncludes": [
+      "Conclusion II follows",
+      "Conclusion I does not follow"
+    ]
+  },
+  "4006": {
+    "answer": "Both conclusions I and II follow",
+    "questionIncludes": [
+      "At least one pet exists."
+    ]
+  },
+  "4008": {
+    "answer": "Both conclusions I and II follow",
+    "questionIncludes": [
+      "At least one professional civil servant exists."
+    ]
+  },
+  "4010": {
+    "answer": "Both conclusions I and II follow",
+    "questionIncludes": [
+      "At least one warm-blooded creature exists."
+    ]
+  },
+  "4015": {
+    "answer": "Only conclusion II follows",
+    "questionIncludes": [
+      "Juan is an employee"
+    ]
+  },
+  "4019": {
+    "answer": "Only conclusion II follows",
+    "explanationIncludes": [
+      "Conclusion II follows",
+      "Conclusion I does not follow"
+    ]
+  },
+  "4021": {
+    "answer": "Only conclusion II follows",
+    "explanationIncludes": [
+      "Conclusion II follows",
+      "Conclusion I does not follow"
+    ]
+  },
+  "4023": {
+    "answer": "Neither conclusion I nor II follows",
+    "excludes": [
+      "Honor Graduate Eligibility RA 1080"
+    ]
+  },
+  "4033": {
+    "answer": "Only conclusion I follows",
+    "questionIncludes": [
+      "only verbally",
+      "no written submission"
+    ]
+  },
+  "4039": {
+    "answer": "Only conclusion I follows",
+    "questionIncludes": [
+      "No confidential file was emailed."
+    ]
+  },
+  "4043": {
+    "answer": "Only conclusion I follows",
+    "questionIncludes": [
+      "Any ordinance that violates a national law is invalid."
+    ]
+  },
+  "4052": {
+    "answer": "Only conclusion II follows",
+    "questionIncludes": [
+      "At least one dog exists."
+    ]
+  },
+  "4053": {
+    "answer": "Both conclusions I and II follow",
+    "questionIncludes": [
+      "At least one rose exists."
+    ]
+  },
+  "4060": {
+    "answer": "Both conclusions I and II follow",
+    "questionIncludes": [
+      "At least one square exists."
+    ]
+  },
+  "4063": {
+    "answer": "Both conclusions I and II follow",
+    "questionIncludes": [
+      "At least one auditor exists."
+    ]
+  },
+  "4073": {
+    "answer": "Both conclusions I and II follow",
+    "questionIncludes": [
+      "At least one registered voter exists."
+    ]
+  },
+  "4080": {
+    "answer": "Only conclusion II follows",
+    "questionIncludes": [
+      "At least one accredited hospital exists."
+    ]
+  },
+  "4083": {
+    "answer": "Only conclusion II follows",
+    "questionIncludes": [
+      "At least one financial audit exists."
+    ]
+  },
+  "4088": {
+    "answer": "Both conclusions I and II follow",
+    "questionIncludes": [
+      "At least one government prosecutor exists."
+    ]
+  },
+  "4089": {
+    "answer": "Only conclusion I follows",
+    "questionIncludes": [
+      "All grants supporting agricultural projects promote food security."
+    ]
+  },
+  "5010": {
+    "answer": "1-2-4-3",
+    "questionIncludes": [
+      "Saint"
+    ]
+  },
+  "5017": {
+    "answer": "D-C-B-A"
+  },
+  "5022": {
+    "answer": "Under T (Three M Philippines Corporation)",
+    "questionIncludes": [
+      "spelled-out words"
+    ]
+  },
+  "5024": {
+    "answer": "St. Martin's Clinic",
+    "questionIncludes": [
+      "Saint"
+    ]
+  },
+  "5025": {
+    "answer": "1-4-3-2",
+    "explanationIncludes": [
+      "Applications, Appointments, Appraisals, Attendance"
+    ]
+  },
+  "5033": {
+    "answer": "4-2-1-3",
+    "questionIncludes": [
+      "initials before full names"
+    ]
+  },
+  "5037": {
+    "answer": "1-4-3-2",
+    "questionIncludes": [
+      "ignoring spaces"
+    ]
+  },
+  "6032": {
+    "answer": "florescent",
+    "questionIncludes": [
+      "emitting light"
+    ],
+    "explanationIncludes": [
+      "flowering"
+    ]
+  },
+  "7009": {
+    "answer": "Commission on Human Rights",
+    "questionIncludes": [
+      "constitutional body"
+    ]
+  },
+  "7021": {
+    "answer": "Civil Service Commission",
+    "explanationIncludes": [
+      "Article IX-B, Section 3"
+    ]
+  },
+  "7043": {
+    "answer": "Practicing their profession in connection with any matter before their former office",
+    "questionIncludes": [
+      "profession"
+    ],
+    "explanationIncludes": [
+      "Section 7(b)",
+      "one year"
+    ]
+  },
+  "7100": {
+    "answer": "The Vice President-elect",
+    "explanationIncludes": [
+      "Article VII, Section 7"
+    ]
+  },
+  "7107": {
+    "answer": "Political Neutrality",
+    "explanationIncludes": [
+      "Section 4(d)"
+    ]
+  },
+  "8056": {
+    "answer": "11 member states",
+    "questionIncludes": [
+      "October 21, 2026"
+    ],
+    "explanationIncludes": [
+      "October 26, 2025",
+      "Timor-Leste"
+    ]
+  },
+  "8077": {
+    "answer": "Republic Act No. 10611",
+    "questionIncludes": [
+      "Food Safety Act of 2013"
+    ]
+  },
+  "9024": {
+    "answer": "16 years later",
+    "questionIncludes": [
+      "16 years old"
+    ],
+    "explanationIncludes": [
+      "48 + t = 2(16 + t)"
+    ]
+  },
+  "9043": {
+    "answer": "6 years old",
+    "questionIncludes": [
+      "fifth family member"
+    ],
+    "explanationIncludes": [
+      "90 - 84 = 6"
+    ]
+  },
+  "9052": {
+    "answer": "3 years old",
+    "questionIncludes": [
+      "30 years",
+      "18 years"
+    ],
+    "explanationIncludes": [
+      "60 - 2c = 54"
+    ]
+  },
+  "11032": {
+    "answer": "481",
+    "explanationIncludes": [
+      "474 + 7 = 481"
+    ]
+  },
+  "11040": {
+    "answer": "91",
+    "explanationIncludes": [
+      "+4, +9, +16, +25, +36"
+    ],
+    "excludes": [
+      "+1²"
+    ]
+  },
+  "11042": {
+    "answer": "294",
+    "explanationIncludes": [
+      "n × (n + 1)²",
+      "6 × 7² = 294"
+    ]
+  },
+  "14008": {
+    "answer": "10 2/3 days",
+    "explanationIncludes": [
+      "960",
+      "90"
+    ]
+  },
+  "14053": {
+    "answer": "30 days",
+    "explanationIncludes": [
+      "180/6 = 30"
+    ]
+  },
+  "14055": {
+    "answer": "1 2/3 days",
+    "explanationIncludes": [
+      "5/3"
+    ]
+  },
+  "15079": {
+    "answer": "My brother, who lives in Cebu, is a doctor.",
+    "questionIncludes": [
+      "only brother",
+      "nonessential"
+    ]
+  },
+  "15085": {
+    "answer": "To whom did you address the letter?",
+    "questionIncludes": [
+      "preposition before"
+    ]
+  },
+  "15099": {
+    "answer": "He is angry with me.",
+    "excludes": [
+      "\"He is angry at me.\""
+    ]
+  },
+  "16087": {
+    "answer": "will have been working",
+    "questionIncludes": [
+      "future perfect continuous"
+    ]
+  },
+  "20101": {
+    "answer": "nang",
+    "questionIncludes": [
+      "Tumakbo ang bata ___ mabilis."
+    ]
+  },
+  "20107": {
+    "answer": "Binasa ko kagabi ang libro.",
+    "questionIncludes": [
+      "karaniwang ayos"
+    ]
+  },
+  "20125": {
+    "answer": "Huwag kang tumakbo sa koridor.",
+    "questionIncludes": [
+      "pagbabawal"
+    ]
+  },
+  "20141": {
+    "answer": "Ikaw ang pumunta sa kanila kahapon.",
+    "excludes": [
+      "\"Ikaw ang pumunta sa kanila.\""
+    ]
+  },
+  "20143": {
+    "answer": "Doon siya tumira sa probinsya.",
+    "excludes": [
+      "\"Tumira siya doon sa probinsya.\""
+    ]
+  }
+}

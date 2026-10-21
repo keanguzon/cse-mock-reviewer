@@ -300,15 +300,15 @@
   },
   {
     "id": "9024",
-    "question": "Uncle Mario is 32 years older than his niece Rita. In how many years will Mario be exactly twice Rita's age?",
+    "question": "Uncle Mario is 32 years older than his niece Rita, who is currently 16 years old. In how many years will Mario be exactly twice Rita's age?",
     "choices": [
-      "32 years later",
+      "16 years later",
       "28 years later",
       "36 years later",
       "30 years later"
     ],
-    "correct_answer": "32 years later",
-    "explanation": "Let niece now = x. Uncle = x + 32. In t years: x + 32 + t = 2(x + t). 32 = x + t. Since niece's current age isn't given, the answer is always 32 regardless of current age: 32 + t = 2t when t = 32.",
+    "correct_answer": "16 years later",
+    "explanation": "Rita is 16 and Mario is 16 + 32 = 48. In t years: 48 + t = 2(16 + t). Thus 48 + t = 32 + 2t, so t = 16 years.",
     "category": "Numerical Ability – Age Problems"
   },
   {
@@ -547,15 +547,15 @@
   },
   {
     "category": "Numerical Ability – Age Problems",
-    "question": "Three years ago, the average age of a family of 4 members was 18 years. With a baby born recently, the average age of the family remains 18 years today. How old is the baby?",
+    "question": "Three years ago, the average age of a family of 4 members was 18 years. Today, after a fifth family member has joined them, the average age of all 5 members is 18 years. How old is the fifth member?",
     "choices": [
       "1 year old",
       "2 years old",
-      "3 years old",
+      "6 years old",
       "0.5 years old"
     ],
-    "correct_answer": "3 years old",
-    "explanation": "Sum of 4 members 3 years ago = 4 × 18 = 72. Sum of same 4 today = 72 + 4(3) = 84. Total 5 members today average 18 -> sum = 5 × 18 = 90. Baby's age = 90 - 84 = 3.",
+    "correct_answer": "6 years old",
+    "explanation": "The original four members had a total age of 4 × 18 = 72 three years ago. Their total today is 72 + 4 × 3 = 84. The five members total 5 × 18 = 90 today. The fifth member is 90 - 84 = 6 years old.",
     "id": "9043"
   },
   {
@@ -664,7 +664,7 @@
   },
   {
     "category": "Numerical Ability – Age Problems",
-    "question": "The average age of a husband and wife is 27 years. When their child was born, the average age of the family was 19 years. How old is the child now?",
+    "question": "The present average age of a husband and wife is 30 years. When their child was born, the average age of the three family members was 18 years. How old is the child now?",
     "choices": [
       "4 years old",
       "5 years old",
@@ -672,7 +672,7 @@
       "2 years old"
     ],
     "correct_answer": "3 years old",
-    "explanation": "Sum of husband and wife now = 27 × 2 = 54. Let child age = c. Sum of 3 family members now = 54 + c. Sum when child was born = 54 - 2c. At birth, average of 3 = 19 -> (54 - 2c + 0)/3 = 19 -> 54 - 2c = 57 (Wait: 3 members at birth = 19 -> sum = 57. 54 + 3 = 57 -> 3 years).",
+    "explanation": "The parents' combined present age is 2 × 30 = 60. If the child is c years old, their combined age at the child's birth was 60 - 2c. Including the newborn's age of zero, the family total then was 3 × 18 = 54. Thus 60 - 2c = 54, so c = 3 years.",
     "id": "9052"
   },
   {
@@ -879,8 +879,8 @@
       "30 years old",
       "45 years old"
     ],
-    "correct_answer": "35 years old",
-    "explanation": "Let 10 yrs ago daughter = d, mother = 6d. Now: d+10, 6d+10. In 10 yrs: 6d+20 = 2(d+20) -> 6d+20 = 2d+40 -> 4d = 20 -> d = 5. Mother now = 6(5) + 10 = 35.",
+    "correct_answer": "40 years old",
+    "explanation": "Let the daughter be d now and the mother be m. In ten years, m + 10 = 2(d + 10), so m = 2d + 10. Ten years ago, m - 10 = 6(d - 10), so m = 6d - 50. Thus 4d = 60, d = 15 and m = 40. Check: 50 = 2 × 25 in ten years; 30 = 6 × 5 ten years ago.",
     "id": "9068"
   },
   {

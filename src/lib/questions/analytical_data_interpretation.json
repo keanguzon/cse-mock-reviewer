@@ -314,7 +314,7 @@
   {
     "id": "3025",
     "category": "Analytical Ability – Data Interpretation",
-    "question": "A table presents Civil Service Exam passing rates across 4 testing centers:\n- Center A: 400 examinees, 120 passed\n- Center B: 500 examinees, 175 passed\n- Center C: 300 examinees, 105 passed\n- Center D: 600 examinees, 180 passed\n\nWhich testing center achieved the highest passing percentage?",
+    "question": "A table presents Civil Service Exam passing rates across 4 testing centers:\n- Center A: 400 examinees, 120 passed\n- Center B: 500 examinees, 175 passed\n- Center C: 300 examinees, 120 passed\n- Center D: 600 examinees, 180 passed\n\nWhich testing center achieved the highest passing percentage?",
     "choices": [
       "Center A",
       "Center D",
@@ -322,7 +322,7 @@
       "Center B"
     ],
     "correct_answer": "Center C",
-    "explanation": "Passing rates: Center A: 120/400=30%; Center B: 175/500=35%; Center C: 105/300=35%; Wait, 105/300 = 35%. Center B: 175/500 = 35%. Let's check Center C: 105/300=35%. Let's adjust Center C to 120 passed out of 300 = 40%. Center C = 120/300 = 40%."
+    "explanation": "Passing percentages: A = 120/400 = 30%; B = 175/500 = 35%; C = 120/300 = 40%; D = 180/600 = 30%. Center C uniquely has the highest passing percentage."
   },
   {
     "id": "3026",

@@ -97,11 +97,11 @@
     "choices": [
       "9 days",
       "12 days",
-      "8 days",
+      "10 2/3 days",
       "10 days"
     ],
-    "correct_answer": "8 days",
-    "explanation": "Total man-hours = 10 × 12 × 8 = 960 man-hours. Days for 15 men working 6 hrs/day = 960 / (15 × 6) = 960 / 90 = 10.67? Wait: 960 / 90 = 10.67. Let's adjust numbers: 12 men build road in 10 days working 8 hrs a day = 960 man-hrs. 15 men working 8 hrs/day -> 960 / 120 = 8 days."
+    "correct_answer": "10 2/3 days",
+    "explanation": "Total work = 10 × 12 × 8 = 960 man-hours. Fifteen men working six hours per day supply 15 × 6 = 90 man-hours per day. Required time = 960/90 = 32/3 = 10 2/3 days."
   },
   {
     "id": "14009",
@@ -274,7 +274,7 @@
   },
   {
     "id": "14022",
-    "question": "Secretary A can type a document in 3 hours, while Assistant B takes 4 hours for the same document. How long will it take them working together?",
+    "question": "Secretary A can type a document in 3 hours, while Assistant B takes 4 hours for the same document. To the nearest minute, how long will it take them working together?",
     "choices": [
       "1 hour and 43 minutes",
       "2 hours and 15 minutes",
@@ -282,7 +282,7 @@
       "2 hours and 30 minutes"
     ],
     "correct_answer": "1 hour and 43 minutes",
-    "explanation": "Combined rate = 1/3 + 1/4 = 7/12. Time = 12/7 = 1.71 hours = 1 hour and 43 minutes.",
+    "explanation": "The combined rate is 1/3 + 1/4 = 7/12 document per hour. Time = 12/7 hours = 720/7 minutes, approximately 102.857 minutes. Rounded to the nearest minute, this is 103 minutes, or 1 hour and 43 minutes.",
     "category": "Numerical Ability – Work Problems"
   },
   {
@@ -684,8 +684,8 @@
       "24 days",
       "30 days"
     ],
-    "correct_answer": "36 days",
-    "explanation": "John does 5/20 = 1/4 of work in 5 days. Remaining work = 3/4. In 9 days together: 9(1/20 + 1/P) = 3/4 -> 9/20 + 9/P = 15/20 -> 9/P = 6/20 -> P = 180/6 = 36 days.",
+    "correct_answer": "30 days",
+    "explanation": "John completes 5/20 = 1/4 before Paul joins. The remaining 3/4 is completed in 9 days: 9(1/20 + 1/P) = 3/4. Hence 9/P = 3/4 - 9/20 = 6/20, giving P = 180/6 = 30 days.",
     "id": "14053"
   },
   {
@@ -705,13 +705,13 @@
     "category": "Numerical Ability – Work Problems",
     "question": "Worker A, B, and C can complete a piece of work in 6, 8, and 12 days respectively. If A and B work for 2 days and then C replaces B, how many more days will A and C take to finish the work?",
     "choices": [
-      "1.6 days",
+      "1 2/3 days",
       "2 days",
       "1.5 days",
       "1.8 days"
     ],
-    "correct_answer": "1.6 days",
-    "explanation": "A+B rate = 1/6 + 1/8 = 7/24. In 2 days, A+B do 14/24 = 7/12. Remaining = 5/12. A+C rate = 1/6 + 1/12 = 3/12 = 1/4. Time for A+C = (5/12) / (1/4) = 5/3 = 1.67 (or 1.6 days approx).",
+    "correct_answer": "1 2/3 days",
+    "explanation": "A and B work at 1/6 + 1/8 = 7/24 job per day, completing 7/12 in two days. The remaining work is 5/12. A and C work at 1/6 + 1/12 = 1/4 job per day. Time = (5/12)/(1/4) = 5/3 = 1 2/3 days exactly.",
     "id": "14055"
   },
   {
@@ -742,7 +742,7 @@
   },
   {
     "category": "Numerical Ability – Work Problems",
-    "question": "X can complete a project in 20 days. Y is 25% less efficient than X. How many days will Y take to complete the project alone?",
+    "question": "X can complete a project in 20 days. Y is 25% less efficient than X. How many days will Y take to complete the project alone, rounded to two decimal places?",
     "choices": [
       "26.67 days",
       "25 days",
@@ -750,7 +750,7 @@
       "28 days"
     ],
     "correct_answer": "26.67 days",
-    "explanation": "X rate = 1/20 = 0.05. Y rate = 0.05 × 0.75 = 0.0375. Y time = 1 / 0.0375 = 26.67 days.",
+    "explanation": "The rate of X is 1/20 job per day. The rate of Y is 0.75/20 = 3/80 job per day. Time = 80/3 = 26.666... days, which rounds to 26.67 days to two decimal places.",
     "id": "14058"
   },
   {
@@ -781,7 +781,7 @@
   },
   {
     "category": "Numerical Ability – Work Problems",
-    "question": "Three taps A, B, and C can fill a tank in 12, 15, and 20 hours respectively. If Tap A is open all the time and B and C are open for one hour each alternately, the tank will be full in how many hours?",
+    "question": "Three taps A, B, and C can fill a tank in 12, 15, and 20 hours respectively. Tap A is open all the time. Taps B and C are open for one hour each alternately, starting with B. In how many hours will the tank be full?",
     "choices": [
       "6 hours",
       "6.5 hours",

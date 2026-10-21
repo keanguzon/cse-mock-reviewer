@@ -223,7 +223,7 @@
   {
     "id": "6018",
     "category": "Clerical Ability – Spelling",
-    "question": "Which of the following words is spelled INCORRECTLY?",
+    "question": "Which word is misspelled for its intended meaning? In this question, calender is intended to mean a chart of days, weeks, and months.",
     "choices": [
       "itinerary",
       "beneficiary",
@@ -231,7 +231,7 @@
       "auxiliary"
     ],
     "correct_answer": "calender",
-    "explanation": "The correct spelling is 'calendar' — with 'a' in the last syllable, not 'e.' A 'calender' is actually a machine used in manufacturing."
+    "explanation": "For the intended chart of days, weeks, and months, the spelling is 'calendar'. 'Calender' is a different valid word for a machine that presses materials through rollers, so the intended meaning must be specified."
   },
   {
     "id": "6019",
@@ -405,7 +405,7 @@
   {
     "id": "6032",
     "category": "Clerical Ability – Spelling",
-    "question": "Which of the following words is spelled INCORRECTLY?",
+    "question": "Which word is misspelled for its intended meaning? In this question, florescent is intended to mean emitting light by fluorescence.",
     "choices": [
       "florescent",
       "luminescent",
@@ -413,7 +413,7 @@
       "fluorescent"
     ],
     "correct_answer": "florescent",
-    "explanation": "The correct spelling is 'fluorescent' — starting with 'fluo-.'"
+    "explanation": "For the intended light-emitting meaning, the spelling is 'fluorescent'. 'Florescent' is a different valid word meaning flowering or coming into bloom, so the intended meaning must be specified."
   },
   {
     "id": "6033",

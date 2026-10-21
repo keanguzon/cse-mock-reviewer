@@ -1015,7 +1015,7 @@
     },
     {
         "category": "Verbal Ability – Correct Usage",
-        "question": "Which sentence is correctly punctuated?",
+        "question": "The clause 'who lives in Cebu' gives nonessential additional information about the speaker's only brother. Which sentence is correctly punctuated?",
         "choices": [
             "My brother who lives in Cebu is a doctor.",
             "My brother who lives in Cebu, is a doctor.",
@@ -1023,7 +1023,7 @@
             "My brother, who lives in Cebu is a doctor."
         ],
         "correct_answer": "My brother, who lives in Cebu, is a doctor.",
-        "explanation": "Assuming the speaker has only one brother, the clause 'who lives in Cebu' is non-restrictive and must be set off by commas.",
+        "explanation": "Because the speaker has only one brother, 'who lives in Cebu' adds nonessential information. A pair of commas sets off this non-defining relative clause.",
         "id": "15079"
     },
     {
@@ -1093,7 +1093,7 @@
     },
     {
         "category": "Verbal Ability – Correct Usage",
-        "question": "Which of the following is correct?",
+        "question": "Which construction correctly places the preposition before its objective-case interrogative pronoun?",
         "choices": [
             "Whom did you address the letter to?",
             "To who did you address the letter?",
@@ -1101,7 +1101,7 @@
             "Who did you address the letter to?"
         ],
         "correct_answer": "To whom did you address the letter?",
-        "explanation": "Standard formal English prefers 'To whom did you address the letter?' because 'whom' is the object of the preposition 'to'.",
+        "explanation": "In 'To whom did you address the letter?', the preposition 'to' comes before its object 'whom'. A construction with the preposition at the end may also be grammatical, but does not meet this question's stated requirement.",
         "id": "15085"
     },
     {
@@ -1275,15 +1275,15 @@
     },
     {
         "category": "Verbal Ability – Correct Usage",
-        "question": "Which of the following is correct?",
+        "question": "Which sentence correctly expresses that he feels anger directed toward me?",
         "choices": [
             "He is angry with me.",
             "He is angry to me.",
-            "He is angry at me.",
-            "He is angry about me."
+            "He is angry on me.",
+            "He is angry from me."
         ],
         "correct_answer": "He is angry with me.",
-        "explanation": "You get angry 'with' a person, but angry 'at' a situation or thing.",
+        "explanation": "'Angry with me' correctly expresses anger directed toward a person. 'Angry at me' is also standard English, but is not among these choices. The other listed prepositions do not express this meaning in standard usage.",
         "id": "15099"
     },
     {

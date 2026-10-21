@@ -716,15 +716,15 @@
   },
   {
     "category": "General Information – Current Events & Basic Facts",
-    "question": "How many official member states currently compose the Association of Southeast Asian Nations (ASEAN)?",
+    "question": "As of October 21, 2026, how many member states compose the Association of Southeast Asian Nations (ASEAN)?",
     "choices": [
       "8 member states",
-      "10 member states",
+      "11 member states",
       "12 member states",
       "15 member states"
     ],
-    "correct_answer": "10 member states",
-    "explanation": "ASEAN consists of 10 member states: Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, and Vietnam.",
+    "correct_answer": "11 member states",
+    "explanation": "ASEAN has 11 member states as of October 21, 2026. Timor-Leste was admitted as the eleventh member on October 26, 2025, joining Brunei, Cambodia, Indonesia, Laos, Malaysia, Myanmar, the Philippines, Singapore, Thailand, and Vietnam.",
     "id": "8056"
   },
   {
@@ -989,7 +989,7 @@
   },
   {
     "category": "General Information – Current Events & Basic Facts",
-    "question": "Which Philippine law is known as the 'Anti-Safe Mealing and Food Waste Reduction Act'?",
+    "question": "Which Philippine law has the short title 'Food Safety Act of 2013'?",
     "choices": [
       "Republic Act No. 10611",
       "Republic Act No. 9003",
@@ -997,7 +997,7 @@
       "Republic Act No. 11032"
     ],
     "correct_answer": "Republic Act No. 10611",
-    "explanation": "RA 10611 is the Food Safety Act of 2013, establishing food safety regulatory systems in the Philippines.",
+    "explanation": "Section 1 of Republic Act No. 10611 gives its short title as the Food Safety Act of 2013. The law strengthens the Philippine food safety regulatory system.",
     "id": "8077"
   },
   {

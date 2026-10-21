@@ -301,15 +301,15 @@
   {
     "id": "2024",
     "category": "Analytical Ability – Assumptions & Conclusions",
-    "question": "Six people (A, B, C, D, E, F) sit around a circular table facing the center:\n- A sits opposite D.\n- B sits immediately to the right of A.\n- C sits between D and B.\n\nWho sits immediately to the left of A?",
+    "question": "Six people (A, B, C, D, E, F) sit around a circular table facing the center:\n- A sits opposite D.\n- B sits immediately to the right of A.\n- C sits immediately between D and B.\n- E sits immediately to the left of A.\n\nWho sits immediately to the left of A?",
     "choices": [
       "C",
       "F",
       "E",
       "D"
     ],
-    "correct_answer": "C",
-    "explanation": "In a 6-seat circle: A at 12 o'clock, D opposite at 6 o'clock. B to A's right (2 o'clock). C between D (6) and B (2) sits at 4 o'clock? Wait, clockwise: A (12), B (2), C (4), D (6). To A's left is 10 o'clock. Since C sits between D and B? Wait, clockwise: D (6), C (4), B (2), A (12). Facing center: Right of A is 10 o'clock. Thus left of A is 2 o'clock (B) or 10 o'clock. Let's trace: A (top). Facing center: right is counter-clockwise (10), left is clockwise (2). B is at 10. C is between D(6) and B(10) -> at 8. Thus left of A (2 o'clock) is E/F. Wait, C between D and B means C is at 8 o'clock. Then position 2 o'clock is E or F. Wait, if C is between D and A, C is at 10. Let's make the setup clear: A is at top. B is right of A. C is between D and A. Who sits to the left of A? C."
+    "correct_answer": "E",
+    "explanation": "Put A at the top. Facing the center, A's right is counterclockwise and A's left is clockwise. The clockwise order is A, E, F, D, C, B. E is immediately to the left of A, as stated in the added clue."
   },
   {
     "id": "2025",
@@ -418,7 +418,7 @@
   {
     "id": "2033",
     "category": "Analytical Ability – Assumptions & Conclusions",
-    "question": "A committee of 4 must be chosen from 6 people (A, B, C, D, E, F):\n- A and B must be chosen together.\n- C and D cannot be chosen together.\n- E and F must both be chosen.\n\nIf C is chosen, who else MUST be chosen?",
+    "question": "A committee of 4 must be chosen from 6 people (A, B, C, D, E, F):\n- A and B cannot both be chosen.\n- C and D cannot be chosen together.\n- E and F must both be chosen.\n\nIf C is chosen, who else MUST be chosen?",
     "choices": [
       "A and B",
       "D and E",
@@ -426,12 +426,12 @@
       "A, B, E, and F"
     ],
     "correct_answer": "E and F",
-    "explanation": "E and F are mandatory. That's 2 seats. If C is chosen, that's 3 seats (C, E, F). The 4th seat cannot be D (C and D can't be together). A and B must be together (requiring 2 seats), but only 1 seat remains. So A and B cannot be chosen. The committee is C, E, F and either A or B? No, A and B can't be split. So who MUST be chosen? E and F."
+    "explanation": "E and F are required. With C chosen, the fourth seat cannot be D and can be either A or B. The feasible committees are A, C, E, F and B, C, E, F. Thus E and F is the only listed pair that must be selected."
   },
   {
     "id": "2034",
     "category": "Analytical Ability – Assumptions & Conclusions",
-    "question": "Six friends (J, K, L, M, N, O) sit in a row facing north:\n- K is at the extreme left end.\n- M sits next to K.\n- O sits at the extreme right end.\n- L sits between N and O.\n\nWho sits third from the left?",
+    "question": "Six friends (J, K, L, M, N, O) sit in a row facing north:\n- K is at the extreme left end.\n- M sits next to K.\n- O sits at the extreme right end.\n- L sits immediately between N and O.\n\nWho sits third from the left?",
     "choices": [
       "J",
       "M",
@@ -568,8 +568,8 @@
       "Box 4",
       "Box 2"
     ],
-    "correct_answer": "Box 4",
-    "explanation": "Stack from top (5) to bottom (1): Top (5th) is 5. 4th is 2. Bottom (1st) is 1. Slots 2nd and 3rd are 4 and 3 respectively (since Box 3 is above Box 4). So 3rd from bottom is Box 4."
+    "correct_answer": "Box 3",
+    "explanation": "From bottom to top the only order is 1, 4, 3, 2, 5. Boxes 1, 2 and 5 have fixed positions. Box 3 must be above Box 4 in the two remaining positions, so Box 3 is third from the bottom."
   },
   {
     "id": "2045",
@@ -651,7 +651,7 @@
   },
   {
     "category": "Analytical Ability – Assumptions & Conclusions",
-    "question": "During a meeting at a local barangay hall, five councilors (A, B, C, D, and E) are seated around a circular table facing the center.\n- A is sitting immediately to the right of B.\n- C is sitting exactly between A and D.\n- E is not adjacent to D.\n\nWho is sitting immediately to the left of B?",
+    "question": "During a meeting at a local barangay hall, five councilors (A, B, C, D, and E) are seated around a circular table facing the center.\n- A is sitting immediately to the right of B.\n- C is sitting immediately between A and D.\n- E is adjacent to D.\n\nWho is sitting immediately to the left of B?",
     "choices": [
       "D",
       "E",
@@ -659,7 +659,7 @@
       "C"
     ],
     "correct_answer": "E",
-    "explanation": "Based on the clues: A is to the right of B (so B, A). C is between A and D (so B, A, C, D). Since it's a circle of 5, E must be in the remaining seat between D and B. So the counter-clockwise order is B, A, C, D, E. To the left of B (clockwise) is E.",
+    "explanation": "With B fixed at the top, the counterclockwise order is B, A, C, D, E. A is to B's right when facing the center; C sits between A and D; E is adjacent to D. Clockwise from B, E is immediately to B's left.",
     "id": "2051"
   },
   {
@@ -720,11 +720,11 @@
     "choices": [
       "The ingredients used in the adobo are expensive.",
       "The secret recipe was stolen from a competitor.",
-      "Older recipes always yield better-tasting dishes than newer ones.",
+      "The family recipe makes its adobo taste better than competing adobo dishes.",
       "No other restaurant in Manila sells adobo."
     ],
-    "correct_answer": "Older recipes always yield better-tasting dishes than newer ones.",
-    "explanation": "The restaurant justifies its claim of having the 'best' adobo solely based on the age of its recipe (50 years old), implying an assumption that age and tradition guarantee superior taste.",
+    "correct_answer": "The family recipe makes its adobo taste better than competing adobo dishes.",
+    "explanation": "To justify 'best' by citing this recipe, the restaurant assumes that the recipe produces better-tasting adobo than competitors offer. It need not assume that every old recipe is better than every new one.",
     "id": "2056"
   },
   {
@@ -808,7 +808,7 @@
   {
     "id": "2063",
     "category": "Analytical Ability – Assumptions & Conclusions",
-    "question": "Four training modules (Module 1, Module 2, Module 3, Module 4) must be completed in order:\n- Module 2 must be taken before Module 4.\n- Module 1 must be taken after Module 3.\n- Module 3 is taken first.\n\nWhich module is taken LAST?",
+    "question": "Four training modules (Module 1, Module 2, Module 3, Module 4) must be completed in order:\n- Module 2 must be taken before Module 4.\n- Module 1 must be taken immediately after Module 3.\n- Module 3 is taken first.\n\nWhich module is taken LAST?",
     "choices": [
       "Module 4",
       "Module 2",
@@ -816,7 +816,7 @@
       "Module 1"
     ],
     "correct_answer": "Module 4",
-    "explanation": "Module 3 is 1st. Module 1 is taken after Module 3, so Module 1 is 2nd. Module 2 is 3rd, and Module 4 (after Module 2) is 4th (last)."
+    "explanation": "Module 3 is first and Module 1 is immediately after it. Module 2 must precede Module 4, so the only order is Module 3, Module 1, Module 2, Module 4. Module 4 is last."
   },
   {
     "id": "2064",
@@ -912,7 +912,7 @@
   {
     "id": "2071",
     "category": "Analytical Ability – Assumptions & Conclusions",
-    "question": "Five barangays (B1, B2, B3, B4, B5) are located along a straight highway:\n- B3 is between B1 and B2.\n- B4 is to the right of B2.\n- B5 is to the left of B1.\n\nWhich barangay is located in the middle (3rd position from left)?",
+    "question": "Five barangays (B1, B2, B3, B4, B5) are located along a straight highway:\n- B3 is between B1 and B2.\n- B1 is to the left of B2.\n- B4 is to the right of B2.\n- B5 is to the left of B1.\n\nWhich barangay is located in the middle (3rd position from left)?",
     "choices": [
       "B3",
       "B1",
@@ -1003,7 +1003,7 @@
   {
     "id": "2078",
     "category": "Analytical Ability – Assumptions & Conclusions",
-    "question": "Statement: \"If an applicant passes the written examination and the panel interview, they are hired.\"\n\nJuan passed the written examination but failed the panel interview.\nWhat conclusion logically follows?",
+    "question": "Statement: \"An applicant is hired only if they pass both the written examination and the panel interview.\"\n\nJuan passed the written examination but failed the panel interview.\nWhat conclusion logically follows?",
     "choices": [
       "Juan will be placed on a waiting list.",
       "Juan is not hired.",

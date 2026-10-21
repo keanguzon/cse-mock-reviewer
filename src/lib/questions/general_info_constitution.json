@@ -106,7 +106,7 @@
     {
         "id": "7009",
         "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Which Constitutional Commission is tasked with the protection of human rights?",
+        "question": "Which constitutional body is tasked with investigating human rights violations involving civil and political rights?",
         "choices": [
             "Commission on Elections",
             "Commission on Audit",
@@ -114,7 +114,7 @@
             "Commission on Human Rights"
         ],
         "correct_answer": "Commission on Human Rights",
-        "explanation": "The Commission on Human Rights (CHR), established under Article XIII, Section 17, investigates human rights violations."
+        "explanation": "The Commission on Human Rights is created by Article XIII, Section 17. Its investigative function is specified in Section 18(1). It is a constitutional body distinct from the three Constitutional Commissions listed in Article IX-A."
     },
     {
         "id": "7010",
@@ -270,7 +270,7 @@
             "Commission on Audit"
         ],
         "correct_answer": "Civil Service Commission",
-        "explanation": "Article IX-B, Section 1(1) designates the Civil Service Commission as the central personnel agency of the government."
+        "explanation": "Article IX-B, Section 3 designates the Civil Service Commission as the central personnel agency of the government."
     },
     {
         "id": "7022",
@@ -548,15 +548,15 @@
     {
         "id": "7043",
         "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under RA 6713, what is prohibited regarding post-employment for former public officials within one year after separation from service?",
+        "question": "Under RA 6713 Section 7(b), which restriction on private practice of their profession applies to former public officials during the one year after separation from service?",
         "choices": [
-            "Filing an official leave of absence with supervisor approval",
-            "Soliciting or accepting gifts connected to official duties",
+            "Practicing their profession in connection with any matter before their former office",
+            "Practicing their profession on a matter unrelated to their former office",
             "Participating in authorized community public service projects",
-            "Joining an accredited professional civil service organization"
+            "Joining an accredited professional organization"
         ],
-        "correct_answer": "Soliciting or accepting gifts connected to official duties",
-        "explanation": "Section 7(b) prohibits former public officials from practicing before their former office within one year after separation."
+        "correct_answer": "Practicing their profession in connection with any matter before their former office",
+        "explanation": "Section 7(b) generally excepts private professional practice under subsection (2) from the one-year continuation of its prohibitions. However, during that one year, a former official cannot practice the profession in connection with any matter before the office they used to serve. This is not a blanket ban on professional practice."
     },
     {
         "id": "7044",
@@ -1166,7 +1166,7 @@
             "The Vice President-elect"
         ],
         "correct_answer": "The Vice President-elect",
-        "explanation": "Article VII, Section 10 provides that if the President-elect fails to qualify, the Vice President-elect shall act as President until the President-elect qualifies.",
+        "explanation": "Article VII, Section 7 provides that if the President-elect fails to qualify, or if no President has been chosen, the Vice President-elect acts as President until the President-elect qualifies or a President is chosen and qualified.",
         "id": "7100"
     },
     {
@@ -1258,7 +1258,7 @@
             "Commitment to Democracy"
         ],
         "correct_answer": "Political Neutrality",
-        "explanation": "Under Section 4(b), 'Political Neutrality' means providing service to everyone without unfair discrimination and regardless of party affiliation."
+        "explanation": "RA 6713 Section 4(d) identifies Political Neutrality: public officials and employees must serve everyone without unfair discrimination or regard to party affiliation or preference."
     },
     {
         "id": "7108",
