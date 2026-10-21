@@ -24,11 +24,7 @@ function loadAttempts(): GuestAttempt[] {
 
 function persistAttempts(attempts: GuestAttempt[]) {
   if (!browser) return;
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(attempts));
-  } catch (e) {
-    console.error('Error saving guest attempts:', e);
-  }
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(attempts));
 }
 
 let _attempts = $state<GuestAttempt[]>(loadAttempts());
@@ -37,14 +33,16 @@ export const guestStore = {
   get attempts() {
     return _attempts;
   },
-  save(attempt: Omit<GuestAttempt, 'id' | 'completed_at'>) {
+  save(attempt: Omit<GuestAttempt, 'id' | 'completed_at'>, identity?: Pick<GuestAttempt, 'id' | 'completed_at'>) {
+    if (identity && _attempts.some(entry => entry.id === identity.id)) return;
     const entry: GuestAttempt = {
       ...attempt,
-      id: typeof crypto !== 'undefined' && crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2, 11),
-      completed_at: new Date().toISOString()
+      id: identity?.id ?? (typeof crypto !== 'undefined' && crypto.randomUUID ? crypto.randomUUID() : Math.random().toString(36).substring(2, 11)),
+      completed_at: identity?.completed_at ?? new Date().toISOString()
     };
-    _attempts = [entry, ..._attempts].slice(0, 20);
-    persistAttempts(_attempts);
+    const next = [entry, ..._attempts].slice(0, 20);
+    persistAttempts(next);
+    _attempts = next;
   },
   clear() {
     _attempts = [];

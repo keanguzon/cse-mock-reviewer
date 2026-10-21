@@ -36,7 +36,7 @@
     elapsedTime?: number;
     title?: string;
     showSaveStatus?: boolean;
-    saveStatus?: 'idle' | 'saving' | 'saved' | 'error';
+    saveStatus?: 'idle' | 'saving' | 'saved' | 'error' | 'queued' | 'local' | 'discarded';
     onRetrySave?: () => void;
   }>();
 
@@ -168,13 +168,17 @@
   {/if}
 
   {#if showSaveStatus}
-    <div class="save-indicator slide-up {saveStatus}" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; margin-bottom: 1.5rem;">
+    <div role="status" aria-live="polite" class="save-indicator slide-up {saveStatus}" style="display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; margin-bottom: 1.5rem;">
       {#if saveStatus === 'saving'}
         <span class="spinner" aria-busy="true"></span> Saving review progress...
       {:else if saveStatus === 'saved'}
         <CheckCircle2 size={16} class="text-emerald" /> Progress saved to your account!
-      {:else if saveStatus === 'error'}
-        <AlertTriangle size={16} class="text-red" /> Couldn't save this attempt.
+      {:else if saveStatus === 'local'}
+        <CheckCircle2 size={16} /> Progress saved on this device.
+      {:else if saveStatus === 'discarded'}
+        <AlertTriangle size={16} /> Progress was removed by an administrator. Restart this exam.
+      {:else if saveStatus === 'queued' || saveStatus === 'error'}
+        <AlertTriangle size={16} class="text-red" /> {saveStatus === 'queued' ? 'Saved on this device; waiting to sync.' : "Couldn't save this attempt on this device."}
         {#if onRetrySave}
           <button class="btn-ghost" onclick={onRetrySave} style="padding: 0.2rem 0.6rem; font-size: 0.75rem; border-color: rgba(248, 113, 113, 0.4); color: var(--cse-red); margin-left: 0.5rem; display: inline-flex; align-items: center; gap: 0.25rem;">
             🔄 Retry

@@ -12,6 +12,27 @@ export type ExamInput = {
 
 export class ExamValidationError extends Error {}
 
+export function getExamOptions(level: ExamLevel, category: string, available: number): { value: string; label: string }[] {
+  const options = [10, 20, 50].filter(n => n <= available).map(n => ({ value: String(n), label: `${n} Questions${n === 10 ? ' (Quick Review)' : n === 20 ? ' (Standard)' : ' (Deep Dive)'}` }));
+  if (!category) {
+    const official = level === 'professional' ? 150 : 145;
+    const extended = level === 'professional' ? 170 : 165;
+    if (available >= official) options.push({ value: String(official), label: `${official} Questions (Official-format Mock)` });
+    if (available >= extended) options.push({ value: String(extended), label: `${extended} Questions (Extended Mock)` });
+  }
+  if (!options.some(o => o.value === String(available))) options.push({ value: String(available), label: `All ${available} Questions (Full)` });
+  return options;
+}
+
+export function quizUrl(input: { mode: string; level: ExamLevel; category: string; limit: string }): string {
+  const official = !input.category && input.limit === (input.level === 'professional' ? '150' : '145');
+  const params = new URLSearchParams({ mode: official ? 'mock' : input.mode, level: input.level, limit: input.limit });
+  if (input.category) params.set('category', input.category);
+  if (official) params.set('profile', 'official');
+  else if (!input.category && input.limit === (input.level === 'professional' ? '170' : '165')) params.set('realistic', 'true');
+  return `/quiz?${params}`;
+}
+
 export function resolveExamConfig(input: ExamInput): ExamConfig {
   const mode = input.mode || 'practice';
   const level = input.level || 'professional';

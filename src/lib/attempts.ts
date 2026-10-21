@@ -1,11 +1,17 @@
 import type { Question } from './questions';
 
-export type SaveState = 'saving' | 'queued' | 'saved' | 'local' | 'error';
+export type SaveState = 'saving' | 'queued' | 'saved' | 'local' | 'error' | 'discarded';
+export type ReviewerDataState = { generation: number; revision: number; status: 'active' | 'deleting' | 'deleted'; progressCoverage?: string; incompleteAttemptCount?: number };
+export function isTerminalSaveError(error: unknown): boolean {
+  const value = error as { code?: string; message?: string } | null;
+  return /\b(STALE_GENERATION|ATTEMPT_DELETED|ACCOUNT_DISABLED)\b/.test(`${value?.code ?? ''} ${value?.message ?? ''}`);
+}
 export type CompletedAttempt = {
   id: string; user_id: string; score: number; total: number;
   category: string; mode: 'practice' | 'mock'; level: 'professional' | 'subprofessional';
   completed_at: string; questions: Question[]; user_answers: Record<number, string>;
   active_session_id?: string;
+  generation?: number;
 };
 export type PendingAttempt = { attempt: CompletedAttempt; queued_at: string };
 export interface PendingRepository {
@@ -33,6 +39,7 @@ export function isCompletedAttempt(value: unknown): value is CompletedAttempt {
   if (!value || typeof value !== 'object') return false;
   const a = value as CompletedAttempt;
   return typeof a.id === 'string' && typeof a.user_id === 'string' && !!a.user_id &&
+    (a.generation === undefined || (Number.isSafeInteger(a.generation) && a.generation >= 0)) &&
     Number.isInteger(a.total) && a.total > 0 && a.total <= 2000 &&
     Number.isInteger(a.score) && a.score >= 0 && a.score <= a.total &&
     typeof a.category === 'string' && ['practice', 'mock'].includes(a.mode) &&

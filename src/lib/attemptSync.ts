@@ -1,4 +1,5 @@
 import type { CompletedAttempt, PendingAttempt, PendingRepository, SaveState } from './attempts';
+import { isTerminalSaveError } from './attempts';
 
 export function createAttemptSync(options: {
   repository: PendingRepository;
@@ -25,7 +26,12 @@ export function createAttemptSync(options: {
           if (savedId !== item.attempt.id) throw new Error('Unexpected saved attempt identity.');
           await options.repository.remove(item.attempt.id);
           state(item, 'saved');
-        } catch { state(item, 'queued'); }
+        } catch (error) {
+          if (isTerminalSaveError(error)) {
+            try { await options.repository.remove(item.attempt.id); state(item, 'discarded'); }
+            catch { state(item, 'error'); }
+          } else state(item, 'queued');
+        }
       }
     }
   }

@@ -1,6 +1,8 @@
 <script lang="ts">
+  import { reviewerData } from '$lib/reviewerData.svelte';
+
   import { supabase } from "$lib/supabaseClient";
-  import { onMount } from "svelte";
+  import { untrack } from "svelte";
   import { goto } from "$app/navigation";
   import { userSession } from "$lib/userSession.svelte";
   import { guestStore } from "$lib/guestStore.svelte";
@@ -77,8 +79,19 @@
     currentPage = 1;
   });
 
-  onMount(async () => {
-    if (!userSession.user) {
+
+  let requestNumber = 0;
+  $effect(() => {
+    reviewerData.change;
+    userSession.user?.id;
+    if (!userSession.loading) untrack(() => { void loadAttempts(); });
+    return () => { requestNumber++; };
+  });
+  async function loadAttempts() {
+    const request = ++requestNumber;
+    const owner = userSession.user?.id ?? null;
+    attempts = []; loading = true; error = null;
+    if (!owner) {
       attempts = guestStore.attempts.map((att, idx) => ({
         id: (att as any).id || `guest-${idx}`,
         score: att.score,
@@ -96,18 +109,19 @@
       const { data, error: dbError } = await supabase
         .from("exam_attempts")
         .select("id, score, total, category, mode, level, completed_at")
-        .eq("user_id", userSession.user.id)
+        .eq("user_id", owner)
         .order("completed_at", { ascending: false });
 
+      if (request !== requestNumber || userSession.user?.id !== owner) return;
       if (dbError) throw dbError;
       attempts = data || [];
     } catch (err: any) {
-      console.error("Error fetching attempts:", err);
+      if (request !== requestNumber || userSession.user?.id !== owner) return;
       error = "Failed to load exams.";
     } finally {
-      loading = false;
+      if (request === requestNumber) loading = false;
     }
-  });
+  }
 
   function getPaginationItems(current: number, total: number): (number | string)[] {
     if (total <= 7) {

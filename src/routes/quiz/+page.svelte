@@ -5,7 +5,8 @@
   import ProgressBar from '$lib/components/ProgressBar.svelte';
   import ResultScreen from '$lib/components/ResultScreen.svelte';
   import { userSession } from '$lib/userSession.svelte';
-  import { supabase } from '$lib/supabaseClient';
+  import { reviewerData } from '$lib/reviewerData.svelte';
+  import { storeLocalSession, readLocalSession, type ActiveSession } from '$lib/activeSession';
   import { LayoutGrid, ChevronLeft, ChevronRight, AlertTriangle, Info, Loader2 } from 'lucide-svelte';
 
   let { data } = $props<{
@@ -14,6 +15,7 @@
       mode: string;
       category: string;
       level?: string;
+      durationSeconds?: number;
     }
   }>();
 
@@ -24,6 +26,26 @@
   let currentCategory = $state(data?.category || '');
   let currentLevel = $state(data?.level || 'professional');
 
+  let ownerId = $state<string | null>(null);
+  let generation = $state<number | null>(null);
+  let sessionId = $state('');
+  let completedAt = $state('');
+  let initialized = $state(false);
+  let invalidated = $state(false);
+  let initializationError = $state('');
+  let durationSeconds = $state(data.durationSeconds ?? 0);
+  let live = true;
+  function snapshot(): ActiveSession {
+    return { version: 2, ownerId, generation, sessionId, questions, currentIndex, userAnswers,
+      mode: currentMode, category: currentCategory, level: currentLevel, pendingAnswer, elapsedSeconds,
+      durationSeconds, ...(completedAt ? { completedAt } : {}) };
+  }
+  function finishExam() {
+    completedAt ||= new Date().toISOString();
+    if (timerInterval) clearInterval(timerInterval);
+    currentIndex = questions.length;
+    storeLocalSession(localStorage, snapshot());
+  }
   let isSavingAndClosing = $state(false);
   let isExecutingConfirm = $state(false);
   
@@ -39,7 +61,7 @@
   let elapsedSeconds = $state(0);
   let timerInterval = $state<ReturnType<typeof setInterval> | null>(null);
   let timeLimit = $derived(
-    currentMode === 'mock' ? Math.ceil((questions?.length || 20) * 1.12) * 60 : 0
+    currentMode === 'mock' ? durationSeconds : 0
   );
   let remainingSeconds = $derived(
     timeLimit > 0 ? Math.max(0, timeLimit - elapsedSeconds) : 0
@@ -47,10 +69,8 @@
   let isTimeUp = $derived(timeLimit > 0 && elapsedSeconds >= timeLimit);
 
   $effect(() => {
-    if (isTimeUp && !isFinished) {
-      if (timerInterval) clearInterval(timerInterval);
-      clearActiveSession();
-      currentIndex = questions.length;
+    if (initialized && !invalidated && isTimeUp && !isFinished) {
+      finishExam();
     }
   });
   
@@ -156,79 +176,59 @@
   let currentTabIndices = $derived(
     isMixedExam && activeCategoryTab && categoryGroups[activeCategoryTab]
       ? categoryGroups[activeCategoryTab]
-      : (questions ? questions.map((_, i) => i) : [])
+      : (questions ? questions.map((_: unknown, i: number) => i) : [])
   );
 
   async function clearActiveSession() {
-    if (userSession.user) {
-      try {
-        await supabase.from('active_sessions').delete().eq('user_id', userSession.user.id);
-      } catch (e) {
-        console.error('Error clearing active session from Supabase:', e);
-      }
-    }
-    localStorage.removeItem('cse_active_session');
+    if (sessionId && !invalidated) await reviewerData.deleteActiveSession(snapshot());
   }
 
-  onMount(async () => {
-    // Wait for auth state to resolve before checking session
-    if (userSession.loading) {
-      await new Promise<void>(resolve => {
-        const check = () => userSession.loading ? setTimeout(check, 50) : resolve();
-        check();
-      });
-    }
-
-    const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('continue') === 'true') {
-      let saved: any = null;
-      if (userSession.user) {
-        try {
-          const { data: res } = await supabase
-            .from('active_sessions')
-            .select('session_data')
-            .eq('user_id', userSession.user.id)
-            .maybeSingle();
-          if (res?.session_data) {
-            saved = res.session_data;
-          }
-        } catch (e) {
-          console.error("Error loading session from Supabase:", e);
-        }
+  onMount(() => {
+    const stop = reviewerData.subscribe(() => {
+      if (!initialized || !ownerId || invalidated) return;
+      if (userSession.user?.id !== ownerId || reviewerData.state?.status !== 'active' || reviewerData.state.generation !== generation) {
+        invalidated = true;
+        if (timerInterval) clearInterval(timerInterval);
+        triggerConfirm({ title: 'Exam must restart', message: 'Your account changed or an administrator reset your progress. This exam can no longer be saved.', actionText: 'RETURN TO DASHBOARD', isAlert: true, callback: handleExit });
       }
-
-      if (!saved) {
-        const raw = localStorage.getItem('cse_active_session');
-        if (raw) {
-          try {
-            saved = JSON.parse(raw);
-          } catch (e) {
-            console.error("Error loading session from localStorage:", e);
-          }
-        }
+    });
+    void (async () => {
+      while (userSession.loading && live) await new Promise(resolve => setTimeout(resolve, 50));
+      if (!live) return;
+      ownerId = userSession.user?.id ?? null;
+      if (ownerId) {
+        const verified = await reviewerData.refresh();
+        if (!live) return;
+        if (!verified || verified.status !== 'active' || userSession.user?.id !== ownerId) { initializationError = reviewerData.error ?? 'Reconnect to verify your account before starting an exam.'; return; }
+        generation = verified.generation;
       }
-
-      if (saved && saved.questions && saved.questions.length > 0) {
-        questions = saved.questions;
-        currentIndex = saved.currentIndex;
-        userAnswers = saved.userAnswers || {};
-        currentMode = saved.mode;
-        currentCategory = saved.category || '';
-        currentLevel = saved.level || 'professional';
-        pendingAnswer = saved.pendingAnswer || null;
-        if (saved.elapsedSeconds) elapsedSeconds = saved.elapsedSeconds;
-      }
-    }
-
-    startTime = Date.now() - (elapsedSeconds * 1000);
-    timerInterval = setInterval(() => {
-      elapsedSeconds = Math.floor((Date.now() - startTime) / 1000);
-    }, 1000);
+      const resume = new URLSearchParams(window.location.search).get('continue') === 'true';
+      const reloading = (performance.getEntriesByType('navigation')[0] as PerformanceNavigationTiming | undefined)?.type === 'reload';
+      const saved = resume ? await reviewerData.loadActiveSession() : reloading ? readLocalSession(localStorage, ownerId, generation) : null;
+      if (!live || (userSession.user?.id ?? null) !== ownerId) return;
+      if (resume && !saved) { initializationError = 'This paused exam is no longer available. Return to the dashboard and start again.'; return; }
+      if (saved) {
+        questions = saved.questions; currentIndex = saved.currentIndex; userAnswers = saved.userAnswers;
+        currentMode = saved.mode; currentCategory = saved.category; currentLevel = saved.level;
+        pendingAnswer = saved.pendingAnswer ?? null; elapsedSeconds = saved.elapsedSeconds;
+        durationSeconds = saved.durationSeconds; sessionId = saved.sessionId; completedAt = saved.completedAt ?? '';
+        generation = saved.generation;
+      } else sessionId = crypto.randomUUID();
+      initialized = true;
+      if (questions.length === 0) return;
+      storeLocalSession(localStorage, snapshot());
+      startTime = Date.now() - elapsedSeconds * 1000;
+      if (!completedAt) timerInterval = setInterval(() => { if (!invalidated) elapsedSeconds = Math.floor((Date.now() - startTime) / 1000); }, 1000);
+    })().catch(() => { if (live) initializationError = 'Could not prepare durable exam storage. Check your browser storage and try again.'; });
+    return stop;
   });
-
-  onDestroy(() => {
-    if (timerInterval) clearInterval(timerInterval);
+  $effect(() => {
+    if (initialized && !invalidated && sessionId && questions.length > 0) {
+      const value = snapshot();
+      try { storeLocalSession(localStorage, value); } catch { initializationError = 'Could not save exam progress on this device.'; }
+    }
   });
+  onDestroy(() => { live = false; if (timerInterval) clearInterval(timerInterval); });
 
   let unansweredIndices = $derived(
     currentTabIndices.filter((i: number) => userAnswers[i] === undefined)
@@ -247,6 +247,7 @@
   );
 
   function handleSelect(choice: string) {
+    if (!initialized || invalidated) return;
     if (isPractice && hasAnswered) return;
     pendingAnswer = choice;
     if (!isPractice) {
@@ -305,35 +306,16 @@
   async function handleSaveAndClose() {
     if (isSavingAndClosing) return;
     isSavingAndClosing = true;
+    let localSaved = false;
     
     try {
-      const sessionData = {
-        questions,
-        currentIndex,
-        userAnswers,
-        mode: currentMode,
-        category: currentCategory,
-        level: currentLevel,
-        pendingAnswer,
-        elapsedSeconds
-      };
-
-      // Always save to local cache as immediate backup
-      localStorage.setItem('cse_active_session', JSON.stringify(sessionData));
-
-      if (userSession.user) {
-        const { error } = await supabase.from('active_sessions').upsert({
-          user_id: userSession.user.id,
-          session_data: sessionData,
-          updated_at: new Date().toISOString()
-        }, { onConflict: 'user_id' });
-        
-        if (error) throw error;
-      }
-      
+      if (!initialized || invalidated) return;
+      storeLocalSession(localStorage, snapshot());
+      localSaved = true;
+      await reviewerData.saveActiveSession(snapshot());
       goto('/');
     } catch (err) {
-      console.error('Error saving active session to Supabase:', err);
+      triggerConfirm({ title: invalidated ? 'Exam must restart' : 'Could not sync paused exam', message: invalidated ? 'An administrator reset your progress. Return to the dashboard and start again.' : localSaved ? 'Your exam is saved on this device. Reconnect and try Save & Close again to sync it.' : 'Your browser could not save this exam. Keep this page open and retry.', actionText: 'OK', isAlert: true, callback: () => {} });
     } finally {
       isSavingAndClosing = false;
     }
@@ -376,6 +358,7 @@
   }
 
   function handleSubmitExam() {
+    if (!initialized || invalidated) return;
     if (unansweredCount > 0) {
       triggerConfirm({
         title: "Unfinished Questions",
@@ -396,24 +379,29 @@
       isDanger: false,
       callback: async () => {
         if (timerInterval) clearInterval(timerInterval);
-        await clearActiveSession();
-        currentIndex = questions.length;
+        finishExam();
       }
     });
   }
   let localIndex = $derived(currentTabIndices.indexOf(currentIndex));
   let localTotal = $derived(currentTabIndices.length);
-  let localUnanswered = $derived(currentTabIndices.filter(i => userAnswers[i] === undefined).length);
+  let localUnanswered = $derived(currentTabIndices.filter((i: number) => userAnswers[i] === undefined).length);
 </script>
 
-{#if questions.length === 0}
+{#if initializationError || !initialized || invalidated}
+  <div class="glass-card text-center fade-in" style="max-width: 600px; margin: 4rem auto;" role="status">
+    <p>{initializationError || (invalidated ? 'This exam can no longer be saved. Start a new exam from the dashboard.' : 'Preparing your exam…')}</p>
+    {#if initializationError || invalidated}<button onclick={handleExit} class="btn-primary">Return to Dashboard</button>{/if}
+  </div>
+{:else if questions.length === 0}
   <div class="glass-card text-center fade-in" style="max-width: 600px; margin: 4rem auto;">
     <h2 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: 1rem;">No Questions Found</h2>
     <p style="color: var(--cse-text-muted); margin-bottom: 2rem;">We couldn't find any questions for the selected category.</p>
     <button onclick={handleExit} class="btn-primary">Go Back</button>
   </div>
 {:else if isFinished}
-  <ResultScreen 
+  <ResultScreen
+    attemptId={sessionId} {ownerId} {generation} {completedAt}
     {score} 
     total={questions.length} 
     category={(!currentCategory || currentCategory.toLowerCase() === "all" || currentCategory.toLowerCase() === "all categories") ? "Mixed Categories" : currentCategory}

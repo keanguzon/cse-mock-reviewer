@@ -4,13 +4,20 @@
   import { initAuthListener, userSession } from '$lib/userSession.svelte';
   import AuthButton from '$lib/components/AuthButton.svelte';
   import { BookOpen } from 'lucide-svelte';
+  import { page } from '$app/state';
+  import { browser } from '$app/environment';
+  import { reviewerData } from '$lib/reviewerData.svelte';
 
   const { children } = $props();
 
-  onMount(() => {
+  let isAdmin = $derived(page.url.pathname === '/admin' || page.url.pathname.startsWith('/admin/'));
+  $effect(() => {
+    if (!browser || isAdmin) return;
     const subscription = initAuthListener();
+    const stop = reviewerData.start();
     return () => {
       subscription.unsubscribe();
+      stop();
     };
   });
 </script>
@@ -20,6 +27,7 @@
   <title>CSE Reviewer – Civil Service Mock Exam</title>
 </svelte:head>
 
+{#if !isAdmin}
 <nav class="navbar cse-navbar" role="navigation" aria-label="main navigation">
   <div class="container">
     <div class="navbar-brand">
@@ -35,6 +43,7 @@
     </div>
   </div>
 </nav>
+{/if}
 
 <main style="position: relative; min-height: calc(100vh - 70px);">
   {@render children()}

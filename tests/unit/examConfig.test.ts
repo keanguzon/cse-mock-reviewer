@@ -1,7 +1,15 @@
 import { describe, expect, it } from 'vitest';
-import { resolveExamConfig } from '../../src/lib/examConfig';
+import { resolveExamConfig, getExamOptions, quizUrl } from '../../src/lib/examConfig';
 
 describe('exam configuration', () => {
+  it('offers official counts in mixed categories and retains extended counts', () => {
+    expect(getExamOptions('professional', '', 1750).map(o => o.value)).toEqual(['10','20','50','150','170','1750']);
+    expect(getExamOptions('subprofessional', '', 1450).map(o => o.value)).toContain('145');
+    expect(getExamOptions('professional', 'Verbal', 100).map(o => o.value)).not.toContain('150');
+    expect(quizUrl({mode:'practice',level:'professional',category:'',limit:'150'})).toContain('mode=mock');
+    expect(quizUrl({mode:'practice',level:'professional',category:'',limit:'150'})).toContain('profile=official');
+    expect(quizUrl({mode:'mock',level:'professional',category:'',limit:'170'})).toContain('realistic=true');
+  });
   it.each([
     ['professional', '150', 'official', 'true', 11400],
     ['subprofessional', '145', 'official', 'true', 9600],

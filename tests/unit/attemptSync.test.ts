@@ -44,3 +44,18 @@ describe('durable attempt coordinator', () => {
     expect(s.states.get('a')).toBe('error');
   });
 });
+
+it('discards terminal reset/deletion failures but retains transport failures', async () => {
+  for (const code of ['STALE_GENERATION', 'ATTEMPT_DELETED', 'ACCOUNT_DISABLED']) {
+    const s = setup(async () => { throw { message: code, code: 'P0001' }; });
+    await s.sync.enqueue(pending('stale')); s.setOwner('owner'); await s.sync.drain();
+    expect(s.rows.size).toBe(0); expect(s.states.get('stale')).toBe('discarded');
+  }
+});
+
+it('reports durable cleanup failure instead of claiming a discarded attempt', async () => {
+  const s = setup(async () => { throw Error('ATTEMPT_DELETED'); });
+  await s.sync.enqueue(pending('stale')); s.repository.remove = async () => { throw Error('storage unavailable'); };
+  s.setOwner('owner'); await s.sync.drain();
+  expect(s.rows.has('stale')).toBe(true); expect(s.states.get('stale')).toBe('error');
+});

@@ -18,9 +18,23 @@ describe('IndexedDB attempt repository', () => {
     const values = new Map([['cse_pending_attempts', JSON.stringify([legacy])]]);
     const storage = { getItem: (k: string) => values.get(k) ?? null, setItem: (k: string, v: string) => { values.set(k, v); }, removeItem: (k: string) => { values.delete(k); } };
     const raw = values.get('cse_pending_attempts')!;
-    await importLegacyQueue(repo, storage); values.set('cse_pending_attempts', raw); await importLegacyQueue(repo, storage);
+    await importLegacyQueue(repo, storage, { ownerId: 'owner', generation: 0 }); values.set('cse_pending_attempts', raw); await importLegacyQueue(repo, storage, { ownerId: 'owner', generation: 0 });
     const rows = await repo.list('owner'); expect(rows).toHaveLength(1);
     expect(rows[0].attempt.id).toMatch(/^[a-f0-9-]{36}$/); expect(rows[0].attempt.completed_at).toBe(legacy.queued_at);
     expect(values.has('cse_pending_attempts')).toBe(false);
   });
+});
+
+
+it('defers unverified legacy import and quarantines reset-owner rows without touching another owner', async () => {
+  const repo = createPendingRepository(new IDBFactory(), 'generation-fence');
+  const rows = ['owner', 'other'].map(owner => ({ ...attempt(owner, owner), queued_at:'2026-10-20T00:00:00.000Z' }));
+  const values = new Map([['cse_pending_attempts', JSON.stringify(rows)]]);
+  const storage = { getItem:(k:string)=>values.get(k)??null, setItem:(k:string,v:string)=>{values.set(k,v);},removeItem:(k:string)=>{values.delete(k);} };
+  await importLegacyQueue(repo, storage);
+  expect(await repo.list('owner')).toEqual([]); expect(JSON.parse(values.get('cse_pending_attempts')!)).toHaveLength(2);
+  await importLegacyQueue(repo, storage, { ownerId:'owner', generation:1 });
+  expect(await repo.list('owner')).toEqual([]);
+  expect(JSON.parse(values.get('cse_pending_attempts')!)).toEqual([rows[1]]);
+  expect(JSON.parse(values.get('cse_pending_attempts:quarantine')!)).toEqual([rows[0]]);
 });

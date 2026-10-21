@@ -1,6 +1,10 @@
 <script lang="ts">
+  import { summarizeAttempts } from '$lib/performance';
+  import { reviewerData } from '$lib/reviewerData.svelte';
+  import { userSession } from '$lib/userSession.svelte';
+
     import { supabase } from "$lib/supabaseClient";
-    import { onMount } from "svelte";
+    import { untrack } from "svelte";
     import type { User } from "@supabase/supabase-js";
     import { goto } from "$app/navigation";
     import {
@@ -75,8 +79,19 @@
         }
     }
 
-    onMount(async () => {
-        if (!user) {
+
+  let requestNumber = 0;
+  $effect(() => {
+    reviewerData.change;
+    user?.id;
+    if (!userSession.loading) untrack(() => { void loadAttempts(); });
+    return () => { requestNumber++; };
+  });
+  async function loadAttempts() {
+    const request = ++requestNumber;
+    const owner = user?.id ?? null;
+    attempts = []; loading = true; error = null;
+        if (!owner) {
             // Guest mode: load attempts from guestStore
             attempts = guestStore.attempts.map((att, idx) => ({
                 id: (att as any).id || `guest-${idx}`,
@@ -100,84 +115,24 @@
                 .select(
                     "id, score, total, category, mode, level, completed_at, questions, user_answers",
                 )
-                .eq("user_id", user.id)
+                .eq("user_id", owner)
                 .order("completed_at", { ascending: false });
 
-            if (dbError) throw dbError;
+            if (request !== requestNumber || userSession.user?.id !== owner) return;
+      if (dbError) throw dbError;
             attempts = data || [];
         } catch (err: any) {
-            console.error("Error fetching attempts:", err);
+            if (request !== requestNumber || userSession.user?.id !== owner) return;
             error = "Failed to load dashboard data.";
         } finally {
-            loading = false;
+      if (request === requestNumber) loading = false;
         }
-    });
+    }
 
-    let highScore = $derived(
-        attempts.length > 0
-            ? Math.max(
-                  ...attempts.map((a) => Math.round((a.score / a.total) * 100)),
-              )
-            : 0,
-    );
-
-    let averageScore = $derived(
-        attempts.length > 0
-            ? Math.round(
-                  attempts.reduce(
-                      (acc, a) => acc + (a.score / a.total) * 100,
-                      0,
-                  ) / attempts.length,
-              )
-            : 0,
-    );
-
-    type CategoryStat = {
-        category: string;
-        totalCorrect: number;
-        totalQuestions: number;
-        percentage: number;
-    };
-
-    let categoryStats = $derived.by(() => {
-        if (attempts.length === 0) return [];
-        const map = new Map<string, { correct: number; total: number }>();
-
-        attempts.forEach((att) => {
-            if (att.questions && att.user_answers && att.questions.length > 0) {
-                att.questions.forEach((q: any, idx: number) => {
-                    const rawCat = (q.category || "").trim();
-                    if (!rawCat || rawCat.toLowerCase() === "all" || rawCat.toLowerCase() === "all categories" || rawCat === "Mixed Categories" || rawCat === "General / Mixed") return;
-                    if (!map.has(rawCat)) map.set(rawCat, { correct: 0, total: 0 });
-                    const entry = map.get(rawCat)!;
-                    entry.total++;
-                    if (att.user_answers?.[idx] === q.correct_answer)
-                        entry.correct++;
-                });
-            } else {
-                const rawCat = (att.category || "").trim();
-                if (!rawCat || rawCat.toLowerCase() === "all" || rawCat.toLowerCase() === "all categories" || rawCat === "Mixed Categories" || rawCat === "General / Mixed") return;
-                if (!map.has(rawCat)) map.set(rawCat, { correct: 0, total: 0 });
-                const entry = map.get(rawCat)!;
-                entry.correct += att.score;
-                entry.total += att.total;
-            }
-        });
-
-        const list: CategoryStat[] = [];
-        map.forEach((val, cat) => {
-            const pct = Math.round((val.correct / val.total) * 100);
-            list.push({
-                category: cat,
-                totalCorrect: val.correct,
-                totalQuestions: val.total,
-                percentage: pct,
-            });
-        });
-
-        list.sort((a, b) => b.percentage - a.percentage);
-        return list;
-    });
+    let summary = $derived(summarizeAttempts(attempts));
+    let highScore = $derived(summary.bestPercentage);
+    let averageScore = $derived(summary.averagePercentage);
+    let categoryStats = $derived(summary.categories);
 
     let overallStrongAreas = $derived(
         categoryStats.filter((c) => c.percentage >= 80),
@@ -209,6 +164,9 @@
     let displayedAttempts = $derived(attempts.slice(0, 3));
 </script>
 
+{#if !loading && user && summary.incompleteAttemptCount > 0}
+  <p role="status">{summary.incompleteAttemptCount} older exams have incomplete question history. Scores still count; missing question progress cannot be recovered.</p>
+{/if}
 <div class="dashboard slide-up dashboard-3-col-layout">
     <!-- COLUMN 1: Profile & Stats -->
     <div class="dashboard-col glass-card">

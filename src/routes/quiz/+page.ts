@@ -1,40 +1,27 @@
+import { browser } from '$app/environment';
+import { error } from '@sveltejs/kit';
 import { supabase } from '$lib/supabaseClient';
+import { resolveExamConfig } from '$lib/examConfig';
+import { isQuestion } from '$lib/attempts';
+import type { PageLoad } from './$types';
 
-export const load = async ({ url, fetch }) => {
-    const mode = url.searchParams.get('mode') || 'practice';
-    const category = url.searchParams.get('category') || '';
-    const limit = url.searchParams.get('limit') || '20';
-    const level = url.searchParams.get('level') || 'professional';
-    const realistic = url.searchParams.get('realistic');
+// Reviewer credentials live in browser storage, so direct loads must personalize there too.
+export const ssr = false;
 
-    // Fetch from our local mocked API route
-    let apiUrl = `/api/questions?limit=${limit}&level=${level}`;
-    if (category) {
-        apiUrl += `&category=${encodeURIComponent(category)}`;
-    }
-    if (realistic) {
-        apiUrl += `&realistic=${realistic}`;
-    }
-
-    const headers: Record<string, string> = {};
-
-    try {
-        const { data: { session } } = await supabase.auth.getSession();
-        if (session) {
-            apiUrl += `&userId=${encodeURIComponent(session.user.id)}`;
-            headers['Authorization'] = `Bearer ${session.access_token}`;
-        }
-    } catch (e) {
-        // Fallback for guest mode or server environment
-    }
-
-    const res = await fetch(apiUrl, { headers });
-    const questions = await res.json();
-
-    return {
-        questions,
-        mode,
-        category,
-        level
-    };
+export const load: PageLoad = async ({ url, fetch }) => {
+  let config;
+  try { config = resolveExamConfig(Object.fromEntries(url.searchParams)); }
+  catch { error(400, 'Unsupported exam configuration.'); }
+  const category = url.searchParams.get('category') || '';
+  const params = new URLSearchParams({ mode: config.mode, level: config.level, limit: String(config.count), category, profile: config.profile, realistic: String(config.weighted) });
+  const headers: Record<string, string> = {};
+  if (browser) {
+    const { data: { session } } = await supabase.auth.getSession();
+    if (session) headers.Authorization = `Bearer ${session.access_token}`;
+  }
+  const res = await fetch(`/api/questions?${params}`, { headers });
+  if (!res.ok) error(res.status, 'Could not load questions. Return to the dashboard and retry.');
+  const questions: unknown = await res.json();
+  if (!Array.isArray(questions) || !questions.every(isQuestion)) error(502, 'Invalid questions response.');
+  return { questions, mode: config.mode, category, level: config.level, durationSeconds: config.durationSeconds, profile: config.profile };
 };

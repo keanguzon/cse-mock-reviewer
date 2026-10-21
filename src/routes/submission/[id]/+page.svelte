@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
+  import { untrack } from 'svelte';
+  import { reviewerData } from '$lib/reviewerData.svelte';
   import { supabase } from '$lib/supabaseClient';
   import { userSession } from '$lib/userSession.svelte';
   import { goto } from '$app/navigation';
@@ -35,18 +36,17 @@
   let error = $state<string | null>(null);
   let showAnalyticsModal = $state(false);
 
-  onMount(async () => {
-    const checkSession = () => {
-      if (!userSession.loading) {
-        fetchAttempt();
-      } else {
-        setTimeout(checkSession, 50);
-      }
-    };
-    checkSession();
+  let requestNumber = 0;
+  $effect(() => {
+    reviewerData.change; userSession.user?.id; attemptId;
+    if (!userSession.loading) untrack(() => { void fetchAttempt(); });
+    return () => { requestNumber++; };
   });
 
   async function fetchAttempt() {
+    const request = ++requestNumber;
+    const owner = userSession.user?.id;
+    attempt = null; error = null; loading = true;
     if (!userSession.user) {
       error = "Please sign in to view this submission.";
       loading = false;
@@ -58,9 +58,10 @@
         .from('exam_attempts')
         .select('*')
         .eq('id', attemptId)
-        .eq('user_id', userSession.user.id)
-        .single();
+        .eq('user_id', owner)
+        .maybeSingle();
 
+      if (request !== requestNumber || userSession.user?.id !== owner) return;
       if (dbError) throw dbError;
       if (!dbData) {
         error = "Submission not found.";
@@ -72,7 +73,7 @@
         };
       }
     } catch (err: any) {
-      console.error("Error fetching attempt:", err);
+      if (request !== requestNumber || userSession.user?.id !== owner) return;
       error = "Failed to load submission details.";
     } finally {
       loading = false;

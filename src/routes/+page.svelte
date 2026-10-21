@@ -23,7 +23,10 @@
     AlertTriangle,
     Loader2,
   } from "lucide-svelte";
+  import { reviewerData } from '$lib/reviewerData.svelte';
+  import type { ActiveSession } from '$lib/activeSession';
   import { guestStore } from "$lib/guestStore.svelte";
+  import { getExamOptions, quizUrl } from '$lib/examConfig';
 
   let selectedLevel = $state<ExamLevel>("professional");
   let selectedMode = $state("practice");
@@ -36,6 +39,7 @@
   let maxQuestions = $derived(
     categoryCounts[selectedCategory] || categoryCounts[""] || 0,
   );
+  let questionOptions = $derived(getExamOptions(selectedLevel, selectedCategory, maxQuestions));
 
   let hasSavedSession = $state(false);
   let savedSessionData = $state<any>(null);
@@ -53,53 +57,21 @@
   });
 
   $effect(() => {
-    if (parseInt(selectedLimit) > maxQuestions) {
-      selectedLimit = maxQuestions.toString();
-    }
+    if (!questionOptions.some(option => option.value === selectedLimit)) selectedLimit = '20';
   });
 
   let showOnboarding = $state(false);
 
+  let sessionRequest = 0;
   async function checkSavedSession() {
-    let loadedSession: any = null;
-
-    if (userSession.user) {
-      try {
-        const { data: res } = await supabase
-          .from("active_sessions")
-          .select("session_data")
-          .eq("user_id", userSession.user.id)
-          .maybeSingle();
-        if (res?.session_data) {
-          loadedSession = res.session_data;
-        }
-      } catch (e) {
-        console.error("Error reading saved session from Supabase:", e);
-      }
-    }
-
-    if (!loadedSession) {
-      const raw = localStorage.getItem("cse_active_session");
-      if (raw) {
-        try {
-          loadedSession = JSON.parse(raw);
-        } catch (e) {
-          console.error("Error reading saved session from localStorage:", e);
-        }
-      }
-    }
-
-    if (
-      loadedSession &&
-      loadedSession.questions &&
-      loadedSession.questions.length > 0
-    ) {
-      savedSessionData = loadedSession;
-      hasSavedSession = true;
-    } else {
-      savedSessionData = null;
-      hasSavedSession = false;
-    }
+    const request = ++sessionRequest;
+    const owner = userSession.user?.id ?? null;
+    savedSessionData = null; hasSavedSession = false;
+    try {
+      const saved = await reviewerData.loadActiveSession();
+      if (request !== sessionRequest || (userSession.user?.id ?? null) !== owner) return;
+      savedSessionData = saved; hasSavedSession = !!saved;
+    } catch { /* Saved exams stay unavailable until their owner can be verified. */ }
   }
 
   onMount(() => {
@@ -113,7 +85,6 @@
       // Restore last dropdown selections
       const savedLevel = localStorage.getItem("cse_last_level");
       const savedMode = localStorage.getItem("cse_last_mode");
-      const savedCategory = localStorage.getItem("cse_last_category");
       const savedLimit = localStorage.getItem("cse_last_limit");
       if (savedLevel === "professional" || savedLevel === "subprofessional") {
         selectedLevel = savedLevel as ExamLevel;
@@ -123,9 +94,7 @@
       }
       // Defer category/limit restore to after level is set
       requestAnimationFrame(() => {
-        if (savedCategory && (savedCategory === "" || getCategoriesForLevel(selectedLevel).includes(savedCategory))) {
-          selectedCategory = savedCategory;
-        }
+        selectedCategory = '';
         if (savedLimit) {
           selectedLimit = savedLimit;
         }
@@ -134,6 +103,8 @@
   });
 
   $effect(() => {
+    reviewerData.change;
+    userSession.user?.id;
     // Re-check saved session whenever auth state finishes loading or changes
     if (!userSession.loading || isGuestMode) {
       checkSavedSession();
@@ -171,18 +142,7 @@
       localStorage.setItem("cse_last_category", selectedCategory);
       localStorage.setItem("cse_last_limit", selectedLimit);
     }
-    let url = `/quiz?mode=${selectedMode}&level=${selectedLevel}`;
-    if (selectedCategory) {
-      url += `&category=${encodeURIComponent(selectedCategory)}`;
-    } else {
-      if (selectedLevel === "professional" && selectedLimit === "170") {
-        url += `&realistic=true`;
-      } else if (selectedLevel === "subprofessional" && selectedLimit === "165") {
-        url += `&realistic=true`;
-      }
-    }
-    url += `&limit=${selectedLimit}`;
-    goto(url);
+    goto(quizUrl({mode: selectedMode, level: selectedLevel, category: selectedCategory, limit: selectedLimit}));
   }
 
   function continueSession() {
@@ -198,17 +158,9 @@
   async function confirmDiscard() {
     if (isDiscarding) return;
     isDiscarding = true;
-    if (userSession.user) {
-      try {
-        await supabase
-          .from("active_sessions")
-          .delete()
-          .eq("user_id", userSession.user.id);
-      } catch (e) {
-        console.error("Error discarding active session from Supabase:", e);
-      }
-    }
-    localStorage.removeItem("cse_active_session");
+    try {
+      if (savedSessionData) await reviewerData.deleteActiveSession(savedSessionData as ActiveSession);
+    } catch { isDiscarding = false; return; }
     hasSavedSession = false;
     savedSessionData = null;
     showDiscardModal = false;
@@ -402,26 +354,9 @@
         <label class="label" for="limit-select">Number of Questions</label>
         <div class="select is-fullwidth">
           <select id="limit-select" bind:value={selectedLimit}>
-            {#if maxQuestions >= 10}
-              <option value="10">10 Questions (Quick Review)</option>
-            {/if}
-            {#if maxQuestions >= 20}
-              <option value="20">20 Questions (Standard)</option>
-            {/if}
-            {#if maxQuestions >= 50}
-              <option value="50">50 Questions (Deep Dive)</option>
-            {/if}
-            {#if selectedCategory === "" && selectedLevel === "subprofessional" && maxQuestions >= 165}
-              <option value="165">165 Questions (Realistic CSC Exam)</option>
-            {/if}
-            {#if selectedCategory === "" && selectedLevel === "professional" && maxQuestions >= 170}
-              <option value="170">170 Questions (Realistic CSC Exam)</option>
-            {/if}
-            {#if ![10, 20, 50, 165, 170].includes(maxQuestions)}
-              <option value={maxQuestions.toString()}
-                >All {maxQuestions} Questions (Full)</option
-              >
-            {/if}
+            {#each questionOptions as option}
+              <option value={option.value}>{option.label}</option>
+            {/each}
           </select>
         </div>
       </div>

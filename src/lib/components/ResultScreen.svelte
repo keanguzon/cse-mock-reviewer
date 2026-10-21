@@ -1,8 +1,8 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { supabase } from '$lib/supabaseClient';
   import { userSession } from '$lib/userSession.svelte';
   import { guestStore } from '$lib/guestStore.svelte';
+  import type { SaveState, CompletedAttempt } from '$lib/attempts';
   import { syncStore } from '$lib/syncStore.svelte';
   import AnalyticsCard from '$lib/components/AnalyticsCard.svelte';
   import { ArrowLeft } from 'lucide-svelte';
@@ -16,7 +16,11 @@
     category: string;
   };
 
-  let { score, total, category, mode, level = 'professional', questions = [], userAnswers = {}, elapsedTime = 0, onExit } = $props<{
+  let { score, total, category, mode, level = 'professional', questions = [], userAnswers = {}, elapsedTime = 0, attemptId, ownerId, generation, completedAt, onExit } = $props<{
+    attemptId: string;
+    ownerId: string | null;
+    generation: number | null;
+    completedAt: string;
     score: number;
     total: number;
     category: string;
@@ -28,40 +32,26 @@
     onExit: () => void;
   }>();
 
-  let saveStatus = $state<'idle' | 'saving' | 'saved' | 'error'>('idle');
+  let localStatus = $state<SaveState>('saving');
+  let saveStatus = $derived(syncStore.stateFor(attemptId) ?? localStatus);
   let isReviewMode = $state(false);
-
-  async function saveAttempt(retries = 2) {
-    if (userSession.user) {
-      saveStatus = 'saving';
-      // Store in offline sync store immediately for resilience
-      syncStore.add({
-        user_id: userSession.user.id,
-        score,
-        total,
-        category,
-        mode,
-        level,
-        questions,
-        user_answers: userAnswers
-      });
-
-      saveStatus = 'saved';
+  let snapshot: CompletedAttempt | null = null;
+  async function saveAttempt() {
+    if (ownerId) {
+      if (userSession.user?.id !== ownerId || generation === null) { localStatus = 'discarded'; return; }
+      localStatus = 'saving';
+      snapshot ??= JSON.parse(JSON.stringify({ id: attemptId, user_id: ownerId, generation, completed_at: completedAt,
+        active_session_id: attemptId, score, total, category, mode, level, questions, user_answers: userAnswers }));
+      try { await syncStore.add(snapshot!); } catch { localStatus = 'error'; }
     } else {
-      guestStore.save({
-        score,
-        total,
-        category,
-        mode,
-        level
-      });
-      saveStatus = 'saved';
+      try {
+        guestStore.save({ score, total, category, mode, level }, { id: attemptId, completed_at: completedAt });
+        localStatus = 'local';
+      } catch { localStatus = 'error'; }
     }
   }
+  onMount(() => { void saveAttempt(); });
 
-  onMount(() => {
-    saveAttempt();
-  });
 </script>
 
 <div class="result-container fade-in">
@@ -76,7 +66,7 @@
         title="Exam Complete"
         showSaveStatus={true}
         {saveStatus}
-        onRetrySave={() => saveAttempt(1)}
+        onRetrySave={() => { if (saveStatus === 'error') void saveAttempt(); else void syncStore.retry(attemptId); }}
       />
 
       {#if questions && questions.length > 0}

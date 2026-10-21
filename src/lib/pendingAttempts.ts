@@ -50,7 +50,8 @@ async function legacyId(value: unknown): Promise<string> {
   return `${hex.slice(0, 8)}-${hex.slice(8, 12)}-5${hex.slice(13, 16)}-a${hex.slice(17, 20)}-${hex.slice(20)}`;
 }
 
-export async function importLegacyQueue(repository: PendingRepository, storage: StorageAccess): Promise<void> {
+export async function importLegacyQueue(repository: PendingRepository, storage: StorageAccess, verified?: { ownerId: string; generation: number }): Promise<void> {
+  if (!verified) return;
   const raw = storage.getItem('cse_pending_attempts');
   if (!raw) return;
   let parsed: unknown;
@@ -60,14 +61,19 @@ export async function importLegacyQueue(repository: PendingRepository, storage: 
     return;
   }
   const invalid: unknown[] = [];
+  const remaining: unknown[] = [];
   for (const legacy of parsed) {
     if (!legacy || typeof legacy !== 'object') { invalid.push(legacy); continue; }
+    if (legacy.user_id !== verified.ownerId) { remaining.push(legacy); continue; }
+    if (verified.generation !== 0 || (legacy.generation !== undefined && legacy.generation !== 0)) { invalid.push(legacy); continue; }
     const id = await legacyId(legacy);
-    const record = { ...legacy, id, completed_at: legacy.completed_at ?? legacy.queued_at } as CompletedAttempt;
-    if (!isCompletedAttempt(record)) { invalid.push(legacy); continue; }
-    await repository.put({ attempt: record, queued_at: legacy.queued_at });
+    const record = { ...legacy, id, generation: 0, completed_at: legacy.completed_at ?? legacy.queued_at } as CompletedAttempt;
+    const queuedAt = legacy.queued_at ?? record.completed_at;
+    if (!isCompletedAttempt(record) || typeof queuedAt !== 'string' || !Number.isFinite(Date.parse(queuedAt))) { invalid.push(legacy); continue; }
+    await repository.put({ attempt: record, queued_at: queuedAt });
   }
   if (invalid.length) storage.setItem('cse_pending_attempts:quarantine', JSON.stringify(invalid));
   // Removal happens only after every valid destination write committed.
-  storage.removeItem('cse_pending_attempts');
+  if (remaining.length) storage.setItem('cse_pending_attempts', JSON.stringify(remaining));
+  else storage.removeItem('cse_pending_attempts');
 }
