@@ -121,11 +121,12 @@
   },
   "1016": {
     "file": "analytical_analogy.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted reasoning correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; individual relationship, distractor, and explanation review remains outstanding."
+    "reason": "House and foundation also allowed a part-whole reading",
+    "correction_record": "docs/content/corrections-reasoning.json"
   },
   "1017": {
     "file": "analytical_analogy.json",
@@ -185,11 +186,12 @@
   },
   "1024": {
     "file": "analytical_analogy.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted reasoning correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; individual relationship, distractor, and explanation review remains outstanding."
+    "reason": "All four original options expressed tool-user relationships",
+    "correction_record": "docs/content/corrections-reasoning.json"
   },
   "1025": {
     "file": "analytical_analogy.json",
@@ -257,11 +259,12 @@
   },
   "1033": {
     "file": "analytical_analogy.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted reasoning correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; individual relationship, distractor, and explanation review remains outstanding."
+    "reason": "All original options expressed collection-content relationships",
+    "correction_record": "docs/content/corrections-reasoning.json"
   },
   "1034": {
     "file": "analytical_analogy.json",
@@ -337,11 +340,12 @@
   },
   "1043": {
     "file": "analytical_analogy.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted reasoning correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; individual relationship, distractor, and explanation review remains outstanding."
+    "reason": "Several original choices expressed material-user relationships",
+    "correction_record": "docs/content/corrections-reasoning.json"
   },
   "1044": {
     "file": "analytical_analogy.json",
@@ -393,11 +397,12 @@
   },
   "1050": {
     "file": "analytical_analogy.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted reasoning correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; individual relationship, distractor, and explanation review remains outstanding."
+    "reason": "Several original choices expressed instrument-reading relationships",
+    "correction_record": "docs/content/corrections-reasoning.json"
   },
   "1051": {
     "file": "analytical_analogy.json",
@@ -657,11 +662,15 @@
   },
   "1083": {
     "file": "analytical_analogy.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual relationship, distractor, and explanation review remains outstanding."
+    "method": "targeted reasoning correction and regression verification",
+    "source_urls": [
+      "https://www.merriam-webster.com/dictionary/enfranchise",
+      "https://www.merriam-webster.com/dictionary/disenfranchise"
+    ],
+    "reason": "Disenfranchise was a direct voting-rights antonym but was marked wrong",
+    "correction_record": "docs/content/corrections-reasoning.json"
   },
   "1084": {
     "file": "analytical_analogy.json",
@@ -1481,11 +1490,12 @@
   },
   "2086": {
     "file": "analytical_assumptions.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted reasoning correction and regression verification",
     "source_urls": [],
-    "reason": "Partial logical screening; independent enumeration and ambiguity review of this item remains outstanding."
+    "reason": "Exact ten absences did not explicitly establish an at-least-ten threshold",
+    "correction_record": "docs/content/corrections-reasoning.json"
   },
   "2087": {
     "file": "analytical_assumptions.json",
@@ -1785,11 +1795,12 @@
   },
   "3024": {
     "file": "analytical_data_interpretation.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted reasoning correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; recomputation of the source table and uniqueness of this answer remain outstanding."
+    "reason": "Choices and explanation omitted the table unit of thousands",
+    "correction_record": "docs/content/corrections-reasoning.json"
   },
   "3025": {
     "file": "analytical_data_interpretation.json",
@@ -1929,11 +1940,12 @@
   },
   "3042": {
     "file": "analytical_data_interpretation.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted reasoning correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; recomputation of the source table and uniqueness of this answer remain outstanding."
+    "reason": "Two choices represented the same ratio without a lowest-terms instruction",
+    "correction_record": "docs/content/corrections-reasoning.json"
   },
   "3043": {
     "file": "analytical_data_interpretation.json",
@@ -2113,11 +2125,12 @@
   },
   "3065": {
     "file": "analytical_data_interpretation.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted reasoning correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; recomputation of the source table and uniqueness of this answer remain outstanding."
+    "reason": "Standalone question omitted the total budget needed for a peso answer",
+    "correction_record": "docs/content/corrections-reasoning.json"
   },
   "3066": {
     "file": "analytical_data_interpretation.json",
@@ -2281,11 +2294,12 @@
   },
   "3086": {
     "file": "analytical_data_interpretation.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted reasoning correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; recomputation of the source table and uniqueness of this answer remain outstanding."
+    "reason": "Combined ticket average would require ticket-volume weights",
+    "correction_record": "docs/content/corrections-reasoning.json"
   },
   "3087": {
     "file": "analytical_data_interpretation.json",
@@ -2337,11 +2351,12 @@
   },
   "3093": {
     "file": "analytical_data_interpretation.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted reasoning correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; recomputation of the source table and uniqueness of this answer remain outstanding."
+    "reason": "No listed choice equaled the correctly rounded calculated percentage",
+    "correction_record": "docs/content/corrections-reasoning.json"
   },
   "3094": {
     "file": "analytical_data_interpretation.json",
@@ -4308,11 +4323,14 @@
   },
   "7038": {
     "file": "general_info_constitution.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; provision-by-provision primary-source review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/consti/cons1987.html"
+    ],
+    "reason": "Three readings stated without constitutional exception.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "7039": {
     "file": "general_info_constitution.json",
@@ -4606,11 +4624,14 @@
   },
   "7083": {
     "file": "general_info_constitution.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; provision-by-provision primary-source review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/statutes/repacts/ra2015/ra_10660_2015.html"
+    ],
+    "reason": "Salary grade alone treated as sufficient for jurisdiction.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "7084": {
     "file": "general_info_constitution.json",
@@ -4646,11 +4667,14 @@
   },
   "7089": {
     "file": "general_info_constitution.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; provision-by-provision primary-source review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/consti/cons1987.html"
+    ],
+    "reason": "Key omitted separate voting.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "7090": {
     "file": "general_info_constitution.json",
@@ -4670,11 +4694,14 @@
   },
   "7093": {
     "file": "general_info_constitution.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; provision-by-provision primary-source review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/consti/cons1987.html"
+    ],
+    "reason": "Foreign-equity limit applied to all resource exploration.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "7094": {
     "file": "general_info_constitution.json",
@@ -4768,11 +4795,14 @@
   },
   "7105": {
     "file": "general_info_constitution.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; provision-by-provision primary-source review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+    ],
+    "reason": "SALN obligation falsely universal.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "7106": {
     "file": "general_info_constitution.json",
@@ -4834,11 +4864,14 @@
   },
   "8003": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/statutes/repacts/ra2024/ra_12000_2024.html"
+    ],
+    "reason": "Region count omitted Negros Island Region.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "8004": {
     "file": "general_info_current_events.json",
@@ -4858,11 +4891,12 @@
   },
   "8006": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted facts correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Correct choice labeled itself national hero.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "8007": {
     "file": "general_info_current_events.json",
@@ -5186,11 +5220,14 @@
   },
   "8047": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/statutes/repacts/ra1998/ra_8491_1998.html"
+    ],
+    "reason": "National motto confused with coat-of-arms inscription.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "8048": {
     "file": "general_info_current_events.json",
@@ -5202,11 +5239,12 @@
   },
   "8049": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted facts correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "reason": "Directional annotations leak answer.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "8050": {
     "file": "general_info_current_events.json",
@@ -5301,11 +5339,14 @@
   },
   "8061": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://unfccc.int/process-and-meetings/the-paris-agreement"
+    ],
+    "reason": "2015 adoption called signing.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "8062": {
     "file": "general_info_current_events.json",
@@ -5591,11 +5632,14 @@
   },
   "8097": {
     "file": "general_info_current_events.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; primary-source and currentness review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/statutes/repacts/ra2010/ra_9994_2010.html"
+    ],
+    "reason": "Senior discount implied all commercial goods.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "8098": {
     "file": "general_info_current_events.json",
@@ -9231,11 +9275,14 @@
   },
   "15002": {
     "file": "verbal_correct_usage.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar/usage and single-answer review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://www.merriam-webster.com/dictionary/complementary"
+    ],
+    "reason": "Complementary and supplementary overlap",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "15003": {
     "file": "verbal_correct_usage.json",
@@ -9519,11 +9566,14 @@
   },
   "15038": {
     "file": "verbal_correct_usage.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar/usage and single-answer review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://dictionary.cambridge.org/grammar/british-grammar/historic-or-historical"
+    ],
+    "reason": "Historic and historical both grammatical",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "15039": {
     "file": "verbal_correct_usage.json",
@@ -9623,11 +9673,12 @@
   },
   "15051": {
     "file": "verbal_correct_usage.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted language correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar/usage and single-answer review remains outstanding."
+    "reason": "Courtesy treated as grammar",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "15052": {
     "file": "verbal_correct_usage.json",
@@ -9687,11 +9738,14 @@
   },
   "15059": {
     "file": "verbal_correct_usage.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar/usage and single-answer review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://dictionary.cambridge.org/grammar/british-grammar/amount-of-number-of-or-quantity-of."
+    ],
+    "reason": "Quantity is valid with count nouns",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "15060": {
     "file": "verbal_correct_usage.json",
@@ -9759,11 +9813,14 @@
   },
   "15068": {
     "file": "verbal_correct_usage.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar/usage and single-answer review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://apastyle.apa.org/style-grammar-guidelines/grammar/singular-they"
+    ],
+    "reason": "Singular their is standard",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "15069": {
     "file": "verbal_correct_usage.json",
@@ -9987,11 +10044,12 @@
   },
   "15096": {
     "file": "verbal_correct_usage.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted language correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar/usage and single-answer review remains outstanding."
+    "reason": "Comparison meaning unspecified",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "15097": {
     "file": "verbal_correct_usage.json",
@@ -10021,19 +10079,25 @@
   },
   "15100": {
     "file": "verbal_correct_usage.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar/usage and single-answer review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://www.merriam-webster.com/dictionary/oblivious"
+    ],
+    "reason": "Both of and to valid",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "16001": {
     "file": "verbal_grammar.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar and single-answer review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://apastyle.apa.org/style-grammar-guidelines/grammar/singular-they"
+    ],
+    "reason": "Singular they made a second option defensible",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "16002": {
     "file": "verbal_grammar.json",
@@ -10069,11 +10133,14 @@
   },
   "16006": {
     "file": "verbal_grammar.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar and single-answer review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://www.merriam-webster.com/dictionary/simple"
+    ],
+    "reason": "More simple is not universally incorrect",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "16007": {
     "file": "verbal_grammar.json",
@@ -10133,11 +10200,12 @@
   },
   "16014": {
     "file": "verbal_grammar.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted language correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar and single-answer review remains outstanding."
+    "reason": "Possessor count unspecified",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "16015": {
     "file": "verbal_grammar.json",
@@ -10181,11 +10249,12 @@
   },
   "16020": {
     "file": "verbal_grammar.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted language correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar and single-answer review remains outstanding."
+    "reason": "Definite article was also grammatical",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "16021": {
     "file": "verbal_grammar.json",
@@ -10285,11 +10354,12 @@
   },
   "16033": {
     "file": "verbal_grammar.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted language correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar and single-answer review remains outstanding."
+    "reason": "Singular and plural possessives both grammatical",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "16034": {
     "file": "verbal_grammar.json",
@@ -10421,11 +10491,14 @@
   },
   "16050": {
     "file": "verbal_grammar.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar and single-answer review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://dictionary.cambridge.org/us/grammar/british-grammar/different-from-different-to-or-different-than"
+    ],
+    "reason": "Dialect variation treated as error",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "16051": {
     "file": "verbal_grammar.json",
@@ -10533,11 +10606,12 @@
   },
   "16064": {
     "file": "verbal_grammar.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted language correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; full grammar and single-answer review remains outstanding."
+    "reason": "Laying error outside blank",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "16065": {
     "file": "verbal_grammar.json",
@@ -10951,11 +11025,14 @@
   },
   "17016": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/statutes/repacts/ra2021/ra_11641_2021.html"
+    ],
+    "reason": "Obsolete POLO naming and questionable service attribution.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17017": {
     "file": "verbal_paragraph_org.json",
@@ -10991,11 +11068,14 @@
   },
   "17021": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/statutes/repacts/ra2024/ra_12009_2024.html"
+    ],
+    "reason": "Procurement described RA 9184 as sole current framework.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17022": {
     "file": "verbal_paragraph_org.json",
@@ -11007,11 +11087,14 @@
   },
   "17023": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://www.dbm.gov.ph/images/pdffiles/2024-Peoples-Proposed-Budget.pdf"
+    ],
+    "reason": "Four-phase introduction followed only preparation/authorization.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17024": {
     "file": "verbal_paragraph_org.json",
@@ -11183,11 +11266,14 @@
   },
   "17045": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+    ],
+    "reason": "Divestment deadline incorrectly thirty days.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17046": {
     "file": "verbal_paragraph_org.json",
@@ -11231,403 +11317,455 @@
   },
   "17051": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17052": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17053": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17054": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17055": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17056": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17057": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17058": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17059": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17060": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17061": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17062": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17063": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17064": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17065": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17066": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17067": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17068": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17069": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17070": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17071": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17072": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17073": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17074": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17075": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17076": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17077": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17078": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17079": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17080": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17081": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17082": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17083": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17084": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17085": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17086": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17087": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17088": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "sentence-label permutation with semantic-path regression invariants",
+    "source_urls": [
+      "https://whc.unesco.org/en/list/438/"
+    ],
+    "reason": "Unqualified Great Wall visibility claim. Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17089": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17090": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17091": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17092": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17093": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17094": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17095": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17096": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17097": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17098": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17099": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "17100": {
     "file": "verbal_paragraph_org.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "sentence-label permutation with semantic-path regression invariants",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Displayed sentences were already in keyed coherent order.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "18001": {
     "file": "verbal_reading_comprehension.json",
@@ -11735,19 +11873,25 @@
   },
   "18014": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/statutes/repacts/ra1999/ra_8749_1999.html"
+    ],
+    "reason": "Shared passage overstated incineration ban.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "18015": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/statutes/repacts/ra1999/ra_8749_1999.html"
+    ],
+    "reason": "Shared passage overstated incineration ban.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "18016": {
     "file": "verbal_reading_comprehension.json",
@@ -12103,35 +12247,47 @@
   },
   "18060": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://whc.unesco.org/en/list/653/"
+    ],
+    "reason": "Tubbataha misspelled.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "18061": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://www.fisheries.noaa.gov/species/leatherback-turtle"
+    ],
+    "reason": "All sea turtles described as primarily eating jellyfish.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "18062": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://privacy.gov.ph/data-privacy-act/"
+    ],
+    "reason": "Consent presented as only lawful data-processing basis.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "18063": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://www.nccih.nih.gov/health/stress"
+    ],
+    "reason": "Unsupported precise ten-minute cortisol claim.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "18064": {
     "file": "verbal_reading_comprehension.json",
@@ -12207,19 +12363,23 @@
   },
   "18073": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted facts correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Textile misspelled as Textline.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "18074": {
     "file": "verbal_reading_comprehension.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted facts correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/statutes/repacts/ra1999/ra_8749_1999.html"
+    ],
+    "reason": "Incineration prohibition omitted emission qualification.",
+    "correction_record": "docs/content/corrections-facts.json"
   },
   "18075": {
     "file": "verbal_reading_comprehension.json",
@@ -13527,11 +13687,12 @@
   },
   "20038": {
     "file": "verbal_vocabulary_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted language correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Overlapping umuunlad and progresibo",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "20039": {
     "file": "verbal_vocabulary_filipino.json",
@@ -13719,11 +13880,12 @@
   },
   "20062": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted language correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Malformed keyed expression",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "20063": {
     "file": "verbal_idyoma_filipino.json",
@@ -13799,11 +13961,14 @@
   },
   "20072": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://diksiyonaryo.ph/search/balatkayo"
+    ],
+    "reason": "Split headword and imprecise meaning",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "20073": {
     "file": "verbal_idyoma_filipino.json",
@@ -14007,11 +14172,14 @@
   },
   "20098": {
     "file": "verbal_idyoma_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://diksiyonaryo.ph/search/alingasaw"
+    ],
+    "reason": "Unsupported speed/news definition",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "20099": {
     "file": "verbal_idyoma_filipino.json",
@@ -14209,11 +14377,12 @@
   },
   "20123": {
     "file": "verbal_balarila_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted language correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; independent Filipino grammar and single-answer review remains outstanding."
+    "reason": "Future repeated action also valid",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "20124": {
     "file": "verbal_balarila_filipino.json",
@@ -14313,11 +14482,12 @@
   },
   "20136": {
     "file": "verbal_balarila_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted language correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only outside registered repairs; independent Filipino grammar and single-answer review remains outstanding."
+    "reason": "Upo falsely said to start with consonant",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "20137": {
     "file": "verbal_balarila_filipino.json",
@@ -14509,19 +14679,25 @@
   },
   "20160": {
     "file": "verbal_pagaunawa_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/statutes/repacts/ra2001/ra_9003_2001.html"
+    ],
+    "reason": "Overbroad burning prohibition",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "20161": {
     "file": "verbal_pagaunawa_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/statutes/repacts/ra2001/ra_9003_2001.html"
+    ],
+    "reason": "Overbroad burning prohibition",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "20162": {
     "file": "verbal_pagaunawa_filipino.json",
@@ -14637,11 +14813,12 @@
   },
   "20176": {
     "file": "verbal_pagaunawa_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
+    "method": "targeted language correction and regression verification",
     "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "reason": "Incorrect verb construction",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "20177": {
     "file": "verbal_pagaunawa_filipino.json",
@@ -14757,19 +14934,25 @@
   },
   "20191": {
     "file": "verbal_pagaunawa_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://www.csc.gov.ph/special-eligibilities?cat=&view=article"
+    ],
+    "reason": "Universal examination requirement false",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "20192": {
     "file": "verbal_pagaunawa_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://www.csc.gov.ph/special-eligibilities?cat=&view=article"
+    ],
+    "reason": "Universal examination requirement false",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "20193": {
     "file": "verbal_pagaunawa_filipino.json",
@@ -14797,11 +14980,14 @@
   },
   "20196": {
     "file": "verbal_pagaunawa_filipino.json",
-    "status": "needs_review",
+    "status": "corrected",
     "reviewed_at": "2026-10-21",
-    "method": "structural screening; editorial review incomplete",
-    "source_urls": [],
-    "reason": "Structural screening only; individual answer, ambiguity, distractor, and explanation review remains outstanding."
+    "method": "targeted language correction and regression verification",
+    "source_urls": [
+      "https://lawphil.net/consti/cons1987.html"
+    ],
+    "reason": "Blanket hate-speech exclusion unsupported",
+    "correction_record": "docs/content/corrections-language.json"
   },
   "20197": {
     "file": "verbal_pagaunawa_filipino.json",

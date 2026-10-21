@@ -1,0 +1,11 @@
+# Question correction checkpoint
+
+The fresh review remains an historical first-pass report. The three correction ledgers record the subsequent implementation and supporting evidence; the central `question-review.json` now marks the 111 affected IDs as corrected. IDs, categories and per-bank counts remain unchanged. This batch contains 73 facts/paragraph records, 12 reasoning records and 26 language records. Fifty of these changes relabel paragraph sentences and remap every option, key and explanation reference while preserving the original sentence paths.
+
+The central ledger currently contains 184 corrected records (including the earlier 73), 435 historically verified records, and 1,231 records awaiting deeper review. These labels do not certify that every factual claim in the bank has independent external verification.
+
+Choice order is shuffled when questions are selected for a new attempt. Correct answers remain the same choice strings; the source bank is not mutated. Saved/resumed/reviewed snapshots retain their original order. A conservative guard preserves order when wording refers to choice positions, explicit option labels, or above/below alternatives. This is randomized choice order, not a promise of exactly balanced A/B/C/D counts in each short exam.
+
+The four syllogism convention items 4007, 4011, 4020 and 4037, and five uncertain idioms 20058, 20059, 20064, 20079 and 20092, remain explicitly unresolved. Length/parenthesis flags are screening candidates rather than proven mistakes. The ledgers record which were rewritten and which were retained instead of padding distractors or removing necessary precision. Some external source checks remain limited, including a failed KWF lookup recorded by the language helper.
+
+Verification after integration: 187 question-bank tests and 72 unit tests passed; type checking reported zero errors and 68 existing warnings. The production build succeeded with the existing adapter-auto deployment-target notice. Independent regression checks cover arithmetic, option uniqueness, paragraph-label mapping and preservation, semantic correction contexts, input-bank immutability and choice shuffling. No production database operation is part of this batch. The mobile plan remains unimplemented pending user approval.
