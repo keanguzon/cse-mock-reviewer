@@ -1,5 +1,6 @@
 <script lang="ts">
   import { reviewerData } from '$lib/reviewerData.svelte';
+  import { getPerformanceStatus } from '$lib/performance';
 
   import { supabase } from "$lib/supabaseClient";
   import { untrack } from "svelte";
@@ -244,7 +245,7 @@
                 </small>
               </div>
               <div class="activity-right">
-                <span class="score-badge" class:good={pct >= 75} class:needs-work={pct < 75}>
+                <span class="score-badge" class:good={getPerformanceStatus(pct) !== 'weak'} class:needs-work={getPerformanceStatus(pct) === 'weak'}>
                   {attempt.score}/{attempt.total}
                 </span>
                 <button class="btn-view-submission" onclick={() => goto("/submission/" + attempt.id)}>

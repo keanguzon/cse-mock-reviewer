@@ -1,11 +1,18 @@
 import { describe, expect, it } from 'vitest';
-import { rebuildProgress, summarizeAttempts, type HistoricalAttempt } from '../../src/lib/performance';
+import { getPerformanceStatus, rebuildProgress, summarizeAttempts, type HistoricalAttempt } from '../../src/lib/performance';
 
 const row = (overrides: Partial<HistoricalAttempt> = {}): HistoricalAttempt => ({
   id: 'a', user_id: 'owner', score: 1, total: 1, category: 'Verbal', mode: 'practice',
   completed_at: '2026-10-21T00:00:00Z', questions: [{ id: 'q', category: 'Verbal', question: '?', choices: ['a','b','c','d'], correct_answer: 'a' }], user_answers: { 0: 'a' }, ...overrides
 });
 describe('historical performance', () => {
+  it('keeps 75 percent below passing and separates passing from strong performance', () => {
+    expect(getPerformanceStatus(75)).toBe('weak');
+    expect(getPerformanceStatus(79.99)).toBe('weak');
+    expect(getPerformanceStatus(80)).toBe('passing');
+    expect(getPerformanceStatus(89.99)).toBe('passing');
+    expect(getPerformanceStatus(90)).toBe('strong');
+  });
   it('uses_arithmetic_mean_not_weighted', () => {
     const result = summarizeAttempts([row({ score: 1, total: 1 }), row({ score: 0, total: 9 })]);
     expect(result.averagePercentage).toBe(50);

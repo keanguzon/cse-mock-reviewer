@@ -1,4 +1,9 @@
 import type { Question } from './questions';
+export const PASSING_PERCENTAGE = 80;
+export const STRONG_PERCENTAGE = 90;
+export function getPerformanceStatus(percentage: number): 'strong' | 'passing' | 'weak' {
+  return percentage >= STRONG_PERCENTAGE ? 'strong' : percentage >= PASSING_PERCENTAGE ? 'passing' : 'weak';
+}
 export type HistoricalAttempt = { id: string; user_id?: string; score: number; total: number; category: string; mode: string; level?: string | null; completed_at: string; questions?: Question[] | null; user_answers?: Record<number, string> | null };
 export type PerformanceSummary = { examCount: number; bestPercentage: number; averagePercentage: number; categories: { category: string; totalCorrect: number; totalQuestions: number; percentage: number }[]; incompleteAttemptCount: number };
 const specificCategory = (value: string) => typeof value === 'string' && value.trim() && !['all', 'all categories', 'mixed categories', 'general / mixed'].includes(value.trim().toLowerCase());

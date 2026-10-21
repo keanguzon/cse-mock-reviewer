@@ -1,5 +1,6 @@
 <script lang="ts">
   import { Trophy, Sparkles, AlertTriangle, CheckCircle2 } from 'lucide-svelte';
+  import { getPerformanceStatus, PASSING_PERCENTAGE } from '$lib/performance';
 
   type Question = {
     id: string;
@@ -55,7 +56,7 @@
   });
 
   let gradeClass = $derived.by(() => {
-    if (percentage >= 80) return 'text-emerald';
+    if (getPerformanceStatus(percentage) !== 'weak') return 'text-emerald';
     if (percentage >= 60) return 'text-amber';
     return 'text-red';
   });
@@ -78,7 +79,7 @@
         correct: val.correct,
         total: val.total,
         percentage: pct,
-        status: pct >= 90 ? 'strong' : pct >= 80 ? 'passing' : 'weak',
+        status: getPerformanceStatus(pct),
       });
     });
     results.sort((a, b) => b.percentage - a.percentage);
@@ -91,7 +92,7 @@
 
 <div class="analytics-card-content text-center">
   <div class="result-header-decor" style="display: flex; justify-content: center; margin-bottom: 0.5rem; gap: 0.5rem; color: #a78bfa;">
-    {#if percentage >= 80}
+    {#if getPerformanceStatus(percentage) !== 'weak'}
       <Sparkles size={32} class="text-emerald" style="filter: drop-shadow(0 0 8px rgba(52,211,153,0.3));" />
       <Trophy size={32} class="text-emerald" style="filter: drop-shadow(0 0 8px rgba(52,211,153,0.3));" />
       <Sparkles size={32} class="text-emerald" style="filter: drop-shadow(0 0 8px rgba(52,211,153,0.3));" />
@@ -114,8 +115,8 @@
   </p>
 
   <div class="benchmark-indicator">
-    <span class="benchmark-text {percentage >= 80 ? 'above' : 'below'}">
-      {percentage >= 80 ? '✓ Above' : '✗ Below'} CSE Passing Benchmark (80%)
+    <span class="benchmark-text {getPerformanceStatus(percentage) !== 'weak' ? 'above' : 'below'}">
+      {getPerformanceStatus(percentage) !== 'weak' ? '✓ Meets' : '✗ Below'} CSE Passing Benchmark ({PASSING_PERCENTAGE}%)
     </span>
   </div>
 

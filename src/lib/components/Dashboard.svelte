@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { summarizeAttempts } from '$lib/performance';
+  import { getPerformanceStatus, PASSING_PERCENTAGE, summarizeAttempts } from '$lib/performance';
   import { reviewerData } from '$lib/reviewerData.svelte';
   import { userSession } from '$lib/userSession.svelte';
 
@@ -135,10 +135,10 @@
     let categoryStats = $derived(summary.categories);
 
     let overallStrongAreas = $derived(
-        categoryStats.filter((c) => c.percentage >= 80),
+        categoryStats.filter((c) => getPerformanceStatus(c.percentage) !== 'weak'),
     );
     let overallWeakAreas = $derived(
-        categoryStats.filter((c) => c.percentage < 80),
+        categoryStats.filter((c) => getPerformanceStatus(c.percentage) === 'weak'),
     );
 
     function getLevelLabel(attempt: Attempt): { label: string; cls: string } {
@@ -217,8 +217,8 @@
                     <h3>High Score</h3>
                     <div
                         class="stat-value"
-                        class:success={highScore >= 75}
-                        class:warning={highScore < 75}
+                        class:success={getPerformanceStatus(highScore) !== 'weak'}
+                        class:warning={getPerformanceStatus(highScore) === 'weak'}
                     >
                         {highScore}%
                     </div>
@@ -235,8 +235,8 @@
                     <h3>Average</h3>
                     <div
                         class="stat-value"
-                        class:success={averageScore >= 75}
-                        class:warning={averageScore < 75}
+                        class:success={getPerformanceStatus(averageScore) !== 'weak'}
+                        class:warning={getPerformanceStatus(averageScore) === 'weak'}
                     >
                         {averageScore}%
                     </div>
@@ -331,7 +331,7 @@
                         <div
                             style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.6rem; color: #34d399; font-weight: 700; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.5px;"
                         >
-                            <CheckCircle2 size={15} /> Strong Areas (≥80%)
+                            <CheckCircle2 size={15} /> Passing Areas (≥{PASSING_PERCENTAGE}%)
                         </div>
                         {#if overallStrongAreas.length > 0}
                             <div
@@ -359,8 +359,8 @@
                             <p
                                 style="font-size: 0.78rem; color: #7c6d8e; margin: 0;"
                             >
-                                Complete practice quizzes at ≥80% accuracy to
-                                highlight your strong subjects.
+                                Complete practice quizzes at ≥{PASSING_PERCENTAGE}% accuracy to
+                                highlight subjects meeting the passing benchmark.
                             </p>
                         {/if}
                     </div>
@@ -370,7 +370,7 @@
                         <div
                             style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.6rem; color: #fbbf24; font-weight: 700; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.5px;"
                         >
-                            <AlertTriangle size={15} /> Needs Practice (&lt;80%)
+                            <AlertTriangle size={15} /> Needs Practice (&lt;{PASSING_PERCENTAGE}%)
                         </div>
                         {#if overallWeakAreas.length > 0}
                             <div
@@ -501,8 +501,8 @@
                     <div class="activity-right">
                         <span
                             class="score-badge"
-                            class:good={pct >= 75}
-                            class:needs-work={pct < 75}
+                            class:good={getPerformanceStatus(pct) !== 'weak'}
+                            class:needs-work={getPerformanceStatus(pct) === 'weak'}
                         >
                             {attempt.score}/{attempt.total}
                         </span>
