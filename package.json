@@ -10,6 +10,7 @@
 		"test": "npm run test:bank && npm run test:unit",
 		"test:bank": "node --test tests/questions/*.test.cjs",
 		"test:unit": "vitest run",
+		"test:integration": "vitest run --config vitest.integration.config.ts",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
