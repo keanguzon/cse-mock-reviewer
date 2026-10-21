@@ -288,15 +288,15 @@
   {
     "id": "5023",
     "category": "Clerical Ability – Filing & Alphabetizing",
-    "question": "How is a hyphenated compound surname such as 'Santos-Cruz, Maria' indexed for filing?",
+    "question": "A filing office treats a hyphenated surname as one unit, ignores the hyphen when alphabetizing, and places the given name after a comma. How should \"Santos-Cruz, Maria\" be indexed?",
     "choices": [
-      "As two separate names",
-      "By the first name only (Maria)",
-      "By the second name only (Cruz, Maria)",
-      "As one single word (Santos-Cruz -> SantosCruz)"
+      "Santos, Cruz Maria",
+      "Maria, SantosCruz",
+      "Cruz, Maria Santos",
+      "SantosCruz, Maria"
     ],
-    "correct_answer": "As one single word (Santos-Cruz -> SantosCruz)",
-    "explanation": "In standard ARMA indexing rules, hyphenated surnames are treated as a single unit without the hyphen."
+    "correct_answer": "SantosCruz, Maria",
+    "explanation": "Apply the stated office rule: combine Santos and Cruz into one surname unit, then place Maria after the comma."
   },
   {
     "id": "5024",

@@ -80,15 +80,15 @@
   {
     "id": "4007",
     "category": "Analytical Ability – Logic / Syllogisms",
-    "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some documents are classified.\n- Some classified items are confidential.\n\nConclusions:\n- I. Some documents are confidential.\n- II. No document is confidential.",
+    "question": "Evaluate each conclusion independently: which conclusions must be true in every case satisfying the statements?\n\nStatements:\n- Some documents are classified.\n- Some classified items are confidential.\n\nConclusions:\n- I. Some documents are confidential.\n- II. No document is confidential.",
     "choices": [
       "Only conclusion I follows",
       "Neither conclusion I nor II follows",
       "Only conclusion II follows",
-      "Either conclusion I or II follows"
+      "Both conclusions I and II follow"
     ],
     "correct_answer": "Neither conclusion I nor II follows",
-    "explanation": "There is no direct link between documents and confidential items. The classified documents and the classified confidential items may not overlap."
+    "explanation": "There is no direct link between documents and confidential items. The classified documents and the classified confidential items may not overlap. The question tests each conclusion separately: possible overlap does not establish conclusion I, and possible non-overlap does not establish conclusion II."
   },
   {
     "id": "4008",
@@ -132,15 +132,15 @@
   {
     "id": "4011",
     "category": "Analytical Ability – Logic / Syllogisms",
-    "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- All citizens are tax payers.\n- Some tax payers are philanthropists.\n\nConclusions:\n- I. Some citizens are philanthropists.\n- II. No citizen is a philanthropist.",
+    "question": "Evaluate each conclusion independently: which conclusions must be true in every case satisfying the statements?\n\nStatements:\n- All citizens are tax payers.\n- Some tax payers are philanthropists.\n\nConclusions:\n- I. Some citizens are philanthropists.\n- II. No citizen is a philanthropist.",
     "choices": [
-      "Either conclusion I or II follows",
+      "Both conclusions I and II follow",
       "Neither conclusion I nor II follows",
       "Only conclusion II follows",
       "Only conclusion I follows"
     ],
     "correct_answer": "Neither conclusion I nor II follows",
-    "explanation": "The philanthropist tax payers may or may not be citizens. Without knowing which tax payers are philanthropists, neither conclusion can be confirmed."
+    "explanation": "The philanthropist tax payers may or may not be citizens. Without knowing which tax payers are philanthropists, neither conclusion can be confirmed. The question tests each conclusion separately: possible overlap does not establish conclusion I, and possible non-overlap does not establish conclusion II."
   },
   {
     "id": "4012",
@@ -249,15 +249,15 @@
   {
     "id": "4020",
     "category": "Analytical Ability – Logic / Syllogisms",
-    "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some employees are engineers.\n- Some engineers are managers.\n\nConclusions:\n- I. Some employees are managers.\n- II. No employee is a manager.",
+    "question": "Evaluate each conclusion independently: which conclusions must be true in every case satisfying the statements?\n\nStatements:\n- Some employees are engineers.\n- Some engineers are managers.\n\nConclusions:\n- I. Some employees are managers.\n- II. No employee is a manager.",
     "choices": [
       "Only conclusion II follows",
       "Neither conclusion I nor II follows",
-      "Either conclusion I or II follows",
+      "Both conclusions I and II follow",
       "Only conclusion I follows"
     ],
     "correct_answer": "Neither conclusion I nor II follows",
-    "explanation": "The employee-engineers and the manager-engineers may or may not overlap. Without a direct link, neither conclusion can be definitively drawn from the premises."
+    "explanation": "The employee-engineers and the manager-engineers may or may not overlap. Without a direct link, neither conclusion can be definitively drawn from the premises. The question tests each conclusion separately: possible overlap does not establish conclusion I, and possible non-overlap does not establish conclusion II."
   },
   {
     "id": "4021",
@@ -470,15 +470,15 @@
   {
     "id": "4037",
     "category": "Analytical Ability – Logic / Syllogisms",
-    "question": "Identify the conclusion(s) that logically follow from the given statements.\n\nStatements:\n- Some procurement officers are lawyers.\n- Some procurement officers are accountants.\n\nConclusions:\n- I. Some lawyers are accountants.\n- II. No lawyer is an accountant.",
+    "question": "Evaluate each conclusion independently: which conclusions must be true in every case satisfying the statements?\n\nStatements:\n- Some procurement officers are lawyers.\n- Some procurement officers are accountants.\n\nConclusions:\n- I. Some lawyers are accountants.\n- II. No lawyer is an accountant.",
     "choices": [
       "Only conclusion II follows",
       "Only conclusion I follows",
-      "Either conclusion I or II follows",
+      "Both conclusions I and II follow",
       "Neither conclusion I nor II follows"
     ],
     "correct_answer": "Neither conclusion I nor II follows",
-    "explanation": "Two 'some' premises sharing a middle term ('procurement officers') cannot yield a necessary logical conclusion about the relation between lawyers and accountants."
+    "explanation": "Two 'some' premises sharing a middle term ('procurement officers') cannot yield a necessary logical conclusion about the relation between lawyers and accountants. The question tests each conclusion separately: possible overlap does not establish conclusion I, and possible non-overlap does not establish conclusion II."
   },
   {
     "id": "4038",

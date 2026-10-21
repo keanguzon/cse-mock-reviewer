@@ -821,14 +821,14 @@
   {
     "id": "2064",
     "category": "Analytical Ability – Assumptions & Conclusions",
-    "question": "A university advisory reads: \"Students who submit their thesis past the deadline will incur a 10% grade penalty.\"\n\nWhat is an implicit assumption in this advisory?",
+    "question": "A university announces a 10% grade penalty for late thesis submissions to encourage timely submission. Which assumption connects the penalty to its intended effect?",
     "choices": [
-      "All students will fail their thesis.",
-      "Professors prefer late submissions.",
-      "Grade penalties discourage students from submitting their thesis late.",
-      "The deadline was announced without student consultation."
+      "Thesis deadlines are set by student representatives.",
+      "Thesis advisers assign topics before the final semester.",
+      "Grade penalties encourage students to meet deadlines.",
+      "Thesis grades are released after an oral defense."
     ],
-    "correct_answer": "Grade penalties discourage students from submitting their thesis late.",
+    "correct_answer": "Grade penalties encourage students to meet deadlines.",
     "explanation": "Imposing a penalty assumes that the fear of losing marks will motivate students to submit their work on time."
   },
   {
@@ -925,15 +925,15 @@
   {
     "id": "2072",
     "category": "Analytical Ability – Assumptions & Conclusions",
-    "question": "Statement: \"Install solar panels on government buildings to cut municipal electricity expenses.\"\n\nWhich of the following is an implicit assumption in this statement?",
+    "question": "A municipality proposes installing solar panels on government buildings to reduce total electricity-related costs over the panels' useful life. Which assumption supports the proposed cost saving?",
     "choices": [
-      "Solar panels generate energy at a lower cost than current municipal power rates over time.",
-      "Electricity prices will drop to zero next month.",
-      "Government buildings operate only during nighttime.",
-      "Traditional power companies will shut down."
+      "Solar savings will exceed installation and operating costs.",
+      "Solar equipment will be purchased from local suppliers.",
+      "Panel installation will coincide with building repainting.",
+      "Building staff will receive an annual energy report."
     ],
-    "correct_answer": "Solar panels generate energy at a lower cost than current municipal power rates over time.",
-    "explanation": "Proposing solar installation to cut expenses assumes that solar energy reduces long-term operational costs compared to grid electricity."
+    "correct_answer": "Solar savings will exceed installation and operating costs.",
+    "explanation": "For the project to save money overall, avoided electricity expenses must exceed installation and operating costs over the stated period."
   },
   {
     "id": "2073",
@@ -977,15 +977,15 @@
   {
     "id": "2076",
     "category": "Analytical Ability – Assumptions & Conclusions",
-    "question": "Statement: \"Mandate a biometric clock-in system to eliminate time-card tampering.\"\n\nWhat is an implicit assumption of this mandate?",
+    "question": "An office proposes biometric clock-in checks to reduce attendance fraud involving paper time-cards. Which assumption connects the proposed system to its goal?",
     "choices": [
-      "All employees prefer paper time-cards.",
-      "Biometric features like fingerprints cannot be easily faked like paper time-cards.",
-      "Biometric systems are free to purchase.",
-      "Time-card tampering never occurs in office environments."
+      "Employees prefer electronic attendance reports.",
+      "Biometric checks make attendance fraud harder.",
+      "Attendance records are reviewed every Friday.",
+      "Paper time-cards are stored in a central office."
     ],
-    "correct_answer": "Biometric features like fingerprints cannot be easily faked like paper time-cards.",
-    "explanation": "Replacing paper cards with biometrics assumes biometric traits are unique and harder to tamper with."
+    "correct_answer": "Biometric checks make attendance fraud harder.",
+    "explanation": "The proposal relies on biometric checks being more resistant to the attendance fraud it seeks to reduce. It does not claim that every biometric system prevents all fraud."
   },
   {
     "id": "2077",
@@ -1031,12 +1031,12 @@
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: \"Plant shade trees along city sidewalks to encourage walking and reduce urban heat.\"\n\nWhich of the following is an implicit assumption?",
     "choices": [
-      "Trees grow to full height overnight.",
-      "Urban heat cannot be measured.",
-      "Lower pedestrian temperatures make walking more comfortable for city residents.",
-      "Sidewalks are used exclusively by cyclists."
+      "The city will plant trees native to the region.",
+      "Tree maintenance will be assigned to park staff.",
+      "Cooler sidewalks make walking more appealing.",
+      "The sidewalks will keep their existing paving."
     ],
-    "correct_answer": "Lower pedestrian temperatures make walking more comfortable for city residents.",
+    "correct_answer": "Cooler sidewalks make walking more appealing.",
     "explanation": "The proposal assumes that providing shade reduces heat, which in turn makes walking more desirable to people."
   },
   {
@@ -1083,13 +1083,13 @@
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: \"Provide free Wi-Fi in public plazas to enhance digital connectivity for citizens.\"\n\nWhich assumption is implicit in this statement?",
     "choices": [
-      "All citizens own desktop computers.",
-      "Public plazas are closed on weekends.",
-      "Internet access is harmful to community development.",
-      "Citizens carry Wi-Fi enabled mobile devices when visiting public plazas."
+      "Plazas have benches near their main entrances.",
+      "Plazas host cultural events on some weekends.",
+      "Visitors prefer plazas with landscaped gardens.",
+      "Some visitors have devices that can use Wi-Fi."
     ],
-    "correct_answer": "Citizens carry Wi-Fi enabled mobile devices when visiting public plazas.",
-    "explanation": "Offering public Wi-Fi assumes visitors have devices (smartphones, laptops, tablets) capable of connecting to Wi-Fi."
+    "correct_answer": "Some visitors have devices that can use Wi-Fi.",
+    "explanation": "For public Wi-Fi to improve visitors' connectivity, at least some intended users must have compatible devices. It is unnecessary to assume that every visitor owns one."
   },
   {
     "id": "2085",
@@ -1109,10 +1109,10 @@
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: \"If an employee incurs at least 10 unexcused absences in a month, they receive a formal written reprimand.\"\n\nCarlo incurred 12 unexcused absences this month.\nWhat logical conclusion follows?",
     "choices": [
-      "Carlo is exempt from office rules.",
-      "Carlo will be promoted.",
+      "Carlo receives a suspension instead of a reprimand.",
+      "Carlo receives a pay deduction instead of a reprimand.",
       "Carlo receives a formal written reprimand.",
-      "Carlo receives a verbal warning only."
+      "Carlo receives only an informal verbal warning."
     ],
     "correct_answer": "Carlo receives a formal written reprimand.",
     "explanation": "12 absences exceeds the 10-absence threshold for unexcused absences, triggering the formal written reprimand."
@@ -1135,12 +1135,12 @@
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: \"Conduct annual fire drills in all government buildings to ensure employee safety during emergencies.\"\n\nWhat is an implicit assumption of this policy?",
     "choices": [
-      "Employees do not care about building safety.",
-      "Fire drills cause building damage.",
-      "Practicing evacuation procedures improves employee response during actual fires.",
-      "Fires occur in government buildings every day."
+      "Building inspections are scheduled every quarter.",
+      "Evacuation maps are printed by local suppliers.",
+      "Evacuation practice improves emergency response.",
+      "Safety committees submit reports every December."
     ],
-    "correct_answer": "Practicing evacuation procedures improves employee response during actual fires.",
+    "correct_answer": "Evacuation practice improves emergency response.",
     "explanation": "Mandating fire drills assumes that practice and familiarity with evacuation routes enhance safety during a real emergency."
   },
   {
@@ -1198,15 +1198,15 @@
   {
     "id": "2093",
     "category": "Analytical Ability – Assumptions & Conclusions",
-    "question": "Statement: \"If an agency achieves ISO certification, its service delivery processes are standardized.\"\n\nAgency Z achieved ISO certification.\nWhat conclusion logically follows?",
+    "question": "For this reasoning question, assume the following rule: \"If an agency achieves ISO certification, its service delivery processes are standardized.\" Agency Z achieved ISO certification. What conclusion follows from the stated rule?",
     "choices": [
-      "Agency Z employs only certified public accountants.",
-      "Agency Z's service delivery processes are standardized.",
-      "Agency Z will close next year.",
-      "Agency Z has no budget deficits."
+      "Agency Z has standardized its staff salaries.",
+      "Agency Z has standardized its service delivery processes.",
+      "Agency Z has standardized its annual budget allocations.",
+      "Agency Z has standardized its employees' qualifications."
     ],
-    "correct_answer": "Agency Z's service delivery processes are standardized.",
-    "explanation": "Direct application of the conditional statement: achieving ISO certification implies standardized processes."
+    "correct_answer": "Agency Z has standardized its service delivery processes.",
+    "explanation": "Apply the given conditional rule: certification implies standardized service delivery processes. The rule says nothing about salaries, budgets, or qualifications."
   },
   {
     "id": "2094",
@@ -1224,15 +1224,15 @@
   {
     "id": "2095",
     "category": "Analytical Ability – Assumptions & Conclusions",
-    "question": "Statement: \"Provide free rabies vaccinations for household pets to eliminate rabies transmission.\"\n\nWhich assumption is implicit in this statement?",
+    "question": "A municipality proposes free rabies vaccinations for household pets to reduce rabies transmission to people. Which assumption links the proposal to its intended benefit?",
     "choices": [
-      "Rabies is a non-contagious viral infection.",
-      "All households own at least three pets.",
-      "Pets are the only animals in existence.",
-      "Vaccinating household pets effectively stops rabies transmission to humans."
+      "Vaccinations are scheduled during office hours.",
+      "Pet registration fees are collected each year.",
+      "Veterinary records include the owners' addresses.",
+      "Pet vaccination reduces transmission to people."
     ],
-    "correct_answer": "Vaccinating household pets effectively stops rabies transmission to humans.",
-    "explanation": "Providing pet rabies vaccines to eliminate transmission assumes domestic pet vaccination is an effective control measure."
+    "correct_answer": "Pet vaccination reduces transmission to people.",
+    "explanation": "The reasoning assumes that vaccinating household pets reduces the risk of transmission to people. The proposal does not establish that pet vaccination alone eliminates every source of rabies."
   },
   {
     "id": "2096",
@@ -1278,13 +1278,13 @@
     "category": "Analytical Ability – Assumptions & Conclusions",
     "question": "Statement: \"Install water filtration systems in rural health centers to ensure clean drinking water.\"\n\nWhat is an implicit assumption of this initiative?",
     "choices": [
-      "Filtration systems successfully remove harmful contaminants from water.",
-      "Rural citizens do not drink water.",
-      "Water filters require no maintenance.",
-      "Rural health centers currently have unlimited bottled water."
+      "The filters remove the contaminants in the centers' water.",
+      "The filters are installed by locally based contractors.",
+      "The centers record water consumption each month.",
+      "The centers display water-saving advice for visitors."
     ],
-    "correct_answer": "Filtration systems successfully remove harmful contaminants from water.",
-    "explanation": "Installing filtration systems assumes that the technology reliably purifies water for safe drinking."
+    "correct_answer": "The filters remove the contaminants in the centers' water.",
+    "explanation": "The initiative relies on the selected filters being effective against contaminants actually present in the water. It does not assume that every filter removes every possible contaminant."
   },
   {
     "id": "2100",
