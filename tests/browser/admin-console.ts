@@ -83,6 +83,12 @@ try {
   const unauth = await context.request.get(`${origin}/admin/api/users`); assert.equal(unauth.status(), 401);
   await page.goto(`${origin}/admin/users`); await page.waitForURL('**/admin/login');
   await page.waitForLoadState('networkidle');
+  assert.equal(await page.getByRole('button', { name: 'Sign in', exact: true }).evaluate((el: HTMLElement) => getComputedStyle(el).fontFamily), await page.locator('body').evaluate((el: HTMLElement) => getComputedStyle(el).fontFamily));
+  await page.screenshot({ path: `${artifacts}/admin-login-desktop.png`, fullPage: true });
+  await page.setViewportSize({ width: 390, height: 844 });
+  assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
+  await page.screenshot({ path: `${artifacts}/admin-login-mobile.png`, fullPage: true });
+  await page.setViewportSize({ width: 1440, height: 1000 });
   await page.getByLabel('Email', { exact: true }).fill(admin.email);
   await page.getByLabel('Password', { exact: true }).fill('wrong');
   await page.getByRole('button', { name: 'Sign in', exact: true }).click();
@@ -102,7 +108,21 @@ try {
   await page.getByText('24 selected · 25 matching exams', { exact: true }).waitFor();
   await page.getByRole('button', { name: 'Delete selected', exact: true }).click();
   await page.getByRole('dialog').getByText(/exactly 24 selected exams/).waitFor();
+  assert.equal(await page.getByRole('dialog').evaluate((el: HTMLElement) => getComputedStyle(el).backgroundColor), 'rgb(23, 25, 35)');
+  await page.screenshot({ path: `${artifacts}/admin-confirm-desktop.png`, fullPage: true });
+  for (const width of [320, 390, 430]) {
+    await page.setViewportSize({ width, height: 844 });
+    assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), `Admin page overflow at ${width}`);
+    assert.ok(await page.getByRole('dialog').evaluate((el: HTMLElement) => el.scrollWidth <= el.clientWidth), `Admin dialog overflow at ${width}`);
+  }
+  await page.screenshot({ path: `${artifacts}/admin-confirm-mobile.png`, fullPage: true });
+  for (let i = 0; i < 6; i++) {
+    await page.keyboard.press('Tab');
+    assert.ok(await page.getByRole('dialog').evaluate((el: HTMLElement) => el.matches(':modal') && (el.contains(document.activeElement) || document.activeElement === document.body)), 'Focus reached the inert background');
+  }
+  await page.setViewportSize({ width: 1440, height: 1000 });
   await page.keyboard.press('Escape'); assert.equal(await page.getByRole('dialog').count(), 0);
+  assert.equal(await page.getByRole('button', { name: 'Delete selected', exact: true }).evaluate((el: HTMLElement) => el === document.activeElement), true);
   await page.getByRole('button', { name: 'Clear selection', exact: true }).click();
   await page.getByLabel('From (UTC)', { exact: true }).fill('2030-01-01');
   await page.getByRole('button', { name: 'Apply filters', exact: true }).click();
