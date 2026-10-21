@@ -483,7 +483,7 @@
     {
         "id": "7038",
         "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under Article VI, Section 26, how many readings in separate days must a bill undergo in each House before becoming a law?",
+        "question": "Under Article VI, Section 26, as a general rule, how many readings on separate days must a bill undergo in each House before becoming a law?",
         "choices": [
             "Four readings",
             "One reading",
@@ -491,7 +491,7 @@
             "Three readings"
         ],
         "correct_answer": "Three readings",
-        "explanation": "Article VI, Section 26(2) requires that no bill passed by either House shall become a law unless it has passed three readings on separate days."
+        "explanation": "Article VI, Section 26(2) requires that no bill passed by either House shall become a law unless it has passed three readings on separate days. The President may certify the necessity of immediate enactment to meet a public calamity or emergency, which permits the constitutional exception."
     },
     {
         "id": "7039",
@@ -963,7 +963,7 @@
     },
     {
         "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "What special court in the Philippines has exclusive jurisdiction over corruption cases involving public officials holding salary grade 27 and above?",
+        "question": "Which court has exclusive original jurisdiction over an RA 3019 case against a regional director classified at salary grade 27 at the time of the offense, where the information alleges government damage of more than one million pesos?",
         "choices": [
             "Regional Trial Court",
             "Sandiganbayan",
@@ -971,7 +971,7 @@
             "Court of Appeals"
         ],
         "correct_answer": "Sandiganbayan",
-        "explanation": "The Sandiganbayan is the anti-graft court tasked with hearing corruption cases against high-ranking government officials (salary grade 27 and above).",
+        "explanation": "Under Section 4 of PD 1606, as amended by RA 10660, qualifying RA 3019 cases involving regional directors classified at salary grade 27 or higher fall within the Sandiganbayan's exclusive original jurisdiction. The stated damage exceeds the one-million-peso threshold in the Regional Trial Court proviso.",
         "id": "7083"
     },
     {
@@ -1031,11 +1031,11 @@
         "question": "Who has the authority to declare the existence of a state of war under Article VI, Section 23?",
         "choices": [
             "The Department of National Defense",
-            "Congress, by a two-thirds vote of both Houses in joint session",
+            "Congress, by a two-thirds vote of both Houses in joint session, voting separately",
             "The President alone",
             "The Supreme Court"
         ],
-        "correct_answer": "Congress, by a two-thirds vote of both Houses in joint session",
+        "correct_answer": "Congress, by a two-thirds vote of both Houses in joint session, voting separately",
         "explanation": "Article VI, Section 23(1) mandates that Congress, by a vote of two-thirds of both Houses in joint session voting separately, has the sole power to declare the existence of a state of war.",
         "id": "7089"
     },
@@ -1067,7 +1067,7 @@
     },
     {
         "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Under Article XII, Section 2, what is the maximum percentage of foreign ownership allowed in corporations exploring natural resources in the Philippines?",
+        "question": "Under Article XII, Section 2, what is the maximum foreign ownership in a corporation entering a co-production, joint-venture, or production-sharing agreement with the State for natural resources?",
         "choices": [
             "60%",
             "30%",
@@ -1075,7 +1075,7 @@
             "50%"
         ],
         "correct_answer": "40%",
-        "explanation": "Article XII, Section 2 requires that co-production, joint venture, or production-sharing agreements for natural resources be made with Filipino citizens or corporations at least 60% owned by Filipinos (thus limiting foreign equity to 40%).",
+        "explanation": "Article XII, Section 2 requires that co-production, joint venture, or production-sharing agreements for natural resources be made with Filipino citizens or corporations at least 60% owned by Filipinos (thus limiting foreign equity to 40%). This question concerns those agreements, rather than the separately authorized agreements with foreign-owned corporations for large-scale mineral, petroleum and mineral-oil projects.",
         "id": "7093"
     },
     {
@@ -1224,15 +1224,15 @@
     {
         "id": "7105",
         "category": "General Information – Philippine Constitution & RA 6713",
-        "question": "Which of the following documents must all public officials file under oath to declare their financial assets?",
+        "question": "Under Section 8 of RA 6713, which financial declaration must covered public officials and employees file under oath?",
         "choices": [
             "Statement of Income and Expenses",
             "Personal Data Sheet",
-            "Statement of Assets and Liabilities",
+            "Statement of Assets, Liabilities and Net Worth (SALN)",
             "Bureau of Internal Revenue Form"
         ],
-        "correct_answer": "Statement of Assets and Liabilities",
-        "explanation": "Section 8 of RA 6713 requires all public officials and employees to file their SALN, including a disclosure of business interests and financial connections."
+        "correct_answer": "Statement of Assets, Liabilities and Net Worth (SALN)",
+        "explanation": "Section 8 requires covered public officials and employees to file a Statement of Assets, Liabilities and Net Worth and disclose business interests and financial connections. It expressly excepts honorary officials, laborers, and casual or temporary workers."
     },
     {
         "id": "7106",

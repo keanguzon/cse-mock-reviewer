@@ -171,20 +171,20 @@
   {
     "id": "18014",
     "category": "Verbal Ability – Reading Comprehension",
-    "question": "Read the passage and answer the question.\n\nEnvironmental conservation is a shared responsibility of government and citizens. The Philippine Clean Air Act (RA 8749) aims to achieve and maintain clean air that meets the National Air Quality guidelines. The law prohibits the use of incinerators and requires industries to install pollution control devices. It also establishes an air quality management fund for research and monitoring activities.\n\nWhat does the Philippine Clean Air Act prohibit?",
+    "question": "Read the passage and answer the question.\n\nEnvironmental conservation is a shared responsibility of government and citizens. The Philippine Clean Air Act (RA 8749) aims to achieve and maintain clean air that meets the National Air Quality guidelines. Section 20 prohibits incineration of municipal, biomedical and hazardous wastes when the burning process emits poisonous and toxic fumes. The law also provides for industrial pollution control. It also establishes an air quality management fund for research and monitoring activities.\n\nWhat does the Philippine Clean Air Act prohibit?",
     "choices": [
       "Construction of factories",
-      "Use of incinerators",
+      "Incineration of municipal, biomedical and hazardous wastes that emits poisonous and toxic fumes",
       "Use of public transportation",
       "Use of renewable energy"
     ],
-    "correct_answer": "Use of incinerators",
-    "explanation": "The passage states that 'The law prohibits the use of incinerators.'"
+    "correct_answer": "Incineration of municipal, biomedical and hazardous wastes that emits poisonous and toxic fumes",
+    "explanation": "The passage identifies the prohibited incineration by its waste categories and its emission of poisonous and toxic fumes."
   },
   {
     "id": "18015",
     "category": "Verbal Ability – Reading Comprehension",
-    "question": "Read the passage and answer the question.\n\nEnvironmental conservation is a shared responsibility of government and citizens. The Philippine Clean Air Act (RA 8749) aims to achieve and maintain clean air that meets the National Air Quality guidelines. The law prohibits the use of incinerators and requires industries to install pollution control devices. It also establishes an air quality management fund for research and monitoring activities.\n\nWhat is the purpose of the air quality management fund mentioned in the passage?",
+    "question": "Read the passage and answer the question.\n\nEnvironmental conservation is a shared responsibility of government and citizens. The Philippine Clean Air Act (RA 8749) aims to achieve and maintain clean air that meets the National Air Quality guidelines. Section 20 prohibits incineration of municipal, biomedical and hazardous wastes when the burning process emits poisonous and toxic fumes. The law also provides for industrial pollution control. It also establishes an air quality management fund for research and monitoring activities.\n\nWhat is the purpose of the air quality management fund mentioned in the passage?",
     "choices": [
       "To build new government offices",
       "To fund research and monitoring activities",
@@ -768,7 +768,7 @@
   },
   {
     "category": "Verbal Ability – Reading Comprehension",
-    "question": "Read the passage carefully and answer the question:\n\n\"The tubataha Reefs Natural Park, located in the Sulu Sea, is a UNESCO World Heritage Site protected under Philippine national law. Due to its isolated location and strict conservation enforcement, Tubataha boasts an extraordinary density of marine apex predators such as tiger sharks and hammerheads. Marine biologists consider the health of Tubataha's predator population a key indicator of a thriving, well-balanced marine ecosystem.\"\n\nWhy is the presence of apex predators in Tubataha significant?",
+    "question": "Read the passage carefully and answer the question:\n\n\"The Tubbataha Reefs Natural Park, located in the Sulu Sea, is a UNESCO World Heritage Site protected under Philippine national law. Due to its isolated location and strict conservation enforcement, Tubbataha boasts an extraordinary density of marine apex predators such as tiger sharks and hammerheads. Marine biologists consider the health of Tubbataha's predator population a key indicator of a thriving, well-balanced marine ecosystem.\"\n\nWhy is the presence of apex predators in Tubbataha significant?",
     "choices": [
       "It shows that the park lacks smaller fish species.",
       "It indicates that fishing laws are not being enforced.",
@@ -776,12 +776,12 @@
       "It serves as a key indicator of a healthy and balanced marine ecosystem."
     ],
     "correct_answer": "It serves as a key indicator of a healthy and balanced marine ecosystem.",
-    "explanation": "The passage notes: 'Marine biologists consider the health of Tubataha's predator population a key indicator of a thriving, well-balanced marine ecosystem.'",
+    "explanation": "The passage notes: 'Marine biologists consider the health of Tubbataha's predator population a key indicator of a thriving, well-balanced marine ecosystem.'",
     "id": "18060"
   },
   {
     "category": "Verbal Ability – Reading Comprehension",
-    "question": "Read the passage carefully and answer the question:\n\n\"Plastic pollution in oceans poses a severe hazard to marine fauna. Sea turtles, for instance, frequently mistake floating plastic bags for jellyfish—their primary food source. Ingesting plastic causes internal blockages, malnutrition, and eventual starvation. Without comprehensive global agreements to reduce single-use plastic production, marine species will continue to suffer devastating population declines.\"\n\nWhy do sea turtles ingest plastic bags?",
+    "question": "Read the passage carefully and answer the question:\n\n\"Plastic pollution in oceans poses a severe hazard to marine fauna. Leatherback sea turtles, for instance, eat soft-bodied prey such as jellyfish and may mistake floating plastic bags for prey. Ingesting plastic causes internal blockages, malnutrition, and eventual starvation. Without comprehensive global agreements to reduce single-use plastic production, marine species will continue to suffer devastating population declines.\"\n\nAccording to the passage, why may leatherback sea turtles ingest plastic bags?",
     "choices": [
       "They ingest plastic to sharpen their beaks.",
       "They use plastic to build underwater nests.",
@@ -789,12 +789,12 @@
       "They mistake floating plastic bags for jellyfish."
     ],
     "correct_answer": "They mistake floating plastic bags for jellyfish.",
-    "explanation": "The text explicitly says: 'Sea turtles, for instance, frequently mistake floating plastic bags for jellyfish—their primary food source.'",
+    "explanation": "The passage explains that leatherbacks eat prey such as jellyfish and may mistake floating plastic bags for prey.",
     "id": "18061"
   },
   {
     "category": "Verbal Ability – Reading Comprehension",
-    "question": "Read the passage carefully and answer the question:\n\n\"The Data Privacy Act of 2012 (Republic Act No. 10173) was enacted in the Philippines to protect individual personal information in information and communications systems. It mandates that organizations collecting personal data must obtain explicit consent and implement reasonable security measures against unauthorized access. Failure to comply can result in severe criminal penalties and substantial administrative fines.\"\n\nWhat is the main objective of RA 10173?",
+    "question": "Read the passage carefully and answer the question:\n\n\"The Data Privacy Act of 2012 (Republic Act No. 10173) was enacted in the Philippines to protect individual personal information in information and communications systems. It requires a lawful basis for processing personal information, which may be consent, a contractual necessity, or another basis provided by law. Organizations must also implement reasonable and appropriate security measures against unauthorized access. Failure to comply can result in severe criminal penalties and substantial administrative fines.\"\n\nWhat is the main objective of RA 10173?",
     "choices": [
       "To ban all online financial transactions.",
       "To regulate social media influencer content.",
@@ -807,15 +807,15 @@
   },
   {
     "category": "Verbal Ability – Reading Comprehension",
-    "question": "Read the passage carefully and answer the question:\n\n\"The practice of mindfulness involves paying deliberate, non-judgmental attention to the present moment. Psychological studies indicate that practicing mindfulness for just ten minutes daily reduces cortisol levels—the body's primary stress hormone. Consequently, practitioners report lower anxiety, improved emotional regulation, and enhanced focus during demanding tasks at work.\"\n\nAccording to the text, how does mindfulness physically affect the body?",
+    "question": "Read the passage carefully and answer the question:\n\n\"Mindfulness meditation involves paying deliberate attention to the present moment without judging the experience. Research suggests that mindfulness meditation may help reduce symptoms of stress, although effects vary and more research is needed. These findings do not establish that a fixed number of minutes guarantees a particular physical change.\"\n\nWhich conclusion is supported by the passage?",
     "choices": [
-      "It doubles adrenaline production.",
-      "It increases heart rate during sleep.",
-      "It lowers cortisol levels.",
-      "It eliminates the need for physical exercise."
+      "Mindfulness guarantees the same result for everyone.",
+      "Ten minutes of practice always lowers cortisol.",
+      "Mindfulness may help reduce stress symptoms, but its effects vary.",
+      "Mindfulness eliminates the need for medical care."
     ],
-    "correct_answer": "It lowers cortisol levels.",
-    "explanation": "The text explicitly mentions that mindfulness 'reduces cortisol levels—the body's primary stress hormone.'",
+    "correct_answer": "Mindfulness may help reduce stress symptoms, but its effects vary.",
+    "explanation": "The passage describes a possible benefit for stress symptoms while explicitly qualifying the evidence and variation in effects.",
     "id": "18063"
   },
   {
@@ -937,7 +937,7 @@
   },
   {
     "category": "Verbal Ability – Reading Comprehension",
-    "question": "Read the passage carefully and answer the question:\n\n\"Fast fashion refers to the rapid production of inexpensive, trendy clothing to meet high consumer demand. While it allows consumers to stay fashionable at low costs, the industry generates immense environmental degradation. Textline dyeing is a major polluter of freshwater sources, and millions of tons of discarded synthetic clothes end up in landfills annually, where they decompose very slowly.\"\n\nWhat is 'fast fashion' as defined in the text?",
+    "question": "Read the passage carefully and answer the question:\n\n\"Fast fashion refers to the rapid production of inexpensive, trendy clothing to meet high consumer demand. While it allows consumers to stay fashionable at low costs, the industry generates immense environmental degradation. Textile dyeing is a major polluter of freshwater sources, and millions of tons of discarded synthetic clothes end up in landfills annually, where they decompose very slowly.\"\n\nWhat is 'fast fashion' as defined in the text?",
     "choices": [
       "Organic garments made entirely from recycled cotton.",
       "Handcrafted luxury clothing designed to last decades.",
@@ -950,15 +950,15 @@
   },
   {
     "category": "Verbal Ability – Reading Comprehension",
-    "question": "Read the passage carefully and answer the question:\n\n\"The Philippine Clean Air Act of 1999 (Republic Act No. 8749) outlines a comprehensive air pollution control policy for the nation. It sets emission standards for industrial plants and motor vehicles while banning incinerators for municipal waste disposal. Local government units are tasked with monitoring ambient air quality and promoting clean alternative fuels within their jurisdictions.\"\n\nWhat specific waste disposal method is banned under RA 8749?",
+    "question": "Read the passage carefully and answer the question:\n\n\"The Philippine Clean Air Act of 1999 (Republic Act No. 8749) outlines a comprehensive air pollution control policy for the nation. It sets emission standards for industrial plants and motor vehicles while prohibiting incineration of municipal, biomedical and hazardous wastes when the burning process emits poisonous and toxic fumes. Local government units are tasked with monitoring ambient air quality and promoting clean alternative fuels within their jurisdictions.\"\n\nAccording to the passage, which waste disposal process does Section 20 prohibit?",
     "choices": [
       "Recycling plastic containers.",
       "Landfill burial.",
       "Composting organic waste.",
-      "Incinerators for municipal waste."
+      "Incineration of municipal, biomedical and hazardous wastes that emits poisonous and toxic fumes."
     ],
-    "correct_answer": "Incinerators for municipal waste.",
-    "explanation": "The passage mentions that the law is 'banning incinerators for municipal waste disposal.'",
+    "correct_answer": "Incineration of municipal, biomedical and hazardous wastes that emits poisonous and toxic fumes.",
+    "explanation": "The passage qualifies the prohibition by both the waste categories and the emission of poisonous and toxic fumes.",
     "id": "18074"
   },
   {

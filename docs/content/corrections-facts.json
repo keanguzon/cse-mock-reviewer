@@ -1,0 +1,2068 @@
+{
+  "review_date": "2026-10-21",
+  "scope": "Assigned factual, legal and paragraph presentation corrections; not independent certification of the complete bank.",
+  "corrections": [
+    {
+      "id": "7038",
+      "old_issue": "Three readings stated without constitutional exception.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/consti/cons1987.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Under Article VI, Section 26, as a general rule, how many readings on separate days must a bill undergo in each House before becoming a law?",
+        "correct_answer": "Three readings",
+        "explanation": "Article VI, Section 26(2) requires that no bill passed by either House shall become a law unless it has passed three readings on separate days. The President may certify the necessity of immediate enactment to meet a public calamity or emergency, which permits the constitutional exception."
+      }
+    },
+    {
+      "id": "7083",
+      "old_issue": "Salary grade alone treated as sufficient for jurisdiction.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra2015/ra_10660_2015.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Which court has exclusive original jurisdiction over an RA 3019 case against a regional director classified at salary grade 27 at the time of the offense, where the information alleges government damage of more than one million pesos?",
+        "correct_answer": "Sandiganbayan",
+        "explanation": "Under Section 4 of PD 1606, as amended by RA 10660, qualifying RA 3019 cases involving regional directors classified at salary grade 27 or higher fall within the Sandiganbayan's exclusive original jurisdiction. The stated damage exceeds the one-million-peso threshold in the Regional Trial Court proviso."
+      }
+    },
+    {
+      "id": "7089",
+      "old_issue": "Key omitted separate voting.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/consti/cons1987.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Who has the authority to declare the existence of a state of war under Article VI, Section 23?",
+        "correct_answer": "Congress, by a two-thirds vote of both Houses in joint session, voting separately",
+        "explanation": "Article VI, Section 23(1) mandates that Congress, by a vote of two-thirds of both Houses in joint session voting separately, has the sole power to declare the existence of a state of war."
+      }
+    },
+    {
+      "id": "7093",
+      "old_issue": "Foreign-equity limit applied to all resource exploration.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/consti/cons1987.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Under Article XII, Section 2, what is the maximum foreign ownership in a corporation entering a co-production, joint-venture, or production-sharing agreement with the State for natural resources?",
+        "correct_answer": "40%",
+        "explanation": "Article XII, Section 2 requires that co-production, joint venture, or production-sharing agreements for natural resources be made with Filipino citizens or corporations at least 60% owned by Filipinos (thus limiting foreign equity to 40%). This question concerns those agreements, rather than the separately authorized agreements with foreign-owned corporations for large-scale mineral, petroleum and mineral-oil projects."
+      }
+    },
+    {
+      "id": "7105",
+      "old_issue": "SALN obligation falsely universal.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Under Section 8 of RA 6713, which financial declaration must covered public officials and employees file under oath?",
+        "correct_answer": "Statement of Assets, Liabilities and Net Worth (SALN)",
+        "explanation": "Section 8 requires covered public officials and employees to file a Statement of Assets, Liabilities and Net Worth and disclose business interests and financial connections. It expressly excepts honorary officials, laborers, and casual or temporary workers."
+      }
+    },
+    {
+      "id": "8003",
+      "old_issue": "Region count omitted Negros Island Region.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra2024/ra_12000_2024.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Following the establishment of the Negros Island Region under RA 12000 in June 2024, how many administrative regions did the Philippines have?",
+        "correct_answer": "18",
+        "explanation": "RA 12000 established the Negros Island Region, bringing the number of administrative regions from 17 to 18."
+      }
+    },
+    {
+      "id": "8006",
+      "old_issue": "Correct choice labeled itself national hero.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Which choice gives Jose Rizal's complete name?",
+        "correct_answer": "Jose Protasio Rizal Mercado y Alonso Realonda",
+        "explanation": "Jose Rizal is the Philippines' national hero, known for his novels Noli Me Tangere and El Filibusterismo."
+      }
+    },
+    {
+      "id": "8047",
+      "old_issue": "National motto confused with coat-of-arms inscription.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra1998/ra_8491_1998.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "What is the national motto of the Philippines under Section 40 of RA 8491?",
+        "correct_answer": "Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa",
+        "explanation": "RA 8491 (Flag and Heraldic Code) designates 'Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa' as the National Motto. Section 41 separately specifies REPUBLIKA NG PILIPINAS on the coat-of-arms scroll."
+      }
+    },
+    {
+      "id": "8049",
+      "old_issue": "Directional annotations leak answer.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Which sea borders the Philippines to the west?",
+        "correct_answer": "West Philippine Sea",
+        "explanation": "The West Philippine Sea (South China Sea) borders the Philippines to the west, while the Philippine Sea borders to the east."
+      }
+    },
+    {
+      "id": "8061",
+      "old_issue": "2015 adoption called signing.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://unfccc.int/process-and-meetings/the-paris-agreement"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "What international treaty adopted in 2015 aims to limit global warming to well below 2 degrees Celsius above pre-industrial levels?",
+        "correct_answer": "Paris Agreement",
+        "explanation": "The Paris Agreement is a legally binding international treaty on climate change adopted at COP21 in Paris in December 2015."
+      }
+    },
+    {
+      "id": "8097",
+      "old_issue": "Senior discount implied all commercial goods.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra2010/ra_9994_2010.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Republic Act No. 9994 is commonly known as the:",
+        "correct_answer": "Expanded Senior Citizens Act of 2010",
+        "explanation": "RA 9994 is the Expanded Senior Citizens Act of 2010. Its 20% discount and VAT exemption apply to enumerated qualifying goods and services for eligible resident Filipino senior citizens aged 60 or older, subject to statutory conditions."
+      }
+    },
+    {
+      "id": "18014",
+      "old_issue": "Shared passage overstated incineration ban.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra1999/ra_8749_1999.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Read the passage and answer the question.\n\nEnvironmental conservation is a shared responsibility of government and citizens. The Philippine Clean Air Act (RA 8749) aims to achieve and maintain clean air that meets the National Air Quality guidelines. Section 20 prohibits incineration of municipal, biomedical and hazardous wastes when the burning process emits poisonous and toxic fumes. The law also provides for industrial pollution control. It also establishes an air quality management fund for research and monitoring activities.\n\nWhat does the Philippine Clean Air Act prohibit?",
+        "correct_answer": "Incineration of municipal, biomedical and hazardous wastes that emits poisonous and toxic fumes",
+        "explanation": "The passage identifies the prohibited incineration by its waste categories and its emission of poisonous and toxic fumes."
+      }
+    },
+    {
+      "id": "18015",
+      "old_issue": "Shared passage overstated incineration ban.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra1999/ra_8749_1999.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Read the passage and answer the question.\n\nEnvironmental conservation is a shared responsibility of government and citizens. The Philippine Clean Air Act (RA 8749) aims to achieve and maintain clean air that meets the National Air Quality guidelines. Section 20 prohibits incineration of municipal, biomedical and hazardous wastes when the burning process emits poisonous and toxic fumes. The law also provides for industrial pollution control. It also establishes an air quality management fund for research and monitoring activities.\n\nWhat is the purpose of the air quality management fund mentioned in the passage?",
+        "correct_answer": "To fund research and monitoring activities",
+        "explanation": "The passage states that the fund is established 'for research and monitoring activities.'"
+      }
+    },
+    {
+      "id": "18074",
+      "old_issue": "Incineration prohibition omitted emission qualification.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra1999/ra_8749_1999.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Read the passage carefully and answer the question:\n\n\"The Philippine Clean Air Act of 1999 (Republic Act No. 8749) outlines a comprehensive air pollution control policy for the nation. It sets emission standards for industrial plants and motor vehicles while prohibiting incineration of municipal, biomedical and hazardous wastes when the burning process emits poisonous and toxic fumes. Local government units are tasked with monitoring ambient air quality and promoting clean alternative fuels within their jurisdictions.\"\n\nAccording to the passage, which waste disposal process does Section 20 prohibit?",
+        "correct_answer": "Incineration of municipal, biomedical and hazardous wastes that emits poisonous and toxic fumes.",
+        "explanation": "The passage qualifies the prohibition by both the waste categories and the emission of poisonous and toxic fumes."
+      }
+    },
+    {
+      "id": "18062",
+      "old_issue": "Consent presented as only lawful data-processing basis.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://privacy.gov.ph/data-privacy-act/"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Read the passage carefully and answer the question:\n\n\"The Data Privacy Act of 2012 (Republic Act No. 10173) was enacted in the Philippines to protect individual personal information in information and communications systems. It requires a lawful basis for processing personal information, which may be consent, a contractual necessity, or another basis provided by law. Organizations must also implement reasonable and appropriate security measures against unauthorized access. Failure to comply can result in severe criminal penalties and substantial administrative fines.\"\n\nWhat is the main objective of RA 10173?",
+        "correct_answer": "To safeguard personal data collected by organizations.",
+        "explanation": "The passage states it was enacted 'to protect individual personal information in information and communications systems.'"
+      }
+    },
+    {
+      "id": "18060",
+      "old_issue": "Tubbataha misspelled.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://whc.unesco.org/en/list/653/"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Read the passage carefully and answer the question:\n\n\"The Tubbataha Reefs Natural Park, located in the Sulu Sea, is a UNESCO World Heritage Site protected under Philippine national law. Due to its isolated location and strict conservation enforcement, Tubbataha boasts an extraordinary density of marine apex predators such as tiger sharks and hammerheads. Marine biologists consider the health of Tubbataha's predator population a key indicator of a thriving, well-balanced marine ecosystem.\"\n\nWhy is the presence of apex predators in Tubbataha significant?",
+        "correct_answer": "It serves as a key indicator of a healthy and balanced marine ecosystem.",
+        "explanation": "The passage notes: 'Marine biologists consider the health of Tubbataha's predator population a key indicator of a thriving, well-balanced marine ecosystem.'"
+      }
+    },
+    {
+      "id": "18073",
+      "old_issue": "Textile misspelled as Textline.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Read the passage carefully and answer the question:\n\n\"Fast fashion refers to the rapid production of inexpensive, trendy clothing to meet high consumer demand. While it allows consumers to stay fashionable at low costs, the industry generates immense environmental degradation. Textile dyeing is a major polluter of freshwater sources, and millions of tons of discarded synthetic clothes end up in landfills annually, where they decompose very slowly.\"\n\nWhat is 'fast fashion' as defined in the text?",
+        "correct_answer": "Rapidly produced, affordable clothing aimed at keeping up with trends.",
+        "explanation": "The passage defines fast fashion as 'the rapid production of inexpensive, trendy clothing to meet high consumer demand.'"
+      }
+    },
+    {
+      "id": "18061",
+      "old_issue": "All sea turtles described as primarily eating jellyfish.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://www.fisheries.noaa.gov/species/leatherback-turtle"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Read the passage carefully and answer the question:\n\n\"Plastic pollution in oceans poses a severe hazard to marine fauna. Leatherback sea turtles, for instance, eat soft-bodied prey such as jellyfish and may mistake floating plastic bags for prey. Ingesting plastic causes internal blockages, malnutrition, and eventual starvation. Without comprehensive global agreements to reduce single-use plastic production, marine species will continue to suffer devastating population declines.\"\n\nAccording to the passage, why may leatherback sea turtles ingest plastic bags?",
+        "correct_answer": "They mistake floating plastic bags for jellyfish.",
+        "explanation": "The passage explains that leatherbacks eat prey such as jellyfish and may mistake floating plastic bags for prey."
+      }
+    },
+    {
+      "id": "18063",
+      "old_issue": "Unsupported precise ten-minute cortisol claim.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://www.nccih.nih.gov/health/stress"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Read the passage carefully and answer the question:\n\n\"Mindfulness meditation involves paying deliberate attention to the present moment without judging the experience. Research suggests that mindfulness meditation may help reduce symptoms of stress, although effects vary and more research is needed. These findings do not establish that a fixed number of minutes guarantees a particular physical change.\"\n\nWhich conclusion is supported by the passage?",
+        "correct_answer": "Mindfulness may help reduce stress symptoms, but its effects vary.",
+        "explanation": "The passage describes a possible benefit for stress symptoms while explicitly qualifying the evidence and variation in effects."
+      }
+    },
+    {
+      "id": "17021",
+      "old_issue": "Procurement described RA 9184 as sole current framework.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra2024/ra_12009_2024.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) First, an invitation to bid is publicly advertised to ensure competitive bidding.\n(2) After receiving the bid proposals, the Bids and Awards Committee (BAC) evaluates each submission.\n(3) The following simplified sequence describes competitive bidding under the former procurement framework of Republic Act No. 9184.\n(4) Once evaluated, the contract is awarded to the lowest calculated responsive bidder.",
+        "correct_answer": "3-1-2-4",
+        "explanation": "Sentence 3 introduces RA 9184. Sentence 1 describes the first step ('First'). Sentence 2 describes the next step ('After receiving'). Sentence 4 concludes with the award ('Once evaluated'). The paragraph is explicitly historical: RA 12009 introduced the New Government Procurement Act and repealed RA 9184, with transitional provisions."
+      }
+    },
+    {
+      "id": "17023",
+      "old_issue": "Four-phase introduction followed only preparation/authorization.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://www.dbm.gov.ph/images/pdffiles/2024-Peoples-Proposed-Budget.pdf"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) It begins with Budget Preparation, where executive agencies formulate their budget requirements.\n(2) Finally, after congressional approval, the President signs the General Appropriations Act.\n(3) Subsequently, the budget proposal is submitted to Congress for review and approval.\n(4) The preparation and legislative approval of the Philippine national budget involve several steps.",
+        "correct_answer": "4-1-3-2",
+        "explanation": "Sentence 4 introduces preparation and legislative approval. Sentence 1 starts chronological flow ('It begins'). Sentence 3 describes the next phase ('Subsequently'). Sentence 2 completes the flow ('Finally')."
+      }
+    },
+    {
+      "id": "17045",
+      "old_issue": "Divestment deadline incorrectly thirty days.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra1989/ra_6713_1989.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Where a conflict of interest arises, Section 9 requires resignation from a private-business position within thirty days and/or divestment of shareholdings or interests within sixty days from assumption of office.\n(2) Therefore, public officers must divest from business interests that conflict with their duties.\n(3) Conflict of interest arises when a public official's private interest influences official actions.\n(4) RA 6713 establishes ethical standards for public officials and employees.",
+        "correct_answer": "4-3-2-1",
+        "explanation": "Sentence 4 introduces RA 6713. Sentence 3 defines conflict of interest. Sentence 2 states the duty ('Therefore... must divest'). Sentence 1 specifies the distinct resignation and divestment deadlines."
+      }
+    },
+    {
+      "id": "17088",
+      "old_issue": "Unqualified Great Wall visibility claim. Displayed sentences were already in keyed coherent order.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue. Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [
+        "https://whc.unesco.org/en/list/438/"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Over centuries, different emperors added onto and fortified the existing walls.\nB. The Great Wall of China is an extensive system of historic defensive structures.\nC. Today, it stands not as a military defense, but as a symbol of Chinese historical resilience.\nD. It was originally built by various dynasties to protect against nomadic invasions.",
+        "correct_answer": "B-D-A-C",
+        "explanation": "B introduces the Great Wall. D explains its original purpose. A explains its historical development. C explains its modern significance."
+      }
+    },
+    {
+      "id": "17016",
+      "old_issue": "Obsolete POLO naming and questionable service attribution.",
+      "change": "Corrected question, choices and/or explanation to remove the stated issue.",
+      "sources": [
+        "https://lawphil.net/statutes/repacts/ra2021/ra_11641_2021.html"
+      ],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) It was established to protect the rights and promote the welfare of overseas Filipino workers.\n(2) Through its services, OFWs receive assistance with employment contracts and labor disputes.\n(3) The Department of Migrant Workers (DMW) is the Philippine department responsible for overseas employment and migrant-worker welfare.\n(4) In addition, it promotes the reintegration of returning overseas Filipino workers.",
+        "correct_answer": "3-1-2-4",
+        "explanation": "Sentence 3 introduces the DMW. Sentence 1 states its mandate. Sentence 2 describes its services. Sentence 4 adds another service ('In addition')."
+      }
+    },
+    {
+      "id": "17051",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. For instance, the healthcare sector uses AI to diagnose diseases with high precision.\nB. The rapid advancement of artificial intelligence has transformed various industries.\nC. Therefore, strict regulations are needed to balance innovation and security.\nD. However, this technological leap also brings ethical and privacy concerns.",
+        "correct_answer": "B-A-D-C",
+        "explanation": "B introduces the main topic (AI advancement). A provides a specific example (healthcare). D shifts the tone by introducing a complication (ethical concerns). C concludes with a proposed solution (regulations)."
+      }
+    },
+    {
+      "id": "17052",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Finally zipping her suitcase, she rushed down the stairs.\nB. She packed her bags hurriedly, glancing at the clock every few minutes.\nC. Once inside the cab, she let out a deep sigh of relief.\nD. The taxi honked twice, signaling its arrival in the driveway.",
+        "correct_answer": "B-D-A-C",
+        "explanation": "The sequence follows a chronological narrative: packing bags (B), taxi arriving (D), running downstairs (A), and finally getting in the taxi (C)."
+      }
+    },
+    {
+      "id": "17053",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. This urgent situation calls for immediate global action to reduce carbon emissions.\nB. As a result, low-lying communities are constantly facing the danger of flooding.\nC. Climate change is no longer a distant threat but a present reality.\nD. Extreme weather events, such as super typhoons, are becoming more frequent.",
+        "correct_answer": "C-D-B-A",
+        "explanation": "C states the general premise. D gives evidence (extreme weather). B explains the effect of this evidence (flooding in communities). A provides the concluding call to action."
+      }
+    },
+    {
+      "id": "17054",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Next, grind the beans to the appropriate coarseness for your brewing method.\nB. Finally, let the coffee steep before pouring it into your favorite mug.\nC. Then, pour hot water evenly over the grounds to allow proper extraction.\nD. To prepare a good cup of coffee, start by selecting freshly roasted beans.",
+        "correct_answer": "D-A-C-B",
+        "explanation": "The sentences use clear transitional words indicating sequence: 'start by' (D), 'Next' (A), 'Then' (C), and 'Finally' (B)."
+      }
+    },
+    {
+      "id": "17055",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. In contrast, it will impose higher levies on luxury goods and services.\nB. Many economists believe this strategy will stimulate domestic consumption.\nC. This package aims to lower income taxes for the middle class.\nD. The government announced a new comprehensive tax reform package.",
+        "correct_answer": "D-C-A-B",
+        "explanation": "D introduces the tax package. C explains the primary benefit (lower income taxes). A presents the counterpart (higher levies on luxury). B provides an expert conclusion on the overall effect."
+      }
+    },
+    {
+      "id": "17056",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. This instantaneous connection has essentially made the world a global village.\nB. The invention of the internet revolutionized human communication.\nC. Today, people can connect via video calls in mere seconds.\nD. Before its existence, sending a message across the globe took weeks.",
+        "correct_answer": "B-D-C-A",
+        "explanation": "B introduces the internet. D contrasts the past. C contrasts the present. A concludes on the overall impact (global village)."
+      }
+    },
+    {
+      "id": "17057",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Furthermore, it exposes you to different perspectives and cultures.\nB. Reading regularly expands your vocabulary and improves your focus.\nC. Indeed, a child who reads will likely become a lifelong learner.\nD. Because of these cognitive benefits, educators strongly encourage reading from a young age.",
+        "correct_answer": "B-A-D-C",
+        "explanation": "B states the first benefit. A adds another benefit ('Furthermore'). D draws a conclusion based on 'these cognitive benefits'. C reinforces the conclusion with a final thought."
+      }
+    },
+    {
+      "id": "17058",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Consequently, they easily fall into the trap of credit card debt.\nB. Financial literacy is an essential skill that is often overlooked in schools.\nC. To prevent this, basic personal finance should be integrated into the high school curriculum.\nD. Many young adults enter the workforce without knowing how to budget their salaries.",
+        "correct_answer": "B-D-A-C",
+        "explanation": "B states the main problem (lack of financial literacy). D provides a specific manifestation of the problem (no budgeting). A explains the consequence (debt). C offers the solution (curriculum integration)."
+      }
+    },
+    {
+      "id": "17059",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. This blend of the old and the new gives the city its unique charm.\nB. Just a few kilometers away, modern skyscrapers tower over the business districts.\nC. Manila is a bustling metropolis known for its rich history and vibrant culture.\nD. Intramuros, the historic walled city, stands as a testament to its colonial past.",
+        "correct_answer": "C-D-B-A",
+        "explanation": "C introduces Manila. D gives an example of the old (Intramuros). B gives an example of the new (skyscrapers). A summarizes the blend of old and new."
+      }
+    },
+    {
+      "id": "17060",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Carbohydrates provide the primary source of energy for daily activities.\nB. Without a proper mix of these macronutrients, one's health will eventually deteriorate.\nC. Proteins, on the other hand, are crucial for repairing tissues and building muscles.\nD. The human body requires a balanced diet to function optimally.",
+        "correct_answer": "D-A-C-B",
+        "explanation": "D states the topic (balanced diet). A discusses the first element (carbohydrates). C discusses the second element (proteins). B concludes by stating what happens without them."
+      }
+    },
+    {
+      "id": "17061",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Once the requirements are clear, the developers begin writing the actual code.\nB. Finally, the quality assurance team tests the software for bugs before deployment.\nC. The first phase involves gathering requirements from the client.\nD. Developing a new software application requires a systematic approach.",
+        "correct_answer": "D-C-A-B",
+        "explanation": "D introduces the topic. C details the first phase. A details the next phase ('Once the requirements are clear'). B details the final phase ('Finally')."
+      }
+    },
+    {
+      "id": "17062",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Thus, maintaining an active lifestyle is beneficial for both the body and the mind.\nB. Regular exercise is known to boost cardiovascular health.\nC. In addition to physical benefits, working out releases endorphins that improve mood.\nD. It strengthens the heart muscle and improves blood circulation.",
+        "correct_answer": "B-D-C-A",
+        "explanation": "B introduces the physical benefit. D explains how the physical benefit works. C introduces the mental benefit. A concludes by summarizing both physical and mental benefits."
+      }
+    },
+    {
+      "id": "17063",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. In the mid-20th century, this fascination culminated in the space race.\nB. Space exploration has always fascinated humanity.\nC. Today, the focus has shifted from the moon towards missions aimed at Mars.\nD. This fierce competition eventually led to the historic Apollo 11 moon landing.",
+        "correct_answer": "B-A-D-C",
+        "explanation": "Chronological order: B (General fascination), A (mid-20th century space race), D (result of the space race - moon landing), C (Today's focus on Mars)."
+      }
+    },
+    {
+      "id": "17064",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. With a solid plan in place, entrepreneurs can seek funding from investors.\nB. A successful business starts with a clear and compelling vision.\nC. Once capital is secured, the actual operations of the business can commence.\nD. This vision must then be translated into a practical business plan.",
+        "correct_answer": "B-D-A-C",
+        "explanation": "Logical progression: Vision (B) -> Business Plan (D) -> Funding (A) -> Operations (C)."
+      }
+    },
+    {
+      "id": "17065",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. If this destruction continues, we will lose these magnificent creatures forever.\nB. As the forests disappear, animals lose their source of food and shelter.\nC. Many endangered species are on the brink of extinction due to habitat loss.\nD. Deforestation, driven by illegal logging and urban expansion, is the primary culprit.",
+        "correct_answer": "C-D-B-A",
+        "explanation": "C states the problem (endangered species and habitat loss). D identifies the cause of habitat loss (deforestation). B explains how the cause affects the animals. A provides a warning for the future."
+      }
+    },
+    {
+      "id": "17066",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Commuters frequently complain about the frequent train breakdowns.\nB. To resolve these issues, the local government must invest in infrastructure upgrades.\nC. Moreover, the buses are often overcrowded and stuck in heavy traffic.\nD. Public transportation in the city has been severely criticized lately.",
+        "correct_answer": "D-A-C-B",
+        "explanation": "D states the main idea (criticism of public transport). A gives the first complaint (trains). C gives the second complaint (buses). B proposes a solution to these issues."
+      }
+    },
+    {
+      "id": "17067",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. However, it has negatively impacted traditional brick-and-mortar stores.\nB. Many physical shops have been forced to close down due to a lack of foot traffic.\nC. It offers unparalleled convenience, allowing consumers to buy goods from home.\nD. Online shopping has become a dominant force in the retail industry.",
+        "correct_answer": "D-C-A-B",
+        "explanation": "D introduces online shopping. C explains its main advantage. A introduces the contrasting negative impact on physical stores. B gives a specific example of that negative impact (closing down)."
+      }
+    },
+    {
+      "id": "17068",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. By sticking to the routine, they can avoid the stress of last-minute cramming.\nB. Effective time management is crucial for academic success.\nC. This schedule helps them allocate sufficient time for each subject.\nD. Students should begin by creating a weekly study schedule.",
+        "correct_answer": "B-D-C-A",
+        "explanation": "B introduces the topic. D suggests the first step (create a schedule). C explains the function of the schedule. A explains the ultimate benefit of following it."
+      }
+    },
+    {
+      "id": "17069",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Its pristine beaches and crystal-clear waters attract millions of tourists annually.\nB. The Philippines is an archipelago blessed with stunning natural resources.\nC. These ecological wonders make it a premier destination for nature lovers.\nD. Beyond its beaches, the country also boasts lush mountains and diverse wildlife.",
+        "correct_answer": "B-A-D-C",
+        "explanation": "B introduces the Philippines' resources. A highlights one aspect (beaches). D highlights another aspect (mountains/wildlife). C concludes by summarizing its appeal to nature lovers."
+      }
+    },
+    {
+      "id": "17070",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. With consistent practice, however, constructing sentences becomes second nature.\nB. Learning a second language can be a challenging but rewarding endeavor.\nC. Eventually, you gain the ability to fluently converse with native speakers.\nD. At first, memorizing new vocabulary and grammar rules feels overwhelming.",
+        "correct_answer": "B-D-A-C",
+        "explanation": "Chronological progression of learning: B (General statement), D (At first/Initial struggle), A (With practice/Progress), C (Eventually/Fluency)."
+      }
+    },
+    {
+      "id": "17071",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. By transitioning to these green alternatives, we can significantly reduce our carbon footprint.\nB. Similarly, wind turbines generate clean electricity using natural air currents.\nC. Renewable energy is the key to combating global warming.\nD. Solar power, for instance, harnesses energy directly from the sun without emissions.",
+        "correct_answer": "C-D-B-A",
+        "explanation": "C introduces the topic. D gives the first example (solar). B gives a second, similar example (wind). A concludes on the benefit of these alternatives."
+      }
+    },
+    {
+      "id": "17072",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Ironically, studies show that excessive use can lead to feelings of isolation.\nB. This unhealthy comparison breeds anxiety and depression among teenagers.\nC. Users often compare their behind-the-scenes lives to the highlight reels of others.\nD. Social media was designed to connect people across the world.",
+        "correct_answer": "D-A-C-B",
+        "explanation": "D states the original intent. A introduces the irony (isolation). C explains the mechanism behind the irony (unhealthy comparisons). B states the final consequence (anxiety)."
+      }
+    },
+    {
+      "id": "17073",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Conversely, adding too much liquid will prevent the center from baking properly.\nB. Therefore, always use measuring cups and spoons to ensure the right proportions.\nC. If you use too much flour, the cake will turn out dry and dense.\nD. To bake a perfect cake, accurate measurements are absolutely vital.",
+        "correct_answer": "D-C-A-B",
+        "explanation": "D states the main rule (measurements are vital). C gives the first consequence of failing the rule (too much flour). A gives the second consequence (too much liquid). B concludes with the practical advice."
+      }
+    },
+    {
+      "id": "17074",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. To defend against these threats, firms invest heavily in advanced encryption and firewalls.\nB. Cybersecurity has become a top priority for multinational corporations.\nC. When a breach occurs, companies suffer immense financial and reputational damage.\nD. Hackers continually develop sophisticated methods to breach corporate networks.",
+        "correct_answer": "B-D-C-A",
+        "explanation": "B introduces the main idea (cybersecurity priority). D explains the threat (hackers). C explains the consequence of the threat (breach damage). A explains the defensive action taken."
+      }
+    },
+    {
+      "id": "17075",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. It involves separating plastic, paper, and glass from general waste.\nB. Recycling is a simple way for households to protect the environment.\nC. Consequently, this process reduces the amount of garbage sent to landfills.\nD. These materials are then processed and transformed into new usable items.",
+        "correct_answer": "B-A-D-C",
+        "explanation": "B introduces recycling. A defines the first step at home (separating). D explains the next step (processing). C states the ultimate result (less landfill waste)."
+      }
+    },
+    {
+      "id": "17076",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Following the discovery, mass production of the antibiotic began during World War II.\nB. The discovery of penicillin by Alexander Fleming changed medicine forever.\nC. Since then, it has saved millions of lives globally.\nD. Before this, minor bacterial infections were often fatal.",
+        "correct_answer": "B-D-A-C",
+        "explanation": "B introduces the discovery. D explains the context before the discovery. A explains what happened right after the discovery. C describes the long-term impact."
+      }
+    },
+    {
+      "id": "17077",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Only after completing these steps should you formally launch your product.\nB. Next, securing adequate capital is necessary to cover initial operations.\nC. Starting a small business involves considerable risk and dedication.\nD. First, you must conduct thorough market research to identify consumer needs.",
+        "correct_answer": "C-D-B-A",
+        "explanation": "C is the topic sentence. D gives the 'First' step. B gives the 'Next' step. A gives the final step ('Only after completing these steps')."
+      }
+    },
+    {
+      "id": "17078",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. It incorporates breathing exercises, meditation, and physical postures.\nB. Meanwhile, the meditative aspect helps reduce stress and anxiety.\nC. These postures, known as asanas, improve flexibility and muscle tone.\nD. Yoga is an ancient practice that harmonizes the mind and body.",
+        "correct_answer": "D-A-C-B",
+        "explanation": "D defines Yoga. A lists its components. C elaborates on the physical component (postures). B elaborates on the mental component (meditation)."
+      }
+    },
+    {
+      "id": "17079",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Consequently, rural populations migrated to urban centers in search of jobs.\nB. This rapid influx of people eventually led to overcrowded and unsanitary living conditions.\nC. Factories sprouted in cities, requiring thousands of laborers.\nD. The industrial revolution brought about massive urbanization.",
+        "correct_answer": "D-C-A-B",
+        "explanation": "D states the general event. C gives the cause (factories needing labor). A gives the direct effect (migration). B gives the ultimate consequence (overcrowding)."
+      }
+    },
+    {
+      "id": "17080",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. As a result, they may experience memory lapses and poor concentration.\nB. A healthy sleep schedule is vital for cognitive function.\nC. If a person is sleep-deprived, this consolidation process is interrupted.\nD. During deep sleep, the brain consolidates memories from the day.",
+        "correct_answer": "B-D-C-A",
+        "explanation": "B introduces sleep and cognition. D explains the positive mechanism (consolidation). C introduces the negative condition (sleep deprivation). A gives the result of the negative condition."
+      }
+    },
+    {
+      "id": "17081",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The Wright brothers achieved the first powered flight in 1903.\nB. The history of aviation is marked by rapid technological leaps.\nC. Today, engineers are developing supersonic jets that will cut travel times in half.\nD. Just a few decades later, jet engines revolutionized commercial air travel.",
+        "correct_answer": "B-A-D-C",
+        "explanation": "Chronological order: B (Topic), A (1903), D (B few decades later), C (Today)."
+      }
+    },
+    {
+      "id": "17082",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. To mitigate this risk, financial advisors recommend diversifying your portfolio.\nB. Investing in the stock market can yield significant financial returns.\nC. By spreading investments across different sectors, potential losses are minimized.\nD. However, it also carries the inherent risk of losing one's principal investment.",
+        "correct_answer": "B-D-A-C",
+        "explanation": "B states the positive side of investing. D contrasts with the negative risk. A offers a solution to the risk (diversifying). C explains how the solution works."
+      }
+    },
+    {
+      "id": "17083",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Therefore, international aid must focus on building sustainable water purification systems.\nB. This lack of sanitation leads to rampant outbreaks of waterborne diseases.\nC. Water scarcity is a growing crisis in many developing nations.\nD. Droughts and poor infrastructure leave millions without access to clean drinking water.",
+        "correct_answer": "C-D-B-A",
+        "explanation": "C introduces the crisis. D identifies the causes (drought/infrastructure). B identifies the effect (diseases). A proposes the solution."
+      }
+    },
+    {
+      "id": "17084",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. At the surface, it erupts to form lava flows and ash deposits.\nB. Eventually, this accumulated material forms a mountain-like structure.\nC. Over time, as the volcano continues to erupt, it will get bigger and bigger.\nD. Volcanoes are formed when magma from within the Earth's upper mantle works its way to the surface.",
+        "correct_answer": "D-A-C-B",
+        "explanation": "Sequential process of volcano formation: D (magma rising), A (eruption at surface), C (accumulation over time), B (final structure formed)."
+      }
+    },
+    {
+      "id": "17085",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. This reward helps the dog associate the action with a pleasant outcome.\nB. Over time, the dog will perform the command even without the treat.\nC. Whenever the dog follows a command correctly, immediately give it a treat.\nD. Proper dog training relies heavily on positive reinforcement.",
+        "correct_answer": "D-C-A-B",
+        "explanation": "D introduces the concept. C gives an example (give a treat). A explains the psychology behind the example. B describes the long-term result."
+      }
+    },
+    {
+      "id": "17086",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Now, the government is aggressively promoting domestic travel to help the industry recover.\nB. The tourism industry is a major pillar of the Philippine economy.\nC. During the pandemic, however, international borders were closed, causing massive revenue losses.\nD. It provides employment to millions of Filipinos in the hospitality and transport sectors.",
+        "correct_answer": "B-D-C-A",
+        "explanation": "B introduces tourism as an economic pillar. D explains its specific economic contribution. C introduces the problem (pandemic). A presents the current solution (domestic travel)."
+      }
+    },
+    {
+      "id": "17087",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The first thing to look for is the serving size indicated at the top.\nB. Reading food labels is an important habit for maintaining a healthy diet.\nC. Finally, review the ingredient list to spot any hidden artificial preservatives.\nD. Next, check the amounts of saturated fat, sodium, and added sugars.",
+        "correct_answer": "B-A-D-C",
+        "explanation": "B introduces the topic. A, D, and C are sequenced by transitional phrases: 'The first thing', 'Next', and 'Finally'."
+      }
+    },
+    {
+      "id": "17089",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. After the first draft is finished, several rounds of editing and revision are necessary.\nB. Then comes the grueling process of drafting chapter after chapter.\nC. Writing a novel is a marathon, not a sprint.\nD. An author must first outline the plot and develop complex characters.",
+        "correct_answer": "C-D-B-A",
+        "explanation": "C sets the theme. D describes the 'first' step (outline). B describes the 'Then' step (drafting). A describes the step 'After the first draft is finished'."
+      }
+    },
+    {
+      "id": "17090",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. One major reason is that they produce zero tailpipe emissions.\nB. Despite this, the lack of widespread charging stations remains a significant hurdle to mass adoption.\nC. This eco-friendly feature makes them highly attractive to environmentally conscious consumers.\nD. Electric vehicles (EVs) are becoming increasingly popular worldwide.",
+        "correct_answer": "D-A-C-B",
+        "explanation": "D introduces EV popularity. A gives the reason for it. C explains the effect of that reason. B introduces the counter-point/hurdle."
+      }
+    },
+    {
+      "id": "17091",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. These settings are the aperture, shutter speed, and ISO.\nB. Understanding how these three interact is the foundation of manual photography.\nC. To get a proper exposure, a photographer must balance three main settings.\nD. Photography is the art of capturing light using a camera.",
+        "correct_answer": "D-C-A-B",
+        "explanation": "D defines photography. C introduces the concept of balancing settings. A identifies what 'These settings' are. B concludes on the importance of understanding them."
+      }
+    },
+    {
+      "id": "17092",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Consequently, minimalists report feeling less stressed and more focused on experiences.\nB. The concept of minimalism has gained traction in recent years.\nC. By decluttering physical spaces, people often find mental clarity.\nD. It advocates for living with only the things you truly need.",
+        "correct_answer": "B-D-C-A",
+        "explanation": "B introduces minimalism. D defines it. C explains its immediate action and effect (decluttering -> clarity). A explains the ultimate consequence."
+      }
+    },
+    {
+      "id": "17093",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. First, you mix the flour, water, yeast, and salt to form a dough.\nB. Baking bread from scratch requires patience and precision.\nC. Once risen, it is shaped into a loaf and baked until golden brown.\nD. Then, the dough must be left to rise in a warm place until it doubles in size.",
+        "correct_answer": "B-A-D-C",
+        "explanation": "B introduces bread baking. A gives the 'First' step. D gives the 'Then' step. C gives the 'Once risen' final step."
+      }
+    },
+    {
+      "id": "17094",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. When the stress on the edge overcomes the friction, there is an earthquake.\nB. Earthquakes are sudden rolling or shaking events caused by movement under the earth's surface.\nC. The released energy travels outward in seismic waves, causing the ground to shake.\nD. They happen along fault lines where tectonic plates collide or slide past each other.",
+        "correct_answer": "B-D-A-C",
+        "explanation": "B defines earthquakes. D explains where they happen. A explains the mechanism of release. C explains the result of the release (seismic waves)."
+      }
+    },
+    {
+      "id": "17095",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. This word-of-mouth marketing is invaluable for business growth.\nB. Furthermore, satisfied customers often recommend the store to their friends.\nC. Customer service is the backbone of any retail business.\nD. When a customer is treated well, they are likely to return.",
+        "correct_answer": "C-D-B-A",
+        "explanation": "C states the main premise. D gives the first benefit. B gives an additional benefit ('Furthermore'). A summarizes the value of the additional benefit."
+      }
+    },
+    {
+      "id": "17096",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. It absorbs massive amounts of carbon dioxide and produces oxygen.\nB. If left unchecked, this destruction will severely accelerate global warming.\nC. Tragically, illegal logging and slash-and-burn agriculture are destroying it at an alarming rate.\nD. The Amazon rainforest is often referred to as the 'lungs of the Earth'.",
+        "correct_answer": "D-A-C-B",
+        "explanation": "D introduces the Amazon. A explains why it's the 'lungs'. C introduces the threat. B gives the ultimate consequence of the threat."
+      }
+    },
+    {
+      "id": "17097",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Additionally, it should be at least twelve characters long.\nB. Most importantly, you should never use the same password across multiple websites.\nC. It should consist of a mix of uppercase letters, numbers, and symbols.\nD. A strong password is your first line of defense against cyber attacks.",
+        "correct_answer": "D-C-A-B",
+        "explanation": "D introduces the topic. C gives the first requirement. A gives an additional requirement. B gives the final, most important rule."
+      }
+    },
+    {
+      "id": "17098",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Meanwhile, male ants exist only to mate with the queen and die shortly after.\nB. Ants are incredibly social insects that live in structured colonies.\nC. Worker ants, all of which are female, forage for food and maintain the nest.\nD. At the center of the colony is the queen, whose sole job is to lay eggs.",
+        "correct_answer": "B-D-C-A",
+        "explanation": "B introduces ant colonies. D discusses the queen. C discusses the workers. A discusses the males."
+      }
+    },
+    {
+      "id": "17099",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Runners usually start with short distances to build their cardiovascular base.\nB. Preparing for a marathon takes months of dedicated training.\nC. A few weeks before the race, they taper their training to rest their muscles.\nD. Gradually, they increase their mileage week by week.",
+        "correct_answer": "B-A-D-C",
+        "explanation": "B introduces marathon prep. A describes the 'start'. D describes the 'Gradually' middle phase. C describes the phase 'B few weeks before the race'."
+      }
+    },
+    {
+      "id": "17100",
+      "old_issue": "Displayed sentences were already in keyed coherent order.",
+      "change": "Reordered sentence blocks, relabeled every choice and key, and remapped explanation references without changing paragraph meaning.",
+      "sources": [],
+      "remaining_uncertainty": null,
+      "result": {
+        "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. A single plastic bottle can take hundreds of years to decompose.\nB. Plastics are versatile materials that have revolutionized modern life.\nC. During this time, it often breaks down into microplastics that pollute our oceans.\nD. However, their durability makes them a massive environmental hazard.",
+        "correct_answer": "B-D-A-C",
+        "explanation": "B introduces plastics positively. D introduces the negative aspect (durability as a hazard). A provides an example (plastic bottle). C describes the consequence over time."
+      }
+    }
+  ],
+  "paragraph_mapping_invariants": [
+    {
+      "id": "17051",
+      "old_sentences": [
+        "The rapid advancement of artificial intelligence has transformed various industries.",
+        "For instance, the healthcare sector uses AI to diagnose diseases with high precision.",
+        "However, this technological leap also brings ethical and privacy concerns.",
+        "Therefore, strict regulations are needed to balance innovation and security."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "A-B-C-D",
+        "C-B-D-A",
+        "B-A-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BADC",
+      "old_explanation": "A introduces the main topic (AI advancement). B provides a specific example (healthcare). C shifts the tone by introducing a complication (ethical concerns). D concludes with a proposed solution (regulations)."
+    },
+    {
+      "id": "17052",
+      "old_sentences": [
+        "She packed her bags hurriedly, glancing at the clock every few minutes.",
+        "The taxi honked twice, signaling its arrival in the driveway.",
+        "Finally zipping her suitcase, she rushed down the stairs.",
+        "Once inside the cab, she let out a deep sigh of relief."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "B-A-C-D",
+        "A-B-C-D",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CADB",
+      "old_explanation": "The sequence follows a chronological narrative: packing bags (A), taxi arriving (B), running downstairs (C), and finally getting in the taxi (D)."
+    },
+    {
+      "id": "17053",
+      "old_sentences": [
+        "Climate change is no longer a distant threat but a present reality.",
+        "Extreme weather events, such as super typhoons, are becoming more frequent.",
+        "As a result, low-lying communities are constantly facing the danger of flooding.",
+        "This urgent situation calls for immediate global action to reduce carbon emissions."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "A-B-C-D",
+        "D-A-B-C",
+        "B-A-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DCAB",
+      "old_explanation": "A states the general premise. B gives evidence (extreme weather). C explains the effect of this evidence (flooding in communities). D provides the concluding call to action."
+    },
+    {
+      "id": "17054",
+      "old_sentences": [
+        "To prepare a good cup of coffee, start by selecting freshly roasted beans.",
+        "Next, grind the beans to the appropriate coarseness for your brewing method.",
+        "Then, pour hot water evenly over the grounds to allow proper extraction.",
+        "Finally, let the coffee steep before pouring it into your favorite mug."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "A-B-C-D",
+        "B-A-C-D",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BDCA",
+      "old_explanation": "The sentences use clear transitional words indicating sequence: 'start by' (A), 'Next' (B), 'Then' (C), and 'Finally' (D)."
+    },
+    {
+      "id": "17055",
+      "old_sentences": [
+        "The government announced a new comprehensive tax reform package.",
+        "This package aims to lower income taxes for the middle class.",
+        "In contrast, it will impose higher levies on luxury goods and services.",
+        "Many economists believe this strategy will stimulate domestic consumption."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "A-B-C-D",
+        "B-A-C-D",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CDBA",
+      "old_explanation": "A introduces the tax package. B explains the primary benefit (lower income taxes). C presents the counterpart (higher levies on luxury). D provides an expert conclusion on the overall effect."
+    },
+    {
+      "id": "17056",
+      "old_sentences": [
+        "The invention of the internet revolutionized human communication.",
+        "Before its existence, sending a message across the globe took weeks.",
+        "Today, people can connect via video calls in mere seconds.",
+        "This instantaneous connection has essentially made the world a global village."
+      ],
+      "old_choices": [
+        "A-B-C-D",
+        "B-A-C-D",
+        "D-A-B-C",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DACB",
+      "old_explanation": "A introduces the internet. B contrasts the past. C contrasts the present. D concludes on the overall impact (global village)."
+    },
+    {
+      "id": "17057",
+      "old_sentences": [
+        "Reading regularly expands your vocabulary and improves your focus.",
+        "Furthermore, it exposes you to different perspectives and cultures.",
+        "Because of these cognitive benefits, educators strongly encourage reading from a young age.",
+        "Indeed, a child who reads will likely become a lifelong learner."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "B-A-C-D",
+        "D-A-B-C",
+        "A-B-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BADC",
+      "old_explanation": "A states the first benefit. B adds another benefit ('Furthermore'). C draws a conclusion based on 'these cognitive benefits'. D reinforces the conclusion with a final thought."
+    },
+    {
+      "id": "17058",
+      "old_sentences": [
+        "Financial literacy is an essential skill that is often overlooked in schools.",
+        "Many young adults enter the workforce without knowing how to budget their salaries.",
+        "Consequently, they easily fall into the trap of credit card debt.",
+        "To prevent this, basic personal finance should be integrated into the high school curriculum."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "D-A-B-C",
+        "B-A-C-D",
+        "A-B-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CADB",
+      "old_explanation": "A states the main problem (lack of financial literacy). B provides a specific manifestation of the problem (no budgeting). C explains the consequence (debt). D offers the solution (curriculum integration)."
+    },
+    {
+      "id": "17059",
+      "old_sentences": [
+        "Manila is a bustling metropolis known for its rich history and vibrant culture.",
+        "Intramuros, the historic walled city, stands as a testament to its colonial past.",
+        "Just a few kilometers away, modern skyscrapers tower over the business districts.",
+        "This blend of the old and the new gives the city its unique charm."
+      ],
+      "old_choices": [
+        "A-B-C-D",
+        "B-A-C-D",
+        "C-B-D-A",
+        "D-A-B-C"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DCAB",
+      "old_explanation": "A introduces Manila. B gives an example of the old (Intramuros). C gives an example of the new (skyscrapers). D summarizes the blend of old and new."
+    },
+    {
+      "id": "17060",
+      "old_sentences": [
+        "The human body requires a balanced diet to function optimally.",
+        "Carbohydrates provide the primary source of energy for daily activities.",
+        "Proteins, on the other hand, are crucial for repairing tissues and building muscles.",
+        "Without a proper mix of these macronutrients, one's health will eventually deteriorate."
+      ],
+      "old_choices": [
+        "B-A-C-D",
+        "D-A-B-C",
+        "A-B-C-D",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BDCA",
+      "old_explanation": "A states the topic (balanced diet). B discusses the first element (carbohydrates). C discusses the second element (proteins). D concludes by stating what happens without them."
+    },
+    {
+      "id": "17061",
+      "old_sentences": [
+        "Developing a new software application requires a systematic approach.",
+        "The first phase involves gathering requirements from the client.",
+        "Once the requirements are clear, the developers begin writing the actual code.",
+        "Finally, the quality assurance team tests the software for bugs before deployment."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "A-B-C-D",
+        "D-A-B-C",
+        "B-A-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CDBA",
+      "old_explanation": "A introduces the topic. B details the first phase. C details the next phase ('Once the requirements are clear'). D details the final phase ('Finally')."
+    },
+    {
+      "id": "17062",
+      "old_sentences": [
+        "Regular exercise is known to boost cardiovascular health.",
+        "It strengthens the heart muscle and improves blood circulation.",
+        "In addition to physical benefits, working out releases endorphins that improve mood.",
+        "Thus, maintaining an active lifestyle is beneficial for both the body and the mind."
+      ],
+      "old_choices": [
+        "A-B-C-D",
+        "C-B-D-A",
+        "D-A-B-C",
+        "B-A-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DACB",
+      "old_explanation": "A introduces the physical benefit. B explains how the physical benefit works. C introduces the mental benefit. D concludes by summarizing both physical and mental benefits."
+    },
+    {
+      "id": "17063",
+      "old_sentences": [
+        "Space exploration has always fascinated humanity.",
+        "In the mid-20th century, this fascination culminated in the space race.",
+        "This fierce competition eventually led to the historic Apollo 11 moon landing.",
+        "Today, the focus has shifted from the moon towards missions aimed at Mars."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "B-A-C-D",
+        "A-B-C-D",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BADC",
+      "old_explanation": "Chronological order: A (General fascination), B (mid-20th century space race), C (result of the space race - moon landing), D (Today's focus on Mars)."
+    },
+    {
+      "id": "17064",
+      "old_sentences": [
+        "A successful business starts with a clear and compelling vision.",
+        "This vision must then be translated into a practical business plan.",
+        "With a solid plan in place, entrepreneurs can seek funding from investors.",
+        "Once capital is secured, the actual operations of the business can commence."
+      ],
+      "old_choices": [
+        "B-A-C-D",
+        "A-B-C-D",
+        "D-A-B-C",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CADB",
+      "old_explanation": "Logical progression: Vision (A) -> Business Plan (B) -> Funding (C) -> Operations (D)."
+    },
+    {
+      "id": "17065",
+      "old_sentences": [
+        "Many endangered species are on the brink of extinction due to habitat loss.",
+        "Deforestation, driven by illegal logging and urban expansion, is the primary culprit.",
+        "As the forests disappear, animals lose their source of food and shelter.",
+        "If this destruction continues, we will lose these magnificent creatures forever."
+      ],
+      "old_choices": [
+        "A-B-C-D",
+        "D-A-B-C",
+        "B-A-C-D",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DCAB",
+      "old_explanation": "A states the problem (endangered species and habitat loss). B identifies the cause of habitat loss (deforestation). C explains how the cause affects the animals. D provides a warning for the future."
+    },
+    {
+      "id": "17066",
+      "old_sentences": [
+        "Public transportation in the city has been severely criticized lately.",
+        "Commuters frequently complain about the frequent train breakdowns.",
+        "Moreover, the buses are often overcrowded and stuck in heavy traffic.",
+        "To resolve these issues, the local government must invest in infrastructure upgrades."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "C-B-D-A",
+        "A-B-C-D",
+        "B-A-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BDCA",
+      "old_explanation": "A states the main idea (criticism of public transport). B gives the first complaint (trains). C gives the second complaint (buses). D proposes a solution to these issues."
+    },
+    {
+      "id": "17067",
+      "old_sentences": [
+        "Online shopping has become a dominant force in the retail industry.",
+        "It offers unparalleled convenience, allowing consumers to buy goods from home.",
+        "However, it has negatively impacted traditional brick-and-mortar stores.",
+        "Many physical shops have been forced to close down due to a lack of foot traffic."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "B-A-C-D",
+        "A-B-C-D",
+        "D-A-B-C"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CDBA",
+      "old_explanation": "A introduces online shopping. B explains its main advantage. C introduces the contrasting negative impact on physical stores. D gives a specific example of that negative impact (closing down)."
+    },
+    {
+      "id": "17068",
+      "old_sentences": [
+        "Effective time management is crucial for academic success.",
+        "Students should begin by creating a weekly study schedule.",
+        "This schedule helps them allocate sufficient time for each subject.",
+        "By sticking to the routine, they can avoid the stress of last-minute cramming."
+      ],
+      "old_choices": [
+        "A-B-C-D",
+        "D-A-B-C",
+        "B-A-C-D",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DACB",
+      "old_explanation": "A introduces the topic. B suggests the first step (create a schedule). C explains the function of the schedule. D explains the ultimate benefit of following it."
+    },
+    {
+      "id": "17069",
+      "old_sentences": [
+        "The Philippines is an archipelago blessed with stunning natural resources.",
+        "Its pristine beaches and crystal-clear waters attract millions of tourists annually.",
+        "Beyond its beaches, the country also boasts lush mountains and diverse wildlife.",
+        "These ecological wonders make it a premier destination for nature lovers."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "A-B-C-D",
+        "D-A-B-C",
+        "B-A-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BADC",
+      "old_explanation": "A introduces the Philippines' resources. B highlights one aspect (beaches). C highlights another aspect (mountains/wildlife). D concludes by summarizing its appeal to nature lovers."
+    },
+    {
+      "id": "17070",
+      "old_sentences": [
+        "Learning a second language can be a challenging but rewarding endeavor.",
+        "At first, memorizing new vocabulary and grammar rules feels overwhelming.",
+        "With consistent practice, however, constructing sentences becomes second nature.",
+        "Eventually, you gain the ability to fluently converse with native speakers."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "B-A-C-D",
+        "C-B-D-A",
+        "A-B-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CADB",
+      "old_explanation": "Chronological progression of learning: A (General statement), B (At first/Initial struggle), C (With practice/Progress), D (Eventually/Fluency)."
+    },
+    {
+      "id": "17071",
+      "old_sentences": [
+        "Renewable energy is the key to combating global warming.",
+        "Solar power, for instance, harnesses energy directly from the sun without emissions.",
+        "Similarly, wind turbines generate clean electricity using natural air currents.",
+        "By transitioning to these green alternatives, we can significantly reduce our carbon footprint."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "B-A-C-D",
+        "D-A-B-C",
+        "A-B-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DCAB",
+      "old_explanation": "A introduces the topic. B gives the first example (solar). C gives a second, similar example (wind). D concludes on the benefit of these alternatives."
+    },
+    {
+      "id": "17072",
+      "old_sentences": [
+        "Social media was designed to connect people across the world.",
+        "Ironically, studies show that excessive use can lead to feelings of isolation.",
+        "Users often compare their behind-the-scenes lives to the highlight reels of others.",
+        "This unhealthy comparison breeds anxiety and depression among teenagers."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "C-B-D-A",
+        "A-B-C-D",
+        "B-A-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BDCA",
+      "old_explanation": "A states the original intent. B introduces the irony (isolation). C explains the mechanism behind the irony (unhealthy comparisons). D states the final consequence (anxiety)."
+    },
+    {
+      "id": "17073",
+      "old_sentences": [
+        "To bake a perfect cake, accurate measurements are absolutely vital.",
+        "If you use too much flour, the cake will turn out dry and dense.",
+        "Conversely, adding too much liquid will prevent the center from baking properly.",
+        "Therefore, always use measuring cups and spoons to ensure the right proportions."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "C-B-D-A",
+        "A-B-C-D",
+        "B-A-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CDBA",
+      "old_explanation": "A states the main rule (measurements are vital). B gives the first consequence of failing the rule (too much flour). C gives the second consequence (too much liquid). D concludes with the practical advice."
+    },
+    {
+      "id": "17074",
+      "old_sentences": [
+        "Cybersecurity has become a top priority for multinational corporations.",
+        "Hackers continually develop sophisticated methods to breach corporate networks.",
+        "When a breach occurs, companies suffer immense financial and reputational damage.",
+        "To defend against these threats, firms invest heavily in advanced encryption and firewalls."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "A-B-C-D",
+        "D-A-B-C",
+        "B-A-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DACB",
+      "old_explanation": "A introduces the main idea (cybersecurity priority). B explains the threat (hackers). C explains the consequence of the threat (breach damage). D explains the defensive action taken."
+    },
+    {
+      "id": "17075",
+      "old_sentences": [
+        "Recycling is a simple way for households to protect the environment.",
+        "It involves separating plastic, paper, and glass from general waste.",
+        "These materials are then processed and transformed into new usable items.",
+        "Consequently, this process reduces the amount of garbage sent to landfills."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "A-B-C-D",
+        "B-A-C-D",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BADC",
+      "old_explanation": "A introduces recycling. B defines the first step at home (separating). C explains the next step (processing). D states the ultimate result (less landfill waste)."
+    },
+    {
+      "id": "17076",
+      "old_sentences": [
+        "The discovery of penicillin by Alexander Fleming changed medicine forever.",
+        "Before this, minor bacterial infections were often fatal.",
+        "Following the discovery, mass production of the antibiotic began during World War II.",
+        "Since then, it has saved millions of lives globally."
+      ],
+      "old_choices": [
+        "B-A-C-D",
+        "A-B-C-D",
+        "D-A-B-C",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CADB",
+      "old_explanation": "A introduces the discovery. B explains the context before the discovery. C explains what happened right after the discovery. D describes the long-term impact."
+    },
+    {
+      "id": "17077",
+      "old_sentences": [
+        "Starting a small business involves considerable risk and dedication.",
+        "First, you must conduct thorough market research to identify consumer needs.",
+        "Next, securing adequate capital is necessary to cover initial operations.",
+        "Only after completing these steps should you formally launch your product."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "C-B-D-A",
+        "B-A-C-D",
+        "A-B-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DCAB",
+      "old_explanation": "A is the topic sentence. B gives the 'First' step. C gives the 'Next' step. D gives the final step ('Only after completing these steps')."
+    },
+    {
+      "id": "17078",
+      "old_sentences": [
+        "Yoga is an ancient practice that harmonizes the mind and body.",
+        "It incorporates breathing exercises, meditation, and physical postures.",
+        "These postures, known as asanas, improve flexibility and muscle tone.",
+        "Meanwhile, the meditative aspect helps reduce stress and anxiety."
+      ],
+      "old_choices": [
+        "A-B-C-D",
+        "B-A-C-D",
+        "D-A-B-C",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BDCA",
+      "old_explanation": "A defines Yoga. B lists its components. C elaborates on the physical component (postures). D elaborates on the mental component (meditation)."
+    },
+    {
+      "id": "17079",
+      "old_sentences": [
+        "The industrial revolution brought about massive urbanization.",
+        "Factories sprouted in cities, requiring thousands of laborers.",
+        "Consequently, rural populations migrated to urban centers in search of jobs.",
+        "This rapid influx of people eventually led to overcrowded and unsanitary living conditions."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "B-A-C-D",
+        "D-A-B-C",
+        "A-B-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CDBA",
+      "old_explanation": "A states the general event. B gives the cause (factories needing labor). C gives the direct effect (migration). D gives the ultimate consequence (overcrowding)."
+    },
+    {
+      "id": "17080",
+      "old_sentences": [
+        "A healthy sleep schedule is vital for cognitive function.",
+        "During deep sleep, the brain consolidates memories from the day.",
+        "If a person is sleep-deprived, this consolidation process is interrupted.",
+        "As a result, they may experience memory lapses and poor concentration."
+      ],
+      "old_choices": [
+        "B-A-C-D",
+        "D-A-B-C",
+        "C-B-D-A",
+        "A-B-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DACB",
+      "old_explanation": "A introduces sleep and cognition. B explains the positive mechanism (consolidation). C introduces the negative condition (sleep deprivation). D gives the result of the negative condition."
+    },
+    {
+      "id": "17081",
+      "old_sentences": [
+        "The history of aviation is marked by rapid technological leaps.",
+        "The Wright brothers achieved the first powered flight in 1903.",
+        "Just a few decades later, jet engines revolutionized commercial air travel.",
+        "Today, engineers are developing supersonic jets that will cut travel times in half."
+      ],
+      "old_choices": [
+        "B-A-C-D",
+        "C-B-D-A",
+        "A-B-C-D",
+        "D-A-B-C"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BADC",
+      "old_explanation": "Chronological order: A (Topic), B (1903), C (A few decades later), D (Today)."
+    },
+    {
+      "id": "17082",
+      "old_sentences": [
+        "Investing in the stock market can yield significant financial returns.",
+        "However, it also carries the inherent risk of losing one's principal investment.",
+        "To mitigate this risk, financial advisors recommend diversifying your portfolio.",
+        "By spreading investments across different sectors, potential losses are minimized."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "A-B-C-D",
+        "B-A-C-D",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CADB",
+      "old_explanation": "A states the positive side of investing. B contrasts with the negative risk. C offers a solution to the risk (diversifying). D explains how the solution works."
+    },
+    {
+      "id": "17083",
+      "old_sentences": [
+        "Water scarcity is a growing crisis in many developing nations.",
+        "Droughts and poor infrastructure leave millions without access to clean drinking water.",
+        "This lack of sanitation leads to rampant outbreaks of waterborne diseases.",
+        "Therefore, international aid must focus on building sustainable water purification systems."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "B-A-C-D",
+        "A-B-C-D",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DCAB",
+      "old_explanation": "A introduces the crisis. B identifies the causes (drought/infrastructure). C identifies the effect (diseases). D proposes the solution."
+    },
+    {
+      "id": "17084",
+      "old_sentences": [
+        "Volcanoes are formed when magma from within the Earth's upper mantle works its way to the surface.",
+        "At the surface, it erupts to form lava flows and ash deposits.",
+        "Over time, as the volcano continues to erupt, it will get bigger and bigger.",
+        "Eventually, this accumulated material forms a mountain-like structure."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "A-B-C-D",
+        "B-A-C-D",
+        "D-A-B-C"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BDCA",
+      "old_explanation": "Sequential process of volcano formation: A (magma rising), B (eruption at surface), C (accumulation over time), D (final structure formed)."
+    },
+    {
+      "id": "17085",
+      "old_sentences": [
+        "Proper dog training relies heavily on positive reinforcement.",
+        "Whenever the dog follows a command correctly, immediately give it a treat.",
+        "This reward helps the dog associate the action with a pleasant outcome.",
+        "Over time, the dog will perform the command even without the treat."
+      ],
+      "old_choices": [
+        "A-B-C-D",
+        "B-A-C-D",
+        "C-B-D-A",
+        "D-A-B-C"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CDBA",
+      "old_explanation": "A introduces the concept. B gives an example (give a treat). C explains the psychology behind the example. D describes the long-term result."
+    },
+    {
+      "id": "17086",
+      "old_sentences": [
+        "The tourism industry is a major pillar of the Philippine economy.",
+        "It provides employment to millions of Filipinos in the hospitality and transport sectors.",
+        "During the pandemic, however, international borders were closed, causing massive revenue losses.",
+        "Now, the government is aggressively promoting domestic travel to help the industry recover."
+      ],
+      "old_choices": [
+        "B-A-C-D",
+        "A-B-C-D",
+        "C-B-D-A",
+        "D-A-B-C"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DACB",
+      "old_explanation": "A introduces tourism as an economic pillar. B explains its specific economic contribution. C introduces the problem (pandemic). D presents the current solution (domestic travel)."
+    },
+    {
+      "id": "17087",
+      "old_sentences": [
+        "Reading food labels is an important habit for maintaining a healthy diet.",
+        "The first thing to look for is the serving size indicated at the top.",
+        "Next, check the amounts of saturated fat, sodium, and added sugars.",
+        "Finally, review the ingredient list to spot any hidden artificial preservatives."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "D-A-B-C",
+        "A-B-C-D",
+        "B-A-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BADC",
+      "old_explanation": "A introduces the topic. B, C, and D are sequenced by transitional phrases: 'The first thing', 'Next', and 'Finally'."
+    },
+    {
+      "id": "17088",
+      "old_sentences": [
+        "The Great Wall of China is an extensive system of historic defensive structures.",
+        "It was originally built by various dynasties to protect against nomadic invasions.",
+        "Over centuries, different emperors added onto and fortified the existing walls.",
+        "Today, it stands not as a military defense, but as a symbol of Chinese historical resilience."
+      ],
+      "old_choices": [
+        "B-A-C-D",
+        "A-B-C-D",
+        "D-A-B-C",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CADB",
+      "old_explanation": "A introduces the Great Wall. B explains its original purpose. C explains its historical development. D explains its modern significance."
+    },
+    {
+      "id": "17089",
+      "old_sentences": [
+        "Writing a novel is a marathon, not a sprint.",
+        "An author must first outline the plot and develop complex characters.",
+        "Then comes the grueling process of drafting chapter after chapter.",
+        "After the first draft is finished, several rounds of editing and revision are necessary."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "C-B-D-A",
+        "A-B-C-D",
+        "B-A-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DCAB",
+      "old_explanation": "A sets the theme. B describes the 'first' step (outline). C describes the 'Then' step (drafting). D describes the step 'After the first draft is finished'."
+    },
+    {
+      "id": "17090",
+      "old_sentences": [
+        "Electric vehicles (EVs) are becoming increasingly popular worldwide.",
+        "One major reason is that they produce zero tailpipe emissions.",
+        "This eco-friendly feature makes them highly attractive to environmentally conscious consumers.",
+        "Despite this, the lack of widespread charging stations remains a significant hurdle to mass adoption."
+      ],
+      "old_choices": [
+        "B-A-C-D",
+        "C-B-D-A",
+        "D-A-B-C",
+        "A-B-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BDCA",
+      "old_explanation": "A introduces EV popularity. B gives the reason for it. C explains the effect of that reason. D introduces the counter-point/hurdle."
+    },
+    {
+      "id": "17091",
+      "old_sentences": [
+        "Photography is the art of capturing light using a camera.",
+        "To get a proper exposure, a photographer must balance three main settings.",
+        "These settings are the aperture, shutter speed, and ISO.",
+        "Understanding how these three interact is the foundation of manual photography."
+      ],
+      "old_choices": [
+        "A-B-C-D",
+        "C-B-D-A",
+        "B-A-C-D",
+        "D-A-B-C"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CDBA",
+      "old_explanation": "A defines photography. B introduces the concept of balancing settings. C identifies what 'These settings' are. D concludes on the importance of understanding them."
+    },
+    {
+      "id": "17092",
+      "old_sentences": [
+        "The concept of minimalism has gained traction in recent years.",
+        "It advocates for living with only the things you truly need.",
+        "By decluttering physical spaces, people often find mental clarity.",
+        "Consequently, minimalists report feeling less stressed and more focused on experiences."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "D-A-B-C",
+        "A-B-C-D",
+        "B-A-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DACB",
+      "old_explanation": "A introduces minimalism. B defines it. C explains its immediate action and effect (decluttering -> clarity). D explains the ultimate consequence."
+    },
+    {
+      "id": "17093",
+      "old_sentences": [
+        "Baking bread from scratch requires patience and precision.",
+        "First, you mix the flour, water, yeast, and salt to form a dough.",
+        "Then, the dough must be left to rise in a warm place until it doubles in size.",
+        "Once risen, it is shaped into a loaf and baked until golden brown."
+      ],
+      "old_choices": [
+        "B-A-C-D",
+        "D-A-B-C",
+        "A-B-C-D",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BADC",
+      "old_explanation": "A introduces bread baking. B gives the 'First' step. C gives the 'Then' step. D gives the 'Once risen' final step."
+    },
+    {
+      "id": "17094",
+      "old_sentences": [
+        "Earthquakes are sudden rolling or shaking events caused by movement under the earth's surface.",
+        "They happen along fault lines where tectonic plates collide or slide past each other.",
+        "When the stress on the edge overcomes the friction, there is an earthquake.",
+        "The released energy travels outward in seismic waves, causing the ground to shake."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "D-A-B-C",
+        "B-A-C-D",
+        "A-B-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CADB",
+      "old_explanation": "A defines earthquakes. B explains where they happen. C explains the mechanism of release. D explains the result of the release (seismic waves)."
+    },
+    {
+      "id": "17095",
+      "old_sentences": [
+        "Customer service is the backbone of any retail business.",
+        "When a customer is treated well, they are likely to return.",
+        "Furthermore, satisfied customers often recommend the store to their friends.",
+        "This word-of-mouth marketing is invaluable for business growth."
+      ],
+      "old_choices": [
+        "A-B-C-D",
+        "B-A-C-D",
+        "D-A-B-C",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DCAB",
+      "old_explanation": "A states the main premise. B gives the first benefit. C gives an additional benefit ('Furthermore'). D summarizes the value of the additional benefit."
+    },
+    {
+      "id": "17096",
+      "old_sentences": [
+        "The Amazon rainforest is often referred to as the 'lungs of the Earth'.",
+        "It absorbs massive amounts of carbon dioxide and produces oxygen.",
+        "Tragically, illegal logging and slash-and-burn agriculture are destroying it at an alarming rate.",
+        "If left unchecked, this destruction will severely accelerate global warming."
+      ],
+      "old_choices": [
+        "D-A-B-C",
+        "C-B-D-A",
+        "B-A-C-D",
+        "A-B-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BDCA",
+      "old_explanation": "A introduces the Amazon. B explains why it's the 'lungs'. C introduces the threat. D gives the ultimate consequence of the threat."
+    },
+    {
+      "id": "17097",
+      "old_sentences": [
+        "A strong password is your first line of defense against cyber attacks.",
+        "It should consist of a mix of uppercase letters, numbers, and symbols.",
+        "Additionally, it should be at least twelve characters long.",
+        "Most importantly, you should never use the same password across multiple websites."
+      ],
+      "old_choices": [
+        "C-B-D-A",
+        "D-A-B-C",
+        "A-B-C-D",
+        "B-A-C-D"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CDBA",
+      "old_explanation": "A introduces the topic. B gives the first requirement. C gives an additional requirement. D gives the final, most important rule."
+    },
+    {
+      "id": "17098",
+      "old_sentences": [
+        "Ants are incredibly social insects that live in structured colonies.",
+        "At the center of the colony is the queen, whose sole job is to lay eggs.",
+        "Worker ants, all of which are female, forage for food and maintain the nest.",
+        "Meanwhile, male ants exist only to mate with the queen and die shortly after."
+      ],
+      "old_choices": [
+        "B-A-C-D",
+        "D-A-B-C",
+        "A-B-C-D",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "DACB",
+      "old_explanation": "A introduces ant colonies. B discusses the queen. C discusses the workers. D discusses the males."
+    },
+    {
+      "id": "17099",
+      "old_sentences": [
+        "Preparing for a marathon takes months of dedicated training.",
+        "Runners usually start with short distances to build their cardiovascular base.",
+        "Gradually, they increase their mileage week by week.",
+        "A few weeks before the race, they taper their training to rest their muscles."
+      ],
+      "old_choices": [
+        "A-B-C-D",
+        "D-A-B-C",
+        "B-A-C-D",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "BADC",
+      "old_explanation": "A introduces marathon prep. B describes the 'start'. C describes the 'Gradually' middle phase. D describes the phase 'A few weeks before the race'."
+    },
+    {
+      "id": "17100",
+      "old_sentences": [
+        "Plastics are versatile materials that have revolutionized modern life.",
+        "However, their durability makes them a massive environmental hazard.",
+        "A single plastic bottle can take hundreds of years to decompose.",
+        "During this time, it often breaks down into microplastics that pollute our oceans."
+      ],
+      "old_choices": [
+        "B-A-C-D",
+        "A-B-C-D",
+        "D-A-B-C",
+        "C-B-D-A"
+      ],
+      "old_answer": "A-B-C-D",
+      "display_order": "CADB",
+      "old_explanation": "A introduces plastics positively. B introduces the negative aspect (durability as a hazard). C provides an example (plastic bottle). D describes the consequence over time."
+    }
+  ],
+  "remaining_unresolved": [
+    {
+      "id": "7008",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "7044",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "7048",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "7071",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "7072",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "7075",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "7087",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "7108",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8055",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8065",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8066",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8068",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8070",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8073",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8078",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8080",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8081",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8084",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8085",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8086",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8088",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8092",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8093",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8096",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8098",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "8100",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18022",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18035",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18052",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18054",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18056",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18058",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18066",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18068",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18070",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18072",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18076",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18079",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18081",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18083",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18087",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18088",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18090",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18092",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18094",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18096",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18098",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    },
+    {
+      "id": "18100",
+      "issue": "Editorial cue candidate only; not established as a factual or answer-uniqueness defect. Preserved necessary precision rather than padding distractors.",
+      "status": "pending_editorial_review"
+    }
+  ]
+}

@@ -197,7 +197,7 @@
   {
     "id": "17016",
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) It was established to protect the rights and promote the welfare of overseas Filipino workers.\n(2) Through its services, OFWs receive assistance with employment contracts and labor disputes.\n(3) The Philippine Overseas Labor Office (POLO) is an agency under the Department of Migrant Workers.\n(4) In addition, it provides pre-departure orientation seminars for departing workers.",
+    "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) It was established to protect the rights and promote the welfare of overseas Filipino workers.\n(2) Through its services, OFWs receive assistance with employment contracts and labor disputes.\n(3) The Department of Migrant Workers (DMW) is the Philippine department responsible for overseas employment and migrant-worker welfare.\n(4) In addition, it promotes the reintegration of returning overseas Filipino workers.",
     "choices": [
       "1-3-4-2",
       "3-1-2-4",
@@ -205,7 +205,7 @@
       "2-4-3-1"
     ],
     "correct_answer": "3-1-2-4",
-    "explanation": "Sentence 3 introduces POLO. Sentence 1 states its mandate. Sentence 2 describes its services. Sentence 4 adds another service ('In addition')."
+    "explanation": "Sentence 3 introduces the DMW. Sentence 1 states its mandate. Sentence 2 describes its services. Sentence 4 adds another service ('In addition')."
   },
   {
     "id": "17017",
@@ -262,7 +262,7 @@
   {
     "id": "17021",
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) First, an invitation to bid is publicly advertised to ensure competitive bidding.\n(2) After receiving the bid proposals, the Bids and Awards Committee (BAC) evaluates each submission.\n(3) Government procurement in the Philippines is governed by Republic Act No. 9184.\n(4) Once evaluated, the contract is awarded to the lowest calculated responsive bidder.",
+    "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) First, an invitation to bid is publicly advertised to ensure competitive bidding.\n(2) After receiving the bid proposals, the Bids and Awards Committee (BAC) evaluates each submission.\n(3) The following simplified sequence describes competitive bidding under the former procurement framework of Republic Act No. 9184.\n(4) Once evaluated, the contract is awarded to the lowest calculated responsive bidder.",
     "choices": [
       "1-2-4-3",
       "3-1-2-4",
@@ -270,7 +270,7 @@
       "2-1-3-4"
     ],
     "correct_answer": "3-1-2-4",
-    "explanation": "Sentence 3 introduces RA 9184. Sentence 1 describes the first step ('First'). Sentence 2 describes the next step ('After receiving'). Sentence 4 concludes with the award ('Once evaluated')."
+    "explanation": "Sentence 3 introduces RA 9184. Sentence 1 describes the first step ('First'). Sentence 2 describes the next step ('After receiving'). Sentence 4 concludes with the award ('Once evaluated'). The paragraph is explicitly historical: RA 12009 introduced the New Government Procurement Act and repealed RA 9184, with transitional provisions."
   },
   {
     "id": "17022",
@@ -288,7 +288,7 @@
   {
     "id": "17023",
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) It begins with Budget Preparation, where executive agencies formulate their budget requirements.\n(2) Finally, after congressional approval, the President signs the General Appropriations Act.\n(3) Subsequently, the budget proposal is submitted to Congress for review and approval.\n(4) The Philippine national budget process follows four distinct phases.",
+    "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) It begins with Budget Preparation, where executive agencies formulate their budget requirements.\n(2) Finally, after congressional approval, the President signs the General Appropriations Act.\n(3) Subsequently, the budget proposal is submitted to Congress for review and approval.\n(4) The preparation and legislative approval of the Philippine national budget involve several steps.",
     "choices": [
       "4-3-1-2",
       "4-1-3-2",
@@ -296,7 +296,7 @@
       "1-4-2-3"
     ],
     "correct_answer": "4-1-3-2",
-    "explanation": "Sentence 4 introduces the 4 phases. Sentence 1 starts chronological flow ('It begins'). Sentence 3 describes the next phase ('Subsequently'). Sentence 2 completes the flow ('Finally')."
+    "explanation": "Sentence 4 introduces preparation and legislative approval. Sentence 1 starts chronological flow ('It begins'). Sentence 3 describes the next phase ('Subsequently'). Sentence 2 completes the flow ('Finally')."
   },
   {
     "id": "17024",
@@ -574,7 +574,7 @@
   {
     "id": "17045",
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Failure to divest within thirty days constitutes a violation of the ethics code.\n(2) Therefore, public officers must divest from business interests that conflict with their duties.\n(3) Conflict of interest arises when a public official's private interest influences official actions.\n(4) RA 6713 establishes ethical standards for public officials and employees.",
+    "question": "Arrange the following sentences to form a coherent paragraph:\n\n(1) Where a conflict of interest arises, Section 9 requires resignation from a private-business position within thirty days and/or divestment of shareholdings or interests within sixty days from assumption of office.\n(2) Therefore, public officers must divest from business interests that conflict with their duties.\n(3) Conflict of interest arises when a public official's private interest influences official actions.\n(4) RA 6713 establishes ethical standards for public officials and employees.",
     "choices": [
       "4-3-2-1",
       "4-2-3-1",
@@ -582,7 +582,7 @@
       "3-4-1-2"
     ],
     "correct_answer": "4-3-2-1",
-    "explanation": "Sentence 4 introduces RA 6713. Sentence 3 defines conflict of interest. Sentence 2 states the duty ('Therefore... must divest'). Sentence 1 gives the consequence of non-compliance."
+    "explanation": "Sentence 4 introduces RA 6713. Sentence 3 defines conflict of interest. Sentence 2 states the duty ('Therefore... must divest'). Sentence 1 specifies the distinct resignation and divestment deadlines."
   },
   {
     "id": "17046",
@@ -651,652 +651,652 @@
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The rapid advancement of artificial intelligence has transformed various industries.\nB. For instance, the healthcare sector uses AI to diagnose diseases with high precision.\nC. However, this technological leap also brings ethical and privacy concerns.\nD. Therefore, strict regulations are needed to balance innovation and security.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. For instance, the healthcare sector uses AI to diagnose diseases with high precision.\nB. The rapid advancement of artificial intelligence has transformed various industries.\nC. Therefore, strict regulations are needed to balance innovation and security.\nD. However, this technological leap also brings ethical and privacy concerns.",
     "choices": [
-      "D-A-B-C",
-      "A-B-C-D",
-      "C-B-D-A",
-      "B-A-C-D"
+      "C-B-A-D",
+      "B-A-D-C",
+      "D-A-C-B",
+      "A-B-D-C"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the main topic (AI advancement). B provides a specific example (healthcare). C shifts the tone by introducing a complication (ethical concerns). D concludes with a proposed solution (regulations).",
+    "correct_answer": "B-A-D-C",
+    "explanation": "B introduces the main topic (AI advancement). A provides a specific example (healthcare). D shifts the tone by introducing a complication (ethical concerns). C concludes with a proposed solution (regulations).",
     "id": "17051"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. She packed her bags hurriedly, glancing at the clock every few minutes.\nB. The taxi honked twice, signaling its arrival in the driveway.\nC. Finally zipping her suitcase, she rushed down the stairs.\nD. Once inside the cab, she let out a deep sigh of relief.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Finally zipping her suitcase, she rushed down the stairs.\nB. She packed her bags hurriedly, glancing at the clock every few minutes.\nC. Once inside the cab, she let out a deep sigh of relief.\nD. The taxi honked twice, signaling its arrival in the driveway.",
     "choices": [
-      "D-A-B-C",
-      "B-A-C-D",
-      "A-B-C-D",
-      "C-B-D-A"
+      "C-B-D-A",
+      "D-B-A-C",
+      "B-D-A-C",
+      "A-D-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "The sequence follows a chronological narrative: packing bags (A), taxi arriving (B), running downstairs (C), and finally getting in the taxi (D).",
+    "correct_answer": "B-D-A-C",
+    "explanation": "The sequence follows a chronological narrative: packing bags (B), taxi arriving (D), running downstairs (A), and finally getting in the taxi (C).",
     "id": "17052"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Climate change is no longer a distant threat but a present reality.\nB. Extreme weather events, such as super typhoons, are becoming more frequent.\nC. As a result, low-lying communities are constantly facing the danger of flooding.\nD. This urgent situation calls for immediate global action to reduce carbon emissions.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. This urgent situation calls for immediate global action to reduce carbon emissions.\nB. As a result, low-lying communities are constantly facing the danger of flooding.\nC. Climate change is no longer a distant threat but a present reality.\nD. Extreme weather events, such as super typhoons, are becoming more frequent.",
     "choices": [
-      "C-B-D-A",
-      "A-B-C-D",
-      "D-A-B-C",
-      "B-A-C-D"
+      "B-D-A-C",
+      "C-D-B-A",
+      "A-C-D-B",
+      "D-C-B-A"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A states the general premise. B gives evidence (extreme weather). C explains the effect of this evidence (flooding in communities). D provides the concluding call to action.",
+    "correct_answer": "C-D-B-A",
+    "explanation": "C states the general premise. D gives evidence (extreme weather). B explains the effect of this evidence (flooding in communities). A provides the concluding call to action.",
     "id": "17053"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. To prepare a good cup of coffee, start by selecting freshly roasted beans.\nB. Next, grind the beans to the appropriate coarseness for your brewing method.\nC. Then, pour hot water evenly over the grounds to allow proper extraction.\nD. Finally, let the coffee steep before pouring it into your favorite mug.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Next, grind the beans to the appropriate coarseness for your brewing method.\nB. Finally, let the coffee steep before pouring it into your favorite mug.\nC. Then, pour hot water evenly over the grounds to allow proper extraction.\nD. To prepare a good cup of coffee, start by selecting freshly roasted beans.",
     "choices": [
-      "D-A-B-C",
-      "A-B-C-D",
-      "B-A-C-D",
-      "C-B-D-A"
+      "B-D-A-C",
+      "D-A-C-B",
+      "A-D-C-B",
+      "C-A-B-D"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "The sentences use clear transitional words indicating sequence: 'start by' (A), 'Next' (B), 'Then' (C), and 'Finally' (D).",
+    "correct_answer": "D-A-C-B",
+    "explanation": "The sentences use clear transitional words indicating sequence: 'start by' (D), 'Next' (A), 'Then' (C), and 'Finally' (B).",
     "id": "17054"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The government announced a new comprehensive tax reform package.\nB. This package aims to lower income taxes for the middle class.\nC. In contrast, it will impose higher levies on luxury goods and services.\nD. Many economists believe this strategy will stimulate domestic consumption.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. In contrast, it will impose higher levies on luxury goods and services.\nB. Many economists believe this strategy will stimulate domestic consumption.\nC. This package aims to lower income taxes for the middle class.\nD. The government announced a new comprehensive tax reform package.",
     "choices": [
-      "D-A-B-C",
-      "A-B-C-D",
-      "B-A-C-D",
-      "C-B-D-A"
+      "B-D-C-A",
+      "D-C-A-B",
+      "C-D-A-B",
+      "A-C-B-D"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the tax package. B explains the primary benefit (lower income taxes). C presents the counterpart (higher levies on luxury). D provides an expert conclusion on the overall effect.",
+    "correct_answer": "D-C-A-B",
+    "explanation": "D introduces the tax package. C explains the primary benefit (lower income taxes). A presents the counterpart (higher levies on luxury). B provides an expert conclusion on the overall effect.",
     "id": "17055"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The invention of the internet revolutionized human communication.\nB. Before its existence, sending a message across the globe took weeks.\nC. Today, people can connect via video calls in mere seconds.\nD. This instantaneous connection has essentially made the world a global village.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. This instantaneous connection has essentially made the world a global village.\nB. The invention of the internet revolutionized human communication.\nC. Today, people can connect via video calls in mere seconds.\nD. Before its existence, sending a message across the globe took weeks.",
     "choices": [
-      "A-B-C-D",
-      "B-A-C-D",
-      "D-A-B-C",
-      "C-B-D-A"
+      "B-D-C-A",
+      "D-B-C-A",
+      "A-B-D-C",
+      "C-D-A-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the internet. B contrasts the past. C contrasts the present. D concludes on the overall impact (global village).",
+    "correct_answer": "B-D-C-A",
+    "explanation": "B introduces the internet. D contrasts the past. C contrasts the present. A concludes on the overall impact (global village).",
     "id": "17056"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Reading regularly expands your vocabulary and improves your focus.\nB. Furthermore, it exposes you to different perspectives and cultures.\nC. Because of these cognitive benefits, educators strongly encourage reading from a young age.\nD. Indeed, a child who reads will likely become a lifelong learner.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Furthermore, it exposes you to different perspectives and cultures.\nB. Reading regularly expands your vocabulary and improves your focus.\nC. Indeed, a child who reads will likely become a lifelong learner.\nD. Because of these cognitive benefits, educators strongly encourage reading from a young age.",
     "choices": [
-      "C-B-D-A",
-      "B-A-C-D",
-      "D-A-B-C",
-      "A-B-C-D"
+      "D-A-C-B",
+      "A-B-D-C",
+      "C-B-A-D",
+      "B-A-D-C"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A states the first benefit. B adds another benefit ('Furthermore'). C draws a conclusion based on 'these cognitive benefits'. D reinforces the conclusion with a final thought.",
+    "correct_answer": "B-A-D-C",
+    "explanation": "B states the first benefit. A adds another benefit ('Furthermore'). D draws a conclusion based on 'these cognitive benefits'. C reinforces the conclusion with a final thought.",
     "id": "17057"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Financial literacy is an essential skill that is often overlooked in schools.\nB. Many young adults enter the workforce without knowing how to budget their salaries.\nC. Consequently, they easily fall into the trap of credit card debt.\nD. To prevent this, basic personal finance should be integrated into the high school curriculum.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Consequently, they easily fall into the trap of credit card debt.\nB. Financial literacy is an essential skill that is often overlooked in schools.\nC. To prevent this, basic personal finance should be integrated into the high school curriculum.\nD. Many young adults enter the workforce without knowing how to budget their salaries.",
     "choices": [
+      "A-D-C-B",
       "C-B-D-A",
-      "D-A-B-C",
-      "B-A-C-D",
-      "A-B-C-D"
+      "D-B-A-C",
+      "B-D-A-C"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A states the main problem (lack of financial literacy). B provides a specific manifestation of the problem (no budgeting). C explains the consequence (debt). D offers the solution (curriculum integration).",
+    "correct_answer": "B-D-A-C",
+    "explanation": "B states the main problem (lack of financial literacy). D provides a specific manifestation of the problem (no budgeting). A explains the consequence (debt). C offers the solution (curriculum integration).",
     "id": "17058"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Manila is a bustling metropolis known for its rich history and vibrant culture.\nB. Intramuros, the historic walled city, stands as a testament to its colonial past.\nC. Just a few kilometers away, modern skyscrapers tower over the business districts.\nD. This blend of the old and the new gives the city its unique charm.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. This blend of the old and the new gives the city its unique charm.\nB. Just a few kilometers away, modern skyscrapers tower over the business districts.\nC. Manila is a bustling metropolis known for its rich history and vibrant culture.\nD. Intramuros, the historic walled city, stands as a testament to its colonial past.",
     "choices": [
-      "A-B-C-D",
-      "B-A-C-D",
-      "C-B-D-A",
-      "D-A-B-C"
+      "C-D-B-A",
+      "D-C-B-A",
+      "B-D-A-C",
+      "A-C-D-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces Manila. B gives an example of the old (Intramuros). C gives an example of the new (skyscrapers). D summarizes the blend of old and new.",
+    "correct_answer": "C-D-B-A",
+    "explanation": "C introduces Manila. D gives an example of the old (Intramuros). B gives an example of the new (skyscrapers). A summarizes the blend of old and new.",
     "id": "17059"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The human body requires a balanced diet to function optimally.\nB. Carbohydrates provide the primary source of energy for daily activities.\nC. Proteins, on the other hand, are crucial for repairing tissues and building muscles.\nD. Without a proper mix of these macronutrients, one's health will eventually deteriorate.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Carbohydrates provide the primary source of energy for daily activities.\nB. Without a proper mix of these macronutrients, one's health will eventually deteriorate.\nC. Proteins, on the other hand, are crucial for repairing tissues and building muscles.\nD. The human body requires a balanced diet to function optimally.",
     "choices": [
-      "B-A-C-D",
-      "D-A-B-C",
-      "A-B-C-D",
-      "C-B-D-A"
+      "A-D-C-B",
+      "B-D-A-C",
+      "D-A-C-B",
+      "C-A-B-D"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A states the topic (balanced diet). B discusses the first element (carbohydrates). C discusses the second element (proteins). D concludes by stating what happens without them.",
+    "correct_answer": "D-A-C-B",
+    "explanation": "D states the topic (balanced diet). A discusses the first element (carbohydrates). C discusses the second element (proteins). B concludes by stating what happens without them.",
     "id": "17060"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Developing a new software application requires a systematic approach.\nB. The first phase involves gathering requirements from the client.\nC. Once the requirements are clear, the developers begin writing the actual code.\nD. Finally, the quality assurance team tests the software for bugs before deployment.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Once the requirements are clear, the developers begin writing the actual code.\nB. Finally, the quality assurance team tests the software for bugs before deployment.\nC. The first phase involves gathering requirements from the client.\nD. Developing a new software application requires a systematic approach.",
     "choices": [
-      "C-B-D-A",
-      "A-B-C-D",
-      "D-A-B-C",
-      "B-A-C-D"
+      "A-C-B-D",
+      "D-C-A-B",
+      "B-D-C-A",
+      "C-D-A-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the topic. B details the first phase. C details the next phase ('Once the requirements are clear'). D details the final phase ('Finally').",
+    "correct_answer": "D-C-A-B",
+    "explanation": "D introduces the topic. C details the first phase. A details the next phase ('Once the requirements are clear'). B details the final phase ('Finally').",
     "id": "17061"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Regular exercise is known to boost cardiovascular health.\nB. It strengthens the heart muscle and improves blood circulation.\nC. In addition to physical benefits, working out releases endorphins that improve mood.\nD. Thus, maintaining an active lifestyle is beneficial for both the body and the mind.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Thus, maintaining an active lifestyle is beneficial for both the body and the mind.\nB. Regular exercise is known to boost cardiovascular health.\nC. In addition to physical benefits, working out releases endorphins that improve mood.\nD. It strengthens the heart muscle and improves blood circulation.",
     "choices": [
-      "A-B-C-D",
-      "C-B-D-A",
-      "D-A-B-C",
-      "B-A-C-D"
+      "B-D-C-A",
+      "C-D-A-B",
+      "A-B-D-C",
+      "D-B-C-A"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the physical benefit. B explains how the physical benefit works. C introduces the mental benefit. D concludes by summarizing both physical and mental benefits.",
+    "correct_answer": "B-D-C-A",
+    "explanation": "B introduces the physical benefit. D explains how the physical benefit works. C introduces the mental benefit. A concludes by summarizing both physical and mental benefits.",
     "id": "17062"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Space exploration has always fascinated humanity.\nB. In the mid-20th century, this fascination culminated in the space race.\nC. This fierce competition eventually led to the historic Apollo 11 moon landing.\nD. Today, the focus has shifted from the moon towards missions aimed at Mars.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. In the mid-20th century, this fascination culminated in the space race.\nB. Space exploration has always fascinated humanity.\nC. Today, the focus has shifted from the moon towards missions aimed at Mars.\nD. This fierce competition eventually led to the historic Apollo 11 moon landing.",
     "choices": [
-      "D-A-B-C",
-      "B-A-C-D",
-      "A-B-C-D",
-      "C-B-D-A"
+      "C-B-A-D",
+      "A-B-D-C",
+      "B-A-D-C",
+      "D-A-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "Chronological order: A (General fascination), B (mid-20th century space race), C (result of the space race - moon landing), D (Today's focus on Mars).",
+    "correct_answer": "B-A-D-C",
+    "explanation": "Chronological order: B (General fascination), A (mid-20th century space race), D (result of the space race - moon landing), C (Today's focus on Mars).",
     "id": "17063"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. A successful business starts with a clear and compelling vision.\nB. This vision must then be translated into a practical business plan.\nC. With a solid plan in place, entrepreneurs can seek funding from investors.\nD. Once capital is secured, the actual operations of the business can commence.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. With a solid plan in place, entrepreneurs can seek funding from investors.\nB. A successful business starts with a clear and compelling vision.\nC. Once capital is secured, the actual operations of the business can commence.\nD. This vision must then be translated into a practical business plan.",
     "choices": [
-      "B-A-C-D",
-      "A-B-C-D",
-      "D-A-B-C",
-      "C-B-D-A"
+      "D-B-A-C",
+      "B-D-A-C",
+      "C-B-D-A",
+      "A-D-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "Logical progression: Vision (A) -> Business Plan (B) -> Funding (C) -> Operations (D).",
+    "correct_answer": "B-D-A-C",
+    "explanation": "Logical progression: Vision (B) -> Business Plan (D) -> Funding (A) -> Operations (C).",
     "id": "17064"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Many endangered species are on the brink of extinction due to habitat loss.\nB. Deforestation, driven by illegal logging and urban expansion, is the primary culprit.\nC. As the forests disappear, animals lose their source of food and shelter.\nD. If this destruction continues, we will lose these magnificent creatures forever.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. If this destruction continues, we will lose these magnificent creatures forever.\nB. As the forests disappear, animals lose their source of food and shelter.\nC. Many endangered species are on the brink of extinction due to habitat loss.\nD. Deforestation, driven by illegal logging and urban expansion, is the primary culprit.",
     "choices": [
-      "A-B-C-D",
-      "D-A-B-C",
-      "B-A-C-D",
-      "C-B-D-A"
+      "C-D-B-A",
+      "A-C-D-B",
+      "D-C-B-A",
+      "B-D-A-C"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A states the problem (endangered species and habitat loss). B identifies the cause of habitat loss (deforestation). C explains how the cause affects the animals. D provides a warning for the future.",
+    "correct_answer": "C-D-B-A",
+    "explanation": "C states the problem (endangered species and habitat loss). D identifies the cause of habitat loss (deforestation). B explains how the cause affects the animals. A provides a warning for the future.",
     "id": "17065"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Public transportation in the city has been severely criticized lately.\nB. Commuters frequently complain about the frequent train breakdowns.\nC. Moreover, the buses are often overcrowded and stuck in heavy traffic.\nD. To resolve these issues, the local government must invest in infrastructure upgrades.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Commuters frequently complain about the frequent train breakdowns.\nB. To resolve these issues, the local government must invest in infrastructure upgrades.\nC. Moreover, the buses are often overcrowded and stuck in heavy traffic.\nD. Public transportation in the city has been severely criticized lately.",
     "choices": [
-      "D-A-B-C",
-      "C-B-D-A",
-      "A-B-C-D",
-      "B-A-C-D"
+      "B-D-A-C",
+      "C-A-B-D",
+      "D-A-C-B",
+      "A-D-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A states the main idea (criticism of public transport). B gives the first complaint (trains). C gives the second complaint (buses). D proposes a solution to these issues.",
+    "correct_answer": "D-A-C-B",
+    "explanation": "D states the main idea (criticism of public transport). A gives the first complaint (trains). C gives the second complaint (buses). B proposes a solution to these issues.",
     "id": "17066"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Online shopping has become a dominant force in the retail industry.\nB. It offers unparalleled convenience, allowing consumers to buy goods from home.\nC. However, it has negatively impacted traditional brick-and-mortar stores.\nD. Many physical shops have been forced to close down due to a lack of foot traffic.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. However, it has negatively impacted traditional brick-and-mortar stores.\nB. Many physical shops have been forced to close down due to a lack of foot traffic.\nC. It offers unparalleled convenience, allowing consumers to buy goods from home.\nD. Online shopping has become a dominant force in the retail industry.",
     "choices": [
-      "C-B-D-A",
-      "B-A-C-D",
-      "A-B-C-D",
-      "D-A-B-C"
+      "A-C-B-D",
+      "C-D-A-B",
+      "D-C-A-B",
+      "B-D-C-A"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces online shopping. B explains its main advantage. C introduces the contrasting negative impact on physical stores. D gives a specific example of that negative impact (closing down).",
+    "correct_answer": "D-C-A-B",
+    "explanation": "D introduces online shopping. C explains its main advantage. A introduces the contrasting negative impact on physical stores. B gives a specific example of that negative impact (closing down).",
     "id": "17067"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Effective time management is crucial for academic success.\nB. Students should begin by creating a weekly study schedule.\nC. This schedule helps them allocate sufficient time for each subject.\nD. By sticking to the routine, they can avoid the stress of last-minute cramming.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. By sticking to the routine, they can avoid the stress of last-minute cramming.\nB. Effective time management is crucial for academic success.\nC. This schedule helps them allocate sufficient time for each subject.\nD. Students should begin by creating a weekly study schedule.",
     "choices": [
-      "A-B-C-D",
-      "D-A-B-C",
-      "B-A-C-D",
-      "C-B-D-A"
+      "B-D-C-A",
+      "A-B-D-C",
+      "D-B-C-A",
+      "C-D-A-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the topic. B suggests the first step (create a schedule). C explains the function of the schedule. D explains the ultimate benefit of following it.",
+    "correct_answer": "B-D-C-A",
+    "explanation": "B introduces the topic. D suggests the first step (create a schedule). C explains the function of the schedule. A explains the ultimate benefit of following it.",
     "id": "17068"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The Philippines is an archipelago blessed with stunning natural resources.\nB. Its pristine beaches and crystal-clear waters attract millions of tourists annually.\nC. Beyond its beaches, the country also boasts lush mountains and diverse wildlife.\nD. These ecological wonders make it a premier destination for nature lovers.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Its pristine beaches and crystal-clear waters attract millions of tourists annually.\nB. The Philippines is an archipelago blessed with stunning natural resources.\nC. These ecological wonders make it a premier destination for nature lovers.\nD. Beyond its beaches, the country also boasts lush mountains and diverse wildlife.",
     "choices": [
-      "C-B-D-A",
-      "A-B-C-D",
-      "D-A-B-C",
-      "B-A-C-D"
+      "D-A-C-B",
+      "B-A-D-C",
+      "C-B-A-D",
+      "A-B-D-C"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the Philippines' resources. B highlights one aspect (beaches). C highlights another aspect (mountains/wildlife). D concludes by summarizing its appeal to nature lovers.",
+    "correct_answer": "B-A-D-C",
+    "explanation": "B introduces the Philippines' resources. A highlights one aspect (beaches). D highlights another aspect (mountains/wildlife). C concludes by summarizing its appeal to nature lovers.",
     "id": "17069"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Learning a second language can be a challenging but rewarding endeavor.\nB. At first, memorizing new vocabulary and grammar rules feels overwhelming.\nC. With consistent practice, however, constructing sentences becomes second nature.\nD. Eventually, you gain the ability to fluently converse with native speakers.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. With consistent practice, however, constructing sentences becomes second nature.\nB. Learning a second language can be a challenging but rewarding endeavor.\nC. Eventually, you gain the ability to fluently converse with native speakers.\nD. At first, memorizing new vocabulary and grammar rules feels overwhelming.",
     "choices": [
-      "D-A-B-C",
-      "B-A-C-D",
       "C-B-D-A",
-      "A-B-C-D"
+      "D-B-A-C",
+      "A-D-C-B",
+      "B-D-A-C"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "Chronological progression of learning: A (General statement), B (At first/Initial struggle), C (With practice/Progress), D (Eventually/Fluency).",
+    "correct_answer": "B-D-A-C",
+    "explanation": "Chronological progression of learning: B (General statement), D (At first/Initial struggle), A (With practice/Progress), C (Eventually/Fluency).",
     "id": "17070"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Renewable energy is the key to combating global warming.\nB. Solar power, for instance, harnesses energy directly from the sun without emissions.\nC. Similarly, wind turbines generate clean electricity using natural air currents.\nD. By transitioning to these green alternatives, we can significantly reduce our carbon footprint.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. By transitioning to these green alternatives, we can significantly reduce our carbon footprint.\nB. Similarly, wind turbines generate clean electricity using natural air currents.\nC. Renewable energy is the key to combating global warming.\nD. Solar power, for instance, harnesses energy directly from the sun without emissions.",
     "choices": [
-      "C-B-D-A",
-      "B-A-C-D",
-      "D-A-B-C",
-      "A-B-C-D"
+      "B-D-A-C",
+      "D-C-B-A",
+      "A-C-D-B",
+      "C-D-B-A"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the topic. B gives the first example (solar). C gives a second, similar example (wind). D concludes on the benefit of these alternatives.",
+    "correct_answer": "C-D-B-A",
+    "explanation": "C introduces the topic. D gives the first example (solar). B gives a second, similar example (wind). A concludes on the benefit of these alternatives.",
     "id": "17071"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Social media was designed to connect people across the world.\nB. Ironically, studies show that excessive use can lead to feelings of isolation.\nC. Users often compare their behind-the-scenes lives to the highlight reels of others.\nD. This unhealthy comparison breeds anxiety and depression among teenagers.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Ironically, studies show that excessive use can lead to feelings of isolation.\nB. This unhealthy comparison breeds anxiety and depression among teenagers.\nC. Users often compare their behind-the-scenes lives to the highlight reels of others.\nD. Social media was designed to connect people across the world.",
     "choices": [
-      "D-A-B-C",
-      "C-B-D-A",
-      "A-B-C-D",
-      "B-A-C-D"
+      "B-D-A-C",
+      "C-A-B-D",
+      "D-A-C-B",
+      "A-D-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A states the original intent. B introduces the irony (isolation). C explains the mechanism behind the irony (unhealthy comparisons). D states the final consequence (anxiety).",
+    "correct_answer": "D-A-C-B",
+    "explanation": "D states the original intent. A introduces the irony (isolation). C explains the mechanism behind the irony (unhealthy comparisons). B states the final consequence (anxiety).",
     "id": "17072"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. To bake a perfect cake, accurate measurements are absolutely vital.\nB. If you use too much flour, the cake will turn out dry and dense.\nC. Conversely, adding too much liquid will prevent the center from baking properly.\nD. Therefore, always use measuring cups and spoons to ensure the right proportions.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Conversely, adding too much liquid will prevent the center from baking properly.\nB. Therefore, always use measuring cups and spoons to ensure the right proportions.\nC. If you use too much flour, the cake will turn out dry and dense.\nD. To bake a perfect cake, accurate measurements are absolutely vital.",
     "choices": [
-      "D-A-B-C",
-      "C-B-D-A",
-      "A-B-C-D",
-      "B-A-C-D"
+      "B-D-C-A",
+      "A-C-B-D",
+      "D-C-A-B",
+      "C-D-A-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A states the main rule (measurements are vital). B gives the first consequence of failing the rule (too much flour). C gives the second consequence (too much liquid). D concludes with the practical advice.",
+    "correct_answer": "D-C-A-B",
+    "explanation": "D states the main rule (measurements are vital). C gives the first consequence of failing the rule (too much flour). A gives the second consequence (too much liquid). B concludes with the practical advice.",
     "id": "17073"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Cybersecurity has become a top priority for multinational corporations.\nB. Hackers continually develop sophisticated methods to breach corporate networks.\nC. When a breach occurs, companies suffer immense financial and reputational damage.\nD. To defend against these threats, firms invest heavily in advanced encryption and firewalls.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. To defend against these threats, firms invest heavily in advanced encryption and firewalls.\nB. Cybersecurity has become a top priority for multinational corporations.\nC. When a breach occurs, companies suffer immense financial and reputational damage.\nD. Hackers continually develop sophisticated methods to breach corporate networks.",
     "choices": [
-      "C-B-D-A",
-      "A-B-C-D",
-      "D-A-B-C",
-      "B-A-C-D"
+      "C-D-A-B",
+      "B-D-C-A",
+      "A-B-D-C",
+      "D-B-C-A"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the main idea (cybersecurity priority). B explains the threat (hackers). C explains the consequence of the threat (breach damage). D explains the defensive action taken.",
+    "correct_answer": "B-D-C-A",
+    "explanation": "B introduces the main idea (cybersecurity priority). D explains the threat (hackers). C explains the consequence of the threat (breach damage). A explains the defensive action taken.",
     "id": "17074"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Recycling is a simple way for households to protect the environment.\nB. It involves separating plastic, paper, and glass from general waste.\nC. These materials are then processed and transformed into new usable items.\nD. Consequently, this process reduces the amount of garbage sent to landfills.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. It involves separating plastic, paper, and glass from general waste.\nB. Recycling is a simple way for households to protect the environment.\nC. Consequently, this process reduces the amount of garbage sent to landfills.\nD. These materials are then processed and transformed into new usable items.",
     "choices": [
-      "D-A-B-C",
-      "A-B-C-D",
-      "B-A-C-D",
-      "C-B-D-A"
+      "C-B-A-D",
+      "B-A-D-C",
+      "A-B-D-C",
+      "D-A-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces recycling. B defines the first step at home (separating). C explains the next step (processing). D states the ultimate result (less landfill waste).",
+    "correct_answer": "B-A-D-C",
+    "explanation": "B introduces recycling. A defines the first step at home (separating). D explains the next step (processing). C states the ultimate result (less landfill waste).",
     "id": "17075"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The discovery of penicillin by Alexander Fleming changed medicine forever.\nB. Before this, minor bacterial infections were often fatal.\nC. Following the discovery, mass production of the antibiotic began during World War II.\nD. Since then, it has saved millions of lives globally.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Following the discovery, mass production of the antibiotic began during World War II.\nB. The discovery of penicillin by Alexander Fleming changed medicine forever.\nC. Since then, it has saved millions of lives globally.\nD. Before this, minor bacterial infections were often fatal.",
     "choices": [
-      "B-A-C-D",
-      "A-B-C-D",
-      "D-A-B-C",
-      "C-B-D-A"
+      "D-B-A-C",
+      "B-D-A-C",
+      "C-B-D-A",
+      "A-D-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the discovery. B explains the context before the discovery. C explains what happened right after the discovery. D describes the long-term impact.",
+    "correct_answer": "B-D-A-C",
+    "explanation": "B introduces the discovery. D explains the context before the discovery. A explains what happened right after the discovery. C describes the long-term impact.",
     "id": "17076"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Starting a small business involves considerable risk and dedication.\nB. First, you must conduct thorough market research to identify consumer needs.\nC. Next, securing adequate capital is necessary to cover initial operations.\nD. Only after completing these steps should you formally launch your product.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Only after completing these steps should you formally launch your product.\nB. Next, securing adequate capital is necessary to cover initial operations.\nC. Starting a small business involves considerable risk and dedication.\nD. First, you must conduct thorough market research to identify consumer needs.",
     "choices": [
-      "D-A-B-C",
-      "C-B-D-A",
-      "B-A-C-D",
-      "A-B-C-D"
+      "A-C-D-B",
+      "B-D-A-C",
+      "D-C-B-A",
+      "C-D-B-A"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A is the topic sentence. B gives the 'First' step. C gives the 'Next' step. D gives the final step ('Only after completing these steps').",
+    "correct_answer": "C-D-B-A",
+    "explanation": "C is the topic sentence. D gives the 'First' step. B gives the 'Next' step. A gives the final step ('Only after completing these steps').",
     "id": "17077"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Yoga is an ancient practice that harmonizes the mind and body.\nB. It incorporates breathing exercises, meditation, and physical postures.\nC. These postures, known as asanas, improve flexibility and muscle tone.\nD. Meanwhile, the meditative aspect helps reduce stress and anxiety.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. It incorporates breathing exercises, meditation, and physical postures.\nB. Meanwhile, the meditative aspect helps reduce stress and anxiety.\nC. These postures, known as asanas, improve flexibility and muscle tone.\nD. Yoga is an ancient practice that harmonizes the mind and body.",
     "choices": [
-      "A-B-C-D",
-      "B-A-C-D",
-      "D-A-B-C",
-      "C-B-D-A"
+      "D-A-C-B",
+      "A-D-C-B",
+      "B-D-A-C",
+      "C-A-B-D"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A defines Yoga. B lists its components. C elaborates on the physical component (postures). D elaborates on the mental component (meditation).",
+    "correct_answer": "D-A-C-B",
+    "explanation": "D defines Yoga. A lists its components. C elaborates on the physical component (postures). B elaborates on the mental component (meditation).",
     "id": "17078"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The industrial revolution brought about massive urbanization.\nB. Factories sprouted in cities, requiring thousands of laborers.\nC. Consequently, rural populations migrated to urban centers in search of jobs.\nD. This rapid influx of people eventually led to overcrowded and unsanitary living conditions.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Consequently, rural populations migrated to urban centers in search of jobs.\nB. This rapid influx of people eventually led to overcrowded and unsanitary living conditions.\nC. Factories sprouted in cities, requiring thousands of laborers.\nD. The industrial revolution brought about massive urbanization.",
     "choices": [
-      "C-B-D-A",
-      "B-A-C-D",
-      "D-A-B-C",
-      "A-B-C-D"
+      "A-C-B-D",
+      "C-D-A-B",
+      "B-D-C-A",
+      "D-C-A-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A states the general event. B gives the cause (factories needing labor). C gives the direct effect (migration). D gives the ultimate consequence (overcrowding).",
+    "correct_answer": "D-C-A-B",
+    "explanation": "D states the general event. C gives the cause (factories needing labor). A gives the direct effect (migration). B gives the ultimate consequence (overcrowding).",
     "id": "17079"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. A healthy sleep schedule is vital for cognitive function.\nB. During deep sleep, the brain consolidates memories from the day.\nC. If a person is sleep-deprived, this consolidation process is interrupted.\nD. As a result, they may experience memory lapses and poor concentration.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. As a result, they may experience memory lapses and poor concentration.\nB. A healthy sleep schedule is vital for cognitive function.\nC. If a person is sleep-deprived, this consolidation process is interrupted.\nD. During deep sleep, the brain consolidates memories from the day.",
     "choices": [
-      "B-A-C-D",
-      "D-A-B-C",
-      "C-B-D-A",
-      "A-B-C-D"
+      "D-B-C-A",
+      "A-B-D-C",
+      "C-D-A-B",
+      "B-D-C-A"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces sleep and cognition. B explains the positive mechanism (consolidation). C introduces the negative condition (sleep deprivation). D gives the result of the negative condition.",
+    "correct_answer": "B-D-C-A",
+    "explanation": "B introduces sleep and cognition. D explains the positive mechanism (consolidation). C introduces the negative condition (sleep deprivation). A gives the result of the negative condition.",
     "id": "17080"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The history of aviation is marked by rapid technological leaps.\nB. The Wright brothers achieved the first powered flight in 1903.\nC. Just a few decades later, jet engines revolutionized commercial air travel.\nD. Today, engineers are developing supersonic jets that will cut travel times in half.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The Wright brothers achieved the first powered flight in 1903.\nB. The history of aviation is marked by rapid technological leaps.\nC. Today, engineers are developing supersonic jets that will cut travel times in half.\nD. Just a few decades later, jet engines revolutionized commercial air travel.",
     "choices": [
-      "B-A-C-D",
-      "C-B-D-A",
-      "A-B-C-D",
-      "D-A-B-C"
+      "A-B-D-C",
+      "D-A-C-B",
+      "B-A-D-C",
+      "C-B-A-D"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "Chronological order: A (Topic), B (1903), C (A few decades later), D (Today).",
+    "correct_answer": "B-A-D-C",
+    "explanation": "Chronological order: B (Topic), A (1903), D (B few decades later), C (Today).",
     "id": "17081"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Investing in the stock market can yield significant financial returns.\nB. However, it also carries the inherent risk of losing one's principal investment.\nC. To mitigate this risk, financial advisors recommend diversifying your portfolio.\nD. By spreading investments across different sectors, potential losses are minimized.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. To mitigate this risk, financial advisors recommend diversifying your portfolio.\nB. Investing in the stock market can yield significant financial returns.\nC. By spreading investments across different sectors, potential losses are minimized.\nD. However, it also carries the inherent risk of losing one's principal investment.",
     "choices": [
-      "D-A-B-C",
-      "A-B-C-D",
-      "B-A-C-D",
-      "C-B-D-A"
+      "C-B-D-A",
+      "B-D-A-C",
+      "D-B-A-C",
+      "A-D-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A states the positive side of investing. B contrasts with the negative risk. C offers a solution to the risk (diversifying). D explains how the solution works.",
+    "correct_answer": "B-D-A-C",
+    "explanation": "B states the positive side of investing. D contrasts with the negative risk. A offers a solution to the risk (diversifying). C explains how the solution works.",
     "id": "17082"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Water scarcity is a growing crisis in many developing nations.\nB. Droughts and poor infrastructure leave millions without access to clean drinking water.\nC. This lack of sanitation leads to rampant outbreaks of waterborne diseases.\nD. Therefore, international aid must focus on building sustainable water purification systems.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Therefore, international aid must focus on building sustainable water purification systems.\nB. This lack of sanitation leads to rampant outbreaks of waterborne diseases.\nC. Water scarcity is a growing crisis in many developing nations.\nD. Droughts and poor infrastructure leave millions without access to clean drinking water.",
     "choices": [
-      "D-A-B-C",
-      "B-A-C-D",
-      "A-B-C-D",
-      "C-B-D-A"
+      "A-C-D-B",
+      "D-C-B-A",
+      "C-D-B-A",
+      "B-D-A-C"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the crisis. B identifies the causes (drought/infrastructure). C identifies the effect (diseases). D proposes the solution.",
+    "correct_answer": "C-D-B-A",
+    "explanation": "C introduces the crisis. D identifies the causes (drought/infrastructure). B identifies the effect (diseases). A proposes the solution.",
     "id": "17083"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Volcanoes are formed when magma from within the Earth's upper mantle works its way to the surface.\nB. At the surface, it erupts to form lava flows and ash deposits.\nC. Over time, as the volcano continues to erupt, it will get bigger and bigger.\nD. Eventually, this accumulated material forms a mountain-like structure.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. At the surface, it erupts to form lava flows and ash deposits.\nB. Eventually, this accumulated material forms a mountain-like structure.\nC. Over time, as the volcano continues to erupt, it will get bigger and bigger.\nD. Volcanoes are formed when magma from within the Earth's upper mantle works its way to the surface.",
     "choices": [
-      "C-B-D-A",
-      "A-B-C-D",
-      "B-A-C-D",
-      "D-A-B-C"
+      "C-A-B-D",
+      "D-A-C-B",
+      "A-D-C-B",
+      "B-D-A-C"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "Sequential process of volcano formation: A (magma rising), B (eruption at surface), C (accumulation over time), D (final structure formed).",
+    "correct_answer": "D-A-C-B",
+    "explanation": "Sequential process of volcano formation: D (magma rising), A (eruption at surface), C (accumulation over time), B (final structure formed).",
     "id": "17084"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Proper dog training relies heavily on positive reinforcement.\nB. Whenever the dog follows a command correctly, immediately give it a treat.\nC. This reward helps the dog associate the action with a pleasant outcome.\nD. Over time, the dog will perform the command even without the treat.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. This reward helps the dog associate the action with a pleasant outcome.\nB. Over time, the dog will perform the command even without the treat.\nC. Whenever the dog follows a command correctly, immediately give it a treat.\nD. Proper dog training relies heavily on positive reinforcement.",
     "choices": [
-      "A-B-C-D",
-      "B-A-C-D",
-      "C-B-D-A",
-      "D-A-B-C"
+      "D-C-A-B",
+      "C-D-A-B",
+      "A-C-B-D",
+      "B-D-C-A"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the concept. B gives an example (give a treat). C explains the psychology behind the example. D describes the long-term result.",
+    "correct_answer": "D-C-A-B",
+    "explanation": "D introduces the concept. C gives an example (give a treat). A explains the psychology behind the example. B describes the long-term result.",
     "id": "17085"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The tourism industry is a major pillar of the Philippine economy.\nB. It provides employment to millions of Filipinos in the hospitality and transport sectors.\nC. During the pandemic, however, international borders were closed, causing massive revenue losses.\nD. Now, the government is aggressively promoting domestic travel to help the industry recover.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Now, the government is aggressively promoting domestic travel to help the industry recover.\nB. The tourism industry is a major pillar of the Philippine economy.\nC. During the pandemic, however, international borders were closed, causing massive revenue losses.\nD. It provides employment to millions of Filipinos in the hospitality and transport sectors.",
     "choices": [
-      "B-A-C-D",
-      "A-B-C-D",
-      "C-B-D-A",
-      "D-A-B-C"
+      "D-B-C-A",
+      "B-D-C-A",
+      "C-D-A-B",
+      "A-B-D-C"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces tourism as an economic pillar. B explains its specific economic contribution. C introduces the problem (pandemic). D presents the current solution (domestic travel).",
+    "correct_answer": "B-D-C-A",
+    "explanation": "B introduces tourism as an economic pillar. D explains its specific economic contribution. C introduces the problem (pandemic). A presents the current solution (domestic travel).",
     "id": "17086"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Reading food labels is an important habit for maintaining a healthy diet.\nB. The first thing to look for is the serving size indicated at the top.\nC. Next, check the amounts of saturated fat, sodium, and added sugars.\nD. Finally, review the ingredient list to spot any hidden artificial preservatives.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The first thing to look for is the serving size indicated at the top.\nB. Reading food labels is an important habit for maintaining a healthy diet.\nC. Finally, review the ingredient list to spot any hidden artificial preservatives.\nD. Next, check the amounts of saturated fat, sodium, and added sugars.",
     "choices": [
-      "C-B-D-A",
-      "D-A-B-C",
-      "A-B-C-D",
-      "B-A-C-D"
+      "D-A-C-B",
+      "C-B-A-D",
+      "B-A-D-C",
+      "A-B-D-C"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the topic. B, C, and D are sequenced by transitional phrases: 'The first thing', 'Next', and 'Finally'.",
+    "correct_answer": "B-A-D-C",
+    "explanation": "B introduces the topic. A, D, and C are sequenced by transitional phrases: 'The first thing', 'Next', and 'Finally'.",
     "id": "17087"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The Great Wall of China is an architectural marvel visible from low Earth orbit.\nB. It was originally built by various dynasties to protect against nomadic invasions.\nC. Over centuries, different emperors added onto and fortified the existing walls.\nD. Today, it stands not as a military defense, but as a symbol of Chinese historical resilience.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Over centuries, different emperors added onto and fortified the existing walls.\nB. The Great Wall of China is an extensive system of historic defensive structures.\nC. Today, it stands not as a military defense, but as a symbol of Chinese historical resilience.\nD. It was originally built by various dynasties to protect against nomadic invasions.",
     "choices": [
-      "B-A-C-D",
-      "A-B-C-D",
-      "D-A-B-C",
-      "C-B-D-A"
+      "D-B-A-C",
+      "B-D-A-C",
+      "C-B-D-A",
+      "A-D-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the Great Wall. B explains its original purpose. C explains its historical development. D explains its modern significance.",
+    "correct_answer": "B-D-A-C",
+    "explanation": "B introduces the Great Wall. D explains its original purpose. A explains its historical development. C explains its modern significance.",
     "id": "17088"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Writing a novel is a marathon, not a sprint.\nB. An author must first outline the plot and develop complex characters.\nC. Then comes the grueling process of drafting chapter after chapter.\nD. After the first draft is finished, several rounds of editing and revision are necessary.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. After the first draft is finished, several rounds of editing and revision are necessary.\nB. Then comes the grueling process of drafting chapter after chapter.\nC. Writing a novel is a marathon, not a sprint.\nD. An author must first outline the plot and develop complex characters.",
     "choices": [
-      "D-A-B-C",
-      "C-B-D-A",
-      "A-B-C-D",
-      "B-A-C-D"
+      "A-C-D-B",
+      "B-D-A-C",
+      "C-D-B-A",
+      "D-C-B-A"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A sets the theme. B describes the 'first' step (outline). C describes the 'Then' step (drafting). D describes the step 'After the first draft is finished'.",
+    "correct_answer": "C-D-B-A",
+    "explanation": "C sets the theme. D describes the 'first' step (outline). B describes the 'Then' step (drafting). A describes the step 'After the first draft is finished'.",
     "id": "17089"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Electric vehicles (EVs) are becoming increasingly popular worldwide.\nB. One major reason is that they produce zero tailpipe emissions.\nC. This eco-friendly feature makes them highly attractive to environmentally conscious consumers.\nD. Despite this, the lack of widespread charging stations remains a significant hurdle to mass adoption.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. One major reason is that they produce zero tailpipe emissions.\nB. Despite this, the lack of widespread charging stations remains a significant hurdle to mass adoption.\nC. This eco-friendly feature makes them highly attractive to environmentally conscious consumers.\nD. Electric vehicles (EVs) are becoming increasingly popular worldwide.",
     "choices": [
-      "B-A-C-D",
-      "C-B-D-A",
-      "D-A-B-C",
-      "A-B-C-D"
+      "A-D-C-B",
+      "C-A-B-D",
+      "B-D-A-C",
+      "D-A-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces EV popularity. B gives the reason for it. C explains the effect of that reason. D introduces the counter-point/hurdle.",
+    "correct_answer": "D-A-C-B",
+    "explanation": "D introduces EV popularity. A gives the reason for it. C explains the effect of that reason. B introduces the counter-point/hurdle.",
     "id": "17090"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Photography is the art of capturing light using a camera.\nB. To get a proper exposure, a photographer must balance three main settings.\nC. These settings are the aperture, shutter speed, and ISO.\nD. Understanding how these three interact is the foundation of manual photography.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. These settings are the aperture, shutter speed, and ISO.\nB. Understanding how these three interact is the foundation of manual photography.\nC. To get a proper exposure, a photographer must balance three main settings.\nD. Photography is the art of capturing light using a camera.",
     "choices": [
-      "A-B-C-D",
-      "C-B-D-A",
-      "B-A-C-D",
-      "D-A-B-C"
+      "D-C-A-B",
+      "A-C-B-D",
+      "C-D-A-B",
+      "B-D-C-A"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A defines photography. B introduces the concept of balancing settings. C identifies what 'These settings' are. D concludes on the importance of understanding them.",
+    "correct_answer": "D-C-A-B",
+    "explanation": "D defines photography. C introduces the concept of balancing settings. A identifies what 'These settings' are. B concludes on the importance of understanding them.",
     "id": "17091"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The concept of minimalism has gained traction in recent years.\nB. It advocates for living with only the things you truly need.\nC. By decluttering physical spaces, people often find mental clarity.\nD. Consequently, minimalists report feeling less stressed and more focused on experiences.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Consequently, minimalists report feeling less stressed and more focused on experiences.\nB. The concept of minimalism has gained traction in recent years.\nC. By decluttering physical spaces, people often find mental clarity.\nD. It advocates for living with only the things you truly need.",
     "choices": [
-      "C-B-D-A",
-      "D-A-B-C",
-      "A-B-C-D",
-      "B-A-C-D"
+      "C-D-A-B",
+      "A-B-D-C",
+      "B-D-C-A",
+      "D-B-C-A"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces minimalism. B defines it. C explains its immediate action and effect (decluttering -> clarity). D explains the ultimate consequence.",
+    "correct_answer": "B-D-C-A",
+    "explanation": "B introduces minimalism. D defines it. C explains its immediate action and effect (decluttering -> clarity). A explains the ultimate consequence.",
     "id": "17092"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Baking bread from scratch requires patience and precision.\nB. First, you mix the flour, water, yeast, and salt to form a dough.\nC. Then, the dough must be left to rise in a warm place until it doubles in size.\nD. Once risen, it is shaped into a loaf and baked until golden brown.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. First, you mix the flour, water, yeast, and salt to form a dough.\nB. Baking bread from scratch requires patience and precision.\nC. Once risen, it is shaped into a loaf and baked until golden brown.\nD. Then, the dough must be left to rise in a warm place until it doubles in size.",
     "choices": [
-      "B-A-C-D",
-      "D-A-B-C",
-      "A-B-C-D",
-      "C-B-D-A"
+      "A-B-D-C",
+      "C-B-A-D",
+      "B-A-D-C",
+      "D-A-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces bread baking. B gives the 'First' step. C gives the 'Then' step. D gives the 'Once risen' final step.",
+    "correct_answer": "B-A-D-C",
+    "explanation": "B introduces bread baking. A gives the 'First' step. D gives the 'Then' step. C gives the 'Once risen' final step.",
     "id": "17093"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Earthquakes are sudden rolling or shaking events caused by movement under the earth's surface.\nB. They happen along fault lines where tectonic plates collide or slide past each other.\nC. When the stress on the edge overcomes the friction, there is an earthquake.\nD. The released energy travels outward in seismic waves, causing the ground to shake.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. When the stress on the edge overcomes the friction, there is an earthquake.\nB. Earthquakes are sudden rolling or shaking events caused by movement under the earth's surface.\nC. The released energy travels outward in seismic waves, causing the ground to shake.\nD. They happen along fault lines where tectonic plates collide or slide past each other.",
     "choices": [
+      "A-D-C-B",
       "C-B-D-A",
-      "D-A-B-C",
-      "B-A-C-D",
-      "A-B-C-D"
+      "D-B-A-C",
+      "B-D-A-C"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A defines earthquakes. B explains where they happen. C explains the mechanism of release. D explains the result of the release (seismic waves).",
+    "correct_answer": "B-D-A-C",
+    "explanation": "B defines earthquakes. D explains where they happen. A explains the mechanism of release. C explains the result of the release (seismic waves).",
     "id": "17094"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Customer service is the backbone of any retail business.\nB. When a customer is treated well, they are likely to return.\nC. Furthermore, satisfied customers often recommend the store to their friends.\nD. This word-of-mouth marketing is invaluable for business growth.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. This word-of-mouth marketing is invaluable for business growth.\nB. Furthermore, satisfied customers often recommend the store to their friends.\nC. Customer service is the backbone of any retail business.\nD. When a customer is treated well, they are likely to return.",
     "choices": [
-      "A-B-C-D",
-      "B-A-C-D",
-      "D-A-B-C",
-      "C-B-D-A"
+      "C-D-B-A",
+      "D-C-B-A",
+      "A-C-D-B",
+      "B-D-A-C"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A states the main premise. B gives the first benefit. C gives an additional benefit ('Furthermore'). D summarizes the value of the additional benefit.",
+    "correct_answer": "C-D-B-A",
+    "explanation": "C states the main premise. D gives the first benefit. B gives an additional benefit ('Furthermore'). A summarizes the value of the additional benefit.",
     "id": "17095"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. The Amazon rainforest is often referred to as the 'lungs of the Earth'.\nB. It absorbs massive amounts of carbon dioxide and produces oxygen.\nC. Tragically, illegal logging and slash-and-burn agriculture are destroying it at an alarming rate.\nD. If left unchecked, this destruction will severely accelerate global warming.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. It absorbs massive amounts of carbon dioxide and produces oxygen.\nB. If left unchecked, this destruction will severely accelerate global warming.\nC. Tragically, illegal logging and slash-and-burn agriculture are destroying it at an alarming rate.\nD. The Amazon rainforest is often referred to as the 'lungs of the Earth'.",
     "choices": [
-      "D-A-B-C",
-      "C-B-D-A",
-      "B-A-C-D",
-      "A-B-C-D"
+      "B-D-A-C",
+      "C-A-B-D",
+      "A-D-C-B",
+      "D-A-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the Amazon. B explains why it's the 'lungs'. C introduces the threat. D gives the ultimate consequence of the threat.",
+    "correct_answer": "D-A-C-B",
+    "explanation": "D introduces the Amazon. A explains why it's the 'lungs'. C introduces the threat. B gives the ultimate consequence of the threat.",
     "id": "17096"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. A strong password is your first line of defense against cyber attacks.\nB. It should consist of a mix of uppercase letters, numbers, and symbols.\nC. Additionally, it should be at least twelve characters long.\nD. Most importantly, you should never use the same password across multiple websites.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Additionally, it should be at least twelve characters long.\nB. Most importantly, you should never use the same password across multiple websites.\nC. It should consist of a mix of uppercase letters, numbers, and symbols.\nD. A strong password is your first line of defense against cyber attacks.",
     "choices": [
-      "C-B-D-A",
-      "D-A-B-C",
-      "A-B-C-D",
-      "B-A-C-D"
+      "A-C-B-D",
+      "B-D-C-A",
+      "D-C-A-B",
+      "C-D-A-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces the topic. B gives the first requirement. C gives an additional requirement. D gives the final, most important rule.",
+    "correct_answer": "D-C-A-B",
+    "explanation": "D introduces the topic. C gives the first requirement. A gives an additional requirement. B gives the final, most important rule.",
     "id": "17097"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Ants are incredibly social insects that live in structured colonies.\nB. At the center of the colony is the queen, whose sole job is to lay eggs.\nC. Worker ants, all of which are female, forage for food and maintain the nest.\nD. Meanwhile, male ants exist only to mate with the queen and die shortly after.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Meanwhile, male ants exist only to mate with the queen and die shortly after.\nB. Ants are incredibly social insects that live in structured colonies.\nC. Worker ants, all of which are female, forage for food and maintain the nest.\nD. At the center of the colony is the queen, whose sole job is to lay eggs.",
     "choices": [
-      "B-A-C-D",
-      "D-A-B-C",
-      "A-B-C-D",
-      "C-B-D-A"
+      "D-B-C-A",
+      "A-B-D-C",
+      "B-D-C-A",
+      "C-D-A-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces ant colonies. B discusses the queen. C discusses the workers. D discusses the males.",
+    "correct_answer": "B-D-C-A",
+    "explanation": "B introduces ant colonies. D discusses the queen. C discusses the workers. A discusses the males.",
     "id": "17098"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Preparing for a marathon takes months of dedicated training.\nB. Runners usually start with short distances to build their cardiovascular base.\nC. Gradually, they increase their mileage week by week.\nD. A few weeks before the race, they taper their training to rest their muscles.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Runners usually start with short distances to build their cardiovascular base.\nB. Preparing for a marathon takes months of dedicated training.\nC. A few weeks before the race, they taper their training to rest their muscles.\nD. Gradually, they increase their mileage week by week.",
     "choices": [
-      "A-B-C-D",
-      "D-A-B-C",
-      "B-A-C-D",
-      "C-B-D-A"
+      "B-A-D-C",
+      "C-B-A-D",
+      "A-B-D-C",
+      "D-A-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces marathon prep. B describes the 'start'. C describes the 'Gradually' middle phase. D describes the phase 'A few weeks before the race'.",
+    "correct_answer": "B-A-D-C",
+    "explanation": "B introduces marathon prep. A describes the 'start'. D describes the 'Gradually' middle phase. C describes the phase 'B few weeks before the race'.",
     "id": "17099"
   },
   {
     "category": "Verbal Ability – Paragraph Organization",
-    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. Plastics are versatile materials that have revolutionized modern life.\nB. However, their durability makes them a massive environmental hazard.\nC. A single plastic bottle can take hundreds of years to decompose.\nD. During this time, it often breaks down into microplastics that pollute our oceans.",
+    "question": "Determine the most logical and coherent order of the following sentences to form a well-organized paragraph:\n\nA. A single plastic bottle can take hundreds of years to decompose.\nB. Plastics are versatile materials that have revolutionized modern life.\nC. During this time, it often breaks down into microplastics that pollute our oceans.\nD. However, their durability makes them a massive environmental hazard.",
     "choices": [
-      "B-A-C-D",
-      "A-B-C-D",
-      "D-A-B-C",
-      "C-B-D-A"
+      "D-B-A-C",
+      "B-D-A-C",
+      "C-B-D-A",
+      "A-D-C-B"
     ],
-    "correct_answer": "A-B-C-D",
-    "explanation": "A introduces plastics positively. B introduces the negative aspect (durability as a hazard). C provides an example (plastic bottle). D describes the consequence over time.",
+    "correct_answer": "B-D-A-C",
+    "explanation": "B introduces plastics positively. D introduces the negative aspect (durability as a hazard). A provides an example (plastic bottle). C describes the consequence over time.",
     "id": "17100"
   }
 ]

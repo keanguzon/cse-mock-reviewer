@@ -28,15 +28,15 @@
   {
     "id": "8003",
     "category": "General Information – Current Events & Basic Facts",
-    "question": "How many regions does the Philippines currently have?",
+    "question": "Following the establishment of the Negros Island Region under RA 12000 in June 2024, how many administrative regions did the Philippines have?",
     "choices": [
       "15",
       "16",
       "17",
       "18"
     ],
-    "correct_answer": "17",
-    "explanation": "The Philippines has 17 administrative regions, including the Bangsamoro Autonomous Region in Muslim Mindanao (BARMM)."
+    "correct_answer": "18",
+    "explanation": "RA 12000 established the Negros Island Region, bringing the number of administrative regions from 17 to 18."
   },
   {
     "id": "8004",
@@ -67,14 +67,14 @@
   {
     "id": "8006",
     "category": "General Information – Current Events & Basic Facts",
-    "question": "What is the Philippine national hero's full name?",
+    "question": "Which choice gives Jose Rizal's complete name?",
     "choices": [
-      "Andres Bonifacio y de Castro (Ama ng Katipunan)",
-      "Emilio Aguinaldo y Famy (Pangulo ng Unang Republika)",
-      "Manuel Luis Quezon y Molina (Pangulo ng Komonwelt)",
-      "Jose Protasio Rizal Mercado y Alonso Realonda (Pambansang Bayani)"
+      "Andres Bonifacio y de Castro",
+      "Emilio Aguinaldo y Famy",
+      "Manuel Luis Quezon y Molina",
+      "Jose Protasio Rizal Mercado y Alonso Realonda"
     ],
-    "correct_answer": "Jose Protasio Rizal Mercado y Alonso Realonda (Pambansang Bayani)",
+    "correct_answer": "Jose Protasio Rizal Mercado y Alonso Realonda",
     "explanation": "Jose Rizal is the Philippines' national hero, known for his novels Noli Me Tangere and El Filibusterismo."
   },
   {
@@ -600,15 +600,15 @@
   {
     "id": "8047",
     "category": "General Information – Current Events & Basic Facts",
-    "question": "What is the official seal motto found on the Coat of Arms of the Philippines?",
+    "question": "What is the national motto of the Philippines under Section 40 of RA 8491?",
     "choices": [
-      "Bayan Muna Bago Ang Sarili (National Pride Motto)",
-      "Katarungan, Kalayaan, Kapatiran (Justice Freedom Motto)",
+      "Bayan Muna Bago Ang Sarili",
+      "Katarungan, Kalayaan, Kapatiran",
       "Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa",
-      "Isang Bansa, Isang Diwa (National Unity Motto)"
+      "Isang Bansa, Isang Diwa"
     ],
     "correct_answer": "Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa",
-    "explanation": "RA 8491 (Flag and Heraldic Code) designates 'Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa' as the National Motto."
+    "explanation": "RA 8491 (Flag and Heraldic Code) designates 'Maka-Diyos, Maka-Tao, Makakalikasan at Makabansa' as the National Motto. Section 41 separately specifies REPUBLIKA NG PILIPINAS on the coat-of-arms scroll."
   },
   {
     "id": "8048",
@@ -628,12 +628,12 @@
     "category": "General Information – Current Events & Basic Facts",
     "question": "Which sea borders the Philippines to the west?",
     "choices": [
-      "Philippine Sea (Eastern Border)",
-      "Sulu Sea (Archipelagic Waters)",
-      "West Philippine Sea (South China Sea)",
-      "Celebes Sea (Southern Border)"
+      "Philippine Sea",
+      "Sulu Sea",
+      "West Philippine Sea",
+      "Celebes Sea"
     ],
-    "correct_answer": "West Philippine Sea (South China Sea)",
+    "correct_answer": "West Philippine Sea",
     "explanation": "The West Philippine Sea (South China Sea) borders the Philippines to the west, while the Philippine Sea borders to the east."
   },
   {
@@ -781,7 +781,7 @@
   },
   {
     "category": "General Information – Current Events & Basic Facts",
-    "question": "What international treaty signed in 2015 aims to limit global warming to well below 2 degrees Celsius above pre-industrial levels?",
+    "question": "What international treaty adopted in 2015 aims to limit global warming to well below 2 degrees Celsius above pre-industrial levels?",
     "choices": [
       "Kyoto Protocol",
       "Montreal Protocol",
@@ -1257,7 +1257,7 @@
       "Social Security Act"
     ],
     "correct_answer": "Expanded Senior Citizens Act of 2010",
-    "explanation": "RA 9994 grants 20% discount and VAT exemption on medical and commercial goods for senior citizens aged 60 and above.",
+    "explanation": "RA 9994 is the Expanded Senior Citizens Act of 2010. Its 20% discount and VAT exemption apply to enumerated qualifying goods and services for eligible resident Filipino senior citizens aged 60 or older, subject to statutory conditions.",
     "id": "8097"
   },
   {
